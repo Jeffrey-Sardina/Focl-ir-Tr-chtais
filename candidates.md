@@ -1,3 +1,7 @@
+# Foclóir Tráchtais
+Jeffrey Seathrún Sardina
+
+## Beginning Notes
 Guiding principles, in order
 - Gaelachas (nó, easpa Béarlachas). Many Irish terms are unnatural to Irish -- see the "Fear Fiaclach" debocle. I will attempt to make the Irish terms I use recognisable as elements of proper Irish syntax. This means, for example, a preference for genitive phrases over using one noun as a prefix to another, except in some established cases (ríomh- for example). I accept when this leads me to differ from Téarma.ie or similar.
 - Clarity of meaning. An Irish speaker who understands the general principles of computer science should be able to naturally and immediately intuit the meaning of all terms as much as possible. Secondarily, an computer scientist who knows Irish,but not these terms, should be able to naturally understand what term maps to what term in English without needed to consult a list / dictionary. 
@@ -11,6 +15,7 @@ Requirements
 ** -- ask others
 all items are listed in order
 
+## Terms
 Machine Learning
 - foghlaim na meaisíní
 - meaisínfhoghlaim
@@ -409,6 +414,7 @@ state of the art (adj)
 - ar scoth na réimse / srl
 - Teanglann (scoth)
 
+## End Notes
 Aistriúcháin chuideatheach ó Theanglann
 - To select a specimen at random, ceann as éadan a thógáil. 
 - Assume A equal to B, (i) beir leat gurb ionann A agus B; (ii) cuir i gcás gurb ionann A agus B. 
