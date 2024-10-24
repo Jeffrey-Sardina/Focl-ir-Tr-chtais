@@ -8,7 +8,7 @@ Guiding principles, in order
 Requirements
 - Clear provenance. For every term, I should have clear provenance, of the term, and evidence of similar use in native or native-like speech (i.e. Teanglann).
 
-** -- ask urthre**
+** -- ask others
 all items are listed in order
 
 Machine Learning
@@ -250,76 +250,177 @@ sigmoid (adj)
 - ó siogma (sigma) agus -óideach (-oid) ar Teanglann
 
 layer (in NN)
+- ciseal
+- téarma eolaíochta ar Teanglann (agus in Dineen) 
+
+dense layer
+- ciseal lán-cheangailte
+- ó ciseal (layer), lá- (fully), agus ceangailte (connected)
 
 dropout layer
+- ciseal nialas
+- ó ciseal (layer) agus nialas (zeroes; g.p.)
 
-function
-
-formulation (i.e. model formulation)
-
-architecture
+architecture / formulation
+- dearadh (m.sh. dearadh néarach)
+- roghnaíodh é seo seachas "ailtireacht" toisc léireachta
 
 assumption
+- foshuíomh
+- Teanglann (feallsúnacht). Ach chuile sheans gur leor "cuirtear i gcás / beirtear leis" seachas é seo.
 
 structure
+- struchtúr
+- Teanglann
+
+alignment
+- ailíniú
+- Teanglann
 
 structural alignment
+- ailíniú struchtúr
+
+coefficient
+- comhéifeacht
+- Teanglann
+
+correlation
+- comhchoibhneas
+- Teanglann
 
 loss functions
+- feidhm phionóis
+- tá "caillfheidhm" ar Téarma.ie. Ach is ionann "caill" agus rud in amú, seachas saghas "loss / penalyt" an Bhéarla. Is fearr liom chomh-chosúlacht a dhéanamh le "pionós" chun téarma nua a chruthú. Ag an am céanna, is féidir an tuiseal ginideach a úsáid seachas ainmní a chur ina rámh-fhocal. Sin le rá faidhm + pionóis -> feidhm phionóis.
 
 scoring function
+- feidhm scórála
+- le scóráil (scór a thabhairt) i gcomthéacs cluichí ar Teanglann.ie
 
 connectivity
+- cé chomh ceangailte (is atá rud, srl)
+- níl focal ann i dTeanglann ná in Dineen.
+
+dense
+- dlúth
+- Teanglann
+
+sparse
+- tearc (nó gann)
+- Teanglann
+    - Tá iasc tearc i mbliana, fish are scarce this year.
+    - Is tearc duine a casadh orm, I met very few people. 
+    - Chuir sé an síol go gann, he sowed the seed thinly. 
 
 degree
+- céim
+- úsáidte i gcásanna áirithe (cosúil leis an gcás seo) ar Teanglann
 
 frequency (of edge)
+- minicíocht
+- Teanglann
 
 co-frequency
+- comh-mhinicíocht
+- ó "comh-" agus "minicíocht"
 
 framework
+- creatlach
+- Teanglann (i gcomhthéacsanna cosúla leis an gcomhthéacs seo)
+
+hypothesis
+- hipitéis
+- Teanglann
 
 Structural Alignment Hypothesis
+- Hipitéis faoi Ailiniú Struchtúir
+- Hipitéis Ailinithe Struchtúir ? TODO
 
 Structural Alignment Framework
-
-evaluate
+- Creatlach Ailinithe Struchtúir
 
 simulation
+- insamhail
+- Teanglann
 
 unseen (hyperparameter, KG, etc)
+- neamh-fheicthe
+- ó "neamh-" (non) agus feicthe (seen)
 
 input
+- ionchur
+- Teanglann
 
 output
+- aschur
+- Teanglann
 
 sufficient
+- leor; m.sh. is leor sin chun X a dhéanamh
+- Teanglann
 
 necessary
-
-features
+- gá; m.sh is gá sin chun C a dhéanamh
+- Teanglann
 
 query
+- ceist
+- Teanglann
 
-link prediction
-- réamhinsint nasc
+link prediction (the task)
+- réamhinsint nasc (an task)
 - not in any database. However, réámhinsint (prediction) and nasc (link) both exist, and direcctly imply a term.
 
-LP query
+link prediction query
+- ceist réamhinsinte naisc
+- ní bhaineann sé ach le nasc amháin; mar sin, ginideach uatha seachas iolra anseo
 
 KG learning
+- foghlaim ar GE
+- féach ar foghlaim ar Teanglann
 
 research question
-
-mapping (structure-to-performance mapping)
+- ceist taighde (thaighde?)
+- ó "ceist" agus "taighde"
 
 label (of node, edge)
+- lipéad
+- Teaglann
 
-pipeline (learning pipeline)
+process, pipeline (learning pipeline)
+- próiseas
+- Teanglann
+
+correpondence (between multiple tings / in a maping)
+- comhfhreagairt
+- Teanglann
+
+mapping (structure-to-performance mapping)
+- mapa
+- Teanglann. Tá an téarma seo an-ghinearálta, agus mar sin bha cheart a rá gur sórt ghearrúcháin é ar "líonra comhfhreagairte" nó mar sin
 
 instantiation (of the Structural Alignment Framework)
+- TODO
 
-state of the art
+state of the art (collective noun)
+- scoth na réimse
+-  ó scoth agus réimse
+
+state of the art (adj) 
+- ar scoth na réimse / srl
+- Teanglann (scoth)
 
 Aistriúcháin chuideatheach ó Theanglann
 - To select a specimen at random, ceann as éadan a thógáil. 
+- Assume A equal to B, (i) beir leat gurb ionann A agus B; (ii) cuir i gcás gurb ionann A agus B. 
+- Rud a chur i gcomhchoibhneas (le), to correlate sth. (with). I gcomhchoibhneas le, correlative with. 
+- tearc i ndaoine, sparsely populated
+- foghlaim a dhéanamh ar rud, to learn, study, sth. 
+- lipéad a chur ar rud, to label sth. 
+- léaráid, f. (gs. léaráide, pl. léaráidí). Diagram; illustration, sketch. 
+
+Fadhbanna le téarma (neamh-iomlán)
+- Nascacht - connectivity (is ionann é agus Jointure ar Teanglann)
+- (úr)scothach mar state of the art??? scothach = tufted hair ar Teanglann
+
+TODO
+- séimhiú ar ainmní sa tuiseal ginideach théis ainmní baninscneach?
