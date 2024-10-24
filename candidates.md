@@ -399,7 +399,7 @@ mapping (structure-to-performance mapping)
 - Teanglann. Tá an téarma seo an-ghinearálta, agus mar sin bha cheart a rá gur sórt ghearrúcháin é ar "líonra comhfhreagairte" nó mar sin
 
 instantiation (of the Structural Alignment Framework)
-- TODO
+- gan focal air (úsáid frása; m.sh. roghnaíodh na hairíonna struchtúir seo chun creatlach a dhéanamh...)
 
 state of the art (collective noun)
 - scoth na réimse
