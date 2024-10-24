@@ -414,6 +414,49 @@ state of the art (adj)
 - ar scoth na réimse / srl
 - Teanglann (scoth)
 
+correlation
+- comhghaolúchán
+- Stórchiste
+
+distribution
+- dáileadh
+- Stórchiste
+
+histogram
+- histeagram
+
+median (adj)
+- meánach
+- Stóchiste
+
+learning rate
+- ráta foghlama
+- ó ráta (rate) agus foghlaim (learning) ar Teanglann
+
+batch
+- fo-thacar (traenála, srl)
+- tá "baisc" ar Téarma.ie, ach ní leir ó Teanglann go mba cheart an focal seo a úsáid sa gcomhtéacs sin. Ach, toisc gur fo-thacar chuile "batch" den tacar traenála (srl), measaim go mbeadh fo-thacar traenála / teisteála / serl ceart go leor. Agus i bhfad níos éasca a thuiscint, is dócha. Tagann "fo-" agus "tacar" as Teanglann.
+
+batch size
+- méid na bhfo-thacar (traenála, srl)
+- ó fo-thacar thuas
+
+regularise
+- tabhair chun rialtachta
+- Teanglann
+
+regulariser
+- córas rialtachta
+- ó rialtacht (regularity) ar Teanglann.
+
+optimise
+- optamaigh
+- Níl téarma dó seo ach ar Téarma.ie, a mholanns "optamaigh". Is léir gur téarma iasachta (seachas Béarlachas) atá ann. Glactar leis mar sin.
+
+optimiser
+- optamóir 
+- Níl téarma dó seo ach ar Téarma.ie, a mholanns "optamóir". Is léir gur téarma iasachta (seachas Béarlachas) atá ann. Glactar leis mar sin.
+
 ## End Notes
 Aistriúcháin chuideatheach ó Theanglann
 - To select a specimen at random, ceann as éadan a thógáil. 
@@ -423,6 +466,7 @@ Aistriúcháin chuideatheach ó Theanglann
 - foghlaim a dhéanamh ar rud, to learn, study, sth. 
 - lipéad a chur ar rud, to label sth. 
 - léaráid, f. (gs. léaráide, pl. léaráidí). Diagram; illustration, sketch. 
+- regularize, v.tr. Tugaim chun rialtachta.
 
 Fadhbanna le téarma (neamh-iomlán)
 - Nascacht - connectivity (is ionann é agus Jointure ar Teanglann)
