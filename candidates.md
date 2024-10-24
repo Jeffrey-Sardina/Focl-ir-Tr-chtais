@@ -59,13 +59,21 @@ data
 network
 - líonra (o Teanglann / Dineen and in common use in that regard)
 
-link prediction
-- réamhinsint nasc
-- not in any database. However, réámhinsint (prediction) and nasc (link) both exist, and direcctly imply a term.
-
 hyperparameter
 - hipear-pharaiméadar
 - not in any database. However, Ó Dónall as "paraiméadar" (parameter) and "hipear-", which immediately imply a term. The dash is maintained for clarity.
+
+search (verb)
+- cuardaigh
+- Teanglann
+
+search (noun)
+- cuardach
+- Teanglann
+
+hyperparameter search
+- cuardach hipear-pharaiméadar
+- toisc go bhfuil níos mó ná hipear-pharaiméadar amháin á chuardach
 
 model (ML)
 - samhail
@@ -79,14 +87,37 @@ embedding (the vector)
 - leabú
 - verbal noun go brrrr.
 
-Knowledge Graph Embedding (process)
-- TODO
+vector
+- veicteoir
+- Teanglann, leis an mbrí ceannan céanna
 
-Knowledge Graph Embeddings (vectors)
-- TODO
+latent
+- folaigh
+- from ns folach, on Teanglann with this meaning
 
-Knowledge Graph Embedding Model
-- TODO
+feature
+- airí
+- idir tréith, gná, agus airí (ar Teanglann). Is ionann tréíth agus tréith duine, nach ionann agus "feature" staitisiticiúil. Tá "gné" rud beag níos cosúla le "sórt" nó "saghas", rud a fháganns "airí" mar rogha.
+
+ontology
+- ointeolaíocht 
+- Teanglann
+
+logic
+- loighic
+- teanglann
+
+Knowledge Graph Embedding (KGE) (process)
+- Leabú Graif Eolais (LGE)
+- úsáidtear an ginideach uatha toisc leabú a bheith déanta ar ghraf amháin chuile uair
+
+Knowledge Graph Embeddings (KGEs) (vectors)
+- Leabuithe (Graif Eolais) (LGE-anna)
+- úsáidtear an ginideach uatha toisc na leabuithe a bheith ann do ghraf amháin
+
+Knowledge Graph Embedding Model (KGEM)
+- Samhail Leabaithe Graif Eolais (SLGE)
+- an bhfuil an sraith focail ginideacha sin i gceart? TODO
 
 dimension
 - toise (Ó Dónall). THis  is one of several terms that could be "dimension" in the sense here, but is the most commonly used one (see Foclóir, Téarma) and one to which I can raise no objection.
@@ -96,14 +127,137 @@ dimensionality
 - Téarma has "toiseacht"; my intuition had been "toisíocht". Neither is attested in Teanglann or Foclóir. I opt instead to note use this term. In all cases (i.e. high dimensionality) it can be expressed using toise (or its genitive).
 
 counterexample
+- frith-shampla
+- ó frith (counter) agus sample (example)
 
-plausibility score
+negative (adj; of number)
+- dhiúltach
+- Teanglann
+
+positive (adj; of number)
+- deimhneach
+- Teanglann (agus ar Foclóir chomh maith)
+
+sample (noun)
+- sample
+- Teanglann, Stórchiste
+
+sample (verb)
+- sampláil, sampla a thógáil
+- Teanglann
+
+sampler
+- samplóir 
+- Teanglann
+
+negative sampler
+- frith-shamplóir
+- as frith- agus samplóir (ar Teanglann)
+
+negative (noun; as in negative sampling)
+- frith-shampla
+- as frith- agus sampla (ar Teanglann)
+
+random
+- randamach
+- Stórchiste
+
+Random sample
+- sampla fánach
+- díreach ar Teanglann (nach ionann agus sampla randamach ar Foclóir / ar Téarma)
+
+positive (noun; not a negative sample)
+- fíor-abairt (thriarach)
+
+score
+- scór
+- Teanglann (i gcomhthéacs cluichí)
+
+plausibility
+- inchreidteacht
+- Teanglann
+
+plausibility score (nach ionann agus probability)
+- scór inchreidteachta
+- ó scór agus inchreidteacht
+
+probability
+- dóchúlacht
+- Teanglann
+
+set
+- tacar
+- Teanglann
+
+train (on the training set)
+- traenáil
+- Teanglann
+
+test (i.e. with the test set)
+- teisteáil
+- Teanglann
+
+validate (i.e. with the validation set)
+- deimhnigh
+- Teanglann
+
+training (noun; the process)
+- traenáil
+- vn of traenáil
+
+testing (noun; the process)
+- teisteáil
+- vn of traenáil
+
+validation (noun; the process)
+- deimhniú
+- vn of deimhnigh
+
+evaluate (either testing or validation)
+- measúnaigh
+- Teanglann
+
+training set
+- tacar traenála
+- ó "tacar" agus "traenáil"
+
+testing set
+- tacar teisteála
+- ó "tacar" agus "teisteáil"
+
+validation set
+- tacar deimhnithe
+- ó "tacar" agus "deimhnigh"
 
 literature (i.e. "the KGEM literature")
+- litríocht
+- Teanglann (Ó Dónaill, Foclóir G-G)
+
+neural (adj)
+- néarach
+- Teanglann
+
+neural network (NN)
+- líonra néarach
+- ó líonra agus néarach
+
+function
+- feidhm
+- Teanglann
+
+sigmoid (adj)
+- siogmóideach
+- ó siogma (sigma) agus -óideach (-oid) ar Teanglann
+
+layer (in NN)
+
+dropout layer
+
+function
 
 formulation (i.e. model formulation)
 
-hyperparameter search
+architecture
 
 assumption
 
@@ -114,8 +268,6 @@ structural alignment
 loss functions
 
 scoring function
-
-negative sampler
 
 connectivity
 
@@ -137,6 +289,8 @@ simulation
 
 unseen (hyperparameter, KG, etc)
 
+input
+
 output
 
 sufficient
@@ -146,6 +300,10 @@ necessary
 features
 
 query
+
+link prediction
+- réamhinsint nasc
+- not in any database. However, réámhinsint (prediction) and nasc (link) both exist, and direcctly imply a term.
 
 LP query
 
@@ -162,3 +320,6 @@ pipeline (learning pipeline)
 instantiation (of the Structural Alignment Framework)
 
 state of the art
+
+Aistriúcháin chuideatheach ó Theanglann
+- To select a specimen at random, ceann as éadan a thógáil. 
