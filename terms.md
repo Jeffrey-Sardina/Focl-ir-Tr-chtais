@@ -7,6 +7,10 @@
 
 **foghlaim na meaisíní: machine learning**
 
+**sainmhíniú (ga):** cur chuige matamaiticiúil a chuireann ar chumas do ríomhairí ceisteanna casta a fhreagairt.
+
+*sainmhíniú (en):* the process of using mathematical optimisation to allow computers to solve complex problems.
+
 tagairtí:
 - foghlaim: Ó Dónaill (1977), Dineen (1927)
 - meaisín: Ó Dónaill (1977)
@@ -22,6 +26,10 @@ leaganacha éagsúla:
 
 **ríomheolaíocht: computer science**
 
+**sainmhíniú (ga):** an réimse staidéar atá dírithe ar algartaim, ar bogearraí, agus ar ríomhchlárúchán.
+
+*sainmhíniú (en):* the field of study hat focusses on algorithms, software, and computer programing.
+
 tagairtí:
 - ríomheolaíocht: Ó Dónaill (1977)
 
@@ -36,6 +44,10 @@ leaganacha éagsúla:
 
 
 **xxx: xxx**
+
+**sainmhíniú (ga):** xxx.
+
+*sainmhíniú (en):* xxx.
 
 tagairtí:
 - xxx: xxx

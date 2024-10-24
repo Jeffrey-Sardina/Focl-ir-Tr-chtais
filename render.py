@@ -59,8 +59,13 @@ def render_term(term):
         render_str += bold(f"{term['term']}: {term['citation-form']}")
     else:
         render_str += bold(f"{term['citation-form']}: {term['term']}")
-
     render_str += "\n\n"
+
+    # term definitions
+    render_str += bold("sainmhíniú (ga):") + " " + term['def-ga'] + "\n"
+    render_str += "\n"
+    render_str += italics("sainmhíniú (en):") + " " + term['def-en'] + "\n"
+    render_str += "\n"
 
     # term provenance
     render_str += "tagairtí:\n"
