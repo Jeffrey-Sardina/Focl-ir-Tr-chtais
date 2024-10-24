@@ -1,0 +1,18 @@
+{
+    "term": "computer science",
+    "citation-form": "ríomheolaíocht",
+
+    "declensions": {
+        "ns": "an ríomheolaíocht mhaith",
+        "gs": "na ríomheolaíochta maithe",
+        "np": "na ríomheolaíochtaí maithe",
+        "gp": "na ríomheolaíochtaí maithe"
+    },
+
+    "prov": {
+        "ríomheolaíocht": "Ó Dónaill (1977)"
+    },
+    "notes": [
+        "Téarma díreach ar fáil i bhfoclóir iontaofa. Glactar leis."
+    ]
+}
