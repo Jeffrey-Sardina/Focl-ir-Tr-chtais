@@ -8,6 +8,7 @@ Guiding principles, in order
 - Like origin. When I must create a new term, or use an old term in a new context, I will attempt to do so using a mirrored etymology too that of the English term. For example, Subject, object and predicate are all linguistic terms in origin, even when used to discuss KGs. As such, their adopted terms in Irish should be linguistic as well, rather than drawn from alternate versions of those terms from philosophy or some other school of thought / study.
 - Simplicity (as would be understood by a native Irish speaker). Never use a more complex term when a simple one will do, and understand that loaning Eng structures (i.e. Béarlachas) is necessarily more complex than and native Irish-language structure.
 - Standard. Use of the grammar / syntax of the Caighdeán Oifigiúil, as well as (as far as possible) words published in at least on generally accepted Irish-language dictionary.
+- No new morpheme. I'm not a native speaker of Irish, so morphemes I create may not be natural. Instead, I stick to the existig morphemes of Irish in reliable sources (i.e. Teanglann, Dineen, and Stórchiste).
 
 Requirements
 - Clear provenance. For every term, I should have clear provenance, of the term, and evidence of similar use in native or native-like speech (i.e. Teanglann).
