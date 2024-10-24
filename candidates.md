@@ -3,12 +3,12 @@ Jeffrey Seathrún Sardina
 
 ## Beginning Notes
 Guiding principles, in order
-- Gaelachas (nó, easpa Béarlachas). Many Irish terms are unnatural to Irish -- see the "Fear Fiaclach" debocle. I will attempt to make the Irish terms I use recognisable as elements of proper Irish syntax. This means, for example, a preference for genitive phrases over using one noun as a prefix to another, except in some established cases (ríomh- for example). I accept when this leads me to differ from Téarma.ie or similar.
-- Clarity of meaning. An Irish speaker who understands the general principles of computer science should be able to naturally and immediately intuit the meaning of all terms as much as possible. Secondarily, an computer scientist who knows Irish,but not these terms, should be able to naturally understand what term maps to what term in English without needed to consult a list / dictionary. 
-- Like origin. When I must create a new term, or use an old term in a new context, I will attempt to do so using a mirrored etymology too that of the English term. For example, Subject, object and predicate are all linguistic terms in origin, even when used to discuss KGs. As such, their adopted terms in Irish should be linguistic as well, rather than drawn from alternate versions of those terms from philosophy or some other school of thought / study.
-- Simplicity (as would be understood by a native Irish speaker). Never use a more complex term when a simple one will do, and understand that loaning Eng structures (i.e. Béarlachas) is necessarily more complex than and native Irish-language structure.
-- Standard. Use of the grammar / syntax of the Caighdeán Oifigiúil, as well as (as far as possible) words published in at least on generally accepted Irish-language dictionary.
-- No new morpheme. I'm not a native speaker of Irish, so morphemes I create may not be natural. Instead, I stick to the existig morphemes of Irish in reliable sources (i.e. Teanglann, Dineen, and Stórchiste).
+1. Gaelachas (nó, easpa Béarlachas). Many Irish terms are unnatural to Irish -- see the "Fear Fiaclach" debacle. I will attempt to make the Irish terms I use recognisable as elements of proper Irish syntax. This means, for example, a preference for genitive phrases over using one noun as a prefix to another, except in some established cases (ríomh- for example). I accept when this leads me to differ from Téarma.ie or similar.
+2. Clarity of meaning. An Irish speaker who understands the general principles of computer science should be able to naturally and immediately intuit the meaning of all terms as much as possible. Secondarily, an computer scientist who knows Irish,but not these terms, should be able to naturally understand what term maps to what term in English without needed to consult a list / dictionary. 
+3. Like origin. When I must create a new term, or use an old term in a new context, I will attempt to do so using a mirrored etymology too that of the English term. For example, Subject, object and predicate are all linguistic terms in origin, even when used to discuss KGs. As such, their adopted terms in Irish should be linguistic as well, rather than drawn from alternate versions of those terms from philosophy or some other school of thought / study.
+4. Simplicity (as would be understood by a native Irish speaker). Never use a more complex term when a simple one will do, and understand that loaning English structures (i.e. Béarlachas) is necessarily more complex than and native Irish-language structure.
+5. Standard. Use of the grammar / syntax of the Caighdeán Oifigiúil, as well as (as far as possible) words published in at least on generally accepted Irish-language dictionary.
+6. No new morphemes. I'm not a native speaker of Irish, so morphemes I create may not be natural. Instead, I stick to the existing morphemes of Irish in reliable sources (i.e. Teanglann, Dineen, and Stórchiste).
 
 Requirements
 - Clear provenance. For every term, I should have clear provenance, of the term, and evidence of similar use in native or native-like speech (i.e. Teanglann).
@@ -31,7 +31,7 @@ Knowledge Graph, KG
 
 database
 - bunachar sonraí
-- established term in wide use. The full term only appears on Téarma / Foclóir, but I see no reason to object to its construction in this manner. Bunachar (base) has been used for inforomation / data / etc for a while, so I amhappy to accept it in particular as well.
+- established term in wide use. The full term only appears on Téarma / Foclóir, but I see no reason to object to its construction in this manner. Bunachar (base) has been used for information / data / etc for a while, so I amhappy to accept it in particular as well.
 
 subject
 - Ainmní
@@ -47,7 +47,7 @@ predicate
 
 triple
 - Abairt thriarach
-- Triarach is listed as a noun on Téarma, as well as an adj. This is attested in Dineen as "of or belonging to three persons or things" as an ajd. Teanglann lists it as an adjective only. I therefore reject it as a substantive term. Instead, using again the triple = sentence analogy, I translate this as a "statement of three parts", or "abairt thriarach". I beleive that that may be acceptable to simplify to "abairt" where context is clear.
+- Triarach is listed as a noun on Téarma, as well as an adj. This is attested in Dineen as "of or belonging to three persons or things" as an adj. Teanglann lists it as an adjective only. I therefore reject it as a substantive term. Instead, using again the triple = sentence analogy, I translate this as a "statement of three parts", or "abairt thriarach". I believe that that may be acceptable to simplify to "abairt" where context is clear.
 
 relation, edge **
 - ceangal.
@@ -67,7 +67,7 @@ network
 
 hyperparameter
 - hipear-pharaiméadar
-- not in any database. However, Ó Dónall as "paraiméadar" (parameter) and "hipear-", which immediately imply a term. The dash is maintained for clarity.
+- not in any database. However, Ó Dónaill as "paraiméadar" (parameter) and "hipear-", which immediately imply a term. The dash is maintained for clarity.
 
 search (verb)
 - cuardaigh
@@ -130,7 +130,7 @@ dimension
 
 dimensionality
 - none (use a phrase with toise)
-- Téarma has "toiseacht"; my intuition had been "toisíocht". Neither is attested in Teanglann or Foclóir. I opt instead to note use this term. In all cases (i.e. high dimensionality) it can be expressed using toise (or its genitive).
+- Téarma has "toiseacht"; my intuition had been "toisíocht". Neither is attested in Teanglann or Foclóir. I opt instead to not use this term. In all cases (i.e. high dimensionality) it can be expressed using toise (or its genitive).
 
 counterexample
 - frith-shampla
