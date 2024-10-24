@@ -450,12 +450,12 @@ regulariser
 - ó rialtacht (regularity) ar Teanglann.
 
 optimise
-- optamaigh
-- Níl téarma dó seo ach ar Téarma.ie, a mholanns "optamaigh". Is léir gur téarma iasachta (seachas Béarlachas) atá ann. Glactar leis mar sin.
+- feabhsaigh
+- Molann Téarma.ie optamaigh. Ach tá "feabhsaigh" i dTeanglann (a bhfuil an bhrí chéanna leis, agus a bheadh i bhfad níos intuigthe ag lucht na Gaeilge). Glactar leis sin dá bharr sin.
 
 optimiser
-- optamóir 
-- Níl téarma dó seo ach ar Téarma.ie, a mholanns "optamóir". Is léir gur téarma iasachta (seachas Béarlachas) atá ann. Glactar leis mar sin.
+- córas feabhsaithe 
+- ó "feabhsaigh"
 
 ## End Notes
 Aistriúcháin chuideatheach ó Theanglann
