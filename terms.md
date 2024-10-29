@@ -54,7 +54,7 @@ tagairtí:
 
 nótaí aistriúcháin:
 - \* cé go bhfuil 'graf' istigh san Fhoclóir Beag, is i gcomhthéacs graif líne amháin a luaitear é.
-- Níl aistriúchán déanta ar an téarma seo cheana go bhfios don údár (fiú ar Téarma.ie). Cumtar téarma nua mar sin, as 'graf' agus 'eolas' mar a chumadh i mBéarla é.
+- Níl aistriúchán déanta ar an téarma seo cheana go bhfios don údár (fiú ar Téarma.ie). Cumtar téarma nua mar sin, as 'graf' agus as 'eolas' mar a chumadh i mBéarla é.
 
 
 **machine learning: foghlaim na meaisíní**

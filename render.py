@@ -139,7 +139,7 @@ def render_table(terms):
             render_str += f"|{'-'*(1+longest_en)}|{'-'*(1+longest_ga)}|\n"
         else:
             render_str = f"| {ga_col}| {en_col}|\n"
-            render_str += f"|{'-'*longest_ga}|{'-'*longest_en}|\n"
+            render_str += f"|{'-'*(1+longest_ga)}|{'-'*(1+longest_en)}|\n"
         for term_id in terms:
             term = terms[term_id]
             en_col = term['term'].ljust(longest_en)
@@ -152,9 +152,13 @@ def render_table(terms):
     return render_str
 
 if __name__ == '__main__':
-    MODE = sys.argv[1]
-    REVERSE = sys.argv[2] == '1'
-    assert MODE in ("latex", "markdown"), f"mode must be 'latex' or 'markdown' but is {MODE}"
+    if '-md' in sys.argv:
+        MODE = 'markdown'
+    elif '-tex' in sys.argv:
+        MODE = 'latex'
+    else: #default to latex
+        MODE = 'latex'
+    REVERSE = '-rev' in sys.argv
 
     terms = load_terms()
     table_str = render_table(terms)
