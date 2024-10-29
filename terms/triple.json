@@ -1,0 +1,14 @@
+{
+    "term": "triple",
+    "citation-form": "abairt thriarach",
+    "def-en": "a three-part statement $s,p,o$ that acts as the basic unit of knowledge in a knowledge graph.",
+    "def-ga": "abairt trí choda $(a,f,c)$ atá mar aonad eolais bunúsach i ngraf eolais.",
+
+    "prov": {
+        "abairt": "de-bhaldraithe, dineen, focloir-beag, odonaill",
+        "triarach": "de-bhaldraithe, dineen, odonaill"
+    },
+    "notes": [
+        "Cé go bhfuil an focal 'triarach' ar Téarma.ie leis an mbrí chéanna (nach mór) \\cite{tearmaie}, ní ghlacfar leis sin toisc nach bhfuil fianaise ar bith ann sna foclóirí iontaofa gur féidir 'triarach' a úsáid mar ainmfocal. Sna foclóirí eile sin, ní luaitear é ach mar aidiacht. Mar sin, úsáidtear mar aidiacht amháin anseo é."
+    ]
+}

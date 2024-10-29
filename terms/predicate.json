@@ -1,8 +1,8 @@
 {
     "term": "predicate",
     "citation-form": "faisnéis",
-    "def-en": "in a triple $(s,p,o)$, the predicate $p$ that connects the subject $s$ to the object $o$",
-    "def-ga": "in abairt thriarach $(a,f,c)$, an ceangal $c$ a cheanglaíonn an t-ainmní $a$ leis an gcuspóir $c$",
+    "def-en": "in a triple $(s,p,o)$, the predicate $p$ that connects the subject $s$ to the object $o$.",
+    "def-ga": "in abairt thriarach $(a,f,c)$, an ceangal $c$ a cheanglaíonn an t-ainmní $a$ leis an gcuspóir $c$.",
 
     "prov": {
         "cuspóir": "de-bhaldraithe, dineen, focloir-beag, odonaill"

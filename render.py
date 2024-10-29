@@ -36,6 +36,7 @@ def unordered_list(render_strs):
         list_str += "\\end{itemize}\n"
     else:
         for render_str in render_strs:
+            render_str = render_str.replace('*', '\\*')
             list_str += f"- {render_str}\n"
     return list_str
 
@@ -48,6 +49,7 @@ def ordered_list(render_strs):
         list_str += "\\end{enumerate}\n"
     else:
         for i, render_str in enumerate(render_strs):
+            render_str = render_str.replace('*', '\\*')
             list_str += f"{i}. {render_str}\n"
     return list_str
 
@@ -62,7 +64,7 @@ def render_term(term):
     render_str += "\n\n"
 
     # term definitions
-    render_str += bold("sainmhíniú (ga):") + " " + term['def-ga'] + "\n"
+    render_str += italics("sainmhíniú (ga):") + " " + term['def-ga'] + "\n"
     render_str += "\n"
     render_str += italics("sainmhíniú (en):") + " " + term['def-en'] + "\n"
     render_str += "\n"
@@ -128,29 +130,31 @@ def render_table(terms):
                 longest_en = len(term['term'])
             if len(term['citation-form']) > longest_ga:
                 longest_ga = len(term['citation-form'])
+        longest_en += 1 # extra spacing around the term to makeit easuier to read in source
+        longest_ga += 1 # extra spacing around the term to makeit easuier to read in source
         en_col = "**Béarla**".ljust(longest_en)
         ga_col = "**Gaeilge**".ljust(longest_ga)
         if not REVERSE:
-            render_str = f"|{en_col}|{ga_col}|\n"
-            render_str += f"|{'-'*longest_en}|{'-'*longest_ga}|\n"
+            render_str = f"| {en_col}| {ga_col}|\n"
+            render_str += f"|{'-'*(1+longest_en)}|{'-'*(1+longest_ga)}|\n"
         else:
-            render_str = f"|{ga_col}|{en_col}|\n"
+            render_str = f"| {ga_col}| {en_col}|\n"
             render_str += f"|{'-'*longest_ga}|{'-'*longest_en}|\n"
         for term_id in terms:
             term = terms[term_id]
             en_col = term['term'].ljust(longest_en)
             ga_col = term['citation-form'].ljust(longest_ga)
             if not REVERSE:
-                render_str += f"|{en_col}|{ga_col}|\n"
+                render_str += f"| {en_col}| {ga_col}|\n"
             else:
-                render_str += f"|{ga_col}|{en_col}|\n"
+                render_str += f"| {ga_col}| {en_col}|\n"
     render_str += "\n"
     return render_str
 
 if __name__ == '__main__':
     MODE = sys.argv[1]
     REVERSE = sys.argv[2] == '1'
-    assert MODE in ("latex", "markdown"), f"mode must be latex or maskdown but is {MODE}"
+    assert MODE in ("latex", "markdown"), f"mode must be 'latex' or 'markdown' but is {MODE}"
 
     terms = load_terms()
     table_str = render_table(terms)
