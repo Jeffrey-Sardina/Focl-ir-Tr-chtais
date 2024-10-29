@@ -3,7 +3,7 @@ Jeffrey Seathrún Sardina
 
 ## Beginning Notes
 Guiding principles, in order
-1. Gaelachas (nó, easpa Béarlachas). Many Irish terms are unnatural to Irish -- see the "Fear Fiaclach" debacle. I will attempt to make the Irish terms I use recognisable as elements of proper Irish syntax. This means, for example, a preference for genitive phrases over using one noun as a prefix to another, except in some established cases (ríomh- for example). I accept when this leads me to differ from Téarma.ie or similar.
+1. Gaelachas (nó, easpa Béarlachais). Many Irish terms are unnatural to Irish -- see the "Fear Fiaclach" debacle. I will attempt to make the Irish terms I use recognisable as elements of proper Irish syntax. This means, for example, a preference for genitive phrases over using one noun as a prefix to another, except in some established cases. I accept when this leads me to differ from Téarma.ie or similar.
 2. Clarity of meaning. An Irish speaker who understands the general principles of computer science should be able to naturally and immediately intuit the meaning of all terms as much as possible. Secondarily, an computer scientist who knows Irish,but not these terms, should be able to naturally understand what term maps to what term in English without needed to consult a list / dictionary. 
 3. Like origin. When I must create a new term, or use an old term in a new context, I will attempt to do so using a mirrored etymology too that of the English term. For example, Subject, object and predicate are all linguistic terms in origin, even when used to discuss KGs. As such, their adopted terms in Irish should be linguistic as well, rather than drawn from alternate versions of those terms from philosophy or some other school of thought / study.
 4. Simplicity (as would be understood by a native Irish speaker). Never use a more complex term when a simple one will do, and understand that loaning English structures (i.e. Béarlachas) is necessarily more complex than and native Irish-language structure.
@@ -53,8 +53,12 @@ triple
 - Triarach is listed as a noun on Téarma, as well as an adj. This is attested in Dineen as "of or belonging to three persons or things" as an adj. Teanglann lists it as an adjective only. I therefore reject it as a substantive term. Instead, using again the triple = sentence analogy, I translate this as a "statement of three parts", or "abairt thriarach". I believe that that may be acceptable to simplify to "abairt" where context is clear.
 
 directed
-- díithe
+- dírithe
 - Teanglann
+
+labelled
+- le lipéad
+- src: TODO
 
 relation, edge **
 - ceangal.

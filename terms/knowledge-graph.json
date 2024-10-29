@@ -1,5 +1,6 @@
 {
     "term": "knowledge graph (KG)",
+    "part-of-speech": "ainmfhocal",
     "citation-form": "graf eolais (GE)",
     "def-en": "A database consisting of labelled nodes representing concepts and directed, labelled edges describing the relationships between them.",
     "def-ga": "Bunachar sonraí a shamhlaíonn eolas mar nóid agus na ceangail eatarthu. Bíonn lipéad ar chuile nód / ceangal, agus bíonn chuile cheangal dírithe.",
@@ -10,6 +11,6 @@
     },
     "notes": [
         "* cé go bhfuil 'graf' istigh san Fhoclóir Beag, is i gcomhthéacs graif líne amháin a luaitear é.",
-        "Níl aistriúchán déanta ar an téarma seo cheana go bhfios don údár (fiú ar Téarma.ie). Cumtar téarma nua mar sin, as 'graf' agus as 'eolas' mar a chumadh i mBéarla é."
+        "Níl aistriúchán déanta ar an téarma seo cheana go bhfios don údár (fiú ar Téarma.ie). Cumtar téarma nua mar sin, as 'graf' agus as 'eolas' mar a cumadh i mBéarla é."
     ]
 }

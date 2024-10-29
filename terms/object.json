@@ -1,5 +1,6 @@
 {
     "term": "object",
+    "part-of-speech": "ainmfhocal",
     "citation-form": "cuspóir",
     "def-en": "in a triple $(s,p,o)$, the final node $o$ that acts as the tail of the relationship $p$.",
     "def-ga": "in abairt thriarach $(a,f,c)$, an nód deireanach $c$ atá mar sprioc ag an gceangal $f$.",

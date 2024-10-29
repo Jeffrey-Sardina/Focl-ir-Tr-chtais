@@ -1,5 +1,6 @@
 {
     "term": "transfer learning",
+    "part-of-speech": "ainmfhocal",
     "citation-form": "tras-fhoghlaim",
     "def-en": "the practice of fine-training a prexisting (pre-trained) machine learning model to produce a new model that solves a diffrent task related to the one the pretrained model could solve.",
     "def-ga": "úsáid cur chuige mion-feabhsaithe chun cur ar chumas shamhlach fhoghlama atá ann cheana (.i. atá réamh-thraenáilte) tasc nua a dhéanamh atá gaolmhar le tasc na bun-samhlach.",

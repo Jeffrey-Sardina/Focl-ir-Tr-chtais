@@ -58,13 +58,13 @@ def render_term(term):
 
     # term translation
     if not REVERSE:
-        render_str += bold(f"{term['term']}: {term['citation-form']}")
+        render_str += bold(f"{term['term']} ({term['part-of-speech']}): {term['citation-form']}")
     else:
-        render_str += bold(f"{term['citation-form']}: {term['term']}")
-    render_str += "\n\n"
+        render_str += bold(f"{term['citation-form']} ({term['part-of-speech']}): {term['term']}")
+    render_str += "<br>\n"
 
     # term definitions
-    render_str += italics("sainmhíniú (ga):") + " " + term['def-ga'] + "\n"
+    render_str += italics("sainmhíniú (ga):") + " " + term['def-ga'] + "<br>"
     render_str += "\n"
     render_str += italics("sainmhíniú (en):") + " " + term['def-en'] + "\n"
     render_str += "\n"
@@ -152,6 +152,7 @@ def render_table(terms):
     return render_str
 
 if __name__ == '__main__':
+    assert not ('-md' in sys.argv and '-tex' in sys.argv), "only one mode can be set"
     if '-md' in sys.argv:
         MODE = 'markdown'
     elif '-tex' in sys.argv:

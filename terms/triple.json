@@ -1,5 +1,6 @@
 {
     "term": "triple",
+    "part-of-speech": "ainmfhocal",
     "citation-form": "abairt thriarach",
     "def-en": "a three-part statement $s,p,o$ that acts as the basic unit of knowledge in a knowledge graph.",
     "def-ga": "abairt trí choda $(a,f,c)$ atá mar aonad eolais bunúsach i ngraf eolais.",
