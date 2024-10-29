@@ -1,0 +1,17 @@
+{
+    "term": "database",
+    "citation-form": "bunachar sonraí",
+    "def-en": "a collection of data on a computer with a strict logical structure.",
+    "def-ga": "bailliúchán sonraí ar ríomhaire a bhfuil struchtú loighciúil righin leis.",
+
+    "prov": {
+        "bunachar sonraí": "omianain, tearmaie",
+        "bunachar": "dineen, odonaill",
+        "sonra": "de-bhaldraithe, dineen, focloir-beag*, odonaill"
+    },
+    "notes": [
+        "*tugtar anseo leagan iolra den téarma seo, cé nach bhfuil leagan iolra den fhocal 'bunachar' luaite i bhFoclóir Uí Dhónaill.",
+        "Tá 'bunachar sonraí' ar fáil mar aistriúchán ar 'database' ar Foclóir.ie \\cite{omianain} agus ar Téárma.ie \\cite{tearmaie}, ach níl i bhfoclóir ar bith eiel a úsáidtear sa tráchtas seo (.i. Ó Dónall, Ua Duinnín, srl). Sin ráite, tá idir 'bunachar' agus 'sonra' ar fáil i go leor foclóirí eile, agus níl fianaise ar bith ann go mbeadh an téarma 'bunachar sonraí' mí-nádurtha dá bharr sin. Móide sin, níl cúis ar bith téarma eile le brí gaolmhar (m.sh. 'foras sonraí') a chumadh nua atá téárma cuí ann cheana féin. Glactar le 'bunachar sonraí' mar sin.",
+        "Úsáidtear 'sonraí' san uimhir iolra toisc go bhfuil níos mó ná snora amháin i nach uile bunachar sonraí (nach mór)."
+    ]
+}

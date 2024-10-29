@@ -13,6 +13,9 @@ Guiding principles, in order
 Requirements
 - Clear provenance. For every term, I should have clear provenance, of the term, and evidence of similar use in native or native-like speech (i.e. Teanglann).
 
+Cur Chuige chun Téarmaí a Roghnú
+- Fianaise. Fianaise d'úsáid an téarma in ar a laghad foinse iontaofa amháin as Fóclóir Uí Dhuinnín, Fóclóir Uí Dhónaill, agus Stórchiste. Níor úsáideadh téarma as 
+
 ** -- ask others
 all items are listed in order
 
@@ -48,6 +51,10 @@ predicate
 triple
 - Abairt thriarach
 - Triarach is listed as a noun on Téarma, as well as an adj. This is attested in Dineen as "of or belonging to three persons or things" as an adj. Teanglann lists it as an adjective only. I therefore reject it as a substantive term. Instead, using again the triple = sentence analogy, I translate this as a "statement of three parts", or "abairt thriarach". I believe that that may be acceptable to simplify to "abairt" where context is clear.
+
+directed
+- díithe
+- Teanglann
 
 relation, edge **
 - ceangal.
@@ -458,6 +465,21 @@ optimiser
 - córas feabhsaithe 
 - ó "feabhsaigh"
 
+pretrain
+- réamh-thraenáil
+- ó Teanglann (réamh 7 traenáil)
+
+finetune
+- mion-fheabhsú
+- ó mion- agus feabhsú (Teanglann)
+
+epoch
+- timthriall ("cycle" mata i dTeanglann; "circuit" in Dineen)
+
+few-shot / n-shot / 0-shot
+- cúpla-triail, n-triail, 0-triail ??
+- as "triail" san úsáid thuas (Teanglann)
+
 ## End Notes
 Aistriúcháin chuideatheach ó Theanglann
 - To select a specimen at random, ceann as éadan a thógáil. 
@@ -475,3 +497,4 @@ Fadhbanna le téarma (neamh-iomlán)
 
 TODO
 - séimhiú ar ainmní sa tuiseal ginideach théis ainmní baninscneach?
+    - féach ar 10.2.7 sa gCaighdeán (lth 175). An chuid is tábhachtaí ná: "Ní shéimhítear an dara hainmfhocal má tá an dara hainmfhocal, atá sa ghinideach, cáilithe le hainmfhocal eile nó le haidiacht, e.g., oíche gaoithe móire; bileog páipéir dúigh; gloine beorach fuaraithe:"

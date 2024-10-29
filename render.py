@@ -70,7 +70,22 @@ def render_term(term):
     # term provenance
     render_str += "tagairtí:\n"
     prov_list = [f"{key}: {term['prov'][key]}" for key in term["prov"]]
-    render_str += unordered_list(prov_list)
+    prov_list_citations = []
+    for item in prov_list:
+        if MODE == 'latex':
+            item = item.replace("de-bhaldraithe", "De Bhaldraithe (1978) \\cite{de-bhaldraithe}")
+            item = item.replace("dineen", "Dineen (1934) \\cite{dineen}")
+            item = item.replace("focloir-beag", "Ó Dónaill et al. (1991) \\cite{focloir-beag}")
+            item = item.replace("odonaill", "Ó Dónaill (1977) \\cite{odonaill}")
+            item = item.replace("storchiste", "Williams et al. (2023) \\cite{storchiste}")
+        else:
+            item = item.replace("de-bhaldraithe", "De Bhaldraithe (1978)")
+            item = item.replace("dineen", "Dineen (1934)")
+            item = item.replace("focloir-beag", "Ó Dónaill et al. (1991)")
+            item = item.replace("odonaill", "Ó Dónaill (1977)")
+            item = item.replace("storchiste", "Williams et al. (2023)")
+        prov_list_citations.append(item)
+    render_str += unordered_list(prov_list_citations)
     render_str += "\n"
 
     # term notes

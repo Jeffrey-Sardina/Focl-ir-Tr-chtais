@@ -10,11 +10,11 @@
     },
     
     "prov": {
-        "foghlaim": "Ó Dónaill (1977), Dineen (1927)",
-        "meaisín": "Ó Dónaill (1977)"
+        "foghlaim": "de-bhaldraithe, dineen, focloir-beag, odonaill",
+        "meaisín": "de-bhaldraithe, focloir-beag, odonaill"
     },
     "notes": [
-        "Ní ghlactar le haistriúchán Téarma.ie (*meaisínfhoghlaim) toisc é a bheith ag úsáid comh-fhocal chun dhá ainmní a chur le chéile seachas an tuiseal ginideach (atá níos nádúrtha don Ghaeilge).",
-        "Úsáidtear 'na' ann toisc gur foghlaim í seo atá déanta ar mheaisíní i gcoitinne, seachas ar mheaisín(í) anaithnid(e). Féarch ar alt alt 1.15.(l) den Chaighdéan Oifigiúil le haghaidh tuilleadh eolais."
+        "Ní ghlactar le haistriúchán Téarma.ie (*meaisínfhoghlaim) toisc é a bheith ag úsáid comh-fhocal chun dhá ainmfhocal a chur le chéile seachas an tuiseal ginideach (atá níos nádúrtha don Ghaeilge).",
+        "Úsáidtear 'na' ann toisc gur foghlaim í seo atá déanta ar mheaisíní i gcoitinne, seachas ar mheaisín(í) anaithnid(e). Féarch ar alt alt 1.15.(l) den Chaighdéan Oifigiúil \\cite{caighdean} le haghaidh tuilleadh eolais."
     ]
 }
