@@ -1,0 +1,13 @@
+{
+    "term": "object",
+    "citation-form": "cuspóir",
+    "def-en": "in a triple $(s,p,o)$, the final node $o$ that acts as the tail of the relationship $p$.",
+    "def-ga": "in abairt thriarach $(a,f,c)$, an nód deireanach $c$ atá mar sprioc ag an gceangal $f$.",
+
+    "prov": {
+        "cuspóir": "de-bhaldraithe, dineen, focloir-beag, odonaill"
+    },
+    "notes": [
+        "I mBéarla, samhlaítear abairtí triaracha mar abairtí teangeolaíochta le hainmnú, le faisnéis, agus le cuspóir. Glactar leis an analach chéanna i nGaeilge."
+    ]
+}
