@@ -4,11 +4,6 @@
     "def-en": "the process of using mathematical optimisation to allow computers to solve complex problems.",
     "def-ga": "cur chuige matamaiticiúil a chuireann ar chumas do ríomhairí ceisteanna casta a fhreagairt.",
 
-    "declensions": {
-        "ns": "foghlaim éifeachtach na meaisíní",
-        "gs": "foghlama éifeachtaí na meaisíní"
-    },
-    
     "prov": {
         "foghlaim": "de-bhaldraithe, dineen, focloir-beag, odonaill",
         "meaisín": "de-bhaldraithe, focloir-beag, odonaill"

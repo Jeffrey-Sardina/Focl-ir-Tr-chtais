@@ -92,12 +92,6 @@ def render_term(term):
     render_str += "nótaí aistriúcháin:\n"
     render_str += unordered_list(term["notes"])
     render_str += "\n"
-    
-    # declension paradigm
-    render_str += "leaganacha éagsúla:\n"
-    dec_list = [f"{key}: {term['declensions'][key]}" for key in term["declensions"]]
-    render_str += unordered_list(dec_list)
-    render_str += "\n"
 
     return render_str
 

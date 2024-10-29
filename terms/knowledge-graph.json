@@ -4,13 +4,6 @@
     "def-en": "A database consisting of labelled nodes representing concepts and directed, labelled edges describing the relationships between them.",
     "def-ga": "Bunachar sonraí a shamhlaíonn eolas mar nóid agus na ceangail eatarthu. Bíonn lipéad ar chuile nód / ceangal, agus bíonn chuile cheangal dírithe.",
 
-    "declensions": {
-        "ns": "an graf eolais mór",
-        "gs": "an ghraif eolais mhór",
-        "np": "na graif eolais mhóra",
-        "gp": "na ngraf eolais mór"
-    },
-
     "prov": {
         "graf": "de-bhaldraithe, focloir-beag*, odonaill",
         "eolas": "de-bhaldraithe, dineen, focloir-beag*, odonaill"
