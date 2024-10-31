@@ -80,14 +80,6 @@ hyperparameter
 - hipear-pharaiméadar
 - not in any database. However, Ó Dónaill as "paraiméadar" (parameter) and "hipear-", which immediately imply a term. The dash is maintained for clarity.
 
-search (verb)
-- cuardaigh
-- Teanglann
-
-search (noun)
-- cuardach
-- Teanglann
-
 hyperparameter search
 - cuardach hipear-pharaiméadar
 - toisc go bhfuil níos mó ná hipear-pharaiméadar amháin á chuardach

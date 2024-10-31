@@ -1,0 +1,14 @@
+{
+    "term": "network",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "líonra",
+    "def-en": "a set of nodes and the connections between them.",
+    "def-ga": "tacar nód agus na gceangal eatarthu.",
+
+    "prov": {
+        "xxx": "de-bhaldraithe, dineen, focloir-beag, odonaill"
+    },
+    "notes": [
+        "Téarma la fáil go díreach sna foclóirí."
+    ]
+}

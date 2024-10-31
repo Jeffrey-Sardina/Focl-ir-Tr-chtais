@@ -1,0 +1,15 @@
+{
+    "term": "hyperparameter search",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "cuardach hipear-pharaiméadar",
+    "def-en": "the approach used to find the optimal hyperparameters for a machine learnig model.",
+    "def-ga": "an cur chuige a úsíadtear chun na hipear-pharaiméadair is fearr a fháil do shamhail fhoghlama.",
+
+    "prov": {
+        "cuardach": "de-bhaldraithe, dineen, focloir-beag, odonaill",
+        "hipear-pharaiméadar": "féach ar an téarma 'hipear-pharaiméadar'"
+    },
+    "notes": [
+        "Féach ar nótaí ar an téarma 'hipear-pharaiméadar'"
+    ]
+}

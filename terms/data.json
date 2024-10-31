@@ -1,0 +1,14 @@
+{
+    "term": "data",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "sonraí",
+    "def-en": "a quantitative or qualitative description of something.",
+    "def-ga": "léiriú cainníochtúil nó cineálach ar rud.",
+
+    "prov": {
+        "sonraí": "de-bhaldraithe, dineen, focloir-beag, odonaill"
+    },
+    "notes": [
+        "Úsáidtear an leagan iolra de gnáth, toisc gur anamh ar fad a bhíonn trácht ar sonra amháin, ach ar thacar sonraí."
+    ]
+}

@@ -1,14 +1,17 @@
 | **Béarla**           | **Gaeilge**          |
 |----------------------|----------------------|
 | computer science     | ríomheolaíocht       |
+| data                 | sonraí               |
 | database             | bunachar sonraí      |
 | directed             | dírithe              |
 | edge                 | ceangal              |
 | knowledge graph (KG) | graf eolais (GE)     |
 | labelled             | le lipéad            |
 | machine learning     | foghlaim na meaisíní |
+| node                 | nód                  |
 | object               | cuspóir              |
 | predicate            | faisnéis             |
+| relation(ship)       | ceangal              |
 | subject              | ainmní               |
 | transfer learning    | tras-fhoghlaim       |
 | triple               | abairt thriarach     |
@@ -24,6 +27,17 @@ tagairtí:
 
 nótaí aistriúcháin:
 - Téarma iomlán ar fáil i bhfoclóir iontaofa. Glactar leis.
+
+
+**data (ainmfhocal): sonraí**<br>
+*sainmhíniú (ga):* léiriú cainníochtúil nó cineálach ar rud.<br>
+*sainmhíniú (en):* a quantitative or qualitative description of something.
+
+tagairtí:
+- sonraí: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
+
+nótaí aistriúcháin:
+- Úsáidtear an leagan iolra de gnáth, toisc gur anamh ar fad a bhíonn trácht ar sonra amháin, ach ar thacar sonraí.
 
 
 **database (ainmfhocal): bunachar sonraí**<br>
@@ -53,14 +67,15 @@ nótaí aistriúcháin:
 
 
 **edge (ainmfhocal): ceangal**<br>
-*sainmhíniú (ga):* an element of a graph that serves to connect two nodes.<br>
-*sainmhíniú (en):* cuid de ghraf a nascann (nó a cheanglaíonn) dhá nód le chéile.
+*sainmhíniú (ga):* cuid de ghraf a nascann (nó a cheanglaíonn) dhá nód le chéile.<br>
+*sainmhíniú (en):* an element of a graph that serves to connect two nodes.
 
 tagairtí:
 - ceangal: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
 
 nótaí aistriúcháin:
 - Is mar thagairt d'fheistiú (le rópa) a úsáidtear an téarma seo den chuid is mó sna foclóirí. Sin ráite, is féidir a rá chomh maith go bhfuil dhá nód a bhfuil ceangal eararthub 'feistithe' lena chéile, sa chaoi nach measann an úsar gur bac ar bith é sin ar úsáid an fhocail 'ceangal' leis an mbrí nua seo.
+- Seo an téarma céanna is a úsáidtear chun 'relation(ship)' a chur in iúl, toisc go bhfuil an bhrí chéanna leis.
 
 
 **knowledge graph (KG) (ainmfhocal): graf eolais (GE)**<br>
@@ -101,6 +116,17 @@ nótaí aistriúcháin:
 - Úsáidtear 'na' ann toisc gur foghlaim í seo atá déanta ar mheaisíní i gcoitinne, seachas ar mheaisín(í) anaithnid(e). Féarch ar alt alt 1.15.(l) den Chaighdéan Oifigiúil \cite{caighdean} le haghaidh tuilleadh eolais.
 
 
+**node (ainmfhocal): nód**<br>
+*sainmhíniú (ga):* cuid de ghraf a chuireanns coincheap, bí, nó ainmfhocal in iúl.<br>
+*sainmhíniú (en):* an element of a graph that represents a concept, being, or noun.
+
+tagairtí:
+- xxx: De Bhaldraithe (1978), Dineen (1934)\*, Ó Dónaill et al. (1991)\*, Ó Dónaill (1977)
+
+nótaí aistriúcháin:
+- \* Sna foclóirí seo, déantar tagairt don fhocal 'nód' mar nód i bplandaí (amháin) gan trácht ar comhthéacs níos leithne.
+
+
 **object (ainmfhocal): cuspóir**<br>
 *sainmhíniú (ga):* in abairt thriarach $(a,f,c)$, an nód deireanach $c$ atá mar sprioc ag an gceangal $f$.<br>
 *sainmhíniú (en):* in a triple $(s,p,o)$, the final node $o$ that acts as the tail of the relationship $p$.
@@ -121,6 +147,18 @@ tagairtí:
 
 nótaí aistriúcháin:
 - I mBéarla, samhlaítear abairtí triaracha mar abairtí teangeolaíochta le hainmnú, le faisnéis, agus le cuspóir. Glactar leis an analach chéanna i nGaeilge.
+
+
+**relation(ship) (ainmfhocal): ceangal**<br>
+*sainmhíniú (ga):* cuid de ghraf a nascann (nó a cheanglaíonn) dhá nód le chéile.<br>
+*sainmhíniú (en):* an element of a graph that serves to connect two nodes.
+
+tagairtí:
+- ceangal: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
+
+nótaí aistriúcháin:
+- Is mar thagairt d'fheistiú (le rópa) a úsáidtear an téarma seo den chuid is mó sna foclóirí. Sin ráite, is féidir a rá chomh maith go bhfuil dhá nód a bhfuil ceangal eararthub 'feistithe' lena chéile, sa chaoi nach measann an úsar gur bac ar bith é sin ar úsáid an fhocail 'ceangal' leis an mbrí nua seo.
+- Seo an téarma céanna is a úsáidtear chun 'edge' a chur in iúl, toisc go bhfuil an bhrí chéanna leis.
 
 
 **subject (ainmfhocal): ainmní**<br>
