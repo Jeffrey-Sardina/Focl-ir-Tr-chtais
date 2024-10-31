@@ -8,7 +8,7 @@ def load_terms():
     for term_file in term_files:
         with open(term_file, 'r') as inp:
             term = json.load(inp)
-            if not REVERSE:
+            if not INDEX_GAEILGE:
                 terms[term['term']] = term
             else:
                 terms[term['citation-form']] = term
@@ -57,7 +57,7 @@ def render_term(term):
     render_str = ""
 
     # term translation
-    if not REVERSE:
+    if not INDEX_GAEILGE:
         render_str += bold(f"{term['term']} ({term['part-of-speech']}): {term['citation-form']}")
     else:
         render_str += bold(f"{term['citation-form']} ({term['part-of-speech']}): {term['term']}")
@@ -103,18 +103,18 @@ def render_table(terms):
         render_str += "\t\\centering\n"
         render_str += "\t\\begin{tabular}{|l|l|}\n"
         render_str += "\t\\hline\n"
-        if not REVERSE:
+        if not INDEX_GAEILGE:
             render_str += "\t\t\\textbf{Béarla} & \\textbf{Gaeilge}\n"
         else:
             render_str += "\t\t\\textbf{Gaeilge} & \\textbf{Béarla}\n"
         for term_id in terms:
             term = terms[term_id]
-            if not REVERSE:
+            if not INDEX_GAEILGE:
                 render_str += "\t\t" + bold(term['term']) + "&" + bold(term['citation-form']) + "\n"
             else:
                 render_str += "\t\t" + bold(term['citation-form']) + "&" + bold(term['term']) + "\n"
         render_str += "\t\\end{tabular}\n"
-        if not REVERSE:
+        if not INDEX_GAEILGE:
             render_str += "\\caption{Liosta na dtéarma Béarla ar fad agus a leagan Gaeilge, cuirtear in ord de réir na dtéarma Béarla.}\n"
             render_str += "\\label{tab-terms-en-ga}\n"
         else:
@@ -134,7 +134,7 @@ def render_table(terms):
         longest_ga += 1 # extra spacing around the term to makeit easuier to read in source
         en_col = "**Béarla**".ljust(longest_en)
         ga_col = "**Gaeilge**".ljust(longest_ga)
-        if not REVERSE:
+        if not INDEX_GAEILGE:
             render_str = f"| {en_col}| {ga_col}|\n"
             render_str += f"|{'-'*(1+longest_en)}|{'-'*(1+longest_ga)}|\n"
         else:
@@ -144,7 +144,7 @@ def render_table(terms):
             term = terms[term_id]
             en_col = term['term'].ljust(longest_en)
             ga_col = term['citation-form'].ljust(longest_ga)
-            if not REVERSE:
+            if not INDEX_GAEILGE:
                 render_str += f"| {en_col}| {ga_col}|\n"
             else:
                 render_str += f"| {ga_col}| {en_col}|\n"
@@ -159,7 +159,14 @@ if __name__ == '__main__':
         MODE = 'latex'
     else: #default to latex
         MODE = 'latex'
-    REVERSE = '-rev' in sys.argv
+
+    assert not ('-md' in sys.argv and '-tex' in sys.argv), "only one index language can be set"
+    if '-ga' in sys.argv:
+        INDEX_GAEILGE = True
+    elif '-en' in sys.argv:
+        INDEX_GAEILGE = False
+    else: # default to Gaeilge
+        INDEX_GAEILGE = True
 
     terms = load_terms()
     table_str = render_table(terms)

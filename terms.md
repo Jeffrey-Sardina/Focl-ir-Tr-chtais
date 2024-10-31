@@ -2,7 +2,10 @@
 |----------------------|----------------------|
 | computer science     | ríomheolaíocht       |
 | database             | bunachar sonraí      |
+| directed             | dírithe              |
+| edge                 | ceangal              |
 | knowledge graph (KG) | graf eolais (GE)     |
+| labelled             | le lipéad            |
 | machine learning     | foghlaim na meaisíní |
 | object               | cuspóir              |
 | predicate            | faisnéis             |
@@ -29,13 +32,35 @@ nótaí aistriúcháin:
 
 tagairtí:
 - bunachar sonraí: omianain, tearmaie
-- bunachar: Dineen (1934), Ó Dónaill (1977)
+- bunachar\*: Dineen (1934), Ó Dónaill (1977)
 - sonra: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991)\*, Ó Dónaill (1977)
 
 nótaí aistriúcháin:
-- \* úsaidtear 'bunachair' mar leagan iolra den téarma seo, cé nach bhfuil leagan iolra den fhocal 'bunachar' luaite i bhFoclóir Uí Dhónaill.
-- tá 'bunachar sonraí' ar fáil mar aistriúchán ar 'database' ar Foclóir.ie \cite{omianain} agus ar Téárma.ie \cite{tearmaie}, ach níl i bhfoclóir ar bith eiel a úsáidtear sa tráchtas seo (.i. Ó Dónall, Ua Duinnín, srl). Sin ráite, tá idir 'bunachar' agus 'sonra' ar fáil i go leor foclóirí eile, agus níl fianaise ar bith ann go mbeadh an téarma 'bunachar sonraí' mí-nádurtha dá bharr sin. Móide sin, níl cúis ar bith téarma eile le brí gaolmhar (m.sh. 'foras sonraí') a chumadh nua atá téárma cuí ann cheana féin. Glactar le 'bunachar sonraí' mar sin.
-- úsáidtear 'sonraí' san uimhir iolra toisc go bhfuil níos mó ná snora amháin i nach uile bunachar sonraí (nach mór).
+- \* Úsaidtear 'bunachair' mar leagan iolra den téarma seo, cé nach bhfuil leagan iolra den fhocal 'bunachar' luaite i bhFoclóir Uí Dhónaill.
+- Tá 'bunachar sonraí' ar fáil mar aistriúchán ar 'database' ar Foclóir.ie \cite{omianain} agus ar Téárma.ie \cite{tearmaie}, ach níl i bhfoclóir ar bith eiel a úsáidtear sa tráchtas seo (.i. Ó Dónall, Ua Duinnín, srl). Sin ráite, tá idir 'bunachar' agus 'sonra' ar fáil i go leor foclóirí eile, agus níl fianaise ar bith ann go mbeadh an téarma 'bunachar sonraí' mí-nádurtha dá bharr sin. Móide sin, níl cúis ar bith téarma eile le brí gaolmhar (m.sh. 'foras sonraí') a chumadh nua atá téárma cuí ann cheana féin. Glactar le 'bunachar sonraí' mar sin.
+- Úsáidtear 'sonraí' san uimhir iolra toisc go bhfuil níos mó ná snora amháin i nach uile bunachar sonraí (nach mór).
+
+
+**directed (aidiacht): dírithe**<br>
+*sainmhíniú (ga):* Ag tagairt ar cheangal in abairte triaraí, ag ceangal an nód tosaigh (an ainmní) leis an nód deiridh (an cuspóir) in ord.<br>
+*sainmhíniú (en):* Regarding an edge in a triple, providing an order-aware mapping of a source node (the subject) to a target node (the object).
+
+tagairtí:
+- dírithe: Dineen (1934), Ó Dónaill (1977)
+
+nótaí aistriúcháin:
+- Úsáidtear an téarma seo i gcomhthéacs treo radhairc, aidhm ghunna, agus ar eile. Sin ráite, tá an bhrí sin an-ghar don tsain-bhrí a bhfuil ga leis anseo. Glactar leis mar théarma mar sin.
+
+
+**edge (ainmfhocal): ceangal**<br>
+*sainmhíniú (ga):* an element of a graph that serves to connect two nodes.<br>
+*sainmhíniú (en):* cuid de ghraf a nascann (nó a cheanglaíonn) dhá nód le chéile.
+
+tagairtí:
+- ceangal: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
+
+nótaí aistriúcháin:
+- Is mar thagairt d'fheistiú (le rópa) a úsáidtear an téarma seo den chuid is mó sna foclóirí. Sin ráite, is féidir a rá chomh maith go bhfuil dhá nód a bhfuil ceangal eararthub 'feistithe' lena chéile, sa chaoi nach measann an úsar gur bac ar bith é sin ar úsáid an fhocail 'ceangal' leis an mbrí nua seo.
 
 
 **knowledge graph (KG) (ainmfhocal): graf eolais (GE)**<br>
@@ -47,8 +72,20 @@ tagairtí:
 - eolas: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991)\*, Ó Dónaill (1977)
 
 nótaí aistriúcháin:
-- \* cé go bhfuil 'graf' istigh san Fhoclóir Beag, is i gcomhthéacs graif líne amháin a luaitear é.
+- \* Cé go bhfuil 'graf' istigh san Fhoclóir Beag, is i gcomhthéacs graif líne amháin a luaitear é.
 - Níl aistriúchán déanta ar an téarma seo cheana go bhfios don údár (fiú ar Téarma.ie). Cumtar téarma nua mar sin, as 'graf' agus as 'eolas' mar a cumadh i mBéarla é.
+
+
+**labelled (aidiacht): le lipéad**<br>
+*sainmhíniú (ga):* Ag tagairt ar nód nó ar ceangal, rud a bhfuil lipéad (uimhir, téacs, nó eile) curtha leis mar shuaitheantas.<br>
+*sainmhíniú (en):* Referring to a node or edge, having a labelled (number, text, etc) attached to it as an identifier.
+
+tagairtí:
+- le: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
+- lipéad: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
+
+nótaí aistriúcháin:
+- Úsáidtear frása réamhfhoclach anseo seachas briathar nua a chumadh.
 
 
 **machine learning (ainmfhocal): foghlaim na meaisíní**<br>

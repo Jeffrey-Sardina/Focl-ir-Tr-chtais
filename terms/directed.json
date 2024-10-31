@@ -1,0 +1,14 @@
+{
+    "term": "directed",
+    "part-of-speech": "aidiacht",
+    "citation-form": "dírithe",
+    "def-en": "Regarding an edge in a triple, providing an order-aware mapping of a source node (the subject) to a target node (the object).",
+    "def-ga": "Ag tagairt ar cheangal in abairte triaraí, ag ceangal an nód tosaigh (an ainmní) leis an nód deiridh (an cuspóir) in ord.",
+
+    "prov": {
+        "dírithe": "dineen, odonaill"
+    },
+    "notes": [
+        "Úsáidtear an téarma seo i gcomhthéacs treo radhairc, aidhm ghunna, agus ar eile. Sin ráite, tá an bhrí sin an-ghar don tsain-bhrí a bhfuil ga leis anseo. Glactar leis mar théarma mar sin."
+    ]
+}

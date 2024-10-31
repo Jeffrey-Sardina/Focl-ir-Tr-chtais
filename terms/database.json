@@ -7,12 +7,12 @@
 
     "prov": {
         "bunachar sonraí": "omianain, tearmaie",
-        "bunachar": "dineen, odonaill",
+        "bunachar*": "dineen, odonaill",
         "sonra": "de-bhaldraithe, dineen, focloir-beag*, odonaill"
     },
     "notes": [
-        "* úsaidtear 'bunachair' mar leagan iolra den téarma seo, cé nach bhfuil leagan iolra den fhocal 'bunachar' luaite i bhFoclóir Uí Dhónaill.",
-        "tá 'bunachar sonraí' ar fáil mar aistriúchán ar 'database' ar Foclóir.ie \\cite{omianain} agus ar Téárma.ie \\cite{tearmaie}, ach níl i bhfoclóir ar bith eiel a úsáidtear sa tráchtas seo (.i. Ó Dónall, Ua Duinnín, srl). Sin ráite, tá idir 'bunachar' agus 'sonra' ar fáil i go leor foclóirí eile, agus níl fianaise ar bith ann go mbeadh an téarma 'bunachar sonraí' mí-nádurtha dá bharr sin. Móide sin, níl cúis ar bith téarma eile le brí gaolmhar (m.sh. 'foras sonraí') a chumadh nua atá téárma cuí ann cheana féin. Glactar le 'bunachar sonraí' mar sin.",
-        "úsáidtear 'sonraí' san uimhir iolra toisc go bhfuil níos mó ná snora amháin i nach uile bunachar sonraí (nach mór)."
+        "* Úsaidtear 'bunachair' mar leagan iolra den téarma seo, cé nach bhfuil leagan iolra den fhocal 'bunachar' luaite i bhFoclóir Uí Dhónaill.",
+        "Tá 'bunachar sonraí' ar fáil mar aistriúchán ar 'database' ar Foclóir.ie \\cite{omianain} agus ar Téárma.ie \\cite{tearmaie}, ach níl i bhfoclóir ar bith eiel a úsáidtear sa tráchtas seo (.i. Ó Dónall, Ua Duinnín, srl). Sin ráite, tá idir 'bunachar' agus 'sonra' ar fáil i go leor foclóirí eile, agus níl fianaise ar bith ann go mbeadh an téarma 'bunachar sonraí' mí-nádurtha dá bharr sin. Móide sin, níl cúis ar bith téarma eile le brí gaolmhar (m.sh. 'foras sonraí') a chumadh nua atá téárma cuí ann cheana féin. Glactar le 'bunachar sonraí' mar sin.",
+        "Úsáidtear 'sonraí' san uimhir iolra toisc go bhfuil níos mó ná snora amháin i nach uile bunachar sonraí (nach mór)."
     ]
 }
