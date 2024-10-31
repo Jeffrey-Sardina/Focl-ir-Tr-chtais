@@ -1,21 +1,24 @@
-| **Béarla**           | **Gaeilge**          |
-|----------------------|----------------------|
-| computer science     | ríomheolaíocht       |
-| data                 | sonraí               |
-| database             | bunachar sonraí      |
-| directed             | dírithe              |
-| edge                 | ceangal              |
-| knowledge graph (KG) | graf eolais (GE)     |
-| labelled             | le lipéad            |
-| machine learning     | foghlaim na meaisíní |
-| node                 | nód                  |
-| object               | cuspóir              |
-| predicate            | faisnéis             |
-| relation(ship)       | ceangal              |
-| subject              | ainmní               |
-| transfer learning    | tras-fhoghlaim       |
-| triple               | abairt thriarach     |
-| xxx                  | xxx                  |
+| **Béarla**            | **Gaeilge**                  |
+|-----------------------|------------------------------|
+| computer science      | ríomheolaíocht               |
+| data                  | sonraí                       |
+| database              | bunachar sonraí              |
+| directed              | dírithe                      |
+| edge                  | ceangal                      |
+| hyperparameter        | hipear-pharaiméadar          |
+| hyperparameter search | cuardach hipear-pharaiméadar |
+| knowledge graph (KG)  | graf eolais (GE)             |
+| labelled              | le lipéad                    |
+| machine learning      | foghlaim na meaisíní         |
+| network               | líonra                       |
+| node                  | nód                          |
+| object                | cuspóir                      |
+| predicate             | faisnéis                     |
+| relation(ship)        | ceangal                      |
+| subject               | ainmní                       |
+| transfer learning     | tras-fhoghlaim               |
+| triple                | abairt thriarach             |
+| xxx                   | xxx                          |
 
 
 **computer science (ainmfhocal): ríomheolaíocht**<br>
@@ -78,6 +81,31 @@ nótaí aistriúcháin:
 - Seo an téarma céanna is a úsáidtear chun 'relation(ship)' a chur in iúl, toisc go bhfuil an bhrí chéanna leis.
 
 
+**hyperparameter (ainmfhocal): hipear-pharaiméadar**<br>
+*sainmhíniú (ga):* a (non-learnable) parameter or setting that is used to run a machine learning algorithm.<br>
+*sainmhíniú (en):* paraiméadar (nach bhfuil fhoghlamtha) nó socrú atá úsáidte chun algartam samhla foghlama a rith.
+
+tagairtí:
+- hipear-: Ó Dónaill (1977)
+- pharaiméadar-: De Bhaldraithe (1978), Ó Dónaill (1977)
+
+nótaí aistriúcháin:
+- Níl an téarma iomlán 'hipear-pharaiméadar' ar fáil i bhfoclóir ar bith. Sin ráite, tá idir 'hipear-' (mar réimír) agus 'paraiméadar' (mar ainmfhocal) i bhFoclóir Uí Dhónaill, rud a spreagann an téarma seo go díreach.
+
+
+**hyperparameter search (ainmfhocal): cuardach hipear-pharaiméadar**<br>
+*sainmhíniú (ga):* an cur chuige a úsíadtear chun na hipear-pharaiméadair is fearr a fháil do shamhail fhoghlama.<br>
+*sainmhíniú (en):* the approach used to find the optimal hyperparameters for a machine learnig model.
+
+tagairtí:
+- cuardach: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
+- hipear-pharaiméadar: féach ar an téarma 'hipear-pharaiméadar'
+
+nótaí aistriúcháin:
+- Féach ar nótaí ar an téarma 'hipear-pharaiméadar'.
+- Cuirtear 'hpear-pharaiméadar' sa ghinideach iolra toisc go mbíonn cuardach déanta, don chuid is mó chun níos mó ná hipear-pharaiméadar amháin a fháil.
+
+
 **knowledge graph (KG) (ainmfhocal): graf eolais (GE)**<br>
 *sainmhíniú (ga):* Bunachar sonraí a shamhlaíonn eolas mar nóid agus na ceangail eatarthu. Bíonn lipéad ar chuile nód / ceangal, agus bíonn chuile cheangal dírithe.<br>
 *sainmhíniú (en):* A database consisting of labelled nodes representing concepts and directed, labelled edges describing the relationships between them.
@@ -114,6 +142,17 @@ tagairtí:
 nótaí aistriúcháin:
 - Ní ghlactar le haistriúchán Téarma.ie (\*meaisínfhoghlaim) toisc é a bheith ag úsáid comh-fhocal chun dhá ainmfhocal a chur le chéile seachas an tuiseal ginideach (atá níos nádúrtha don Ghaeilge).
 - Úsáidtear 'na' ann toisc gur foghlaim í seo atá déanta ar mheaisíní i gcoitinne, seachas ar mheaisín(í) anaithnid(e). Féarch ar alt alt 1.15.(l) den Chaighdéan Oifigiúil \cite{caighdean} le haghaidh tuilleadh eolais.
+
+
+**network (ainmfhocal): líonra**<br>
+*sainmhíniú (ga):* tacar nód agus na gceangal eatarthu.<br>
+*sainmhíniú (en):* a set of nodes and the connections between them.
+
+tagairtí:
+- xxx: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
+
+nótaí aistriúcháin:
+- Téarma la fáil go díreach sna foclóirí.
 
 
 **node (ainmfhocal): nód**<br>

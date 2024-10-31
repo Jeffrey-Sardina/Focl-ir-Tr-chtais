@@ -1,0 +1,14 @@
+{
+    "term": "model",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "samhail",
+    "def-en": "Réad matamaiticiúil a úsáideann cur chuige bunaithe ar calcalas chun tasc foghlama meaisíní a chur i gcrích.",
+    "def-ga": "A mathematical object that uses a calculus-based approach to solve a machine learning task.",
+
+    "prov": {
+        "samhail": "de-bhaldraithe, dineen, focloir-beag, odonaill"
+    },
+    "notes": [
+        "Ní luann foclóir ar bith an téarma seo i gcomthéacs ríomheolaíochta, ach ar chomhthéacs eile ina bhfuil 'samhail' cosúil le 'cóip' nó 'cosúlacht'. Sin ráite, tá an bhrí sin oiriúnach don úsáid seo -- cé nach cóip í, bíonn an tsamhail ríomheolaíochta ag iarraidh aschur feidhm mhatamatitiúil a réamhinsint go díreach; sin le rá, a chóipeail."
+    ]
+}
