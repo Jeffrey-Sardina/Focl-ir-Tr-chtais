@@ -1,0 +1,15 @@
+{
+    "term": "knowledge graph embedding",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "leabú graif eolais",
+    "def-en": "The machine learning process of embedding a single knowledge graph into vector space; or, a single embedding obtain from said process.",
+    "def-ga": "Próiseas ríomhfhoghlama a bhfuil leabú graif eolais amháin mar thoradh air; nó, leabú amháin a fhaightear mar thoradh air sin",
+
+    "prov": {
+        "leabú": "féach ar an téarma 'leabú'",
+        "graf eolais": "féach ar an téarma 'graf eolais'"
+    },
+    "notes": [
+        "Fágtar san uimhir uatha é seo toisc nach mbíonn ach graf amháin á leabú ag an uair amháin / ag an samhail amháin."
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "term": "vector",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "veicteoir",
+    "def-en": "An ordered list of numbers that represents a displacement in space, or a point in space.",
+    "def-ga": "Liosta ordaithe uimhreacha a shamhlaíonn pointe i spás, nó aistriú sa spás céanna.",
+
+    "prov": {
+        "veicteoir": "de-bhaldraithe, odonaill, (TODO: storchiste?)"
+    },
+    "notes": [
+        "Tá an téarma ann i bhFoclóir Uí Dhónaill mar théarma matamaitice, agus clactar leis díreach mar atá mar sin."
+    ]
+}

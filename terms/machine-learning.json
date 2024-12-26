@@ -1,16 +1,21 @@
 {
     "term": "machine learning",
     "part-of-speech": "ainmfhocal",
-    "citation-form": "foghlaim na meaisíní",
+    "citation-form": "ríomhfoghlama",
     "def-en": "the process of using mathematical optimisation to allow computers to solve complex problems.",
     "def-ga": "cur chuige matamaiticiúil a chuireann ar chumas do ríomhairí ceisteanna casta a fhreagairt.",
 
     "prov": {
         "foghlaim": "de-bhaldraithe, dineen, focloir-beag, odonaill",
-        "meaisín": "de-bhaldraithe, focloir-beag, odonaill"
+        "ríomh-": "odonaill*"
     },
     "notes": [
+        "* Níl 'ríomh-' ann mar réimír. Cé is móite de sin, feictear é in úsáid mar réimír sa bhfoclóir céanna; .i. 'ríomheolaíocht' (murab ioannn sin agus 'eolaíocht' mar iarmhír)",
         "Ní ghlactar le haistriúchán Téarma.ie (*meaisínfhoghlaim) toisc é a bheith ag úsáid comh-fhocal chun dhá ainmfhocal a chur le chéile seachas an tuiseal ginideach (atá níos nádúrtha don Ghaeilge).",
-        "Úsáidtear 'na' ann toisc gur foghlaim í seo atá déanta ar mheaisíní i gcoitinne, seachas ar mheaisín(í) anaithnid(e). Féarch ar alt alt 1.15.(l) den Chaighdéan Oifigiúil \\cite{caighdean} le haghaidh tuilleadh eolais."
+        "Bheadh ciall éigin ag dul le 'foghlaim na meaisíní' chomh maith, seachas 'meaisín' a bheith bainteach lena leithéid de mheaisíní nuíocháin (féach ar Teanglann) agus gan rian eile de a fheiceáil i gcomhthéacs ríomhaireachta.",
+        "Cé nach mbíonn trácht ar 'ríomhfhoghalim' i bhfoclóir ar bith, tá ann dá leithéid de 'r-phost' sa gcaint. Móide sin, is rud é seo a dhéantar ar réimíreanna na n-eolaíochta (féách ar 'bith-' mar réimír agus 'bitheolaíocht'."
+    ],
+    "old": [
+        "Úsáidtear 'na' ann toisc gur foghlaim í seo atá déanta ar mheaisíní i gcoitinne, seachas ar mheaisín(í) anaithnid(e). Féach ar alt alt 1.15.(l) den Chaighdéan Oifigiúil \\cite{caighdean} le haghaidh tuilleadh eolais."
     ]
 }

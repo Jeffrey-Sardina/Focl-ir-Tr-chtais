@@ -20,113 +20,109 @@ Cur Chuige chun Téarmaí a Roghnú
 all items are listed in order
 
 ## Terms
-Machine Learning
+<!-- Machine Learning
 - foghlaim na meaisíní
-- meaisínfhoghlaim
+- meaisínfhoghlaim -->
 
-Transfer Learning
+<!-- Transfer Learning
 - tras-fhoghlaim
-- no official term. as "tras" is an established (Productive) prefix in Irish, it is used with the word for learning (foghlaim). The dash is maintained for clarity.
+- no official term. as "tras" is an established (Productive) prefix in Irish, it is used with the word for learning (foghlaim). The dash is maintained for clarity. -->
 
-Knowledge Graph, KG
+<!-- Knowledge Graph, KG
 - Graf Eolais, GE
-- no official translation. Term is constructed from graf (graph) and eolas (knowledge).
+- no official translation. Term is constructed from graf (graph) and eolas (knowledge). -->
 
-database
+<!-- database
 - bunachar sonraí
-- established term in wide use. The full term only appears on Téarma / Foclóir, but I see no reason to object to its construction in this manner. Bunachar (base) has been used for information / data / etc for a while, so I amhappy to accept it in particular as well.
+- established term in wide use. The full term only appears on Téarma / Foclóir, but I see no reason to object to its construction in this manner. Bunachar (base) has been used for information / data / etc for a while, so I amhappy to accept it in particular as well. -->
 
-subject
+<!-- subject
 - Ainmní
-- This is the grammatical term. As triples are made as analogies to sentences, I believe using the grammatical term is appropriate in Irish as it is in English.
+- This is the grammatical term. As triples are made as analogies to sentences, I believe using the grammatical term is appropriate in Irish as it is in English. -->
 
-object
+<!-- object
 - Cuspóir
-- This is the grammatical term. As triples are made as analogies to sentences, I believe using the grammatical term is appropriate in Irish as it is in English.
+- This is the grammatical term. As triples are made as analogies to sentences, I believe using the grammatical term is appropriate in Irish as it is in English. -->
 
-predicate
+<!-- predicate
 -  Faisnéis
-- This is the grammatical term. As triples are made as analogies to sentences, I believe using the grammatical term is appropriate in Irish as it is in English.
+- This is the grammatical term. As triples are made as analogies to sentences, I believe using the grammatical term is appropriate in Irish as it is in English. -->
 
-triple
+<!-- triple
 - Abairt thriarach
-- Triarach is listed as a noun on Téarma, as well as an adj. This is attested in Dineen as "of or belonging to three persons or things" as an adj. Teanglann lists it as an adjective only. I therefore reject it as a substantive term. Instead, using again the triple = sentence analogy, I translate this as a "statement of three parts", or "abairt thriarach". I believe that that may be acceptable to simplify to "abairt" where context is clear.
+- Triarach is listed as a noun on Téarma, as well as an adj. This is attested in Dineen as "of or belonging to three persons or things" as an adj. Teanglann lists it as an adjective only. I therefore reject it as a substantive term. Instead, using again the triple = sentence analogy, I translate this as a "statement of three parts", or "abairt thriarach". I believe that that may be acceptable to simplify to "abairt" where context is clear. -->
 
-directed
+<!-- directed
 - dírithe
-- Teanglann
+- Teanglann -->
 
-labelled
+<!-- labelled
 - le lipéad
-- src: TODO
+- src: TODO -->
 
-relation, edge **
+<!-- relation, edge **
 - ceangal.
 - Ceangal seems to be more used as a tie, whereas ceangaltas is specifically noted in Ó Dónaill and Dineen as a connection. However, Ceangal is also noted in the English-Irish Dictionary as a connection between things (https://www.teanglann.ie/ga/eid/connection). Finally, ceangal is specifically noted as being (a tie / bond, if not always a "connection") between two things in general. As such, it is likely safe to use, but should be asked about further. 
-- This us used in both contexts (of items that were already synonymous in English). I think the single term sufices, as I do not draw a distinction based on it
+- This us used in both contexts (of items that were already synonymous in English). I think the single term sufices, as I do not draw a distinction based on it -->
 
-node
+<!-- node
 - Nód
-- on Teanglann for mathematical use.
+- on Teanglann for mathematical use. -->
 
-data
+<!-- data
 - sonraí (plural)
-- on Teanglann and in wide use.
+- on Teanglann and in wide use. -->
 
-network
-- líonra (o Teanglann / Dineen and in common use in that regard)
+<!-- network
+- líonra (o Teanglann / Dineen and in common use in that regard) -->
 
-hyperparameter
+<!-- hyperparameter
 - hipear-pharaiméadar
-- not in any database. However, Ó Dónaill as "paraiméadar" (parameter) and "hipear-", which immediately imply a term. The dash is maintained for clarity.
+- not in any database. However, Ó Dónaill as "paraiméadar" (parameter) and "hipear-", which immediately imply a term. The dash is maintained for clarity. -->
 
-hyperparameter search
+<!-- hyperparameter search
 - cuardach hipear-pharaiméadar
-- toisc go bhfuil níos mó ná hipear-pharaiméadar amháin á chuardach
+- toisc go bhfuil níos mó ná hipear-pharaiméadar amháin á chuardach -->
 
-model (ML)
+<!-- model (ML)
 - samhail
-- Téarma lists variousn versions usingg the root samhail, includiding "samhail" and "samhaltán". Foclóir also notes "múnla". However, Teanglann has "múnla" as a mold (for metalwork) as so I reject that. Further, Teanglann has "samhaltán" as an emblem or symbol, and "samhail" as "Likeness, semblance, similitude.". Dineen has "samhlachas" as a sample or pattern type (which may be useful as a term in the thesis). Dineen has "samhail" as a reproduction or copy and does not have "samhaltán" -- as such, I accept "samhail".
+- Téarma lists variousn versions usingg the root samhail, includiding "samhail" and "samhaltán". Foclóir also notes "múnla". However, Teanglann has "múnla" as a mold (for metalwork) as so I reject that. Further, Teanglann has "samhaltán" as an emblem or symbol, and "samhail" as "Likeness, semblance, similitude.". Dineen has "samhlachas" as a sample or pattern type (which may be useful as a term in the thesis). Dineen has "samhail" as a reproduction or copy and does not have "samhaltán" -- as such, I accept "samhail". -->
 
-embedding (process)
+<!-- embedding (process)
 - leabú
-- Ó Dónall has leabaigh (for physicaly embedding). However, as this is also the origin of "embed" in Eng, and as it si direcrtly analagous to embedding an idea in a (non-physical) vector space, I accept it.
+- Ó Dónall has leabaigh (for physicaly embedding). However, as this is also the origin of "embed" in Eng, and as it si direcrtly analagous to embedding an idea in a (non-physical) vector space, I accept it. -->
 
-embedding (the vector)
+<!-- embedding (the vector)
 - leabú
-- verbal noun go brrrr.
+- verbal noun go brrrr. -->
 
-vector
+<!-- vector
 - veicteoir
-- Teanglann, leis an mbrí ceannan céanna
+- Teanglann, leis an mbrí ceannan céanna -->
 
-latent
+<!-- latent
 - folaigh
-- from ns folach, on Teanglann with this meaning
+- from ns folach, on Teanglann with this meaning -->
 
-feature
+<!-- feature
 - airí
-- idir tréith, gná, agus airí (ar Teanglann). Is ionann tréíth agus tréith duine, nach ionann agus "feature" staitisiticiúil. Tá "gné" rud beag níos cosúla le "sórt" nó "saghas", rud a fháganns "airí" mar rogha.
+- idir tréith, gná, agus airí (ar Teanglann). Is ionann tréíth agus tréith duine, nach ionann agus "feature" staitisiticiúil. Tá "gné" rud beag níos cosúla le "sórt" nó "saghas", rud a fháganns "airí" mar rogha. -->
 
-ontology
+<!-- ontology
 - ointeolaíocht 
-- Teanglann
+- Teanglann -->
 
-logic
-- loighic
-- teanglann
-
-Knowledge Graph Embedding (KGE) (process)
+<!-- Knowledge Graph Embedding (KGE) (process)
 - Leabú Graif Eolais (LGE)
-- úsáidtear an ginideach uatha toisc leabú a bheith déanta ar ghraf amháin chuile uair
+- úsáidtear an ginideach uatha toisc leabú a bheith déanta ar ghraf amháin chuile uair -->
 
-Knowledge Graph Embeddings (KGEs) (vectors)
+<!-- Knowledge Graph Embeddings (KGEs) (vectors)
 - Leabuithe (Graif Eolais) (LGE-anna)
-- úsáidtear an ginideach uatha toisc na leabuithe a bheith ann do ghraf amháin
+- úsáidtear an ginideach uatha toisc na leabuithe a bheith ann do ghraf amháin -->
 
-Knowledge Graph Embedding Model (KGEM)
+<!-- Knowledge Graph Embedding Model (KGEM)
 - Samhail Leabaithe Graif Eolais (SLGE)
-- an bhfuil an sraith focail ginideacha sin i gceart? TODO
+- an bhfuil an sraith focail ginideacha sin i gceart? TODO -->
 
 dimension
 - toise (Ó Dónall). THis  is one of several terms that could be "dimension" in the sense here, but is the most commonly used one (see Foclóir, Téarma) and one to which I can raise no objection.

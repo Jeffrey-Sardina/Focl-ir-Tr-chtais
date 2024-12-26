@@ -1,0 +1,16 @@
+{
+    "term": "knowledge graph embedding model",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "samhail leabaithe graif eolais",
+    "def-en": "A machine learning model who aim is to embed a knowledge graph.",
+    "def-ga": "Samhail ríomhfhoghlama a bhfuil mar aidhm aige graf eolais a leabú.",
+
+    "prov": {
+        "leabú": "féach ar an téarma 'leabú'",
+        "graf eolais": "féach ar an téarma 'graf eolais'",
+        "samhail": "féach ar an téarma 'samhail'"
+    },
+    "notes": [
+        "Fágtar san uimhir uatha é seo toisc nach mbíonn ach graf amháin á leabú ag an uair amháin / ag an samhail amháin."
+    ]
+}

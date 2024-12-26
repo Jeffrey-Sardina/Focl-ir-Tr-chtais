@@ -1,0 +1,15 @@
+{
+    "term": "feature",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "airí",
+    "def-en": "A single input to, or numercal element of, a machine learning model that represents a concrete or latent element of the dataset being learned.",
+    "def-ga": "Ionchur amháin ar shamhail ríomhfhoghlama, nó cuid uimhreachtúil den tsamhail chéanna, a sheasann do shonra nithiúil nó folaigh den tacar sonraí atá á fhoghlaim.",
+
+    "prov": {
+        "airí": "de-bhaldraithe, dineen, focloir-beag, odonaill, (TODO: storchiste?)"
+    },
+    "notes": [
+        "Ní mar théarma eolaíochta atá sé i gceann ar bith de na foclóirí thuas. Cé is móite de sin, is léir go gcuireann 'airí' an bhrí cheart in iúl agus é á úsáid i gcomhthéacs eolaíochta.",
+        "Tá réimse leathan focal eile (.i. tréith, gné, srl) a bheadh inúsáidte sa gcomhthéacs seo. Cé is moite de sin, is minice iad sin i gcomhthéacs duine, seachas ruda theibí nó eile."
+    ]
+}
