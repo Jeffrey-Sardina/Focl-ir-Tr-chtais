@@ -97,6 +97,12 @@ def render_term(term):
 
     return render_str
 
+def render_terms(terms):
+    render_strs = []
+    for term_id in terms:
+        render_strs.append(render_term(terms[term_id]))
+    return render_strs
+
 def render_table(terms):
     if MODE == 'latex':
         render_str = "\\begin{table}[!ht]\n"
@@ -151,14 +157,33 @@ def render_table(terms):
     render_str += "\n"
     return render_str
 
+def write_terms(table_str, render_strs):
+    if INDEX_GAEILGE:
+        out_name = "tearmai"
+    else:
+        out_name = "terms"
+    if MODE == 'markdown':
+        ext = '.md'
+    else:
+        ext = '.tex'
+    
+    out_file = out_name + ext
+    with open(out_file, 'w') as out:
+        print(table_str, file=out)
+        for render_str in render_strs:
+            print(render_str, file=out)
+    
+    num_terms = len(terms)
+    return num_terms, out_file
+
 if __name__ == '__main__':
     assert not ('-md' in sys.argv and '-tex' in sys.argv), "only one mode can be set"
     if '-md' in sys.argv:
         MODE = 'markdown'
     elif '-tex' in sys.argv:
         MODE = 'latex'
-    else: #default to latex
-        MODE = 'latex'
+    else: #default to markdown
+        MODE = 'markdown'
 
     assert not ('-md' in sys.argv and '-tex' in sys.argv), "only one index language can be set"
     if '-ga' in sys.argv:
@@ -170,7 +195,6 @@ if __name__ == '__main__':
 
     terms = load_terms()
     table_str = render_table(terms)
-    print(table_str)
-    for term_id in terms:
-        render_str = render_term(terms[term_id])
-        print(render_str)
+    render_strs = render_terms(terms)
+    num_terms, out_file = write_terms(table_str, render_strs)
+    print(f"Wrote {num_terms} terms to {out_file}")
