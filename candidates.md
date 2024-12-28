@@ -124,44 +124,44 @@ all items are listed in order
 - Samhail Leabaithe Graif Eolais (SLGE)
 - an bhfuil an sraith focail ginideacha sin i gceart? TODO -->
 
-dimension
-- toise (Ó Dónall). THis  is one of several terms that could be "dimension" in the sense here, but is the most commonly used one (see Foclóir, Téarma) and one to which I can raise no objection.
+<!-- dimension
+- toise (Ó Dónall). This  is one of several terms that could be "dimension" in the sense here, but is the most commonly used one (see Foclóir, Téarma) and one to which I can raise no objection. -->
 
-dimensionality
+<!-- dimensionality
 - none (use a phrase with toise)
-- Téarma has "toiseacht"; my intuition had been "toisíocht". Neither is attested in Teanglann or Foclóir. I opt instead to not use this term. In all cases (i.e. high dimensionality) it can be expressed using toise (or its genitive).
+- Téarma has "toiseacht"; my intuition had been "toisíocht". Neither is attested in Teanglann or Foclóir. I opt instead to not use this term. In all cases (i.e. high dimensionality) it can be expressed using toise (or its genitive). -->
 
-counterexample
+<!-- counterexample
 - frith-shampla
-- ó frith (counter) agus sample (example)
+- ó frith (counter) agus sample (example) -->
 
-negative (adj; of number)
-- dhiúltach
-- Teanglann
+<!-- negative (adj; of number)
+- diúltach
+- Teanglann -->
 
-positive (adj; of number)
+<!-- positive (adj; of number)
 - deimhneach
-- Teanglann (agus ar Foclóir chomh maith)
+- Teanglann (agus ar Foclóir chomh maith) -->
 
-sample (noun)
+<!-- sample (noun)
 - sample
-- Teanglann, Stórchiste
+- Teanglann, Stórchiste -->
 
-sample (verb)
+<!-- sample (verb)
 - sampláil, sampla a thógáil
-- Teanglann
+- Teanglann -->
 
-sampler
+<!-- sampler
 - samplóir 
-- Teanglann
+- Teanglann -->
 
-negative sampler
+<!-- negative sampler
 - frith-shamplóir
-- as frith- agus samplóir (ar Teanglann)
+- as frith- agus samplóir (ar Teanglann) -->
 
-negative (noun; as in negative sampling)
+<!-- negative sample (noun; as in negative sampling)
 - frith-shampla
-- as frith- agus sampla (ar Teanglann)
+- as frith- agus sampla (ar Teanglann) -->
 
 random
 - randamach

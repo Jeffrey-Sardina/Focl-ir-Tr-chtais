@@ -1,0 +1,15 @@
+{
+    "term": "counterexample",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "frith-shampla",
+    "def-en": "A data point that is used to instruct a machine learning model about something that is incorrect or should not be learned.",
+    "def-ga": "Sonra a úsáidtear chun cur in iúl do shamhail ríomhaireachta rud atá mícheart nó nár cheart dó a fhoghlaim.",
+
+    "prov": {
+        "frith-": "de-bhaldraithe, dineen, focloir-beag, odonaill",
+        "sampla": "sampla": "féach ar an téarma 'shampla'"
+    },
+    "notes": [
+        "Ní fheictear 'frith-shampla' i bhfoclóir ar bith, ach an réimír agus focal thuas."
+    ]
+}

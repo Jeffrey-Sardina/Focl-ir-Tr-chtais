@@ -23,6 +23,7 @@
 | samhail                        | model                           |
 | samhail leabaithe graif eolais | knowledge graph embedding model |
 | sonraí                         | data                            |
+| toise                          | dimension                       |
 | tras-fhoghlaim                 | transfer learning               |
 | veicteoir                      | vector                          |
 | xxx                            | xxx                             |
@@ -300,6 +301,17 @@ tagairtí:
 
 nótaí aistriúcháin:
 - Úsáidtear an leagan iolra de gnáth, toisc gur anamh ar fad a bhíonn trácht ar sonra amháin, ach ar thacar sonraí.
+
+
+**toise (ainmfhocal): dimension**<br>
+*sainmhíniú (ga):* Ag trácht ar spás veicteora, líon na n-uimhreacha atá i ngach uile veicteoir sa spás céanna; or, one axis of that space.<br>
+*sainmhíniú (en):* Regarding a vector space, the number of elements contained in each vector in that space; nó, ais amháin den spás sin.
+
+tagairtí:
+- xxx: De Bhaldraithe (1978), Dineen (1934)\*, Ó Dónaill et al. (1991)\*, Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
+
+nótaí aistriúcháin:
+- \* Is mar sórt tomhais, seachas toise matamaiticiúl, a fheictear an téarma sna foclóirí seo.
 
 
 **tras-fhoghlaim (ainmfhocal): transfer learning**<br>

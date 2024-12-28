@@ -1,0 +1,16 @@
+{
+    "term": "negative (sample)",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "frith-shampla",
+    "def-en": "In the context of knowledge graphs, a fake triple that is used as a counterexample.",
+    "def-ga": "I gcomhthéacs graf eolais, abairt thriarach bhréagach a úsáidtear mar fhrith-shampla.",
+
+    "prov": {
+        "frith-": "féach ar an téarma 'frith-shampla'",
+        "sampla": "féach ar an téarma 'shampla'"
+    },
+    "notes": [
+        "Úsáidtear frith-shample toisc gurb in, go díreach, a bhfuil i gceist sa gcás seo.",
+        "Féach chomh maith ar an téarma 'frith-shampla'"
+    ]
+}

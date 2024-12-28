@@ -1,0 +1,14 @@
+{
+    "term": "to model",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "samhlaigh",
+    "def-en": "the process of creating a (machine learning or statistical) model.",
+    "def-ga": "samhail ríomhaireachta nó staitistiúil a chruthú.",
+
+    "prov": {
+        "samhlaigh": "de-bhaldraithe*, dineen*, focloir-beag*, odonaill* (TODO: storchiste?)"
+    },
+    "notes": [
+        "Is i gcomhthéacs smaointeoireachta a luaitear an focal 'samhlaigh', seachas i gcomhthéacs ríomhaireachta ná matamaitice. Ach, toisc go nlgactar le 'samhail' sa gcomhthéacs seo, glactar leis an mbriathar ''samhlaigh' atá ceangailte leis."
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "term": "positive",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "deimhneach",
+    "def-en": "regarding a number, above 0.",
+    "def-ga": "ag caint ar uimhir, níos mó ná 0.",
+
+    "prov": {
+        "deimhneach": "de-bhaldraithe, odonaill, (TODO: storchiste?)"
+    },
+    "notes": [
+        "Téarma ar fáil leis an mbrí chéanna sna foclóirí thuas"
+    ]
+}

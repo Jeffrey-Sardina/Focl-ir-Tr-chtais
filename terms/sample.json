@@ -1,0 +1,14 @@
+{
+    "term": "sample",
+    "part-of-speech": "ainmnfhocal",
+    "citation-form": "sampla",
+    "def-en": "a data point that is taken from a statistical distribution or random process.",
+    "def-ga": "sonra a thógtar as dáileadh staitistiúil nó as próiseas randamach.",
+
+    "prov": {
+        "sampla": "de-bhaldraithe, dineen, focloir-beag, odonaill, (TODO: storchiste?)"
+    },
+    "notes": [
+        "Tá an téarma seo (i gcomhthéacs chomhchosúil ach níos leithne) díreach ar fáil ó na foclóirí thuas."
+    ]
+}

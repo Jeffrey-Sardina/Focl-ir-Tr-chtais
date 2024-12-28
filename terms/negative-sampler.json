@@ -1,0 +1,15 @@
+{
+    "term": "negative sampler",
+    "part-of-speech": "ainmnfhocal",
+    "citation-form": "frith-shamplóir",
+    "def-en": "the part of a knowledge graph embedding model that creates negative samples for the model.",
+    "def-ga": "cuid de shamhail leabaithe graif eolais a chruthaíonn frith-shamplaí don tsamhail chéanna.",
+
+    "prov": {
+        "frith-": "féach ar an téarma 'frith-shampla'",
+        "samplóir": "féach ar an téarma 'samplóir'"
+    },
+    "notes": [
+        "Ní úsáidtear '*samplóir diúltach' toisc nach léir go mbeadh sé sin chomh léir / intuigthe céanna."
+    ]
+}

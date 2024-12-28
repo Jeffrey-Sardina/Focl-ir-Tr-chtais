@@ -1,0 +1,14 @@
+{
+    "term": "dimension",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "toise",
+    "def-en": "Regarding a vector space, the number of elements contained in each vector in that space; nó, ais amháin den spás sin.",
+    "def-ga": "Ag trácht ar spás veicteora, líon na n-uimhreacha atá i ngach uile veicteoir sa spás céanna; or, one axis of that space.",
+
+    "prov": {
+        "xxx": "de-bhaldraithe, dineen*, focloir-beag*, odonaill, (TODO: storchiste?)"
+    },
+    "notes": [
+        "* Is mar sórt tomhais, seachas toise matamaiticiúl, a fheictear an téarma sna foclóirí seo."
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "term": "to sample",
+    "part-of-speech": "briathar",
+    "citation-form": "sampláil",
+    "def-en": "the process of taking a sample.",
+    "def-ga": "sampla a thogáil.",
+
+    "prov": {
+        "sampla": "de-bhaldraithe, dineen, focloir-beag, odonaill, (TODO: storchiste?)"
+    },
+    "notes": [
+        "Tá an téarma seo (i gcomhthéacs chomhchosúil ach níos leithne) díreach ar fáil ó na foclóirí thuas."
+    ]
+}

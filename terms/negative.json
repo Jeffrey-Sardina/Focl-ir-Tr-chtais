@@ -1,0 +1,14 @@
+{
+    "term": "negative",
+    "part-of-speech": "aidiacht",
+    "citation-form": "diúltach",
+    "def-en": "regarding a number, below 0.",
+    "def-ga": "ag caint ar uimhir, faoi 0.",
+
+    "prov": {
+        "xxx": "de-bhaldraithe, dineen, focloir-beag, odonaill, (TODO: storchiste?)"
+    },
+    "notes": [
+        "xxx"
+    ]
+}
