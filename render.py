@@ -84,6 +84,8 @@ def render_term(term):
     render_str += "\n"
     render_str += italics("sainmhíniú (en):") + " " + term['def-en'] + "\n"
     render_str += "\n"
+    if MODE == 'html':
+        render_str += '<br>'
 
     # term provenance
     render_str += "tagairtí:\n"
