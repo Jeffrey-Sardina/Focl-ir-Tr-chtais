@@ -1,5 +1,6 @@
 | **Gaeilge**                    | **Béarla**                      |
 |--------------------------------|---------------------------------|
+| (frása le 'toise')             | dimensionality                  |
 | abairt thriarach               | triple                          |
 | ainmní                         | subject                         |
 | airí                           | feature                         |
@@ -7,9 +8,13 @@
 | ceangal                        | relation(ship)                  |
 | cuardach hipear-pharaiméadar   | hyperparameter search           |
 | cuspóir                        | object                          |
+| deimhneach                     | positive                        |
+| diúltach                       | negative                        |
 | dírithe                        | directed                        |
 | faisnéis                       | predicate                       |
 | folaigh                        | latent                          |
+| frith-shampla                  | counterexample                  |
+| frith-shamplóir                | negative sampler                |
 | graf eolais (GE)               | knowledge graph (KG)            |
 | hipear-pharaiméadar            | hyperparameter                  |
 | le lipéad                      | labelled                        |
@@ -22,11 +27,26 @@
 | ríomhfoghlama                  | machine learning                |
 | samhail                        | model                           |
 | samhail leabaithe graif eolais | knowledge graph embedding model |
+| samhlaigh                      | to model                        |
+| sampla                         | sample                          |
+| sampláil                       | to sample                       |
+| samplóir                       | sampler                         |
 | sonraí                         | data                            |
 | toise                          | dimension                       |
 | tras-fhoghlaim                 | transfer learning               |
 | veicteoir                      | vector                          |
 | xxx                            | xxx                             |
+
+
+**(frása le 'toise') (ainmfhocal): dimensionality**<br>
+*sainmhíniú (ga):* Ag trácht ar spás veicteora, líon na n-uimhreacha atá i ngach uile veicteoir sa spás céanna; nó, an t-airí ruda a bhfuil toisí aige.<br>
+*sainmhíniú (en):* Regarding a vector space, the number of elements contained in each vector in that space; or, the property of having dimensions.
+
+tagairtí:
+- toise: féach ar an téarma 'toise'
+
+nótaí aistriúcháin:
+- féach ar an téarma 'toise'
 
 
 **abairt thriarach (ainmfhocal): triple**<br>
@@ -115,6 +135,28 @@ nótaí aistriúcháin:
 - I mBéarla, samhlaítear abairtí triaracha mar abairtí teangeolaíochta le hainmnú, le faisnéis, agus le cuspóir. Glactar leis an analach chéanna i nGaeilge.
 
 
+**deimhneach (ainmfhocal): positive**<br>
+*sainmhíniú (ga):* ag caint ar uimhir, níos mó ná 0.<br>
+*sainmhíniú (en):* regarding a number, above 0.
+
+tagairtí:
+- deimhneach: De Bhaldraithe (1978), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
+
+nótaí aistriúcháin:
+- Téarma ar fáil leis an mbrí chéanna sna foclóirí thuas
+
+
+**diúltach (aidiacht): negative**<br>
+*sainmhíniú (ga):* ag caint ar uimhir, faoi 0.<br>
+*sainmhíniú (en):* regarding a number, below 0.
+
+tagairtí:
+- xxx: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
+
+nótaí aistriúcháin:
+- xxx
+
+
 **dírithe (aidiacht): directed**<br>
 *sainmhíniú (ga):* Ag tagairt ar cheangal in abairte triaraí, ag ceangal an nód tosaigh (an ainmní) leis an nód deiridh (an cuspóir) in ord.<br>
 *sainmhíniú (en):* Regarding an edge in a triple, providing an order-aware mapping of a source node (the subject) to a target node (the object).
@@ -147,6 +189,30 @@ tagairtí:
 nótaí aistriúcháin:
 - Feictear 'teas folaigh' mar théarma eolaíochta i bhFóclóir De Bhaldraithe, agus glactar leis sa gcomhthéacs seo mar analach leis sin.
 - \* Tá an focal 'foclach' ann san foclóirí seo, cé nacch bhfuil an bhrí eolaíochta 'folaigh' luaite leo.
+
+
+**frith-shampla (ainmfhocal): counterexample**<br>
+*sainmhíniú (ga):* Sonra a úsáidtear chun cur in iúl do shamhail ríomhaireachta rud atá mícheart nó nár cheart dó a fhoghlaim.<br>
+*sainmhíniú (en):* A data point that is used to instruct a machine learning model about something that is incorrect or should not be learned.
+
+tagairtí:
+- frith-: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
+- sampla: féach ar an téarma 'shampla'
+
+nótaí aistriúcháin:
+- Ní fheictear 'frith-shampla' i bhfoclóir ar bith, ach an réimír agus focal thuas.
+
+
+**frith-shamplóir (ainmnfhocal): negative sampler**<br>
+*sainmhíniú (ga):* cuid de shamhail leabaithe graif eolais a chruthaíonn frith-shamplaí don tsamhail chéanna.<br>
+*sainmhíniú (en):* the part of a knowledge graph embedding model that creates negative samples for the model.
+
+tagairtí:
+- frith-: féach ar an téarma 'frith-shampla'
+- samplóir: féach ar an téarma 'samplóir'
+
+nótaí aistriúcháin:
+- Ní úsáidtear '\*samplóir diúltach' toisc nach léir go mbeadh sé sin chomh léir / intuigthe céanna.
 
 
 **graf eolais (GE) (ainmfhocal): knowledge graph (KG)**<br>
@@ -289,7 +355,52 @@ tagairtí:
 - samhail: féach ar an téarma 'samhail'
 
 nótaí aistriúcháin:
-- Fágtar san uimhir uatha é seo toisc nach mbíonn ach graf amháin á leabú ag an uair amháin / ag an samhail amháin.
+- Fágtar san uimhir uatha an téarma 'leabú' toisc phróiseas an leabaithe a bheith i gceist, seachas líon na leabuithe ar fad.
+- Fágtar san uimhir uatha an téarma 'graf eolais' toisc nach mbíonn ach graf amháin á leabú ag an uair amháin / ag an samhail amháin.
+
+
+**samhlaigh (ainmfhocal): to model**<br>
+*sainmhíniú (ga):* samhail ríomhaireachta nó staitistiúil a chruthú.<br>
+*sainmhíniú (en):* the process of creating a (machine learning or statistical) model.
+
+tagairtí:
+- samhlaigh: De Bhaldraithe (1978)\*, Dineen (1934)\*, Ó Dónaill et al. (1991)\*, Ó Dónaill (1977)\* (TODO: Williams et al. (2023)?)
+
+nótaí aistriúcháin:
+- Is i gcomhthéacs smaointeoireachta a luaitear an focal 'samhlaigh', seachas i gcomhthéacs ríomhaireachta ná matamaitice. Ach, toisc go nlgactar le 'samhail' sa gcomhthéacs seo, glactar leis an mbriathar ''samhlaigh' atá ceangailte leis.
+
+
+**sampla (ainmnfhocal): sample**<br>
+*sainmhíniú (ga):* sonra a thógtar as dáileadh staitistiúil nó as próiseas randamach.<br>
+*sainmhíniú (en):* a data point that is taken from a statistical distribution or random process.
+
+tagairtí:
+- sampla: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
+
+nótaí aistriúcháin:
+- Tá an téarma seo (i gcomhthéacs chomhchosúil ach níos leithne) díreach ar fáil ó na foclóirí thuas.
+
+
+**sampláil (briathar): to sample**<br>
+*sainmhíniú (ga):* sampla a thogáil.<br>
+*sainmhíniú (en):* the process of taking a sample.
+
+tagairtí:
+- sampla: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
+
+nótaí aistriúcháin:
+- Tá an téarma seo (i gcomhthéacs chomhchosúil ach níos leithne) díreach ar fáil ó na foclóirí thuas.
+
+
+**samplóir (ainmnfhocal): sampler**<br>
+*sainmhíniú (ga):* rud (m.sh algartam ríomhaireachta) a dhéanann sampláil.<br>
+*sainmhíniú (en):* a thing (such as a computer algorithm) that samples.
+
+tagairtí:
+- samplóir: De Bhaldraithe (1978), Ó Dónaill et al. (1991), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
+
+nótaí aistriúcháin:
+- Tá an téarma seo, leis an mbrí céanna, díreach ar fáil sna foclóirí thuas
 
 
 **sonraí (ainmfhocal): data**<br>

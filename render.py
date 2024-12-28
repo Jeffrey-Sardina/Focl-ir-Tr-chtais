@@ -6,6 +6,8 @@ def load_terms():
     terms = {}
     term_files = glob.glob('terms/*.json')
     for term_file in term_files:
+        if DEBUG:
+            print(f"loading from file: {term_file}")
         with open(term_file, 'r') as inp:
             term = json.load(inp)
             if not INDEX_GAEILGE:
@@ -18,14 +20,18 @@ def load_terms():
 def bold(render_str):
     if MODE == 'latex':
         return f"\\textbf{{{render_str}}}"
-    else:
+    elif MODE == 'markdown':
         return f"**{render_str}**"
-    
+    else: # html
+        return f"<strong>{render_str}</strong>"
+
 def italics(render_str):
     if MODE == 'latex':
         return f"\\textit{{{render_str}}}"
-    else:
+    elif MODE == 'markdown':
         return f"*{render_str}*"
+    else: # html
+        return f"<i>{render_str}</i>"
     
 def unordered_list(render_strs):
     list_str = ""
@@ -34,10 +40,15 @@ def unordered_list(render_strs):
         for render_str in render_strs:
             list_str += f"\t\\item {render_str}\n"
         list_str += "\\end{itemize}\n"
-    else:
+    elif MODE == 'markdown':
         for render_str in render_strs:
             render_str = render_str.replace('*', '\\*')
             list_str += f"- {render_str}\n"
+    else: # html
+        list_str += "<ul>\n"
+        for i, render_str in enumerate(render_strs):
+            list_str += f"\t<li>{render_str}</li>\n"
+        list_str += "</ul>\n"
     return list_str
 
 def ordered_list(render_strs):
@@ -47,10 +58,15 @@ def ordered_list(render_strs):
         for render_str in render_strs:
             list_str += f"\t\\item {render_str}\n"
         list_str += "\\end{enumerate}\n"
-    else:
+    elif MODE == 'markdown':
         for i, render_str in enumerate(render_strs):
             render_str = render_str.replace('*', '\\*')
             list_str += f"{i}. {render_str}\n"
+    else: # html
+        list_str += "<ol>\n"
+        for i, render_str in enumerate(render_strs):
+            list_str += f"\t<li>{render_str}</li>\n"
+        list_str += "</ol>\n"
     return list_str
 
 def render_term(term):
@@ -95,6 +111,9 @@ def render_term(term):
     render_str += unordered_list(term["notes"])
     render_str += "\n"
 
+    if MODE == 'html':
+        render_str = render_str.replace('$', '')
+
     return render_str
 
 def render_terms(terms):
@@ -127,7 +146,7 @@ def render_table(terms):
             render_str += "\\caption{Liosta na dtéarma Béarla ar fad agus a leagan Gaeilge, cuirtear in ord de réir na dtéarma Gaeilge.}\n"
             render_str += "\\label{tab-terms-ga-en}\n"
         render_str += "\\end{table}"
-    else:
+    elif MODE == 'markdown':
         longest_en = 0
         longest_ga = 0
         for term_id in terms:
@@ -154,6 +173,29 @@ def render_table(terms):
                 render_str += f"| {en_col}| {ga_col}|\n"
             else:
                 render_str += f"| {ga_col}| {en_col}|\n"
+    else: # html
+        render_str = "<table>\n"
+        if not INDEX_GAEILGE:
+            render_str += "\t<tr>\n"
+            render_str += "\t\t<th>Béarla</th>\n"
+            render_str += "\t\t<th>Gaeilge</th>\n"
+            render_str += "\t</tr>\n"
+        else:
+            render_str += "\t<tr>\n"
+            render_str += "\t\t<th>Gaeilge</th>\n"
+            render_str += "\t\t<th>Béarla</th>\n"
+            render_str += "\t</tr>\n"
+        for term_id in terms:
+            render_str += "\t<tr>\n"
+            term = terms[term_id]
+            if not INDEX_GAEILGE:
+                render_str += "\t\t<td>" + bold(term['term']) + "</td>\n"
+                render_str += "\t\t<td>" + bold(term['citation-form']) + "</td>\n"
+            else:
+                render_str += "\t\t<td>" + bold(term['citation-form']) + "</td>\n"
+                render_str += "\t\t<td>" + bold(term['term']) + "</td>\n"
+            render_str += "\t</tr>\n"
+        render_str += "</table><br>\n"
     render_str += "\n"
     return render_str
 
@@ -164,8 +206,10 @@ def write_terms(table_str, render_strs):
         out_name = "terms"
     if MODE == 'markdown':
         ext = '.md'
-    else:
+    elif MODE == 'latex':
         ext = '.tex'
+    else:
+        ext = '.html'
     
     out_file = out_name + ext
     with open(out_file, 'w') as out:
@@ -182,6 +226,8 @@ if __name__ == '__main__':
         MODE = 'markdown'
     elif '-tex' in sys.argv:
         MODE = 'latex'
+    elif '-html' in sys.argv:
+        MODE = 'html'
     else: #default to markdown
         MODE = 'markdown'
 
@@ -192,6 +238,11 @@ if __name__ == '__main__':
         INDEX_GAEILGE = False
     else: # default to Gaeilge
         INDEX_GAEILGE = True
+
+    if '-debug' in sys.argv:
+        DEBUG = True
+    else:
+        DEBUG = False
 
     terms = load_terms()
     table_str = render_table(terms)
