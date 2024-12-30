@@ -1,0 +1,15 @@
+{
+    "term": "structural alignment",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "ailíniú struchtúir",
+    "def-en": "How well the structure of something (i.e. a graph) relates to some other mathematical quantity.",
+    "def-ga": "Cé chomh maith is a luionn struchtúr ruda (.i. graf eolais) le cáilíocht mhatamaiticiúil eile.",
+
+    "prov": {
+        "ailíniú": "féach ar an téarma 'ailíniú'",
+        "struchtúr": "féach ar an téarma 'struchtúr'"
+    },
+    "notes": [
+        "Féach ar na téarmaí 'ailíniú' agus 'struchtúr'."
+    ]
+}

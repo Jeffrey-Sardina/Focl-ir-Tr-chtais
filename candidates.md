@@ -277,24 +277,24 @@ Ceisteanna
 - dearadh (m.sh. dearadh néarach)
 - roghnaíodh é seo seachas "ailtireacht" toisc léireachta -->
 
-assumption
+<!-- assumption
 - foshuíomh
-- Teanglann (feallsúnacht). Ach chuile sheans gur leor "cuirtear i gcás / beirtear leis" seachas é seo.
+- Teanglann (feallsúnacht). Ach chuile sheans gur leor "cuirtear i gcás / beirtear leis" seachas é seo. -->
 
-structure
+<!-- structure
 - struchtúr
-- Teanglann
+- Teanglann -->
 
-alignment
+<!-- alignment
 - ailíniú
-- Teanglann
+- Teanglann -->
 
-structural alignment
-- ailíniú struchtúr
+<!-- structural alignment
+- ailíniú struchtúr -->
 
-coefficient
+<!-- coefficient
 - comhéifeacht
-- Teanglann
+- Teanglann -->
 
 correlation
 - comhchoibhneas

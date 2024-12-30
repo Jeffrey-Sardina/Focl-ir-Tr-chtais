@@ -1,0 +1,15 @@
+{
+    "term": "scalar",
+    "part-of-speech": "aidiacht",
+    "citation-form": "scálach",
+    "def-en": "A numerical value other than a variable, typically used in multiplication.",
+    "def-ga": "Uimhir nach athróg é a bhíonn á húsáid le huimhir eile a mhéadú fúithi.",
+
+    "prov": {
+        "comhéifeacht": "de-bhaldraithe, odonaill, (TODO: storchiste?)"
+    },
+    "notes": [
+        "Téarma luaite mar théarma matamaitice i bhFoclóir Uí Dhónaill agus i bhFoclóir de Bhladraithe.",
+        "Más ainmfhocal atá uait, úsáid 'uimhir scálach'."
+    ]
+}

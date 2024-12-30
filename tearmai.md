@@ -2,12 +2,19 @@
 |--------------------------------|---------------------------------|
 | (frása le 'toise')             | dimensionality                  |
 | abairt thriarach               | triple                          |
+| ailíniú                        | alignment                       |
+| ailíniú struchtúir             | structural alignment            |
 | ainmní                         | subject                         |
 | airí                           | feature                         |
 | bunachar sonraí                | database                        |
 | ceangal                        | relation(ship)                  |
+| ciseal                         | layer                           |
+| ciseal lán-cheangailte         | dense layer                     |
+| ciseal nialas                  | dropout layer                   |
+| comhéifeacht                   | coefficient                     |
 | cuardach hipear-pharaiméadar   | hyperparameter search           |
 | cuspóir                        | object                          |
+| dearadh                        | architecture                    |
 | deimhneach                     | positive                        |
 | deimhnigh                      | to validate                     |
 | deimhniú                       | validation                      |
@@ -15,7 +22,10 @@
 | dírithe                        | directed                        |
 | dóchúlacht                     | probability                     |
 | faisnéis                       | predicate                       |
+| feidhm                         | function                        |
+| feidhm siogmóideach            | sigmoid function                |
 | folaigh                        | latent                          |
+| foshuíomh                      | assumption                      |
 | frith-shampla                  | counterexample                  |
 | frith-shamplóir                | negative sampler                |
 | fíor-abairt (thriarach)        | positive (triple)               |
@@ -42,9 +52,12 @@
 | sampla fánach                  | random sample                   |
 | sampláil                       | to sample                       |
 | samplóir                       | sampler                         |
+| scálach                        | scalar                          |
 | scór                           | score                           |
 | scór inchreidteachta           | plausibility score              |
+| scóráil                        | to-score                        |
 | sonraí                         | data                            |
+| struchtúr                      | structure                       |
 | tacar                          | set                             |
 | tacar deimhnithe               | testing set                     |
 | tacar teisteála                | testing set                     |
@@ -78,6 +91,29 @@ tagairtí:
 
 nótaí aistriúcháin:
 - Cé go bhfuil an focal 'triarach' ar Téarma.ie leis an mbrí chéanna (nach mór), ní ghlacfar leis sin toisc nach bhfuil fianaise ar bith ann sna foclóirí iontaofa gur féidir 'triarach' a úsáid mar ainmfocal. Sna foclóirí eile sin, ní luaitear é ach mar aidiacht. Mar sin, úsáidtear mar aidiacht amháin anseo é.
+
+
+**ailíniú (ainmfhocal): alignment**<br>
+*sainmhíniú (ga):* I gcomhthéacs an tráchtais seo, cé chomh maith is a luíonn dá thomhas / cáilíochtaí le chéile ar leibhéal leathan.<br>
+*sainmhíniú (en):* In the context of this thesis, how well two measures / quantities relate to each other in general terms.
+
+tagairtí:
+- ailíniú: De Bhaldraithe (1978), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
+
+nótaí aistriúcháin:
+- Téarma ar fáil i gcomhthéacs comhchosúil sna foclóirí.
+
+
+**ailíniú struchtúir (ainmfhocal): structural alignment**<br>
+*sainmhíniú (ga):* Cé chomh maith is a luionn struchtúr ruda (.i. graf eolais) le cáilíocht mhatamaiticiúil eile.<br>
+*sainmhíniú (en):* How well the structure of something (i.e. a graph) relates to some other mathematical quantity.
+
+tagairtí:
+- ailíniú: féach ar an téarma 'ailíniú'
+- struchtúr: féach ar an téarma 'struchtúr'
+
+nótaí aistriúcháin:
+- Féach ar na téarmaí 'ailíniú' agus 'struchtúr'.
 
 
 **ainmní (ainmfhocal): subject**<br>
@@ -130,6 +166,53 @@ nótaí aistriúcháin:
 - Seo an téarma céanna is a úsáidtear chun 'edge' a chur in iúl, toisc go bhfuil an bhrí chéanna leis.
 
 
+**ciseal (ainmfhocal): layer**<br>
+*sainmhíniú (ga):* I líonra néarach, bloc néaróg a bhfuil ionchur agus aschur sainmhínithe dó, agus atá mar chuid in-athúsáidte den líonra néarach iomlán.<br>
+*sainmhíniú (en):* In a neural network, a block of neurons that have clearly-defined input and output, and that are a building block of the larger neural network.
+
+tagairtí:
+- ciseal: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
+
+nótaí aistriúcháin:
+- Luann Foclóir Uí Dhónaill mar théarma eolaíochta (sa mbitheolaíocht) é seo.
+
+
+**ciseal lán-cheangailte (ainmfhocal): dense layer**<br>
+*sainmhíniú (ga):* Ciseal i líonra néarach ina bhfuil chuile néaróg ionchuir ceangailte le chuile néaróg aschuir.<br>
+*sainmhíniú (en):* A layer inn a neural network in which every input neuron is connected to every output neuron.
+
+tagairtí:
+- ciseal: féach ar an téarma 'ciseal'
+- lán-: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
+- ceangailte: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
+
+nótaí aistriúcháin:
+- Úsáidtear 'lán-cheangailte' seachas 'dlúth' toisc go bhfuil sé níos léire ón tús.
+
+
+**ciseal nialas (ainmfhocal): dropout layer**<br>
+*sainmhíniú (ga):* Ciseal i líonra néarach ina bhfuil luach roinnt néaróg ionadaithe le 0 go randamach.<br>
+*sainmhíniú (en):* A layer in a neural network in which the value of some neurons is randomly replaced by 0.
+
+tagairtí:
+- ciseal: féach ar an téarma 'ciseal'
+- nialas: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
+
+nótaí aistriúcháin:
+- Ní iarrtar 'dropout' a aistriú go litriúil toisc é sin a bheith i bhfad níos foclaí, gan buntáiste léir ag baint leis.
+
+
+**comhéifeacht (ainmfhocal): coefficient**<br>
+*sainmhíniú (ga):* Uimhir scálach a úsaidtear chun uimhir nó athróg eile a mhéadú fúithi.<br>
+*sainmhíniú (en):* A scalar value multiplied with another number of variable.
+
+tagairtí:
+- comhéifeacht: De Bhaldraithe (1978), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
+
+nótaí aistriúcháin:
+- Téarma luaite mar théarma matamaitice i bhFoclóir Uí Dhónaill agus i bhFoclóir de Bhladraithe.
+
+
 **cuardach hipear-pharaiméadar (ainmfhocal): hyperparameter search**<br>
 *sainmhíniú (ga):* an cur chuige a úsíadtear chun na hipear-pharaiméadair is fearr a fháil do shamhail ríomhfhoghlama.<br>
 *sainmhíniú (en):* the approach used to find the optimal hyperparameters for a machine learnig model.
@@ -152,6 +235,17 @@ tagairtí:
 
 nótaí aistriúcháin:
 - I mBéarla, samhlaítear abairtí triaracha mar abairtí teangeolaíochta le hainmnú, le faisnéis, agus le cuspóir. Glactar leis an analach chéanna i nGaeilge.
+
+
+**dearadh (ainmfhocal): architecture**<br>
+*sainmhíniú (ga):* An struchtúr matamaiticiúil atá ar líonra néarach.<br>
+*sainmhíniú (en):* The mathematical structure of a neural network.
+
+tagairtí:
+- dearadh: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
+
+nótaí aistriúcháin:
+- Úsáidtear 'dearadh' seachas 'ailtireacht' toisc gurb é an rud is tábhachtaí ná cé chaoi a rinneadh an líonra néarach a dhearadh; sin le ré, rogha an dearthóra.
 
 
 **deimhneach (aidiacht): positive**<br>
@@ -181,7 +275,7 @@ nótaí aistriúcháin:
 *sainmhíniú (en):* The process that is used to estimate how well (or how poorly) a machine learning model works while it is being trained.
 
 tagairtí:
-- xxx: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991)\*, Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
+- deimhniú: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991)\*, Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
 
 nótaí aistriúcháin:
 - Ní bhíonn an téarma seo luaite i gcomthéacs ríomhaireachta sna foclóirí thuas.
@@ -195,7 +289,7 @@ tagairtí:
 - diúltach: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
 
 nótaí aistriúcháin:
-- xxx
+- Téarma díreach ar fáil sna foclóirí.
 
 
 **dírithe (aidiacht): directed**<br>
@@ -214,7 +308,7 @@ nótaí aistriúcháin:
 *sainmhíniú (en):* The change that a random event will occur.
 
 tagairtí:
-- xxx: De Bhaldraithe (1978), Dineen (1934)\*, Ó Dónaill et al. (1991), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
+- dóchúlacht: De Bhaldraithe (1978), Dineen (1934)\*, Ó Dónaill et al. (1991), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
 
 nótaí aistriúcháin:
 - \* Sé 'dóigheamhlacht' a fheictear i bhFóclóir Uí Dhuinín, ach meastar gurb in litriú eile ar an bhfocal céanna.
@@ -232,6 +326,30 @@ nótaí aistriúcháin:
 - I mBéarla, samhlaítear abairtí triaracha mar abairtí teangeolaíochta le hainmnú, le faisnéis, agus le cuspóir. Glactar leis an analach chéanna i nGaeilge.
 
 
+**feidhm (ainmfhocal): function**<br>
+*sainmhíniú (ga):* Próiseas no cur chuige ríomhaireachta atá sainmhínithe (m.sh mar chód).<br>
+*sainmhíniú (en):* A computational process or algorithm that can be precisely defined (i.e. in code).
+
+tagairtí:
+- feidhm: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
+
+nótaí aistriúcháin:
+- Ní i gchomthéacs matamaticiúil a luaitear an téarma seo. Cé is moite de sin, is léir go bhfuil úsáid teicniciúl leis (.i. 'Vital functions, feidhmiú m an choirp.' i bhFoclóir de Bhaldraithe.
+
+
+**feidhm siogmóideach (aidiacht): sigmoid function**<br>
+*sainmhíniú (ga):* The function $sigma(x) = 1 / (1 + e^(-x))$ (which has a shape similar to the letter s when plotted on a graph).<br>
+*sainmhíniú (en):* An feidhm $siogma(x) = 1 / (1 + e^(-x))$ (a bhfuil cruth cosúil leis an litir 's' air agus é breactha ar graf).
+
+tagairtí:
+- feidhm: féach ar an téarma 'feidhm'
+- siogma: Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
+- -óideach: Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
+
+nótaí aistriúcháin:
+- Níl an focal 'siogmóideach' ann i bhfoclóir ar bith atá á úsáid agam, acch is féidir an téarma a chruthú i nGaeilge mar a rinneadh i mBéarla as an litir Gréigise (siogma) agus -'óideach'.
+
+
 **folaigh (aidiacht): latent**<br>
 *sainmhíniú (ga):* Ag trácht ar veicteoir nó ar leabú i samhail ríomhfhoghlama, ag trácht ar eolas atá foghlamtha nó impleachtaithe, seachaas bheith samhlaithe go díɼeach ag an tsamhail chéanna.<br>
 *sainmhíniú (en):* Of a vector or embedding in a machine learning model, represeting information that is learned of implicit, and not explicitly modelled by tbe model.
@@ -242,6 +360,18 @@ tagairtí:
 nótaí aistriúcháin:
 - Feictear 'teas folaigh' mar théarma eolaíochta i bhFóclóir De Bhaldraithe, agus glactar leis sa gcomhthéacs seo mar analach leis sin.
 - \* Tá an focal 'foclach' ann san foclóirí seo, cé nacch bhfuil an bhrí eolaíochta 'folaigh' luaite leo.
+
+
+**foshuíomh (ainmfhocal): assumption**<br>
+*sainmhíniú (ga):* Ráiteas a chuirtear i gcás gur fíor é.<br>
+*sainmhíniú (en):* A statement that is taken to be true.
+
+tagairtí:
+- foshuíomh: De Bhaldraithe (1978), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
+
+nótaí aistriúcháin:
+- De réir Fhoclóirí Uí Dhónaill agus De Bhaldraithe, is téarma feallsúnachta é seo. Cloíonn sé sin leis an gcomthéacs eolaíochta atá i gceist leis an tráchtas seo.
+- Is féidir 'cur i gcás' nó 'beirtear leis' a úsáid chomh maith i bhfrása chun brí chomhchosúil leis seo a chur in iúl.
 
 
 **frith-shampla (ainmfhocal): counterexample**<br>
@@ -312,7 +442,7 @@ nótaí aistriúcháin:
 *sainmhíniú (en):* The property of being (likely) true.
 
 tagairtí:
-- xxx: De Bhaldraithe (1978), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
+- inchreidteacht: De Bhaldraithe (1978), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
 
 nótaí aistriúcháin:
 - Téárma ar fáil go díreach ó na foclóirí i gcomhthéacs chomhchosúil.
@@ -381,7 +511,7 @@ nótaí aistriúcháin:
 *sainmhíniú (en):* Próiseas teisteála nó deimhnithe a dhéanamh ar shamhail ríomhfhoghlama.
 
 tagairtí:
-- xxx: féach ar an téarma 'measúnú'
+- measúnaigh: féach ar an téarma 'measúnú'
 
 nótaí aistriúcháin:
 - Féach ar an téarma 'measúnú'
@@ -392,10 +522,10 @@ nótaí aistriúcháin:
 *sainmhíniú (en):* A process that is used to determine how well (or how poorly) a machine learning model works during its training, or after is has been trained.
 
 tagairtí:
-- xxx: De Bhaldraithe (1978), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
+- measúnú: De Bhaldraithe (1978), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
 
 nótaí aistriúcháin:
-- Úsáidtear 'measúnú' seachas 'meas' toisc é a bheith úsáidte i gcomhthéacs níos teicniciúla.
+- Úsáidtear 'measúnú' seachas 'meas' toisc é a bheith úsáidte i gcomhthéacs níos teicniciúla, agus chun débhrí a sheachaint idir meas (mar smaoineamh) agus meas (mar mheasúnú).
 - Cé is moite de sin, ní luaitear an téarma seo i gcomthéacs ríomhaireachta.
 
 
@@ -550,12 +680,24 @@ nótaí aistriúcháin:
 - Tá an téarma seo, leis an mbrí céanna, díreach ar fáil sna foclóirí thuas
 
 
+**scálach (aidiacht): scalar**<br>
+*sainmhíniú (ga):* Uimhir nach athróg é a bhíonn á húsáid le huimhir eile a mhéadú fúithi.<br>
+*sainmhíniú (en):* A numerical value other than a variable, typically used in multiplication.
+
+tagairtí:
+- comhéifeacht: De Bhaldraithe (1978), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
+
+nótaí aistriúcháin:
+- Téarma luaite mar théarma matamaitice i bhFoclóir Uí Dhónaill agus i bhFoclóir de Bhladraithe.
+- Más ainmfhocal atá uait, úsáid 'uimhir scálach'.
+
+
 **scór (ainmfhocal): score**<br>
 *sainmhíniú (ga):* Uimhir a dhéann cur síos ar cé chomh maith atá rud (m.sh. cruinneas samhlach foghlama).<br>
 *sainmhíniú (en):* A number describing how good something is (such as the accuracy of a machine learning mode).
 
 tagairtí:
-- xxx: De Bhaldraithe (1978), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
+- scór: De Bhaldraithe (1978), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
 
 nótaí aistriúcháin:
 - I gcomthéacs cluichí a fheictear 'scór' úsáidte sna foclóirí seo, seachas i gcomthéacs ríomhaireachta.
@@ -573,6 +715,17 @@ nótaí aistriúcháin:
 - Féách ar nótaí ar 'scór' agus ar 'inchreidteacht'
 
 
+**scóráil (briathar): to-score**<br>
+*sainmhíniú (ga):* Scór a thabhairt do rud (m.sh. samhail ríomhfhoghlama).<br>
+*sainmhíniú (en):* To give a score to something (such as a machine learning model).
+
+tagairtí:
+- scóráil: Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
+
+nótaí aistriúcháin:
+- I gcomthéacs cluichí a fheictear 'scóráil' úsáidte i bhFoclóir Uí Dhónaill, seachas i gcomthéacs ríomhaireachta.
+
+
 **sonraí (ainmfhocal): data**<br>
 *sainmhíniú (ga):* léiriú cainníochtúil nó cineálach ar rud.<br>
 *sainmhíniú (en):* a quantitative or qualitative description of something.
@@ -584,12 +737,23 @@ nótaí aistriúcháin:
 - Úsáidtear an leagan iolra de gnáth, toisc gur anamh ar fad a bhíonn trácht ar sonra amháin, ach ar thacar sonraí.
 
 
+**struchtúr (ainmfhocal): structure**<br>
+*sainmhíniú (ga):* I gcomhthéacs graif, patrúin, achoimirí uimhriúil, agus staitisticí ar féidir iad a áireamh ar an ngraf (gan trácht ar brí / ciall an eolais sa ngraf).<br>
+*sainmhíniú (en):* In the context of a graph, patterns, numerical summaries, and statistics that can be calulated on the graph (without reference to the meaning of the information contained in the graph).
+
+tagairtí:
+- struchtúr: De Bhaldraithe (1978), Ó Dónaill et al. (1991), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
+
+nótaí aistriúcháin:
+- Téarma luaite le brí comhchosúil sna foclóirí thuas.
+
+
 **tacar (ainmfhocal): set**<br>
 *sainmhíniú (ga):* Grúpa rudaí (m.sh uimhreacha) nach bhfuil áirí an orda ann, agus nach mbíonn an rud céanna faoi dhó ann.<br>
 *sainmhíniú (en):* A group of things (such as numbers) that does not have the property of having order, and that does not have repeats.
 
 tagairtí:
-- xxx: De Bhaldraithe (1978), Dineen (1934)\*, Ó Dónaill et al. (1991)\*, Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
+- tacar: De Bhaldraithe (1978), Dineen (1934)\*, Ó Dónaill et al. (1991)\*, Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
 
 nótaí aistriúcháin:
 - \* Ní i gomhthéacs matamaiticiúil a luaitear an téarma seo sna foclóirí seo.

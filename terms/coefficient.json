@@ -1,0 +1,14 @@
+{
+    "term": "coefficient",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "comhéifeacht",
+    "def-en": "A scalar value multiplied with another number of variable.",
+    "def-ga": "Uimhir scálach a úsaidtear chun uimhir nó athróg eile a mhéadú fúithi.",
+
+    "prov": {
+        "comhéifeacht": "de-bhaldraithe, odonaill, (TODO: storchiste?)"
+    },
+    "notes": [
+        "Téarma luaite mar théarma matamaitice i bhFoclóir Uí Dhónaill agus i bhFoclóir de Bhladraithe."
+    ]
+}
