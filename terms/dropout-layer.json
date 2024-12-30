@@ -1,0 +1,15 @@
+{
+    "term": "dropout layer",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "ciseal nialas",
+    "def-en": "A layer in a neural network in which the value of some neurons is randomly replaced by 0.",
+    "def-ga": "Ciseal i líonra néarach ina bhfuil luach roinnt néaróg ionadaithe le 0 go randamach.",
+
+    "prov": {
+        "ciseal": "féach ar an téarma 'ciseal'",
+        "nialas": "de-bhaldraithe, dineen, focloir-beag, odonaill, (TODO: storchiste?)"
+    },
+    "notes": [
+        "Ní iarrtar 'dropout' a aistriú go litriúil toisc é sin a bheith i bhfad níos foclaí, gan buntáiste léir ag baint leis."
+    ]
+}

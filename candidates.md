@@ -261,21 +261,21 @@ Ceisteanna
 - siogmóideach
 - ó siogma (sigma) agus -óideach (-oid) ar Teanglann -->
 
-layer (in NN)
+<!-- layer (in NN)
 - ciseal
-- téarma eolaíochta ar Teanglann (agus in Dineen) 
+- téarma eolaíochta ar Teanglann (agus in Dineen)  -->
 
-dense layer
+<!-- dense layer
 - ciseal lán-cheangailte
-- ó ciseal (layer), lá- (fully), agus ceangailte (connected)
+- ó ciseal (layer), lá- (fully), agus ceangailte (connected) -->
 
-dropout layer
+<!-- dropout layer
 - ciseal nialas
-- ó ciseal (layer) agus nialas (zeroes; g.p.)
+- ó ciseal (layer) agus nialas (zeroes; g.p.) -->
 
-architecture / formulation
+<!-- architecture
 - dearadh (m.sh. dearadh néarach)
-- roghnaíodh é seo seachas "ailtireacht" toisc léireachta
+- roghnaíodh é seo seachas "ailtireacht" toisc léireachta -->
 
 assumption
 - foshuíomh

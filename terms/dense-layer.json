@@ -1,0 +1,16 @@
+{
+    "term": "dense layer",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "ciseal lán-cheangailte",
+    "def-en": "A layer inn a neural network in which every input neuron is connected to every output neuron.",
+    "def-ga": "Ciseal i líonra néarach ina bhfuil chuile néaróg ionchuir ceangailte le chuile néaróg aschuir.",
+
+    "prov": {
+        "ciseal": "féach ar an téarma 'ciseal'",
+        "lán-": "de-bhaldraithe, dineen, focloir-beag, odonaill, (TODO: storchiste?)",
+        "ceangailte": "de-bhaldraithe, dineen, odonaill, (TODO: storchiste?)"
+    },
+    "notes": [
+        "Úsáidtear 'lán-cheangailte' seachas 'dlúth' toisc go bhfuil sé níos léire ón tús."
+    ]
+}
