@@ -296,8 +296,12 @@ Ceisteanna
 - comhéifeacht
 - Teanglann -->
 
-correlation
+<!-- correlation
 - comhchoibhneas
+- Teanglann -->
+
+loss (the value)
+- pionós ?
 - Teanglann
 
 loss functions

@@ -11,6 +11,7 @@
 | ciseal                         | layer                           |
 | ciseal lán-cheangailte         | dense layer                     |
 | ciseal nialas                  | dropout layer                   |
+| comhchoibhneas                 | correlation                     |
 | comhéifeacht                   | coefficient                     |
 | cuardach hipear-pharaiméadar   | hyperparameter search           |
 | cuspóir                        | object                          |
@@ -200,6 +201,18 @@ tagairtí:
 
 nótaí aistriúcháin:
 - Ní iarrtar 'dropout' a aistriú go litriúil toisc é sin a bheith i bhfad níos foclaí, gan buntáiste léir ag baint leis.
+
+
+**comhchoibhneas (ainmfhocal): correlation**<br>
+*sainmhíniú (ga):* Cailíocht matamaiticiúil a dhéanann cur síos ar cé chomh maith is a luíonn dhá shraith uimhreacha lena chéile.<br>
+*sainmhíniú (en):* A mathemtical quantity that describes how well two lists of numbers relate.
+
+tagairtí:
+- xxx: De Bhaldraithe (1978), Dineen (1934)\*, Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
+
+nótaí aistriúcháin:
+- \* Tá 'cómh' agus 'cóibhneas' ar fáil i bhFoclóir Uí Dhuinín, ach ní chuirtear le chéile iad ann
+- Téarma díreach ar fáil mar théarma matamaitice ó Fhoclóir Uí Dhónaill agus ó Fhoclóir De Bhaldraithe.
 
 
 **comhéifeacht (ainmfhocal): coefficient**<br>
