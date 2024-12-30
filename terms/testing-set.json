@@ -1,0 +1,15 @@
+{
+    "term": "testing set",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "tacar teisteála",
+    "def-en": "The dataset used to test a machine learning model.",
+    "def-ga": "Tacar sonraí a úsáidtear chun samhail ríomhfhoghlama a theisteáil.",
+
+    "prov": {
+        "tacar": "féach ar an téarma 'tacar'",
+        "teisteáil": "féach ar an téarma 'teisteáil'"
+    },
+    "notes": [
+        "Féách ar na téarmaí 'tacar' agus 'teisteáil'."
+    ]
+}

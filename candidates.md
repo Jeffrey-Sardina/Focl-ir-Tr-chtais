@@ -229,29 +229,29 @@ Ceisteanna
 - measúnú
 - Teanglann -->
 
-training set
+<!-- training set
 - tacar traenála
-- ó "tacar" agus "traenáil"
+- ó "tacar" agus "traenáil" -->
 
-testing set
+<!-- testing set
 - tacar teisteála
-- ó "tacar" agus "teisteáil"
+- ó "tacar" agus "teisteáil" -->
 
-validation set
+<!-- validation set
 - tacar deimhnithe
-- ó "tacar" agus "deimhnigh"
+- ó "tacar" agus "deimhnigh" -->
 
-literature (i.e. "the KGEM literature")
+<!-- literature (i.e. "the KGEM literature")
 - litríocht
-- Teanglann (Ó Dónaill, Foclóir G-G)
+- Teanglann (Ó Dónaill, Foclóir G-G) -->
 
-neural (adj)
+<!-- neural (adj)
 - néarach
-- Teanglann
+- Teanglann -->
 
-neural network (NN)
+<!-- neural network (NN)
 - líonra néarach
-- ó líonra agus néarach
+- ó líonra agus néarach -->
 
 function
 - feidhm

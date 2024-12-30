@@ -1,0 +1,15 @@
+{
+    "term": "training set",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "tacar traenála",
+    "def-en": "The dataset used to train a machine learning model.",
+    "def-ga": "Tacar sonraí a úsáidtear chun samhail ríomhfhoghlama a thraenáil.",
+
+    "prov": {
+        "tacar": "féach ar an téarma 'tacar'",
+        "traenáil": "féach ar an téarma 'traenáil'"
+    },
+    "notes": [
+        "Féách ar na téarmaí 'tacar' agus 'traenáil'."
+    ]
+}

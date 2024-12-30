@@ -1,0 +1,14 @@
+{
+    "term": "neural",
+    "part-of-speech": "aidiacht",
+    "citation-form": "néarach",
+    "def-en": "Relating to nerves (be they real or artificial) or to nerual networks.",
+    "def-ga": "Ag baint le néaróga (bíodh siad fíor nó saorga) nó le líonraí néaracha.",
+
+    "prov": {
+        "néarach": "odonaill, (TODO: storchiste?)"
+    },
+    "notes": [
+        "Téarma díreach ar fáil i bhFoclóir Uí Dhónaill (i gcomthéacs fíor-néaróga amháin)."
+    ]
+}

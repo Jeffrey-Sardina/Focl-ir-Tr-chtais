@@ -1,0 +1,15 @@
+{
+    "term": "testing set",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "tacar deimhnithe",
+    "def-en": "The dataset used to validate a machine learning model.",
+    "def-ga": "Tacar sonraí a úsáidtear chun samhail ríomhfhoghlama a dheimhniú.",
+
+    "prov": {
+        "tacar": "féach ar an téarma 'tacar'",
+        "deimhniú": "féach ar an téarma 'deimhniú'"
+    },
+    "notes": [
+        "Féách ar na téarmaí 'tacar' agus 'teisteáil'."
+    ]
+}

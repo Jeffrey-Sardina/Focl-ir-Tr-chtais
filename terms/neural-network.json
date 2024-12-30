@@ -1,0 +1,15 @@
+{
+    "term": "neural network (NN)",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "líonra néarach (LN)",
+    "def-en": "An approach to, and structure of, machine learning based on artificial neurons.",
+    "def-ga": "Cur chuige agus struchtúr ríomhfhoghlama bunaithe ar úsáid néaróg saorga.",
+
+    "prov": {
+        "líonra": "de-bhaldraithe, dineen, focloir-beag, odonaill, (TODO: storchiste?)",
+        "néarach": "féach ar an téarma 'néarach'"
+    },
+    "notes": [
+        "Ní bhíonn 'líonra' luaite i gchomthéacs ríomhaireachta sna foclóirí thuas, cé go mbíonn sé sa gcaint agus i litríocht chomhaimseartha leis an mbrí sin."
+    ]
+}
