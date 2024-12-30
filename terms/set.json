@@ -1,0 +1,15 @@
+{
+    "term": "set",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "tacar",
+    "def-en": "A group of things (such as numbers) that does not have the property of having order, and that does not have repeats.",
+    "def-ga": "Grúpa rudaí (m.sh uimhreacha) nach bhfuil áirí an orda ann, agus nach mbíonn an rud céanna faoi dhó ann.",
+
+    "prov": {
+        "xxx": "de-bhaldraithe, dineen*, focloir-beag*, odonaill, (TODO: storchiste?)"
+    },
+    "notes": [
+        "* Ní i gomhthéacs matamaiticiúil a luaitear an téarma seo sna foclóirí seo.",
+        "Is i gomhthéacs matamaiticiúil a luaitear an téarma seo sna foclóirí eile."
+    ]
+}

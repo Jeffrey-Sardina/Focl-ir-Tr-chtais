@@ -1,0 +1,15 @@
+{
+    "term": "to validate",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "deimhnigh",
+    "def-en": "The process that is used to estimate how well (or hwo poorly) a machine learning model works while it is being trained.",
+    "def-ga": "An próiseas a úsáidtear chun a mheas cé chomh maith (nó cé chomg dona) is a fheidhmníonn samhail fhoghlama le linn a traenáilte.",
+
+    "prov": {
+        "xxx": "de-bhaldraithe, dineen, focloir-beag*, odonaill, (TODO: storchiste?)"
+    },
+    "notes": [
+        "* Ní deimhnigh ach deimhniú a bhíonn mar théarma ann",
+        "Ní bhíonn an téarma seo luaite i gcomthéacs ríomhaireachta sna foclóirí thuas."
+    ]
+}

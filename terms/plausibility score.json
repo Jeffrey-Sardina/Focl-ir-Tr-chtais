@@ -1,0 +1,15 @@
+{
+    "term": "plausibility score",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "scór inchreidteachta",
+    "def-en": "A number that represents the chance that something is true",
+    "def-ga": "Uimhjhir a dhéann cur síos ar an dóchúlacht go bhfuil rud fíor.",
+
+    "prov": {
+        "scór": "féach ar an téarma 'scór'",
+        "inchreidteacht": "féach ar an téarma 'inchreidteacht'"
+    },
+    "notes": [
+        "Féách ar nótaí ar 'scór' agus ar 'inchreidteacht'"
+    ]
+}

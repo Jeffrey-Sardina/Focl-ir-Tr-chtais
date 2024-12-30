@@ -19,6 +19,9 @@ Cur Chuige chun Téarmaí a Roghnú
 ** -- ask others
 all items are listed in order
 
+Ceisteanna
+- an ionann fánach agus randamach?
+
 ## Terms
 <!-- Machine Learning
 - foghlaim na meaisíní
@@ -163,44 +166,44 @@ all items are listed in order
 - frith-shampla
 - as frith- agus sampla (ar Teanglann) -->
 
-random
+<!-- random
 - randamach
-- Stórchiste
+- Stórchiste -->
 
-Random sample
+<!-- Random sample
 - sampla fánach
-- díreach ar Teanglann (nach ionann agus sampla randamach ar Foclóir / ar Téarma)
+- díreach ar Teanglann (nach ionann agus sampla randamach ar Foclóir / ar Téarma) -->
 
-positive (noun; not a negative sample)
-- fíor-abairt (thriarach)
+<!-- positive (noun; not a negative sample)
+- fíor-abairt (thriarach) -->
 
-score
+<!-- score
 - scór
-- Teanglann (i gcomhthéacs cluichí)
+- Teanglann (i gcomhthéacs cluichí) -->
 
-plausibility
+<!-- plausibility
 - inchreidteacht
-- Teanglann
+- Teanglann -->
 
-plausibility score (nach ionann agus probability)
+<!-- plausibility score (nach ionann agus probability)
 - scór inchreidteachta
-- ó scór agus inchreidteacht
+- ó scór agus inchreidteacht -->
 
-probability
+<!-- probability
 - dóchúlacht
-- Teanglann
+- Teanglann -->
 
-set
+<!-- set
 - tacar
-- Teanglann
+- Teanglann -->
 
-train (on the training set)
+<!-- train (on the training set)
 - traenáil
-- Teanglann
+- Teanglann -->
 
-test (i.e. with the test set)
+<!-- test (i.e. with the test set)
 - teisteáil
-- Teanglann
+- Teanglann -->
 
 validate (i.e. with the validation set)
 - deimhnigh

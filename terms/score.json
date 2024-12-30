@@ -1,0 +1,14 @@
+{
+    "term": "score",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "scór",
+    "def-en": "A number describing how good something is (such as the accuracy of a machine learning mode).",
+    "def-ga": "Uimhir a dhéann cur síos ar cé chomh maith atá rud (m.sh. cruinneas samhlach foghlama).",
+
+    "prov": {
+        "xxx": "de-bhaldraithe, odonaill, (TODO: storchiste?)"
+    },
+    "notes": [
+        "I gcomthéacs cluichí a fheictear 'scór' úsáidte sna foclóirí seo, seachas i gcomthéacs ríomhaireachta."
+    ]
+}

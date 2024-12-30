@@ -1,0 +1,14 @@
+{
+    "term": "to- rain",
+    "part-of-speech": "briathar",
+    "citation-form": "traenáil",
+    "def-en": "The process of optimising a machine learning model by giving it data to learn from.",
+    "def-ga": "An próiseas a bhaineann le feabhsú samhlach foghlama trí sonraí foghlama a thabhairt di.",
+
+    "prov": {
+        "traenáil": "de-bhaldraithe, focloir-beag, odonaill, (TODO: storchiste?)"
+    },
+    "notes": [
+        "Ní bhíonn an téarma seo luaite i gcomthéacs ríomhaireachta sna foclóirí thuas."
+    ]
+}

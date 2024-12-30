@@ -1,0 +1,15 @@
+{
+    "term": "probability",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "dóchúlacht",
+    "def-en": "The change that a random event will occur.",
+    "def-ga": "An seans go dtarlóidh rud randamach.",
+
+    "prov": {
+        "xxx": "de-bhaldraithe, dineen*, focloir-beag, odonaill, (TODO: storchiste?)"
+    },
+    "notes": [
+        "* Sé 'dóigheamhlacht' a fheictear i bhFóclóir Uí Dhuinín, ach meastar gurb in litriú eile ar an bhfocal céanna.",
+        "Seachas sin, tá an téarma seo ar fáil go díreach ó na foclóirí thuas."
+    ]
+}
