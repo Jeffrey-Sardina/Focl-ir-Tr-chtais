@@ -1,0 +1,15 @@
+{
+    "term": "correlation",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "comhchoibhneas",
+    "def-en": "A mathemtical quantity that describes how well two lists of numbers relate.",
+    "def-ga": "Cailíocht matamaiticiúil a dhéanann cur síos ar cé chomh maith is a luíonn dhá shraith uimhreacha lena chéile.",
+
+    "prov": {
+        "xxx": "de-bhaldraithe, dineen*, odonaill, (TODO: storchiste?)"
+    },
+    "notes": [
+        "* Tá 'cómh' agus 'cóibhneas' ar fáil i bhFoclóir Uí Dhuinín, ach ní chuirtear le chéile iad ann".
+        "Téarma díreach ar fáil mar théarma matamaitice ó Fhoclóir Uí Dhónaill agus ó Fhoclóir De Bhaldraithe."
+    ]
+}
