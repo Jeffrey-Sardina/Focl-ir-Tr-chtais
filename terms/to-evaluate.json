@@ -1,0 +1,14 @@
+{
+    "term": "to evaluate",
+    "part-of-speech": "briathar",
+    "citation-form": "measúnaigh",
+    "def-en": "Próiseas teisteála nó deimhnithe a dhéanamh ar shamhail ríomhfhoghlama.",
+    "def-ga": "To perform testing or validation on a machine learning model.",
+
+    "prov": {
+        "xxx": "féach ar an téarma 'measúnú'"
+    },
+    "notes": [
+        "Féach ar an téarma 'measúnú'"
+    ]
+}

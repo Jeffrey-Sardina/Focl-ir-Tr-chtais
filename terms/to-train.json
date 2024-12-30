@@ -1,14 +1,14 @@
 {
-    "term": "to- rain",
+    "term": "to-train",
     "part-of-speech": "briathar",
     "citation-form": "traenáil",
-    "def-en": "The process of optimising a machine learning model by giving it data to learn from.",
-    "def-ga": "An próiseas a bhaineann le feabhsú samhlach foghlama trí sonraí foghlama a thabhairt di.",
+    "def-en": "Próiseas traenála a dhéanamh ar shamhail ríomhfhoghlama.",
+    "def-ga": "To perform training on a machine learning model.",
 
     "prov": {
-        "traenáil": "de-bhaldraithe, focloir-beag, odonaill, (TODO: storchiste?)"
+        "traenáil": "féach ar an téarma 'traenáil'"
     },
     "notes": [
-        "Ní bhíonn an téarma seo luaite i gcomthéacs ríomhaireachta sna foclóirí thuas."
+        "Féach ar an téarma 'traenáil'"
     ]
 }

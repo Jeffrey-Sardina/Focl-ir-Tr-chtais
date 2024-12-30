@@ -205,25 +205,29 @@ Ceisteanna
 - teisteáil
 - Teanglann -->
 
-validate (i.e. with the validation set)
+<!-- validate (i.e. with the validation set)
 - deimhnigh
-- Teanglann
+- Teanglann -->
 
-training (noun; the process)
+<!-- training (noun; the process)
 - traenáil
-- vn of traenáil
+- vn of traenáil -->
 
-testing (noun; the process)
+<!-- testing (noun; the process)
 - teisteáil
-- vn of traenáil
+- vn of traenáil -->
 
-validation (noun; the process)
+<!-- validation (noun; the process)
 - deimhniú
-- vn of deimhnigh
+- vn of deimhnigh -->
 
-evaluate (either testing or validation)
+<!-- evaluate (either testing or validation)
 - measúnaigh
-- Teanglann
+- Teanglann -->
+
+<!-- evaluation (either testing or validation)
+- measúnú
+- Teanglann -->
 
 training set
 - tacar traenála
@@ -477,19 +481,19 @@ few-shot / n-shot / 0-shot
 
 ## End Notes
 Aistriúcháin chuideatheach ó Theanglann
-- To select a specimen at random, ceann as éadan a thógáil. 
-- Assume A equal to B, (i) beir leat gurb ionann A agus B; (ii) cuir i gcás gurb ionann A agus B. 
-- Rud a chur i gcomhchoibhneas (le), to correlate sth. (with). I gcomhchoibhneas le, correlative with. 
-- tearc i ndaoine, sparsely populated
-- foghlaim a dhéanamh ar rud, to learn, study, sth. 
-- lipéad a chur ar rud, to label sth. 
-- léaráid, f. (gs. léaráide, pl. léaráidí). Diagram; illustration, sketch. 
-- regularize, v.tr. Tugaim chun rialtachta.
+* To select a specimen at random, ceann as éadan a thógáil. 
+* Assume A equal to B, (i) beir leat gurb ionann A agus B; (ii) cuir i gcás gurb ionann A agus B. 
+* Rud a chur i gcomhchoibhneas (le), to correlate sth. (with). I gcomhchoibhneas le, correlative with. 
+* tearc i ndaoine, sparsely populated
+* foghlaim a dhéanamh ar rud, to learn, study, sth. 
+* lipéad a chur ar rud, to label sth. 
+* léaráid, f. (gs. léaráide, pl. léaráidí). Diagram; illustration, sketch. 
+* regularize, v.tr. Tugaim chun rialtachta.
 
 Fadhbanna le téarma (neamh-iomlán)
-- Nascacht - connectivity (is ionann é agus Jointure ar Teanglann)
-- (úr)scothach mar state of the art??? scothach = tufted hair ar Teanglann
+* Nascacht - connectivity (is ionann é agus Jointure ar Teanglann)
+* (úr)scothach mar state of the art??? scothach = tufted hair ar Teanglann
 
 TODO
-- séimhiú ar ainmní sa tuiseal ginideach théis ainmní baninscneach?
-    - féach ar 10.2.7 sa gCaighdeán (lth 175). An chuid is tábhachtaí ná: "Ní shéimhítear an dara hainmfhocal má tá an dara hainmfhocal, atá sa ghinideach, cáilithe le hainmfhocal eile nó le haidiacht, e.g., oíche gaoithe móire; bileog páipéir dúigh; gloine beorach fuaraithe:"
+* séimhiú ar ainmní sa tuiseal ginideach théis ainmní baninscneach?
+    * féach ar 10.2.7 sa gCaighdeán (lth 175). An chuid is tábhachtaí ná: "Ní shéimhítear an dara hainmfhocal má tá an dara hainmfhocal, atá sa ghinideach, cáilithe le hainmfhocal eile nó le haidiacht, e.g., oíche gaoithe móire; bileog páipéir dúigh; gloine beorach fuaraithe:"
