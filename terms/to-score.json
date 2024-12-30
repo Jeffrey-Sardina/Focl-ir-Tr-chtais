@@ -1,0 +1,14 @@
+{
+    "term": "to-score",
+    "part-of-speech": "briathar",
+    "citation-form": "scóráil",
+    "def-en": "To give a score to something (such as a machine learning model).",
+    "def-ga": "Scór a thabhairt do rud (m.sh. samhail ríomhfhoghlama).",
+
+    "prov": {
+        "scóráil": "odonaill, (TODO: storchiste?)"
+    },
+    "notes": [
+        "I gcomthéacs cluichí a fheictear 'scóráil' úsáidte i bhFoclóir Uí Dhónaill, seachas i gcomthéacs ríomhaireachta."
+    ]
+}

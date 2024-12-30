@@ -253,13 +253,13 @@ Ceisteanna
 - líonra néarach
 - ó líonra agus néarach -->
 
-function
+<!-- function
 - feidhm
-- Teanglann
+- Teanglann -->
 
-sigmoid (adj)
+<!-- sigmoid (adj)
 - siogmóideach
-- ó siogma (sigma) agus -óideach (-oid) ar Teanglann
+- ó siogma (sigma) agus -óideach (-oid) ar Teanglann -->
 
 layer (in NN)
 - ciseal
@@ -303,10 +303,6 @@ correlation
 loss functions
 - feidhm phionóis
 - tá "caillfheidhm" ar Téarma.ie. Ach is ionann "caill" agus rud in amú, seachas saghas "loss / penalyt" an Bhéarla. Is fearr liom chomh-chosúlacht a dhéanamh le "pionós" chun téarma nua a chruthú. Ag an am céanna, is féidir an tuiseal ginideach a úsáid seachas ainmní a chur ina rámh-fhocal. Sin le rá faidhm + pionóis -> feidhm phionóis.
-
-scoring function
-- feidhm scórála
-- le scóráil (scór a thabhairt) i gcomthéacs cluichí ar Teanglann.ie
 
 connectivity
 - cé chomh ceangailte (is atá rud, srl)
