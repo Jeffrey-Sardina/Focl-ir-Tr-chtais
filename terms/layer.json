@@ -1,0 +1,14 @@
+{
+    "term": "layer",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "ciseal",
+    "def-en": "In a neural network, a block of neurons that have clearly-defined input and output, and that are a building block of the larger neural network.",
+    "def-ga": "I líonra néarach, bloc néaróg a bhfuil ionchur agus aschur sainmhínithe dó, agus atá mar chuid in-athúsáidte den líonra néarach iomlán.",
+
+    "prov": {
+        "ciseal": "de-bhaldraithe, dineen, odonaill, (TODO: storchiste?)"
+    },
+    "notes": [
+        "Luann Foclóir Uí Dhónaill mar théarma eolaíochta (sa mbitheolaíocht) é seo."
+    ]
+}
