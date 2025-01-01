@@ -94,7 +94,7 @@ nótaí aistriúcháin:
 *sainmhíniú (en):* Regarding a vector space, the number of elements contained in each vector in that space; or, the property of having dimensions.
 
 tagairtí:
-- toise: féach ar an téarma 'toise'
+- toise: féach ar an téarma 'dimension / toise'
 
 nótaí aistriúcháin:
 - féach ar an téarma 'toise'
@@ -128,8 +128,8 @@ nótaí aistriúcháin:
 *sainmhíniú (en):* How well the structure of something (i.e. a graph) relates to some other mathematical quantity.
 
 tagairtí:
-- ailíniú: féach ar an téarma 'ailíniú'
-- struchtúr: féach ar an téarma 'struchtúr'
+- ailíniú: féach ar an téarma 'alignment / ailíniú'
+- struchtúr: féach ar an téarma 'structure / struchtúr'
 
 nótaí aistriúcháin:
 - Féach ar na téarmaí 'ailíniú' agus 'struchtúr'.
@@ -201,7 +201,7 @@ nótaí aistriúcháin:
 *sainmhíniú (en):* A layer inn a neural network in which every input neuron is connected to every output neuron.
 
 tagairtí:
-- ciseal: féach ar an téarma 'ciseal'
+- ciseal: féach ar an téarma 'layer / ciseal'
 - lán-: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
 - ceangailte: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
 
@@ -214,7 +214,7 @@ nótaí aistriúcháin:
 *sainmhíniú (en):* A layer in a neural network in which the value of some neurons is randomly replaced by 0.
 
 tagairtí:
-- ciseal: féach ar an téarma 'ciseal'
+- ciseal: féach ar an téarma 'layer / ciseal'
 - nialas: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
 
 nótaí aistriúcháin:
@@ -250,7 +250,7 @@ nótaí aistriúcháin:
 
 tagairtí:
 - cuardach: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
-- hipear-pharaiméadar: féach ar an téarma 'hipear-pharaiméadar'
+- hipear-pharaiméadar: féach ar an téarma 'hyperparameter / hipear-pharaiméadar'
 
 nótaí aistriúcháin:
 - Féach ar nótaí ar an téarma 'hipear-pharaiméadar'.
@@ -295,10 +295,10 @@ nótaí aistriúcháin:
 *sainmhíniú (en):* Próiseas deimhnithe a dhéanamh ar shamhail ríomhfhoghlama.
 
 tagairtí:
-- deimhnigh: féach ar an téarma 'deimhniú'
+- deimhnigh: féach ar an téarma 'validation / deimhniú'
 
 nótaí aistriúcháin:
-- Féach ar an téarma 'deimhniú'
+- Féach ar an téarma 'validation / deimhniú'
 
 
 **deimhniú (ainmfhocal): validation**<br>
@@ -384,8 +384,8 @@ nótaí aistriúcháin:
 *sainmhíniú (en):* In the context of a machine learning model, a function that calculates the loss value of that model on some set of data points.
 
 tagairtí:
-- feidhm: féach ar an téarma 'feidhm'.
-- pionós: féach ar an téarma 'pionós'.
+- feidhm: féach ar an téarma 'function / feidhm'.
+- pionós: féach ar an téarma 'loss / pionós'.
 
 nótaí aistriúcháin:
 - Féach ar na téarmaí 'feidhm' agus 'pionós'.
@@ -396,7 +396,7 @@ nótaí aistriúcháin:
 *sainmhíniú (en):* An feidhm $siogma(x) = 1 / (1 + e^(-x))$ (a bhfuil cruth cosúil leis an litir 's' air agus é breactha ar graf).
 
 tagairtí:
-- feidhm: féach ar an téarma 'feidhm'
+- feidhm: féach ar an téarma 'function / feidhm'
 - siogma: Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
 - -óideach: Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
 
@@ -410,7 +410,7 @@ nótaí aistriúcháin:
 
 tagairtí:
 - fo-: De Bhaldraithe (1978), Ó Dónaill et al. (1991), Ó Dónaill (1977)
-- graf: féach ar an téarma 'graf'
+- graf: féach ar an téarma 'graph / graf'
 
 nótaí aistriúcháin:
 - Tá an téarma seo i bhFoclóir Uí Dhuinín, ach leis an mbrí 'faoi' seachas 'mar chuid de'.
@@ -446,7 +446,7 @@ nótaí aistriúcháin:
 
 tagairtí:
 - frith-: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
-- sampla: féach ar an téarma 'shampla'
+- sampla: féach ar an téarma 'sample / sampla'
 
 nótaí aistriúcháin:
 - Ní fheictear 'frith-shampla' i bhfoclóir ar bith, ach an réimír agus focal thuas.
@@ -457,8 +457,8 @@ nótaí aistriúcháin:
 *sainmhíniú (en):* the part of a knowledge graph embedding model that creates negative samples for the model.
 
 tagairtí:
-- frith-: féach ar an téarma 'frith-shampla'
-- samplóir: féach ar an téarma 'samplóir'
+- frith-: féach ar an téarma 'negative / frith-shampla'
+- samplóir: féach ar an téarma 'sampler / samplóir'
 
 nótaí aistriúcháin:
 - Ní úsáidtear '\*samplóir diúltach' toisc nach léir go mbeadh sé sin chomh léir / intuigthe céanna.
@@ -469,8 +469,8 @@ nótaí aistriúcháin:
 *sainmhíniú (en):* In the context of knowledge graphs, a ground-truth triple from the KG for which various negatives are generated.
 
 tagairtí:
-- abairt: féach ar an téarma 'abairt thriarach'
-- thriarach: féach ar an téarma 'abairt thriarach'
+- abairt: féach ar an téarma 'triple / abairt thriarach'
+- thriarach: féach ar an téarma 'triple / abairt thriarach'
 - fíor: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
 
 nótaí aistriúcháin:
@@ -553,8 +553,8 @@ nótaí aistriúcháin:
 *sainmhíniú (en):* The machine learning process of embedding a single knowledge graph into vector space; or, a single embedding obtain from said process.
 
 tagairtí:
-- leabú: féach ar an téarma 'leabú'
-- graf eolais: féach ar an téarma 'graf eolais'
+- leabú: féach ar an téarma 'embedding / leabú'
+- graf eolais: féach ar an téarma 'knowledge graph / graf eolais'
 
 nótaí aistriúcháin:
 - Fágtar san uimhir uatha é seo toisc nach mbíonn ach graf amháin á leabú ag an uair amháin / ag an samhail amháin.
@@ -577,7 +577,7 @@ nótaí aistriúcháin:
 
 tagairtí:
 - líonra: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
-- néarach: féach ar an téarma 'néarach'
+- néarach: féach ar an téarma 'neural / néarach'
 
 nótaí aistriúcháin:
 - Ní bhíonn 'líonra' luaite i gchomthéacs ríomhaireachta sna foclóirí thuas, cé go mbíonn sé sa gcaint agus i litríocht chomhaimseartha leis an mbrí sin.
@@ -588,10 +588,10 @@ nótaí aistriúcháin:
 *sainmhíniú (en):* Próiseas teisteála nó deimhnithe a dhéanamh ar shamhail ríomhfhoghlama.
 
 tagairtí:
-- measúnaigh: féach ar an téarma 'measúnú'
+- measúnaigh: féach ar an téarma 'evaluation / measúnú'
 
 nótaí aistriúcháin:
-- Féach ar an téarma 'measúnú'
+- Féach ar an téarma 'evaluation / measúnú'
 
 
 **measúnú (ainmfhocal): evaluation**<br>
@@ -706,9 +706,9 @@ nótaí aistriúcháin:
 *sainmhíniú (en):* A machine learning model who aim is to embed a knowledge graph.
 
 tagairtí:
-- leabú: féach ar an téarma 'leabú'
-- graf eolais: féach ar an téarma 'graf eolais'
-- samhail: féach ar an téarma 'samhail'
+- leabú: féach ar an téarma 'embedding / leabú'
+- graf eolais: féach ar an téarma 'knowledge graph / graf eolais'
+- samhail: féach ar an téarma 'model / samhail'
 
 nótaí aistriúcháin:
 - Fágtar san uimhir uatha an téarma 'leabú' toisc phróiseas an leabaithe a bheith i gceist, seachas líon na leabuithe ar fad.
@@ -742,7 +742,7 @@ nótaí aistriúcháin:
 *sainmhíniú (en):* A sample that is taken randomly.
 
 tagairtí:
-- sampla: féach ar an téarma 'sampla'
+- sampla: féach ar an téarma 'sample / sampla'
 - sampla fánach: De Bhaldraithe (1978), Ó Dónaill et al. (1991), Ó Dónaill (1977)
 
 nótaí aistriúcháin:
@@ -799,8 +799,8 @@ nótaí aistriúcháin:
 *sainmhíniú (en):* A number that represents the chance that something is true
 
 tagairtí:
-- scór: féach ar an téarma 'scór'
-- inchreidteacht: féach ar an téarma 'inchreidteacht'
+- scór: féach ar an téarma 'score / scór'
+- inchreidteacht: féach ar an téarma 'plausibility / inchreidteacht'
 
 nótaí aistriúcháin:
 - Féách ar nótaí ar 'scór' agus ar 'inchreidteacht'
@@ -856,11 +856,11 @@ nótaí aistriúcháin:
 *sainmhíniú (en):* The dataset used to validate a machine learning model.
 
 tagairtí:
-- tacar: féach ar an téarma 'tacar'
-- deimhniú: féach ar an téarma 'deimhniú'
+- tacar: féach ar an téarma 'set / tacar'
+- deimhniú: féach ar an téarma 'validation / deimhniú'
 
 nótaí aistriúcháin:
-- Féách ar na téarmaí 'tacar' agus 'teisteáil'.
+- Féách ar na téarmaí 'set / tacar' agus 'validation / deimhniú'.
 
 
 **tacar teisteála (ainmfhocal): testing set**<br>
@@ -868,8 +868,8 @@ nótaí aistriúcháin:
 *sainmhíniú (en):* The dataset used to test a machine learning model.
 
 tagairtí:
-- tacar: féach ar an téarma 'tacar'
-- teisteáil: féach ar an téarma 'teisteáil'
+- tacar: féach ar an téarma 'set / tacar'
+- teisteáil: féach ar an téarma 'testing / teisteáil'
 
 nótaí aistriúcháin:
 - Féách ar na téarmaí 'tacar' agus 'teisteáil'.
@@ -880,11 +880,11 @@ nótaí aistriúcháin:
 *sainmhíniú (en):* The dataset used to train a machine learning model.
 
 tagairtí:
-- tacar: féach ar an téarma 'tacar'
-- traenáil: féach ar an téarma 'traenáil'
+- tacar: féach ar an téarma 'set / tacar'
+- traenáil: féach ar an téarma 'training / traenáil'
 
 nótaí aistriúcháin:
-- Féách ar na téarmaí 'tacar' agus 'traenáil'.
+- Féách ar na téarmaí 'set / tacar' agus 'training / traenáil'.
 
 
 **teisteáil (briathar): to test**<br>
@@ -892,10 +892,10 @@ nótaí aistriúcháin:
 *sainmhíniú (en):* Próiseas teisteála a dhéanamh ar shamhail ríomhfhoghlama.
 
 tagairtí:
-- teisteáil: féach ar an téarma 'teisteáil'
+- teisteáil: féach ar an téarma 'testing / teisteáil'
 
 nótaí aistriúcháin:
-- Féach ar an téarma 'teisteáil'
+- Féach ar an téarma 'testing / teisteáil'
 
 
 **toise (ainmfhocal): dimension**<br>
@@ -914,10 +914,10 @@ nótaí aistriúcháin:
 *sainmhíniú (en):* Próiseas traenála a dhéanamh ar shamhail ríomhfhoghlama.
 
 tagairtí:
-- traenáil: féach ar an téarma 'traenáil'
+- traenáil: féach ar an téarma 'training / traenáil'
 
 nótaí aistriúcháin:
-- Féach ar an téarma 'traenáil'
+- Féach ar an téarma 'training / traenáil'
 
 
 **tras-fhoghlaim (ainmfhocal): transfer learning**<br>
