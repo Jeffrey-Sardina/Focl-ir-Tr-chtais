@@ -1,0 +1,14 @@
+{
+    "term": "density",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "dlúth",
+    "def-en": "In the context of a knowledge graph (or subgraph), how dense it is.",
+    "def-ga": "I gcomthéacs graif eolais (nó fo-ghraif), cé chomh dlúth is atá sé.",
+
+    "prov": {
+        "dlúth": "de-bhaldraithe, focloir-beag, odonaill, (TODO: storchiste?)"
+    },
+    "notes": [
+        "Téarma díreach ar fáil le brí chomhchosúil."
+    ]
+}

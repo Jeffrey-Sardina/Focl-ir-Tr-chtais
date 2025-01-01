@@ -312,9 +312,9 @@ Ceisteanna
 - cé chomh ceangailte (is atá rud, srl)
 - níl focal ann i dTeanglann ná in Dineen. -->
 
-dense
+<!-- dense
 - dlúth
-- Teanglann
+- Teanglann -->
 
 sparse
 - tearc (nó gann)
@@ -398,11 +398,7 @@ label (of node, edge)
 - lipéad
 - Teaglann
 
-process, pipeline (learning pipeline)
-- próiseas
-- Teanglann
-
-correpondence (between multiple tings / in a maping)
+correpondence (between multiple things / in a maping)
 - comhfhreagairt
 - Teanglann
 
@@ -413,13 +409,9 @@ mapping (structure-to-performance mapping)
 instantiation (of the Structural Alignment Framework)
 - gan focal air (úsáid frása; m.sh. roghnaíodh na hairíonna struchtúir seo chun creatlach a dhéanamh...)
 
-state of the art (collective noun)
+state of the art (noun))
 - scoth na réimse
 -  ó scoth agus réimse
-
-state of the art (adj) 
-- ar scoth na réimse / srl
-- Teanglann (scoth)
 
 correlation
 - comhghaolúchán
@@ -462,6 +454,7 @@ optimise
 
 optimiser
 - córas feabhsaithe 
+- feabhsaitheoir?
 - ó "feabhsaigh"
 
 pretrain
