@@ -1,0 +1,15 @@
+{
+    "term": "subgraph",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "fo-ghraf",
+    "def-en": "A part of a knowledge graph that itself is a (smaller) knowledge graph.",
+    "def-ga": "Cuid de ghraf eolais, atá mar ghraf eolas (níos lú) é féin.",
+
+    "prov": {
+        "fo-": "de-bhaldraithe, focloir-beag, odonaill",
+        "graf": "féach ar an téarma 'graf'"
+    },
+    "notes": [
+        "Tá an téarma seo i bhFoclóir Uí Dhuinín, ach leis an mbrí 'faoi' seachas 'mar chuid de'."
+    ]
+}

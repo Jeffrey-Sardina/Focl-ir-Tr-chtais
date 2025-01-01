@@ -1,0 +1,14 @@
+{
+    "term": "graph",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "graf",
+    "def-en": "A data structure in which data is modelled as nodes and the connections between them.",
+    "def-ga": "Struchtúr sonraí ina shamhlaítear sonraí mar nóid agus mar cheangail eatarthu.",
+
+    "prov": {
+        "graf": "de-bhaldraithe, focloir-beag*, odonaill",
+    },
+    "notes": [
+        "* Cé go bhfuil 'graf' istigh san Fhoclóir Beag, is i gcomhthéacs graif líne amháin a luaitear é.",
+    ]
+}

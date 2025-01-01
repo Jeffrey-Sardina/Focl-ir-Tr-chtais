@@ -1,0 +1,15 @@
+{
+    "term": "loss function",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "feidhm phionós",
+    "def-en": "In the context of a machine learning model, a function that calculates the loss value of that model on some set of data points.",
+    "def-ga": "I gcomhthéacs samhlach ríomhfhoghlama, feidhm a dhéanann luach an phionóis a áireamh don tsamhail sin ar tacar sonraí éigin.",
+
+    "prov": {
+        "feidhm": "féach ar an téarma 'feidhm'.",
+        "pionós": "féach ar an téarma 'pionós'."
+    },
+    "notes": [
+        "Féach ar na téarmaí 'feidhm' agus 'pionós'."
+    ]
+}

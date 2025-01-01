@@ -300,17 +300,17 @@ Ceisteanna
 - comhchoibhneas
 - Teanglann -->
 
-loss (the value)
+<!-- loss (the value)
 - pionós ?
-- Teanglann
+- Teanglann -->
 
-loss functions
+<!-- loss functions
 - feidhm phionóis
-- tá "caillfheidhm" ar Téarma.ie. Ach is ionann "caill" agus rud in amú, seachas saghas "loss / penalyt" an Bhéarla. Is fearr liom chomh-chosúlacht a dhéanamh le "pionós" chun téarma nua a chruthú. Ag an am céanna, is féidir an tuiseal ginideach a úsáid seachas ainmní a chur ina rámh-fhocal. Sin le rá faidhm + pionóis -> feidhm phionóis.
+- tá "caillfheidhm" ar Téarma.ie. Ach is ionann "caill" agus rud in amú, seachas saghas "loss / penalyt" an Bhéarla. Is fearr liom chomh-chosúlacht a dhéanamh le "pionós" chun téarma nua a chruthú. Ag an am céanna, is féidir an tuiseal ginideach a úsáid seachas ainmní a chur ina rámh-fhocal. Sin le rá faidhm + pionóis -> feidhm phionóis. -->
 
-connectivity
+<!-- connectivity
 - cé chomh ceangailte (is atá rud, srl)
-- níl focal ann i dTeanglann ná in Dineen.
+- níl focal ann i dTeanglann ná in Dineen. -->
 
 dense
 - dlúth
@@ -474,6 +474,7 @@ finetune
 
 epoch
 - timthriall ("cycle" mata i dTeanglann; "circuit" in Dineen)
+- nó, seal?
 
 few-shot / n-shot / 0-shot
 - cúpla-triail, n-triail, 0-triail ??
