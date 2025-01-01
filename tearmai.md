@@ -1,5 +1,6 @@
 | **Gaeilge**                    | **Béarla**                      |
 |--------------------------------|---------------------------------|
+| (frása le 'ceangailte')        | connectivity                    |
 | (frása le 'toise')             | dimensionality                  |
 | abairt thriarach               | triple                          |
 | ailíniú                        | alignment                       |
@@ -20,16 +21,20 @@
 | deimhnigh                      | to validate                     |
 | deimhniú                       | validation                      |
 | diúltach                       | negative                        |
+| dlúth                          | dense                           |
 | dírithe                        | directed                        |
 | dóchúlacht                     | probability                     |
 | faisnéis                       | predicate                       |
 | feidhm                         | function                        |
+| feidhm phionós                 | loss function                   |
 | feidhm siogmóideach            | sigmoid function                |
+| fo-ghraf                       | subgraph                        |
 | folaigh                        | latent                          |
 | foshuíomh                      | assumption                      |
 | frith-shampla                  | counterexample                  |
 | frith-shamplóir                | negative sampler                |
 | fíor-abairt (thriarach)        | positive (triple)               |
+| graf                           | graph                           |
 | graf eolais (GE)               | knowledge graph (KG)            |
 | hipear-pharaiméadar            | hyperparameter                  |
 | inchreidteacht                 | plausibility                    |
@@ -43,6 +48,7 @@
 | néarach                        | neural                          |
 | nód                            | node                            |
 | ointeolaíocht                  | ontology                        |
+| pionós                         | loss                            |
 | randamach                      | random                          |
 | ríomheolaíocht                 | computer science                |
 | ríomhfoghlama                  | machine learning                |
@@ -69,6 +75,18 @@
 | tras-fhoghlaim                 | transfer learning               |
 | veicteoir                      | vector                          |
 | xxx                            | xxx                             |
+
+
+**(frása le 'ceangailte') (ainmfhocal): connectivity**<br>
+*sainmhíniú (ga):* Cé chomh ceangailte is atá cuid de ghraf eolais (.i. nód nó ceangal) le codanna eile den ghraf céanna.<br>
+*sainmhíniú (en):* How connected one part of a knowledge graph (i.e. a node or edge) is with other parts of the same graph.
+
+tagairtí:
+- xxx: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
+
+nótaí aistriúcháin:
+- Níl téarma dó seo ar fáil go díreach ó Fhoclóir Uí Dhónaill, De Bhaldraithe, Uí Dhónaill agus Uí Maoileoin, ná Uí Dhuinín. Cé go bhfuil dlús ann (mar 'density' i gcomhthéacs eolaíochta), is iomaí saghasanna dlúis atá ann i ngraf eolais, agus níl 'connectivity' ach ar cheann amháin acu sin. Fágtar gan téarma ar leith é seo mar sin, agus úsáidtear frása leis an téarma 'ceangailte mar sin.
+- Samplaí: Cé chomh ceangailte is atá rud, nód atá an-cheangailte le nóid eile, srl.
 
 
 **(frása le 'toise') (ainmfhocal): dimensionality**<br>
@@ -305,6 +323,17 @@ nótaí aistriúcháin:
 - Téarma díreach ar fáil sna foclóirí.
 
 
+**dlúth (aidiacht): dense**<br>
+*sainmhíniú (ga):* I gcomthéacs graif eolais (nó fo-ghraif), an-cheangailte le codanna eile den ghraf / den fho-ghraf.<br>
+*sainmhíniú (en):* In the context of a knowledge graph (or subgraph), highly connected with other parts of the same graph / subgraph.
+
+tagairtí:
+- dlúth: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
+
+nótaí aistriúcháin:
+- Téarma díreach ar fáil le brí chomhchosúil.
+
+
 **dírithe (aidiacht): directed**<br>
 *sainmhíniú (ga):* Ag tagairt ar cheangal in abairte triaraí, ag ceangal an nód tosaigh (an ainmní) leis an nód deiridh (an cuspóir) in ord.<br>
 *sainmhíniú (en):* Regarding an edge in a triple, providing an order-aware mapping of a source node (the subject) to a target node (the object).
@@ -350,6 +379,18 @@ nótaí aistriúcháin:
 - Ní i gchomthéacs matamaticiúil a luaitear an téarma seo. Cé is moite de sin, is léir go bhfuil úsáid teicniciúl leis (.i. 'Vital functions, feidhmiú m an choirp.' i bhFoclóir de Bhaldraithe.
 
 
+**feidhm phionós (ainmfhocal): loss function**<br>
+*sainmhíniú (ga):* I gcomhthéacs samhlach ríomhfhoghlama, feidhm a dhéanann luach an phionóis a áireamh don tsamhail sin ar tacar sonraí éigin.<br>
+*sainmhíniú (en):* In the context of a machine learning model, a function that calculates the loss value of that model on some set of data points.
+
+tagairtí:
+- feidhm: féach ar an téarma 'feidhm'.
+- pionós: féach ar an téarma 'pionós'.
+
+nótaí aistriúcháin:
+- Féach ar na téarmaí 'feidhm' agus 'pionós'.
+
+
 **feidhm siogmóideach (aidiacht): sigmoid function**<br>
 *sainmhíniú (ga):* The function $sigma(x) = 1 / (1 + e^(-x))$ (which has a shape similar to the letter s when plotted on a graph).<br>
 *sainmhíniú (en):* An feidhm $siogma(x) = 1 / (1 + e^(-x))$ (a bhfuil cruth cosúil leis an litir 's' air agus é breactha ar graf).
@@ -361,6 +402,18 @@ tagairtí:
 
 nótaí aistriúcháin:
 - Níl an focal 'siogmóideach' ann i bhfoclóir ar bith atá á úsáid agam, acch is féidir an téarma a chruthú i nGaeilge mar a rinneadh i mBéarla as an litir Gréigise (siogma) agus -'óideach'.
+
+
+**fo-ghraf (ainmfhocal): subgraph**<br>
+*sainmhíniú (ga):* Cuid de ghraf eolais, atá mar ghraf eolas (níos lú) é féin.<br>
+*sainmhíniú (en):* A part of a knowledge graph that itself is a (smaller) knowledge graph.
+
+tagairtí:
+- fo-: De Bhaldraithe (1978), Ó Dónaill et al. (1991), Ó Dónaill (1977)
+- graf: féach ar an téarma 'graf'
+
+nótaí aistriúcháin:
+- Tá an téarma seo i bhFoclóir Uí Dhuinín, ach leis an mbrí 'faoi' seachas 'mar chuid de'.
 
 
 **folaigh (aidiacht): latent**<br>
@@ -423,6 +476,17 @@ tagairtí:
 nótaí aistriúcháin:
 - Úsáidtear frith-shample toisc gurb in, go díreach, a bhfuil i gceist sa gcás seo.
 - Féach chomh maith ar an téarma 'frith-shampla'
+
+
+**graf (ainmfhocal): graph**<br>
+*sainmhíniú (ga):* Struchtúr sonraí ina shamhlaítear sonraí mar nóid agus mar cheangail eatarthu.<br>
+*sainmhíniú (en):* A data structure in which data is modelled as nodes and the connections between them.
+
+tagairtí:
+- graf: De Bhaldraithe (1978), Ó Dónaill et al. (1991)\*, Ó Dónaill (1977)
+
+nótaí aistriúcháin:
+- \* Cé go bhfuil 'graf' istigh san Fhoclóir Beag, is i gcomhthéacs graif líne amháin a luaitear é.
 
 
 **graf eolais (GE) (ainmfhocal): knowledge graph (KG)**<br>
@@ -573,6 +637,20 @@ tagairtí:
 
 nótaí aistriúcháin:
 - Téarma ar fáil leis an mbrí chéanna (i gcommhthéacs níos ginearálta) sna foclóirí thuas.
+
+
+**pionós (ainmfhocal): loss**<br>
+*sainmhíniú (ga):* I gcomhthéacs samhlach ríomhfhoghlama, luach uimhriúil a chuireann in iúl cé chomh dona is atá an tsamhail (sin le rá, is ionann pionós níos airde agus an tsamhail a bheith chomh héifeachtach céanna). Úsáidtear an pionós mar chuid mhatamataiciúil den ríomhfhoghlaim.<br>
+*sainmhíniú (en):* In the context of a machine learning model, a numerical value that represents how bad the model is (that is, a higher penalty indicate that the model is less effective). Loss is used as a part of the mathematical process of machine learning.
+
+tagairtí:
+- pionós: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
+
+nótaí aistriúcháin:
+- \* Is 'pionús' seachas 'pionós' atá i bhFoclóir Uí Dhuinín, ach glactar leis gurb in an focal céanna le litriú eile
+- Tá 'caill' ar téarma.ie mar fhocal ar 'loss' an Bhéarla. Meastar go bhfuil sé sin rud beag ró-litriúil; i nGaeilge, is é 'caill' ná rud atá caillte / gan tuairisc air (de réir Foclóir Uí Dhónaill). Ní hionann sin agus an luach 'loss', atá úsáidte chun cur síos a dhéanamh ar cé chomh dona is atá samhail ríomhfhoghlama. Thairis sin, níl trácht ar bith ar 'caill' mar fhocal matamataciúil, eolaíochta, ná sainmhínithe ann. Ní ghlactar le 'caill' mar sin.
+- Is minic a dhéantar analach idir ríomhfhoghlaim agus foghlaim na ndaoine (rud nach bhfuil crinn ar thaobh an heolaíochta de, ach a dhéantar mar sin féin). Sé bunús an analacha seo ná go mbíonn 'loss' mar phionós ar an ríomhaire (cosúil le pionós a chur ar madra toisc é a bheith dána). Bíonn an tsamhail ag foghlaim toisc an phionóis sin. Cé nach bhfuil an t-analach seo iomlán cruinn i gcomhthéacs matamataciúil na ríomhfhoghlama, úsáidtear minic go leor. Is as an analach seo a thagann an téarma roghnaithe 'pionós'.
+- Ní i gcomhthéacs matamataciúil a luaitear an focal pionós, ach glactar leis fós féin toisc an analacha thuas.
 
 
 **randamach (aidiacht): random**<br>
