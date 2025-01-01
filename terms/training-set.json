@@ -6,10 +6,10 @@
     "def-ga": "Tacar sonraí a úsáidtear chun samhail ríomhfhoghlama a thraenáil.",
 
     "prov": {
-        "tacar": "féach ar an téarma 'tacar'",
-        "traenáil": "féach ar an téarma 'traenáil'"
+        "tacar": "féach ar an téarma 'set / tacar'",
+        "traenáil": "féach ar an téarma 'training / traenáil'"
     },
     "notes": [
-        "Féách ar na téarmaí 'tacar' agus 'traenáil'."
+        "Féách ar na téarmaí 'set / tacar' agus 'training / traenáil'."
     ]
 }

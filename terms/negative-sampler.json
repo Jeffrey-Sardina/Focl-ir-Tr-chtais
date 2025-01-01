@@ -6,8 +6,8 @@
     "def-ga": "cuid de shamhail leabaithe graif eolais a chruthaíonn frith-shamplaí don tsamhail chéanna.",
 
     "prov": {
-        "frith-": "féach ar an téarma 'frith-shampla'",
-        "samplóir": "féach ar an téarma 'samplóir'"
+        "frith-": "féach ar an téarma 'negative / frith-shampla'",
+        "samplóir": "féach ar an téarma 'sampler / samplóir'"
     },
     "notes": [
         "Ní úsáidtear '*samplóir diúltach' toisc nach léir go mbeadh sé sin chomh léir / intuigthe céanna."

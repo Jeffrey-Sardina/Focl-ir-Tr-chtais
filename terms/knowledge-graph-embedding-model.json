@@ -6,9 +6,9 @@
     "def-ga": "Samhail ríomhfhoghlama a bhfuil mar aidhm aige graf eolais a leabú.",
 
     "prov": {
-        "leabú": "féach ar an téarma 'leabú'",
-        "graf eolais": "féach ar an téarma 'graf eolais'",
-        "samhail": "féach ar an téarma 'samhail'"
+        "leabú": "féach ar an téarma 'embedding / leabú'",
+        "graf eolais": "féach ar an téarma 'knowledge graph / graf eolais'",
+        "samhail": "féach ar an téarma 'model / samhail'"
     },
     "notes": [
         "Fágtar san uimhir uatha an téarma 'leabú' toisc phróiseas an leabaithe a bheith i gceist, seachas líon na leabuithe ar fad.",

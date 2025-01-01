@@ -6,10 +6,10 @@
     "def-ga": "Tacar sonraí a úsáidtear chun samhail ríomhfhoghlama a dheimhniú.",
 
     "prov": {
-        "tacar": "féach ar an téarma 'tacar'",
-        "deimhniú": "féach ar an téarma 'deimhniú'"
+        "tacar": "féach ar an téarma 'set / tacar'",
+        "deimhniú": "féach ar an téarma 'validation / deimhniú'"
     },
     "notes": [
-        "Féách ar na téarmaí 'tacar' agus 'teisteáil'."
+        "Féách ar na téarmaí 'set / tacar' agus 'validation / deimhniú'."
     ]
 }

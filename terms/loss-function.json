@@ -6,8 +6,8 @@
     "def-ga": "I gcomhthéacs samhlach ríomhfhoghlama, feidhm a dhéanann luach an phionóis a áireamh don tsamhail sin ar tacar sonraí éigin.",
 
     "prov": {
-        "feidhm": "féach ar an téarma 'feidhm'.",
-        "pionós": "féach ar an téarma 'pionós'."
+        "feidhm": "féach ar an téarma 'function / feidhm'.",
+        "pionós": "féach ar an téarma 'loss / pionós'."
     },
     "notes": [
         "Féach ar na téarmaí 'feidhm' agus 'pionós'."

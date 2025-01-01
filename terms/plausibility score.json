@@ -6,8 +6,8 @@
     "def-ga": "Uimhjhir a dhéann cur síos ar an dóchúlacht go bhfuil rud fíor.",
 
     "prov": {
-        "scór": "féach ar an téarma 'scór'",
-        "inchreidteacht": "féach ar an téarma 'inchreidteacht'"
+        "scór": "féach ar an téarma 'score / scór'",
+        "inchreidteacht": "féach ar an téarma 'plausibility / inchreidteacht'"
     },
     "notes": [
         "Féách ar nótaí ar 'scór' agus ar 'inchreidteacht'"
