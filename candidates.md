@@ -414,13 +414,16 @@ Ceisteanna
 - méid na bhfo-thacar (traenála, srl)
 - ó fo-thacar thuas -->
 
-regularise
+<!-- regularise
 - tabhair chun rialtachta
-- Teanglann
+- Teanglann -->
 
-regulariser
+<!-- regulariser
 - córas rialtachta
-- ó rialtacht (regularity) ar Teanglann.
+- ó rialtacht (regularity) ar Teanglann. -->
+
+<!-- regularisation
+- tabhairt chun rialtachta -->
 
 optimise
 - feabhsaigh

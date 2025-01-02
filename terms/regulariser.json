@@ -1,0 +1,15 @@
+{
+    "term": "regulariser",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "córas rialtachta",
+    "def-en": "A system that regularises a machine learning model as it is being trained.",
+    "def-ga": "Córas a dhéanann samhail ríomhfhoghlama a thabhairt chun rialtachta le linn á traenála.",
+
+    "prov": {
+        "córas": "de-bhaldraithe, focloir-beag, odonaill",
+        "rialtacht": "féach ar an téarma 'to regularise / tabhair chun rialtachta'"
+    },
+    "notes": [
+        "Frása iomlán ar fáil ó na foclóirí thuas i gcomthéacs ginearálta."
+    ]
+}

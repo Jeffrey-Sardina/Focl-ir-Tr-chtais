@@ -24,6 +24,7 @@
 | cuspóir                        | object                          |
 | céim                           | degree                          |
 | cóimhinicíocht                 | co-frequency                    |
+| córas rialtachta               | regulariser                     |
 | dearadh                        | architecture                    |
 | deimhneach                     | positive                        |
 | deimhnigh                      | to validate                     |
@@ -37,6 +38,8 @@
 | feidhm                         | function                        |
 | feidhm phionós                 | loss function                   |
 | feidhm siogmóideach            | sigmoid function                |
+| fhoghlaim cheart               | correct fitting                 |
+| fhoghlaim easnamhach           | underfitting                    |
 | fo-ghraf                       | subgraph                        |
 | fo-thacar                      | batch                           |
 | folaigh                        | latent                          |
@@ -75,6 +78,7 @@
 | réamhinsteoir nasc             | link predictor                  |
 | ríomheolaíocht                 | computer science                |
 | ríomhfoghlama                  | machine learning                |
+| ró-fhoghlaim                   | overfitting                     |
 | samhail                        | model                           |
 | samhail leabaithe graif eolais | knowledge graph embedding model |
 | samhlaigh                      | to model                        |
@@ -89,6 +93,8 @@
 | scóráil                        | to-score                        |
 | sonraí                         | data                            |
 | struchtúr                      | structure                       |
+| tabhair chun rialtachta        | to-regularise                   |
+| tabhairt chun rialtachta       | regularisation                  |
 | tacar                          | set                             |
 | tacar deimhnithe               | testing set                     |
 | tacar teisteála                | testing set                     |
@@ -391,6 +397,18 @@ nótaí aistriúcháin:
 - Féach chomh maith ar an téarma minicíocht.
 
 
+**córas rialtachta (ainmfhocal): regulariser**<br>
+*sainmhíniú (ga):* Córas a dhéanann samhail ríomhfhoghlama a thabhairt chun rialtachta le linn á traenála.<br>
+*sainmhíniú (en):* A system that regularises a machine learning model as it is being trained.
+
+tagairtí:
+- córas: De Bhaldraithe (1978), Ó Dónaill et al. (1991), Ó Dónaill (1977)
+- rialtacht: féach ar an téarma 'to regularise / tabhair chun rialtachta'
+
+nótaí aistriúcháin:
+- Frása iomlán ar fáil ó na foclóirí thuas i gcomthéacs ginearálta.
+
+
 **dearadh (ainmfhocal): architecture**<br>
 *sainmhíniú (ga):* An struchtúr matamaiticiúil atá ar líonra néarach.<br>
 *sainmhíniú (en):* The mathematical structure of a neural network.
@@ -537,6 +555,31 @@ tagairtí:
 
 nótaí aistriúcháin:
 - Níl an focal 'siogmóideach' ann i bhfoclóir ar bith atá á úsáid agam, acch is féidir an téarma a chruthú i nGaeilge mar a rinneadh i mBéarla as an litir Gréigise (siogma) agus -'óideach'.
+
+
+**fhoghlaim cheart (ainmfhocal): correct fitting**<br>
+*sainmhíniú (ga):* I gcomthéacs ríomhfhoghlama, foghlaim réasúnta iomlán atá in ann patrúin ginearálta an tacair traenála a fhoghlaim gan a bheith ag ró-fhogholaim ná an foghlaim go heasnamhach.<br>
+*sainmhíniú (en):* In the context of machine learning, reasonably complete learning that can extract general patterns from the training set without overfitting or underfitting.
+
+tagairtí:
+- foghlaim: féach ar an téarma 'machine learning / ríomhfhoghlaim
+- ceart: De Bhaldraithe (1978), Dineen (1934)\*, Ó Dónaill et al. (1991), Ó Dónaill (1977)
+
+nótaí aistriúcháin:
+- Féách ar an téarma 'machine learning / ríomhfhoghlaim'
+
+
+**fhoghlaim easnamhach (ainmfhocal): underfitting**<br>
+*sainmhíniú (ga):* I gcomthéacs ríomhfhoghlama, foghlaim neamh-iomlán a fhágann nach bhfuil an tsamhail in ann patrúin ginearálta a fháil ón tacar traenála.<br>
+*sainmhíniú (en):* In the context of machine learning, incomplete learning that results in the model not being able to learn general patterns from the training set.
+
+tagairtí:
+- foghlaim: féach ar an téarma 'machine learning / ríomhfhoghlaim
+- easnamhach: De Bhaldraithe (1978), Dineen (1934)\*, Ó Dónaill et al. (1991), Ó Dónaill (1977)
+
+nótaí aistriúcháin:
+- \* Is é 'easnamh' seachas 'easnamhach' atá i bhFoclóir Uí Dhuinín.
+- Féách chomh maith ar an téarma 'machine learning / ríomhfhoghlaim'
 
 
 **fo-ghraf (ainmfhocal): subgraph**<br>
@@ -994,6 +1037,19 @@ nótaí aistriúcháin:
 - Cé nach mbíonn trácht ar 'ríomhfhoghalim' i bhfoclóir ar bith, tá ann dá leithéid de 'r-phost' sa gcaint. Móide sin, is rud é seo a dhéantar ar réimíreanna na n-eolaíochta (féách ar 'bith-' mar réimír agus 'bitheolaíocht'.
 
 
+**ró-fhoghlaim (ainmfhocal): overfitting**<br>
+*sainmhíniú (ga):* I gcomthéacs ríomhfhoghlama, foghlaim de ghlanmheabhair ar an tacar traenála i gcaoi a chuireann bac ar patrúin ghinearálta an tacair thraenála a fhoghlaim.<br>
+*sainmhíniú (en):* In the context of machine learning, memoirsation of the training set that precludes learning the general patterns of the training set.
+
+tagairtí:
+- ró-: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
+- foghlaim: féach ar an téarma 'machine learning / ríomhfhoghlaim
+
+nótaí aistriúcháin:
+- Téarma cruthaithe mar chomh-fhocal leis an réimír agus an leis in bhfocal thuas.
+- Féách chomh maith ar an téarma 'machine learning / ríomhfhoghlaim'
+
+
 **samhail (ainmfhocal): model**<br>
 *sainmhíniú (ga):* A mathematical object that uses a calculus-based approach to solve a machine learning task.<br>
 *sainmhíniú (en):* Réad matamaiticiúil a úsáideann cur chuige bunaithe ar calcalas chun tasc foghlama meaisíní a chur i gcrích.
@@ -1153,6 +1209,28 @@ tagairtí:
 
 nótaí aistriúcháin:
 - Téarma luaite le brí comhchosúil sna foclóirí thuas.
+
+
+**tabhair chun rialtachta (briathar): to-regularise**<br>
+*sainmhíniú (ga):* I gcomthéacs samhlach ríomhfhoghlama, ró-fhoghlaim a laghdú trí méid luach na bparaiméadar a shrianadh ar chaoi éigin.<br>
+*sainmhíniú (en):* In the context of a machine learning mode, reducing overfitting by restricting the size of parameter values in some way.
+
+tagairtí:
+- tabhair chun rialtachta: De Bhaldraithe (1978), Ó Dónaill (1977)
+
+nótaí aistriúcháin:
+- Frása iomlán ar fáil ó na foclóirí thuas i gcomthéacs ginearálta.
+
+
+**tabhairt chun rialtachta (ainmfhocal): regularisation**<br>
+*sainmhíniú (ga):* I gcomthéacs samhlach ríomhfhoghlama, próiseas a bhfuil mar aidhm aige ró-fhoghlaim a laghdú trí méid luach na bparaiméadar a shrianadh ar chaoi éigin.<br>
+*sainmhíniú (en):* In the context of a machine learning mode, a process that aims to reduce overfitting by restricting the size of parameter values in some way.
+
+tagairtí:
+- tabhair chun rialtachta: féach ar an téarma 'to regularise / tabhair chun rialtachta'
+
+nótaí aistriúcháin:
+- Féach ar an téarma 'to regularise / tabhair chun rialtachta'.
 
 
 **tacar (ainmfhocal): set**<br>
