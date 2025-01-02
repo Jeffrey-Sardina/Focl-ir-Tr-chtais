@@ -7,13 +7,18 @@
 | ailíniú struchtúir             | structural alignment            |
 | ainmní                         | subject                         |
 | airí                           | feature                         |
+| aschur                         | output                          |
 | bunachar sonraí                | database                        |
 | ceangal                        | relation(ship)                  |
+| ceist                          | query                           |
+| ceist réamhinsinte nasc        | link prediction query           |
 | ciseal                         | layer                           |
 | ciseal lán-cheangailte         | dense layer                     |
 | ciseal nialas                  | dropout layer                   |
 | comhchoibhneas                 | correlation                     |
 | comhéifeacht                   | coefficient                     |
+| creatlach                      | framework                       |
+| creatlach ailinithe struchtúir | structural alignment framework  |
 | cuardach hipear-pharaiméadar   | hyperparameter search           |
 | cuspóir                        | object                          |
 | céim                           | degree                          |
@@ -39,7 +44,10 @@
 | graf                           | graph                           |
 | graf eolais (GE)               | knowledge graph (KG)            |
 | hipear-pharaiméadar            | hyperparameter                  |
+| hipitéis ar ailiniú struchtúir | structural alignment hypothesis |
 | inchreidteacht                 | plausibility                    |
+| insamhail1                     | to simulate                     |
+| ionchur                        | input                           |
 | le lipéad                      | labelled                        |
 | leabú                          | embedding                       |
 | leabú graif eolais             | knowledge graph embedding       |
@@ -48,11 +56,14 @@
 | measúnaigh                     | to evaluate                     |
 | measúnú                        | evaluation                      |
 | minicíocht                     | frequency                       |
+| neamh-fheicthe                 | unseen                          |
 | néarach                        | neural                          |
 | nód                            | node                            |
 | ointeolaíocht                  | ontology                        |
 | pionós                         | loss                            |
 | randamach                      | random                          |
+| réamhinsint nasc               | link prediction                 |
+| réamhinsteoir nasc             | link predictor                  |
 | ríomheolaíocht                 | computer science                |
 | ríomhfoghlama                  | machine learning                |
 | samhail                        | model                           |
@@ -72,6 +83,7 @@
 | tacar deimhnithe               | testing set                     |
 | tacar teisteála                | testing set                     |
 | tacar traenála                 | training set                    |
+| tasc réamhinsinte nasc         | link prediction task            |
 | teisteáil                      | to test                         |
 | toise                          | dimension                       |
 | traenáil                       | to-train                        |
@@ -162,6 +174,17 @@ nótaí aistriúcháin:
 - Tá réimse leathan focal eile (.i. tréith, gné, srl) a bheadh inúsáidte sa gcomhthéacs seo. Cé is moite de sin, is minice iad sin i gcomhthéacs duine, seachas ruda theibí nó eile.
 
 
+**aschur (ainmfhocal): output**<br>
+*sainmhíniú (ga):* I gcomthéacs córais, próisis, nó feidhme, sonraí a thagann as an bpróiseas céanna agus é críochnaithe.<br>
+*sainmhíniú (en):* In the context of a system, process, or function, data that is returned from the process at its end.
+
+tagairtí:
+- aschur: De Bhaldraithe (1978), Ó Dónaill (1977)
+
+nótaí aistriúcháin:
+- Luann Foclóir De Bhaldraithe 'ionchur' mar théarma teileachumarsáide -- sin le rá, i gcomthéacs an-chosúil leis an gcomthéacs seo.
+
+
 **bunachar sonraí (ainmfhocal): database**<br>
 *sainmhíniú (ga):* bailliúchán sonraí ar ríomhaire a bhfuil struchtú loighciúil righin leis.<br>
 *sainmhíniú (en):* a collection of data on a computer with a strict logical structure.
@@ -187,6 +210,30 @@ tagairtí:
 nótaí aistriúcháin:
 - Is mar thagairt d'fheistiú (le rópa) a úsáidtear an téarma seo den chuid is mó sna foclóirí. Sin ráite, is féidir a rá chomh maith go bhfuil dhá nód a bhfuil ceangal eararthub 'feistithe' lena chéile, sa chaoi nach measann an úsar gur bac ar bith é sin ar úsáid an fhocail 'ceangal' leis an mbrí nua seo.
 - Seo an téarma céanna is a úsáidtear chun 'edge' a chur in iúl, toisc go bhfuil an bhrí chéanna leis.
+
+
+**ceist (ainmfhocal): query**<br>
+*sainmhíniú (ga):* I gcomthéacs bunachar sonraí, ordú a chuirtear ar an mbunachar i bhfoirm cód chun freagra a fháil uaidh. Mar shampla, is féidir ceist a chur ar ghraf eolais faoi an bhfuil abairt thriarach éigin sa ngraf, nó nach bhfuil.<br>
+*sainmhíniú (en):* In the context of a database, an order that is given to the database in the form of code to get an answer in return. For example, a query could be put to a knowledge graph asking if a specific triple is a part of the graph, or if it is not.
+
+tagairtí:
+- ceist: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
+
+nótaí aistriúcháin:
+- Téarma díreach ar fáil le brí chomhchosúil.
+
+
+**ceist réamhinsinte nasc (ainmfhocaal): link prediction query**<br>
+*sainmhíniú (ga):* Ceist a chuirtear ar réamhinsteoir nasc i bhfoirm abaite triaraí neamhiomlán (s,p,?) nó (?,p,o). Is é an freagra uirthi ná nód $o$ nó $s$ dhéanann abairt iomlán agus cheart as abairt neamhiomlán na ceiste.<br>
+*sainmhíniú (en):* A query that is posed to a link predictor in the form of an incomplete triple (s,p,?) or (?,p,o). The answer to this query is a node $o$ or $s$ that makes a complete and true triple out of the query triple
+
+tagairtí:
+- tasc: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
+- réamhsinint: féach ar an téarma 'link prediction / réamhinsint nasc'
+- nasc: féach ar an téarma 'link prediction / réamhinsint nasc'
+
+nótaí aistriúcháin:
+- Féach ar an téarma 'link prediction / réamhinsint nasc'
 
 
 **ciseal (ainmfhocal): layer**<br>
@@ -246,6 +293,30 @@ tagairtí:
 
 nótaí aistriúcháin:
 - Téarma luaite mar théarma matamaitice i bhFoclóir Uí Dhónaill agus i bhFoclóir de Bhladraithe.
+
+
+**creatlach (ainmfhocal): framework**<br>
+*sainmhíniú (ga):* Structúr teibí a úsáidtear chun feiniméan a léiriú nó a thuiscint i bhfoirm ginearálta.<br>
+*sainmhíniú (en):* An abstract structure used to describe or understand a phenomenon in a general form.
+
+tagairtí:
+- creatlach: De Bhaldraithe (1978), Ó Dónaill et al. (1991), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
+
+nótaí aistriúcháin:
+- Téarma díreach ar fáil le brí chomhchosúil.
+
+
+**creatlach ailinithe struchtúir (ainmfhocal): structural alignment framework**<br>
+*sainmhíniú (ga):* An hipitéis taobh thiar den tráchtas seo, a deir go bhfuil ailíniú idir struchtúr graif eolais agus cé chomh maith agus is féidir réamhinsint nasc a dhéanamh air.<br>
+*sainmhíniú (en):* The central hypothesis of this thesis, which states that there is alignent between the structure of a knowledge graph and how well link prediction can be done on it.
+
+tagairtí:
+- creatlach: féach ar an téarma 'framework / creatlach'
+- ailíniú: féach ar an téarma 'alignment / ailíniú'
+- struchtúr: féach ar an téarma 'structure / struchtúr'
+
+nótaí aistriúcháin:
+- Téarma cruthaithe as téarmaí eile anseo (agus as 'hipitéis', atá luaite sa gcomthéacs céanna sna foclóirí thuas).
 
 
 **cuardach hipear-pharaiméadar (ainmfhocal): hyperparameter search**<br>
@@ -544,6 +615,19 @@ nótaí aistriúcháin:
 - Níl an téarma iomlán 'hipear-pharaiméadar' ar fáil i bhfoclóir ar bith. Sin ráite, tá idir 'hipear-' (mar réimír) agus 'paraiméadar' (mar ainmfhocal) i bhFoclóir Uí Dhónaill, rud a spreagann an téarma seo go díreach.
 
 
+**hipitéis ar ailiniú struchtúir (ainmfhocal): structural alignment hypothesis**<br>
+*sainmhíniú (ga):* An hipitéis taobh thiar den tráchtas seo, a deir go bhfuil ailíniú idir struchtúr graif eolais agus cé chomh maith agus is féidir réamhinsint nasc a dhéanamh air.<br>
+*sainmhíniú (en):* The central hypothesis of this thesis, which states that there is alignent between the structure of a knowledge graph and how well link prediction can be done on it.
+
+tagairtí:
+- hipitéis: De Bhaldraithe (1978), Ó Dónaill et al. (1991), Ó Dónaill (1977)
+- ailíniú: féach ar an téarma 'alignment / ailíniú'
+- struchtúr: féach ar an téarma 'structure / struchtúr'
+
+nótaí aistriúcháin:
+- Téarma cruthaithe as téarmaí eile anseo (agus as 'hipitéis', atá luaite sa gcomthéacs céanna sna foclóirí thuas).
+
+
 **inchreidteacht (ainmfhocal): plausibility**<br>
 *sainmhíniú (ga):* Airí ruda ar (dócha gur) fíor é.<br>
 *sainmhíniú (en):* The property of being (likely) true.
@@ -553,6 +637,29 @@ tagairtí:
 
 nótaí aistriúcháin:
 - Téárma ar fáil go díreach ó na foclóirí i gcomhthéacs chomhchosúil.
+
+
+**insamhail1 (briathar): to simulate**<br>
+*sainmhíniú (ga):* Úsáid samhlach ríomhfhoghlama (nó uirlisí ríomhaireachta eile) chun próiseas casta a shamhlú i bhfoirm níos simplí..<br>
+*sainmhíniú (en):* The use of a machine lelarning mode (or other computational tools) to model a complex process in a simpler form.
+
+tagairtí:
+- insamhail1: Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
+
+nótaí aistriúcháin:
+- Níl focal ar bith ann iomlán foirfe don téarma seo sna foclóirí atá á n-úsáid. Cé is moite de sin, tá brí comhchosúil (nach mór) ag 'insamhail1', agus tá an-bhuntáiste aige sin go bhfuil sé cosúil leis an bhfocal 'samhail', atá in úsáid chomh maith sa tráchtas seo. Roghnaíodh mar sin e.
+- Is é ionsamhail1 atá ar Focloir.ie, ach is é 'insamhail1' atá i bhFoclóir Uí Dhónaill. Mar is iondúil sa saothar seo, tugtar aird d'Fhoclóir Uí Dhónaill amháin sa gcás seo.
+
+
+**ionchur (ainmfhocal): input**<br>
+*sainmhíniú (ga):* I gcomthéacs córais, próisis, nó feidhme, sonraí a chuirtear isteach lena bheith úsáidte chun sprioc éigin a bhaint amach (m.sh áireamh lauch éigin).<br>
+*sainmhíniú (en):* In the context of a system, process, or function, data that is provided to be used to achieve an end (such as the calculation of a certain value).
+
+tagairtí:
+- ionchur: De Bhaldraithe (1978), Ó Dónaill (1977)
+
+nótaí aistriúcháin:
+- Luann Foclóir De Bhaldraithe 'ionchur' mar théarma teileachumarsáide -- sin le rá, i gcomthéacs an-chosúil leis an gcomthéacs seo.
 
 
 **le lipéad (aidiacht): labelled**<br>
@@ -648,6 +755,18 @@ nótaí aistriúcháin:
 - Luann Foclóir Uí Dhónaill agus Foclóir De Bhaldraithe 'minicíocht' mar théarma leictreachais, agus le brí níos leithne (.i. minice).
 
 
+**neamh-fheicthe (aidiacht): unseen**<br>
+*sainmhíniú (ga):* I gcomhthéacs tacar sonraí (m.sh. tacar teisteála / deimhnithe), gan a bheith úsáidte / feicthe le linn an próiseas traenála a dhéantar ar shamhail ríomhfhoghlama.<br>
+*sainmhíniú (en):* In the context of a dataset (such as the testing / validation set), not being used / seen during the training phase of a machine learning model.
+
+tagairtí:
+- neamh-: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
+- feic: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
+
+nótaí aistriúcháin:
+- Tá téarmaí eile luaite leis an mbrí chéanna i bhFoclóir De Bhaldraithe (.i. gan feiceáil, gan radhairc air) a bheadh oiriúnach chomh maith. Meastar gurb é is léire, áfach, ná 'neamh-fheicthe' sa gcomhthéacs sainmínithe seo.
+
+
 **néarach (aidiacht): neural**<br>
 *sainmhíniú (ga):* Ag baint le néaróga (bíodh siad fíor nó saorga) nó le líonraí néaracha.<br>
 *sainmhíniú (en):* Relating to nerves (be they real or artificial) or to nerual networks.
@@ -704,6 +823,34 @@ tagairtí:
 
 nótaí aistriúcháin:
 - Is le brí matamaiticiúil a luaitear an téarma seo i Stórchiste.
+
+
+**réamhinsint nasc (ainmfhocaal): link prediction**<br>
+*sainmhíniú (ga):* I gcomthéacs graif eolais, réamhinsint abairt thriarach nua (nach bhfuil a ngraf) bunaithe air na habairtí triaracha atá sa ngraf.<br>
+*sainmhíniú (en):* In the context of a knowledge graph, the act of predicting a new triple (that is not in the graph) based on the triples that are in the graph.
+
+tagairtí:
+- réamhsinint: De Bhaldraithe (1978), Ó Dónaill (1977)
+- nasc: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
+
+nótaí aistriúcháin:
+- Tá 'réamh-' agus 'innsint' i bhFoclóir Uí Dhuinín, ach níl an téarma 'réamhinsint' luaite ann
+- Tá 'réamh-' agus 'insint' i bhFoclóir Uí Dhónaill agus Uí Mhaoileoin, ach níl an téarma 'réamhinsint' luaite ann
+- Luaitear 'nasc' den chuid is mó mar snaidhm ag bhíonns ag coinneáil dhá rud le chéile. Sin ráite, is féidir abairt thriarach a shamlú mar dhá nód agus ceangal nasctha le chéile (agus is dócha gurb in an áit as a dtagann an téarma Béarla 'link' chomh maith).
+- Is é an ginideach iolra (réamhinsint nasc) a úsaidtear anseo toisc gur minice caint a dhéanamh far réamhinsint (cuid mhór) nasc seachas réamhinsint naisc amháin. Sin ráite, is é 'réamhinsint naisc' an téarma ceart nuair nuach bhfuil an nasc amháin lena bheith réamhsinte.
+
+
+**réamhinsteoir nasc (ainmfhocaal): link predictor**<br>
+*sainmhíniú (ga):* I gcomthéacs graif eolais, samhail ríomhfhoghlama a dhéanann naisc a réamhinsint.<br>
+*sainmhíniú (en):* In the context of a knowledge graph, a machine learning model that performs link prediction.
+
+tagairtí:
+- réamhsinint: féach ar an téarma 'link prediction / réamhinsint nasc'
+- nasc: féach ar an téarma 'link prediction / réamhinsint nasc'
+
+nótaí aistriúcháin:
+- Úsaidtear an iarmhír choitianta -eoir chun an téarma seo a chruthú. Is féidir an téarma 'insteoir' a fheiceáil in úsáid i bhFoclóir Uí Dhónaill agus i bhFoclóir Uí Dhónaill agus Uí Mhaoileoin.
+- Féach chjomh maitb ar an téarma 'link prediction / réamhinsint nasc'
 
 
 **ríomheolaíocht (ainmfhocal): computer science**<br>
@@ -927,6 +1074,19 @@ tagairtí:
 
 nótaí aistriúcháin:
 - Féách ar na téarmaí 'set / tacar' agus 'training / traenáil'.
+
+
+**tasc réamhinsinte nasc (ainmfhocaal): link prediction task**<br>
+*sainmhíniú (ga):* I gcomthéacs graif eolais, tasc a bhfuil mar sprioc air abairt thriarach nua (nach bhfuil a ngraf) a réamhinsint bunaithe air na habairtí triaracha atá sa ngraf.<br>
+*sainmhíniú (en):* In the context of a knowledge graph, the task of predicting a new triple (that is not in the graph) based on the triples that are in the graph.
+
+tagairtí:
+- tasc: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
+- réamhsinint: féach ar an téarma 'link prediction / réamhinsint nasc'
+- nasc: féach ar an téarma 'link prediction / réamhinsint nasc'
+
+nótaí aistriúcháin:
+- Féach ar an téarma 'link prediction / réamhinsint nasc'
 
 
 **teisteáil (briathar): to test**<br>

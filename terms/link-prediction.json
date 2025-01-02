@@ -1,0 +1,18 @@
+{
+    "term": "link prediction",
+    "part-of-speech": "ainmfhocaal",
+    "citation-form": "réamhinsint nasc",
+    "def-en": "In the context of a knowledge graph, the act of predicting a new triple (that is not in the graph) based on the triples that are in the graph.",
+    "def-ga": "I gcomthéacs graif eolais, réamhinsint abairt thriarach nua (nach bhfuil a ngraf) bunaithe air na habairtí triaracha atá sa ngraf.",
+
+    "prov": {
+        "réamhsinint": "de-bhaldraithe, odonaill",
+        "nasc": "de-bhaldraithe, dineen, focloir-beag, odonaill"
+    },
+    "notes": [
+        "Tá 'réamh-' agus 'innsint' i bhFoclóir Uí Dhuinín, ach níl an téarma 'réamhinsint' luaite ann",
+        "Tá 'réamh-' agus 'insint' i bhFoclóir Uí Dhónaill agus Uí Mhaoileoin, ach níl an téarma 'réamhinsint' luaite ann",
+        "Luaitear 'nasc' den chuid is mó mar snaidhm ag bhíonns ag coinneáil dhá rud le chéile. Sin ráite, is féidir abairt thriarach a shamlú mar dhá nód agus ceangal nasctha le chéile (agus is dócha gurb in an áit as a dtagann an téarma Béarla 'link' chomh maith).",
+        "Is é an ginideach iolra (réamhinsint nasc) a úsaidtear anseo toisc gur minice caint a dhéanamh far réamhinsint (cuid mhór) nasc seachas réamhinsint naisc amháin. Sin ráite, is é 'réamhinsint naisc' an téarma ceart nuair nuach bhfuil an nasc amháin lena bheith réamhsinte."
+    ]
+}

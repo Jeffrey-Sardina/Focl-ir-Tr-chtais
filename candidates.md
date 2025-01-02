@@ -347,37 +347,29 @@ Ceisteanna
 <!-- Structural Alignment Framework
 - Creatlach Ailinithe Struchtúir -->
 
-simulation
+<!-- simulation
 - insamhail (ionsamhail?)
-- Teanglann
+- Teanglann -->
 
-unseen (hyperparameter, KG, etc)
+<!-- unseen (hyperparameter, KG, etc)
 - neamh-fheicthe
-- ó "neamh-" (non) agus feicthe (seen)
+- ó "neamh-" (non) agus feicthe (seen) -->
 
-input
+<!-- input
 - ionchur
-- Teanglann
+- Teanglann -->
 
-output
+<!-- output
 - aschur
-- Teanglann
+- Teanglann -->
 
-sufficient
-- leor; m.sh. is leor sin chun X a dhéanamh
-- Teanglann
-
-necessary
-- gá; m.sh is gá sin chun C a dhéanamh
-- Teanglann
-
-query
+<!-- query
 - ceist
-- Teanglann
+- Teanglann -->
 
-link prediction (the task)
+<!-- link prediction (the task)
 - réamhinsint nasc (an task)
-- not in any database. However, réámhinsint (prediction) and nasc (link) both exist, and direcctly imply a term.
+- not in any database. However, réámhinsint (prediction) and nasc (link) both exist, and direcctly imply a term. -->
 
 link prediction query
 - ceist réamhinsinte naisc

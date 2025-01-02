@@ -1,0 +1,15 @@
+{
+    "term": "output",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "aschur",
+    "def-en": "In the context of a system, process, or function, data that is returned from the process at its end.",
+    "def-ga": "I gcomthéacs córais, próisis, nó feidhme, sonraí a thagann as an bpróiseas céanna agus é críochnaithe.",
+
+
+    "prov": {
+        "aschur": "de-bhaldraithe, odonaill"
+    },
+    "notes": [
+        "Luann Foclóir De Bhaldraithe 'ionchur' mar théarma teileachumarsáide -- sin le rá, i gcomthéacs an-chosúil leis an gcomthéacs seo."
+    ]
+}

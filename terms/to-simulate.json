@@ -1,0 +1,15 @@
+{
+    "term": "to simulate",
+    "part-of-speech": "briathar",
+    "citation-form": "insamhail1",
+    "def-en": "The use of a machine lelarning mode (or other computational tools) to model a complex process in a simpler form.",
+    "def-ga": "Úsáid samhlach ríomhfhoghlama (nó uirlisí ríomhaireachta eile) chun próiseas casta a shamhlú i bhfoirm níos simplí..",
+
+    "prov": {
+        "insamhail1": "odonaill, (TODO: storchiste?)"
+    },
+    "notes": [
+        "Níl focal ar bith ann iomlán foirfe don téarma seo sna foclóirí atá á n-úsáid. Cé is moite de sin, tá brí comhchosúil (nach mór) ag 'insamhail1', agus tá an-bhuntáiste aige sin go bhfuil sé cosúil leis an bhfocal 'samhail', atá in úsáid chomh maith sa tráchtas seo. Roghnaíodh mar sin e.",
+        "Is é ionsamhail1 atá ar Focloir.ie, ach is é 'insamhail1' atá i bhFoclóir Uí Dhónaill. Mar is iondúil sa saothar seo, tugtar aird d'Fhoclóir Uí Dhónaill amháin sa gcás seo."
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "term": "link prediction task",
+    "part-of-speech": "ainmfhocaal",
+    "citation-form": "tasc réamhinsinte nasc",
+    "def-en": "In the context of a knowledge graph, the task of predicting a new triple (that is not in the graph) based on the triples that are in the graph.",
+    "def-ga": "I gcomthéacs graif eolais, tasc a bhfuil mar sprioc air abairt thriarach nua (nach bhfuil a ngraf) a réamhinsint bunaithe air na habairtí triaracha atá sa ngraf.",
+
+    "prov": {
+        "tasc": "de-bhaldraithe, dineen, focloir-beag, odonaill",
+        "réamhsinint": "féach ar an téarma 'link prediction / réamhinsint nasc'",
+        "nasc": "féach ar an téarma 'link prediction / réamhinsint nasc'"
+    },
+    "notes": [
+        "Féach ar an téarma 'link prediction / réamhinsint nasc'"
+    ]
+}
