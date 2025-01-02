@@ -371,21 +371,13 @@ Ceisteanna
 - réamhinsint nasc (an task)
 - not in any database. However, réámhinsint (prediction) and nasc (link) both exist, and direcctly imply a term. -->
 
-link prediction query
+<!-- link prediction query
 - ceist réamhinsinte naisc
-- ní bhaineann sé ach le nasc amháin; mar sin, ginideach uatha seachas iolra anseo
+- ní bhaineann sé ach le nasc amháin; mar sin, ginideach uatha seachas iolra anseo -->
 
-KG learning
-- foghlaim ar GE
-- féach ar foghlaim ar Teanglann
-
-research question
-- ceist taighde (thaighde?)
-- ó "ceist" agus "taighde"
-
-label (of node, edge)
+<!-- label (of node, edge)
 - lipéad
-- Teaglann
+- Teaglann -->
 
 correpondence (between multiple things / in a maping)
 - comhfhreagairt
