@@ -1,0 +1,14 @@
+{
+    "term": "framework",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "creatlach",
+    "def-en": "An abstract structure used to describe or understand a phenomenon in a general form.",
+    "def-ga": "Structúr teibí a úsáidtear chun feiniméan a léiriú nó a thuiscint i bhfoirm ginearálta.",
+
+    "prov": {
+        "creatlach": "de-bhaldraithe, focloir-beag, odonaill, (TODO: storchiste?)"
+    },
+    "notes": [
+        "Téarma díreach ar fáil le brí chomhchosúil."
+    ]
+}

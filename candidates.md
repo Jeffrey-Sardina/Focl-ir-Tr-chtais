@@ -336,23 +336,19 @@ Ceisteanna
 - cóimhinicíocht
 - ó "comh-" agus "minicíocht" -->
 
-framework
+<!-- framework
 - creatlach
-- Teanglann (i gcomhthéacsanna cosúla leis an gcomhthéacs seo)
+- Teanglann (i gcomhthéacsanna cosúla leis an gcomhthéacs seo) -->
 
-hypothesis
-- hipitéis
-- Teanglann
-
-Structural Alignment Hypothesis
+<!-- Structural Alignment Hypothesis
 - Hipitéis faoi Ailiniú Struchtúir
-- Hipitéis Ailinithe Struchtúir ? TODO
+- Hipitéis Ailinithe Struchtúir ? TODO -->
 
-Structural Alignment Framework
-- Creatlach Ailinithe Struchtúir
+<!-- Structural Alignment Framework
+- Creatlach Ailinithe Struchtúir -->
 
 simulation
-- insamhail
+- insamhail (ionsamhail?)
 - Teanglann
 
 unseen (hyperparameter, KG, etc)
