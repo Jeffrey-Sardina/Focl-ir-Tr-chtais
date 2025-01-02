@@ -1,0 +1,14 @@
+{
+    "term": "to-regularise",
+    "part-of-speech": "briathar",
+    "citation-form": "tabhair chun rialtachta",
+    "def-en": "In the context of a machine learning mode, a system that aims to reduce overfitting by restricting the size of parameter values in some way.",
+    "def-ga": "I gcomthéacs samhlach ríomhfhoghlama, córas a bhfuil mar aidhm aige OVERFITTING a laghdú trí méid luach na bparaiméadar a shrianadh ar chaoi éigin.",
+
+    "prov": {
+        "tabhair chun rialtachta": "de-bhaldraithe, odonaill"
+    },
+    "notes": [
+        "Frása iomlán ar fáil ó na foclóirí thuas i gcomthéacs ginearálta."
+    ]
+}

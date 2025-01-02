@@ -38,6 +38,7 @@
 | feidhm phionós                 | loss function                   |
 | feidhm siogmóideach            | sigmoid function                |
 | fo-ghraf                       | subgraph                        |
+| fo-thacar                      | batch                           |
 | folaigh                        | latent                          |
 | foshuíomh                      | assumption                      |
 | frith-shampla                  | counterexample                  |
@@ -61,6 +62,7 @@
 | measúnaigh                     | to evaluate                     |
 | measúnú                        | evaluation                      |
 | minicíocht                     | frequency                       |
+| méid na bhfo-thacar            | batch size                      |
 | neamh-fheicthe                 | unseen                          |
 | néarach                        | neural                          |
 | nód                            | node                            |
@@ -549,6 +551,19 @@ nótaí aistriúcháin:
 - Tá an téarma seo i bhFoclóir Uí Dhuinín, ach leis an mbrí 'faoi' seachas 'mar chuid de'.
 
 
+**fo-thacar (ainmfhocal): batch**<br>
+*sainmhíniú (ga):* Le linn an phróisis traenála, grúpa sonraí as an tacar traenála a thugtar don tsamhail ríomhfhoghlama chun ligean di foghlaim. Uaireanta, úsáidtear fo-thacar de thacar teisteála / deimithe le linn an próisis teisteála / deimhnithe chomh maith.<br>
+*sainmhíniú (en):* During the training process, a group of data points from the training set that are given to the machine learning model to allow it to learn. Sometimes, bathes of the testing and validation sets are using during testing and validation as well.
+
+tagairtí:
+- fo-: De Bhaldraithe (1978), Ó Dónaill et al. (1991), Ó Dónaill (1977)
+- tacar: féach ar an téarma 'set / tacar'
+
+nótaí aistriúcháin:
+- Téarmaí díreach ar fáil le bríonna chomhchosúla.
+- Féach chomh maith ar an téarma 'set / tacar'.
+
+
 **folaigh (aidiacht): latent**<br>
 *sainmhíniú (ga):* Ag trácht ar veicteoir nó ar leabú i samhail ríomhfhoghlama, ag trácht ar eolas atá foghlamtha nó impleachtaithe, seachaas bheith samhlaithe go díɼeach ag an tsamhail chéanna.<br>
 *sainmhíniú (en):* Of a vector or embedding in a machine learning model, represeting information that is learned of implicit, and not explicitly modelled by tbe model.
@@ -818,6 +833,18 @@ tagairtí:
 nótaí aistriúcháin:
 - Tá an focal 'minic' (gan trácht ar 'minicíocht') i bhFoclóir Uí Dhuinín.
 - Luann Foclóir Uí Dhónaill agus Foclóir De Bhaldraithe 'minicíocht' mar théarma leictreachais, agus le brí níos leithne (.i. minice).
+
+
+**méid na bhfo-thacar (ainmfhocal): batch size**<br>
+*sainmhíniú (ga):* Cé chomh mór (.i. cé mhéid pointe sonraí) atá i chuile fho-thacar le linn ríomhfhoghlama.<br>
+*sainmhíniú (en):* How large (i.e. how many data points) are in each batch during learning.
+
+tagairtí:
+- méid: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
+- fo-thacar: féach ar an téarma 'batch / fo-thacar'
+
+nótaí aistriúcháin:
+- Féach ar an téarma 'batch / fo-thacar'.
 
 
 **neamh-fheicthe (aidiacht): unseen**<br>

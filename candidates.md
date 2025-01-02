@@ -406,13 +406,13 @@ Ceisteanna
 - ráta foghlama
 - ó ráta (rate) agus foghlaim (learning) ar Teanglann -->
 
-batch
+<!-- batch
 - fo-thacar (traenála, srl)
-- tá "baisc" ar Téarma.ie, ach ní leir ó Teanglann go mba cheart an focal seo a úsáid sa gcomhtéacs sin. Ach, toisc gur fo-thacar chuile "batch" den tacar traenála (srl), measaim go mbeadh fo-thacar traenála / teisteála / serl ceart go leor. Agus i bhfad níos éasca a thuiscint, is dócha. Tagann "fo-" agus "tacar" as Teanglann.
+- tá "baisc" ar Téarma.ie, ach ní leir ó Teanglann go mba cheart an focal seo a úsáid sa gcomhtéacs sin. Ach, toisc gur fo-thacar chuile "batch" den tacar traenála (srl), measaim go mbeadh fo-thacar traenála / teisteála / serl ceart go leor. Agus i bhfad níos éasca a thuiscint, is dócha. Tagann "fo-" agus "tacar" as Teanglann. -->
 
-batch size
+<!-- batch size
 - méid na bhfo-thacar (traenála, srl)
-- ó fo-thacar thuas
+- ó fo-thacar thuas -->
 
 regularise
 - tabhair chun rialtachta
