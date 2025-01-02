@@ -316,24 +316,25 @@ Ceisteanna
 - dlúth
 - Teanglann -->
 
-sparse
+<!-- sparse
+- éadlús
 - tearc (nó gann)
 - Teanglann
     - Tá iasc tearc i mbliana, fish are scarce this year.
     - Is tearc duine a casadh orm, I met very few people. 
-    - Chuir sé an síol go gann, he sowed the seed thinly. 
+    - Chuir sé an síol go gann, he sowed the seed thinly.  -->
 
-degree
+<!-- degree
 - céim
-- úsáidte i gcásanna áirithe (cosúil leis an gcás seo) ar Teanglann
+- úsáidte i gcásanna áirithe (cosúil leis an gcás seo) ar Teanglann -->
 
-frequency (of edge)
+<!-- frequency (of edge)
 - minicíocht
-- Teanglann
+- Teanglann -->
 
-co-frequency
-- comh-mhinicíocht
-- ó "comh-" agus "minicíocht"
+<!-- co-frequency
+- cóimhinicíocht
+- ó "comh-" agus "minicíocht" -->
 
 framework
 - creatlach

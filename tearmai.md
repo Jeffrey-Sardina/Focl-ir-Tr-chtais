@@ -16,6 +16,8 @@
 | comhéifeacht                   | coefficient                     |
 | cuardach hipear-pharaiméadar   | hyperparameter search           |
 | cuspóir                        | object                          |
+| céim                           | degree                          |
+| cóimhinicíocht                 | co-frequency                    |
 | dearadh                        | architecture                    |
 | deimhneach                     | positive                        |
 | deimhnigh                      | to validate                     |
@@ -45,6 +47,7 @@
 | líonra néarach (LN)            | neural network (NN)             |
 | measúnaigh                     | to evaluate                     |
 | measúnú                        | evaluation                      |
+| minicíocht                     | frequency                       |
 | néarach                        | neural                          |
 | nód                            | node                            |
 | ointeolaíocht                  | ontology                        |
@@ -75,6 +78,7 @@
 | tras-fhoghlaim                 | transfer learning               |
 | veicteoir                      | vector                          |
 | xxx                            | xxx                             |
+| éadlúth                        | sparse                          |
 
 
 **(frása le 'ceangailte') (ainmfhocal): connectivity**<br>
@@ -266,6 +270,32 @@ tagairtí:
 
 nótaí aistriúcháin:
 - I mBéarla, samhlaítear abairtí triaracha mar abairtí teangeolaíochta le hainmnú, le faisnéis, agus le cuspóir. Glactar leis an analach chéanna i nGaeilge.
+
+
+**céim (ainmfhocal): degree**<br>
+*sainmhíniú (ga):* I gcomthéacss nóid i ngraf eolais, cé mhéid ceangal atá aige le nóid eile sa ngraf.<br>
+*sainmhíniú (en):* In the context of a node in a knowledge graph, how many connections it has with other nodes in the graph.
+
+tagairtí:
+- céim: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
+
+nótaí aistriúcháin:
+- Luann na foclóirí thuas (seachas Foclóir Uí Dhuinín) 'céim' mar téarma geoiméadrachta / eolaíochta. Ní hionann 'céim' geoiméadrachta agus 'céim' nóid i ngraf eolais. Cé is moite de sin, is féidir 'céim' a úsáid i gcomthéacss eolaíochta chun trácht a dhéanamh ar cé chomh fásta / láidir / srl is atá rud (.i. céim teochta). Luíonn sé seo lé 'ceim' mhinicíochta i ngraf -- cé chomh coitianta is atá nód amháin.
+
+
+**cóimhinicíocht (ainmfhocal): co-frequency**<br>
+*sainmhíniú (ga):* I gcomhthéacs graif eolais, cé chomh minic is a bhíonn dhá nód / cheangal (nó níos mó) le chéile sna habairtí thriaracha céanna sa ngraf.<br>
+*sainmhíniú (en):* In the context of a knowledge graph, how often a two (or more) nodes / edges are part of the same triples in the graph.
+
+tagairtí:
+- minicíocht: féach ar an téarma 'minicíocht'
+- comh-: De Bhaldraithe (1978)\*, Dineen (1934), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
+
+nótaí aistriúcháin:
+- \* Níl an reimír Béarla 'co-' i bhFoclóir De Bhaldraithe mar théarma ar leith, ach úsáidtear é (agus a leagan Gaeilge 'comh-' i roinnt maith focail ann.
+- Is é 'cómh' atá i bhFoclóir Uí Dhuinín, ach glactar leis gurb in an focal céanna
+- De réir Foclóir Uí Dhónaill, scríobhtar có(i)- seachas comh- nuair atá an réimír seo curtha roimh focal a thosaíonn le m nó n, mar a tharlaíonn anseo.
+- Féach chomh maith ar an téarma minicíocht.
 
 
 **dearadh (ainmfhocal): architecture**<br>
@@ -604,6 +634,18 @@ tagairtí:
 nótaí aistriúcháin:
 - Úsáidtear 'measúnú' seachas 'meas' toisc é a bheith úsáidte i gcomhthéacs níos teicniciúla, agus chun débhrí a sheachaint idir meas (mar smaoineamh) agus meas (mar mheasúnú).
 - Cé is moite de sin, ní luaitear an téarma seo i gcomthéacs ríomhaireachta.
+
+
+**minicíocht (ainmfhocal): frequency**<br>
+*sainmhíniú (ga):* I gcomhthéacs graif eolais, cé chomh minic is a bhíonn nód / ceangal mar chuid d'abairtí thriaracha sa ngraf.<br>
+*sainmhíniú (en):* In the context of a knowledge graph, how often a node / edge is part of triples in the graph.
+
+tagairtí:
+- minicíocht: De Bhaldraithe (1978), Ó Dónaill et al. (1991), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
+
+nótaí aistriúcháin:
+- Tá an focal 'minic' (gan trácht ar 'minicíocht') i bhFoclóir Uí Dhuinín.
+- Luann Foclóir Uí Dhónaill agus Foclóir De Bhaldraithe 'minicíocht' mar théarma leictreachais, agus le brí níos leithne (.i. minice).
 
 
 **néarach (aidiacht): neural**<br>
@@ -952,5 +994,17 @@ tagairtí:
 
 nótaí aistriúcháin:
 - xxx.
+
+
+**éadlúth (ainmfhocal): sparse**<br>
+*sainmhíniú (ga):* I gcomthéacs graif eolais (nó fo-ghraif), cé chomh éadlúth is atá sé.<br>
+*sainmhíniú (en):* In the context of a knowledge graph (or subgraph), how sparse it is.
+
+tagairtí:
+- éadlúth: De Bhaldraithe (1978), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
+
+nótaí aistriúcháin:
+- Luann Foclóir De Bhaldraithe agus Foclóir Uí Dhónaill an téarma seo  mar théarma eolaíochta i gcomhthéacs aeir / an t-atmasféar, ach leis an mbrí chéanna.
+- Tá go leor téarmaí eile (.i. tearc, gann, srl), ach úsáidtear 'éadlús' toisc gur 'dlús' an focal atá ar a mhalairt de rud.
 
 

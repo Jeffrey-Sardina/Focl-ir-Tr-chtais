@@ -1,0 +1,15 @@
+{
+    "term": "sparse",
+    "part-of-speech": "aidiacht",
+    "citation-form": "éadlúth",
+    "def-en": "In the context of a knowledge graph (or subgraph), lowly connected with other parts of the same graph / subgraph.",
+    "def-ga": "I gcomthéacs graif eolais (nó fo-ghraif), gan móran ceangail le codanna eile den ghraf / den fho-ghraf.",
+
+    "prov": {
+        "éadlúth": "de-bhaldraithe, focloir-beag, odonaill, (TODO: storchiste?)"
+    },
+    "notes": [
+        "Luann Foclóir De Bhaldraithe agus Foclóir Uí Dhónaill an téarma seo mar théarma eolaíochta i gcomhthéacs aeir / an t-atmasféar, ach leis an mbrí chéanna.",
+        "Tá go leor téarmaí eile (.i. tearc, gann, srl), ach úsáidtear 'éadlúth' toisc gur 'dlúth' an focal atá ar a mhalairt de rud."
+    ]
+}
