@@ -1,0 +1,14 @@
+{
+    "term": "mapping",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "mapa",
+    "def-en": "In the context of computer science, a database that allow access to one value (called the 'value') using another value (called the 'key').",
+    "def-ga": "I gcomthéacs ríomhaireachta, bunachar a ligeann dhuit luach amháin (an 'luach') a fháil trí cheangal le luach eile (an eochair).",
+
+    "prov": {
+        "mapa": "de-bhaldraithe, focloir-beag, odonaill"
+    },
+    "notes": [
+        "Luann na foclóirí thuas ar fad 'mapa' i gcomthéacs mapa ar an domhan. Ní shin atá i gceist anseo, ach, toisc gurb é aidhm mapa ríomhaireachta ná ceangal éigin a dhéanamh idir dhá rud (le gur feidir leathrud a fháíl ón leathrud eile), agus troisc gurb as an meafóir sin a thagann úsáid 'mapping' i mBéarla, glactar leis an téarma sin anseo."
+    ]
+}

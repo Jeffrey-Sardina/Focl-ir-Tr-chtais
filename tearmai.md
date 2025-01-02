@@ -6,6 +6,7 @@
 | ailíniú                        | alignment                       |
 | ailíniú struchtúir             | structural alignment            |
 | ainmní                         | subject                         |
+| airmheán                       | median                          |
 | airí                           | feature                         |
 | aschur                         | output                          |
 | bunachar sonraí                | database                        |
@@ -29,6 +30,7 @@
 | deimhniú                       | validation                      |
 | diúltach                       | negative                        |
 | dlúth                          | dense                           |
+| dáileadh                       | distribution                    |
 | dírithe                        | directed                        |
 | dóchúlacht                     | probability                     |
 | faisnéis                       | predicate                       |
@@ -45,14 +47,17 @@
 | graf eolais (GE)               | knowledge graph (KG)            |
 | hipear-pharaiméadar            | hyperparameter                  |
 | hipitéis ar ailiniú struchtúir | structural alignment hypothesis |
+| histeagram                     | histogram                       |
 | inchreidteacht                 | plausibility                    |
 | insamhail1                     | to simulate                     |
 | ionchur                        | input                           |
 | le lipéad                      | labelled                        |
 | leabú                          | embedding                       |
 | leabú graif eolais             | knowledge graph embedding       |
+| lipéad                         | label                           |
 | líonra                         | network                         |
 | líonra néarach (LN)            | neural network (NN)             |
+| mapa                           | mapping                         |
 | measúnaigh                     | to evaluate                     |
 | measúnú                        | evaluation                      |
 | minicíocht                     | frequency                       |
@@ -60,8 +65,10 @@
 | néarach                        | neural                          |
 | nód                            | node                            |
 | ointeolaíocht                  | ontology                        |
+| paraiméadar                    | parameter                       |
 | pionós                         | loss                            |
 | randamach                      | random                          |
+| ráta foghlama                  | learning rate                   |
 | réamhinsint nasc               | link prediction                 |
 | réamhinsteoir nasc             | link predictor                  |
 | ríomheolaíocht                 | computer science                |
@@ -73,6 +80,7 @@
 | sampla fánach                  | random sample                   |
 | sampláil                       | to sample                       |
 | samplóir                       | sampler                         |
+| scoth na réimse                | state of the art                |
 | scálach                        | scalar                          |
 | scór                           | score                           |
 | scór inchreidteachta           | plausibility score              |
@@ -98,7 +106,7 @@
 *sainmhíniú (en):* How connected one part of a knowledge graph (i.e. a node or edge) is with other parts of the same graph.
 
 tagairtí:
-- xxx: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
+- ceangailte: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
 
 nótaí aistriúcháin:
 - Níl téarma dó seo ar fáil go díreach ó Fhoclóir Uí Dhónaill, De Bhaldraithe, Uí Dhónaill agus Uí Maoileoin, ná Uí Dhuinín. Cé go bhfuil dlús ann (mar 'density' i gcomhthéacs eolaíochta), is iomaí saghasanna dlúis atá ann i ngraf eolais, agus níl 'connectivity' ach ar cheann amháin acu sin. Fágtar gan téarma ar leith é seo mar sin, agus úsáidtear frása leis an téarma 'ceangailte mar sin.
@@ -162,12 +170,23 @@ nótaí aistriúcháin:
 - I mBéarla, samhlaítear abairtí triaracha mar abairtí teangeolaíochta le hainmnú, le faisnéis, agus le cuspóir. Glactar leis an analach chéanna i nGaeilge.
 
 
+**airmheán (ainmfhocal): median**<br>
+*sainmhíniú (ga):* Ag caint ar dháileadh, an luach díreach i lár na luacha ar fad agus iad sórtáilte.<br>
+*sainmhíniú (en):* With regards to a distribution, the value directly in the middle of all sorted values.
+
+tagairtí:
+- xxx: Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
+
+nótaí aistriúcháin:
+- xxx.
+
+
 **airí (ainmfhocal): feature**<br>
 *sainmhíniú (ga):* Ionchur amháin ar shamhail ríomhfhoghlama, nó cuid uimhreachtúil den tsamhail chéanna, a sheasann do shonra nithiúil nó folaigh den tacar sonraí atá á fhoghlaim.<br>
 *sainmhíniú (en):* A single input to, or numercal element of, a machine learning model that represents a concrete or latent element of the dataset being learned.
 
 tagairtí:
-- airí: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
+- airí: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
 
 nótaí aistriúcháin:
 - Ní mar théarma eolaíochta atá sé i gceann ar bith de na foclóirí thuas. Cé is móite de sin, is léir go gcuireann 'airí' an bhrí cheart in iúl agus é á úsáid i gcomhthéacs eolaíochta.
@@ -253,8 +272,8 @@ nótaí aistriúcháin:
 
 tagairtí:
 - ciseal: féach ar an téarma 'layer / ciseal'
-- lán-: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
-- ceangailte: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
+- lán-: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
+- ceangailte: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill (1977)
 
 nótaí aistriúcháin:
 - Úsáidtear 'lán-cheangailte' seachas 'dlúth' toisc go bhfuil sé níos léire ón tús.
@@ -266,7 +285,7 @@ nótaí aistriúcháin:
 
 tagairtí:
 - ciseal: féach ar an téarma 'layer / ciseal'
-- nialas: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
+- nialas: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
 
 nótaí aistriúcháin:
 - Ní iarrtar 'dropout' a aistriú go litriúil toisc é sin a bheith i bhfad níos foclaí, gan buntáiste léir ag baint leis.
@@ -281,7 +300,8 @@ tagairtí:
 
 nótaí aistriúcháin:
 - \* Tá 'cómh' agus 'cóibhneas' ar fáil i bhFoclóir Uí Dhuinín, ach ní chuirtear le chéile iad ann
-- Téarma díreach ar fáil mar théarma matamaitice ó Fhoclóir Uí Dhónaill agus ó Fhoclóir De Bhaldraithe.
+- Téarma ar fáil ó Fhoclóir Uí Dhónaill agus ó Fhoclóir De Bhaldraithe.
+- Is iomaí téamaí a bhfuil an bhrí chéanna luaite leo i roinnt foclóir -- comhghaol, comhghaolú, comhghaolúchán, agus comhchoibhneas. Roghnaíodh comhchoibhneas toisc é a bheith ceangailte le coibhneas teibí, seachas le gaoil clainne / daonna (amháin).
 
 
 **comhéifeacht (ainmfhocal): coefficient**<br>
@@ -360,7 +380,7 @@ nótaí aistriúcháin:
 
 tagairtí:
 - minicíocht: féach ar an téarma 'minicíocht'
-- comh-: De Bhaldraithe (1978)\*, Dineen (1934), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
+- comh-: De Bhaldraithe (1978)\*, Dineen (1934), Ó Dónaill (1977)
 
 nótaí aistriúcháin:
 - \* Níl an reimír Béarla 'co-' i bhFoclóir De Bhaldraithe mar théarma ar leith, ach úsáidtear é (agus a leagan Gaeilge 'comh-' i roinnt maith focail ann.
@@ -374,7 +394,7 @@ nótaí aistriúcháin:
 *sainmhíniú (en):* The mathematical structure of a neural network.
 
 tagairtí:
-- dearadh: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
+- dearadh: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
 
 nótaí aistriúcháin:
 - Úsáidtear 'dearadh' seachas 'ailtireacht' toisc gurb é an rud is tábhachtaí ná cé chaoi a rinneadh an líonra néarach a dhearadh; sin le ré, rogha an dearthóra.
@@ -407,7 +427,7 @@ nótaí aistriúcháin:
 *sainmhíniú (en):* The process that is used to estimate how well (or how poorly) a machine learning model works while it is being trained.
 
 tagairtí:
-- deimhniú: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991)\*, Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
+- deimhniú: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991)\*, Ó Dónaill (1977)
 
 nótaí aistriúcháin:
 - Ní bhíonn an téarma seo luaite i gcomthéacs ríomhaireachta sna foclóirí thuas.
@@ -433,6 +453,18 @@ tagairtí:
 
 nótaí aistriúcháin:
 - Téarma díreach ar fáil le brí chomhchosúil.
+
+
+**dáileadh (ainmfhocal): distribution**<br>
+*sainmhíniú (ga):* I gcomthéacs tacar / liosta uimhreacha, léiriú staitistiúil ar cé chomh minic is a tarlaíonn chuile luacht, nó chuile réimse luacha, ann.<br>
+*sainmhíniú (en):* In the context of a set / list of number, a statistical description of how often each value, or each range of values, occurs.
+
+tagairtí:
+- dáileadh: Williams et al. (2023)
+
+nótaí aistriúcháin:
+- Téarma ar fáil sa gcomthéacs matamaiticiúil céanna i Stóɼchiste.
+- Níl an téarma seo luaite i comhthéacs chomhchosúil i bhFoclóir ar bith eile atá á úsáid anseo.
 
 
 **dírithe (aidiacht): directed**<br>
@@ -522,7 +554,7 @@ nótaí aistriúcháin:
 *sainmhíniú (en):* Of a vector or embedding in a machine learning model, represeting information that is learned of implicit, and not explicitly modelled by tbe model.
 
 tagairtí:
-- folaigh: De Bhaldraithe (1978), Dineen (1934)\*, Ó Dónaill et al. (1991)\*, Ó Dónaill (1977)\*, (TODO: Williams et al. (2023)?)
+- folaigh: De Bhaldraithe (1978), Dineen (1934)\*, Ó Dónaill et al. (1991)\*, Ó Dónaill (1977)\*
 
 nótaí aistriúcháin:
 - Feictear 'teas folaigh' mar théarma eolaíochta i bhFóclóir De Bhaldraithe, agus glactar leis sa gcomhthéacs seo mar analach leis sin.
@@ -534,7 +566,7 @@ nótaí aistriúcháin:
 *sainmhíniú (en):* A statement that is taken to be true.
 
 tagairtí:
-- foshuíomh: De Bhaldraithe (1978), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
+- foshuíomh: De Bhaldraithe (1978), Ó Dónaill (1977)
 
 nótaí aistriúcháin:
 - De réir Fhoclóirí Uí Dhónaill agus De Bhaldraithe, is téarma feallsúnachta é seo. Cloíonn sé sin leis an gcomthéacs eolaíochta atá i gceist leis an tráchtas seo.
@@ -609,7 +641,7 @@ nótaí aistriúcháin:
 
 tagairtí:
 - hipear-: Ó Dónaill (1977)
-- pharaiméadar-: De Bhaldraithe (1978), Ó Dónaill (1977)
+- pharaiméadar: féach ar an téarma 'parameter / pharaiméadar'
 
 nótaí aistriúcháin:
 - Níl an téarma iomlán 'hipear-pharaiméadar' ar fáil i bhfoclóir ar bith. Sin ráite, tá idir 'hipear-' (mar réimír) agus 'paraiméadar' (mar ainmfhocal) i bhFoclóir Uí Dhónaill, rud a spreagann an téarma seo go díreach.
@@ -626,6 +658,17 @@ tagairtí:
 
 nótaí aistriúcháin:
 - Téarma cruthaithe as téarmaí eile anseo (agus as 'hipitéis', atá luaite sa gcomthéacs céanna sna foclóirí thuas).
+
+
+**histeagram (ainmfhocal): histogram**<br>
+*sainmhíniú (ga):* Breacadh a dhéann cur síos ar dáileadh staitistiúil le colúin minicíochta do chuile réimse luacha sa dáileadh.<br>
+*sainmhíniú (en):* A plot that summarises a staitistical distribution using frequency columns for every range of values in the distribution.
+
+tagairtí:
+- histeagram: Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
+
+nótaí aistriúcháin:
+- Téarma díreach ar fáil ó Fhoclóir Uí Dhónaill.
 
 
 **inchreidteacht (ainmfhocal): plausibility**<br>
@@ -697,6 +740,17 @@ nótaí aistriúcháin:
 - Fágtar san uimhir uatha é seo toisc nach mbíonn ach graf amháin á leabú ag an uair amháin / ag an samhail amháin.
 
 
+**lipéad (ainmfhocal): label**<br>
+*sainmhíniú (ga):* I gcomthéacs graif eolais, téacs atá nasctha le nód nó le ceangal agus a chuireann in iúl céard dó a sheasann an nód / ceangal sin.<br>
+*sainmhíniú (en):* In the ccontext of a knowledge graph, text that is linked to a node ot edge that indicates what that node / edge represents.
+
+tagairtí:
+- lipéad: De Bhaldraithe (1978), Ó Dónaill et al. (1991), Ó Dónaill (1977)
+
+nótaí aistriúcháin:
+- Téarma díreach ar fáil le brí chomhchosúil.
+
+
 **líonra (ainmfhocal): network**<br>
 *sainmhíniú (ga):* tacar nód agus na gceangal eatarthu.<br>
 *sainmhíniú (en):* a set of nodes and the connections between them.
@@ -718,6 +772,17 @@ tagairtí:
 
 nótaí aistriúcháin:
 - Ní bhíonn 'líonra' luaite i gchomthéacs ríomhaireachta sna foclóirí thuas, cé go mbíonn sé sa gcaint agus i litríocht chomhaimseartha leis an mbrí sin.
+
+
+**mapa (ainmfhocal): mapping**<br>
+*sainmhíniú (ga):* I gcomthéacs ríomhaireachta, bunachar a ligeann dhuit luach amháin (an 'luach') a fháil trí cheangal le luach eile (an eochair).<br>
+*sainmhíniú (en):* In the context of computer science, a database that allow access to one value (called the 'value') using another value (called the 'key').
+
+tagairtí:
+- mapa: De Bhaldraithe (1978), Ó Dónaill et al. (1991), Ó Dónaill (1977)
+
+nótaí aistriúcháin:
+- Luann na foclóirí thuas ar fad 'mapa' i gcomthéacs mapa ar an domhan. Ní shin atá i gceist anseo, ach, toisc gurb é aidhm mapa ríomhaireachta ná ceangal éigin a dhéanamh idir dhá rud (le gur feidir leathrud a fháíl ón leathrud eile), agus troisc gurb as an meafóir sin a thagann úsáid 'mapping' i mBéarla, glactar leis an téarma sin anseo.
 
 
 **measúnaigh (briathar): to evaluate**<br>
@@ -800,12 +865,23 @@ nótaí aistriúcháin:
 - Téarma ar fáil leis an mbrí chéanna (i gcommhthéacs níos ginearálta) sna foclóirí thuas.
 
 
+**paraiméadar (ainmfhocal): parameter**<br>
+*sainmhíniú (ga):* I gcomhthéacs samhlach ríomhfhoghlama, luach uimhriúil in-fhoghlama a bhíonn ag athrú le linn an próiseas traenála. Is ionann paraiméadar níos fearr a roghnú do samhail, agus 'tuiscint fhoghlamtha' (mar dhea) na samhlach céanna a chur chun cinn.<br>
+*sainmhíniú (en):* In the context of a machine learning mode, a learnable numerical value that changes during the training process. Choosing better parameters for a model improves the model's 'learned understanding' (so to speak).
+
+tagairtí:
+- pharaiméadar: De Bhaldraithe (1978), Ó Dónaill (1977)
+
+nótaí aistriúcháin:
+- Téárma díreach ar fáil ó na foclóirí thuas i gcomhthéacs cosúil go leor.
+
+
 **pionós (ainmfhocal): loss**<br>
 *sainmhíniú (ga):* I gcomhthéacs samhlach ríomhfhoghlama, luach uimhriúil a chuireann in iúl cé chomh dona is atá an tsamhail (sin le rá, is ionann pionós níos airde agus an tsamhail a bheith chomh héifeachtach céanna). Úsáidtear an pionós mar chuid mhatamataiciúil den ríomhfhoghlaim.<br>
 *sainmhíniú (en):* In the context of a machine learning model, a numerical value that represents how bad the model is (that is, a higher penalty indicate that the model is less effective). Loss is used as a part of the mathematical process of machine learning.
 
 tagairtí:
-- pionós: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
+- pionós: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
 
 nótaí aistriúcháin:
 - \* Is 'pionús' seachas 'pionós' atá i bhFoclóir Uí Dhuinín, ach glactar leis gurb in an focal céanna le litriú eile
@@ -823,6 +899,18 @@ tagairtí:
 
 nótaí aistriúcháin:
 - Is le brí matamaiticiúil a luaitear an téarma seo i Stórchiste.
+
+
+**ráta foghlama (ainmfhocal): learning rate**<br>
+*sainmhíniú (ga):* I gcomhthéacs samlach ríomhfhoghlama, luach scálach a cinntíonn cé chomh mór is atá chuile athrú ar a cuid paraméadar.<br>
+*sainmhíniú (en):* In the context of a machine learning mode, a scalar value that determines how large each update to its parameters is.
+
+tagairtí:
+- ráta: De Bhaldraithe (1978), Ó Dónaill et al. (1991), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
+- foghlaim: féach ar an téarma 'machine learning / ríomhfhoghlaim
+
+nótaí aistriúcháin:
+- Téarmaí díreach ar fáil le bríonna chomhchosúla.
 
 
 **réamhinsint nasc (ainmfhocaal): link prediction**<br>
@@ -960,6 +1048,18 @@ nótaí aistriúcháin:
 - Tá an téarma seo, leis an mbrí céanna, díreach ar fáil sna foclóirí thuas
 
 
+**scoth na réimse (ainmfhocal): state of the art**<br>
+*sainmhíniú (ga):* An tuiscint, samhail, eolas, nó eile is fearr i réimse eolaíochta éigin.<br>
+*sainmhíniú (en):* The best understanding, model, information, etc in a given scientific feild.
+
+tagairtí:
+- scoth: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
+- réimse: De Bhaldraithe (1978), Ó Dónaill et al. (1991), Ó Dónaill (1977)
+
+nótaí aistriúcháin:
+- Ní luann Foclóir Uí Dhuinín 'scoth' mar 'an rud is fearr', ach tá an brí sin le feiceáil ann fós féin sa bhfocal 'scothamhail'.
+
+
 **scálach (aidiacht): scalar**<br>
 *sainmhíniú (ga):* Uimhir nach athróg é a bhíonn á húsáid le huimhir eile a mhéadú fúithi.<br>
 *sainmhíniú (en):* A numerical value other than a variable, typically used in multiplication.
@@ -1022,7 +1122,7 @@ nótaí aistriúcháin:
 *sainmhíniú (en):* In the context of a graph, patterns, numerical summaries, and statistics that can be calulated on the graph (without reference to the meaning of the information contained in the graph).
 
 tagairtí:
-- struchtúr: De Bhaldraithe (1978), Ó Dónaill et al. (1991), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
+- struchtúr: De Bhaldraithe (1978), Ó Dónaill et al. (1991), Ó Dónaill (1977)
 
 nótaí aistriúcháin:
 - Téarma luaite le brí comhchosúil sna foclóirí thuas.
@@ -1128,7 +1228,7 @@ nótaí aistriúcháin:
 
 tagairtí:
 - tras-: De Bhaldraithe (1978), Ó Dónaill et al. (1991), Ó Dónaill (1977)
-- foghlaim: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
+- foghlaim: féach ar an téarma 'machine learning / ríomhfhoghlaim
 
 nótaí aistriúcháin:
 - Níl aistriúchán déanta ar an téarma seo cheana go bhfios don údár (fiú ar Téarma.ie). Cumtar téarma nua mar sin, as an réimír 'tras-' agus an focal 'foghaim'.

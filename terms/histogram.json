@@ -1,0 +1,14 @@
+{
+    "term": "histogram",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "histeagram",
+    "def-en": "A plot that summarises a staitistical distribution using frequency columns for every range of values in the distribution.",
+    "def-ga": "Breacadh a dhéann cur síos ar dáileadh staitistiúil le colúin minicíochta do chuile réimse luacha sa dáileadh.",
+
+    "prov": {
+        "histeagram": "odonaill, (TODO: storchiste?)"
+    },
+    "notes": [
+        "Téarma díreach ar fáil ó Fhoclóir Uí Dhónaill."
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "term": "median",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "airmheán",
+    "def-en": "With regards to a distribution, the value directly in the middle of all sorted values.",
+    "def-ga": "Ag caint ar dháileadh, an luach díreach i lár na luacha ar fad agus iad sórtáilte.",
+
+    "prov": {
+        "xxx": "odonaill, (TODO: storchiste?)"
+    },
+    "notes": [
+        "xxx."
+    ]
+}

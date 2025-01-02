@@ -1,0 +1,15 @@
+{
+    "term": "state of the art",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "scoth na réimse",
+    "def-en": "The best understanding, model, information, etc in a given scientific feild.",
+    "def-ga": "An tuiscint, samhail, eolas, nó eile is fearr i réimse eolaíochta éigin.",
+
+    "prov": {
+        "scoth": "de-bhaldraithe, dineen, focloir-beag, odonaill",
+        "réimse": "de-bhaldraithe, focloir-beag, odonaill"
+    },
+    "notes": [
+        "Ní luann Foclóir Uí Dhuinín 'scoth' mar 'an rud is fearr', ach tá an brí sin le feiceáil ann fós féin sa bhfocal 'scothamhail'."
+    ]
+}

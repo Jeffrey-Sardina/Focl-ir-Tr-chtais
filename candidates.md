@@ -379,39 +379,32 @@ Ceisteanna
 - lipéad
 - Teaglann -->
 
-correpondence (between multiple things / in a maping)
-- comhfhreagairt
-- Teanglann
-
-mapping (structure-to-performance mapping)
+<!-- mapping (structure-to-performance mapping)
 - mapa
-- Teanglann. Tá an téarma seo an-ghinearálta, agus mar sin bha cheart a rá gur sórt ghearrúcháin é ar "líonra comhfhreagairte" nó mar sin
+- Teanglann. Tá an téarma seo an-ghinearálta, agus mar sin bha cheart a rá gur sórt ghearrúcháin é ar "líonra comhfhreagairte" nó mar sin -->
 
-instantiation (of the Structural Alignment Framework)
-- gan focal air (úsáid frása; m.sh. roghnaíodh na hairíonna struchtúir seo chun creatlach a dhéanamh...)
-
-state of the art (noun))
+<!-- state of the art (noun))
 - scoth na réimse
--  ó scoth agus réimse
+-  ó scoth agus réimse -->
 
-correlation
+<!-- correlation
 - comhghaolúchán
-- Stórchiste
+- Stórchiste -->
 
-distribution
+<!-- distribution
 - dáileadh
-- Stórchiste
+- Stórchiste -->
 
-histogram
-- histeagram
+<!-- histogram
+- histeagram -->
 
-median (adj)
-- meánach
-- Stóchiste
+<!-- median (noun)
+- airmheán
+- Teanglann -->
 
-learning rate
+<!-- learning rate
 - ráta foghlama
-- ó ráta (rate) agus foghlaim (learning) ar Teanglann
+- ó ráta (rate) agus foghlaim (learning) ar Teanglann -->
 
 batch
 - fo-thacar (traenála, srl)
@@ -464,6 +457,7 @@ Aistriúcháin chuideatheach ó Theanglann
 * lipéad a chur ar rud, to label sth. 
 * léaráid, f. (gs. léaráide, pl. léaráidí). Diagram; illustration, sketch. 
 * regularize, v.tr. Tugaim chun rialtachta.
+* The two windows do not correspond, níl an dá fhuinneog ar aon dul le chéile. 
 
 Fadhbanna le téarma (neamh-iomlán)
 * Nascacht - connectivity (is ionann é agus Jointure ar Teanglann)

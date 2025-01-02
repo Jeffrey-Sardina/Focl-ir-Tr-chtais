@@ -1,0 +1,15 @@
+{
+    "term": "distribution",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "dáileadh",
+    "def-en": "In the context of a set / list of number, a statistical description of how often each value, or each range of values, occurs.",
+    "def-ga": "I gcomthéacs tacar / liosta uimhreacha, léiriú staitistiúil ar cé chomh minic is a tarlaíonn chuile luacht, nó chuile réimse luacha, ann.",
+
+    "prov": {
+        "dáileadh": "storchiste"
+    },
+    "notes": [
+        "Téarma ar fáil sa gcomthéacs matamaiticiúil céanna i Stóɼchiste.",
+        "Níl an téarma seo luaite i comhthéacs chomhchosúil i bhFoclóir ar bith eile atá á úsáid anseo."
+    ]
+}

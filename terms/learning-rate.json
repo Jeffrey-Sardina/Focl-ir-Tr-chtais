@@ -1,0 +1,15 @@
+{
+    "term": "learning rate",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "ráta foghlama",
+    "def-en": "In the context of a machine learning mode, a scalar value that determines how large each update to its parameters is.",
+    "def-ga": "I gcomhthéacs samlach ríomhfhoghlama, luach scálach a cinntíonn cé chomh mór is atá chuile athrú ar a cuid paraméadar.",
+
+    "prov": {
+        "ráta": "de-bhaldraithe, focloir-beag, odonaill, (TODO: storchiste?)",
+        "foghlaim": "féach ar an téarma 'machine learning / ríomhfhoghlaim"
+    },
+    "notes": [
+        "Téarmaí díreach ar fáil le bríonna chomhchosúla."
+    ]
+}
