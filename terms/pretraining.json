@@ -1,0 +1,16 @@
+{
+    "term": "prertraining",
+    "part-of-speech": "ainmfhocaal",
+    "citation-form": "réamh-thraenáil",
+    "def-en": "The process of training a machine learning model with intent to finetune it later on new data.",
+    "def-ga": "An próiseas a bhaineann le samhail ríomhfhoghlama a thraenáil le plean é a mionfheabbhsú níos déanaí ar shonraí nua.",
+
+    "prov": {
+        "réamh-": "de-bhaldraithe, dineen, focloir-beag, odonaill",
+        "traenáil": "féach ar an téarma 'training / traenáil'"
+    },
+    "notes": [
+        "Téarma cruthaithe as an réimír agus as an bhfocal thuas",
+        "Féách chomh maith ar an téarma training / traenáil'."
+    ]
+}

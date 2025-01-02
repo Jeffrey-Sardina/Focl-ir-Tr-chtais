@@ -68,6 +68,7 @@
 | measúnaigh                     | to evaluate                     |
 | measúnú                        | evaluation                      |
 | minicíocht                     | frequency                       |
+| mionfheabhsú                   | to finetune                     |
 | méid na bhfo-thacar            | batch size                      |
 | neamh-fheicthe                 | unseen                          |
 | néarach                        | neural                          |
@@ -77,6 +78,7 @@
 | pionós                         | loss                            |
 | randamach                      | random                          |
 | ráta foghlama                  | learning rate                   |
+| réamh-thraenáil                | to prertrain                    |
 | réamhinsint nasc               | link prediction                 |
 | réamhinsteoir nasc             | link predictor                  |
 | ríomheolaíocht                 | computer science                |
@@ -918,6 +920,20 @@ nótaí aistriúcháin:
 - Luann Foclóir Uí Dhónaill agus Foclóir De Bhaldraithe 'minicíocht' mar théarma leictreachais, agus le brí níos leithne (.i. minice).
 
 
+**mionfheabhsú (briathar): to finetune**<br>
+*sainmhíniú (ga):* Samhail ríomhfhoghlama atá traenáilte cheana a thraenáíl ar sonraí nua.<br>
+*sainmhíniú (en):* To take a pre-trained machine learning model and train it further on new data.
+
+tagairtí:
+- mion-: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991)\*, Ó Dónaill (1977)
+- feabhsú: féach ar an téarma 'to optimise / feabhsaigh'
+
+nótaí aistriúcháin:
+- Ní luaitear mar réimír i bhFoclóir Uí Dhónaill agus Uí Mhaoileoin an téarma 'mion-'.
+- Ní bhítear ag caint ar mionfheabhsúchán (nach ionann agus mionfheabhsú) ná ar 'chórais mhionfheabhúchán' go minic, agus mar sin ní chuirtear mar téarmaí anseo iad sin.
+- Féach chomh maith ar an téárma 'to optimise / feabhsaigh'.
+
+
 **méid na bhfo-thacar (ainmfhocal): batch size**<br>
 *sainmhíniú (ga):* Cé chomh mór (.i. cé mhéid pointe sonraí) atá i chuile fho-thacar le linn ríomhfhoghlama.<br>
 *sainmhíniú (en):* How large (i.e. how many data points) are in each batch during learning.
@@ -1021,6 +1037,19 @@ tagairtí:
 
 nótaí aistriúcháin:
 - Téarmaí díreach ar fáil le bríonna chomhchosúla.
+
+
+**réamh-thraenáil (briathair): to prertrain**<br>
+*sainmhíniú (ga):* Samhail ríomhfhoghlama a thraenáil le plean é a mionfheabbhsú níos déanaí ar shonraí nua.<br>
+*sainmhíniú (en):* To train a machine learning model with intent to finetune it later on new data.
+
+tagairtí:
+- réamh-: feach ar an téarma 'prertraining / réamh-thraenáil'
+- traenáil: féach ar an téarma 'training / traenáil'
+
+nótaí aistriúcháin:
+- Féach ar an téarma 'pretraining / réamh-thraenáil'
+- Féách chomh maith ar an téarma training / traenáil'.
 
 
 **réamhinsint nasc (ainmfhocaal): link prediction**<br>

@@ -437,13 +437,13 @@ Ceisteanna
 <!-- optimisation
 - feabhsú / feabhsúchán? -->
 
-pretrain
-- réamh-thraenáil
-- ó Teanglann (réamh 7 traenáil)
-
-finetune
+<!-- finetune
 - mion-fheabhsú
-- ó mion- agus feabhsú (Teanglann)
+- ó mion- agus feabhsú (Teanglann) -->
+
+<!-- pretrain
+- réamh-thraenáil
+- ó Teanglann (réamh 7 traenáil) -->
 
 epoch
 - timthriall ("cycle" mata i dTeanglann; "circuit" in Dineen)
