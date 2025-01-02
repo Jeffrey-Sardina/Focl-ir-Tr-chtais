@@ -449,9 +449,9 @@ Ceisteanna
 - timthriall ("cycle" mata i dTeanglann; "circuit" in Dineen)
 - nó, seal? -->
 
-few-shot / n-shot / 0-shot
+<!-- few-shot / n-shot / 0-shot
 - cúpla-triail, n-triail, 0-triail ??
-- as "triail" san úsáid thuas (Teanglann)
+- as "triail" san úsáid thuas (Teanglann) -->
 
 ## End Notes
 Aistriúcháin chuideatheach ó Theanglann

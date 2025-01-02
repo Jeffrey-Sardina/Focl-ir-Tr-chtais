@@ -1,0 +1,15 @@
+{
+    "term": "n-shot",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "n-sonra",
+    "def-en": "A finetuning protocol in which the pretrained model is able to see $n$ data points from the new data set during finetuning.",
+    "def-ga": "Cur chuige mionfheabsaithe ina bhfuil an tsamhail réamh-thraenáilte in ann $n$ sonra ó thacar sonraí nua a fheiceáil le linn á mionfheabhsaithe.",
+
+    "prov": {
+        "sonra": "féach ar an téarma 'database / bunachar sonraí"
+    },
+    "notes": [
+        "Úsáidtear 'n' i gcomthéacs matamaiticiúil chun uimhir éigin (ar féidir é athrú) a chur in iúl.",
+        "Úsáidtear n-sonra seachas n-triail / n-iarracht nó eile toisc é sin a bheith níos léire (i dtuairim an údáir)."
+    ]
+}

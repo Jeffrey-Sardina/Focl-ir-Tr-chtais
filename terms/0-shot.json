@@ -1,0 +1,14 @@
+{
+    "term": "0-shot",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "0-sonra",
+    "def-en": "A finetuning protocol in which the pretrained model directly tested on a new dataset without finetuning.",
+    "def-ga": "Cur chuige mionfheabsaithe ina bhfuil an tsamhail réamh-thraenáilte teisteáilte ar tacar sonraí nua gan mionfheaabhsú ar bith.",
+
+    "prov": {
+        "sonra": "féach ar an téarma 'database / bunachar sonraí"
+    },
+    "notes": [
+        "Féach ar an téarma 'n-shot / n-sonra'."
+    ]
+}

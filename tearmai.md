@@ -2,6 +2,7 @@
 |--------------------------------|---------------------------------|
 | (frása le 'ceangailte')        | connectivity                    |
 | (frása le 'toise')             | dimensionality                  |
+| 0-sonra                        | 0-shot                          |
 | abairt thriarach               | triple                          |
 | ailíniú                        | alignment                       |
 | ailíniú struchtúir             | structural alignment            |
@@ -26,6 +27,7 @@
 | cóimhinicíocht                 | co-frequency                    |
 | córas feabhsúcháin             | optimiser                       |
 | córas rialtachta               | regulariser                     |
+| cúpla-sonra                    | few-shot                        |
 | dearadh                        | architecture                    |
 | deimhneach                     | positive                        |
 | deimhnigh                      | to validate                     |
@@ -70,6 +72,7 @@
 | minicíocht                     | frequency                       |
 | mionfheabhsú                   | to finetune                     |
 | méid na bhfo-thacar            | batch size                      |
+| n-sonra                        | n-shot                          |
 | neamh-fheicthe                 | unseen                          |
 | néarach                        | neural                          |
 | nód                            | node                            |
@@ -96,6 +99,7 @@
 | scór                           | score                           |
 | scór inchreidteachta           | plausibility score              |
 | scóráil                        | to-score                        |
+| seal                           | epoch                           |
 | sonraí                         | data                            |
 | struchtúr                      | structure                       |
 | tabhair chun rialtachta        | to-regularise                   |
@@ -135,6 +139,17 @@ tagairtí:
 
 nótaí aistriúcháin:
 - féach ar an téarma 'toise'
+
+
+**0-sonra (ainmfhocal): 0-shot**<br>
+*sainmhíniú (ga):* Cur chuige mionfheabsaithe ina bhfuil an tsamhail réamh-thraenáilte teisteáilte ar tacar sonraí nua gan mionfheaabhsú ar bith.<br>
+*sainmhíniú (en):* A finetuning protocol in which the pretrained model directly tested on a new dataset without finetuning.
+
+tagairtí:
+- sonra: féach ar an téarma 'database / bunachar sonraí
+
+nótaí aistriúcháin:
+- Féach ar an téarma 'n-shot / n-sonra'.
 
 
 **abairt thriarach (ainmfhocal): triple**<br>
@@ -425,6 +440,17 @@ tagairtí:
 
 nótaí aistriúcháin:
 - Frása iomlán ar fáil ó na foclóirí thuas i gcomthéacs ginearálta.
+
+
+**cúpla-sonra (ainmfhocal): few-shot**<br>
+*sainmhíniú (ga):* Cur chuige mionfheabsaithe ina bhfuil an tsamhail réamh-thraenáilte in ann cúpla sonra ó thacar sonraí nua a fheiceáil le linn á mionfheabhsaithe.<br>
+*sainmhíniú (en):* A finetuning protocol in which the pretrained model is able to see a few data points from the new data set during finetuning.
+
+tagairtí:
+- sonra: féach ar an téarma 'database / bunachar sonraí
+
+nótaí aistriúcháin:
+- Féach ar an téarma 'n-shot / n-sonra'.
 
 
 **dearadh (ainmfhocal): architecture**<br>
@@ -946,6 +972,18 @@ nótaí aistriúcháin:
 - Féach ar an téarma 'batch / fo-thacar'.
 
 
+**n-sonra (ainmfhocal): n-shot**<br>
+*sainmhíniú (ga):* Cur chuige mionfheabsaithe ina bhfuil an tsamhail réamh-thraenáilte in ann $n$ sonra ó thacar sonraí nua a fheiceáil le linn á mionfheabhsaithe.<br>
+*sainmhíniú (en):* A finetuning protocol in which the pretrained model is able to see $n$ data points from the new data set during finetuning.
+
+tagairtí:
+- sonra: féach ar an téarma 'database / bunachar sonraí
+
+nótaí aistriúcháin:
+- Úsáidtear 'n' i gcomthéacs matamaiticiúil chun uimhir éigin (ar féidir é athrú) a chur in iúl.
+- Úsáidtear n-sonra seachas n-triail / n-iarracht nó eile toisc é sin a bheith níos léire (i dtuairim an údáir).
+
+
 **neamh-fheicthe (aidiacht): unseen**<br>
 *sainmhíniú (ga):* I gcomhthéacs tacar sonraí (m.sh. tacar teisteála / deimhnithe), gan a bheith úsáidte / feicthe le linn an próiseas traenála a dhéantar ar shamhail ríomhfhoghlama.<br>
 *sainmhíniú (en):* In the context of a dataset (such as the testing / validation set), not being used / seen during the training phase of a machine learning model.
@@ -1256,6 +1294,17 @@ tagairtí:
 
 nótaí aistriúcháin:
 - I gcomthéacs cluichí a fheictear 'scóráil' úsáidte i bhFoclóir Uí Dhónaill, seachas i gcomthéacs ríomhaireachta.
+
+
+**seal (aimnfhocal): epoch**<br>
+*sainmhíniú (ga):*  Geábh iomlán feabhsaithe ina fheiceann an tsamhail ríomhfhoghlama chuile shonra sa tacar traenála aon uair amháin.<br>
+*sainmhíniú (en):* A full pass of optimisation in which the machinne learning model sees every data point in the training set exactly once.
+
+tagairtí:
+- seal: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
+
+nótaí aistriúcháin:
+- Is iomaí focal ar féidir iad a úsáid anseo (geábh, babhta, timthriail, srl). Roghnaíodh 'seal' toisc é a bheith ag tagairt ar geábh foghlama agus ar réimse ama, díreach mar a bhíonn luchgt ríomhaireachta ag samhlú 'epoch' ríomhfhoghlama.
 
 
 **sonraí (ainmfhocal): data**<br>
