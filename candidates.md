@@ -445,9 +445,9 @@ Ceisteanna
 - réamh-thraenáil
 - ó Teanglann (réamh 7 traenáil) -->
 
-epoch
+<!-- epoch
 - timthriall ("cycle" mata i dTeanglann; "circuit" in Dineen)
-- nó, seal?
+- nó, seal? -->
 
 few-shot / n-shot / 0-shot
 - cúpla-triail, n-triail, 0-triail ??
