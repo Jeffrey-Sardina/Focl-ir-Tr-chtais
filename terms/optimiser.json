@@ -1,0 +1,16 @@
+{
+    "term": "optimiser",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "córas feabhsúcháin",
+    "def-en": "The system that optimises a machine learning model.",
+    "def-ga": "An córas a dhéanann samhail ríomhfhoghlama a fheabhsú.",
+
+    "prov": {
+        "córas": "de-bhaldraithe, focloir-beag, odonaill",
+        "feabhsúchán": "féach ar an téarma 'optimisation / feabhsúchán'."
+    },
+    "notes": [
+        "Tá réimse leathan téarmaí eile ar fáil a mbeadh ciall comhchosúil leo (feabhsatheoir, córas feabhsaithe, srl), ach meastar gur é 'córas feabhsaithe' an ceann is léire acu sin sa gcomthéacs seo.",
+        "Féach ar an téarma 'to optimise / feabhsaigh'."
+    ]
+}

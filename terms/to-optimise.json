@@ -1,0 +1,16 @@
+{
+    "term": "to optimise",
+    "part-of-speech": "briathar",
+    "citation-form": "feabhsaigh",
+    "def-en": "To improve a machine learning model by updating its parameters. At a mathematical level, optimisation is learning.",
+    "def-ga": "Samhail ríomhfhoghlama a chur chun cinn trína cuid paraiméadar a nuashonrú. Is ionann feabhsú agus foghlaim ar leibhéal matamaiticiúil.",
+
+    "prov": {
+        "feabhsaigh": "de-bhaldraithe, dineen, focloir-beag*, odonaill"
+    },
+    "notes": [
+        "Tá an téarma seo ar fáil díreach ó na foclóirí thuas le brí comhchosúil.",
+        "Tá 'optamaigh' ar Téarma.ie, ach ní léir ón suíomh sin cén fáth nár leor 'feabhsaigh'.",
+        "Is é 'feabhsú' atá i bhFoclóir Uí Dhónaill agus Uí Mhaoileoin."
+    ]
+}

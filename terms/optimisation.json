@@ -1,0 +1,14 @@
+{
+    "term": "optimisation",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "feabhsúchán",
+    "def-en": "The process related to optimising a machine learning model.",
+    "def-ga": "An próiseas a bhaineann le samhail ríomhfhoghlama a fheabhsú.",
+
+    "prov": {
+        "feabhsúchán": "de-bhaldraithe, odonaill"
+    },
+    "notes": [
+        "Féach ar an téarma 'to optimise / feabhsaigh'."
+    ]
+}

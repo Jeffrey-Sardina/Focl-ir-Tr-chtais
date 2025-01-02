@@ -425,14 +425,17 @@ Ceisteanna
 <!-- regularisation
 - tabhairt chun rialtachta -->
 
-optimise
+<!-- optimise
 - feabhsaigh
-- Molann Téarma.ie optamaigh. Ach tá "feabhsaigh" i dTeanglann (a bhfuil an bhrí chéanna leis, agus a bheadh i bhfad níos intuigthe ag lucht na Gaeilge). Glactar leis sin dá bharr sin.
+- Molann Téarma.ie optamaigh. Ach tá "feabhsaigh" i dTeanglann (a bhfuil an bhrí chéanna leis, agus a bheadh i bhfad níos intuigthe ag lucht na Gaeilge). Glactar leis sin dá bharr sin. -->
 
-optimiser
+<!-- optimiser
 - córas feabhsaithe 
 - feabhsaitheoir?
-- ó "feabhsaigh"
+- ó "feabhsaigh" -->
+
+<!-- optimisation
+- feabhsú / feabhsúchán? -->
 
 pretrain
 - réamh-thraenáil

@@ -24,6 +24,7 @@
 | cuspóir                        | object                          |
 | céim                           | degree                          |
 | cóimhinicíocht                 | co-frequency                    |
+| córas feabhsúcháin             | optimiser                       |
 | córas rialtachta               | regulariser                     |
 | dearadh                        | architecture                    |
 | deimhneach                     | positive                        |
@@ -35,6 +36,8 @@
 | dírithe                        | directed                        |
 | dóchúlacht                     | probability                     |
 | faisnéis                       | predicate                       |
+| feabhsaigh                     | to optimise                     |
+| feabhsúchán                    | optimisation                    |
 | feidhm                         | function                        |
 | feidhm phionós                 | loss function                   |
 | feidhm siogmóideach            | sigmoid function                |
@@ -397,6 +400,19 @@ nótaí aistriúcháin:
 - Féach chomh maith ar an téarma minicíocht.
 
 
+**córas feabhsúcháin (ainmfhocal): optimiser**<br>
+*sainmhíniú (ga):* An córas a dhéanann samhail ríomhfhoghlama a fheabhsú.<br>
+*sainmhíniú (en):* The system that optimises a machine learning model.
+
+tagairtí:
+- córas: De Bhaldraithe (1978), Ó Dónaill et al. (1991), Ó Dónaill (1977)
+- feabhsúchán: féach ar an téarma 'optimisation / feabhsúchán'.
+
+nótaí aistriúcháin:
+- Tá réimse leathan téarmaí eile ar fáil a mbeadh ciall comhchosúil leo (feabhsatheoir, córas feabhsaithe, srl), ach meastar gur é 'córas feabhsaithe' an ceann is léire acu sin sa gcomthéacs seo.
+- Féach ar an téarma 'to optimise / feabhsaigh'.
+
+
 **córas rialtachta (ainmfhocal): regulariser**<br>
 *sainmhíniú (ga):* Córas a dhéanann samhail ríomhfhoghlama a thabhairt chun rialtachta le linn á traenála.<br>
 *sainmhíniú (en):* A system that regularises a machine learning model as it is being trained.
@@ -519,6 +535,30 @@ tagairtí:
 
 nótaí aistriúcháin:
 - I mBéarla, samhlaítear abairtí triaracha mar abairtí teangeolaíochta le hainmnú, le faisnéis, agus le cuspóir. Glactar leis an analach chéanna i nGaeilge.
+
+
+**feabhsaigh (briathar): to optimise**<br>
+*sainmhíniú (ga):* Samhail ríomhfhoghlama a chur chun cinn trína cuid paraiméadar a nuashonrú. Is ionann feabhsú agus foghlaim ar leibhéal matamaiticiúil.<br>
+*sainmhíniú (en):* To improve a machine learning model by updating its parameters. At a mathematical level, optimisation is learning.
+
+tagairtí:
+- feabhsaigh: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991)\*, Ó Dónaill (1977)
+
+nótaí aistriúcháin:
+- Tá an téarma seo ar fáil díreach ó na foclóirí thuas le brí comhchosúil.
+- Tá 'optamaigh' ar Téarma.ie, ach ní léir ón suíomh sin cén fáth nár leor 'feabhsaigh'.
+- Is é 'feabhsú' atá i bhFoclóir Uí Dhónaill agus Uí Mhaoileoin.
+
+
+**feabhsúchán (ainmfhocal): optimisation**<br>
+*sainmhíniú (ga):* An próiseas a bhaineann le samhail ríomhfhoghlama a fheabhsú.<br>
+*sainmhíniú (en):* The process related to optimising a machine learning model.
+
+tagairtí:
+- feabhsúchán: De Bhaldraithe (1978), Ó Dónaill (1977)
+
+nótaí aistriúcháin:
+- Féach ar an téarma 'to optimise / feabhsaigh'.
 
 
 **feidhm (ainmfhocal): function**<br>
