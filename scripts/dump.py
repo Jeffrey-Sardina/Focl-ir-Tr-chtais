@@ -4,7 +4,7 @@ import json
 
 def load_terms():
     terms = {}
-    term_files = glob.glob('terms/*.json')
+    term_files = glob.glob('../terms/*.json')
     for term_file in term_files:
         with open(term_file, 'r') as inp:
             term = json.load(inp)
@@ -41,7 +41,7 @@ def main():
         dump = dump_en()
         tag = "en"
 
-    with open(f'dump-{tag}.txt', 'w') as out:
+    with open(f'../dump-{tag}.txt', 'w') as out:
         print(dump, file=out)
 
 if __name__ == '__main__':

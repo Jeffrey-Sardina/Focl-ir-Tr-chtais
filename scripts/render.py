@@ -4,7 +4,7 @@ import sys
 
 def load_terms():
     terms = {}
-    term_files = glob.glob('terms/*.json')
+    term_files = glob.glob('../terms/*.json')
     for term_file in term_files:
         if DEBUG:
             print(f"loading from file: {term_file}")
@@ -213,7 +213,7 @@ def write_terms(table_str, render_strs):
     else:
         ext = '.html'
     
-    out_file = out_name + ext
+    out_file = "../" + out_name + ext
     with open(out_file, 'w') as out:
         print(table_str, file=out)
         for render_str in render_strs:
