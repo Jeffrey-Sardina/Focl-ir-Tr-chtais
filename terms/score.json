@@ -3,12 +3,12 @@
     "part-of-speech": "ainmfhocal",
     "citation-form": "scór",
     "def-en": "A number describing how good something is (such as the accuracy of a machine learning mode).",
-    "def-ga": "Uimhir a dhéann cur síos ar cé chomh maith atá rud (m.sh. cruinneas samhlach foghlama).",
+    "def-ga": "Uimhir a dhéanann cur síos ar cé chomh maith atá rud (m.sh. cruinneas samhla foghlama).",
 
     "prov": {
         "scór": "de-bhaldraithe, odonaill, (TODO: storchiste?)"
     },
     "notes": [
-        "I gcomthéacs cluichí a fheictear 'scór' úsáidte sna foclóirí seo, seachas i gcomthéacs ríomhaireachta."
+        "I gcomhthéacs cluichí a fheictear 'scór' úsáidte sna foclóirí seo, seachas i gcomhthéacs ríomhaireachta."
     ]
 }

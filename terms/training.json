@@ -3,12 +3,12 @@
     "part-of-speech": "ainmfhocal",
     "citation-form": "traenáil",
     "def-en": "The process of optimising a machine learning model by giving it data to learn from.",
-    "def-ga": "An próiseas a bhaineann le feabhsú samhlach foghlama trí sonraí foghlama a thabhairt di.",
+    "def-ga": "An próiseas a bhaineann le feabhsú samhla foghlama trí sonraí foghlama a thabhairt di.",
 
     "prov": {
         "traenáil": "de-bhaldraithe, focloir-beag, odonaill"
     },
     "notes": [
-        "Ní bhíonn an téarma seo luaite i gcomthéacs ríomhaireachta sna foclóirí thuas."
+        "Ní bhíonn an téarma seo luaite i gcomhthéacs ríomhaireachta sna foclóirí thuas."
     ]
 }

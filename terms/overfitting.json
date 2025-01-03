@@ -3,7 +3,7 @@
     "part-of-speech": "ainmfhocal",
     "citation-form": "ró-fhoghlaim",
     "def-en": "In the context of machine learning, memoirsation of the training set that precludes learning the general patterns of the training set.",
-    "def-ga": "I gcomthéacs ríomhfhoghlama, foghlaim de ghlanmheabhair ar an tacar traenála i gcaoi a chuireann bac ar patrúin ghinearálta an tacair thraenála a fhoghlaim.",
+    "def-ga": "I gcomhthéacs ríomhfhoghlama, foghlaim de ghlanmheabhair ar an tacar traenála i gcaoi a chuireann bac ar patrúin ghinearálta an tacair thraenála a fhoghlaim.",
 
     "prov": {
         "ró-": "de-bhaldraithe, dineen, focloir-beag, odonaill",
@@ -11,6 +11,6 @@
     },
     "notes": [
         "Téarma cruthaithe mar chomh-fhocal leis an réimír agus an leis in bhfocal thuas.",
-        "Féách chomh maith ar an téarma 'machine learning / ríomhfhoghlaim'"
+        "Féach chomh maith ar an téarma 'machine learning / ríomhfhoghlaim'"
     ]
 }

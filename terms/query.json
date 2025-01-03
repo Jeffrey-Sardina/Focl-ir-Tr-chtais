@@ -3,7 +3,7 @@
     "part-of-speech": "ainmfhocal",
     "citation-form": "ceist",
     "def-en": "In the context of a database, an order that is given to the database in the form of code to get an answer in return. For example, a query could be put to a knowledge graph asking if a specific triple is a part of the graph, or if it is not.",
-    "def-ga": "I gcomthéacs bunachar sonraí, ordú a chuirtear ar an mbunachar i bhfoirm cód chun freagra a fháil uaidh. Mar shampla, is féidir ceist a chur ar ghraf eolais faoi an bhfuil abairt thriarach éigin sa ngraf, nó nach bhfuil.",
+    "def-ga": "I gcomhthéacs bunachar sonraí, ordú a chuirtear ar an mbunachar i bhfoirm cód chun freagra a fháil uaidh. Mar shampla, is féidir ceist a chur ar ghraf eolais faoi an bhfuil abairt thriarach éigin sa ngraf, nó nach bhfuil.",
 
     "prov": {
         "ceist": "de-bhaldraithe, dineen, focloir-beag, odonaill"

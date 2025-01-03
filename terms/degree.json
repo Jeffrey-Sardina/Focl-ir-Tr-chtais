@@ -3,12 +3,12 @@
     "part-of-speech": "ainmfhocal",
     "citation-form": "céim",
     "def-en": "In the context of a node in a knowledge graph, how many connections it has with other nodes in the graph.",
-    "def-ga": "I gcomthéacss nóid i ngraf eolais, cé mhéid ceangal atá aige le nóid eile sa ngraf.",
+    "def-ga": "I gcomhthéacs nóid i ngraf eolais, cé mhéid ceangal atá aige le nóid eile sa ngraf.",
 
     "prov": {
         "céim": "de-bhaldraithe, dineen, focloir-beag, odonaill, (TODO: storchiste?)"
     },
     "notes": [
-        "Luann na foclóirí thuas (seachas Foclóir Uí Dhuinín) 'céim' mar téarma geoiméadrachta / eolaíochta. Ní hionann 'céim' geoiméadrachta agus 'céim' nóid i ngraf eolais. Cé is moite de sin, is féidir 'céim' a úsáid i gcomthéacss eolaíochta chun trácht a dhéanamh ar cé chomh fásta / láidir / srl is atá rud (.i. céim teochta). Luíonn sé seo lé 'ceim' mhinicíochta i ngraf -- cé chomh coitianta is atá nód amháin."
+        "Luann na foclóirí thuas (seachas Foclóir Uí Dhuinín) 'céim' mar téarma geoiméadrachta / eolaíochta. Ní hionann 'céim' geoiméadrachta agus 'céim' nóid i ngraf eolais. Cé is moite de sin, is féidir 'céim' a úsáid i gcomhthéacs eolaíochta chun trácht a dhéanamh ar cé chomh fásta / láidir / srl is atá rud (.i. céim teochta). Luíonn sé seo lé 'céim' mhinicíochta i ngraf -- cé chomh coitianta is atá nód amháin."
     ]
 }

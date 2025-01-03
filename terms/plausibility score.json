@@ -3,13 +3,13 @@
     "part-of-speech": "ainmfhocal",
     "citation-form": "scór inchreidteachta",
     "def-en": "A number that represents the chance that something is true",
-    "def-ga": "Uimhjhir a dhéann cur síos ar an dóchúlacht go bhfuil rud fíor.",
+    "def-ga": "Uimhhir a dhéanann cur síos ar an dóchúlacht go bhfuil rud fíor.",
 
     "prov": {
         "scór": "féach ar an téarma 'score / scór'",
         "inchreidteacht": "féach ar an téarma 'plausibility / inchreidteacht'"
     },
     "notes": [
-        "Féách ar nótaí ar 'scór' agus ar 'inchreidteacht'"
+        "Féach ar nótaí ar 'scór' agus ar 'inchreidteacht'"
     ]
 }

@@ -3,7 +3,7 @@
     "part-of-speech": "ainmfhocal",
     "citation-form": "0-sonra",
     "def-en": "A finetuning protocol in which the pretrained model directly tested on a new dataset without finetuning.",
-    "def-ga": "Cur chuige mionfheabsaithe ina bhfuil an tsamhail réamh-thraenáilte teisteáilte ar tacar sonraí nua gan mionfheaabhsú ar bith.",
+    "def-ga": "Cur chuige mion-fheabsaithe ina bhfuil an tsamhail réamh-thraenáilte teisteáilte ar tacar sonraí nua gan mion-fheabsú ar bith.",
 
     "prov": {
         "sonra": "féach ar an téarma 'database / bunachar sonraí"

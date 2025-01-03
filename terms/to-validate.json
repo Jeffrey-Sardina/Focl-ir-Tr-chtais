@@ -2,8 +2,8 @@
     "term": "to validate",
     "part-of-speech": "ainmfhocal",
     "citation-form": "deimhnigh",
-    "def-en": "Próiseas deimhnithe a dhéanamh ar shamhail ríomhfhoghlama.",
-    "def-ga": "To perform validation on a machine learning model.",
+    "def-en": "To perform validation on a machine learning model.",
+    "def-ga": "Próiseas deimhnithe a dhéanamh ar shamhail ríomhfhoghlama.",
 
     "prov": {
         "deimhnigh": "féach ar an téarma 'validation / deimhniú'"

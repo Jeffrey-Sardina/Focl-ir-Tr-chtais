@@ -3,7 +3,7 @@
     "part-of-speech": "ainmfhocal",
     "citation-form": "fhoghlaim easnamhach",
     "def-en": "In the context of machine learning, incomplete learning that results in the model not being able to learn general patterns from the training set.",
-    "def-ga": "I gcomthéacs ríomhfhoghlama, foghlaim neamh-iomlán a fhágann nach bhfuil an tsamhail in ann patrúin ginearálta a fháil ón tacar traenála.",
+    "def-ga": "I gcomhthéacs ríomhfhoghlama, foghlaim neamh-iomlán a fhágann nach bhfuil an tsamhail in ann patrúin ginearálta a fháil ón tacar traenála.",
 
     "prov": {
         "foghlaim": "féach ar an téarma 'machine learning / ríomhfhoghlaim",
@@ -11,6 +11,6 @@
     },
     "notes": [
         "* Is é 'easnamh' seachas 'easnamhach' atá i bhFoclóir Uí Dhuinín.",
-        "Féách chomh maith ar an téarma 'machine learning / ríomhfhoghlaim'"
+        "Féach chomh maith ar an téarma 'machine learning / ríomhfhoghlaim'"
     ]
 }

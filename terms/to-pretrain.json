@@ -3,7 +3,7 @@
     "part-of-speech": "briathair",
     "citation-form": "réamh-thraenáil",
     "def-en": "To train a machine learning model with intent to finetune it later on new data.",
-    "def-ga": "Samhail ríomhfhoghlama a thraenáil le plean é a mionfheabbhsú níos déanaí ar shonraí nua.",
+    "def-ga": "Samhail ríomhfhoghlama a thraenáil le plean é a mion-fheabbhsú níos déanaí ar shonraí nua.",
 
     "prov": {
         "réamh-": "feach ar an téarma 'prertraining / réamh-thraenáil'",
@@ -11,6 +11,6 @@
     },
     "notes": [
         "Féach ar an téarma 'pretraining / réamh-thraenáil'",
-        "Féách chomh maith ar an téarma training / traenáil'."
+        "Féach chomh maith ar an téarma training / traenáil'."
     ]
 }

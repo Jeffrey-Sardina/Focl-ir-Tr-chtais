@@ -3,12 +3,12 @@
     "part-of-speech": "ainmfhocal",
     "citation-form": "feidhm",
     "def-en": "A computational process or algorithm that can be precisely defined (i.e. in code).",
-    "def-ga": "Próiseas no cur chuige ríomhaireachta atá sainmhínithe (m.sh mar chód).",
+    "def-ga": "Próiseas nó cur chuige ríomhaireachta atá sainmhínithe (m.sh mar chód).",
 
     "prov": {
         "feidhm": "de-bhaldraithe, dineen, focloir-beag, odonaill, (TODO: storchiste?)"
     },
     "notes": [
-        "Ní i gchomthéacs matamaticiúil a luaitear an téarma seo. Cé is moite de sin, is léir go bhfuil úsáid teicniciúl leis (.i. 'Vital functions, feidhmiú m an choirp.' i bhFoclóir de Bhaldraithe."
+        "Ní i gcomhthéacs matamaiticiúil a luaitear an téarma seo. Cé is moite de sin, is léir go bhfuil úsáid teicniúil leis (.i. 'Vital functions, feidhmiú an choirp.' i bhFoclóir de Bhaldraithe."
     ]
 }

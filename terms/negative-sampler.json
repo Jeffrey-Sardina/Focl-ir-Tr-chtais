@@ -1,6 +1,6 @@
 {
     "term": "negative sampler",
-    "part-of-speech": "ainmnfhocal",
+    "part-of-speech": "ainmfhocal",
     "citation-form": "frith-shamplóir",
     "def-en": "the part of a knowledge graph embedding model that creates negative samples for the model.",
     "def-ga": "cuid de shamhail leabaithe graif eolais a chruthaíonn frith-shamplaí don tsamhail chéanna.",

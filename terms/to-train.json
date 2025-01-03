@@ -2,8 +2,8 @@
     "term": "to-train",
     "part-of-speech": "briathar",
     "citation-form": "traenáil",
-    "def-en": "Próiseas traenála a dhéanamh ar shamhail ríomhfhoghlama.",
-    "def-ga": "To perform training on a machine learning model.",
+    "def-en": "To perform training on a machine learning model.",
+    "def-ga": "Próiseas traenála a dhéanamh ar shamhail ríomhfhoghlama.",
 
     "prov": {
         "traenáil": "féach ar an téarma 'training / traenáil'"

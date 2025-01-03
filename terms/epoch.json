@@ -1,6 +1,6 @@
 {
     "term": "epoch",
-    "part-of-speech": "aimnfhocal",
+    "part-of-speech": "ainmfhocal",
     "citation-form": "seal",
     "def-en": "A full pass of optimisation in which the machinne learning model sees every data point in the training set exactly once.",
     "def-ga": " Geábh iomlán feabhsaithe ina fheiceann an tsamhail ríomhfhoghlama chuile shonra sa tacar traenála aon uair amháin.",
@@ -9,6 +9,6 @@
         "seal": "de-bhaldraithe, dineen, focloir-beag, odonaill"
     },
     "notes": [
-        "Is iomaí focal ar féidir iad a úsáid anseo (geábh, babhta, timthriail, srl). Roghnaíodh 'seal' toisc é a bheith ag tagairt ar geábh foghlama agus ar réimse ama, díreach mar a bhíonn luchgt ríomhaireachta ag samhlú 'epoch' ríomhfhoghlama."
+        "Is iomaí focal ar féidir iad a úsáid anseo (geábh, babhta, timthriall, srl). Roghnaíodh 'seal' toisc é a bheith ag tagairt ar geábh foghlama agus ar réimse ama, díreach mar a bhíonn lucht ríomhaireachta ag samhlú 'epoch' ríomhfhoghlama."
     ]
 }

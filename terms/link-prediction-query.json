@@ -1,9 +1,9 @@
 {
     "term": "link prediction query",
-    "part-of-speech": "ainmfhocaal",
+    "part-of-speech": "ainmfhocal",
     "citation-form": "ceist réamhinsinte nasc",
     "def-en": "A query that is posed to a link predictor in the form of an incomplete triple (s,p,?) or (?,p,o). The answer to this query is a node $o$ or $s$ that makes a complete and true triple out of the query triple",
-    "def-ga": "Ceist a chuirtear ar réamhinsteoir nasc i bhfoirm abaite triaraí neamhiomlán (s,p,?) nó (?,p,o). Is é an freagra uirthi ná nód $o$ nó $s$ dhéanann abairt iomlán agus cheart as abairt neamhiomlán na ceiste.",
+    "def-ga": "Ceist a chuirtear ar réamhinsteoir nasc i bhfoirm abairte triaraí neamhiomlán (s,p,?) nó (?,p,o). Is é an freagra uirthi ná nód $o$ nó $s$ dhéanann abairt iomlán agus cheart as abairt neamhiomlán na ceiste.",
 
     "prov": {
         "tasc": "de-bhaldraithe, dineen, focloir-beag, odonaill",

@@ -1,9 +1,9 @@
 {
     "term": "to finetune",
     "part-of-speech": "briathar",
-    "citation-form": "mionfheabhsú",
+    "citation-form": "mion-fheabhsú",
     "def-en": "To take a pre-trained machine learning model and train it further on new data.",
-    "def-ga": "Samhail ríomhfhoghlama atá traenáilte cheana a thraenáíl ar sonraí nua.",
+    "def-ga": "Samhail ríomhfhoghlama atá traenáilte cheana a thraenáil ar sonraí nua.",
 
     "prov": {
         "mion-": "de-bhaldraithe, dineen, focloir-beag*, odonaill",
@@ -11,7 +11,7 @@
     },
     "notes": [
         "Ní luaitear mar réimír i bhFoclóir Uí Dhónaill agus Uí Mhaoileoin an téarma 'mion-'.",
-        "Ní bhítear ag caint ar mionfheabhsúchán (nach ionann agus mionfheabhsú) ná ar 'chórais mhionfheabhúchán' go minic, agus mar sin ní chuirtear mar téarmaí anseo iad sin.",
-        "Féach chomh maith ar an téárma 'to optimise / feabhsaigh'."
+        "Ní bhítear ag caint ar mion-fheabhsúchán (nach ionann agus mion-fheabhsú) ná ar 'chórais mhion-fheabhsúchán' go minic, agus mar sin ní chuirtear mar téarmaí anseo iad sin.",
+        "Féach chomh maith ar an Téarma 'to optimise / feabhsaigh'."
     ]
 }

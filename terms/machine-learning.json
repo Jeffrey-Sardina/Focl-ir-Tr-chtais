@@ -1,7 +1,7 @@
 {
     "term": "machine learning",
     "part-of-speech": "ainmfhocal",
-    "citation-form": "ríomhfoghlama",
+    "citation-form": "ríomhfhoghlaim",
     "def-en": "the process of using mathematical optimisation to allow computers to solve complex problems.",
     "def-ga": "cur chuige matamaiticiúil a chuireann ar chumas do ríomhairí ceisteanna casta a fhreagairt.",
 
@@ -10,10 +10,10 @@
         "ríomh-": "odonaill*"
     },
     "notes": [
-        "* Níl 'ríomh-' ann mar réimír. Cé is móite de sin, feictear é in úsáid mar réimír sa bhfoclóir céanna; .i. 'ríomheolaíocht' (murab ioannn sin agus 'eolaíocht' mar iarmhír)",
-        "Ní ghlactar le haistriúchán Téarma.ie (*meaisínfhoghlaim) toisc é a bheith ag úsáid comh-fhocal chun dhá ainmfhocal a chur le chéile seachas an tuiseal ginideach (atá níos nádúrtha don Ghaeilge).",
-        "Bheadh ciall éigin ag dul le 'foghlaim na meaisíní' chomh maith, seachas 'meaisín' a bheith bainteach lena leithéid de mheaisíní nuíocháin (féach ar Teanglann) agus gan rian eile de a fheiceáil i gcomhthéacs ríomhaireachta.",
-        "Cé nach mbíonn trácht ar 'ríomhfhoghalim' i bhfoclóir ar bith, tá ann dá leithéid de 'r-phost' sa gcaint. Móide sin, is rud é seo a dhéantar ar réimíreanna na n-eolaíochta (féách ar 'bith-' mar réimír agus 'bitheolaíocht'."
+        "* Níl 'ríomh-' ann mar réimír. Cé is moite de sin, feictear é in úsáid mar réimír sa bhfoclóir céanna; .i. 'ríomheolaíocht' (murab ionann sin agus 'eolaíocht' mar iarmhír)",
+        "Ní ghlactar le haistriúchán Téarma.ie (meaisínfhoghlaim) toisc nach mbíonn 'meaisín-' ina réimír ar fhocal ar bith eile (ach bíonn 'ríomh-' úsáidte i bhfocail eile).",
+        "Bheadh ciall éigin ag dul le 'foghlaim na meaisíní' chomh maith, seachas 'meaisín' a bheith bainteach lena leithéid de mheaisíní níocháin (féach ar Teanglann) agus gan rian eile de a fheiceáil i gcomhthéacs ríomhaireachta.",
+        "Cé nach mbíonn trácht ar 'ríomhfhoghalim' i bhfoclóir ar bith, tá ann dá leithéid de 'ríomhphost' agus 'ríomheolaíocht' sa gcaint."
     ],
     "old": [
         "Úsáidtear 'na' ann toisc gur foghlaim í seo atá déanta ar mheaisíní i gcoitinne, seachas ar mheaisín(í) anaithnid(e). Féach ar alt alt 1.15.(l) den Chaighdéan Oifigiúil le haghaidh tuilleadh eolais."

@@ -3,7 +3,7 @@
     "part-of-speech": "aidiacht",
     "citation-form": "dlúth",
     "def-en": "In the context of a knowledge graph (or subgraph), highly connected with other parts of the same graph / subgraph.",
-    "def-ga": "I gcomthéacs graif eolais (nó fo-ghraif), an-cheangailte le codanna eile den ghraf / den fho-ghraf.",
+    "def-ga": "I gcomhthéacs graif eolais (nó fo-ghraif), an-cheangailte le codanna eile den ghraf / den fho-ghraf.",
 
     "prov": {
         "dlúth": "de-bhaldraithe, dineen, focloir-beag, odonaill, (TODO: storchiste?)"

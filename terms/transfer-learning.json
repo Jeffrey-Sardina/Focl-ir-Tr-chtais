@@ -3,13 +3,13 @@
     "part-of-speech": "ainmfhocal",
     "citation-form": "tras-fhoghlaim",
     "def-en": "the practice of fine-training a prexisting (pre-trained) machine learning model to produce a new model that solves a diffrent task related to the one the pretrained model could solve.",
-    "def-ga": "úsáid cur chuige mion-feabhsaithe chun cur ar chumas shamhlach fhoghlama atá ann cheana (.i. atá réamh-thraenáilte) tasc nua a dhéanamh atá gaolmhar le tasc na bun-samhlach.",
+    "def-ga": "úsáid cur chuige mion-feabhsaithe chun cur ar chumas samhla fhoghlama atá ann cheana (.i. atá réamh-thraenáilte) tasc nua a dhéanamh atá gaolmhar le tasc na bun-samhla.",
 
     "prov": {
         "tras-": "de-bhaldraithe, focloir-beag, odonaill",
         "foghlaim": "féach ar an téarma 'machine learning / ríomhfhoghlaim"
     },
     "notes": [
-        "Níl aistriúchán déanta ar an téarma seo cheana go bhfios don údár (fiú ar Téarma.ie). Cumtar téarma nua mar sin, as an réimír 'tras-' agus an focal 'foghaim'."
+        "Níl aistriúchán déanta ar an téarma seo cheana go bhfios don údar (fiú ar Téarma.ie). Cumtar téarma nua mar sin, as an réimír 'tras-' agus an focal 'foghlaim'."
     ]
 }

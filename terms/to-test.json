@@ -2,8 +2,8 @@
     "term": "to test",
     "part-of-speech": "briathar",
     "citation-form": "teisteáil",
-    "def-en": "Próiseas teisteála a dhéanamh ar shamhail ríomhfhoghlama.",
-    "def-ga": "To perform testing on a machine learning model.",
+    "def-en": "To perform testing on a machine learning model.",
+    "def-ga": "Próiseas teisteála a dhéanamh ar shamhail ríomhfhoghlama.",
 
     "prov": {
         "teisteáil": "féach ar an téarma 'testing / teisteáil'"

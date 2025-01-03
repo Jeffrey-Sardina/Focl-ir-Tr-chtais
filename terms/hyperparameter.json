@@ -2,8 +2,8 @@
     "term": "hyperparameter",
     "part-of-speech": "ainmfhocal",
     "citation-form": "hipear-pharaiméadar",
-    "def-en": "paraiméadar (nach bhfuil fhoghlamtha) nó socrú atá úsáidte chun algartam samhla foghlama a rith.",
-    "def-ga": "a (non-learnable) parameter or setting that is used to run a machine learning algorithm.",
+    "def-en": "a (non-learnable) parameter or setting that is used to run a machine learning algorithm.",
+    "def-ga": "paraiméadar (nach bhfuil fhoghlamtha) nó socrú atá úsáidte chun algartam samhla foghlama a rith.",
 
     "prov": {
         "hipear-": "odonaill",

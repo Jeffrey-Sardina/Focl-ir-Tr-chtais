@@ -3,12 +3,12 @@
     "part-of-speech": "ainmfhocal",
     "citation-form": "ionchur",
     "def-en": "In the context of a system, process, or function, data that is provided to be used to achieve an end (such as the calculation of a certain value).",
-    "def-ga": "I gcomthéacs córais, próisis, nó feidhme, sonraí a chuirtear isteach lena bheith úsáidte chun sprioc éigin a bhaint amach (m.sh áireamh lauch éigin).",
+    "def-ga": "I gcomhthéacs córais, próisis, nó feidhme, sonraí a chuirtear isteach lena bheith úsáidte chun sprioc éigin a bhaint amach (m.sh áireamh luach éigin).",
 
     "prov": {
         "ionchur": "de-bhaldraithe, odonaill"
     },
     "notes": [
-        "Luann Foclóir De Bhaldraithe 'ionchur' mar théarma teileachumarsáide -- sin le rá, i gcomthéacs an-chosúil leis an gcomthéacs seo."
+        "Luann Foclóir De Bhaldraithe 'ionchur' mar théarma teileachumarsáide -- sin le rá, i gcomhthéacs an-chosúil leis an gcomhthéacs seo."
     ]
 }

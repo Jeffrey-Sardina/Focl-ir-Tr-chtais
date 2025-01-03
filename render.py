@@ -233,7 +233,7 @@ if __name__ == '__main__':
     else: #default to markdown
         MODE = 'markdown'
 
-    assert not ('-md' in sys.argv and '-tex' in sys.argv), "only one index language can be set"
+    assert not ('-ga' in sys.argv and '-en' in sys.argv), "only one index language can be set"
     if '-ga' in sys.argv:
         INDEX_GAEILGE = True
     elif '-en' in sys.argv:

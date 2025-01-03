@@ -3,7 +3,7 @@
     "part-of-speech": "ainmfhocal",
     "citation-form": "lipéad",
     "def-en": "In the ccontext of a knowledge graph, text that is linked to a node ot edge that indicates what that node / edge represents.",
-    "def-ga": "I gcomthéacs graif eolais, téacs atá nasctha le nód nó le ceangal agus a chuireann in iúl céard dó a sheasann an nód / ceangal sin.",
+    "def-ga": "I gcomhthéacs graif eolais, téacs atá nasctha le nód nó le ceangal agus a chuireann in iúl céard dó a sheasann an nód / ceangal sin.",
 
     "prov": {
         "lipéad": "de-bhaldraithe, focloir-beag, odonaill"

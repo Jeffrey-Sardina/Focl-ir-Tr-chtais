@@ -3,12 +3,12 @@
     "part-of-speech": "briathar",
     "citation-form": "tabhair chun rialtachta",
     "def-en": "In the context of a machine learning mode, reducing overfitting by restricting the size of parameter values in some way.",
-    "def-ga": "I gcomthéacs samhlach ríomhfhoghlama, ró-fhoghlaim a laghdú trí méid luach na bparaiméadar a shrianadh ar chaoi éigin.",
+    "def-ga": "I gcomhthéacs samhla ríomhfhoghlama, ró-fhoghlaim a laghdú trí méid luach na bparaiméadar a shrianadh ar chaoi éigin.",
 
     "prov": {
         "tabhair chun rialtachta": "de-bhaldraithe, odonaill"
     },
     "notes": [
-        "Frása iomlán ar fáil ó na foclóirí thuas i gcomthéacs ginearálta."
+        "Frása iomlán ar fáil ó na foclóirí thuas i gcomhthéacs ginearálta."
     ]
 }

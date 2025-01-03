@@ -3,12 +3,12 @@
     "part-of-speech": "ainmfhocal",
     "citation-form": "deimhniú",
     "def-en": "The process that is used to estimate how well (or how poorly) a machine learning model works while it is being trained.",
-    "def-ga": "An próiseas a úsáidtear chun a mheas cé chomh maith (nó cé chomg dona) is a fheidhmníonn samhail ríomhfhoghlama le linn a traenáilte.",
+    "def-ga": "An próiseas a úsáidtear chun a mheas cé chomh maith (nó cé chomh dona) is a fheidhmíonn samhail ríomhfhoghlama le linn a traenáilte.",
 
     "prov": {
         "deimhniú": "de-bhaldraithe, dineen, focloir-beag*, odonaill"
     },
     "notes": [
-        "Ní bhíonn an téarma seo luaite i gcomthéacs ríomhaireachta sna foclóirí thuas."
+        "Ní bhíonn an téarma seo luaite i gcomhthéacs ríomhaireachta sna foclóirí thuas."
     ]
 }
