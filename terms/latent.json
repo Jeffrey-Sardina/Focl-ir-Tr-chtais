@@ -2,7 +2,7 @@
     "term": "latent",
     "part-of-speech": "aidiacht",
     "citation-form": "folaigh",
-    "def-en": "Of a vector or embedding in a machine learning model, represeting information that is learned of implicit, and not explicitly modelled by tbe model.",
+    "def-en": "Of a vector or embedding in a machine learning model, representing information that is learned or implicit, and not explicitly modelled by the model.",
     "def-ga": "Ag trácht ar veicteoir nó ar leabú i samhail ríomhfhoghlama, ag trácht ar eolas atá foghlamtha nó impleachtaithe, seachas bheith samhlaithe go díreach ag an tsamhail chéanna.",
 
     "prov": {

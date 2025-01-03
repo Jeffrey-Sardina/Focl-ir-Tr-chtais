@@ -2,7 +2,7 @@
     "term": "epoch",
     "part-of-speech": "ainmfhocal",
     "citation-form": "seal",
-    "def-en": "A full pass of optimisation in which the machinne learning model sees every data point in the training set exactly once.",
+    "def-en": "A full pass of optimisation in which the machine learning model sees every data point in the training set exactly once.",
     "def-ga": " Geábh iomlán feabhsaithe ina fheiceann an tsamhail ríomhfhoghlama chuile shonra sa tacar traenála aon uair amháin.",
 
     "prov": {

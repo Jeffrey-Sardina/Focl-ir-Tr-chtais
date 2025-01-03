@@ -1,5 +1,5 @@
 {
-    "term": "prertraining",
+    "term": "pretraining",
     "part-of-speech": "ainmfhocal",
     "citation-form": "réamh-thraenáil",
     "def-en": "The process of training a machine learning model with intent to finetune it later on new data.",

@@ -2,7 +2,7 @@
     "term": "batch",
     "part-of-speech": "ainmfhocal",
     "citation-form": "fo-thacar",
-    "def-en": "During the training process, a group of data points from the training set that are given to the machine learning model to allow it to learn. Sometimes, bathes of the testing and validation sets are using during testing and validation as well.",
+    "def-en": "During the training process, a group of data points from the training set that are given to the machine learning model to allow it to learn. Sometimes, batches of the testing and validation sets are used during testing and validation as well.",
     "def-ga": "Le linn an phróisis traenála, grúpa sonraí as an tacar traenála a thugtar don tsamhail ríomhfhoghlama chun ligean di foghlaim. Uaireanta, úsáidtear fo-thacar de thacar teisteála / deimhnithe le linn an próisis teisteála / deimhnithe chomh maith.",
 
     "prov": {

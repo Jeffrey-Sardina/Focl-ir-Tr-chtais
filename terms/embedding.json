@@ -2,7 +2,7 @@
     "term": "embedding",
     "part-of-speech": "ainmfhocal",
     "citation-form": "leabú",
-    "def-en": "a machine learnig process that places nodes or edges into a vector space; or, the vector itself in embedding space that represents a node or edge.",
+    "def-en": "a machine learning process that places nodes or edges into a vector space; or, the vector itself in embedding space that represents a node or edge.",
     "def-ga": "próiseas ríomhfhoghlama a dhéanann nód nó ceangal a chur i spás veicteora; nó, an veicteoir é féin sa spás veicteora a chuireann nód nó ceangal in iúl.",
 
     "prov": {

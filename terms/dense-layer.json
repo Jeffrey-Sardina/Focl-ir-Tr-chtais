@@ -2,7 +2,7 @@
     "term": "dense layer",
     "part-of-speech": "ainmfhocal",
     "citation-form": "ciseal lán-cheangailte",
-    "def-en": "A layer inn a neural network in which every input neuron is connected to every output neuron.",
+    "def-en": "A layer in a neural network in which every input neuron is connected to every output neuron.",
     "def-ga": "Ciseal i líonra néarach ina bhfuil chuile néaróg ionchuir ceangailte le chuile néaróg aschuir.",
 
     "prov": {
