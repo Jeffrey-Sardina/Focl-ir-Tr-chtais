@@ -170,8 +170,8 @@ def gen_index(terms):
         </head>
         <body>
         <div id="headerBar"></div>
-        <h1>Foclóir Tráchtais</h1>
         <div class='centerbox' id='indexlist'>
+        <h1>Foclóir Tráchtais</h1>
         {searchbar + termslist + js_script}
         </div>
         </body>
