@@ -1,7 +1,7 @@
 {
     "term": "underfitting",
     "part-of-speech": "ainmfhocal",
-    "citation-form": "fhoghlaim easnamhach",
+    "citation-form": "foghlaim easnamhach",
     "def-en": "In the context of machine learning, incomplete learning that results in the model not being able to learn general patterns from the training set.",
     "def-ga": "I gcomhthéacs ríomhfhoghlama, foghlaim neamh-iomlán a fhágann nach bhfuil an tsamhail in ann patrúin ginearálta a fháil ón tacar traenála.",
 
