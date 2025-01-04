@@ -109,15 +109,19 @@ def gen_term_page(term):
     """
     return html
 
+def get_term_file_name(term_name):
+    return term_name.replace(' ', '-') + '.html' 
+
 def gen_term_pages(terms):
     for term_id in terms:
         term = terms[term_id]
         term_page_html = gen_term_page(term)
-        with open(os.path.join(TERMS_FOLDER_WRITE, f"{term["term"]}.html"), 'w') as out:
+        file_name = get_term_file_name(term["term"])
+        with open(os.path.join(TERMS_FOLDER_WRITE, file_name), 'w') as out:
             print(term_page_html, file=out)
 
 def gen_index(terms):
-    searchbar = """<input type="text" id="termInput" onkeyup="myFunction()" placeholder="Cuardach téarma i mBéarla nó i nGaeilge...">\n"""
+    searchbar = """<input type="text" id="termInput" onkeyup="myFunction()" placeholder="Cuardaigh téarma i mBéarla nó i nGaeilge...">\n"""
     
     longest_len_eng = 0
     for term_id in terms:
@@ -127,7 +131,8 @@ def gen_index(terms):
     termslist = """<ul id="dict-idx">\n"""
     for term_id in terms:
         term = terms[term_id]
-        termslist += f"""<li><a href="{TERMS_FOLDER_READ + term["term"]}.html">{term["term"]} | {term["citation-form"]}</a></li>\n"""
+        term_file_name = get_term_file_name(term["term"])
+        termslist += f"""<li><a href="{TERMS_FOLDER_READ + term_file_name}">{term["term"]} | {term["citation-form"]}</a></li>\n"""
     termslist += """</ul>\n"""
 
     js_script = """<script>
@@ -171,9 +176,10 @@ def gen_index(terms):
         <body>
         <div id="headerBar"></div>
         <div class='centerbox' id='indexlist'>
-        <h1>Foclóir Tráchtais</h1>
-        {searchbar + termslist + js_script}
+            <h1>Foclóir Tráchtais</h1>
+            {searchbar + termslist}
         </div>
+        {js_script}
         </body>
         </html> 
     """
