@@ -178,6 +178,7 @@ def gen_index(terms):
         <div class='centerbox' id='indexlist'>
             <h1>Foclóir Tráchtais</h1>
             {searchbar + termslist}
+            <p id="versionNum">Foclóir Tráchtais v1.0</p>
         </div>
         {js_script}
         </body>
@@ -186,12 +187,6 @@ def gen_index(terms):
 
     with open(os.path.join(SITE_FOLDER, "index.html"), 'w') as out:
             print(html, file=out)
-
-def general_header():
-    header_html = """
-     
-    """
-    return header_html
 
 def main():
     terms = load_terms()

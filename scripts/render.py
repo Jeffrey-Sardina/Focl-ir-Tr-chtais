@@ -306,16 +306,16 @@ def main():
     print(f"Wrote {num_terms} terms to {out_file}")
 
 if __name__ == '__main__':
+    version = '1.0'
+
     if '-namedversion' in sys.argv:
         # run all versions
-        version = sys.argv[2]
         for MODE in ['markdown', 'latex', 'html']:
             for INDEX_GAEILGE in [True, False]:
                 DEBUG = False
                 main()
 
     else:
-        version = 'XX'
         assert not ('-md' in sys.argv and '-tex' in sys.argv), "only one mode can be set"
         if '-md' in sys.argv:
             MODE = 'markdown'
