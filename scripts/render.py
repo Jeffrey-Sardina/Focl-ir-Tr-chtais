@@ -203,9 +203,9 @@ def render_table(terms):
 
 def write_terms(table_str, render_strs):
     if INDEX_GAEILGE:
-        out_name = "tearmai"
+        out_name = f"focloir-trachtais-v{version}-ga"
     else:
-        out_name = "terms"
+        out_name = f"focloir-trachtais-v{version}-en"
     if MODE == 'markdown':
         ext = '.md'
     elif MODE == 'latex':
@@ -222,32 +222,47 @@ def write_terms(table_str, render_strs):
     num_terms = len(terms)
     return num_terms, out_file
 
-if __name__ == '__main__':
-    assert not ('-md' in sys.argv and '-tex' in sys.argv), "only one mode can be set"
-    if '-md' in sys.argv:
-        MODE = 'markdown'
-    elif '-tex' in sys.argv:
-        MODE = 'latex'
-    elif '-html' in sys.argv:
-        MODE = 'html'
-    else: #default to markdown
-        MODE = 'markdown'
-
-    assert not ('-ga' in sys.argv and '-en' in sys.argv), "only one index language can be set"
-    if '-ga' in sys.argv:
-        INDEX_GAEILGE = True
-    elif '-en' in sys.argv:
-        INDEX_GAEILGE = False
-    else: # default to Gaeilge
-        INDEX_GAEILGE = True
-
-    if '-debug' in sys.argv:
-        DEBUG = True
-    else:
-        DEBUG = False
-
+def main():
+    global terms
     terms = load_terms()
     table_str = render_table(terms)
     render_strs = render_terms(terms)
     num_terms, out_file = write_terms(table_str, render_strs)
     print(f"Wrote {num_terms} terms to {out_file}")
+
+if __name__ == '__main__':
+    if '-namedversion' in sys.argv:
+        # run all versions
+        version = sys.argv[2]
+        for MODE in ['markdown', 'latex', 'html']:
+            for INDEX_GAEILGE in [True, False]:
+                DEBUG = False
+                main()
+
+    else:
+        version = 'XX'
+        assert not ('-md' in sys.argv and '-tex' in sys.argv), "only one mode can be set"
+        if '-md' in sys.argv:
+            MODE = 'markdown'
+        elif '-tex' in sys.argv:
+            MODE = 'latex'
+        elif '-html' in sys.argv:
+            MODE = 'html'
+        else: #default to markdown
+            MODE = 'markdown'
+
+        assert not ('-ga' in sys.argv and '-en' in sys.argv), "only one index language can be set"
+        if '-ga' in sys.argv:
+            INDEX_GAEILGE = True
+        elif '-en' in sys.argv:
+            INDEX_GAEILGE = False
+        else: # default to Gaeilge
+            INDEX_GAEILGE = True
+
+        if '-debug' in sys.argv:
+            DEBUG = True
+        else:
+            DEBUG = False
+        
+        main()
+
