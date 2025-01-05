@@ -201,6 +201,67 @@ def render_table(terms):
     render_str += "\n"
     return render_str
 
+def get_header():
+    if MODE == 'latex':
+        header = """
+            \documentclass{article}
+            \usepackage[a4paper, margin=1in]{geometry}
+            \usepackage{graphicx} % Required for inserting images
+
+            \title{Focloir-Trachtais vVERSION}
+            \author{Jeffrey Seathrún Sardina}
+            \date{Eanáir 2025}
+
+            % setup bibliography
+            \usepackage[
+                backend=biber,
+                style=numeric,
+                sorting=ynt
+            ]{biblatex}
+            \addbibresource{refs.bib}
+
+            \begin{document}
+
+            \maketitle
+        """.replace('vVERSION', f'v{version}')
+    elif MODE == 'markdown':
+        header = f"""
+            # Foclóir Tráchtais v{version}
+            **Jeffrey Seathrún Sardina**<br>
+            **Eanáir 2025**
+        """
+    else: # html
+        header = f"""
+            <!DOCTYPE html>
+            <html>
+            <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+            </head>
+
+            <body>
+
+            <body>
+            <h1>Foclóir Tráchtais v{version}</h1>
+            <strong>Jeffrey Seathrún Sardina</strong>
+            <br>
+            <strong>Eanáir 2025</strong>
+
+        """
+    return header
+
+def get_footer():
+    if MODE == 'latex':
+        footer = """
+            \printbibliography[title={Tagairtí}]
+            \end{document}
+        """
+    elif MODE == 'markdown':
+        footer = ""
+    else: # html
+        footer = "</body>"
+    return footer
+
 def write_terms(table_str, render_strs):
     if INDEX_GAEILGE:
         out_name = f"focloir-trachtais-v{version}-ga"
@@ -212,12 +273,18 @@ def write_terms(table_str, render_strs):
         ext = '.tex'
     else:
         ext = '.html'
+
+    header = get_header()
+    footer = get_footer()
     
     out_file = "../" + out_name + ext
     with open(out_file, 'w') as out:
+        print(header, file=out)
         print(table_str, file=out)
         for render_str in render_strs:
             print(render_str, file=out)
+        print(footer, file=out)
+        
     
     num_terms = len(terms)
     return num_terms, out_file
