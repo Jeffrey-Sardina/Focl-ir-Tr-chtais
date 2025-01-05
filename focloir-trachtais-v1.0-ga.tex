@@ -1,0 +1,1993 @@
+\documentclass{article}
+            \usepackage[a4paper, margin=1in]{geometry}
+            \usepackage{graphicx} % Required for inserting images
+            \usepackage{longtable}
+
+            \title{Focloir-Trachtais v1.0}
+            \author{Jeffrey Seathrún Sardina}
+            \date{Eanáir 2025}
+
+            % setup bibliography
+            \usepackage[
+                backend=biber,
+                style=numeric,
+                sorting=ynt
+            ]{biblatex}
+            \addbibresource{refs.bib}
+
+            \begin{document}
+
+            \maketitle
+        
+\section{Achoimre na dTéarmaí}\begin{longtable}{|l|l|}
+	\hline
+		\textbf{Gaeilge} & \textbf{Béarla}\\ \hline 
+		(frása le 'ceangailte')&connectivity\\ \hline 
+		(frása le 'toise')&dimensionality\\ \hline 
+		0-sonra&0-shot\\ \hline 
+		abairt thriarach&triple\\ \hline 
+		ailíniú&alignment\\ \hline 
+		ailíniú struchtúir&structural alignment\\ \hline 
+		ainmní&subject\\ \hline 
+		airmheán&median\\ \hline 
+		airí&feature\\ \hline 
+		aschur&output\\ \hline 
+		bunachar sonraí&database\\ \hline 
+		ceangal&relation(ship)\\ \hline 
+		ceist&query\\ \hline 
+		ceist réamhinsinte nasc&link prediction query\\ \hline 
+		ciseal&layer\\ \hline 
+		ciseal lán-cheangailte&dense layer\\ \hline 
+		ciseal nialas&dropout layer\\ \hline 
+		comhchoibhneas&correlation\\ \hline 
+		comhéifeacht&coefficient\\ \hline 
+		creatlach&framework\\ \hline 
+		creatlach ailínithe struchtúir&structural alignment framework\\ \hline 
+		cuardach hipear-pharaiméadar&hyperparameter search\\ \hline 
+		cuspóir&object\\ \hline 
+		céim&degree\\ \hline 
+		cóimhinicíocht&co-frequency\\ \hline 
+		córas feabhsúcháin&optimiser\\ \hline 
+		córas rialtachta&regulariser\\ \hline 
+		cúpla-sonra&few-shot\\ \hline 
+		dearadh&architecture\\ \hline 
+		deimhneach&positive\\ \hline 
+		deimhnigh&to validate\\ \hline 
+		deimhniú&validation\\ \hline 
+		diúltach&negative\\ \hline 
+		dlúth&density\\ \hline 
+		dáileadh&distribution\\ \hline 
+		dírithe&directed\\ \hline 
+		dóchúlacht&probability\\ \hline 
+		faisnéis&predicate\\ \hline 
+		feabhsaigh&to optimise\\ \hline 
+		feabhsúchán&optimisation\\ \hline 
+		feidhm&function\\ \hline 
+		feidhm phionós&loss function\\ \hline 
+		feidhm siogmóideach&sigmoid function\\ \hline 
+		fo-ghraf&subgraph\\ \hline 
+		fo-thacar&batch\\ \hline 
+		foghlaim cheart&correct fitting\\ \hline 
+		foghlaim easnamhach&underfitting\\ \hline 
+		folaigh&latent\\ \hline 
+		foshuíomh&assumption\\ \hline 
+		frith-shampla&negative (sample)\\ \hline 
+		frith-shamplóir&negative sampler\\ \hline 
+		fíor-abairt (thriarach)&positive (triple)\\ \hline 
+		graf&graph\\ \hline 
+		graf eolais (GE)&knowledge graph (KG)\\ \hline 
+		hipear-pharaiméadar&hyperparameter\\ \hline 
+		hipitéis ar ailíniú struchtúir&structural alignment hypothesis\\ \hline 
+		histeagram&histogram\\ \hline 
+		inchreidteacht&plausibility\\ \hline 
+		insamhail&to simulate\\ \hline 
+		insamhladh&simulation\\ \hline 
+		ionchur&input\\ \hline 
+		le lipéad&labelled\\ \hline 
+		leabú&embedding\\ \hline 
+		leabú graif eolais&knowledge graph embedding\\ \hline 
+		lipéad&label\\ \hline 
+		líonra&network\\ \hline 
+		líonra néarach (LN)&neural network (NN)\\ \hline 
+		mapa&mapping\\ \hline 
+		measúnaigh&to evaluate\\ \hline 
+		measúnú&evaluation\\ \hline 
+		minicíocht&frequency\\ \hline 
+		mion-fheabhsú&to finetune\\ \hline 
+		méid na bhfo-thacar&batch size\\ \hline 
+		n-sonra&n-shot\\ \hline 
+		neamh-fheicthe&unseen\\ \hline 
+		néarach&neural\\ \hline 
+		nód&node\\ \hline 
+		ointeolaíocht&ontology\\ \hline 
+		paraiméadar&parameter\\ \hline 
+		pionós&loss\\ \hline 
+		randamach&random\\ \hline 
+		ráta foghlama&learning rate\\ \hline 
+		réamh-thraenáil&to pretrain\\ \hline 
+		réamhinsint nasc&link prediction\\ \hline 
+		réamhinsteoir nasc&link predictor\\ \hline 
+		ríomheolaíocht&computer science\\ \hline 
+		ríomhfhoghlaim&machine learning\\ \hline 
+		ró-fhoghlaim&overfitting\\ \hline 
+		samhail&model\\ \hline 
+		samhail leabaithe graif eolais&knowledge graph embedding model\\ \hline 
+		samhlaigh&to model\\ \hline 
+		sampla&sample\\ \hline 
+		sampla fánach&random sample\\ \hline 
+		sampláil&to sample\\ \hline 
+		samplóir&sampler\\ \hline 
+		scoth na réimse&state of the art\\ \hline 
+		scálach&scalar\\ \hline 
+		scór&score\\ \hline 
+		scór inchreidteachta&plausibility score\\ \hline 
+		scóráil&to-score\\ \hline 
+		seal&epoch\\ \hline 
+		sonraí&data\\ \hline 
+		struchtúr&structure\\ \hline 
+		tabhair chun rialtachta&to-regularise\\ \hline 
+		tabhairt chun rialtachta&regularisation\\ \hline 
+		tacar&set\\ \hline 
+		tacar deimhnithe&testing set\\ \hline 
+		tacar teisteála&testing set\\ \hline 
+		tacar traenála&training set\\ \hline 
+		tasc réamhinsinte nasc&link prediction task\\ \hline 
+		teisteáil&to test\\ \hline 
+		toise&dimension\\ \hline 
+		traenáil&training\\ \hline 
+		tras-fhoghlaim&transfer learning\\ \hline 
+		veicteoir&vector\\ \hline 
+		éadlúth&sparsity\\ \hline 
+\caption{Liosta na dtéarma Béarla ar fad agus a leagan Gaeilge, cuirtear in ord de réir na dtéarma Gaeilge.}
+\label{tab-terms-ga-en}
+\end{longtable}
+
+\section{Téarmaí}
+\textbf{(frása le 'ceangailte') (ainmfhocal): connectivity}<br>
+\textit{sainmhíniú (ga):} Cé chomh ceangailte is atá cuid de ghraf eolais (.i. nód nó ceangal) le codanna eile den ghraf céanna.<br>
+\textit{sainmhíniú (en):} How connected one part of a knowledge graph (i.e. a node or edge) is with other parts of the same graph.
+
+tagairtí:
+\begin{itemize}
+	\item ceangailte: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Níl téarma dó seo ar fáil go díreach ó Fhoclóir Uí Dhónaill, De Bhaldraithe, Uí Dhónaill agus Uí Maoileoin, ná Uí Dhuinín. Cé go bhfuil dlús ann (mar 'density' i gcomhthéacs eolaíochta), is iomaí saghsanna dlúis atá ann i ngraf eolais, agus níl 'connectivity' ach ar cheann amháin acu sin. Fágtar gan téarma ar leith é seo mar sin, agus úsáidtear frása leis an téarma 'ceangailte mar sin.
+	\item Samplaí: Cé chomh ceangailte is atá rud, nód atá an-cheangailte le nóid eile, srl.
+\end{itemize}
+
+
+\textbf{(frása le 'toise') (ainmfhocal): dimensionality}<br>
+\textit{sainmhíniú (ga):} Ag trácht ar spás veicteora, líon na n-uimhreacha atá i ngach uile veicteoir sa spás céanna; nó, an t-airí ruda a bhfuil toisí aige.<br>
+\textit{sainmhíniú (en):} Regarding a vector space, the number of elements contained in each vector in that space; or, the property of having dimensions.
+
+tagairtí:
+\begin{itemize}
+	\item toise: féach ar an téarma 'dimension / toise'
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item féach ar an téarma 'toise'
+\end{itemize}
+
+
+\textbf{0-sonra (ainmfhocal): 0-shot}<br>
+\textit{sainmhíniú (ga):} Cur chuige mion-fheabsaithe ina bhfuil an tsamhail réamh-thraenáilte teisteáilte ar tacar sonraí nua gan mion-fheabsú ar bith.<br>
+\textit{sainmhíniú (en):} A finetuning protocol in which the pretrained model is directly tested on a new dataset without finetuning.
+
+tagairtí:
+\begin{itemize}
+	\item sonra: féach ar an téarma 'database / bunachar sonraí
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Féach ar an téarma 'n-shot / n-sonra'.
+\end{itemize}
+
+
+\textbf{abairt thriarach (ainmfhocal): triple}<br>
+\textit{sainmhíniú (ga):} abairt trí choda $(a,f,c)$ atá mar aonad eolais bunúsach i ngraf eolais.<br>
+\textit{sainmhíniú (en):} a three-part statement $(s,p,o)$ that acts as the basic unit of knowledge in a knowledge graph.
+
+tagairtí:
+\begin{itemize}
+	\item abairt: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+	\item triarach: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Cé go bhfuil an focal 'triarach' ar Téarma.ie leis an mbrí chéanna (nach mór), ní ghlacfar leis sin toisc nach bhfuil fianaise ar bith ann sna foclóirí iontaofa gur féidir 'triarach' a úsáid mar ainmfhocal. Sna foclóirí eile sin, ní luaitear é ach mar aidiacht. Mar sin, úsáidtear mar aidiacht amháin anseo é.
+\end{itemize}
+
+
+\textbf{ailíniú (ainmfhocal): alignment}<br>
+\textit{sainmhíniú (ga):} I gcomhthéacs an tráchtais seo, cé chomh maith is a luíonn dá thomhas / cáilíochtaí le chéile ar leibhéal leathan.<br>
+\textit{sainmhíniú (en):} In the context of this thesis, how well two measures / quantities relate to each other in general terms.
+
+tagairtí:
+\begin{itemize}
+	\item ailíniú: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Téarma ar fáil i gcomhthéacs comhchosúil sna foclóirí.
+\end{itemize}
+
+
+\textbf{ailíniú struchtúir (ainmfhocal): structural alignment}<br>
+\textit{sainmhíniú (ga):} Cé chomh maith is a luíonn struchtúr ruda (.i. graf eolais) le cáilíocht mhatamaiticiúil eile.<br>
+\textit{sainmhíniú (en):} How well the structure of something (i.e. a graph) relates to some other mathematical quantity.
+
+tagairtí:
+\begin{itemize}
+	\item ailíniú: féach ar an téarma 'alignment / ailíniú'
+	\item struchtúr: féach ar an téarma 'structure / struchtúr'
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Féach ar na téarmaí 'ailíniú' agus 'struchtúr'.
+\end{itemize}
+
+
+\textbf{ainmní (ainmfhocal): subject}<br>
+\textit{sainmhíniú (ga):} in abairt thriarach $(a,f,c)$, an chéad nód $a$ atá mar thús ag an gceangal $f$.<br>
+\textit{sainmhíniú (en):} in a triple $(s,p,o)$, the first node $s$ that acts as the head of the relationship $p$.
+
+tagairtí:
+\begin{itemize}
+	\item ainmní: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item I mBéarla, samhlaítear abairtí triaracha mar abairtí teangeolaíochta le hainmní, le faisnéis, agus le cuspóir. Glactar leis an analach chéanna i nGaeilge.
+\end{itemize}
+
+
+\textbf{airmheán (ainmfhocal): median}<br>
+\textit{sainmhíniú (ga):} Ag caint ar dháileadh, an luach díreach i lár na luachanna ar fad agus iad sórtáilte.<br>
+\textit{sainmhíniú (en):} With regards to a distribution, the value directly in the middle of all sorted values.
+
+tagairtí:
+\begin{itemize}
+	\item airmheán: Ó Dónaill (1977) \cite{odonaill}, Williams et al. (2023) \cite{storchiste}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Téarma díreach ar fáil leis an mbrí chéanna sna foinsí thuas.
+\end{itemize}
+
+
+\textbf{airí (ainmfhocal): feature}<br>
+\textit{sainmhíniú (ga):} Ionchur amháin ar shamhail ríomhfhoghlama, nó cuid uimhriúil den tsamhail chéanna, a sheasann do shonra nithiúil nó folaigh den tacar sonraí atá á fhoghlaim.<br>
+\textit{sainmhíniú (en):} A single input to, or numerical element of, a machine learning model that represents a concrete or latent element of the dataset being learned.
+
+tagairtí:
+\begin{itemize}
+	\item airí: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Ní mar théarma eolaíochta atá sé i gceann ar bith de na foclóirí thuas. Cé is moite de sin, is léir go gcuireann 'airí' an bhrí cheart in iúl agus é á úsáid i gcomhthéacs eolaíochta.
+	\item Tá réimse leathan focal eile (.i. tréith, gné, srl) a bheadh inúsáidte sa gcomhthéacs seo. Cé is moite de sin, is minice iad sin i gcomhthéacs duine, seachas ruda theibí nó eile.
+\end{itemize}
+
+
+\textbf{aschur (ainmfhocal): output}<br>
+\textit{sainmhíniú (ga):} I gcomhthéacs córais, próisis, nó feidhme, sonraí a thagann as an bpróiseas céanna agus é críochnaithe.<br>
+\textit{sainmhíniú (en):} In the context of a system, process, or function, data that is returned from the process at its end.
+
+tagairtí:
+\begin{itemize}
+	\item aschur: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Luann Foclóir De Bhaldraithe 'ionchur' mar théarma teileachumarsáide -- sin le rá, i gcomhthéacs an-chosúil leis an gcomhthéacs seo.
+\end{itemize}
+
+
+\textbf{bunachar sonraí (ainmfhocal): database}<br>
+\textit{sainmhíniú (ga):} Bailiúchán sonraí ar ríomhaire a bhfuil struchtúr loighciúil righin leis.<br>
+\textit{sainmhíniú (en):} A collection of data on a computer with a strict logical structure.
+
+tagairtí:
+\begin{itemize}
+	\item bunachar sonraí: omianain, tearmaie
+	\item bunachar*: Dineen (1934) \cite{dineen}, Ó Dónaill (1977) \cite{odonaill}
+	\item sonra: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}*, Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item * Úsáidtear 'bunachair' mar leagan iolra den téarma seo, cé nach bhfuil leagan iolra den fhocal 'bunachar' luaite i bhFoclóir Uí Dhónaill.
+	\item Tá 'bunachar sonraí' ar fáil mar aistriúchán ar 'database' ar Foclóir.ie agus ar Téarma.ie, ach níl i bhfoclóir ar bith eile a úsáidtear sa tráchtas seo (.i. Ó Dónall, Ua Duinnín, srl). Sin ráite, tá idir 'bunachar' agus 'sonra' ar fáil i go leor foclóirí eile, agus níl fianaise ar bith ann go mbeadh an téarma 'bunachar sonraí' mí-nádúrtha dá bharr sin. Móide sin, níl cúis ar bith téarma eile le brí gaolmhar (m.sh. 'foras sonraí') a chumadh nua atá téarma cuí ann cheana féin. Glactar le 'bunachar sonraí' mar sin.
+	\item Úsáidtear 'sonraí' san uimhir iolra toisc go bhfuil níos mó ná sonra amháin i nach uile bunachar sonraí (nach mór).
+\end{itemize}
+
+
+\textbf{ceangal (ainmfhocal): relation(ship)}<br>
+\textit{sainmhíniú (ga):} cuid de ghraf a nascann (nó a cheanglaíonn) dhá nód le chéile.<br>
+\textit{sainmhíniú (en):} an element of a graph that serves to connect two nodes.
+
+tagairtí:
+\begin{itemize}
+	\item ceangal: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Is mar thagairt d'fheistiú (le rópa) a úsáidtear an téarma seo den chuid is mó sna foclóirí. Sin ráite, is féidir a rá chomh maith go bhfuil dhá nód a bhfuil ceangal eatarthu 'feistithe' lena chéile, sa chaoi nach measann an t-údar gur bac ar bith é sin ar úsáid an fhocail 'ceangal' leis an mbrí nua seo.
+	\item Seo an téarma céanna is a úsáidtear chun 'edge' a chur in iúl, toisc go bhfuil an bhrí chéanna leis.
+\end{itemize}
+
+
+\textbf{ceist (ainmfhocal): query}<br>
+\textit{sainmhíniú (ga):} I gcomhthéacs bunachar sonraí, ordú a chuirtear ar an mbunachar i bhfoirm cód chun freagra a fháil uaidh. Mar shampla, is féidir ceist a chur ar ghraf eolais faoi an bhfuil abairt thriarach éigin sa ngraf, nó nach bhfuil.<br>
+\textit{sainmhíniú (en):} In the context of a database, an order that is given to the database in the form of code to get an answer in return. For example, a query could be put to a knowledge graph asking if a specific triple is a part of the graph, or if it is not.
+
+tagairtí:
+\begin{itemize}
+	\item ceist: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Téarma díreach ar fáil le brí chomhchosúil.
+\end{itemize}
+
+
+\textbf{ceist réamhinsinte nasc (ainmfhocal): link prediction query}<br>
+\textit{sainmhíniú (ga):} Ceist a chuirtear ar réamhinsteoir nasc i bhfoirm abairte triaraí neamhiomlán (s,p,?) nó (?,p,o). Is é an freagra uirthi ná nód $o$ nó $s$ dhéanann abairt iomlán agus cheart as abairt neamhiomlán na ceiste.<br>
+\textit{sainmhíniú (en):} A query that is posed to a link predictor in the form of an incomplete triple (s,p,?) or (?,p,o). The answer to this query is a node $o$ or $s$ that makes a complete and true triple out of the query triple
+
+tagairtí:
+\begin{itemize}
+	\item tasc: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+	\item réamhsinint: féach ar an téarma 'link prediction / réamhinsint nasc'
+	\item nasc: féach ar an téarma 'link prediction / réamhinsint nasc'
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Féach ar an téarma 'link prediction / réamhinsint nasc'
+\end{itemize}
+
+
+\textbf{ciseal (ainmfhocal): layer}<br>
+\textit{sainmhíniú (ga):} I líonra néarach, bloc néaróg a bhfuil ionchur agus aschur sainmhínithe dó, agus atá mar chuid in-athúsáidte den líonra néarach iomlán.<br>
+\textit{sainmhíniú (en):} In a neural network, a block of neurons that have clearly-defined input and output, and that are a building block of the larger neural network.
+
+tagairtí:
+\begin{itemize}
+	\item ciseal: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Luann Foclóir Uí Dhónaill mar théarma eolaíochta (sa mbitheolaíocht) é seo.
+\end{itemize}
+
+
+\textbf{ciseal lán-cheangailte (ainmfhocal): dense layer}<br>
+\textit{sainmhíniú (ga):} Ciseal i líonra néarach ina bhfuil chuile néaróg ionchuir ceangailte le chuile néaróg aschuir.<br>
+\textit{sainmhíniú (en):} A layer in a neural network in which every input neuron is connected to every output neuron.
+
+tagairtí:
+\begin{itemize}
+	\item ciseal: féach ar an téarma 'layer / ciseal'
+	\item lán-: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+	\item ceangailte: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Úsáidtear 'lán-cheangailte' seachas 'dlúth' toisc go bhfuil sé níos léire ón tús.
+\end{itemize}
+
+
+\textbf{ciseal nialas (ainmfhocal): dropout layer}<br>
+\textit{sainmhíniú (ga):} Ciseal i líonra néarach ina bhfuil luach roinnt néaróg ionadaithe le 0 go randamach.<br>
+\textit{sainmhíniú (en):} A layer in a neural network in which the value of some neurons is randomly replaced by 0.
+
+tagairtí:
+\begin{itemize}
+	\item ciseal: féach ar an téarma 'layer / ciseal'
+	\item nialas: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Ní iarrtar 'dropout' a aistriú go litriúil toisc é sin a bheith i bhfad níos foclaí, gan buntáiste léir ag baint leis.
+\end{itemize}
+
+
+\textbf{comhchoibhneas (ainmfhocal): correlation}<br>
+\textit{sainmhíniú (ga):} Cáilíocht matamaiticiúil a dhéanann cur síos ar cé chomh maith is a luíonn dhá shraith uimhreacha lena chéile.<br>
+\textit{sainmhíniú (en):} A mathematical quantity that describes how well two lists of numbers relate.
+
+tagairtí:
+\begin{itemize}
+	\item comhchoibhneas: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}*, Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item * Tá 'cómh' agus 'cóibhneas' ar fáil i bhFoclóir Uí Dhuinín, ach ní chuirtear le chéile iad ann
+	\item Téarma ar fáil ó Fhoclóir Uí Dhónaill agus ó Fhoclóir De Bhaldraithe.
+	\item Is iomaí téamaí a bhfuil an bhrí chéanna luaite leo i roinnt foclóir -- comhghaol, comhghaolú, comhghaolúchán, agus comhchoibhneas. Roghnaíodh comhchoibhneas toisc é a bheith ceangailte le coibhneas teibí, seachas le gaoil clainne / daonna (amháin).
+\end{itemize}
+
+
+\textbf{comhéifeacht (ainmfhocal): coefficient}<br>
+\textit{sainmhíniú (ga):} Uimhir scálach a úsáidtear chun uimhir nó athróg eile a mhéadú fúithi.<br>
+\textit{sainmhíniú (en):} A scalar value multiplied with another number or variable.
+
+tagairtí:
+\begin{itemize}
+	\item comhéifeacht: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill (1977) \cite{odonaill}, Williams et al. (2023) \cite{storchiste}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Téarma luaite mar théarma matamaitice sna foclóirí thuas.
+\end{itemize}
+
+
+\textbf{creatlach (ainmfhocal): framework}<br>
+\textit{sainmhíniú (ga):} Struchtúr teibí a úsáidtear chun feiniméan a léiriú nó a thuiscint i bhfoirm ginearálta.<br>
+\textit{sainmhíniú (en):} An abstract structure used to describe or understand a phenomenon in a general form.
+
+tagairtí:
+\begin{itemize}
+	\item creatlach: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Téarma díreach ar fáil le brí chomhchosúil.
+\end{itemize}
+
+
+\textbf{creatlach ailínithe struchtúir (ainmfhocal): structural alignment framework}<br>
+\textit{sainmhíniú (ga):} An hipitéis taobh thiar den tráchtas seo, a deir go bhfuil ailíniú idir struchtúr graif eolais agus cé chomh maith agus is féidir réamhinsint nasc a dhéanamh air.<br>
+\textit{sainmhíniú (en):} The central hypothesis of this thesis, which states that there is alignment between the structure of a knowledge graph and how well link prediction can be done on it.
+
+tagairtí:
+\begin{itemize}
+	\item creatlach: féach ar an téarma 'framework / creatlach'
+	\item ailíniú: féach ar an téarma 'alignment / ailíniú'
+	\item struchtúr: féach ar an téarma 'structure / struchtúr'
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Téarma cruthaithe as téarmaí eile anseo (agus as 'hipitéis', atá luaite sa gcomhthéacs céanna sna foclóirí thuas).
+\end{itemize}
+
+
+\textbf{cuardach hipear-pharaiméadar (ainmfhocal): hyperparameter search}<br>
+\textit{sainmhíniú (ga):} an cur chuige a úsáidtear chun na hipear-pharaiméadair is fearr a fháil do shamhail ríomhfhoghlama.<br>
+\textit{sainmhíniú (en):} the approach used to find the optimal hyperparameters for a machine learning model.
+
+tagairtí:
+\begin{itemize}
+	\item cuardach: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+	\item hipear-pharaiméadar: féach ar an téarma 'hyperparameter / hipear-pharaiméadar'
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Féach ar nótaí ar an téarma 'hipear-pharaiméadar'.
+	\item Cuirtear 'hipear-pharaiméadar' sa ghinideach iolra toisc go mbíonn cuardach déanta, don chuid is mó chun níos mó ná hipear-pharaiméadar amháin a fháil.
+\end{itemize}
+
+
+\textbf{cuspóir (ainmfhocal): object}<br>
+\textit{sainmhíniú (ga):} in abairt thriarach $(a,f,c)$, an nód deireanach $c$ atá mar sprioc ag an gceangal $f$.<br>
+\textit{sainmhíniú (en):} in a triple $(s,p,o)$, the final node $o$ that acts as the tail of the relationship $p$.
+
+tagairtí:
+\begin{itemize}
+	\item cuspóir: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item I mBéarla, samhlaítear abairtí triaracha mar abairtí teangeolaíochta le hainmní, le faisnéis, agus le cuspóir. Glactar leis an analach chéanna i nGaeilge.
+\end{itemize}
+
+
+\textbf{céim (ainmfhocal): degree}<br>
+\textit{sainmhíniú (ga):} I gcomhthéacs nóid i ngraf eolais, cé mhéid ceangal atá aige le nóid eile sa ngraf.<br>
+\textit{sainmhíniú (en):} In the context of a node in a knowledge graph, how many connections it has with other nodes in the graph.
+
+tagairtí:
+\begin{itemize}
+	\item céim: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Luann na foclóirí thuas (seachas Foclóir Uí Dhuinín) 'céim' mar téarma geoiméadrachta / eolaíochta. Ní hionann 'céim' geoiméadrachta agus 'céim' nóid i ngraf eolais. Cé is moite de sin, is féidir 'céim' a úsáid i gcomhthéacs eolaíochta chun trácht a dhéanamh ar cé chomh fásta / láidir / srl is atá rud (.i. céim teochta). Luíonn sé seo lé 'céim' mhinicíochta i ngraf -- cé chomh coitianta is atá nód amháin.
+\end{itemize}
+
+
+\textbf{cóimhinicíocht (ainmfhocal): co-frequency}<br>
+\textit{sainmhíniú (ga):} I gcomhthéacs graif eolais, cé chomh minic is a bhíonn dhá nód / cheangal (nó níos mó) le chéile sna habairtí thriaracha céanna sa ngraf.<br>
+\textit{sainmhíniú (en):} In the context of a knowledge graph, how often two (or more) nodes / edges are part of the same triples in the graph.
+
+tagairtí:
+\begin{itemize}
+	\item minicíocht: féach ar an téarma 'minicíocht'
+	\item comh-: De Bhaldraithe (1978) \cite{de-bhaldraithe}*, Dineen (1934) \cite{dineen}, Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item * Níl an réimír Béarla 'co-' i bhFoclóir De Bhaldraithe mar théarma ar leith, ach úsáidtear é (agus a leagan Gaeilge 'comh-' i roinnt maith focail ann.
+	\item Is é 'cómh' atá i bhFoclóir Uí Dhuinín, ach glactar leis gurb in an focal céanna
+	\item De réir Foclóir Uí Dhónaill, scríobhtar có(i)- seachas comh- nuair atá an réimír seo curtha roimh focal a thosaíonn le 'm' nó le 'n', mar a tharlaíonn anseo.
+	\item Féach chomh maith ar an téarma minicíocht.
+\end{itemize}
+
+
+\textbf{córas feabhsúcháin (ainmfhocal): optimiser}<br>
+\textit{sainmhíniú (ga):} An córas a dhéanann samhail ríomhfhoghlama a fheabhsú.<br>
+\textit{sainmhíniú (en):} The system that optimises a machine learning model.
+
+tagairtí:
+\begin{itemize}
+	\item córas: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+	\item feabhsúchán: féach ar an téarma 'optimisation / feabhsúchán'.
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Tá réimse leathan téarmaí eile ar fáil a mbeadh ciall comhchosúil leo (feabhsaitheoir, córas feabhsaithe, srl), ach meastar gur é 'córas feabhsaithe' an ceann is léire acu sin sa gcomhthéacs seo.
+	\item Féach ar an téarma 'to optimise / feabhsaigh'.
+\end{itemize}
+
+
+\textbf{córas rialtachta (ainmfhocal): regulariser}<br>
+\textit{sainmhíniú (ga):} Córas a dhéanann samhail ríomhfhoghlama a thabhairt chun rialtachta le linn á traenála.<br>
+\textit{sainmhíniú (en):} A system that regularises a machine learning model as it is being trained.
+
+tagairtí:
+\begin{itemize}
+	\item córas: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+	\item rialtacht: féach ar an téarma 'to regularise / tabhair chun rialtachta'
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Frása iomlán ar fáil ó na foclóirí thuas i gcomhthéacs ginearálta.
+\end{itemize}
+
+
+\textbf{cúpla-sonra (ainmfhocal): few-shot}<br>
+\textit{sainmhíniú (ga):} Cur chuige mion-fheabsaithe ina bhfuil an tsamhail réamh-thraenáilte in ann cúpla sonra ó thacar sonraí nua a fheiceáil le linn á mion-fheabhsaithe.<br>
+\textit{sainmhíniú (en):} A finetuning protocol in which the pretrained model is able to see a few data points from the new data set during finetuning.
+
+tagairtí:
+\begin{itemize}
+	\item sonra: féach ar an téarma 'database / bunachar sonraí
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Féach ar an téarma 'n-shot / n-sonra'.
+\end{itemize}
+
+
+\textbf{dearadh (ainmfhocal): architecture}<br>
+\textit{sainmhíniú (ga):} An struchtúr matamaiticiúil atá ar líonra néarach.<br>
+\textit{sainmhíniú (en):} The mathematical structure of a neural network.
+
+tagairtí:
+\begin{itemize}
+	\item dearadh: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Úsáidtear 'dearadh' seachas 'ailtireacht' toisc gurb é an rud is tábhachtaí ná cé chaoi a rinneadh an líonra néarach a dhearadh; sin le ré, rogha an dearthóra.
+\end{itemize}
+
+
+\textbf{deimhneach (aidiacht): positive}<br>
+\textit{sainmhíniú (ga):} ag caint ar uimhir, níos mó ná 0.<br>
+\textit{sainmhíniú (en):} regarding a number, above 0.
+
+tagairtí:
+\begin{itemize}
+	\item deimhneach: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Téarma ar fáil leis an mbrí chéanna sna foclóirí thuas.
+\end{itemize}
+
+
+\textbf{deimhnigh (ainmfhocal): to validate}<br>
+\textit{sainmhíniú (ga):} Próiseas deimhnithe a dhéanamh ar shamhail ríomhfhoghlama.<br>
+\textit{sainmhíniú (en):} To perform validation on a machine learning model.
+
+tagairtí:
+\begin{itemize}
+	\item deimhnigh: féach ar an téarma 'validation / deimhniú'
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Féach ar an téarma 'validation / deimhniú'
+\end{itemize}
+
+
+\textbf{deimhniú (ainmfhocal): validation}<br>
+\textit{sainmhíniú (ga):} An próiseas a úsáidtear chun a mheas cé chomh maith (nó cé chomh dona) is a fheidhmíonn samhail ríomhfhoghlama le linn a traenáilte.<br>
+\textit{sainmhíniú (en):} The process that is used to estimate how well (or how poorly) a machine learning model works while it is being trained.
+
+tagairtí:
+\begin{itemize}
+	\item deimhniú: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}*, Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Ní bhíonn an téarma seo luaite i gcomhthéacs ríomhaireachta sna foclóirí thuas.
+\end{itemize}
+
+
+\textbf{diúltach (aidiacht): negative}<br>
+\textit{sainmhíniú (ga):} ag caint ar uimhir, faoi 0.<br>
+\textit{sainmhíniú (en):} regarding a number, below 0.
+
+tagairtí:
+\begin{itemize}
+	\item diúltach: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Téarma díreach ar fáil sna foclóirí.
+\end{itemize}
+
+
+\textbf{dlúth (ainmfhocal): density}<br>
+\textit{sainmhíniú (ga):} I gcomhthéacs graif eolais (nó fo-ghraif), cé chomh dlúth is atá sé.<br>
+\textit{sainmhíniú (en):} In the context of a knowledge graph (or subgraph), how dense it is.
+
+tagairtí:
+\begin{itemize}
+	\item dlúth: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Téarma díreach ar fáil le brí chomhchosúil.
+\end{itemize}
+
+
+\textbf{dáileadh (ainmfhocal): distribution}<br>
+\textit{sainmhíniú (ga):} I gcomhthéacs tacar / liosta uimhreacha, léiriú staitistiúil ar cé chomh minic is a tarlaíonn chuile luach, nó chuile réimse luachanna, ann.<br>
+\textit{sainmhíniú (en):} In the context of a set / list of numbers, a statistical description of how often each value, or each range of values, occurs.
+
+tagairtí:
+\begin{itemize}
+	\item dáileadh: Williams et al. (2023) \cite{storchiste}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Téarma ar fáil sa gcomhthéacs matamaiticiúil céanna i Stórchiste.
+	\item Níl an téarma seo luaite i comhthéacs chomhchosúil i bhFoclóir ar bith eile atá á úsáid anseo.
+\end{itemize}
+
+
+\textbf{dírithe (aidiacht): directed}<br>
+\textit{sainmhíniú (ga):} Ag tagairt ar cheangal in abairte triaraí, ag ceangal an nód tosaigh (an ainmní) leis an nód deiridh (an cuspóir) in ord.<br>
+\textit{sainmhíniú (en):} Regarding an edge in a triple, providing an order-aware mapping of a source node (the subject) to a target node (the object).
+
+tagairtí:
+\begin{itemize}
+	\item dírithe: Dineen (1934) \cite{dineen}, Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Úsáidtear an téarma seo i gcomhthéacs treo radhairc, aidhm ghunna, agus ar eile. Sin ráite, tá an bhrí sin an-ghar don bhrí atá i gceist anseo. Glactar leis mar théarma mar sin.
+\end{itemize}
+
+
+\textbf{dóchúlacht (ainmfhocal): probability}<br>
+\textit{sainmhíniú (ga):} An seans go dtarlóidh rud randamach.<br>
+\textit{sainmhíniú (en):} The chance that a random event will occur.
+
+tagairtí:
+\begin{itemize}
+	\item dóchúlacht: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}*, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}, Williams et al. (2023) \cite{storchiste}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item * Sé 'dóigheamhlacht' a fheictear i bhFoclóir Uí Dhuinín, ach meastar gurb in litriú eile ar an bhfocal céanna.
+	\item Seachas sin, tá an téarma seo ar fáil go díreach ó na foclóirí thuas.
+\end{itemize}
+
+
+\textbf{faisnéis (ainmfhocal): predicate}<br>
+\textit{sainmhíniú (ga):} in abairt thriarach $(a,f,c)$, an ceangal $c$ a cheanglaíonn an t-ainmní $a$ leis an gcuspóir $c$.<br>
+\textit{sainmhíniú (en):} in a triple $(s,p,o)$, the predicate $p$ that connects the subject $s$ to the object $o$.
+
+tagairtí:
+\begin{itemize}
+	\item cuspóir: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item I mBéarla, samhlaítear abairtí triaracha mar abairtí teangeolaíochta le hainmní, le faisnéis, agus le cuspóir. Glactar leis an analach chéanna i nGaeilge.
+\end{itemize}
+
+
+\textbf{feabhsaigh (briathar): to optimise}<br>
+\textit{sainmhíniú (ga):} Samhail ríomhfhoghlama a chur chun cinn trína cuid paraiméadar a nuashonrú. Is ionann feabhsú agus foghlaim ar leibhéal matamaiticiúil.<br>
+\textit{sainmhíniú (en):} To improve a machine learning model by updating its parameters. At a mathematical level, optimisation is learning.
+
+tagairtí:
+\begin{itemize}
+	\item feabhsaigh: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}*, Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Tá an téarma seo ar fáil díreach ó na foclóirí thuas le brí comhchosúil.
+	\item Tá 'optamaigh' ar Téarma.ie, ach ní léir ón suíomh sin cén fáth nár leor 'feabhsaigh'.
+	\item Is é 'feabhsú' atá i bhFoclóir Uí Dhónaill agus Uí Mhaoileoin.
+\end{itemize}
+
+
+\textbf{feabhsúchán (ainmfhocal): optimisation}<br>
+\textit{sainmhíniú (ga):} An próiseas a bhaineann le samhail ríomhfhoghlama a fheabhsú.<br>
+\textit{sainmhíniú (en):} The process related to optimising a machine learning model.
+
+tagairtí:
+\begin{itemize}
+	\item feabhsúchán: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Féach ar an téarma 'to optimise / feabhsaigh'.
+\end{itemize}
+
+
+\textbf{feidhm (ainmfhocal): function}<br>
+\textit{sainmhíniú (ga):} Próiseas nó cur chuige ríomhaireachta atá sainmhínithe (m.sh mar chód).<br>
+\textit{sainmhíniú (en):} A computational process or algorithm that can be precisely defined (i.e. in code).
+
+tagairtí:
+\begin{itemize}
+	\item feidhm: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}, Williams et al. (2023) \cite{storchiste}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Ní i gcomhthéacs matamaiticiúil a luaitear an téarma seo ach amháin i Stórchiste. Cé is moite de sin, is léir go bhfuil úsáid teicniúil leis (.i. 'Vital functions, feidhmiú an choirp.' i bhFoclóir de Bhaldraithe.
+\end{itemize}
+
+
+\textbf{feidhm phionós (ainmfhocal): loss function}<br>
+\textit{sainmhíniú (ga):} I gcomhthéacs samhla ríomhfhoghlama, feidhm a dhéanann luach an phionóis a áireamh don tsamhail sin ar tacar sonraí éigin.<br>
+\textit{sainmhíniú (en):} In the context of a machine learning model, a function that calculates the loss value of that model on some set of data points.
+
+tagairtí:
+\begin{itemize}
+	\item feidhm: féach ar an téarma 'function / feidhm'.
+	\item pionós: féach ar an téarma 'loss / pionós'.
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Féach ar na téarmaí 'feidhm' agus 'pionós'.
+\end{itemize}
+
+
+\textbf{feidhm siogmóideach (aidiacht): sigmoid function}<br>
+\textit{sainmhíniú (ga):} An feidhm $siogma(x) = 1 / (1 + e^(-x))$ (a bhfuil cruth cosúil leis an litir 's' air agus é breactha ar graf).<br>
+\textit{sainmhíniú (en):} The function $sigma(x) = 1 / (1 + e^(-x))$ (which has a shape similar to the letter s when plotted on a graph).
+
+tagairtí:
+\begin{itemize}
+	\item feidhm: féach ar an téarma 'function / feidhm'
+	\item siogma: Ó Dónaill (1977) \cite{odonaill}
+	\item -óideach: Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Níl an focal 'siogmóideach' ann i bhfoclóir ar bith atá á úsáid agam, ach is féidir an téarma a chruthú i nGaeilge mar a rinneadh i mBéarla as an litir Gréigise (siogma) agus -'óideach'.
+\end{itemize}
+
+
+\textbf{fo-ghraf (ainmfhocal): subgraph}<br>
+\textit{sainmhíniú (ga):} Cuid de ghraf eolais, atá mar ghraf eolas (níos lú) é féin.<br>
+\textit{sainmhíniú (en):} A part of a knowledge graph that itself is a (smaller) knowledge graph.
+
+tagairtí:
+\begin{itemize}
+	\item fo-: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+	\item graf: féach ar an téarma 'graph / graf'
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Tá an téarma seo i bhFoclóir Uí Dhuinín, ach leis an mbrí 'faoi' seachas 'mar chuid de'.
+\end{itemize}
+
+
+\textbf{fo-thacar (ainmfhocal): batch}<br>
+\textit{sainmhíniú (ga):} Le linn an phróisis traenála, grúpa sonraí as an tacar traenála a thugtar don tsamhail ríomhfhoghlama chun ligean di foghlaim. Uaireanta, úsáidtear fo-thacar de thacar teisteála / deimhnithe le linn an próisis teisteála / deimhnithe chomh maith.<br>
+\textit{sainmhíniú (en):} During the training process, a group of data points from the training set that are given to the machine learning model to allow it to learn. Sometimes, batches of the testing and validation sets are used during testing and validation as well.
+
+tagairtí:
+\begin{itemize}
+	\item fo-: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+	\item tacar: féach ar an téarma 'set / tacar'
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Téarmaí díreach ar fáil le bríonna chomhchosúla.
+	\item Féach chomh maith ar an téarma 'set / tacar'.
+\end{itemize}
+
+
+\textbf{foghlaim cheart (ainmfhocal): correct fitting}<br>
+\textit{sainmhíniú (ga):} I gcomhthéacs ríomhfhoghlama, foghlaim réasúnta iomlán atá in ann patrúin ginearálta an tacair traenála a fhoghlaim gan a bheith ag ró-fhoghlaim ná an foghlaim go heasnamhach.<br>
+\textit{sainmhíniú (en):} In the context of machine learning, reasonably complete learning that can extract general patterns from the training set without overfitting or underfitting.
+
+tagairtí:
+\begin{itemize}
+	\item foghlaim: féach ar an téarma 'machine learning / ríomhfhoghlaim
+	\item ceart: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}*, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Féach ar an téarma 'machine learning / ríomhfhoghlaim'
+\end{itemize}
+
+
+\textbf{foghlaim easnamhach (ainmfhocal): underfitting}<br>
+\textit{sainmhíniú (ga):} I gcomhthéacs ríomhfhoghlama, foghlaim neamh-iomlán a fhágann nach bhfuil an tsamhail in ann patrúin ginearálta a fháil ón tacar traenála.<br>
+\textit{sainmhíniú (en):} In the context of machine learning, incomplete learning that results in the model not being able to learn general patterns from the training set.
+
+tagairtí:
+\begin{itemize}
+	\item foghlaim: féach ar an téarma 'machine learning / ríomhfhoghlaim
+	\item easnamhach: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}*, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item * Is é 'easnamh' seachas 'easnamhach' atá i bhFoclóir Uí Dhuinín.
+	\item Féach chomh maith ar an téarma 'machine learning / ríomhfhoghlaim'
+\end{itemize}
+
+
+\textbf{folaigh (aidiacht): latent}<br>
+\textit{sainmhíniú (ga):} Ag trácht ar veicteoir nó ar leabú i samhail ríomhfhoghlama, ag trácht ar eolas atá foghlamtha nó impleachtaithe, seachas bheith samhlaithe go díreach ag an tsamhail chéanna.<br>
+\textit{sainmhíniú (en):} Of a vector or embedding in a machine learning model, representing information that is learned or implicit, and not explicitly modelled by the model.
+
+tagairtí:
+\begin{itemize}
+	\item folaigh: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}*, Ó Dónaill et al. (1991) \cite{focloir-beag}*, Ó Dónaill (1977) \cite{odonaill}*
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Feictear 'teas folaigh' mar théarma eolaíochta i bhFoclóir De Bhaldraithe, agus glactar leis sa gcomhthéacs seo mar analach leis sin.
+	\item * Tá an focal 'foclach' ann san foclóirí seo, cé nach bhfuil an bhrí eolaíochta 'folaigh' luaite leo.
+\end{itemize}
+
+
+\textbf{foshuíomh (ainmfhocal): assumption}<br>
+\textit{sainmhíniú (ga):} Ráiteas a chuirtear i gcás gur fíor é.<br>
+\textit{sainmhíniú (en):} A statement that is taken to be true.
+
+tagairtí:
+\begin{itemize}
+	\item foshuíomh: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item De réir Fhoclóirí Uí Dhónaill agus De Bhaldraithe, is téarma fealsúnachta é seo. Cloíonn sé sin leis an gcomhthéacs eolaíochta atá i gceist leis an tráchtas seo.
+	\item Is féidir 'cur i gcás' nó 'beirtear leis' a úsáid chomh maith i bhfrása chun brí chomhchosúil leis seo a chur in iúl.
+\end{itemize}
+
+
+\textbf{frith-shampla (ainmfhocal): negative (sample)}<br>
+\textit{sainmhíniú (ga):} I gcomhthéacs graf eolais, abairt thriarach bhréagach a úsáidtear mar fhrith-shampla.<br>
+\textit{sainmhíniú (en):} In the context of knowledge graphs, a fake triple that is used as a counterexample.
+
+tagairtí:
+\begin{itemize}
+	\item frith-: féach ar an téarma 'counterexample / frith-shampla'
+	\item sampla: féach ar an téarma 'sample / shampla'
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Úsáidtear frith-shampla toisc gurb in, go díreach, a bhfuil i gceist sa gcás seo.
+	\item Féach chomh maith ar an téarma 'frith-shampla'
+\end{itemize}
+
+
+\textbf{frith-shamplóir (ainmfhocal): negative sampler}<br>
+\textit{sainmhíniú (ga):} cuid de shamhail leabaithe graif eolais a chruthaíonn frith-shamplaí don tsamhail chéanna.<br>
+\textit{sainmhíniú (en):} the part of a knowledge graph embedding model that creates negative samples for the model.
+
+tagairtí:
+\begin{itemize}
+	\item frith-: féach ar an téarma 'negative / frith-shampla'
+	\item samplóir: féach ar an téarma 'sampler / samplóir'
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Ní úsáidtear '*samplóir diúltach' toisc nach léir go mbeadh sé sin chomh léir / intuigthe céanna.
+\end{itemize}
+
+
+\textbf{fíor-abairt (thriarach) (ainmfhocal): positive (triple)}<br>
+\textit{sainmhíniú (ga):} I gcomhthéacs graf eolais, abairt thriarach atá mar chuid den GE, agus a ndéantar frith-shamplaí dó.<br>
+\textit{sainmhíniú (en):} In the context of knowledge graphs, a ground-truth triple from the KG for which various negatives are generated.
+
+tagairtí:
+\begin{itemize}
+	\item abairt: féach ar an téarma 'triple / abairt thriarach'
+	\item thriarach: féach ar an téarma 'triple / abairt thriarach'
+	\item fíor: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Úsáidtear frith-shampla toisc gurb in, go díreach, a bhfuil i gceist sa gcás seo.
+	\item Féach chomh maith ar an téarma 'frith-shampla'
+\end{itemize}
+
+
+\textbf{graf (ainmfhocal): graph}<br>
+\textit{sainmhíniú (ga):} Struchtúr sonraí ina shamhlaítear sonraí mar nóid agus mar cheangail eatarthu.<br>
+\textit{sainmhíniú (en):} A data structure in which data is modelled as nodes and the connections between them.
+
+tagairtí:
+\begin{itemize}
+	\item graf: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill et al. (1991) \cite{focloir-beag}*, Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item * Cé go bhfuil 'graf' istigh san Fhoclóir Beag, is i gcomhthéacs graif líne amháin a luaitear é.
+\end{itemize}
+
+
+\textbf{graf eolais (GE) (ainmfhocal): knowledge graph (KG)}<br>
+\textit{sainmhíniú (ga):} Bunachar sonraí a shamhlaíonn eolas mar nóid agus na ceangail eatarthu. Bíonn lipéad ar chuile nód / ceangal, agus bíonn chuile cheangal dírithe.<br>
+\textit{sainmhíniú (en):} A database consisting of labelled nodes representing concepts and directed, labelled edges describing the relationships between them.
+
+tagairtí:
+\begin{itemize}
+	\item graf: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill et al. (1991) \cite{focloir-beag}*, Ó Dónaill (1977) \cite{odonaill}
+	\item eolas: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}*, Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item * Cé go bhfuil 'graf' istigh san Fhoclóir Beag, is i gcomhthéacs graif líne amháin a luaitear é.
+	\item Níl aistriúchán déanta ar an téarma seo cheana go bhfios don údar (fiú ar Téarma.ie). Cumtar téarma nua mar sin, as 'graf' agus as 'eolas' mar a cumadh i mBéarla é.
+\end{itemize}
+
+
+\textbf{hipear-pharaiméadar (ainmfhocal): hyperparameter}<br>
+\textit{sainmhíniú (ga):} paraiméadar (nach bhfuil fhoghlamtha) nó socrú atá úsáidte chun algartam samhla foghlama a rith.<br>
+\textit{sainmhíniú (en):} a (non-learnable) parameter or setting that is used to run a machine learning algorithm.
+
+tagairtí:
+\begin{itemize}
+	\item hipear-: Ó Dónaill (1977) \cite{odonaill}
+	\item pharaiméadar: féach ar an téarma 'parameter / pharaiméadar'
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Níl an téarma iomlán 'hipear-pharaiméadar' ar fáil i bhfoclóir ar bith. Sin ráite, tá idir 'hipear-' (mar réimír) agus 'paraiméadar' (mar ainmfhocal) i bhFoclóir Uí Dhónaill, rud a spreagann an téarma seo go díreach.
+\end{itemize}
+
+
+\textbf{hipitéis ar ailíniú struchtúir (ainmfhocal): structural alignment hypothesis}<br>
+\textit{sainmhíniú (ga):} An hipitéis taobh thiar den tráchtas seo, a deir go bhfuil ailíniú idir struchtúr graif eolais agus cé chomh maith agus is féidir réamhinsint nasc a dhéanamh air.<br>
+\textit{sainmhíniú (en):} The central hypothesis of this thesis, which states that there is alignment between the structure of a knowledge graph and how well link prediction can be done on it.
+
+tagairtí:
+\begin{itemize}
+	\item hipitéis: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+	\item ailíniú: féach ar an téarma 'alignment / ailíniú'
+	\item struchtúr: féach ar an téarma 'structure / struchtúr'
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Téarma cruthaithe as téarmaí eile anseo (agus as 'hipitéis', atá luaite sa gcomhthéacs céanna sna foclóirí thuas).
+\end{itemize}
+
+
+\textbf{histeagram (ainmfhocal): histogram}<br>
+\textit{sainmhíniú (ga):} Breacadh a dhéanann cur síos ar dáileadh staitistiúil le colúin minicíochta do chuile réimse luachanna sa dáileadh.<br>
+\textit{sainmhíniú (en):} A plot that summarises a statistical distribution using frequency columns for every range of values in the distribution.
+
+tagairtí:
+\begin{itemize}
+	\item histeagram: Ó Dónaill (1977) \cite{odonaill}, Williams et al. (2023) \cite{storchiste}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Téarma díreach ar fáil ó Fhoclóir Uí Dhónaill agus ó Stórchiste.
+\end{itemize}
+
+
+\textbf{inchreidteacht (ainmfhocal): plausibility}<br>
+\textit{sainmhíniú (ga):} Airí ruda ar (dócha gur) fíor é.<br>
+\textit{sainmhíniú (en):} The property of being (likely) true.
+
+tagairtí:
+\begin{itemize}
+	\item inchreidteacht: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Téarma ar fáil go díreach ó na foclóirí i gcomhthéacs chomhchosúil.
+\end{itemize}
+
+
+\textbf{insamhail (briathar): to simulate}<br>
+\textit{sainmhíniú (ga):} Samhlail ríomhfhoghlama (nó uirlisí ríomhaireachta eile) a úsáid chun próiseas casta a shamhlú i bhfoirm níos simplí.<br>
+\textit{sainmhíniú (en):} To use a machine learning model (or other computational tools) to model a complex process in a simpler form.
+
+tagairtí:
+\begin{itemize}
+	\item insamhail: féach ar an téarma 'simulation / insamhladh'
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Féach ar an téarma 'simulation / insamhladh'.
+\end{itemize}
+
+
+\textbf{insamhladh (ainmfhocal): simulation}<br>
+\textit{sainmhíniú (ga):} Úsáid samhla ríomhfhoghlama (nó uirlisí ríomhaireachta eile) chun próiseas casta a shamhlú i bhfoirm níos simplí.<br>
+\textit{sainmhíniú (en):} The use of a machine learning mode (or other computational tools) to model a complex process in a simpler form.
+
+tagairtí:
+\begin{itemize}
+	\item insamhail: Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Níl focal ar bith ann iomlán foirfe don téarma seo sna foclóirí atá á n-úsáid. Cé is moite de sin, tá brí comhchosúil (nach mór) ag 'insamhail', agus tá an-bhuntáiste aige sin go bhfuil sé cosúil leis an bhfocal 'samhail', atá in úsáid chomh maith sa tráchtas seo. Roghnaíodh mar sin e.
+	\item Is é ionsamhail1 atá ar Focloir.ie, ach is é 'insamhail' atá i bhFoclóir Uí Dhónaill. Mar is iondúil sa saothar seo, tugtar aird d'Fhoclóir Uí Dhónaill amháin sa gcás seo.
+\end{itemize}
+
+
+\textbf{ionchur (ainmfhocal): input}<br>
+\textit{sainmhíniú (ga):} I gcomhthéacs córais, próisis, nó feidhme, sonraí a chuirtear isteach lena bheith úsáidte chun sprioc éigin a bhaint amach (m.sh áireamh luach éigin).<br>
+\textit{sainmhíniú (en):} In the context of a system, process, or function, data that is provided to be used to achieve an end (such as the calculation of a certain value).
+
+tagairtí:
+\begin{itemize}
+	\item ionchur: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Luann Foclóir De Bhaldraithe 'ionchur' mar théarma teileachumarsáide -- sin le rá, i gcomhthéacs an-chosúil leis an gcomhthéacs seo.
+\end{itemize}
+
+
+\textbf{le lipéad (aidiacht): labelled}<br>
+\textit{sainmhíniú (ga):} Ag tagairt ar nód nó ar ceangal, rud a bhfuil lipéad (uimhir, téacs, nó eile) curtha leis mar shuaitheantas.<br>
+\textit{sainmhíniú (en):} Referring to a node or edge, having a labelled (number, text, etc) attached to it as an identifier.
+
+tagairtí:
+\begin{itemize}
+	\item le: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+	\item lipéad: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Úsáidtear frása réamhfhoclach anseo seachas briathar nua a chumadh.
+\end{itemize}
+
+
+\textbf{leabú (ainmfhocal): embedding}<br>
+\textit{sainmhíniú (ga):} próiseas ríomhfhoghlama a dhéanann nód nó ceangal a chur i spás veicteora; nó, an veicteoir é féin sa spás veicteora a chuireann nód nó ceangal in iúl.<br>
+\textit{sainmhíniú (en):} a machine learning process that places nodes or edges into a vector space; or, the vector itself in embedding space that represents a node or edge.
+
+tagairtí:
+\begin{itemize}
+	\item leabú: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Úsáidtear 'leabú' sna foclóirí chun tagairt a dhéanamh ar leabú fisiciúil: mar shampla, cloch a leabú i moirtéal. Sin ráite, níl sa bhrí nua (ríomheolaíochta) seo ach leabú i rud neamh-fhisiciúil -- spás veicteora. Mar sin, glactar le húsáid an téarma seo.
+\end{itemize}
+
+
+\textbf{leabú graif eolais (ainmfhocal): knowledge graph embedding}<br>
+\textit{sainmhíniú (ga):} Próiseas ríomhfhoghlama a bhfuil leabú graif eolais amháin mar thoradh air; nó, leabú amháin a fhaightear mar thoradh air sin<br>
+\textit{sainmhíniú (en):} The machine learning process of embedding a single knowledge graph into vector space; or, a single embedding obtained from said process.
+
+tagairtí:
+\begin{itemize}
+	\item leabú: féach ar an téarma 'embedding / leabú'
+	\item graf eolais: féach ar an téarma 'knowledge graph / graf eolais'
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Fágtar san uimhir uatha é seo toisc nach mbíonn ach graf amháin á leabú ag an uair amháin / ag an samhail amháin.
+\end{itemize}
+
+
+\textbf{lipéad (ainmfhocal): label}<br>
+\textit{sainmhíniú (ga):} I gcomhthéacs graif eolais, téacs atá nasctha le nód nó le ceangal agus a chuireann in iúl céard dó a sheasann an nód / ceangal sin.<br>
+\textit{sainmhíniú (en):} In the context of a knowledge graph, text that is linked to a node or edge that indicates what that node / edge represents.
+
+tagairtí:
+\begin{itemize}
+	\item lipéad: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Téarma díreach ar fáil le brí chomhchosúil.
+\end{itemize}
+
+
+\textbf{líonra (ainmfhocal): network}<br>
+\textit{sainmhíniú (ga):} tacar nód agus na gceangal eatarthu.<br>
+\textit{sainmhíniú (en):} a set of nodes and the connections between them.
+
+tagairtí:
+\begin{itemize}
+	\item líonra: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Téarma ar fáil go díreach sna foclóirí.
+\end{itemize}
+
+
+\textbf{líonra néarach (LN) (ainmfhocal): neural network (NN)}<br>
+\textit{sainmhíniú (ga):} Cur chuige agus struchtúr ríomhfhoghlama bunaithe ar úsáid néaróg saorga.<br>
+\textit{sainmhíniú (en):} An approach to, and structure of, machine learning based on artificial neurons.
+
+tagairtí:
+\begin{itemize}
+	\item líonra: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+	\item néarach: féach ar an téarma 'neural / néarach'
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Ní bhíonn 'líonra' luaite i gcomhthéacs ríomhaireachta sna foclóirí thuas, cé go mbíonn sé sa gcaint agus i litríocht chomhaimseartha leis an mbrí sin.
+\end{itemize}
+
+
+\textbf{mapa (ainmfhocal): mapping}<br>
+\textit{sainmhíniú (ga):} I gcomhthéacs ríomhaireachta, bunachar a ligeann duit luach amháin (an 'luach') a fháil trí cheangal le luach eile (an eochair).<br>
+\textit{sainmhíniú (en):} In the context of computer science, a database that allows access to one value (called the 'value') using another value (called the 'key').
+
+tagairtí:
+\begin{itemize}
+	\item mapa: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Luann na foclóirí thuas ar fad 'mapa' i gcomhthéacs mapa ar an domhan. Ní shin atá i gceist anseo, ach, toisc gurb é aidhm mapa ríomhaireachta ná ceangal éigin a dhéanamh idir dhá rud (le gur féidir leathrud a fáil ón leathrud eile), agus troisc gurb as an meafair sin a thagann úsáid 'mapping' i mBéarla, glactar leis an téarma sin anseo.
+\end{itemize}
+
+
+\textbf{measúnaigh (briathar): to evaluate}<br>
+\textit{sainmhíniú (ga):} Próiseas teisteála nó deimhnithe a dhéanamh ar shamhail ríomhfhoghlama.<br>
+\textit{sainmhíniú (en):} To perform testing or validation on a machine learning model.
+
+tagairtí:
+\begin{itemize}
+	\item measúnaigh: féach ar an téarma 'evaluation / measúnú'
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Féach ar an téarma 'evaluation / measúnú'
+\end{itemize}
+
+
+\textbf{measúnú (ainmfhocal): evaluation}<br>
+\textit{sainmhíniú (ga):} Próiseas a úsáidtear chun fáil amach cé chomh maith (nó cé chomh dona) is a fheidhmíonn samhail ríomhfhoghlama le linn a traenáilte, nó tar a éis sin.<br>
+\textit{sainmhíniú (en):} A process that is used to determine how well (or how poorly) a machine learning model works during its training, or after it has been trained.
+
+tagairtí:
+\begin{itemize}
+	\item measúnú: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Úsáidtear 'measúnú' seachas 'meas' toisc é a bheith úsáidte i gcomhthéacs níos teicniúla, agus chun débhrí a sheachaint idir meas (mar smaoineamh) agus meas (mar mheasúnú).
+	\item Cé is moite de sin, ní luaitear an téarma seo i gcomhthéacs ríomhaireachta.
+\end{itemize}
+
+
+\textbf{minicíocht (ainmfhocal): frequency}<br>
+\textit{sainmhíniú (ga):} I gcomhthéacs graif eolais, cé chomh minic is a bhíonn nód / ceangal mar chuid d'abairtí thriaracha sa ngraf.<br>
+\textit{sainmhíniú (en):} In the context of a knowledge graph, how often a node / edge is part of triples in the graph.
+
+tagairtí:
+\begin{itemize}
+	\item minicíocht: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}, Williams et al. (2023) \cite{storchiste}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Tá an focal 'minic' (gan trácht ar 'minicíocht') i bhFoclóir Uí Dhuinín.
+	\item Luann Foclóir Uí Dhónaill agus Foclóir De Bhaldraithe 'minicíocht' mar théarma leictreachais, agus le brí níos leithne (.i. minice).
+	\item Luann Stórchiste 'minicíocht' mar théarma matamaitice.
+\end{itemize}
+
+
+\textbf{mion-fheabhsú (briathar): to finetune}<br>
+\textit{sainmhíniú (ga):} Samhail ríomhfhoghlama atá traenáilte cheana a thraenáil ar sonraí nua.<br>
+\textit{sainmhíniú (en):} To take a pre-trained machine learning model and train it further on new data.
+
+tagairtí:
+\begin{itemize}
+	\item mion-: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}*, Ó Dónaill (1977) \cite{odonaill}
+	\item feabhsú: féach ar an téarma 'to optimise / feabhsaigh'
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Ní luaitear mar réimír i bhFoclóir Uí Dhónaill agus Uí Mhaoileoin an téarma 'mion-'.
+	\item Ní bhítear ag caint ar mion-fheabhsúchán (nach ionann agus mion-fheabhsú) ná ar 'chórais mhion-fheabhsúchán' go minic, agus mar sin ní chuirtear mar téarmaí anseo iad sin.
+	\item Féach chomh maith ar an Téarma 'to optimise / feabhsaigh'.
+\end{itemize}
+
+
+\textbf{méid na bhfo-thacar (ainmfhocal): batch size}<br>
+\textit{sainmhíniú (ga):} Cé chomh mór (.i. cé mhéid pointe sonraí) atá i chuile fho-thacar le linn ríomhfhoghlama.<br>
+\textit{sainmhíniú (en):} How large (i.e. how many data points) are in each batch during learning.
+
+tagairtí:
+\begin{itemize}
+	\item méid: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+	\item fo-thacar: féach ar an téarma 'batch / fo-thacar'
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Féach ar an téarma 'batch / fo-thacar'.
+\end{itemize}
+
+
+\textbf{n-sonra (ainmfhocal): n-shot}<br>
+\textit{sainmhíniú (ga):} Cur chuige mion-fheabsaithe ina bhfuil an tsamhail réamh-thraenáilte in ann $n$ sonra ó thacar sonraí nua a fheiceáil le linn á mion-fheabhsaithe.<br>
+\textit{sainmhíniú (en):} A finetuning protocol in which the pretrained model is able to see $n$ data points from the new data set during finetuning.
+
+tagairtí:
+\begin{itemize}
+	\item sonra: féach ar an téarma 'database / bunachar sonraí
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Úsáidtear 'n' i gcomhthéacs matamaiticiúil chun uimhir éigin (ar féidir é athrú) a chur in iúl.
+	\item Úsáidtear n-sonra seachas n-triail / n-iarracht nó eile toisc é sin a bheith níos léire (i dtuairim an údair).
+\end{itemize}
+
+
+\textbf{neamh-fheicthe (aidiacht): unseen}<br>
+\textit{sainmhíniú (ga):} I gcomhthéacs tacar sonraí (m.sh. tacar teisteála / deimhnithe), gan a bheith úsáidte / feicthe le linn an próiseas traenála a dhéantar ar shamhail ríomhfhoghlama.<br>
+\textit{sainmhíniú (en):} In the context of a dataset (such as the testing / validation set), not being used / seen during the training phase of a machine learning model.
+
+tagairtí:
+\begin{itemize}
+	\item neamh-: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+	\item feic: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Tá téarmaí eile luaite leis an mbrí chéanna i bhFoclóir De Bhaldraithe (.i. gan feiceáil, gan radhairc air) a bheadh oiriúnach chomh maith. Meastar gurb é is léire, áfach, ná 'neamh-fheicthe' sa gcomhthéacs sainmhínithe seo.
+\end{itemize}
+
+
+\textbf{néarach (aidiacht): neural}<br>
+\textit{sainmhíniú (ga):} Ag baint le néaróga (bíodh siad fíor nó saorga) nó le líonraí néaracha.<br>
+\textit{sainmhíniú (en):} Relating to nerves (be they real or artificial) or to neural networks.
+
+tagairtí:
+\begin{itemize}
+	\item néarach: Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Téarma díreach ar fáil i bhFoclóir Uí Dhónaill (i gcomhthéacs fíor-néaróga amháin).
+\end{itemize}
+
+
+\textbf{nód (ainmfhocal): node}<br>
+\textit{sainmhíniú (ga):} cuid de ghraf a chuireann coincheap, bí, nó ainmfhocal in iúl.<br>
+\textit{sainmhíniú (en):} an element of a graph that represents a concept, being, or noun.
+
+tagairtí:
+\begin{itemize}
+	\item nód: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}*, Ó Dónaill et al. (1991) \cite{focloir-beag}*, Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item * Sna foclóirí seo, déantar tagairt don fhocal 'nód' mar nód i bplandaí (amháin) gan trácht ar comhthéacs níos leithne.
+\end{itemize}
+
+
+\textbf{ointeolaíocht (ainmfhocal): ontology}<br>
+\textit{sainmhíniú (ga):} I gcomhthéacs graif eolais, scéimre a chuireann in iúl struchtúr loighce an ghraif chéanna (m.sh. cé acu na ceangail atá aistreach nó siméadrach).<br>
+\textit{sainmhíniú (en):} In the context of a knowledge Graph, a schema that describes the logical structure of the graph (such as which relations are transitive or symmetric).
+
+tagairtí:
+\begin{itemize}
+	\item ointeolaíocht: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Téarma ar fáil leis an mbrí chéanna (i gcomhthéacs níos ginearálta) sna foclóirí thuas.
+\end{itemize}
+
+
+\textbf{paraiméadar (ainmfhocal): parameter}<br>
+\textit{sainmhíniú (ga):} I gcomhthéacs samhla ríomhfhoghlama, luach uimhriúil in-fhoghlama a bhíonn ag athrú le linn an próiseas traenála. Is ionann paraiméadar níos fearr a roghnú do samhail, agus 'tuiscint fhoghlamtha' (mar dhea) na samhla céanna a chur chun cinn.<br>
+\textit{sainmhíniú (en):} In the context of a machine learning mode, a learnable numerical value that changes during the training process. Choosing better parameters for a model improves the model's 'learned understanding' (so to speak).
+
+tagairtí:
+\begin{itemize}
+	\item pharaiméadar: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Téarma díreach ar fáil ó na foclóirí thuas i gcomhthéacs cosúil go leor.
+\end{itemize}
+
+
+\textbf{pionós (ainmfhocal): loss}<br>
+\textit{sainmhíniú (ga):} I gcomhthéacs samhla ríomhfhoghlama, luach uimhriúil a chuireann in iúl cé chomh dona is atá an tsamhail (sin le rá, is ionann pionós níos airde agus an tsamhail a bheith chomh héifeachtach céanna). Úsáidtear an pionós mar chuid mhatamaiticiúil den ríomhfhoghlaim.<br>
+\textit{sainmhíniú (en):} In the context of a machine learning model, a numerical value that represents how bad the model is (that is, a higher penalty indicates that the model is less effective). Loss is used as a part of the mathematical process of machine learning.
+
+tagairtí:
+\begin{itemize}
+	\item pionós: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item * Is 'pionús' seachas 'pionós' atá i bhFoclóir Uí Dhuinín, ach glactar leis gurb in an focal céanna le litriú eile
+	\item Tá 'caill' ar téarma.ie mar fhocal ar 'loss' an Bhéarla. Meastar go bhfuil sé sin rud beag ró-litriúil; i nGaeilge, is é 'caill' ná rud atá caillte / gan tuairisc air (de réir Foclóir Uí Dhónaill). Ní hionann sin agus an luach 'loss', atá úsáidte chun cur síos a dhéanamh ar cé chomh dona is atá samhail ríomhfhoghlama. Thairis sin, níl trácht ar bith ar 'caill' mar fhocal matamaiticiúil, eolaíochta, ná sainmhínithe ann. Ní ghlactar le 'caill' mar sin.
+	\item Is minic a dhéantar analach idir ríomhfhoghlaim agus foghlaim na ndaoine (rud nach bhfuil crinn ar thaobh an heolaíochta de, ach a dhéantar mar sin féin). Sé bunús an analacha seo ná go mbíonn 'loss' mar phionós ar an ríomhaire (cosúil le pionós a chur ar madra toisc é a bheith dána). Bíonn an tsamhail ag foghlaim toisc an phionóis sin. Cé nach bhfuil an analach seo iomlán cruinn i gcomhthéacs matamaiticiúil na ríomhfhoghlama, úsáidtear minic go leor. Is as an analach seo a thagann an téarma roghnaithe 'pionós'.
+	\item Ní i gcomhthéacs matamaiticiúil a luaitear an focal pionós, ach glactar leis fós féin toisc an analacha thuas.
+\end{itemize}
+
+
+\textbf{randamach (aidiacht): random}<br>
+\textit{sainmhíniú (ga):} Ag caint ar próiseas, gan bheith in ann é a réamhinsint ach le dóchúlachtaí.<br>
+\textit{sainmhíniú (en):} Regarding a process, unable to be predicted except with probabilities.
+
+tagairtí:
+\begin{itemize}
+	\item randamach: Williams et al. (2023) \cite{storchiste}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Is le brí matamaiticiúil a luaitear an téarma seo i Stórchiste.
+\end{itemize}
+
+
+\textbf{ráta foghlama (ainmfhocal): learning rate}<br>
+\textit{sainmhíniú (ga):} I gcomhthéacs samlach ríomhfhoghlama, luach scálach a cinntíonn cé chomh mór is atá chuile athrú ar pharaiméadair na samhla.<br>
+\textit{sainmhíniú (en):} In the context of a machine learning mode, a scalar value that determines how large each update to the model's parameters is.
+
+tagairtí:
+\begin{itemize}
+	\item ráta: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+	\item foghlaim: féach ar an téarma 'machine learning / ríomhfhoghlaim
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Téarmaí díreach ar fáil le bríonna chomhchosúla.
+\end{itemize}
+
+
+\textbf{réamh-thraenáil (briathair): to pretrain}<br>
+\textit{sainmhíniú (ga):} Samhail ríomhfhoghlama a thraenáil le plean é a mion-fheabbhsú níos déanaí ar shonraí nua.<br>
+\textit{sainmhíniú (en):} To train a machine learning model with intent to finetune it later on new data.
+
+tagairtí:
+\begin{itemize}
+	\item réamh-: feach ar an téarma 'pretraining / réamh-thraenáil'
+	\item traenáil: féach ar an téarma 'training / traenáil'
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Féach ar an téarma 'pretraining / réamh-thraenáil'
+	\item Féach chomh maith ar an téarma training / traenáil'.
+\end{itemize}
+
+
+\textbf{réamhinsint nasc (ainmfhocal): link prediction}<br>
+\textit{sainmhíniú (ga):} I gcomhthéacs graif eolais, réamhinsint abairt thriarach nua (nach bhfuil a ngraf) bunaithe air na habairtí triaracha atá sa ngraf.<br>
+\textit{sainmhíniú (en):} In the context of a knowledge graph, the act of predicting a new triple (that is not in the graph) based on the triples that are in the graph.
+
+tagairtí:
+\begin{itemize}
+	\item réamhsinint: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill (1977) \cite{odonaill}
+	\item nasc: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Tá 'réamh-' agus 'innsint' i bhFoclóir Uí Dhuinín, ach níl an téarma 'réamhinsint' luaite ann
+	\item Tá 'réamh-' agus 'insint' i bhFoclóir Uí Dhónaill agus Uí Mhaoileoin, ach níl an téarma 'réamhinsint' luaite ann
+	\item Luaitear 'nasc' den chuid is mó mar snaidhm ag bhíonn ag coinneáil dhá rud le chéile. Sin ráite, is féidir abairt thriarach a shamhlú mar dhá nód agus ceangal nasctha le chéile (agus is dócha gurb in an áit as a dtagann an téarma Béarla 'link' chomh maith).
+	\item Is é an ginideach iolra (réamhinsint nasc) a úsáidtear anseo toisc gur minice caint a dhéanamh far réamhinsint (cuid mhór) nasc seachas réamhinsint naisc amháin. Sin ráite, is é 'réamhinsint naisc' an téarma ceart nuair nach bhfuil ach nasc amháin lena bheith réamhsinte.
+\end{itemize}
+
+
+\textbf{réamhinsteoir nasc (ainmfhocal): link predictor}<br>
+\textit{sainmhíniú (ga):} I gcomhthéacs graif eolais, samhail ríomhfhoghlama a dhéanann naisc a réamhinsint.<br>
+\textit{sainmhíniú (en):} In the context of a knowledge graph, a machine learning model that performs link prediction.
+
+tagairtí:
+\begin{itemize}
+	\item réamhsinint: féach ar an téarma 'link prediction / réamhinsint nasc'
+	\item nasc: féach ar an téarma 'link prediction / réamhinsint nasc'
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Úsáidtear an iarmhír choitianta '-eoir' chun an téarma seo a chruthú. Is féidir an téarma 'insteoir' a fheiceáil in úsáid i bhFoclóir Uí Dhónaill agus i bhFoclóir Uí Dhónaill agus Uí Mhaoileoin.
+	\item Féach chomh maith ar an téarma 'link prediction / réamhinsint nasc'
+\end{itemize}
+
+
+\textbf{ríomheolaíocht (ainmfhocal): computer science}<br>
+\textit{sainmhíniú (ga):} an réimse staidéar atá dírithe ar algartaim, ar bogearraí, agus ar ríomhchlárúchán.<br>
+\textit{sainmhíniú (en):} the field of study that focuses on algorithms, software, and computer programing.
+
+tagairtí:
+\begin{itemize}
+	\item ríomheolaíocht: Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Téarma iomlán ar fáil i bhfoclóir iontaofa. Glactar leis.
+\end{itemize}
+
+
+\textbf{ríomhfhoghlaim (ainmfhocal): machine learning}<br>
+\textit{sainmhíniú (ga):} cur chuige matamaiticiúil a chuireann ar chumas do ríomhairí ceisteanna casta a fhreagairt.<br>
+\textit{sainmhíniú (en):} the process of using mathematical optimisation to allow computers to solve complex problems.
+
+tagairtí:
+\begin{itemize}
+	\item foghlaim: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+	\item ríomh-: Ó Dónaill (1977) \cite{odonaill}*
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item * Níl 'ríomh-' ann mar réimír. Cé is moite de sin, feictear é in úsáid mar réimír sa bhfoclóir céanna; .i. 'ríomheolaíocht' (murab ionann sin agus 'eolaíocht' mar iarmhír)
+	\item Ní ghlactar le haistriúchán Téarma.ie (meaisínfhoghlaim) toisc nach mbíonn 'meaisín-' ina réimír ar fhocal ar bith eile (ach bíonn 'ríomh-' úsáidte i bhfocail eile).
+	\item Bheadh ciall éigin ag dul le 'foghlaim na meaisíní' chomh maith, seachas 'meaisín' a bheith bainteach lena leithéid de mheaisíní níocháin (féach ar Teanglann) agus gan rian eile de a fheiceáil i gcomhthéacs ríomhaireachta.
+	\item Cé nach mbíonn trácht ar 'ríomhfhoghalim' i bhfoclóir ar bith, tá ann dá leithéid de 'ríomhphost' agus 'ríomheolaíocht' sa gcaint.
+\end{itemize}
+
+
+\textbf{ró-fhoghlaim (ainmfhocal): overfitting}<br>
+\textit{sainmhíniú (ga):} I gcomhthéacs ríomhfhoghlama, foghlaim de ghlanmheabhair ar an tacar traenála i gcaoi a chuireann bac ar patrúin ghinearálta an tacair thraenála a fhoghlaim.<br>
+\textit{sainmhíniú (en):} In the context of machine learning, memorisation of the training set that precludes learning the general patterns of the training set.
+
+tagairtí:
+\begin{itemize}
+	\item ró-: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+	\item foghlaim: féach ar an téarma 'machine learning / ríomhfhoghlaim
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Téarma cruthaithe mar chomh-fhocal leis an réimír agus an leis in bhfocal thuas.
+	\item Féach chomh maith ar an téarma 'machine learning / ríomhfhoghlaim'
+\end{itemize}
+
+
+\textbf{samhail (ainmfhocal): model}<br>
+\textit{sainmhíniú (ga):} Réad matamaiticiúil a úsáideann cur chuige bunaithe ar calcalas chun tasc ríomhfhoghlama a chur i gcrích.<br>
+\textit{sainmhíniú (en):} A mathematical object that uses a calculus-based approach to solve a machine learning task.
+
+tagairtí:
+\begin{itemize}
+	\item samhail: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Ní luann foclóir ar bith an téarma seo i gcomhthéacs ríomheolaíochta, ach ar chomhthéacs eile ina bhfuil 'samhail' cosúil le 'cóip' nó 'cosúlacht'. Sin ráite, tá an bhrí sin oiriúnach don úsáid seo -- cé nach cóip í, bíonn an tsamhail ríomheolaíochta ag iarraidh aschur feidhm mhatamaiticiúil a réamhinsint go díreach; sin le rá, a chóipeáil.
+\end{itemize}
+
+
+\textbf{samhail leabaithe graif eolais (ainmfhocal): knowledge graph embedding model}<br>
+\textit{sainmhíniú (ga):} Samhail ríomhfhoghlama a bhfuil mar aidhm aige graf eolais a leabú.<br>
+\textit{sainmhíniú (en):} A machine learning model whose aim is to embed a knowledge graph.
+
+tagairtí:
+\begin{itemize}
+	\item leabú: féach ar an téarma 'embedding / leabú'
+	\item graf eolais: féach ar an téarma 'knowledge graph / graf eolais'
+	\item samhail: féach ar an téarma 'model / samhail'
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Fágtar san uimhir uatha an téarma 'leabú' toisc phróiseas an leabaithe a bheith i gceist, seachas líon na leabuithe ar fad.
+	\item Fágtar san uimhir uatha an téarma 'graf eolais' toisc nach mbíonn ach graf amháin á leabú ag an uair amháin / ag an samhail amháin.
+\end{itemize}
+
+
+\textbf{samhlaigh (ainmfhocal): to model}<br>
+\textit{sainmhíniú (ga):} samhail ríomhaireachta nó staitistiúil a chruthú.<br>
+\textit{sainmhíniú (en):} the process of creating a (machine learning or statistical) model.
+
+tagairtí:
+\begin{itemize}
+	\item samhlaigh: De Bhaldraithe (1978) \cite{de-bhaldraithe}*, Dineen (1934) \cite{dineen}*, Ó Dónaill et al. (1991) \cite{focloir-beag}*, Ó Dónaill (1977) \cite{odonaill}*
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Is i gcomhthéacs smaointeoireachta a luaitear an focal 'samhlaigh', seachas i gcomhthéacs ríomhaireachta ná matamaitice. Ach, toisc go nglactar le 'samhail' sa gcomhthéacs seo, glactar leis an mbriathar ''samhlaigh' atá ceangailte leis.
+\end{itemize}
+
+
+\textbf{sampla (ainmfhocal): sample}<br>
+\textit{sainmhíniú (ga):} sonra a thógtar as dáileadh staitistiúil nó as próiseas randamach.<br>
+\textit{sainmhíniú (en):} a data point that is taken from a statistical distribution or random process.
+
+tagairtí:
+\begin{itemize}
+	\item sampla: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}, Williams et al. (2023) \cite{storchiste}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Tá an téarma seo (i gcomhthéacs chomhchosúil ach níos leithne) díreach ar fáil ó na foclóirí thuas.
+	\item Luann Stórchiste 'sampla' mar théarma matamaitice.
+\end{itemize}
+
+
+\textbf{sampla fánach (ainmfhocal): random sample}<br>
+\textit{sainmhíniú (ga):} Sampla a thógtar go randamach.<br>
+\textit{sainmhíniú (en):} A sample that is taken randomly.
+
+tagairtí:
+\begin{itemize}
+	\item sampla: féach ar an téarma 'sample / sampla'
+	\item sampla fánach: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Tá an téarma seo ina iomlán ar fáil sna foclóirí thuas. Toisc é a bheith ar fáil ina iomlán, ní úsáidtear 'randamach' sa gcás seo.
+\end{itemize}
+
+
+\textbf{sampláil (briathar): to sample}<br>
+\textit{sainmhíniú (ga):} sampla a thógáil.<br>
+\textit{sainmhíniú (en):} the process of taking a sample.
+
+tagairtí:
+\begin{itemize}
+	\item sampla: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}, Williams et al. (2023) \cite{storchiste}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Tá an téarma seo (i gcomhthéacs chomhchosúil ach níos leithne) díreach ar fáil ó na foclóirí thuas.
+	\item Úsáideann Stórchiste 'sampláil' mar théarma matamaitice.
+\end{itemize}
+
+
+\textbf{samplóir (ainmfhocal): sampler}<br>
+\textit{sainmhíniú (ga):} rud (m.sh algartam ríomhaireachta) a dhéanann sampláil.<br>
+\textit{sainmhíniú (en):} a thing (such as a computer algorithm) that samples.
+
+tagairtí:
+\begin{itemize}
+	\item samplóir: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Tá an téarma seo, leis an mbrí céanna, díreach ar fáil sna foclóirí thuas
+\end{itemize}
+
+
+\textbf{scoth na réimse (ainmfhocal): state of the art}<br>
+\textit{sainmhíniú (ga):} An tuiscint, samhail, eolas, nó eile is fearr i réimse eolaíochta éigin.<br>
+\textit{sainmhíniú (en):} The best understanding, model, information, etc in a given scientific field.
+
+tagairtí:
+\begin{itemize}
+	\item scoth: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+	\item réimse: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Ní luann Foclóir Uí Dhuinín 'scoth' mar 'an rud is fearr', ach tá an brí sin le feiceáil ann fós féin sa bhfocal 'scothamhail'.
+	\item Mar aon leis sin, is cosúil gur féidir 'scothúil' a úsáid mar aidiacht ceangailte leis an t-ainmfhocal seo.
+\end{itemize}
+
+
+\textbf{scálach (aidiacht): scalar}<br>
+\textit{sainmhíniú (ga):} Uimhir nach athróg é a bhíonn á húsáid le huimhir eile a mhéadú fúithi.<br>
+\textit{sainmhíniú (en):} A numerical value other than a variable, typically used in multiplication.
+
+tagairtí:
+\begin{itemize}
+	\item comhéifeacht: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill (1977) \cite{odonaill}, Williams et al. (2023) \cite{storchiste}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Téarma luaite mar théarma matamaitice i bhFoclóir Uí Dhónaill agus i bhFoclóir de Bhaldraithe.
+	\item Luann Stórchiste 'scálach' mar théarma matamaitice.
+	\item Más ainmfhocal atá uait, úsáid 'uimhir scálach' (nó 'scálach' mar atá ag Stórchiste).
+\end{itemize}
+
+
+\textbf{scór (ainmfhocal): score}<br>
+\textit{sainmhíniú (ga):} Uimhir a dhéanann cur síos ar cé chomh maith atá rud (m.sh. cruinneas samhla foghlama).<br>
+\textit{sainmhíniú (en):} A number describing how good something is (such as the accuracy of a machine learning mode).
+
+tagairtí:
+\begin{itemize}
+	\item scór: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item I gcomhthéacs cluichí a fheictear 'scór' úsáidte sna foclóirí seo, seachas i gcomhthéacs ríomhaireachta.
+\end{itemize}
+
+
+\textbf{scór inchreidteachta (ainmfhocal): plausibility score}<br>
+\textit{sainmhíniú (ga):} Uimhhir a dhéanann cur síos ar an dóchúlacht go bhfuil rud fíor.<br>
+\textit{sainmhíniú (en):} A number that represents the chance that something is true
+
+tagairtí:
+\begin{itemize}
+	\item scór: féach ar an téarma 'score / scór'
+	\item inchreidteacht: féach ar an téarma 'plausibility / inchreidteacht'
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Féach ar nótaí ar 'scór' agus ar 'inchreidteacht'
+\end{itemize}
+
+
+\textbf{scóráil (briathar): to-score}<br>
+\textit{sainmhíniú (ga):} Scór a thabhairt do rud (m.sh. samhail ríomhfhoghlama).<br>
+\textit{sainmhíniú (en):} To give a score to something (such as a machine learning model).
+
+tagairtí:
+\begin{itemize}
+	\item scóráil: Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item I gcomhthéacs cluichí a fheictear 'scóráil' úsáidte i bhFoclóir Uí Dhónaill, seachas i gcomhthéacs ríomhaireachta.
+\end{itemize}
+
+
+\textbf{seal (ainmfhocal): epoch}<br>
+\textit{sainmhíniú (ga):}  Geábh iomlán feabhsaithe ina fheiceann an tsamhail ríomhfhoghlama chuile shonra sa tacar traenála aon uair amháin.<br>
+\textit{sainmhíniú (en):} A full pass of optimisation in which the machine learning model sees every data point in the training set exactly once.
+
+tagairtí:
+\begin{itemize}
+	\item seal: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Is iomaí focal ar féidir iad a úsáid anseo (geábh, babhta, timthriall, srl). Roghnaíodh 'seal' toisc é a bheith ag tagairt ar geábh foghlama agus ar réimse ama, díreach mar a bhíonn lucht ríomhaireachta ag samhlú 'epoch' ríomhfhoghlama.
+\end{itemize}
+
+
+\textbf{sonraí (ainmfhocal): data}<br>
+\textit{sainmhíniú (ga):} léiriú cainníochtúil nó cineálach ar rud.<br>
+\textit{sainmhíniú (en):} a quantitative or qualitative description of something.
+
+tagairtí:
+\begin{itemize}
+	\item sonraí: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Úsáidtear an leagan iolra de gnáth, toisc gur annamh ar fad a bhíonn trácht ar sonra amháin, ach ar thacar sonraí.
+\end{itemize}
+
+
+\textbf{struchtúr (ainmfhocal): structure}<br>
+\textit{sainmhíniú (ga):} I gcomhthéacs graif, patrúin, achoimrí uimhriúil, agus staitisticí ar féidir iad a áireamh ar an ngraf (gan trácht ar brí / ciall an eolais sa ngraf).<br>
+\textit{sainmhíniú (en):} In the context of a graph, patterns, numerical summaries, and statistics that can be calculated on the graph (without reference to the meaning of the information contained in the graph).
+
+tagairtí:
+\begin{itemize}
+	\item struchtúr: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Téarma luaite le brí comhchosúil sna foclóirí thuas.
+\end{itemize}
+
+
+\textbf{tabhair chun rialtachta (briathar): to-regularise}<br>
+\textit{sainmhíniú (ga):} I gcomhthéacs samhla ríomhfhoghlama, ró-fhoghlaim a laghdú trí méid luach na bparaiméadar a shrianadh ar chaoi éigin.<br>
+\textit{sainmhíniú (en):} In the context of a machine learning mode, reducing overfitting by restricting the size of parameter values in some way.
+
+tagairtí:
+\begin{itemize}
+	\item tabhair chun rialtachta: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Frása iomlán ar fáil ó na foclóirí thuas i gcomhthéacs ginearálta.
+\end{itemize}
+
+
+\textbf{tabhairt chun rialtachta (ainmfhocal): regularisation}<br>
+\textit{sainmhíniú (ga):} I gcomhthéacs samhla ríomhfhoghlama, próiseas a bhfuil mar aidhm aige ró-fhoghlaim a laghdú trí méid luach na bparaiméadar a shrianadh ar chaoi éigin.<br>
+\textit{sainmhíniú (en):} In the context of a machine learning mode, a process that aims to reduce overfitting by restricting the size of parameter values in some way.
+
+tagairtí:
+\begin{itemize}
+	\item tabhair chun rialtachta: féach ar an téarma 'to regularise / tabhair chun rialtachta'
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Féach ar an téarma 'to regularise / tabhair chun rialtachta'.
+\end{itemize}
+
+
+\textbf{tacar (ainmfhocal): set}<br>
+\textit{sainmhíniú (ga):} Grúpa rudaí (m.sh uimhreacha) nach bhfuil áirí an oird ann, agus nach mbíonn an rud céanna faoi dhó ann.<br>
+\textit{sainmhíniú (en):} A group of things (such as numbers) that does not have the property of having order, and that does not have repeats.
+
+tagairtí:
+\begin{itemize}
+	\item tacar: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}*, Ó Dónaill et al. (1991) \cite{focloir-beag}*, Ó Dónaill (1977) \cite{odonaill}, Williams et al. (2023) \cite{storchiste}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item * Ní i gcomhthéacs matamaiticiúil a luaitear an téarma seo sna foclóirí seo.
+	\item Is i gcomhthéacs matamaiticiúil a luaitear an téarma seo sna foclóirí eile.
+\end{itemize}
+
+
+\textbf{tacar deimhnithe (ainmfhocal): testing set}<br>
+\textit{sainmhíniú (ga):} Tacar sonraí a úsáidtear chun samhail ríomhfhoghlama a dheimhniú.<br>
+\textit{sainmhíniú (en):} The dataset used to validate a machine learning model.
+
+tagairtí:
+\begin{itemize}
+	\item tacar: féach ar an téarma 'set / tacar'
+	\item deimhniú: féach ar an téarma 'validation / deimhniú'
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Féach ar na téarmaí 'set / tacar' agus 'validation / deimhniú'.
+\end{itemize}
+
+
+\textbf{tacar teisteála (ainmfhocal): testing set}<br>
+\textit{sainmhíniú (ga):} Tacar sonraí a úsáidtear chun samhail ríomhfhoghlama a theisteáil.<br>
+\textit{sainmhíniú (en):} The dataset used to test a machine learning model.
+
+tagairtí:
+\begin{itemize}
+	\item tacar: féach ar an téarma 'set / tacar'
+	\item teisteáil: féach ar an téarma 'testing / teisteáil'
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Féach ar na téarmaí 'tacar' agus 'teisteáil'.
+\end{itemize}
+
+
+\textbf{tacar traenála (ainmfhocal): training set}<br>
+\textit{sainmhíniú (ga):} Tacar sonraí a úsáidtear chun samhail ríomhfhoghlama a thraenáil.<br>
+\textit{sainmhíniú (en):} The dataset used to train a machine learning model.
+
+tagairtí:
+\begin{itemize}
+	\item tacar: féach ar an téarma 'set / tacar'
+	\item traenáil: féach ar an téarma 'training / traenáil'
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Féach ar na téarmaí 'set / tacar' agus 'training / traenáil'.
+\end{itemize}
+
+
+\textbf{tasc réamhinsinte nasc (ainmfhocal): link prediction task}<br>
+\textit{sainmhíniú (ga):} I gcomhthéacs graif eolais, tasc a bhfuil mar sprioc air abairt thriarach nua (nach bhfuil a ngraf) a réamhinsint bunaithe air na habairtí triaracha atá sa ngraf.<br>
+\textit{sainmhíniú (en):} In the context of a knowledge graph, the task of predicting a new triple (that is not in the graph) based on the triples that are in the graph.
+
+tagairtí:
+\begin{itemize}
+	\item tasc: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+	\item réamhsinint: féach ar an téarma 'link prediction / réamhinsint nasc'
+	\item nasc: féach ar an téarma 'link prediction / réamhinsint nasc'
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Féach ar an téarma 'link prediction / réamhinsint nasc'
+\end{itemize}
+
+
+\textbf{teisteáil (briathar): to test}<br>
+\textit{sainmhíniú (ga):} Próiseas teisteála a dhéanamh ar shamhail ríomhfhoghlama.<br>
+\textit{sainmhíniú (en):} To perform testing on a machine learning model.
+
+tagairtí:
+\begin{itemize}
+	\item teisteáil: féach ar an téarma 'testing / teisteáil'
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Féach ar an téarma 'testing / teisteáil'
+\end{itemize}
+
+
+\textbf{toise (ainmfhocal): dimension}<br>
+\textit{sainmhíniú (ga):} Ag trácht ar spás veicteora, líon na n-uimhreacha atá i ngach uile veicteoir sa spás céanna; nó, ais amháin den spás sin.<br>
+\textit{sainmhíniú (en):} Regarding a vector space, the number of elements contained in each vector in that space; or, one axis of that space.
+
+tagairtí:
+\begin{itemize}
+	\item toise: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}*, Ó Dónaill et al. (1991) \cite{focloir-beag}*, Ó Dónaill (1977) \cite{odonaill}, Williams et al. (2023) \cite{storchiste}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item * Is mar sórt tomhais, seachas toise matamaiticiúil, a fheictear an téarma sna foclóirí seo.
+	\item I bhFoclóir Uí Dhónaill agus i Stórchiste, luaitear 'toise' mar théarma matamaitice.
+\end{itemize}
+
+
+\textbf{traenáil (ainmfhocal): training}<br>
+\textit{sainmhíniú (ga):} An próiseas a bhaineann le feabhsú samhla foghlama trí sonraí foghlama a thabhairt di.<br>
+\textit{sainmhíniú (en):} The process of optimising a machine learning model by giving it data to learn from.
+
+tagairtí:
+\begin{itemize}
+	\item traenáil: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Ní bhíonn an téarma seo luaite i gcomhthéacs ríomhaireachta sna foclóirí thuas.
+\end{itemize}
+
+
+\textbf{tras-fhoghlaim (ainmfhocal): transfer learning}<br>
+\textit{sainmhíniú (ga):} úsáid cur chuige mion-feabhsaithe chun cur ar chumas samhla fhoghlama atá ann cheana (.i. atá réamh-thraenáilte) tasc nua a dhéanamh atá gaolmhar le tasc na bun-samhla.<br>
+\textit{sainmhíniú (en):} the practice of fine-training a pre-existing (pre-trained) machine learning model to produce a new model that solves a different task related to the one the pretrained model could solve.
+
+tagairtí:
+\begin{itemize}
+	\item tras-: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+	\item foghlaim: féach ar an téarma 'machine learning / ríomhfhoghlaim
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Níl aistriúchán déanta ar an téarma seo cheana go bhfios don údar (fiú ar Téarma.ie). Cumtar téarma nua mar sin, as an réimír 'tras-' agus an focal 'foghlaim'.
+\end{itemize}
+
+
+\textbf{veicteoir (ainmfhocal): vector}<br>
+\textit{sainmhíniú (ga):} Liosta ordaithe uimhreacha a shamhlaíonn pointe i spás, nó aistriú sa spás céanna.<br>
+\textit{sainmhíniú (en):} An ordered list of numbers that represents a displacement in space, or a point in space.
+
+tagairtí:
+\begin{itemize}
+	\item veicteoir: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill (1977) \cite{odonaill}, Williams et al. (2023) \cite{storchiste}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Tá an téarma sna foinsí thuas mar théarma matamaitice, agus glactar leis díreach mar atá mar sin.
+\end{itemize}
+
+
+\textbf{éadlúth (ainmfhocal): sparsity}<br>
+\textit{sainmhíniú (ga):} I gcomhthéacs graif eolais (nó fo-ghraif), cé chomh éadlúth is atá sé.<br>
+\textit{sainmhíniú (en):} In the context of a knowledge graph (or subgraph), how sparse it is.
+
+tagairtí:
+\begin{itemize}
+	\item éadlúth: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+nótaí aistriúcháin:
+\begin{itemize}
+	\item Luann Foclóir De Bhaldraithe agus Foclóir Uí Dhónaill an téarma seo  mar théarma eolaíochta i gcomhthéacs aeir / an t-atmaisféar, ach leis an mbrí chéanna.
+	\item Tá go leor téarmaí eile (.i. tearc, gann, srl), ach úsáidtear 'éadlús' toisc gur 'dlús' an focal atá ar a mhalairt de rud.
+\end{itemize}
+
+
+
+            \printbibliography[title={Tagairtí}]
+            \end{document}
+        

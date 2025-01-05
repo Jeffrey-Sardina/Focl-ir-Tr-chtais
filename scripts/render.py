@@ -120,35 +120,44 @@ def render_term(term):
 
 def render_terms(terms):
     render_strs = []
+
+    if MODE == 'latex':
+        render_strs.append("\\section{Téarmaí}")
+    elif MODE == 'markdown':
+        render_strs.append("## Téarmaí")
+    else: # html
+        render_strs.append("<h2>Téarmaí</h2>")
+
     for term_id in terms:
         render_strs.append(render_term(terms[term_id]))
     return render_strs
 
 def render_table(terms):
     if MODE == 'latex':
-        render_str = "\\begin{table}[!ht]\n"
-        render_str += "\t\\centering\n"
-        render_str += "\t\\begin{tabular}{|l|l|}\n"
+        render_str = "\\section{Achoimre na dTéarmaí}"
+        render_str += "\\begin{longtable}{|l|l|}\n"
+        # render_str += "\t\\centering\n"
+        # render_str += "\t\\begin{tabular}{|l|l|}\n"
         render_str += "\t\\hline\n"
         if not INDEX_GAEILGE:
-            render_str += "\t\t\\textbf{Béarla} & \\textbf{Gaeilge}\n"
+            render_str += "\t\t\\textbf{Béarla} & \\textbf{Gaeilge}\\\\ \\hline \n"
         else:
-            render_str += "\t\t\\textbf{Gaeilge} & \\textbf{Béarla}\n"
+            render_str += "\t\t\\textbf{Gaeilge} & \\textbf{Béarla}\\\\ \\hline \n"
         for term_id in terms:
             term = terms[term_id]
             if not INDEX_GAEILGE:
-                render_str += "\t\t" + bold(term['term']) + "&" + bold(term['citation-form']) + "\n"
+                render_str += "\t\t" + term['term'] + "&" + term['citation-form'] + "\\\\ \\hline \n"
             else:
-                render_str += "\t\t" + bold(term['citation-form']) + "&" + bold(term['term']) + "\n"
-        render_str += "\t\\end{tabular}\n"
+                render_str += "\t\t" + term['citation-form'] + "&" + term['term'] + "\\\\ \\hline \n"
         if not INDEX_GAEILGE:
             render_str += "\\caption{Liosta na dtéarma Béarla ar fad agus a leagan Gaeilge, cuirtear in ord de réir na dtéarma Béarla.}\n"
             render_str += "\\label{tab-terms-en-ga}\n"
         else:
             render_str += "\\caption{Liosta na dtéarma Béarla ar fad agus a leagan Gaeilge, cuirtear in ord de réir na dtéarma Gaeilge.}\n"
             render_str += "\\label{tab-terms-ga-en}\n"
-        render_str += "\\end{table}"
+        render_str += "\\end{longtable}"
     elif MODE == 'markdown':
+        render_str = "## Achoimre na dTéarmaí\n"
         longest_en = 0
         longest_ga = 0
         for term_id in terms:
@@ -162,7 +171,7 @@ def render_table(terms):
         en_col = "**Béarla**".ljust(longest_en)
         ga_col = "**Gaeilge**".ljust(longest_ga)
         if not INDEX_GAEILGE:
-            render_str = f"| {en_col}| {ga_col}|\n"
+            render_str += f"| {en_col}| {ga_col}|\n"
             render_str += f"|{'-'*(1+longest_en)}|{'-'*(1+longest_ga)}|\n"
         else:
             render_str = f"| {ga_col}| {en_col}|\n"
@@ -176,7 +185,8 @@ def render_table(terms):
             else:
                 render_str += f"| {ga_col}| {en_col}|\n"
     else: # html
-        render_str = "<table>\n"
+        render_str = "<h2>Achoimre na dTéarmaí</h2>"
+        render_str += "<table>\n"
         if not INDEX_GAEILGE:
             render_str += "\t<tr>\n"
             render_str += "\t\t<th>Béarla</th>\n"
@@ -203,33 +213,31 @@ def render_table(terms):
 
 def get_header():
     if MODE == 'latex':
-        header = """
-            \documentclass{article}
-            \usepackage[a4paper, margin=1in]{geometry}
-            \usepackage{graphicx} % Required for inserting images
+        header = f"""\\documentclass{{article}}
+            \\usepackage[a4paper, margin=1in]{{geometry}}
+            \\usepackage{{graphicx}} % Required for inserting images
+            \\usepackage{{longtable}}
 
-            \title{Focloir-Trachtais vVERSION}
-            \author{Jeffrey Seathrún Sardina}
-            \date{Eanáir 2025}
+            \\title{{Focloir-Trachtais v{version}}}
+            \\author{{Jeffrey Seathrún Sardina}}
+            \\date{{Eanáir 2025}}
 
             % setup bibliography
-            \usepackage[
+            \\usepackage[
                 backend=biber,
                 style=numeric,
                 sorting=ynt
-            ]{biblatex}
-            \addbibresource{refs.bib}
+            ]{{biblatex}}
+            \\addbibresource{{refs.bib}}
 
-            \begin{document}
+            \\begin{{document}}
 
-            \maketitle
-        """.replace('vVERSION', f'v{version}')
-    elif MODE == 'markdown':
-        header = f"""
-            # Foclóir Tráchtais v{version}
-            **Jeffrey Seathrún Sardina**<br>
-            **Eanáir 2025**
+            \\maketitle
         """
+    elif MODE == 'markdown':
+        header = f"# Foclóir Tráchtais v{version}\n"
+        header += "**Jeffrey Seathrún Sardina**<br>\n"
+        header += "**Eanáir 2025**\n"
     else: # html
         header = f"""
             <!DOCTYPE html>
