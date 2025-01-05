@@ -6,9 +6,9 @@
     "def-ga": "Próiseas nó cur chuige ríomhaireachta atá sainmhínithe (m.sh mar chód).",
 
     "prov": {
-        "feidhm": "de-bhaldraithe, dineen, focloir-beag, odonaill, (TODO: storchiste?)"
+        "feidhm": "de-bhaldraithe, dineen, focloir-beag, odonaill, storchiste"
     },
     "notes": [
-        "Ní i gcomhthéacs matamaiticiúil a luaitear an téarma seo. Cé is moite de sin, is léir go bhfuil úsáid teicniúil leis (.i. 'Vital functions, feidhmiú an choirp.' i bhFoclóir de Bhaldraithe."
+        "Ní i gcomhthéacs matamaiticiúil a luaitear an téarma seo ach amháin i Stórchiste. Cé is moite de sin, is léir go bhfuil úsáid teicniúil leis (.i. 'Vital functions, feidhmiú an choirp.' i bhFoclóir de Bhaldraithe."
     ]
 }

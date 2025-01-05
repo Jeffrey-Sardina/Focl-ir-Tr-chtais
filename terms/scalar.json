@@ -6,10 +6,11 @@
     "def-ga": "Uimhir nach athróg é a bhíonn á húsáid le huimhir eile a mhéadú fúithi.",
 
     "prov": {
-        "comhéifeacht": "de-bhaldraithe, odonaill, (TODO: storchiste?)"
+        "comhéifeacht": "de-bhaldraithe, odonaill, storchiste"
     },
     "notes": [
         "Téarma luaite mar théarma matamaitice i bhFoclóir Uí Dhónaill agus i bhFoclóir de Bhaldraithe.",
-        "Más ainmfhocal atá uait, úsáid 'uimhir scálach'."
+        "Luann Stórchiste 'scálach' mar théarma matamaitice.",
+        "Más ainmfhocal atá uait, úsáid 'uimhir scálach' (nó 'scálach' mar atá ag Stórchiste)."
     ]
 }

@@ -6,10 +6,11 @@
     "def-ga": "I gcomhthéacs graif eolais, cé chomh minic is a bhíonn nód / ceangal mar chuid d'abairtí thriaracha sa ngraf.",
 
     "prov": {
-        "minicíocht": "de-bhaldraithe, focloir-beag, odonaill, (TODO: storchiste?)"
+        "minicíocht": "de-bhaldraithe, focloir-beag, odonaill, storchiste"
     },
     "notes": [
         "Tá an focal 'minic' (gan trácht ar 'minicíocht') i bhFoclóir Uí Dhuinín.",
-        "Luann Foclóir Uí Dhónaill agus Foclóir De Bhaldraithe 'minicíocht' mar théarma leictreachais, agus le brí níos leithne (.i. minice)."
+        "Luann Foclóir Uí Dhónaill agus Foclóir De Bhaldraithe 'minicíocht' mar théarma leictreachais, agus le brí níos leithne (.i. minice).",
+        "Luann Stórchiste 'minicíocht' mar théarma matamaitice."
     ]
 }

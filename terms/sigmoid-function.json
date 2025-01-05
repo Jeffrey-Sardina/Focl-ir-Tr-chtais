@@ -7,8 +7,8 @@
 
     "prov": {
         "feidhm": "féach ar an téarma 'function / feidhm'",
-        "siogma": "odonaill, (TODO: storchiste?)",
-        "-óideach": "odonaill, (TODO: storchiste?)"
+        "siogma": "odonaill",
+        "-óideach": "odonaill"
     },
     "notes": [
         "Níl an focal 'siogmóideach' ann i bhfoclóir ar bith atá á úsáid agam, ach is féidir an téarma a chruthú i nGaeilge mar a rinneadh i mBéarla as an litir Gréigise (siogma) agus -'óideach'."

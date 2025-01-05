@@ -6,9 +6,10 @@
     "def-ga": "sonra a thógtar as dáileadh staitistiúil nó as próiseas randamach.",
 
     "prov": {
-        "sampla": "de-bhaldraithe, dineen, focloir-beag, odonaill, (TODO: storchiste?)"
+        "sampla": "de-bhaldraithe, dineen, focloir-beag, odonaill, storchiste"
     },
     "notes": [
-        "Tá an téarma seo (i gcomhthéacs chomhchosúil ach níos leithne) díreach ar fáil ó na foclóirí thuas."
+        "Tá an téarma seo (i gcomhthéacs chomhchosúil ach níos leithne) díreach ar fáil ó na foclóirí thuas.",
+        "Luann Stórchiste 'sampla' mar théarma matamaitice."
     ]
 }

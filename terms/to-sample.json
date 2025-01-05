@@ -6,9 +6,10 @@
     "def-ga": "sampla a thógáil.",
 
     "prov": {
-        "sampla": "de-bhaldraithe, dineen, focloir-beag, odonaill, (TODO: storchiste?)"
+        "sampla": "de-bhaldraithe, dineen, focloir-beag, odonaill, storchiste"
     },
     "notes": [
-        "Tá an téarma seo (i gcomhthéacs chomhchosúil ach níos leithne) díreach ar fáil ó na foclóirí thuas."
+        "Tá an téarma seo (i gcomhthéacs chomhchosúil ach níos leithne) díreach ar fáil ó na foclóirí thuas.",
+        "Úsáideann Stórchiste 'sampláil' mar théarma matamaitice."
     ]
 }

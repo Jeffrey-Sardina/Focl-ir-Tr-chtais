@@ -6,9 +6,9 @@
     "def-ga": "Uimhir scálach a úsáidtear chun uimhir nó athróg eile a mhéadú fúithi.",
 
     "prov": {
-        "comhéifeacht": "de-bhaldraithe, odonaill, (TODO: storchiste?)"
+        "comhéifeacht": "de-bhaldraithe, odonaill, storchiste"
     },
     "notes": [
-        "Téarma luaite mar théarma matamaitice i bhFoclóir Uí Dhónaill agus i bhFoclóir de Bhaldraithe."
+        "Téarma luaite mar théarma matamaitice sna foclóirí thuas."
     ]
 }
