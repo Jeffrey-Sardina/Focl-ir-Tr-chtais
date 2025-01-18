@@ -1,7 +1,7 @@
 {
-    "term": "knowledge graph embedding model",
+    "term": "knowledge graph embedding model (KGEM)",
     "part-of-speech": "ainmfhocal",
-    "citation-form": "samhail leabaithe graif eolais",
+    "citation-form": "samhail leabaithe graif eolais (SLGE)",
     "def-en": "A machine learning model whose aim is to embed a knowledge graph.",
     "def-ga": "Samhail ríomhfhoghlama a bhfuil mar aidhm aige graf eolais a leabú.",
 

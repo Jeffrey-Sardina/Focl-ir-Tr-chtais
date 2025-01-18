@@ -1,7 +1,7 @@
 {
-    "term": "knowledge graph embedding",
+    "term": "knowledge graph embedding (KGE)",
     "part-of-speech": "ainmfhocal",
-    "citation-form": "leabú graif eolais",
+    "citation-form": "leabú graif eolais (LGE)",
     "def-en": "The machine learning process of embedding a single knowledge graph into vector space; or, a single embedding obtained from said process.",
     "def-ga": "Próiseas ríomhfhoghlama a bhfuil leabú graif eolais amháin mar thoradh air; nó, leabú amháin a fhaightear mar thoradh air sin",
 

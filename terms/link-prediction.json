@@ -1,7 +1,7 @@
 {
-    "term": "link prediction",
+    "term": "link prediction (LP)",
     "part-of-speech": "ainmfhocal",
-    "citation-form": "réamhinsint nasc",
+    "citation-form": "réamhinsint nasc (RN)",
     "def-en": "In the context of a knowledge graph, the act of predicting a new triple (that is not in the graph) based on the triples that are in the graph.",
     "def-ga": "I gcomhthéacs graif eolais, réamhinsint abairt thriarach nua (nach bhfuil a ngraf) bunaithe air na habairtí triaracha atá sa ngraf.",
 

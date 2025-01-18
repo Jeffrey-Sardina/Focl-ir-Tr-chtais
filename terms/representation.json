@@ -1,0 +1,17 @@
+{
+    "term": "representation",
+    "part-of-speech": "ainmní",
+    "citation-form": "leagan",
+    "def-en": "In the context of knowledge graph embeddings, an embedding or vector that (at a mathematical level) stands for an object or concept in the graph.",
+    "def-ga": "I gcomhthéacs leabuithe graif eolais, leabú nó veicteoir a dhéanann ionad (ar leibhéal matamaiticiúil) réada nó coincheapa sa ngraf.",
+
+    "prov": {
+        "leagan": "de-bhaldraithe, dineen, focloir-beag, odonaill"
+    },
+    "notes": [
+        "Ní i gcomhthéacs eolaíochta a luaitear an téarma seo, ach is le brí comhchosúil atá sé luaite.",
+        "Is minic a úsáidtear an téarma 'representation' i gcomhthéacs nach bhfuil teicniúil / matamaiticiúil; m.sh. 'Each node in a knowledge graph is a representation of a real-world object or concept'. Cé go bhfuil an frása sin an-teicniúil ann féin, níl gá téarma sainmhínithe a úsáid chun 'representation' a chur in iúl ann. Ina leithéid sin de chás, is leor 'cur síos' (nó frása eile cosúil leis sin) chun an bhrí sin a chur in iúl Mar shampla, 'Déanann gach uile nód i ngraf eolas cur síos ar réad nó ar coincheap a bhaineann leis an domhan'.",
+        "Ina theannta sin, is minic gur féidir an focal 'léiriú' a úsáid. Cé go mbeifeá in ann 'léiriú' a úsáid seachas 'leagan' anseo, glactar le leagan toisc go bhfuil brí níos cúinge leis, rud a ligeann dó trácht ar rud (díreach) ar leis gan mearbhall a chur ar an léitheoir.",
+        "Más leagan briathair (.i. 'to represent') atá uait, moltar: 'déan ionad (ruda)', 'seas do', frása le 'cur síos / léiriú', nó mar sin (féach ar Fhoclóir De Bhaldraithe chun tuilleadh samplaí a fháil)."
+    ]
+}

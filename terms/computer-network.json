@@ -1,0 +1,17 @@
+{
+    "term": "computer network",
+    "part-of-speech": "ainmní",
+    "citation-form": "líonra ríomhairí",
+    "def-en": "A graph or knowledge graph in which nodes represent computers, and edges represent the that two computers can link to each other.",
+    "def-ga": "Graf nó graf eolais ina gcuireann nóid daoine in iúl, agus ina mbíonn ceangail ann a léiríonn gur féidir le dá ríomhaire nascadh lena chéile.",
+
+    "prov": {
+        "líonra": "féach ar an téarma 'network / líonra'",
+        "ríomhaire": "de-bhaldraithe, dineen*, focloir-beag, odonaill"
+    },
+    "notes": [
+        "* Tá 'ríomhaire' i bhFoclóir Uí Dhuinín le brí níos sine (ag trácht ar áireamhán seachas ar ríomhaire an lae inniu).",
+        "Tá an dá fhocal (líonra agus ríomhaire) díreach ar fáil ó na foclóirí thuas le brí comhchosúil.",
+        "Féach chomh maith ar an téarma 'network / líonra.'"
+    ]
+}

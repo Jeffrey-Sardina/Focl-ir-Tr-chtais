@@ -1,0 +1,24 @@
+líonra ríomhairí
+ainmní
+Graf nó graf eolais ina gcuireann nóid daoine in iúl, agus ina mbíonn ceangail ann a léiríonn gur féidir le dá ríomhaire nascadh lena chéíle.
+* Tá 'ríomhaire' i bhFoclóir Uí Dhuinín le brí níos sine (ag trácht ar áireamhán seachas ar ríomhaire an lae inniu).
+Tá an dá fhocal (líonra agus ríomhaire) díreach ar fáil ó na foclóirí thuas le brí comhchosúil.
+Féach chomh maith ar an téarma 'network / líonra.'
+
+leagan
+ainmní
+I gcomhthéacs leabuithe graif eolais, leabú nó veicteoir a dhéanann ionad (ar leibhéal matamaiticiúil) réada nó coincheapa sa ngraf.
+Ní i gcomthéacs eolaíochta a luaitear an téarma seo, ach is le brí comhchosúil atá sé luaite.
+Is minic a úsáidtear an téarma 'representation' i gcomthéacs nach bhfuil teicniúil / matamaiticiúil; m.sh. 'Each node in a knowledge graph is a representation of a real-world object or concept'. Cé go bhfuil an frása sin an-teicniúil ann féin, níl gá téarma sainmínithe a úsáid chun 'representation' a chhur in iúl ann. Ina leithéid sin de chás, is leor 'cur síos' (nó frása eile cosúil leis sin) chun an bhrí sin a chur in iúl Mar shampla, 'Déanann gach uile nód i ngraf eolas cur síos ar réad nó ar coincheap a bhaineann leis an domahn'.
+Ina theanta sin, is mini  gur féidir an focal 'léiriú' a úsáid. Cé go mbeifeá in ann 'léiriú' a úsáid seachas 'leagan' anseo, glactar le leagan toisc go bhfuil brí níos cúinge leis, rud a ligeann dó trácht ar rud (díreach) ar leis gan mearbhall a chur ar an léitheoir.
+Más leagan briathair (.i. 'to represent') atá uait, moltar: 'déan ionad (ruda)', 'seas do', frása le 'cur síos / léiriú', nó mar sin (féách ar Foclóir De Bhaldraithe chun tuilleadh samplaí a fháil).
+
+líonra cairdis
+ainmní
+Graf nó graf eolais ina gcuireann nóid daoine in iúl, agus ina mbíonn ceangail ann a léiríonn cén gaol / baint atá ag daoine lena chéile.
+Tá an dá fhocal (líonra agus cairdeas) díreach ar fáil ó na foclóirí thuas le brí comhchosúil.
+Tá roinnt roghanna eile ann (m.sh. líonra gaolta). Cé go bhfuil brí níos leithne aige sin (ní hionann gaol agus gaol clainne amháin), is mar líonra cairdis i ndáiríre a bhíonn i mórchuid na 'social networks'. Thairis sin, is as líonra cairdis ar líne (m.sh. ar Facebook) a tháinig an téarma seo i dtosach.
+Níor cheart 'líonra sóicialta' a úsáid -- tagann sé sin díreach an an mBéarla gan tuiscint gur ionann 'sóisialta' agus rud a bhaineann le sochaí nó le cumas / tuiscint sóisialta na ndaoine.
+Féach chomh maith ar an téarma 'network / líonra.'
+
+

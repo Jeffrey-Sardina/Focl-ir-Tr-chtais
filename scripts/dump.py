@@ -4,7 +4,14 @@ import json
 
 def load_terms():
     terms = {}
-    term_files = glob.glob('../terms/*.json')
+    if DUMP_NON_VALIDATED_ONLY:
+        term_files = []
+        with open('../utils/not-validated.txt' ,'r') as inp:
+            for line in inp:
+                term_file_name = line.strip()
+                term_files.append(f'../terms/{term_file_name}')
+    else:
+        term_files = glob.glob('../terms/*.json')
     for term_file in term_files:
         with open(term_file, 'r') as inp:
             term = json.load(inp)
@@ -51,6 +58,9 @@ if __name__ == '__main__':
         DUMP_GAEILGE = False
     else: # default to Gaeilge
         DUMP_GAEILGE = True
+
+    if '-nv' in sys.argv:
+        DUMP_NON_VALIDATED_ONLY = True
 
     DEBUG = False
     terms = load_terms()
