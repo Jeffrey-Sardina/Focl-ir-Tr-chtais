@@ -306,7 +306,7 @@ def main():
     print(f"Wrote {num_terms} terms to {out_file}")
 
 if __name__ == '__main__':
-    version = '1.0'
+    version = '1.1 alfa'
 
     if '-namedversion' in sys.argv:
         # run all versions

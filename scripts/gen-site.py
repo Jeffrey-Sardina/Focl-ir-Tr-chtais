@@ -17,6 +17,8 @@ def load_terms():
     for term_file in term_files:
         with open(term_file, 'r') as inp:
             term = json.load(inp)
+            if term['term'] in terms:
+                assert False, f"duplicate found for term: {term['term']}"
             terms[term['term']] = term
     terms_sorted = {key:terms[key] for key in sorted(list(terms.keys()))}
     return terms_sorted
@@ -117,10 +119,12 @@ def gen_term_pages(terms):
         term = terms[term_id]
         term_page_html = gen_term_page(term)
         file_name = get_term_file_name(term["term"])
+        if not os.path.exists(TERMS_FOLDER_WRITE):
+            os.makedirs(TERMS_FOLDER_WRITE)
         with open(os.path.join(TERMS_FOLDER_WRITE, file_name), 'w') as out:
             print(term_page_html, file=out)
 
-def gen_index(terms):
+def gen_index(terms, version):
     searchbar = """<input type="text" id="termInput" onkeyup="myFunction()" placeholder="Cuardaigh téarma i mBéarla nó i nGaeilge...">\n"""
     
     longest_len_eng = 0
@@ -178,7 +182,7 @@ def gen_index(terms):
         <div class='centerbox' id='indexlist'>
             <h1>Foclóir Tráchtais</h1>
             {searchbar + termslist}
-            <p id="versionNum">Foclóir Tráchtais v1.0</p>
+            <p id="versionNum">Foclóir Tráchtais v{version}</p>
         </div>
         {js_script}
         </body>
@@ -189,9 +193,10 @@ def gen_index(terms):
             print(html, file=out)
 
 def main():
+    version = '1.1 alfa'
     terms = load_terms()
     gen_term_pages(terms)
-    gen_index(terms)
+    gen_index(terms, version)
 
 if __name__ == '__main__':
     main()

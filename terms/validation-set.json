@@ -1,5 +1,5 @@
 {
-    "term": "testing set",
+    "term": "validation set",
     "part-of-speech": "ainmfhocal",
     "citation-form": "tacar deimhnithe",
     "def-en": "The dataset used to validate a machine learning model.",
