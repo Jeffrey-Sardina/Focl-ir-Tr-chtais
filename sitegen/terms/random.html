@@ -4,20 +4,23 @@
         <meta charset="UTF-8">
         <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
         <title>random | randamach</title>
-        <link rel="stylesheet" href="../../css/gnath.css">
+        <link rel="stylesheet" href="/css/gnath.css">
         <!-- function to allow loading from another HTML file
         see: https://stackoverflow.com/questions/8988855/include-another-html-file-in-a-html-file -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <script> 
             $(function(){
-                $("#headerBar").load("../../header.html"); 
+                $("#headerBar").load("/header.html"); 
+            });
+            $(function(){
+                $("#footerBar").load("/footer.html"); 
             });
         </script> 
         </head>
         <body>
         <div id="headerBar"></div>
         <div class='centerbox'>
-        <h1>random | randamach</h1><strong>random (aidiacht): randamach</strong><br>
+            <h1>random | randamach</h1><strong>random (aidiacht): randamach</strong><br>
 <i>sainmhíniú (ga):</i> Ag caint ar próiseas, gan bheith in ann é a réamhinsint ach le dóchúlachtaí.<br>
 <i>sainmhíniú (en):</i> Regarding a process, unable to be predicted except with probabilities.
 
@@ -32,6 +35,7 @@ nótaí aistriúcháin:
 </ul>
 
 
+            <div id="footerBar"></div>
         </div>
         </body>
         </html> 

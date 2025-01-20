@@ -4,20 +4,23 @@
         <meta charset="UTF-8">
         <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
         <title>structural alignment framework | creatlach ailínithe struchtúir</title>
-        <link rel="stylesheet" href="../../css/gnath.css">
+        <link rel="stylesheet" href="/css/gnath.css">
         <!-- function to allow loading from another HTML file
         see: https://stackoverflow.com/questions/8988855/include-another-html-file-in-a-html-file -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <script> 
             $(function(){
-                $("#headerBar").load("../../header.html"); 
+                $("#headerBar").load("/header.html"); 
+            });
+            $(function(){
+                $("#footerBar").load("/footer.html"); 
             });
         </script> 
         </head>
         <body>
         <div id="headerBar"></div>
         <div class='centerbox'>
-        <h1>structural alignment framework | creatlach ailínithe struchtúir</h1><strong>structural alignment framework (ainmfhocal): creatlach ailínithe struchtúir</strong><br>
+            <h1>structural alignment framework | creatlach ailínithe struchtúir</h1><strong>structural alignment framework (ainmfhocal): creatlach ailínithe struchtúir</strong><br>
 <i>sainmhíniú (ga):</i> An hipitéis taobh thiar den tráchtas seo, a deir go bhfuil ailíniú idir struchtúr graif eolais agus cé chomh maith agus is féidir réamhinsint nasc a dhéanamh air.<br>
 <i>sainmhíniú (en):</i> The central hypothesis of this thesis, which states that there is alignment between the structure of a knowledge graph and how well link prediction can be done on it.
 
@@ -34,6 +37,7 @@ nótaí aistriúcháin:
 </ul>
 
 
+            <div id="footerBar"></div>
         </div>
         </body>
         </html> 

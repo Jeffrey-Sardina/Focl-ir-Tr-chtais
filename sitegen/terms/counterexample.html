@@ -4,20 +4,23 @@
         <meta charset="UTF-8">
         <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
         <title>counterexample | frith-shampla</title>
-        <link rel="stylesheet" href="../../css/gnath.css">
+        <link rel="stylesheet" href="/css/gnath.css">
         <!-- function to allow loading from another HTML file
         see: https://stackoverflow.com/questions/8988855/include-another-html-file-in-a-html-file -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <script> 
             $(function(){
-                $("#headerBar").load("../../header.html"); 
+                $("#headerBar").load("/header.html"); 
+            });
+            $(function(){
+                $("#footerBar").load("/footer.html"); 
             });
         </script> 
         </head>
         <body>
         <div id="headerBar"></div>
         <div class='centerbox'>
-        <h1>counterexample | frith-shampla</h1><strong>counterexample (ainmfhocal): frith-shampla</strong><br>
+            <h1>counterexample | frith-shampla</h1><strong>counterexample (ainmfhocal): frith-shampla</strong><br>
 <i>sainmhíniú (ga):</i> Sonra a úsáidtear chun cur in iúl do shamhail ríomhaireachta rud atá mícheart nó nár cheart dó a fhoghlaim.<br>
 <i>sainmhíniú (en):</i> A data point that is used to instruct a machine learning model about something that is incorrect or should not be learned.
 
@@ -33,6 +36,7 @@ nótaí aistriúcháin:
 </ul>
 
 
+            <div id="footerBar"></div>
         </div>
         </body>
         </html> 

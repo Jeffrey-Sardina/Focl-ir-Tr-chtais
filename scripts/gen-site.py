@@ -91,20 +91,24 @@ def gen_term_page(term):
         <meta charset="UTF-8">
         <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
         <title>{term["term"]} | {term["citation-form"]}</title>
-        <link rel="stylesheet" href="../../css/gnath.css">
+        <link rel="stylesheet" href="/css/gnath.css">
         <!-- function to allow loading from another HTML file
         see: https://stackoverflow.com/questions/8988855/include-another-html-file-in-a-html-file -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <script> 
             $(function(){{
-                $("#headerBar").load("../../header.html"); 
+                $("#headerBar").load("/header.html"); 
+            }});
+            $(function(){{
+                $("#footerBar").load("/footer.html"); 
             }});
         </script> 
         </head>
         <body>
         <div id="headerBar"></div>
         <div class='centerbox'>
-        {render_term(term)}
+            {render_term(term)}
+            <div id="footerBar"></div>
         </div>
         </body>
         </html> 
@@ -167,13 +171,16 @@ def gen_index(terms, version):
         <meta charset="UTF-8">
         <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
         <title>Foclóir Tráchtais</title>
-        <link rel="stylesheet" href="../css/gnath.css">
+        <link rel="stylesheet" href="/css/gnath.css">
         <!-- function to allow loading from another HTML file
         see: https://stackoverflow.com/questions/8988855/include-another-html-file-in-a-html-file -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <script> 
             $(function(){{
-                $("#headerBar").load("../header.html"); 
+                $("#headerBar").load("/header.html"); 
+            }});
+            $(function(){{
+                $("#footerBar").load("/footer.html"); 
             }});
         </script> 
         </head>
@@ -183,6 +190,7 @@ def gen_index(terms, version):
             <h1>Foclóir Tráchtais</h1>
             {searchbar + termslist}
             <p id="versionNum">Foclóir Tráchtais v{version}</p>
+            <div id="footerBar"></div>
         </div>
         {js_script}
         </body>

@@ -4,20 +4,23 @@
         <meta charset="UTF-8">
         <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
         <title>layer | ciseal</title>
-        <link rel="stylesheet" href="../../css/gnath.css">
+        <link rel="stylesheet" href="/css/gnath.css">
         <!-- function to allow loading from another HTML file
         see: https://stackoverflow.com/questions/8988855/include-another-html-file-in-a-html-file -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <script> 
             $(function(){
-                $("#headerBar").load("../../header.html"); 
+                $("#headerBar").load("/header.html"); 
+            });
+            $(function(){
+                $("#footerBar").load("/footer.html"); 
             });
         </script> 
         </head>
         <body>
         <div id="headerBar"></div>
         <div class='centerbox'>
-        <h1>layer | ciseal</h1><strong>layer (ainmfhocal): ciseal</strong><br>
+            <h1>layer | ciseal</h1><strong>layer (ainmfhocal): ciseal</strong><br>
 <i>sainmhíniú (ga):</i> I líonra néarach, bloc néaróg a bhfuil ionchur agus aschur sainmhínithe dó, agus atá mar chuid in-athúsáidte den líonra néarach iomlán.<br>
 <i>sainmhíniú (en):</i> In a neural network, a block of neurons that have clearly-defined input and output, and that are a building block of the larger neural network.
 
@@ -32,6 +35,7 @@ nótaí aistriúcháin:
 </ul>
 
 
+            <div id="footerBar"></div>
         </div>
         </body>
         </html> 

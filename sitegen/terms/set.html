@@ -4,20 +4,23 @@
         <meta charset="UTF-8">
         <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
         <title>set | tacar</title>
-        <link rel="stylesheet" href="../../css/gnath.css">
+        <link rel="stylesheet" href="/css/gnath.css">
         <!-- function to allow loading from another HTML file
         see: https://stackoverflow.com/questions/8988855/include-another-html-file-in-a-html-file -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <script> 
             $(function(){
-                $("#headerBar").load("../../header.html"); 
+                $("#headerBar").load("/header.html"); 
+            });
+            $(function(){
+                $("#footerBar").load("/footer.html"); 
             });
         </script> 
         </head>
         <body>
         <div id="headerBar"></div>
         <div class='centerbox'>
-        <h1>set | tacar</h1><strong>set (ainmfhocal): tacar</strong><br>
+            <h1>set | tacar</h1><strong>set (ainmfhocal): tacar</strong><br>
 <i>sainmhíniú (ga):</i> Grúpa rudaí (m.sh uimhreacha) nach bhfuil áirí an oird ann, agus nach mbíonn an rud céanna faoi dhó ann.<br>
 <i>sainmhíniú (en):</i> A group of things (such as numbers) that does not have the property of having order, and that does not have repeats.
 
@@ -33,6 +36,7 @@ nótaí aistriúcháin:
 </ul>
 
 
+            <div id="footerBar"></div>
         </div>
         </body>
         </html> 

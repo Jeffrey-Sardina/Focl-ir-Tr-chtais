@@ -4,20 +4,23 @@
         <meta charset="UTF-8">
         <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
         <title>distribution | dáileadh</title>
-        <link rel="stylesheet" href="../../css/gnath.css">
+        <link rel="stylesheet" href="/css/gnath.css">
         <!-- function to allow loading from another HTML file
         see: https://stackoverflow.com/questions/8988855/include-another-html-file-in-a-html-file -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <script> 
             $(function(){
-                $("#headerBar").load("../../header.html"); 
+                $("#headerBar").load("/header.html"); 
+            });
+            $(function(){
+                $("#footerBar").load("/footer.html"); 
             });
         </script> 
         </head>
         <body>
         <div id="headerBar"></div>
         <div class='centerbox'>
-        <h1>distribution | dáileadh</h1><strong>distribution (ainmfhocal): dáileadh</strong><br>
+            <h1>distribution | dáileadh</h1><strong>distribution (ainmfhocal): dáileadh</strong><br>
 <i>sainmhíniú (ga):</i> I gcomhthéacs tacar / liosta uimhreacha, léiriú staitistiúil ar cé chomh minic is a tarlaíonn chuile luach, nó chuile réimse luachanna, ann.<br>
 <i>sainmhíniú (en):</i> In the context of a set / list of numbers, a statistical description of how often each value, or each range of values, occurs.
 
@@ -33,6 +36,7 @@ nótaí aistriúcháin:
 </ul>
 
 
+            <div id="footerBar"></div>
         </div>
         </body>
         </html> 

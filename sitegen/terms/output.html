@@ -4,20 +4,23 @@
         <meta charset="UTF-8">
         <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
         <title>output | aschur</title>
-        <link rel="stylesheet" href="../../css/gnath.css">
+        <link rel="stylesheet" href="/css/gnath.css">
         <!-- function to allow loading from another HTML file
         see: https://stackoverflow.com/questions/8988855/include-another-html-file-in-a-html-file -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <script> 
             $(function(){
-                $("#headerBar").load("../../header.html"); 
+                $("#headerBar").load("/header.html"); 
+            });
+            $(function(){
+                $("#footerBar").load("/footer.html"); 
             });
         </script> 
         </head>
         <body>
         <div id="headerBar"></div>
         <div class='centerbox'>
-        <h1>output | aschur</h1><strong>output (ainmfhocal): aschur</strong><br>
+            <h1>output | aschur</h1><strong>output (ainmfhocal): aschur</strong><br>
 <i>sainmhíniú (ga):</i> I gcomhthéacs córais, próisis, nó feidhme, sonraí a thagann as an bpróiseas céanna agus é críochnaithe.<br>
 <i>sainmhíniú (en):</i> In the context of a system, process, or function, data that is returned from the process at its end.
 
@@ -32,6 +35,7 @@ nótaí aistriúcháin:
 </ul>
 
 
+            <div id="footerBar"></div>
         </div>
         </body>
         </html> 
