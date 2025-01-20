@@ -1,0 +1,14 @@
+{
+    "term": "measure",
+    "part-of-speech": "ainmní",
+    "citation-form": "tomhas",
+    "def-en": "I gcomhthéacs matamaitice, luach a dhéanann cur síos cainníochtúil ar sonraí nó ar fheiniméan éigin, go háirithe nuair atá sé úsáidte chun dhá shraith sonraí / dhá fheiniméan chur i gcomparaáid lena chéile.",
+    "def-ga": "In a mathematical context, a value that give a quantitative description of data or some phenomenon, especially when used to compare two such data sets of phenomenons.",
+
+    "prov": {
+        "tomhas": "féach ar an téarma 'metric / tomhas'"
+    },
+    "notes": [
+        "Féach ar an téarma 'metric / tomhas'."
+    ]
+}

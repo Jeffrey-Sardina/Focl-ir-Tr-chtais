@@ -70,13 +70,40 @@ def render_term(term):
         item = item.replace("focloir-beag", "Ó Dónaill et al. (1991)")
         item = item.replace("odonaill", "Ó Dónaill (1977)")
         item = item.replace("storchiste", "Williams et al. (2023)")
+
+        if "féach ar an téarma '" in item.lower():
+            start = item.index("'")
+            ref = item[(start + 1):]
+            end = ref.index("'")
+            full_phrase = ref[:end]
+            delim = ref.index(' / ')
+            ref = ref[:delim]
+            ref = ref.replace(' ', '-')
+            ref_file_path = ref + '.html'
+            link_html = f"<a href='{ref_file_path}'>'{full_phrase}'</a>"
+            item = f"Féach ar an téarma {link_html}."
+
         prov_list_citations.append(item)
     render_str += unordered_list(prov_list_citations)
     render_str += "\n"
 
     # term notes
     render_str += "nótaí aistriúcháin:\n"
-    render_str += unordered_list(term["notes"])
+    notes = []
+    for item in term["notes"]:
+        if "féach ar an téarma '" in item.lower() or "féach chomh maith ar an téarma '" in item.lower():
+            start = item.index("'")
+            ref = item[(start + 1):]
+            end = ref.index("'")
+            full_phrase = ref[:end]
+            delim = ref.index(' / ')
+            ref = ref[:delim]
+            ref = ref.replace(' ', '-')
+            ref_file_path = ref + '.html'
+            link_html = f"<a href='{ref_file_path}'>'{full_phrase}'</a>"
+            item = f"Féach ar an téarma {link_html}."
+        notes.append(item)
+    render_str += unordered_list(notes)
     render_str += "\n"
 
     # fix math

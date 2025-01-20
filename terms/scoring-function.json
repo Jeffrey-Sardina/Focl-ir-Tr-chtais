@@ -1,0 +1,16 @@
+{
+    "term": "scoring function",
+    "part-of-speech": "ainmní",
+    "citation-form": "feidhm scórála",
+    "def-en": "In the context of knowledge graph embedding models, a function that assigned a plausibility score to a triple.",
+    "def-ga": "I gcomhthéacs samhlacha leabaithe graif eolais, feidhm a dhéanann scór inchreidteachta a thabhairt d'abairt thriarach.",
+
+    "prov": {
+        "feidhm": "féarch ar an téarma 'function / feidhm'",
+        "scóráil": "féach ar an téarma 'to score / scóráil'"
+    },
+    "notes": [
+        "Téarma cruthaithe go díreach as dá théarma eile sa bhFoclóir Tráchtais.",
+        "Féach chomh maith ar na téarmaí function / feidhm' agus 'to score / scóráil'."
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "term": "estimate",
+    "part-of-speech": "ainmní",
+    "citation-form": "meastachán",
+    "def-en": "In a mathematical context, a value that gives a quantitative description of some phenomenon, but which may not be entirely exact.",
+    "def-ga": "I gcomhthéacs matamaitice, luach a dhéanann cur síos cainníochtúil ar fheiniméan éigin, gan a bheith iomlán cruinn.",
+
+    "prov": {
+        "meastachán": "de-bhaldraithe, focloir-beag, odonaill"
+    },
+    "notes": [
+        "Téarma ar fáil mar téarma airgeadais / matamaitice ó na foclóirí thuas.",
+        "Is féidir 'tomhas' a úsáid chomh maith (go háirithe sa gcaint) chun brí comhchosúil leis seo a chur in iúl. Cé is moite de sin, roghnaíodh 'meastachán' mar théarma dó seo chun idirdhealú léir a dhéanamh idir 'metric / tomhas' agus '*estimate / tomhas'. Ar leibhéal neamh-fhoirmeálta, tá sé ceart go leor tomhas a úsáid leis an mbrí sin nuair is léir ón gcomhthéacs cén bhrí atá i gceist leis.",
+        "Nuair is meastachán míchruinn (nach ionann agus mícheart) atá i gceist, moltar an téarma 'garmheastachán' (de réir Fhoclóir Uí Dhónail agus Fhoclóir De  Bhaldraithe.",
+        "Tá an téarma seo comhchiallach leis an téarma 'approximation / meastachán' sa gcomhthéacs matamaitice / ríomheolaíochta aṫá i gceist anseo."
+    ]
+}
