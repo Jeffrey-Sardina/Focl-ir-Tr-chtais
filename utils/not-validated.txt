@@ -1,8 +1,0 @@
-scoring-function.json
-estimate.json
-measure.json
-metric.json
-to-estimate.json
-to-measure.json
-approximation.json
-to-approximate.json
