@@ -1,14 +1,14 @@
 {
     "term": "to approximate",
-    "part-of-speech": "ainmní",
+    "part-of-speech": "ainmfhocal",
     "citation-form": "meastachán a dhéanamh (ar)",
     "def-en": "To estimate a value.",
     "def-ga": "Luach a mheas.",
 
     "prov": {
-        "meastachán": "féach ar an téarma 'to estimate  / meastachán a dhéanamh (ar)'"
+        "meastachán": "féach ar an téarma 'to estimate (about) / meastachán a dhéanamh (ar)'"
     },
     "notes": [
-        "Féach ar an téarma 'to estimate  / meastachán a dhéanamh (ar)'."
+        "Féach ar an téarma 'to estimate (about) / meastachán a dhéanamh (ar)'."
     ]
 }

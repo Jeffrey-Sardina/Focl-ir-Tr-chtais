@@ -1,0 +1,15 @@
+{
+    "term": "instantiation (concept)",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "leagan",
+    "def-en": "An instance or example of a concept or framework, other than a mathematical / computational object.",
+    "def-ga": "Sampla de choincheap nó de chreatlach, nach ionann agus réad matamaiticiúil / ríomhaireachta.",
+
+    "prov": {
+        "leagan": "de-bhaldraithe, dineen, focloir-beag, odonaill"
+    },
+    "notes": [
+        "Ní i gcomhthéacs eolaíochta a luaitear an téarma seo, ach is le brí comhchosúil atá sé luaite.",
+        "Tá an t-aistriúchán céanna luaite i dtéarma eile sa bhfoclóir seo; féach ar an téarma 'representation / leagan'. Sin ráite, tá an bhrí a bhaineann le 'leagan' i nGaeilge leathan go leor le go bhfuil sé in ann seasamh isteach sa dá chás. Beidh sé léir go leor ón gcomhthéacs cén ceann acu atá i gceist."
+    ]
+}

@@ -72,6 +72,7 @@ def render_term(term):
         item = item.replace("storchiste", "Williams et al. (2023)")
 
         if "féach ar an téarma '" in item.lower():
+            print(item)
             start = item.index("'")
             ref = item[(start + 1):]
             end = ref.index("'")
@@ -92,6 +93,7 @@ def render_term(term):
     notes = []
     for item in term["notes"]:
         if "féach ar an téarma '" in item.lower() or "féach chomh maith ar an téarma '" in item.lower():
+            print(item)
             start = item.index("'")
             ref = item[(start + 1):]
             end = ref.index("'")

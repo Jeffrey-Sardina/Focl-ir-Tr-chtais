@@ -6,9 +6,9 @@
     "def-ga": "in abairt thriarach $(a,f,c)$, an chéad nód $a$ atá mar thús ag an gceangal $f$.",
 
     "prov": {
-        "ainmní": "de-bhaldraithe, dineen, focloir-beag, odonaill"
+        "ainmfhocal": "de-bhaldraithe, dineen, focloir-beag, odonaill"
     },
     "notes": [
-        "I mBéarla, samhlaítear abairtí triaracha mar abairtí teangeolaíochta le hainmní, le faisnéis, agus le cuspóir. Glactar leis an analach chéanna i nGaeilge."
+        "I mBéarla, samhlaítear abairtí triaracha mar abairtí teangeolaíochta le hainmfhocal, le faisnéis, agus le cuspóir. Glactar leis an analach chéanna i nGaeilge."
     ]
 }

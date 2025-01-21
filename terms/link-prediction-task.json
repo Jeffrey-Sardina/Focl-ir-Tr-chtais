@@ -7,10 +7,10 @@
 
     "prov": {
         "tasc": "de-bhaldraithe, dineen, focloir-beag, odonaill",
-        "réamhsinint": "féach ar an téarma 'link prediction / réamhinsint nasc'",
-        "nasc": "féach ar an téarma 'link prediction / réamhinsint nasc'"
+        "réamhsinint": "féach ar an téarma 'link prediction (LP) / réamhinsint nasc (RN)'",
+        "nasc": "féach ar an téarma 'link prediction (LP) / réamhinsint nasc (RN)'"
     },
     "notes": [
-        "Féach ar an téarma 'link prediction / réamhinsint nasc'"
+        "Féach ar an téarma 'link prediction (LP) / réamhinsint nasc (RN)'"
     ]
 }

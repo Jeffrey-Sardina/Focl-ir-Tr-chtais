@@ -39,5 +39,5 @@ Fadhbanna le téarma (neamh-iomlán)
 * (úr)scothach mar state of the art??? scothach = tufted hair ar Teanglann
 
 TODO
-* séimhiú ar ainmní sa tuiseal ginideach théis ainmní baninscneach?
+* séimhiú ar ainmfhocal sa tuiseal ginideach théis ainmfhocal baninscneach?
     * féach ar 10.2.7 sa gCaighdeán (lth 175). An chuid is tábhachtaí ná: "Ní shéimhítear an dara hainmfhocal má tá an dara hainmfhocal, atá sa ghinideach, cáilithe le hainmfhocal eile nó le haidiacht, e.g., oíche gaoithe móire; bileog páipéir dúigh; gloine beorach fuaraithe:"

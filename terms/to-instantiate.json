@@ -1,0 +1,16 @@
+{
+    "term": "to instantiate",
+    "part-of-speech": "briathar",
+    "citation-form": "cruthaigh",
+    "def-en": "To create a (mathematical or computational) object, especially according to a strictly defined framework.",
+    "def-ga": "Cruth a chur ar réad (matamaiticiúil nó ríomhaireachta), go háirithe de réir creatlaí sainmhínithe éigin.",
+
+    "prov": {
+        "cruthaigh": "de-bhaldraithe, dineen, odonaill"
+    },
+    "notes": [
+        "Don chuid is mó, is ionann 'instantiation' (mar phróiseas) agus rud a chruthú. Úsáidtear an téarma sin mar sin.",
+        "Toisc gur coincheap ginearálta agus leathan atá i gceist leis an téarma seo, tá sé iomlán ceart go leor focail agus frásaí comhchiallacha a úsáid ina ionad seo, m.sh. cum, cruth a chur ar, srl. ag braith ar an gcomhthéacs.",
+        "Tá 'áscaigh', as an  bhfocal 'ásc' ar téarma.ie -- focal nach bhfuil bunús ar bith leis i bhFoclóir Uí Dhónaill, de Bhaldraithe, ná Uí Dhuinín. Diúltaítear dó sin mar théarma mar sin."
+    ]
+}

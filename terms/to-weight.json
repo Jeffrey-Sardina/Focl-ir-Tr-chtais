@@ -1,0 +1,14 @@
+{
+    "term": "to weight",
+    "part-of-speech": "briathar",
+    "citation-form": "uimhir ualaigh a chur le",
+    "def-en": "To attach a numerical weight to an expression or mathematical object.",
+    "def-ga": "Uimhir ualaigh a chur le slonn nó le réad matamaiticiúil.",
+
+    "prov": {
+        "xxx": "de-bhaldraithe, dineen, focloir-beag, odonaill, storchiste"
+    },
+    "notes": [
+        "Féach ar an téarma 'weight / uimhir ualaigh'."
+    ]
+}

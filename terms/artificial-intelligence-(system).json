@@ -1,0 +1,16 @@
+{
+    "term": "artificial intelligence (AI) (system)",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "córas intleachta saorga (córas IS)",
+    "def-en": "A computational system that aims to act as though it has intelligence or the ability to think. Artificial intelligence is not always based on machine learning, but all machine learning systems are forms of artificial intelligence.",
+    "def-ga": "Córas ríomhaireachta a bhfuil mar aidhm aige gníomhú ar nós go bhfuil intleacht nó cumas smaointe aige. Ní bhíonn intleacht shaorga bunaithe ar chórais ríomhfhoghlama i gcónaí, ach is sórt intleachta saorga iad chuile córas ríomhfhoghlama.",
+
+    "prov": {
+        "córas": "de-bhaldraithe, focloir-beag, odonaill",
+        "intleacht": "de-bhaldraithe, dineen, focloir-beag, odonaill",
+        "saorga": "de-bhaldraithe, focloir-beag, odonaill"
+    },
+    "notes": [
+        "Tagann an téarma seo as an aidhm atá le hintleacht shaorga .i. gníomhú ar nós go bhfuil intleacht ann (an intleacht) gan é a bheith ann dáiríre (an chuid atá saorga)."
+    ]
+}

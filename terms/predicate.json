@@ -3,12 +3,12 @@
     "part-of-speech": "ainmfhocal",
     "citation-form": "faisnéis",
     "def-en": "in a triple $(s,p,o)$, the predicate $p$ that connects the subject $s$ to the object $o$.",
-    "def-ga": "in abairt thriarach $(a,f,c)$, an ceangal $c$ a cheanglaíonn an t-ainmní $a$ leis an gcuspóir $c$.",
+    "def-ga": "in abairt thriarach $(a,f,c)$, an ceangal $c$ a cheanglaíonn an t-ainmfhocal $a$ leis an gcuspóir $c$.",
 
     "prov": {
         "cuspóir": "de-bhaldraithe, dineen, focloir-beag, odonaill"
     },
     "notes": [
-        "I mBéarla, samhlaítear abairtí triaracha mar abairtí teangeolaíochta le hainmní, le faisnéis, agus le cuspóir. Glactar leis an analach chéanna i nGaeilge."
+        "I mBéarla, samhlaítear abairtí triaracha mar abairtí teangeolaíochta le hainmfhocal, le faisnéis, agus le cuspóir. Glactar leis an analach chéanna i nGaeilge."
     ]
 }

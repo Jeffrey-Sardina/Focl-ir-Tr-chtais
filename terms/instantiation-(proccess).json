@@ -1,0 +1,15 @@
+{
+    "term": "instantiation (process)",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "cruthú",
+    "def-en": "The process relating to the instantiation of a (mathematical or computational) object.",
+    "def-ga": "An phróiseas a bhaineann le réad (matamaiticiúil nó ríomhaireachta) a chruthú.",
+
+    "prov": {
+        "cruthaigh": "féach ar an téarma 'to instantiate / cruthaigh'"
+    },
+    "notes": [
+        "Déanann an téarma seo trácht ar an bpróiseas a bhaineann le rud a chruthú; .i. an cruthú féin. Ní féidir an téarma seo a úsáid chun trácht ar an réad atá mar thoradh / aschur ar an bpróiseas céanna.",
+        "Féach chomh maith ar an téarma 'to instantiate / cruthaigh'."
+    ]
+}

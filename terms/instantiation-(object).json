@@ -1,0 +1,16 @@
+{
+    "term": "instantiation (object)",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "réad",
+    "def-en": "The (mathematical or computational) object created by the process of instantiation from a mathematical / computational framework.",
+    "def-ga": "An rud (matamaiticiúil nó ríomhaireachta) atá cruthaithe de réir creatlaí matamaitice / ríomhaireachta.",
+
+    "prov": {
+        "réad": "de-bhaldraithe, dineen*, odonaill, storchiste"
+    },
+    "notes": [
+        "* Ní luann Foclóir Uí Dhuinín an téarma 'réad' ach i gcomhthéacs filíochta.",
+        "Focal luaite i gcomhthéacs comhchosúil na foclóirí eile thuas.",
+        "Féach chomh maith ar an téarma 'to instantiate / cruthaigh'."
+    ]
+}

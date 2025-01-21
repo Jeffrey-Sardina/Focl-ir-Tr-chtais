@@ -3,7 +3,7 @@
     "part-of-speech": "aidiacht",
     "citation-form": "dírithe",
     "def-en": "Regarding an edge in a triple, providing an order-aware mapping of a source node (the subject) to a target node (the object).",
-    "def-ga": "Ag tagairt ar cheangal in abairte triaraí, ag ceangal an nód tosaigh (an ainmní) leis an nód deiridh (an cuspóir) in ord.",
+    "def-ga": "Ag tagairt ar cheangal in abairte triaraí, ag ceangal an nód tosaigh (an ainmfhocal) leis an nód deiridh (an cuspóir) in ord.",
 
     "prov": {
         "dírithe": "dineen, odonaill"

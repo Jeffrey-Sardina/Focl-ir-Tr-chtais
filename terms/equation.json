@@ -1,0 +1,14 @@
+{
+    "term": "equation",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "cothromóid",
+    "def-en": "In the context of mathematics, a mathematical statement split into two parts by the sign '=', and that says that the two halves of the statement on either side have the same value.",
+    "def-ga": "I gcomhthéacs na matamaitice, abairt matamaiticiúil scoilte ina dhá leath ag an gcomhartha '=', agus a deir go bhfuil an luach céanna ag dá thaobh.",
+
+    "prov": {
+        "cothromóid": "de-bhaldraithe, odonaill"
+    },
+    "notes": [
+        "Téarma díreach ar fáil leis an mbrí ceannann céanna."
+    ]
+}
