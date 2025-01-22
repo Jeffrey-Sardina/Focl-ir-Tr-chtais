@@ -1,8 +1,0 @@
-efficiency.json
-performance.json
-running.json
-to-run.json
-to-input.json
-to-output.json
-global.json
-local.json

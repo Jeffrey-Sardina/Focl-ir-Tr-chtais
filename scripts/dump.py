@@ -61,6 +61,8 @@ if __name__ == '__main__':
 
     if '-nv' in sys.argv:
         DUMP_NON_VALIDATED_ONLY = True
+    else:
+        DUMP_NON_VALIDATED_ONLY = False
 
     DEBUG = False
     terms = load_terms()

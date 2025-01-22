@@ -3,7 +3,7 @@
     "part-of-speech": "aidiacht",
     "citation-form": "áitiúil",
     "def-en": "In the context of a graph, data, a model, etc, relating to features of sub-parts of the graph / data / model without reference to properties of the whole. Antonym to global.",
-    "def-ga": "I gcomthéacs graif, sonraí, samlach, nó eile, ag trácht ar airíonna a bhaineann le codanna áirithe den ghraf / de na sonraí / den tsamhail, gan trácht airíonna an ruda iomláin. Frithchiallach leis an téarma 'uilíoch'.",
+    "def-ga": "I gcomhthéacs graif, sonraí, samlach, nó eile, ag trácht ar airíonna a bhaineann le codanna áirithe den ghraf / de na sonraí / den tsamhail, gan trácht airíonna an ruda iomláin. Frithchiallach leis an téarma 'uilíoch'.",
 
     "prov": {
         "uilíoch": "de-bhaldraithe, dineen, focloir-beag, odonaill"
