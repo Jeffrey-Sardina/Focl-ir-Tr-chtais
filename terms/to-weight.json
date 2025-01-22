@@ -6,7 +6,7 @@
     "def-ga": "Uimhir ualaigh a chur le slonn nó le réad matamaiticiúil.",
 
     "prov": {
-        "xxx": "de-bhaldraithe, dineen, focloir-beag, odonaill, storchiste"
+        "ualach": "de-bhaldraithe, dineen, focloir-beag, odonaill, (TODO: storchiste?)"
     },
     "notes": [
         "Féach ar an téarma 'weight / uimhir ualaigh'."
