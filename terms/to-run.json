@@ -1,0 +1,15 @@
+{
+    "term": "to run",
+    "part-of-speech": "briathar",
+    "citation-form": "cuir ar siúl",
+    "def-en": "In the context of computer science, to begin a process.",
+    "def-ga": "I gcomhthéacs ríomheolaíochta, próiseas a thosú.",
+
+    "prov": {
+        "cuir ar siúl": "féach ar an téarma 'running / ar siúl'"
+    },
+    "notes": [
+        "Tá go leor téarmaí eile ar féidir (agus ar ceart) iad a úsáid: tosaigh, próiseáil, cuir ar bun, srl. Níl cúis ar bith gan iad sin a úsáid más fearr leat iad. Tugtar sampla amháin thuas ní toisc gurb é is fearr, ach toisc gur rogha mhaith amháin atá ann.",
+        "Féach comh maith ar an téarma 'running / ar siúl'"
+    ]
+}

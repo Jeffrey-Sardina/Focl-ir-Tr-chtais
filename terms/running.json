@@ -1,0 +1,14 @@
+{
+    "term": "running",
+    "part-of-speech": "aidiacht",
+    "citation-form": "ar siúl",
+    "def-en": "Regagrding a process, having been started and still working (not being finished yet).",
+    "def-ga": "Ag trácht ar próiseas, tar eis a beith tosaithe agus fós ag obair (gan a bheith críochnaithe go fóill).",
+
+    "prov": {
+        "ar siúl": "de-bhaldraithe, dineen, focloir-beag, odonaill"
+    },
+    "notes": [
+        "Tá go leor téarmaí eile ar féidir (agus ar ceart) iad a úsáid: tosaithe, ag próiseáil, i mbun próiseála, curthar ar bun, srl. Níl cúis ar bith gan iad sin a úsáid más fearr leat iad. Tugtar sampla amháin thuas ní toisc gurb é is fearr, ach toisc gur rogha mhaith amháin atá ann."
+    ]
+}

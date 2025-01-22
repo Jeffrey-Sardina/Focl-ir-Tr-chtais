@@ -1,0 +1,15 @@
+{
+    "term": "efficiency",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "éifeachtacht (ama, fhuinnimh)",
+    "def-en": "In the context of computer science, how effective a model is according to time take or energy used.",
+    "def-ga": "I gcomhthéacs ríomheolaíochta cé chomh math is atá samhail nó próiseas ar thaobh an ama / úsáid fhuinnimh de.",
+
+    "prov": {
+        "éifeachtacht": "de-bhaldraithe, focloir-beag, odonaill"
+    },
+    "notes": [
+        "Téarma díreach ar fáil leis an mbrí chéanna ó na foclóirí thuas.",
+        "Féach comh maith ar an téarma 'performance / éifeachtacht (ama, taisc)'."
+    ]
+}
