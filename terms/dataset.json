@@ -1,0 +1,17 @@
+{
+    "term": "dataset",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "tacar sonraí",
+    "def-en": "A set of data that is gathered together, especially to be used for training or evaluating machine learning models.",
+    "def-ga": "Grúpa sonraí curtha le chéile, go háirithe chun samhlacha ríomhfhoghlama a thraenáil nó a mheasúnú.",
+
+    "prov": {
+        "tacar": "féach ar an téarma 'set / tacar'.",
+        "sonra": "féach ar an téarma 'data / sonraí'."
+    },
+    "notes": [
+        "Téarma cruthaithe go díreach as an dá théarma thuas.",
+        "Féach chomh maith ar an téarma 'data / sonraí'.",
+        "Féach chomh maith ar an téarma 'set / tacar'."
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "term": "representative",
+    "part-of-speech": "aidiacht",
+    "citation-form": "ionadaíochta",
+    "def-en": "In the context of a dataset, a subset that can be used in place of the whole dataset because it contains the same patterns. In the context of machine learning models, able to provide a general summary of the patterns in the dataset on which it was trained..",
+    "def-ga": "I gcomhthéacs tacar sonraí, fo-thacar ar féidir é a úsáid in ionad an tacair shonraí mhór toisc na patrúin chéanna a bheith ann. I gcomhthéacs samhlacha ríomhfhoghlama, in ann achoimre leathan a dhéanamh ar patrúin i dtacar sonraí ar a raibh sé traenáilte.",
+
+    "prov": {
+        "ionadaíocht": "de-bhaldraithe, focloir-beag, odonaill"
+    },
+    "notes": [
+        "Téarma ar fáil le brí chomhchosúil. I bhFoclóir Uí Dhónaill agus Uí Mhaoileoin, déantar trácht ar an téarma seo i gcomhthéacs daoine / polaitíocht (.i. ionadaí poiblí) amháin.",
+        "Déanann 'ionadaíocht' trácht ar rud atá úsáidte in ionad ruda eile. Sin go díreach a bhfuil i gceist leis an téarma seo: má tá fo-thacar sonraí ionadaíochta ann, is féidir an fo-thacar sin a úsáid in ionad an tacair mhór as a tháinig sé."
+    ]
+}
