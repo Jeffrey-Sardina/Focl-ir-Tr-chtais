@@ -1,6 +1,7 @@
 import json
 import glob
 import sys
+import random
 
 def load_terms():
     terms = {}
@@ -11,10 +12,19 @@ def load_terms():
         with open(term_file, 'r') as inp:
             term = json.load(inp)
             if not INDEX_GAEILGE:
-                terms[term['term']] = term
+                if not term['term'] in terms:
+                    terms[term['term']] = term
+                else:
+                    de_dupe_id = "#" + str(int(random.random() * 1_000_000))
+                    terms[term['term'] + de_dupe_id] = term
             else:
-                terms[term['citation-form']] = term
+                if not term['citation-form'] in terms:
+                    terms[term['citation-form']] = term
+                else:
+                    de_dupe_id = "#" + str(int(random.random() * 1_000_000))
+                    terms[term['citation-form'] + de_dupe_id] = term
     terms_sorted = {key:terms[key] for key in sorted(list(terms.keys()))}
+    print(f'loaded {len(terms_sorted)} terms')
     return terms_sorted
 
 def bold(render_str):
@@ -140,8 +150,6 @@ def render_table(terms):
     if MODE == 'latex':
         render_str = "\\section{Achoimre na dTéarmaí}"
         render_str += "\\begin{longtable}{|l|l|}\n"
-        # render_str += "\t\\centering\n"
-        # render_str += "\t\\begin{tabular}{|l|l|}\n"
         render_str += "\t\\hline\n"
         if not INDEX_GAEILGE:
             render_str += "\t\t\\textbf{Béarla} & \\textbf{Gaeilge}\\\\ \\hline \n"
@@ -178,7 +186,7 @@ def render_table(terms):
             render_str += f"| {en_col}| {ga_col}|\n"
             render_str += f"|{'-'*(1+longest_en)}|{'-'*(1+longest_ga)}|\n"
         else:
-            render_str = f"| {ga_col}| {en_col}|\n"
+            render_str += f"| {ga_col}| {en_col}|\n"
             render_str += f"|{'-'*(1+longest_ga)}|{'-'*(1+longest_en)}|\n"
         for term_id in terms:
             term = terms[term_id]
@@ -265,8 +273,8 @@ def get_header():
 def get_footer():
     if MODE == 'latex':
         footer = """
-            \printbibliography[title={Tagairtí}]
-            \end{document}
+            \\printbibliography[title={Tagairtí}]
+            \\end{document}
         """
     elif MODE == 'markdown':
         footer = ""
