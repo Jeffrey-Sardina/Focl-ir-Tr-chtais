@@ -77,10 +77,14 @@ def render_term(term):
         render_str += bold(f"{term['term']} ({term['part-of-speech']}): {term['citation-form']}")
     else:
         render_str += bold(f"{term['citation-form']} ({term['part-of-speech']}): {term['term']}")
-    render_str += "<br>\n"
+    if MODE != 'latex':
+        render_str += "<br>"
+    render_str += "\n"
 
     # term definitions
-    render_str += italics("sainmhíniú (ga):") + " " + term['def-ga'] + "<br>"
+    render_str += italics("sainmhíniú (ga):") + " " + term['def-ga'] + "\n"
+    if MODE != 'latex':
+        render_str += "<br>"
     render_str += "\n"
     render_str += italics("sainmhíniú (en):") + " " + term['def-en'] + "\n"
     render_str += "\n"
@@ -306,7 +310,7 @@ def main():
     print(f"Wrote {num_terms} terms to {out_file}")
 
 if __name__ == '__main__':
-    version = '1.1 alfa'
+    version = '1.1'
 
     if '-namedversion' in sys.argv:
         # run all versions
