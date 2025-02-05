@@ -1,0 +1,14 @@
+{
+    "term": "reference implementation",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "leagan infheidhmithe caighdeánach",
+    "def-en": "An implementation that is made available for other developers, especially as a standard version.",
+    "def-ga": "Leagan infheidhmithe a chuirtear ar fáil mar shampla d'fhorbróirí cóid eile, go háirithe mar leagan caighdeánach de.",
+
+    "prov": {
+        "xxx": "de-bhaldraithe, dineen, focloir-beag, odonaill, storchiste"
+    },
+    "notes": [
+        "Bhíothas idir dhá chomhairle ar an téarma seo -- 'leagan infheidhmithe caighdeánach' nó 'leagan infheidhmithe samplach'. Tá an-chiall leo araon. Glacadh le 'leagan infheidhmithe caighdeánach' toisc gurb in atá i gceist le 'reference implementation', nach mór i gcónaí, ná leagan infheidhmithe a chuirtear i leabharlann cóid "
+    ]
+}

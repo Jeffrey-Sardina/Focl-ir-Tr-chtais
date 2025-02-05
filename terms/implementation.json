@@ -1,14 +1,16 @@
 {
-    "term": "xxx",
-    "part-of-speech": "xxx",
-    "citation-form": "xxx",
-    "def-en": "xxx.",
-    "def-ga": "xxx.",
+    "term": "implementation",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "leagan infheidhmithe",
+    "def-en": "In the context of computer science, executable code of a machine learning model or other algorithm in a coding language.",
+    "def-ga": "I gcomthéacs ríomheolaíochta, cód infheidhmithe de shamhail ríomhfhoghlama nó d'algartam eile i dteanga ríomheolaíochta.",
 
     "prov": {
-        "xxx": "de-bhaldraithe, dineen, focloir-beag, odonaill, storchiste"
+        "leagan": "de-bhaldraithe, dineen, focloir-beag, odonaill",
+        "feidhmigh": "de-bhaldraithe, focloir-beag, odonaill"
     },
     "notes": [
-        "xxx."
+        "Is féidir an-chuid leaganacha ar leith a chruthú de gach uile shamail ríomhfhoghlama (i dteangacha ríomheolaíochta ar leith, mar shampla). Ní bhíonn leagan ar bith 'níos cirte' ná leagan eile -- déanann siad an rud céanna. Is mar seo a chinneadh an focal 'leagan' a úsáid -- tugann sé le fios gur féidir leaganacha eile, atá ar chomhchéim lena chéile, a chruthú.",
+        "Ar an leibhéal is bunúsaí, bíonn feidhm le gach uile 'implementation'. Ní 'implementation' gan bheith in ann é a chur ar siúl ar ríomhaire. Mar sin, baineann feidhmiú mar choincheap go díreach le 'implementation' mar théarma."
     ]
 }
