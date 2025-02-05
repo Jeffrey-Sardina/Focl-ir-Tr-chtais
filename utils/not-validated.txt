@@ -1,6 +1,2 @@
-representative.json
-state-of-the-art-(current).json
-state-of-the-art-(best).json
-baseline-model.json
-benchmark-dataset.json
-dataset.json
+environment.json
+implementation.json
