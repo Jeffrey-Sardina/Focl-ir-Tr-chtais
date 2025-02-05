@@ -6,9 +6,11 @@
     "def-ga": "Leagan infheidhmithe a chuirtear ar fáil mar shampla d'fhorbróirí cóid eile, go háirithe mar leagan caighdeánach de.",
 
     "prov": {
-        "xxx": "de-bhaldraithe, dineen, focloir-beag, odonaill, storchiste"
+        "leagan": "féach ar an téarma 'implementation / leagan infheidhmithe'",
+        "feidhmigh": "féach ar an téarma 'implementation / leagan infheidhmithe'"
     },
     "notes": [
-        "Bhíothas idir dhá chomhairle ar an téarma seo -- 'leagan infheidhmithe caighdeánach' nó 'leagan infheidhmithe samplach'. Tá an-chiall leo araon. Glacadh le 'leagan infheidhmithe caighdeánach' toisc gurb in atá i gceist le 'reference implementation', nach mór i gcónaí, ná leagan infheidhmithe a chuirtear i leabharlann cóid "
+        "Bhíothas idir dhá chomhairle ar an téarma seo -- 'leagan infheidhmithe caighdeánach' nó 'leagan infheidhmithe samplach'. Tá an-chiall leo araon. Glacadh le 'leagan infheidhmithe caighdeánach' toisc gurb in atá i gceist le 'reference implementation', nach mór i gcónaí, ná leagan infheidhmithe a chuirtear i leabharlann cóid.",
+        "Féach chomh maith ar an téarma 'implementation / leagan infheidhmithe'."
     ]
 }

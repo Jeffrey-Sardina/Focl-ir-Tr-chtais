@@ -199,6 +199,7 @@ def gen_index(terms, version):
         <head>
         <meta charset="UTF-8">
         <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+        <meta property="og:image" content="/images/site.png" />
         <title>Foclóir Tráchtais</title>
         <link rel="stylesheet" href="/css/gnath.css">
         <!-- function to allow loading from another HTML file
@@ -230,7 +231,7 @@ def gen_index(terms, version):
             print(html, file=out)
 
 def main():
-    version = '1.1'
+    version = '1.2 alfa'
     terms = load_terms()
     gen_term_pages(terms)
     gen_index(terms, version)
