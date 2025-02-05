@@ -1,0 +1,13 @@
+environment
+A context that is used to keep various coding projects isolated, and in which specific versions of coding libraries are stored and defined.
+
+implementation
+In the context of computer science, executable code of a machine learning model or other algorithm in a coding language.
+
+library
+A collection of standardised code that is put together to help wth other coding projects, and that is (typically) available publicly and for free.
+
+reference implementation
+An implementation that is made available for other developers, especially as a standard version.
+
+

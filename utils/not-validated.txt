@@ -1,4 +1,0 @@
-environment.json
-implementation.json
-reference-implementation.json
-library.json
