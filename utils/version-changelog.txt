@@ -1,5 +1,8 @@
-new terms (used to have 121 terms)
+v1.1 / v1.2 alfa to v1.2
+- XX new terms (now is XX, was 162 terms)
+- typos and formatting
 
-interlinking terms with hyperlinks in the online version
-
-typos and formatting
+v1.0 / v1.1 alfa to v1.1
+- 41 new terms (now is 162, was 121 terms)
+- interlinking terms with hyperlinks in the online version
+- typos and formatting
