@@ -2,7 +2,7 @@ classification.json
 class.json
 regression.json
 rank.json
-ranking.json
+to-rank.json
 clustering.json
 cluster.json
 to-cluster.json

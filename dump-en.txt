@@ -1,0 +1,28 @@
+class (classification)
+In the context of classification, any onf of the labels that can be given to input data during classification.
+
+classification
+The machine learning task that aims to assign a label ('class') to every input data point. For example, classifying images of dogs or cats based on the animal in the image.
+
+cluster
+In the context of mathematics, a group of points that are close to each other, or similar to each other, according to some metric.
+
+clustering
+In the context of machine learning, the process related to assigning a class to data points when there is no knowledge in advance of what the correct labels are (or even how many there are), such that the learning must be done inductively.
+
+rank
+Regarding a value in a sorted list, the index at which that element is located.
+
+regression
+The the context of mathematics, the process relating to finding a linear equation that accurately describes the numerical patterns in a data set.
+
+to classify
+In the context of machine learning, to perform the classification task
+
+to cluster
+In the context of machine learning, to perform the clustering task.
+
+to rank
+In the context of a list or sequence, to order it according to the values of its elements.
+
+

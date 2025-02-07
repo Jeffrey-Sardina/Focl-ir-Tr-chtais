@@ -1,0 +1,54 @@
+rang
+ainmfhocal
+I gcomhthéacs an taisc rangaithe, ceann ar bith de na lipéad ar féidir é a chur le sonraí ionchuir lew linn rangaithe.
+Téarma díreach ar fáil la brí comhchosúil ó na foclóirí thuas.
+
+rangú
+ainmfhocal
+Tasc ríomhfhoghlama a bhfuil mar aidhm aige lipéad ('rang') a chur le chuile phointe sonraí ionchuir. Mar shampla, íomhánna a bhfuil madra nó cat iontu a rangú de réir an  atá sa íomhá.
+* Is é 'rangú' seachas 'rangaigh' atá i bhFoclóir Uí Dhónaill agus Uí Mhaoileoin.
+Téarma díreach ar fáil la brí comhchosúil ó na foclóirí thuas.
+
+braisle (pointí)
+ainmfhocal
+I gcomhthéacs matamaitice, grúpa pointí atá ghar dá chéile, nó cosúil lena chéile, de réir tomhais éigin.
+De réir Foclóir Uí Dhuinín, is éard is braisle ann ná 'mass, lump, nó cluster'. Luaitear é i measc roinnt focal eile (.i. triopall, mogall, crobhaing, clibín, agus cloigín) a bhfuil an bhrí chéanna (nó chomhchosúil) luaite leo. Astu siúd, bíonn 'triopall' luaite i comhthéacs plandaí (m.sh triopall caor), agus gan a bheith luaite i gcomhthéacs níos leithne. Bíonn 'mogall' luaite mar théarma teicniúil na luibheolaíocht, agus mar fhocal níos ginearálta le bhrí eile. Bíonn na focail eile luaite i gcomhthéacseanna níos ginearálta. Sin ráite, bíonn 'mass' luaite le 'braisle' mar bhrí eile -- brí a luíonn le húsáid 'braisle' mar 'mass of pointe'. Ní bhíonn bríonna chomh ceangailte sin don bhrín atá de dhíth anseo ag na focail eile. Glactar leis mar sin.
+Ní gá 'braisle pointí' a rá, ach i dócha gur léire é mar théarma, toisc nach bhfuil 'braisle' luaite mar théarma matamaitice cheana sna foclóirí thuas.
+Tá 'pointe' le fáil mar théarma matamaitice i bhFoclóir Uí Dhónail agus i Stórchiste, agus le brí níos leithna sna foclóirí eile.
+
+rangú ionduchtach
+ainmfhocal
+I gcomhthéacs ríomhfhoghlama, an próiseas a bhaineann le pointí sonraí a rangú nuair nach bhfuil eolas ar bith céard iad na ranganna cearta (ná an méid ranganna fiú) ar fáil roimh re, sa gcaoi gur gá iad sin a fhoghlaim go hionduchtach.
+Luann Stórchiste an téarma 'ionduchtach' i gcomhthéacs matamaitice. Luann na foclóirí eile é i gcomthéacs níos ginearálta, ach leis an mbrí chéanna.
+Is éard is 'clustering' ann mar thasc ríomhfhoghlama ná lipéad ranga a chur le pointí sonraí nach bhfuil lipéad ar bith leo. Tá sé an-cheangailte le rangú mar thacs, ach amháin nach bhfuil fios na ranga cearta ar fáil don chóras ríomhfhoghlama riomh ré. Sin le rá, is tasc ionduchtach é. Is as an bun-choincheap seo a roghnaítear 'rangú ionduchtach' mar théarma.
+Tá 'braisliú' le feiceáil ar Foclóir.ie -- focal a thagann as an bhfréamh 'braisle'. Ní bhíonn an leagan briathair 'braisliú' le feiceáil i bhfoclóir dúchasach ar bith. Ní ghlactar leis mar sin sa gcomhthéacs matamaitice seo.
+Féach ar an téarma 'classification / rangú'.
+
+ord
+ainmfhocal
+Ag trácht ar luach i liosta sórtáilte, an t-innéacs sa liosta sin ag bhfuil sé.
+Téarma díreach ar fáil le brí chomchosúil.
+Is minic córas innéacs bunaithe ar 0 a úsáid i ríomheolaíocht. Cé is moite de sin, is córas innéacs bunaithe ar 1 a bhíonn in úsaid i gcónaí i gcomhthéacs leabuithe graf eolas / réamhinsinte nasc.
+
+cúlú
+ainmfhocal
+I gcomhthéacs matamaitice, an próiseas a bhaineann le cothromóid líne a fháil a dhéanann cur síos cruinn ar patrúin uimhriúla i sraith sonraí.
+Luann an trí fhoinse thuas an téarma seo sa gcomhthéacs ceannann céanna; .i. mar théarma matamaitice.
+
+rangú
+ainmfhocal
+I gcomhthéacs ríomhfhoghlama, an tasc rangaithe a chur i gcrích.
+Féach ar an téarma 'classification / rangú'.
+
+rangú ionduchtach a dhéanamh
+briathar
+I gcomhthéacs ríomhfhoghlama, an tasc rangaithe ionduchtaigh a chur i gcrích.
+Féach ar an téarma 'clustering / rangú ionduchtach'.
+
+cuir in ord
+briathar
+I gcomhthéacs liosta nó sraithe, é a eagrú de réir luach a mball.
+De réir Fhoclóir Uí Dhuinín, tá an bhrí céanna ag 'ordaigh' -- ach bíonn an leagan sin úsáidte i comhthéacs litríochta amháin. Móide sin, bíonn go leor samplaí den fhrása 'cuir in ord' nó 'in ord' sna foclóirí thuas -- rud a fhágann go bhfuil níos fianaise lena aghaidh sin.
+Féach chomh maith ar an téarma 'order / ord'.
+
+
