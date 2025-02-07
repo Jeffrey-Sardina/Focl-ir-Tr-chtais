@@ -1,0 +1,15 @@
+{
+    "term": "to cluster",
+    "part-of-speech": "briathar",
+    "citation-form": "rangú ionduchtach a dhéanamh",
+    "def-en": "In the context of machine learning, to perform the clustering task.",
+    "def-ga": "I gcomhthéacs ríomhfhoghlama, an tasc rangaithe ionduchtaigh a chur i gcrích.",
+
+    "prov": {
+        "rangaigh": "féach ar an téarma 'classification / rangú'",
+        "ionduchtach": "féach ar an téarma 'clustering / rangú ionduchtach'"
+    },
+    "notes": [
+        "Féach ar an téarma 'clustering / rangú ionduchtach'."
+    ]
+}

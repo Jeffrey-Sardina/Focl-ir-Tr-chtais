@@ -1,0 +1,15 @@
+{
+    "term": "rank",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "ord",
+    "def-en": "Regarding a value in a sorted list, the index at which that element is located.",
+    "def-ga": "Ag trácht ar luach i liosta sórtáilte, an t-innéacs sa liosta sin ag bhfuil sé.",
+
+    "prov": {
+        "ord": "de-bhaldraithe, dineen, focloir-beag, odonaill"
+    },
+    "notes": [
+        "Téarma díreach ar fáil le brí chomchosúil.",
+        "Is minic córas innéacs bunaithe ar 0 a úsáid i ríomheolaíocht. Cé is moite de sin, is córas innéacs bunaithe ar 1 a bhíonn in úsaid i gcónaí i gcomhthéacs leabuithe graf eolas / réamhinsinte nasc."
+    ]
+}

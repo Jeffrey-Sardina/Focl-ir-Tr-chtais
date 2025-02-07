@@ -1,0 +1,14 @@
+{
+    "term": "class (classification)",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "rang",
+    "def-en": "In the context of classification, any onf of the labels that can be given to input data during classification.",
+    "def-ga": "I gcomhthéacs an taisc rangaithe, ceann ar bith de na lipéad ar féidir é a chur le sonraí ionchuir lew linn rangaithe.",
+
+    "prov": {
+        "rang": "de-bhaldraithe, dineen, focloir-beag*, odonaill"
+    },
+    "notes": [
+        "Téarma díreach ar fáil la brí comhchosúil ó na foclóirí thuas."
+    ]
+}
