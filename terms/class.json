@@ -3,7 +3,7 @@
     "part-of-speech": "ainmfhocal",
     "citation-form": "aicme",
     "def-en": "In the context of classification, any one of the labels that can be given to input data during classification.",
-    "def-ga": "I gcomhthéacs an taisc rangaithe, ceann ar bith de na lipéad ar féidir é a chur le sonraí ionchuir le linn rangaithe.",
+    "def-ga": "I gcomhthéacs an taisc rangaithe, ceann ar bith de na lipéad ar féidir é a chur le sonraí ionchuir le linn rangaithe. I gcomhthéacs cliarlathais, ointeolaíochta, nó tacsanomaíochta, sórt nó cineál ruda sa gcliarlathas / san ointeolaíocht / sa tacsanomaíocht.",
 
     "prov": {
         "rang": "de-bhaldraithe, dineen, focloir-beag*, odonaill"
