@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 from sitegen import load_terms
 
 def main():

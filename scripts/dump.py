@@ -1,6 +1,6 @@
+#!/usr/bin/env python
+
 import sys
-import glob
-import json
 from sitegen import load_terms
 
 def dump_ga():
