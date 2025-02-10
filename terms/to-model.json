@@ -2,8 +2,8 @@
     "term": "to model",
     "part-of-speech": "ainmfhocal",
     "citation-form": "samhlaigh",
-    "def-en": "the process of creating a (machine learning or statistical) model.",
-    "def-ga": "samhail ríomhaireachta nó staitistiúil a chruthú.",
+    "def-en": "The process of creating a (machine learning or statistical) model, or the process of creating a data model",
+    "def-ga": "Samhail ríomhaireachta nó staitistiúil a chruthú, nó samhail sonraí a chruthú.",
 
     "prov": {
         "samhlaigh": "de-bhaldraithe*, dineen*, focloir-beag*, odonaill*"
