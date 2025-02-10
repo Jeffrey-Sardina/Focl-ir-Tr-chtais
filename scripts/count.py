@@ -1,4 +1,4 @@
-from gen_site import load_terms
+from sitegen import load_terms
 
 def main():
     num_terms = len(load_terms())

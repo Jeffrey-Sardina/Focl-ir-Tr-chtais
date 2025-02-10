@@ -1,7 +1,7 @@
 import sys
 import glob
 import json
-from gen_site import load_terms
+from sitegen import load_terms
 
 def dump_ga():
     dump = ""
