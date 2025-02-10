@@ -1,0 +1,14 @@
+{
+    "term": "semantics",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "séimeantaic",
+    "def-en": "In the context of knowledge graphs, study of the meaning of the data they contain, or that meaning itself.",
+    "def-ga": "I gcomhthéacs graf eolais, staidéar ar brí na sonraí atá istigh ann, nó an bhrí sin í féin.",
+
+    "prov": {
+        "séimeantaic": "de-bhaldraithe, odonaill"
+    },
+    "notes": [
+        "Téarma díreach le fáil leis an mbrí chéanna i gcomhthéacs comhchosúil (.i. teangeolaíocht). Toisc mórchuid na dtéarmaí a bhaineann le graif eolais a bheith úsáidte mar analach le gramadach (m.sh. ainmní, faisnéis, agus cuspóir), meastar go gcloíonn an comhthéacs seo go díreach le comhthéacs na ngraf eolais."
+    ]
+}

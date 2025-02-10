@@ -1,0 +1,15 @@
+{
+    "term": "symmetric",
+    "part-of-speech": "aidiacht",
+    "citation-form": "siméadrach",
+    "def-en": "In the context of a predicate (p) in a knowledge graph, implying that the triple (o,p,s) is true if (s,p,o) is true.",
+    "def-ga": "I gcomhthéacs faisnéise (f) i ngraf eolais, leis an impleacht gur fíor (c,f,a) mar abhairt thiarach más fíor (a,f,c).",
+
+    "prov": {
+        "siméadrach": "de-bhaldraithe, focloir-beag, odonaill, storchiste"
+    },
+    "notes": [
+        "Téarma díreach ar fáil le brí chomhchosúil",
+        "Cé go mbíonn 'comhchruthach' luaite mar leagan den fhocal 'symmetrical' i mBéarla, ní bhíonn ach 'siméadrach' luaite mar théarma matamaitice i Stórchiste. Glactar leis sin mar sin."
+    ]
+}

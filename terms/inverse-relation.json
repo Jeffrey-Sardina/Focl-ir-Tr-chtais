@@ -1,0 +1,15 @@
+{
+    "term": "inverse (relation)",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "inbhéarta",
+    "def-en": "In the context of a predicate in a knowledge graph, the reverse of another predicate. For example, if p' is the inverse of p, and (s,p,o) is true, then (o,p',s) is true.",
+    "def-ga": "I gcomhthéacs faisnéise i ngraf eolais, leagan contrártha d'fhaisnéis eile. Mar shampla, má tá f' mar inbhéarta ar f, agus más fíor (a,f,c), is fíor (c,f',a).",
+
+    "prov": {
+        "inbhéarta": "de-bhaldraithe, odonaill, storchiste"
+    },
+    "notes": [
+        "Téarma díreach ar fáil le brí chomhchosúil (agus i gcomhthéacs matamaitice).",
+        "Féách chomh maith ar an téarma 'inverse / inbhéartach'."
+    ]
+}
