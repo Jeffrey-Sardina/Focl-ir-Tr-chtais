@@ -6,9 +6,10 @@
     "def-ga": "I gcomhthéacs an taisc rangaithe, ceann ar bith de na lipéad ar féidir é a chur le sonraí ionchuir le linn rangaithe. I gcomhthéacs cliarlathais, ointeolaíochta, nó tacsanomaíochta, sórt nó cineál réáda sa gcliarlathas / san ointeolaíocht / sa tacsanomaíocht.",
 
     "prov": {
-        "rang": "de-bhaldraithe, dineen, focloir-beag*, odonaill"
+        "rang": "de-bhaldraithe, dineen, focloir-beag*, odonaill, storchiste"
     },
     "notes": [
-        "Téarma díreach ar fáil le brí comhchosúil ó na foclóirí thuas."
+        "Téarma díreach ar fáil le brí comhchosúil ó na foclóirí thuas.",
+        "Tá an téárma seo le fáil i gcomhthéacs staitistice i Stórchiste sa téarma 'class interval / eatramh aicme'."
     ]
 }
