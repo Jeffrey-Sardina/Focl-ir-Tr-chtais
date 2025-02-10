@@ -1,23 +1,7 @@
 import sys
 import glob
 import json
-
-def load_terms():
-    terms = {}
-    if DUMP_NON_VALIDATED_ONLY:
-        term_files = []
-        with open('../utils/not-validated.txt' ,'r') as inp:
-            for line in inp:
-                term_file_name = line.strip()
-                term_files.append(f'../terms/{term_file_name}')
-    else:
-        term_files = glob.glob('../terms/*.json')
-    for term_file in term_files:
-        with open(term_file, 'r') as inp:
-            term = json.load(inp)
-            terms[term['term']] = term
-    terms_sorted = {key:terms[key] for key in sorted(list(terms.keys()))}
-    return terms_sorted
+from gen_site import load_terms
 
 def dump_ga():
     dump = ""
