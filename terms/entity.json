@@ -1,0 +1,15 @@
+{
+    "term": "entity",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "aonad",
+    "def-en": "A single concept or object, especially one when represented by a node in a knowledge graph, a data point in a database, or a name in a natural language text.",
+    "def-ga": "Coincheap nó réad amháin, go háirithe agus é samhlaithe mar nód i ngraf eolais, mar sonra i mbunachar sonraí, nó mar ainm i dtéacs scríofa go nádúrtha.",
+
+    "prov": {
+        "aonad": "de-bhaldraithe, focloir-beag, odonaill"
+    },
+    "notes": [
+        "Roghnaíodh 'aonad' seachas 'aonán' toisc brí níos leithne a bheith aige mar fhocal. Feictear i bhFoclóir Uí Dhónaill agus Uí Mhaoileoin gurb ionann aonad agus 'rud amháin ann féin' -- a bhrí díreach atá de dhíth. Ní shin mar a bhíonn le 'aonán', áfach -- bíonn an téarma sin luaite i bhFoclóir Uí Dhónaill agus i bhFoclóir De Bhaldraithe mar théarma bitheolaíochta; sin le rá, déanann sé trácht ar aonán beo (amháin). Cinntear 'aonad' a úsáid mar sin.",
+        "I gcomhthéacs graf eolais, más é nód sa ngraf atá i gceist, is dócha gur léire 'nód' a úsáid seachas 'aonad'. Más é an coincheap taobh thiar den nód atá i gceist, áfach, bheadh an-chúis ann an focal 'aonad' a úsáid."
+    ]
+}

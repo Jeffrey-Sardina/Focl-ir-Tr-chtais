@@ -1,0 +1,16 @@
+{
+    "term": "entity alignment",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "ailíniú aonad",
+    "def-en": "In the context of machine learning, the task of predicting which distinct entities in a dataset actually stand for the same concept or object.",
+    "def-ga": "I gcomhthéacs ríomhfhoghlama, tasc a bhfuil i gceist aige réamhinsint a dhéanamh ar cén aonaid ar leith i dtacar sonraí atá dáiríre ag seasamh don choincheap nó don réad céanna.",
+
+    "prov": {
+        "ailíniú": "féach ar an téarma 'alignment / ailíniú'",
+        "aonad": "féach ar an téarma 'entity / aonad'"
+    },
+    "notes": [
+        "Féach ar an téarma 'alignment / ailíniú'.",
+        "Féach ar an téarma 'entity / aonad'."
+    ]
+}

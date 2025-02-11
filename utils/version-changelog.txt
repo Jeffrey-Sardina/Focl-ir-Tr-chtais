@@ -1,6 +1,6 @@
 v1.1 / v1.2 alfa to v1.2
 - XX new terms (now is XX, was 162 terms)
-- correction of terms for classification (based on aicme, not rang, now)
+- correction of terms for classification (based on 'aicme', not 'rang', now)
 - typos and formatting
 
 v1.0 / v1.1 alfa to v1.1

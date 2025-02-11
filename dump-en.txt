@@ -1,0 +1,7 @@
+entity
+A single concept orn object, especially one when represented by a node in a knowledge graph, a data point in a database, or a name in a natural language text.
+
+entity alignment
+In the context of machine learning, the task of predicting which distinct entities in a dataset actually stand for the same concept or object.
+
+
