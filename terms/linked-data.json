@@ -1,0 +1,17 @@
+{
+    "term": "linked data (LD)",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "sonraí nasctha (SN)",
+    "def-en": "A collection of data in knowledge graphs that are connected to each other and, often, distributed among many sites / servers on the internet.",
+    "def-ga": "Bailiúchán sonraí i ngraif eolais atá nasctha lena chéile agus atá, go minic, dáilte thar líon mhór suíomhanna / freastalaithe ar an idirlíon.",
+
+    "prov": {
+        "sonra": "féach ar an téarma 'database / bunachar sonraí'",
+        "nasc": "féach ar an téarma 'link prediction (LP) / réamhinsint nasc (RN)'"
+    },
+    "notes": [
+        "Téarma cruthaithe go díreach as téarmaí eile sa bhfoclóir seo",
+        "Féach chomh maith ar an téarma 'database / bunachar sonraí'.",
+        "Féach chomh maith ar an téarma 'link prediction (LP) / réamhinsint nasc (RN)'."
+    ]
+}

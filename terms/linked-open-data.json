@@ -1,0 +1,17 @@
+{
+    "term": "linked open data (LOD)",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "sonraí nasctha oscailte (SNO)",
+    "def-en": "Linked data that is made available for easy, free, and public access (e.g. due to it being under an open source license).",
+    "def-ga": "Sonraí nasctha a bhfuil rochtain éasca, saor, agus poiblí air (m.sh. toisc é a bheith faoi cheadúnas foinse oscailte).",
+
+    "prov": {
+        "sonra": "féach ar an téarma 'database / bunachar sonraí'",
+        "nasc": "féach ar an téarma 'link prediction (LP) / réamhinsint nasc (RN)'",
+        "oscail": "de-bhaldraithe, dineen, focloir-beag, odonaill"
+    },
+    "notes": [
+        "Téarma cruthaithe go díreach as ''sonraí nasctha' agus 'oscailte'.",
+        "Féach chomh maith ar an téarma 'linked data (LD) / sonraí nasctha (SN)'."
+    ]
+}
