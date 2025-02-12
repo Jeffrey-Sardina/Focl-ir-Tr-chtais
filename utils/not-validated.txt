@@ -1,2 +1,8 @@
 entity-alignment.json
 entity.json
+maximum.json
+minimum.json
+local-maximum.json
+local-minimum.json
+global-maximum.json
+global-minimum.json

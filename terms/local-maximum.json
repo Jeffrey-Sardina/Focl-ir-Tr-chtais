@@ -1,0 +1,16 @@
+{
+    "term": "local maximum",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "uasluach logánta",
+    "def-en": "In the context of optimisation or machine learning, a value that is high compared to other values near it, but that may not be the highest possible value (i.e. that may not be a global maximum).",
+    "def-ga": "I gcomhthéacs feabhsaithe nó ríomhfhoghlama, luach atá ard i gcomparáid le luacha eile in éineacht leis, ach nach gcaithfidh se gurb é an luach is airde ar féidir é a fháil (.i. nach gcaithfidh sé a bheith mar uaslauch uilíoch).",
+
+    "prov": {
+        "uaslauch": "féach ar an téarma 'maximum / uaslauch'",
+        "logánta": "féach ar an téarma 'local / logánta'"
+    },
+    "notes": [
+        "Féach ar an téarma 'maximum / uaslauch'",
+        "Féach chomh maith ar an téarma 'local / logánta'"
+    ]
+}

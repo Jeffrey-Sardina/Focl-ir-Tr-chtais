@@ -1,7 +1,25 @@
 entity
-A single concept orn object, especially one when represented by a node in a knowledge graph, a data point in a database, or a name in a natural language text.
+A single concept or object, especially one when represented by a node in a knowledge graph, a data point in a database, or a name in a natural language text.
 
 entity alignment
 In the context of machine learning, the task of predicting which distinct entities in a dataset actually stand for the same concept or object.
+
+global maximum
+In the context of optimisation or machine learning, the highest value that can ever be obtained.
+
+global minimum
+In the context of optimisation or machine learning, the lowest value that can ever be obtained.
+
+local maximum
+In the context of optimisation or machine learning, a value that is high compared to other values near it, but that may not be the highest possible value (i.e. that may not be a global maximum).
+
+local minimum
+In the context of optimisation or machine learning, a value that is low compared to other values near it, but that may not be the lowest possible value (i.e. that may not be a global minimum).
+
+maximum
+The highest value that can be obtained (for example, during the optimisation of a machine learning model).
+
+minimum
+The highest value that can be obtained (for example, during the optimisation of a machine learning model).
 
 

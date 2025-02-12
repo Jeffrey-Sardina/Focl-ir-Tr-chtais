@@ -1,0 +1,16 @@
+{
+    "term": "global minimum",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "íosluach uilíoch",
+    "def-en": "In the context of optimisation or machine learning, the lowest value that can ever be obtained.",
+    "def-ga": "I gcomhthéacs feabhsaithe nó ríomhfhoghlama, an luach is  ísle ar féidir é a fháil riamh.",
+
+    "prov": {
+        "íosluach": "féach ar an téarma 'minimum / íosluach'",
+        "uilíoch": "féach ar an téarma 'global / uilíoch'"
+    },
+    "notes": [
+        "Féach ar an téarma 'minimum / íosluach'",
+        "Féach chomh maith ar an téarma 'global / uilíoch'"
+    ]
+}
