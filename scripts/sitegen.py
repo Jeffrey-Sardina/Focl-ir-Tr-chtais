@@ -233,7 +233,7 @@ def gen_index(terms, version):
             print(html, file=out)
 
 def main():
-    version = '1.2'
+    version = '1.3 alfa'
     terms = load_terms()
     gen_term_pages(terms)
     gen_index(terms, version)

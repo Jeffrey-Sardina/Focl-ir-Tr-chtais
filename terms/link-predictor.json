@@ -6,11 +6,11 @@
     "def-ga": "I gcomhthéacs graif eolais, samhail ríomhfhoghlama a dhéanann naisc a réamhinsint.",
 
     "prov": {
-        "réamhsinint": "féach ar an téarma 'link prediction / réamhinsint nasc'",
-        "nasc": "féach ar an téarma 'link prediction / réamhinsint nasc'"
+        "réamhsinint": "féach ar an téarma 'link prediction (LP) / réamhinsint nasc (RN)'",
+        "nasc": "féach ar an téarma 'link prediction (LP) / réamhinsint nasc (RN)'"
     },
     "notes": [
         "Úsáidtear an iarmhír choitianta '-eoir' chun an téarma seo a chruthú. Is féidir an téarma 'insteoir' a fheiceáil in úsáid i bhFoclóir Uí Dhónaill agus i bhFoclóir Uí Dhónaill agus Uí Mhaoileoin.",
-        "Féach chomh maith ar an téarma 'link prediction / réamhinsint nasc'"
+        "Féach chomh maith ar an téarma 'link prediction (LP) / réamhinsint nasc (RN)'"
     ]
 }
