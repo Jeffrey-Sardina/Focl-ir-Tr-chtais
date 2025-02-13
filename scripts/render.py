@@ -29,6 +29,14 @@ def load_terms():
     print(f'loaded {len(terms_sorted)} terms')
     return terms_sorted
 
+def term_heading(render_str):
+    if MODE == 'latex':
+        return f"\\subsection*{{{render_str}}} \\addcontentsline{{toc}}{{subsection}}{{{render_str}}}"
+    elif MODE == 'markdown':
+        return f"### {render_str}"
+    else: # html
+        return f"<h3>{render_str}</h3>"
+
 def bold(render_str):
     if MODE == 'latex':
         return f"\\textbf{{{render_str}}}"
@@ -39,7 +47,7 @@ def bold(render_str):
 
 def italics(render_str):
     if MODE == 'latex':
-        return f"\\textit{{{render_str}}}"
+        return f" \\noindent \\textit{{{render_str}}}"
     elif MODE == 'markdown':
         return f"*{render_str}*"
     else: # html
@@ -86,9 +94,9 @@ def render_term(term):
 
     # term translation
     if not INDEX_GAEILGE:
-        render_str += bold(f"{term['term']} ({term['part-of-speech']}): {term['citation-form']}")
+        render_str += term_heading(f"{term['term']} ({term['part-of-speech']}): {term['citation-form']}")
     else:
-        render_str += bold(f"{term['citation-form']} ({term['part-of-speech']}): {term['term']}")
+        render_str += term_heading(f"{term['citation-form']} ({term['part-of-speech']}): {term['term']}")
     if MODE != 'latex':
         render_str += "<br>"
     render_str += "\n"
@@ -97,14 +105,18 @@ def render_term(term):
     render_str += italics("sainmhíniú (ga):") + " " + term['def-ga'] + "\n"
     if MODE != 'latex':
         render_str += "<br>"
+    else:
+        render_str += "\\newline\\newline"
     render_str += "\n"
     render_str += italics("sainmhíniú (en):") + " " + term['def-en'] + "\n"
+    if MODE == 'latex':
+        render_str += "\\newline\n"
     render_str += "\n"
     if MODE == 'html':
         render_str += '<br>'
 
     # term provenance
-    render_str += "tagairtí:\n"
+    render_str += italics("Tagairtí:") + "\n"
     prov_list = [f"{key}: {term['prov'][key]}" for key in term["prov"]]
     prov_list_citations = []
     for item in prov_list:
@@ -125,7 +137,7 @@ def render_term(term):
     render_str += "\n"
 
     # term notes
-    render_str += "nótaí aistriúcháin:\n"
+    render_str += italics("Nótaí Aistriúcháin:") + "\n"
     render_str += unordered_list(term["notes"])
     render_str += "\n"
 
@@ -138,7 +150,7 @@ def render_terms(terms):
     render_strs = []
 
     if MODE == 'latex':
-        render_strs.append("\\section{Téarmaí}")
+        render_strs.append("\\newpage \\section{Téarmaí}")
     elif MODE == 'markdown':
         render_strs.append("## Téarmaí")
     else: # html
@@ -150,7 +162,7 @@ def render_terms(terms):
 
 def render_table(terms):
     if MODE == 'latex':
-        render_str = "\\section{Achoimre na dTéarmaí}"
+        render_str = "\\newpage \\section{Achoimre na dTéarmaí}"
         render_str += "\\begin{longtable}{|l|l|}\n"
         render_str += "\t\\hline\n"
         if not INDEX_GAEILGE:
@@ -164,10 +176,10 @@ def render_table(terms):
             else:
                 render_str += "\t\t" + term['citation-form'] + "&" + term['term'] + "\\\\ \\hline \n"
         if not INDEX_GAEILGE:
-            render_str += "\\caption{Liosta na dtéarma Béarla ar fad agus a leagan Gaeilge, curtha in ord de réir na dtéarma Béarla.}\n"
+            render_str += "\\caption{Liosta na dtéarma Béarla ar fad agus a leagan Gaeilge, curtha in ord de réir na dtéarmaí Béarla.}\n"
             render_str += "\\label{tab-terms-en-ga}\n"
         else:
-            render_str += "\\caption{Liosta na dtéarma Béarla ar fad agus a leagan Gaeilge, curtha in ord de réir na dtéarma Gaeilge.}\n"
+            render_str += "\\caption{Liosta na dtéarma Béarla ar fad agus a leagan Gaeilge, curtha in ord de réir na dtéarmaí Gaeilge.}\n"
             render_str += "\\label{tab-terms-ga-en}\n"
         render_str += "\\end{longtable}"
     elif MODE == 'markdown':
@@ -231,6 +243,15 @@ def get_header():
             \\usepackage[a4paper, margin=1in]{{geometry}}
             \\usepackage{{graphicx}} % Required for inserting images
             \\usepackage{{longtable}}
+            \\usepackage[hidelinks]{{hyperref}} %custom
+            \\hypersetup{{
+                colorlinks,
+                linktoc=all,
+                citecolor=black,
+                filecolor=black,
+                linkcolor=black,
+                urlcolor=blue
+            }}
 
             \\title{{Focloir-Trachtais v{version}}}
             \\author{{Jeffrey Seathrún Sardina}}
@@ -247,6 +268,9 @@ def get_header():
             \\begin{{document}}
 
             \\maketitle
+
+            \\newpage
+            \\tableofcontents
         """
     elif MODE == 'markdown':
         header = f"# Foclóir Tráchtais v{version}\n"
@@ -275,7 +299,11 @@ def get_header():
 def get_footer():
     if MODE == 'latex':
         footer = """
-            \\printbibliography[title={Tagairtí}]
+            \\newpage
+            \\printbibliography[
+                title={Tagairtí},
+                heading=bibintoc
+            ]
             \\end{document}
         """
     elif MODE == 'markdown':
