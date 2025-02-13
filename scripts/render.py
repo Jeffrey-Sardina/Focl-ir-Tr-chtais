@@ -164,10 +164,10 @@ def render_table(terms):
             else:
                 render_str += "\t\t" + term['citation-form'] + "&" + term['term'] + "\\\\ \\hline \n"
         if not INDEX_GAEILGE:
-            render_str += "\\caption{Liosta na dtéarma Béarla ar fad agus a leagan Gaeilge, cuirtear in ord de réir na dtéarma Béarla.}\n"
+            render_str += "\\caption{Liosta na dtéarma Béarla ar fad agus a leagan Gaeilge, curtha in ord de réir na dtéarma Béarla.}\n"
             render_str += "\\label{tab-terms-en-ga}\n"
         else:
-            render_str += "\\caption{Liosta na dtéarma Béarla ar fad agus a leagan Gaeilge, cuirtear in ord de réir na dtéarma Gaeilge.}\n"
+            render_str += "\\caption{Liosta na dtéarma Béarla ar fad agus a leagan Gaeilge, curtha in ord de réir na dtéarma Gaeilge.}\n"
             render_str += "\\label{tab-terms-ga-en}\n"
         render_str += "\\end{longtable}"
     elif MODE == 'markdown':
@@ -234,7 +234,7 @@ def get_header():
 
             \\title{{Focloir-Trachtais v{version}}}
             \\author{{Jeffrey Seathrún Sardina}}
-            \\date{{Eanáir 2025}}
+            \\date{{Feabhra 2025}}
 
             % setup bibliography
             \\usepackage[
@@ -320,9 +320,9 @@ def main():
     print(f"Wrote {num_terms} terms to {out_file}")
 
 if __name__ == '__main__':
-    version = '1.1'
+    version = '1.2'
 
-    if '-namedversion' in sys.argv:
+    if '-nv' in sys.argv:
         # run all versions
         for MODE in ['markdown', 'latex', 'html']:
             for INDEX_GAEILGE in [True, False]:
