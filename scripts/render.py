@@ -106,11 +106,11 @@ def render_term(term):
     if MODE != 'latex':
         render_str += "<br>"
     else:
-        render_str += "\\newline\\newline"
+        render_str += "\\\\"
     render_str += "\n"
     render_str += italics("sainmhíniú (en):") + " " + term['def-en'] + "\n"
     if MODE == 'latex':
-        render_str += "\\newline\n"
+        render_str += "\\\\"
     render_str += "\n"
     if MODE == 'html':
         render_str += '<br>'
