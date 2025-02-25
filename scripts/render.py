@@ -143,6 +143,9 @@ def render_term(term):
 
     if MODE == 'html':
         render_str = render_str.replace('$', '')
+    if MODE == 'latex':
+        render_str = render_str.replace(" '", " `")
+        render_str = render_str.replace(' "', ' ``')
 
     return render_str
 
