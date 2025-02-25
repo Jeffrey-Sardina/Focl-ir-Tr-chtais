@@ -31,7 +31,10 @@ def load_terms():
 
 def term_heading(render_str):
     if MODE == 'latex':
-        return f"\\subsection*{{{render_str}}} \\addcontentsline{{toc}}{{subsection}}{{{render_str}}}"
+        if not THESIS_FMT:
+            return f"\\subsection*{{{render_str}}} \\addcontentsline{{toc}}{{subsection}}{{{render_str}}}"
+        else:
+            return f"\\subsubsection*{{{render_str}}}"
     elif MODE == 'markdown':
         return f"### {render_str}"
     else: # html
@@ -153,7 +156,10 @@ def render_terms(terms):
     render_strs = []
 
     if MODE == 'latex':
-        render_strs.append("\\newpage \\section{Téarmaí}")
+        if not THESIS_FMT:
+            render_strs.append("\\newpage \\section{Téarmaí}")
+        else:
+            render_strs.append("\\newpage \\subsection{Téarmaí}")
     elif MODE == 'markdown':
         render_strs.append("## Téarmaí")
     else: # html
@@ -165,7 +171,10 @@ def render_terms(terms):
 
 def render_table(terms):
     if MODE == 'latex':
-        render_str = "\\newpage \\section{Achoimre na dTéarmaí}"
+        if not THESIS_FMT:
+            render_str = "\\newpage \\section{Achoimre na dTéarmaí}\n"
+        else:
+            render_str = "\\subsection{Achoimre na dTéarmaí}\n"
         render_str += "\\begin{longtable}{|l|l|}\n"
         render_str += "\t\\hline\n"
         if not INDEX_GAEILGE:
@@ -242,39 +251,42 @@ def render_table(terms):
 
 def get_header():
     if MODE == 'latex':
-        header = f"""\\documentclass{{article}}
-            \\usepackage[a4paper, margin=1in]{{geometry}}
-            \\usepackage{{graphicx}} % Required for inserting images
-            \\usepackage{{longtable}}
-            \\usepackage[hidelinks]{{hyperref}} %custom
-            \\hypersetup{{
-                colorlinks,
-                linktoc=all,
-                citecolor=black,
-                filecolor=black,
-                linkcolor=black,
-                urlcolor=blue
-            }}
+        if not THESIS_FMT:
+            header = f"""\\documentclass{{article}}
+                \\usepackage[a4paper, margin=1in]{{geometry}}
+                \\usepackage{{graphicx}} % Required for inserting images
+                \\usepackage{{longtable}}
+                \\usepackage[hidelinks]{{hyperref}} %custom
+                \\hypersetup{{
+                    colorlinks,
+                    linktoc=all,
+                    citecolor=black,
+                    filecolor=black,
+                    linkcolor=black,
+                    urlcolor=blue
+                }}
 
-            \\title{{Focloir-Trachtais v{version}}}
-            \\author{{Jeffrey Seathrún Sardina}}
-            \\date{{Feabhra 2025}}
+                \\title{{Focloir-Trachtais v{version}}}
+                \\author{{Jeffrey Seathrún Sardina}}
+                \\date{{Feabhra 2025}}
 
-            % setup bibliography
-            \\usepackage[
-                backend=biber,
-                style=numeric,
-                sorting=ynt
-            ]{{biblatex}}
-            \\addbibresource{{refs.bib}}
+                % setup bibliography
+                \\usepackage[
+                    backend=biber,
+                    style=numeric,
+                    sorting=ynt
+                ]{{biblatex}}
+                \\addbibresource{{refs.bib}}
 
-            \\begin{{document}}
+                \\begin{{document}}
 
-            \\maketitle
+                \\maketitle
 
-            \\newpage
-            \\tableofcontents
-        """
+                \\newpage
+                \\tableofcontents
+            """
+        else:
+            header = "\\section{An Foclóir Tráchtais} \\label{focloir-trachtais-content}\n"
     elif MODE == 'markdown':
         header = f"# Foclóir Tráchtais v{version}\n"
         header += "**Jeffrey Seathrún Sardina**<br>\n"
@@ -301,14 +313,17 @@ def get_header():
 
 def get_footer():
     if MODE == 'latex':
-        footer = """
-            \\newpage
-            \\printbibliography[
-                title={Tagairtí},
-                heading=bibintoc
-            ]
-            \\end{document}
-        """
+        if not THESIS_FMT:
+            footer = """
+                \\newpage
+                \\printbibliography[
+                    title={Tagairtí},
+                    heading=bibintoc
+                ]
+                \\end{document}
+            """
+        else:
+            footer = ""
     elif MODE == 'markdown':
         footer = ""
     else: # html
@@ -320,6 +335,8 @@ def write_terms(table_str, render_strs):
         out_name = f"focloir-trachtais-v{version}-ga"
     else:
         out_name = f"focloir-trachtais-v{version}-en"
+    if THESIS_FMT:
+        out_name += "-thesis"
     if MODE == 'markdown':
         ext = '.md'
     elif MODE == 'latex':
@@ -353,36 +370,55 @@ def main():
 if __name__ == '__main__':
     version = '1.2'
 
+    #defaults
+    DEBUG = False
+    THESIS_FMT = False
+
+    # general args
+    if '-debug' in sys.argv:
+        DEBUG = True
+
+
     if '-nv' in sys.argv:
         # run all versions
+        assert len(sys.argv) == 2, "If -nv is used, no other arguments may be given"
         for MODE in ['markdown', 'latex', 'html']:
             for INDEX_GAEILGE in [True, False]:
                 DEBUG = False
                 main()
 
-    else:
-        assert not ('-md' in sys.argv and '-tex' in sys.argv), "only one mode can be set"
-        if '-md' in sys.argv:
-            MODE = 'markdown'
-        elif '-tex' in sys.argv:
-            MODE = 'latex'
-        elif '-html' in sys.argv:
-            MODE = 'html'
-        else: #default to markdown
-            MODE = 'markdown'
-
-        assert not ('-ga' in sys.argv and '-en' in sys.argv), "only one index language can be set"
-        if '-ga' in sys.argv:
-            INDEX_GAEILGE = True
-        elif '-en' in sys.argv:
-            INDEX_GAEILGE = False
-        else: # default to Gaeilge
-            INDEX_GAEILGE = True
-
-        if '-debug' in sys.argv:
-            DEBUG = True
-        else:
-            DEBUG = False
-        
+    elif '-thesis' in sys.argv:
+        # make the output in the format needed for inclusion in my thesis
+        assert len(sys.argv) == 2, "If -thesis is used, no other arguments may be given"
+        MODE = 'latex'
+        INDEX_GAEILGE = False
+        THESIS_FMT = True
         main()
 
+    else:
+        if '-md' in sys.argv:
+            assert not '-tex' in sys.argv, "Only one mode can be set"
+            assert not '-html' in sys.argv, "Only one mode can be set"
+            MODE = 'markdown'
+        elif '-tex' in sys.argv:
+            assert not '-html' in sys.argv, "Only one mode can be set"
+            assert not '-md' in sys.argv, "Only one mode can be set"
+            MODE = 'latex'
+        elif '-html' in sys.argv:
+            assert not '-md' in sys.argv, "Only one mode can be set"
+            assert not '-tex' in sys.argv, "Only one mode can be set"
+            MODE = 'html'
+            MODE = 'html'
+        else: #default to markdown
+            assert False, "Must give a mode via -md, -tex, or -html"
+
+        if '-ga' in sys.argv:
+            assert not '-en' in sys.argv, "Only index language can be set"
+            INDEX_GAEILGE = True
+        elif '-en' in sys.argv:
+            assert not '-ga' in sys.argv, "Only index language can be set"
+            INDEX_GAEILGE = False
+        else: # default to Gaeilge
+            assert False, "Must give a index language via -en or -ga"
+
+        main()
