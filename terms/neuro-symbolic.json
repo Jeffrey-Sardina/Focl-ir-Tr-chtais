@@ -1,0 +1,17 @@
+{
+    "term": "neuro-symbolic",
+    "part-of-speech": "aidiacht",
+    "citation-form": "néar-shiombalach",
+    "def-en": "In the context of machine learning, based on the use of numeric optimisation as well as logic- or rules- based machine learning in some manner.",
+    "def-ga": "I gcomhthéacs ríomhfhoghlama, bunaithe ar úsáid feabhsúchán uimhriúil agus ar ríomhfhoghlaim bunaithe ar rialacha nó ar loighic i gcaoi éigin.",
+
+    "prov": {
+        "néar(a)-": "focloir-beag, odonaill, storchiste",
+        "siombalach": "féach ar an téarma 'symbolic / siombalach'"
+    },
+    "notes": [
+        "Tá go leor téarmaí teicniúla cruthaithe sa an bhfréamh 'néar-' le feiceáil i bhFoclóir Uí Dhónaill agus i Stórchiste. Cé go luann Foclóir Uí Dhónaill agus Uí Mhaoileoin 'néar-' agus 'néara-' mar réimíreanna, is é 'néar-' a fheictear i gcónaí i bhFoclóir Uí Dhuinín agus i Stórchiste (m.sh. sna focail 'néarshnáithín' agus 'néar-ríog'). Is dá bharr seo a roghnaíodh 'néar-shiombalach' mar théarma.",
+        "Is é 'néar-shiombalach a roghnaíodh seachas 'ríomh-shiombalach' (nó mar sin) toisc go mbaineann mórchuid na modhanna ríomhfhoghlama 'neuro-symbolic' le líonraí néaracha.",
+        "Féach chomh maith ar an téarma 'symbolic / siombalach'."
+    ]
+}

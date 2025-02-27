@@ -1,0 +1,16 @@
+{
+    "term": "symbolic logic",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "loighic shiombalach",
+    "def-en": "The branch of logic that relates to using symbols to model logical rules and propositions.",
+    "def-ga": "An brainse loighce a bhaineann le húsáid siombailí chun rialacha agus tairiscintí loighce a shamhlú.",
+
+    "prov": {
+        "loighic": "féach ar an téarma 'logic / loighic'",
+        "siombalach": "féach ar an téarma 'symbolic / siombalach'"
+    },
+    "notes": [
+        "Féach ar an téarma 'logic / loighic'.",
+        "Féach chomh maith ar an téarma 'symbolic / siombalach'."
+    ]
+}

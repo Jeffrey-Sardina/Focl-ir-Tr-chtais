@@ -1,5 +1,11 @@
-symbolic.json
-neuro-symbolic.json
+reasoning.json
+to-reason.json
+reasoner.json
+intersection.json
+union.json
+variable.json
+operation.json
+syntax.json
 walk.json
 random-walk.json
 family-(of-models).json
