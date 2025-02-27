@@ -6,12 +6,13 @@
     "def-ga": "Le linn an phróisis traenála, grúpa sonraí as an tacar traenála a thugtar don tsamhail ríomhfhoghlama chun ligean di foghlaim. Uaireanta, úsáidtear fo-thacar de thacar teisteála / deimhnithe le linn an próisis teisteála / deimhnithe chomh maith.",
 
     "prov": {
-        "fo-": "de-bhaldraithe, focloir-beag, odonaill",
-        "tacar": "féach ar an téarma 'set / tacar'"
+        "fo-": "féach ar an téarma 'subset / fot-thacar'",
+        "tacar": "féach ar an téarma 'set / tacar'",
+        "fo-thacar": "féach ar an téarma 'subset / fot-thacar'"
     },
     "notes": [
-        "Téarmaí díreach ar fáil le bríonna chomhchosúla.",
+        "Is é 'baisc' atá ar Tearma.ie ina chomhair seo. Tá an téarma sin le feiceáil i bhFoclóir Uí Dhónaill le brí comhchiallach. Sin ráite, is éard is 'batch' ann ná fo-thacar den tacar traenála, teisteála, nó deimhnithe. Meastar mar sin go bhfuil fo-thacar níos cruinne sa gcomhthéacs seo",
         "Féach chomh maith ar an téarma 'set / tacar'.",
-        "Is é 'baisc' atá ar Tearma.ie ina chomhair seo. Tá an téarma sin le feiceáil i bhFoclóir Uí Dhónaill le brí comhchiallach. Sin ráite, is éard is 'batch' ann ná fo-thacar den tacar traenála, teisteála, nó deimhnithe. Meastar mar sin go mbíonn fo-thacar níos cruinne sa gcomhthéacs seo"
+        "Féach chomh maith ar an téarma 'subset / fot-thacar'."
     ]
 }

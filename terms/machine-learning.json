@@ -7,12 +7,11 @@
 
     "prov": {
         "foghlaim": "de-bhaldraithe, dineen, focloir-beag, odonaill",
-        "ríomh-": "odonaill*"
+        "ríomh-": "féach ar an téarma 'machine / ríomh-'"
     },
     "notes": [
-        "* Níl 'ríomh-' ann mar réimír. Cé is moite de sin, feictear é in úsáid mar réimír sa bhfoclóir céanna; .i. 'ríomheolaíocht' (murab ionann sin agus 'eolaíocht' mar iarmhír)",
-        "Ní ghlactar le haistriúchán Tearma.ie (meaisínfhoghlaim) toisc nach mbíonn 'meaisín-' ina réimír ar i bhofclóir dúchasach ar bith (ach bíonn 'ríomh-' úsáidte i bhfocail eile agus i bhfoclóirí dúchasacha).",
         "Bheadh ciall éigin ag dul le 'foghlaim na meaisíní' chomh maith, seachas 'meaisín' a bheith bainteach lena leithéid de mheaisíní níocháin (féach ar Teanglann) agus gan rian eile de a fheiceáil i gcomhthéacs ríomhaireachta.",
-        "Cé nach mbíonn trácht ar 'ríomhfhoghalim' i bhfoclóir ar bith, tá ann dá leithéid de 'ríomhphost' agus 'ríomheolaíocht' sa gcaint."
+        "Cé nach mbíonn trácht ar 'ríomhfhoghalim' i bhfoclóir ar bith, tá ann dá leithéid de 'ríomhphost' agus 'ríomheolaíocht' sa gcaint.",
+        "Féach chomh maith ar an téarma 'machine / ríomh-'."
     ]
 }

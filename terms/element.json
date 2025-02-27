@@ -1,0 +1,15 @@
+{
+    "term": "element",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "ball",
+    "def-en": "In the context of sets, a number or object in a set.",
+    "def-ga": "I gcomhthéacs tacar, uimhir nó réad atá i dtacar.",
+
+    "prov": {
+        "ball": "de-bhaldraithe, dineen*, focloir-beag*, odonaill, storchiste"
+    },
+    "notes": [
+        "* Níl 'ball' luaite mar théarma matamaitice sna foclóirí seo.",
+        "Téarma díreach le fáil i gcomhthéacs tacar / matamaitice sna foclóirí eile thuas"
+    ]
+}

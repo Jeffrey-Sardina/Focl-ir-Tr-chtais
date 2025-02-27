@@ -1,0 +1,14 @@
+{
+    "term": "reasoning",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "réasúnaíocht",
+    "def-en": "In the context of machine learning, the use of logical rules to predict new facts.",
+    "def-ga": "I gcomhthéacs ríomhfhoghlama, úsáid rialacha loighce chun fíricí nua a réamhinsint..",
+
+    "prov": {
+        "réasúnaíocht": "de-bhaldraithe, focloir-beag, odonaill"
+    },
+    "notes": [
+        "Téarma (agus samplaí de i gcomhthéacs comhchosúil) díreach le fáil ó na foclóirí thuas."
+    ]
+}

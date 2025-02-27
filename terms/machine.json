@@ -1,0 +1,15 @@
+{
+    "term": "machine",
+    "part-of-speech": "aidiacht",
+    "citation-form": "ríomh-",
+    "def-en": "In the context of computer science, based on machine learning.",
+    "def-ga": "I gcomhthéacs ríomheolaíochta, bunaithe ar ríomhfhoghlaim.",
+
+    "prov": {
+        "ríomh-": "odonaill*"
+    },
+    "notes": [
+        "* Níl 'ríomh-' ann mar réimír. Cé is moite de sin, feictear é in úsáid mar réimír sa bhfoclóir céanna; .i. 'ríomheolaíocht' (murab ionann sin agus 'eolaíocht' mar iarmhír)",
+        "Tá idir 'meaisín-' (mar réimír) agus 'ríomh-' (mar réimír) le feiceáil ar Tearma.ie Ní ghlactar le 'meaisín' mar réimír toisc nach mbíonn sé ina réimír ar i bhfoclóir dúchasach ar bith (ach bíonn 'ríomh-' úsáidte i bhfocail eile agus i bhfoclóirí dúchasacha)."
+    ]
+}

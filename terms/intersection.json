@@ -1,0 +1,14 @@
+{
+    "term": "intersection",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "idirmhír",
+    "def-en": "In the context of two or more sets, the subset of elements that are in all of those sets.",
+    "def-ga": "I gcomhthéacs dhá thacar (nó níos mó) fo-thacar na mball atá sna tacar sin ar fad.",
+
+    "prov": {
+        "idirmhír": "de-bhaldraithe, odonaill"
+    },
+    "notes": [
+        "Téarma le fáil i bhFoclóir Uí Dhónaill agus i bhFoclóir De Bhaldraithe leis an mbrí cheannann céanna (.i. tacair) atá in gceist anseo."
+    ]
+}
