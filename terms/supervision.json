@@ -1,0 +1,18 @@
+{
+    "term": "supervision",
+    "part-of-speech": "aidiacht",
+    "citation-form": "maoirseacht",
+    "def-en": "",
+    "def-ga": "",
+    
+    "prov": {
+        "maoirseacht": "féach ar an téarma 'supervised / faoi mhaoirseacht'"
+    },
+    "notes": [
+        "Más é 'semi-supervision' atá i gceist, úsáid 'leath-mhaoirseacht'. Más é 'self-supervision' atá i gceist, úsáid 'féin-mhaoirseacht'.",
+        "Féach ar an téarma 'supervised / faoi mhaoirseacht'.",
+        "Féach ar an téarma 'unsupervised / gan mhaoirseacht'.",
+        "Féach ar an téarma 'semi-supervised / faoi leath-mhaoirseacht'.",
+        "Féach ar an téarma 'self-supervised / faoi fhéin-mhaoirseacht'."
+    ]
+}
