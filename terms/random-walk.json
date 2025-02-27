@@ -1,0 +1,16 @@
+{
+    "term": "random walk",
+    "part-of-speech": "aidiacht",
+    "citation-form": "siúlóid fhánach",
+    "def-en": "In the context of a walk on a graph, a walk that is done upon it randomly.",
+    "def-ga": "I gcomhthéacs siúlóid ar graf, siúlóid air a dhéantar go randamach.",
+
+    "prov": {
+        "siúlóid": "féach ar an téarma 'walk / siúlóid'"
+    },
+    "notes": [
+        "Tá 'fánach' bainteach go díreach lena bheith ag bogadh. Thairis sin, bíonn sé bainteach le rudaí randamacha (m.sh. sampla fánach). Is sórt sampla fánach é siúlóid fhánach -- sampla a thógtar de nóid an ghraif. Mar sin, úsáidtear 'siúlóid fhánach' seachas 'siúlóid randamach' anseo, cé go bhfuil ciall leo araon.",
+        "Féach chomh maith ar an téarma 'walk / siúlóid'.",
+        "Féach chomh maith ar an téarma 'random sample / sampla fánach'."
+    ]
+}
