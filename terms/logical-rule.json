@@ -1,0 +1,17 @@
+{
+    "term": "rule (in logic)",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "riail (loighce)",
+    "def-en": "A logical statement that can be used to find new facts based via reasoning.",
+    "def-ga": "Ráiteas loighce ar féidir é a úsáid chun fíricí nua a fáil amach trí réasúnaíocht.",
+
+    "prov": {
+        "riail": "de-bhaldraithe, dineen*, focloir-beag, odonaill",
+        "loighic": "féach ar an téarma 'logic / loighic'"
+    },
+    "notes": [
+        "* Is é 'riaghail' atá i bhFoclóir Uí Dhuinín.",
+        "Téarmaí díreach ar fáil i gcomhthéacs comhchosúil",
+        "Féach chomh maith ar an téarma 'logic / loighic'."
+    ]
+}

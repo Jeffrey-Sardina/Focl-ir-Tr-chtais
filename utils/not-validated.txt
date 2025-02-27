@@ -1,2 +1,2 @@
-walk.json
-random-walk.json
+pointwise.json
+pairwise.json

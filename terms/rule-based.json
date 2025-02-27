@@ -1,0 +1,17 @@
+{
+    "term": "rule-based",
+    "part-of-speech": "aidiacht",
+    "citation-form": "bunaithe ar rialacha",
+    "def-en": "In the context of machine learning, using logical rules to perform reasoning.",
+    "def-ga": "I gcomhthéacs ríomhfhoghlama, ag baint úsáid as rialacha loighce chun réasúnaíocht a dhéanamh.",
+
+    "prov": {
+        "riail": "féach ar an téarma 'rule (in logic) / riail (loighce)'",
+        "bunaigh": "de-bhaldraithe, focloir-beag*, odonaill"
+    },
+    "notes": [
+        "* Is é 'bunú' seachas 'bunaigh' atá i bhFoclóir Uí Dhónaill agus Uí Mhaoileoin.",
+        "Téarmaí díreach ar fáil i gcomhthéacs comhchosúil",
+        "Féach ar an téarma 'rule (in logic) / riail (loighce)'."
+    ]
+}

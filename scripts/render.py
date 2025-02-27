@@ -49,8 +49,17 @@ def bold(render_str):
         return f"<strong>{render_str}</strong>"
 
 def italics(render_str):
+    # for italic headings only!
     if MODE == 'latex':
         return f" \\noindent \\textit{{{render_str}}}"
+    elif MODE == 'markdown':
+        return f"*{render_str}*"
+    else: # html
+        return f"<i>{render_str}</i>"
+    
+def simple_italics(render_str):
+    if MODE == 'latex':
+        return f"\\textit{{{render_str}}}"
     elif MODE == 'markdown':
         return f"*{render_str}*"
     else: # html
@@ -92,6 +101,16 @@ def ordered_list(render_strs):
         list_str += "</ol>\n"
     return list_str
 
+def ga_italics_filter(render_str):
+    # some terms are not translated and should be italicised
+    to_italicise = [
+        "softmax",
+        "ReLU"
+    ]
+    for item in to_italicise:
+        render_str = render_str.replace(item, italics(item))
+    return render_str
+
 def render_term(term):
     render_str = ""
 
@@ -105,7 +124,7 @@ def render_term(term):
     render_str += "\n"
 
     # term definitions
-    render_str += italics("sainmhíniú (ga):") + " " + term['def-ga'] + "\n"
+    render_str += italics("sainmhíniú (ga):") + " " + ga_italics_filter(term['def-ga']) + "\n"
     if MODE != 'latex':
         render_str += "<br>"
     else:
@@ -141,7 +160,7 @@ def render_term(term):
 
     # term notes
     render_str += italics("Nótaí Aistriúcháin:") + "\n"
-    render_str += unordered_list(term["notes"])
+    render_str += ga_italics_filter(unordered_list(term["notes"]))
     render_str += "\n"
 
     if MODE == 'html':

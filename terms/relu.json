@@ -1,0 +1,14 @@
+{
+    "term": "ReLU",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "ReLU",
+    "def-en": "The ReLU activation function.",
+    "def-ga": "An fheidhm ghníomhachtaithe ReLU.",
+
+    "prov": {
+        "softmax": "N / A"
+    },
+    "notes": [
+        "Níl an téarma seo le fáil ó fhoinse ar bith (fiú Tearma.ie). Is ainm ar fheidhm ghníomhachtaithe é, agus tá sé ina ainm dílis anois nach mór ag an bpointe seo. Dá bharr sin, agus toisc go mbeadh aistriúchán / Gaelú air níos doiléire do ríomheolaithe ná an t-ainm sean-bhunaithe a úsáid, fágtar i gan aistriú é. Moltar é a chur sa gcló iodálach agus é á scríobh."
+    ]
+}
