@@ -2,7 +2,7 @@
     "term": "supervised",
     "part-of-speech": "aidiacht",
     "citation-form": "faoi mhaoirseacht",
-    "def-en": "In the context of machine learning, trained with input data and with the expectred output values (for example, images of cats and dogs, with the label 'cat' or 'dog'' on each iamge so that the machine learning model can determine if its prediction matches the ground truth).",
+    "def-en": "In the context of machine learning, trained with input data and with the expected output values (for example, images of cats and dogs, with the label 'cat' or 'dog'' on each image so that the machine learning model can determine if its prediction matches the ground truth).",
     "def-ga": "I gcomhthéacs ríomhfhoghlama, traenáilte le sonraí ionchuir agus lena bhfuiltear as súil leis mar aschur (m.sh. íomhánna de chait agus de mhadraí, agus lipéad 'cat' nó 'madra' ar gach uile íomhá ann chun ligean don chóras ríomhfhoghlama a fháil amach an luíonn a aschur féin leis an bhfírinne).",
 
     "prov": {

@@ -7,9 +7,6 @@ In the context of machine learning, trained on input data that is sometimes, but
 supervised
 In the context of machine learning, trained with input data and with the expectred output values (for example, images of cats and dogs, with the label 'cat' or 'dog'' on each iamge so that the machine learning model can determine if its prediction matches the ground truth).
 
-supervision
-
-
 unsupervised
 In the context of machine learning, trained on input data without and examples of what is expected as output. For example, when performing clustering, input points are given, but no information on their labels / classes are given.
 
