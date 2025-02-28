@@ -197,10 +197,29 @@ def gen_index(terms, version):
         if len(term) > longest_len_eng:
             longest_len_eng = len(term)
     termslist = """<ul id="dict-idx">\n"""
+
+    curr_header = ''
+    header_printed = False
+    header_ids = []
     for term_id in terms:
+        first_char = term_id[0].upper()
+        if first_char != curr_header:
+            header_printed = False
+        if not header_printed:   
+            try:
+                # if it is a number
+                int(first_char)
+                curr_header = '#'
+            except:
+                # if it is a letter
+                curr_header = first_char
+            header_ids.append(curr_header)
+            termslist += f'\t<li><h2 id="{curr_header}" style="margin-bottom: 0px;">{curr_header}</h2></li>\n'
+            header_printed = True
+            
         term = terms[term_id]
         term_file_name = get_term_file_name(term["term"])
-        termslist += f"""<li><a href="{TERMS_FOLDER_READ + term_file_name}">{term["term"]} | {term["citation-form"]}</a></li>\n"""
+        termslist += f"""\t<li><a href="{TERMS_FOLDER_READ + term_file_name}">{term["term"]} | {term["citation-form"]}</a></li>\n"""
     termslist += """</ul>\n"""
 
     js_script = """<script>
@@ -224,6 +243,10 @@ def gen_index(terms, version):
             }
         }
         </script>\n"""
+    
+    header_nav = "<p style='text-align: center;'> Téigh chuig: "
+    header_nav += '\n'.join(f'<a href="#{header_id}">{header_id}</a>' for header_id in header_ids)
+    header_nav += "</p>"
 
     html = f"""<!DOCTYPE html>
         <html>
@@ -248,9 +271,10 @@ def gen_index(terms, version):
         <body>
         <div id="headerBar"></div>
         <div class='centerbox' id='indexlist'>
-            <h1>Foclóir Tráchtais</h1>
+            <h1 style="margin-bottom: 0px;">Foclóir Tráchtais</h1>
+            <p id="versionNum" style="margin-top: 0px">v{version}, le Jeffrey Seathrún Sardina</p>
+            {header_nav}
             {searchbar + termslist}
-            <p id="versionNum">Foclóir Tráchtais v{version}</p>
             <div id="footerBar"></div>
         </div>
         {js_script}
