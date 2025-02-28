@@ -5,6 +5,19 @@ import glob
 import sys
 import random
 
+def term_norm(term_str):
+    if term_str[0] == '(':
+        term_str = term_str[1:]
+    term_str = term_str.lower()
+    return term_str
+
+def termsort(terms):
+    # return sorted(list(terms.keys())) # old
+    return sorted(
+        terms,
+        key=term_norm
+    )
+
 def load_terms():
     terms = {}
     term_files = glob.glob('../terms/*.json')
@@ -25,7 +38,7 @@ def load_terms():
                 else:
                     de_dupe_id = "#" + str(int(random.random() * 1_000_000))
                     terms[term['citation-form'] + de_dupe_id] = term
-    terms_sorted = {key:terms[key] for key in sorted(list(terms.keys()))}
+    terms_sorted = {key:terms[key] for key in termsort(terms)}
     print(f'loaded {len(terms_sorted)} terms')
     return terms_sorted
 

@@ -13,6 +13,19 @@ SITE_FOLDER = '../sitegen/'
 TERMS_FOLDER_WRITE = '../sitegen/terms/'
 TERMS_FOLDER_READ = 'terms/'
 
+def term_norm(term_str):
+    if term_str[0] == '(':
+        term_str = term_str[1:]
+    term_str = term_str.lower()
+    return term_str
+
+def termsort(terms):
+    # return sorted(list(terms.keys())) # old
+    return sorted(
+        terms,
+        key=term_norm
+    )
+
 def load_terms():
     terms = {}
     term_files = glob.glob('../terms/*.json')
@@ -22,7 +35,7 @@ def load_terms():
             if term['term'] in terms:
                 assert False, f"duplicate found for term: {term['term']}"
             terms[term['term']] = term
-    terms_sorted = {key:terms[key] for key in sorted(list(terms.keys()))}
+    terms_sorted = {key:terms[key] for key in termsort(terms)}
     return terms_sorted
 
 def bold(text):
