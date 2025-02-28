@@ -45,6 +45,16 @@ def ordered_list(render_strs):
     list_str += "</ol>\n"
     return list_str
 
+def ga_italics_filter(render_str):
+    # some terms are not translated and should be italicised
+    to_italicise = [
+        "softmax",
+        "ReLU"
+    ]
+    for item in to_italicise:
+        render_str = render_str.replace(item, italics(item))
+    return render_str
+
 def render_term(term):
     render_str = ""
 
@@ -56,7 +66,7 @@ def render_term(term):
     render_str += "<br>\n"
 
     # term definitions
-    render_str += italics("sainmhíniú (ga):") + " " + term['def-ga'] + "<br>"
+    render_str += italics("sainmhíniú (ga):") + " " + ga_italics_filter(term['def-ga']) + "<br>"
     render_str += "\n"
     render_str += italics("sainmhíniú (en):") + " " + term['def-en'] + "\n"
     render_str += "\n"
@@ -106,6 +116,7 @@ def render_term(term):
             ref_file_path = ref + '.html'
             link_html = f"<a href='{ref_file_path}'>'{full_phrase}'</a>"
             item = f"Féach ar an téarma {link_html}."
+        item = ga_italics_filter(item)
         notes.append(item)
     render_str += unordered_list(notes)
     render_str += "\n"
