@@ -4,24 +4,7 @@ import json
 import glob
 import sys
 import random
-
-def term_norm(term_str):
-    if term_str[0] == '(':
-        term_str = term_str[1:]
-    term_str = term_str.lower()
-    term_str = term_str.replace('á', 'a')
-    term_str = term_str.replace('é', 'e')
-    term_str = term_str.replace('í', 'i')
-    term_str = term_str.replace('ó', 'o')
-    term_str = term_str.replace('ú', 'u')
-    return term_str
-
-def termsort(terms):
-    # return sorted(list(terms.keys())) # old
-    return sorted(
-        terms,
-        key=term_norm
-    )
+from utils import termsort
 
 def load_terms():
     terms = {}

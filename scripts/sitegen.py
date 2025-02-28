@@ -3,6 +3,7 @@
 import glob
 import json
 import os
+from utils import termsort, term_norm
 
 '''
 references:
@@ -12,24 +13,6 @@ references:
 SITE_FOLDER = '../sitegen/'
 TERMS_FOLDER_WRITE = '../sitegen/terms/'
 TERMS_FOLDER_READ = 'terms/'
-
-def term_norm(term_str):
-    if term_str[0] == '(':
-        term_str = term_str[1:]
-    term_str = term_str.lower()
-    term_str = term_str.replace('á', 'a')
-    term_str = term_str.replace('é', 'e')
-    term_str = term_str.replace('í', 'i')
-    term_str = term_str.replace('ó', 'o')
-    term_str = term_str.replace('ú', 'u')
-    return term_str
-
-def termsort(terms):
-    # return sorted(list(terms.keys())) # old
-    return sorted(
-        terms,
-        key=term_norm
-    )
 
 def load_terms():
     terms = {}
@@ -102,7 +85,7 @@ def render_term(term):
         item = item.replace("storchiste", "Williams et al. (2023)")
 
         if "féach ar an téarma '" in item.lower():
-            print(item)
+            # print(item)
             start = item.index("'")
             ref = item[(start + 1):]
             end = ref.index("'")
@@ -123,7 +106,7 @@ def render_term(term):
     notes = []
     for item in term["notes"]:
         if "féach ar an téarma '" in item.lower() or "féach chomh maith ar an téarma '" in item.lower():
-            print(item)
+            # print(item)
             start = item.index("'")
             ref = item[(start + 1):]
             end = ref.index("'")
@@ -190,19 +173,13 @@ def gen_term_pages(terms):
 
 def gen_index(terms, version):
     searchbar = """<input type="text" id="termInput" onkeyup="termSearch()" placeholder="Cuardaigh téarma i mBéarla nó i nGaeilge...">\n"""
-    
-    longest_len_eng = 0
-    for term_id in terms:
-        term = terms[term_id]
-        if len(term) > longest_len_eng:
-            longest_len_eng = len(term)
     termslist = """<ul id="dict-idx">\n"""
 
     curr_header = ''
     header_printed = False
     header_ids = []
     for term_id in terms:
-        first_char = term_id[0].upper()
+        first_char = term_norm(term_id)[0].upper()
         if first_char != curr_header:
             header_printed = False
         if not header_printed:   
