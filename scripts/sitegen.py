@@ -17,6 +17,11 @@ def term_norm(term_str):
     if term_str[0] == '(':
         term_str = term_str[1:]
     term_str = term_str.lower()
+    term_str = term_str.replace('á', 'a')
+    term_str = term_str.replace('é', 'e')
+    term_str = term_str.replace('í', 'i')
+    term_str = term_str.replace('ó', 'o')
+    term_str = term_str.replace('ú', 'u')
     return term_str
 
 def termsort(terms):
