@@ -23,30 +23,31 @@
         <div class='centerbox' id='indexlist'>
             <h1 style="margin-bottom: 0px;">Foclóir Tráchtais</h1>
             <p id="versionNum" style="margin-top: 0px">v1.3 alfa, le Jeffrey Seathrún Sardina</p>
-            <p style='text-align: center;'> Téigh chuig: <a href="##">#</a>
-<a href="#A">A</a>
-<a href="#B">B</a>
-<a href="#C">C</a>
-<a href="#D">D</a>
-<a href="#E">E</a>
-<a href="#F">F</a>
-<a href="#G">G</a>
-<a href="#H">H</a>
-<a href="#I">I</a>
-<a href="#K">K</a>
-<a href="#L">L</a>
-<a href="#M">M</a>
-<a href="#N">N</a>
-<a href="#O">O</a>
-<a href="#P">P</a>
-<a href="#Q">Q</a>
-<a href="#R">R</a>
-<a href="#S">S</a>
-<a href="#T">T</a>
-<a href="#U">U</a>
-<a href="#V">V</a>
-<a href="#W">W</a></p>
-            <input type="text" id="termInput" onkeyup="myFunction()" placeholder="Cuardaigh téarma i mBéarla nó i nGaeilge...">
+            <p style='text-align: center;'> Téigh chuig: 
+                <a href="##">#</a>
+                <a href="#A">A</a>
+                <a href="#B">B</a>
+                <a href="#C">C</a>
+                <a href="#D">D</a>
+                <a href="#E">E</a>
+                <a href="#F">F</a>
+                <a href="#G">G</a>
+                <a href="#H">H</a>
+                <a href="#I">I</a>
+                <a href="#K">K</a>
+                <a href="#L">L</a>
+                <a href="#M">M</a>
+                <a href="#N">N</a>
+                <a href="#O">O</a>
+                <a href="#P">P</a>
+                <a href="#Q">Q</a>
+                <a href="#R">R</a>
+                <a href="#S">S</a>
+                <a href="#T">T</a>
+                <a href="#U">U</a>
+                <a href="#V">V</a>
+                <a href="#W">W</a></p>
+            <input type="text" id="termInput" onkeyup="termSearch()" placeholder="Cuardaigh téarma i mBéarla nó i nGaeilge...">
 <ul id="dict-idx">
 	<li><h2 id="#" style="margin-bottom: 0px;">#</h2></li>
 	<li><a href="terms/0-shot.html">0-shot | 0-sonra</a></li>
@@ -309,23 +310,28 @@
             <div id="footerBar"></div>
         </div>
         <script>
-        function myFunction() {
-            // Declare variables
-            var input, filter, ul, li, a, i, txtValue;
-            input = document.getElementById('termInput');
-            filter = input.value.toUpperCase();
-            ul = document.getElementById("dict-idx");
-            li = ul.getElementsByTagName('li');
+        function termSearch() {
+            // Prep data
+            let input = document.getElementById('termInput');
+            let filter = input.value.toUpperCase();
+            let ul = document.getElementById("dict-idx");
+            let li = ul.getElementsByTagName('li');
 
-            // Loop through all list items, and hide those who don't match the search query
-            for (i = 0; i < li.length; i++) {
+            // hide elems that do not contain the search substring
+            let a, h2, txtValue;
+            for (let i = 0; i < li.length; i++) {
                 a = li[i].getElementsByTagName("a")[0];
-                txtValue = a.textContent || a.innerText;
+				h2 = li[i].getElementsByTagName("h2")[0]
+				elem = a || h2
+                txtValue = elem.textContent || elem.innerText;
                 if (txtValue.toUpperCase().indexOf(filter) > -1) {
                     li[i].style.display = "";
                 } else {
                     li[i].style.display = "none";
                 }
+				if (filter && filter.length > 0 && h2) {
+					li[i].style.display = "none";
+				}
             }
         }
         </script>

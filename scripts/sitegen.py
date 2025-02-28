@@ -189,7 +189,7 @@ def gen_term_pages(terms):
             print(term_page_html, file=out)
 
 def gen_index(terms, version):
-    searchbar = """<input type="text" id="termInput" onkeyup="myFunction()" placeholder="Cuardaigh téarma i mBéarla nó i nGaeilge...">\n"""
+    searchbar = """<input type="text" id="termInput" onkeyup="termSearch()" placeholder="Cuardaigh téarma i mBéarla nó i nGaeilge...">\n"""
     
     longest_len_eng = 0
     for term_id in terms:
@@ -223,29 +223,34 @@ def gen_index(terms, version):
     termslist += """</ul>\n"""
 
     js_script = """<script>
-        function myFunction() {
-            // Declare variables
-            var input, filter, ul, li, a, i, txtValue;
-            input = document.getElementById('termInput');
-            filter = input.value.toUpperCase();
-            ul = document.getElementById("dict-idx");
-            li = ul.getElementsByTagName('li');
+        function termSearch() {
+            // Prep data
+            let input = document.getElementById('termInput');
+            let filter = input.value.toUpperCase();
+            let ul = document.getElementById("dict-idx");
+            let li = ul.getElementsByTagName('li');
 
-            // Loop through all list items, and hide those who don't match the search query
-            for (i = 0; i < li.length; i++) {
+            // hide elems that do not contain the search substring
+            let a, h2, txtValue;
+            for (let i = 0; i < li.length; i++) {
                 a = li[i].getElementsByTagName("a")[0];
-                txtValue = a.textContent || a.innerText;
+				h2 = li[i].getElementsByTagName("h2")[0]
+				elem = a || h2
+                txtValue = elem.textContent || elem.innerText;
                 if (txtValue.toUpperCase().indexOf(filter) > -1) {
                     li[i].style.display = "";
                 } else {
                     li[i].style.display = "none";
                 }
+				if (filter && filter.length > 0 && h2) {
+					li[i].style.display = "none";
+				}
             }
         }
         </script>\n"""
     
-    header_nav = "<p style='text-align: center;'> Téigh chuig: "
-    header_nav += '\n'.join(f'<a href="#{header_id}">{header_id}</a>' for header_id in header_ids)
+    header_nav = "<p style='text-align: center;'> Téigh chuig: \n"
+    header_nav += '\n'.join(' '*16 + f'<a href="#{header_id}">{header_id}</a>' for header_id in header_ids)
     header_nav += "</p>"
 
     html = f"""<!DOCTYPE html>
