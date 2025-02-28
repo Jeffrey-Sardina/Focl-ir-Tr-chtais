@@ -1,0 +1,16 @@
+{
+    "term": "pointwise function",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "feidhm de phointe",
+    "def-en": "A function that takes a single data point as input.",
+    "def-ga": "Feidhm a bhfuil pointe sonraí amháin mar ionchur aici.",
+
+    "prov": {
+        "feidhm": "féach ar an téarma 'feidhm / function'",
+        "pointe": "de-bhaldraithe, dineen, focloir-beag, odonaill, storchiste"
+    },
+    "notes": [
+        "Is é 'feidhm de' a úsáidtear chun trácht ar fheidhmeanna matamaitice, de réir Fhoclóir De Bhaldraithe.",
+        "Féach ar an téarma 'function / feidhm'."
+    ]
+}

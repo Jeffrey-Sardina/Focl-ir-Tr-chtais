@@ -1,0 +1,17 @@
+{
+    "term": "pairwise function",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "feidhm de phéire (pointí)",
+    "def-en": "A function that takes a pair of data points as input (for example, to compare them).",
+    "def-ga": "Feidhm a bhfuil péire pointí sonraí mar ionchur aici (chun iad a chur i gcomparáid lena chéile, mar shampla).",
+
+    "prov": {
+        "feidhm": "féach ar an téarma 'feidhm / function'",
+        "péire": "de-bhaldraithe, dineen, focloir-beag, odonaill",
+        "pointe": "féach ar an téarma 'pointwise function / feidhm de phointe'"
+    },
+    "notes": [
+        "Féach ar an téarma 'pointwise function / feidhm de phointe'.",
+        "Féach ar an téarma 'function / feidhm'."
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "term": "cross-entropy",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "tras-eantrópacht",
+    "def-en": "A measure of disorder in statistical distributions (in comparison to a reference distribution).",
+    "def-ga": "Tomhas ar cé chomh neamhordaithe is atá dáileadh staitistiúil (de réir dáileadh tagartha eile).",
+
+    "prov": {
+        "tras-": "de-bhaldraithe, focloir-beag, odonaill, storchiste",
+        "eantrópacht": "féach ar an téarma 'entropy / eantrópacht'"
+    },
+    "notes": [
+        "Luann Stórchiste 'tras-' mar 'cross-' i gcomhthéacs matamaitice. Sna foclóirí eile, is i gcomhthéacs níos leithne atá sé luaite.",
+        "Féach ar an téarma 'entropy / eantrópacht'."
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "term": "entropy",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "eantrópacht",
+    "def-en": "A measure of disorder in statistical distributions.",
+    "def-ga": "Tomhas ar cé chomh neamhordaithe is atá dáileadh staitistiúil.",
+
+    "prov": {
+        "eantrópacht": "odonaill"
+    },
+    "notes": [
+        "Téarma díreach ar fáil i bhFoclóir Uí Dhónaill."
+    ]
+}
