@@ -2,15 +2,15 @@
     "term": "activation function",
     "part-of-speech": "ainmfhocal",
     "citation-form": "feidhm ghníomhachtaithe",
-    "def-en": "A non-linear function, such as softmax or ReLU, that is used between layers in a neural network to help learning.",
-    "def-ga": "Feidhm neamh-líneach, m.sh. softmax nó ReLU, a úsáidtear idir cisil de líonra néarach chun chuidiú leis foghlaim.",
+    "def-en": "A non-linear function, such as softmax or ReLU, that is used between layers in a neural network.",
+    "def-ga": "Feidhm neamh-líneach, m.sh. softmax nó ReLU, a úsáidtear idir chisil i líonra néarach.",
 
     "prov": {
         "feidhm": "féach ar an téarma 'function / feidhm'",
         "ghníomhachtaigh": "de-bhaldraithe, odonaill"
     },
     "notes": [
-        "Úsáidtear 'ghníomhachtaithe' le cúis mhaith -- is éard a dhéanann feidhm ghníomhachtaithe ná ligean do líonra néarach níos mó ná ciseal amháin a bheith aige. Gan í, ní bheifí in ann ach ciseal a úsáid i gcaoi fiúntach ar leibhéal matamaiticiúil. Sin é rá, bíonn cisil eile ghníomhachtaithe ag an bhfeidhm ghníomhachtaithe.",
+        "Úsáidtear 'gníomhachtaithe' le cúis mhaith -- is éard a dhéanann feidhm ghníomhachtaithe ná ligean do líonra néarach níos mó ná ciseal amháin a bheith aige. Gan í, ní bheifí in ann ach ciseal amháin a úsáid i gcaoi fhiúntach ar leibhéal matamaiticiúil. Sin é rá, bíonn cisil eile gníomhachtaithe ag an bhfeidhm ghníomhachtaithe.",
         "Is é 'gníomhachtaigh' atá ar Tearma.ie chomh maith.",
         "Féach ar an téarma 'function / feidhm'."
     ]

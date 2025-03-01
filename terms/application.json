@@ -2,15 +2,15 @@
     "term": "application (in practice)",
     "part-of-speech": "ainmfhocal",
     "citation-form": "úsáid (phraiticiúil)",
-    "def-en": "The real-world use of something, rather than the theory / abstract methodology of it.",
-    "def-ga": "Úsáid ruda sa bhfíorshaol, seachas an teoiric / cur chuige teibí taobh thiar de.",
+    "def-en": "The real-world use of something, as contrasted with theoretical use that is not put into practice.",
+    "def-ga": "Úsáid ruda sa bhfíorshaol, i gcontrárthacht le húsáid theoiriciúil gan chur-i-bhfeidhm.",
 
     "prov": {
         "úsáid": "de-bhaldraithe, dineen, focloir-beag, odonaill",
         "praiticiúil": "de-bhaldraithe, focloir-beag, odonaill"
     },
     "notes": [
-        "Téarmaí díreach ar fáil leis an mbrí atá de dhíth.",
-        "Ní raibh aon ghá le téarma nua (.i. focal amháin, seachas téarma bunaithe ar 'úsáid') a chumadh toisc gur léire agus gur dírí 'úsáid phraiticiúil' mar théarma ná téarma cumtha as nua."
+        "Téarmaí díreach ar fáil le brí chomhchosúil.",
+        "Ní raibh aon ghá le téarma nua (.i. focal amháin, seachas téarma bunaithe ar 'úsáid') a chumadh toisc gur léire agus gur dírí 'úsáid phraiticiúil' ná téarma cumtha as nua."
     ]
 }

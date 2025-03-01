@@ -74,7 +74,7 @@ def render_term(term):
     render_str += '<br>'
 
     # term provenance
-    render_str += "<br>tagairtí:\n"
+    render_str += "<br>Tagairtí:\n"
     prov_list = [f"{key}: {term['prov'][key]}" for key in term["prov"]]
     prov_list_citations = []
     for item in prov_list:
@@ -95,14 +95,14 @@ def render_term(term):
             ref = ref.replace(' ', '-')
             ref_file_path = ref + '.html'
             link_html = f"<a href='{ref_file_path}'>'{full_phrase}'</a>"
-            item = f"Féach ar an téarma {link_html}."
+            item = f"{item[:item.index("féach ar an téarma '")]}féach ar an téarma {link_html}."
 
         prov_list_citations.append(item)
     render_str += unordered_list(prov_list_citations)
     render_str += "\n"
 
     # term notes
-    render_str += "nótaí aistriúcháin:\n"
+    render_str += "Nótaí Aistriúcháin:\n"
     notes = []
     for item in term["notes"]:
         if "féach ar an téarma '" in item.lower() or "féach chomh maith ar an téarma '" in item.lower():
