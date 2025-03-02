@@ -125,13 +125,13 @@ def render_term(term):
     render_str += "\n"
 
     # term definitions
-    render_str += italics("sainmhíniú (ga):") + " " + ga_italics_filter(term['def-ga']) + "\n"
+    render_str += italics("Sainmhíniú (ga):") + " " + ga_italics_filter(term['def-ga']) + "\n"
     if MODE != 'latex':
         render_str += "<br>"
     else:
         render_str += "\\\\"
     render_str += "\n"
-    render_str += italics("sainmhíniú (en):") + " " + term['def-en'] + "\n"
+    render_str += italics("Sainmhíniú (en):") + " " + term['def-en'] + "\n"
     if MODE == 'latex':
         render_str += "\\\\"
     render_str += "\n"

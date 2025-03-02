@@ -2,8 +2,8 @@
     "term": "architecture",
     "part-of-speech": "ainmfhocal",
     "citation-form": "dearadh",
-    "def-en": "The mathematical structure of a neural network.",
-    "def-ga": "An struchtúr matamaiticiúil atá ar líonra néarach.",
+    "def-en": "In the context of machine learning, the mathematical structure of a neural network.",
+    "def-ga": "I gcomhthéacs ríomhfhoghlama, an struchtúr matamaiticiúil atá ar líonra néarach.",
 
     "prov": {
         "dearadh": "de-bhaldraithe, dineen, focloir-beag, odonaill"

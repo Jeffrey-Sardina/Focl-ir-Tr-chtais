@@ -67,9 +67,9 @@ def render_term(term):
     render_str += "<br>\n"
 
     # term definitions
-    render_str += italics("sainmhíniú (ga):") + " " + ga_italics_filter(term['def-ga']) + "<br>"
+    render_str += italics("Sainmhíniú (ga):") + " " + ga_italics_filter(term['def-ga']) + "<br>"
     render_str += "\n"
-    render_str += italics("sainmhíniú (en):") + " " + term['def-en'] + "\n"
+    render_str += italics("Sainmhíniú (en):") + " " + term['def-en'] + "\n"
     render_str += "\n"
     render_str += '<br>'
 
@@ -127,7 +127,32 @@ def render_term(term):
 
     return render_str
 
-def gen_term_page(term):
+def get_abbrv(to_abbrv):
+    # remove parenthetical statements
+    try:
+        paren_start = to_abbrv.index('(')
+        to_abbrv = to_abbrv[:paren_start]
+    except:
+        # no parens
+        pass
+
+    # rm unneeded whitespace
+    to_abbrv = to_abbrv.strip()
+    return to_abbrv
+
+def gen_term_page(term, prev_term_id, next_term_id):
+    if prev_term_id is not None:
+        link = get_term_file_name(prev_term_id["term"])
+        text = get_abbrv(prev_term_id['term'])
+        prev_term_html = f'<a href="{link}">&lt;&lt; {text}</a>'
+    else:
+        prev_term_html = '&lt;&lt; (Téarma ar bith roimhe seo)'
+    if next_term_id is not None:
+        link = get_term_file_name(next_term_id["term"])
+        text = get_abbrv(next_term_id['term'])
+        next_term_html = f'<a href="{link}">{text} &gt;&gt;</a>'
+    else:
+        next_term_html = '(Téarma ar bith ina dihaidh seo) &gt;&gt;'
     html = f"""<!DOCTYPE html>
         <html>
         <head>
@@ -151,6 +176,14 @@ def gen_term_page(term):
         <div id="headerBar"></div>
         <div class='centerbox'>
             {render_term(term)}
+            <br><hr>
+            <table table border='0' style='width:100%'>
+                <tr>
+                    <td style='width: 33%; text-align: left;'>{prev_term_html}</td>
+                    <td style='width: 34%; text-align: center;'><a href="/">Baile</a></td>
+                    <td style='width: 33%; text-align: right;'>{next_term_html}</td>
+                </tr>
+            </table>
             <div id="footerBar"></div>
         </div>
         </body>
@@ -162,9 +195,17 @@ def get_term_file_name(term_name):
     return term_name.replace(' ', '-') + '.html' 
 
 def gen_term_pages(terms):
-    for term_id in terms:
+    for i, term_id in enumerate(terms):
         term = terms[term_id]
-        term_page_html = gen_term_page(term)
+        if i == 0:
+            prev_term_id = None
+        else:
+            prev_term_id = terms[list(terms.keys())[i-1]]
+        if i == len(terms) - 1:
+            next_term_id = None
+        else:
+            next_term_id = terms[list(terms.keys())[i+1]]
+        term_page_html = gen_term_page(term, prev_term_id, next_term_id)
         file_name = get_term_file_name(term["term"])
         if not os.path.exists(TERMS_FOLDER_WRITE):
             os.makedirs(TERMS_FOLDER_WRITE)
