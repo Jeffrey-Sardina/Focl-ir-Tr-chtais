@@ -1,5 +1,5 @@
 v1.2 / v1.3 alfa to v1.3
-- XX new terms (now isYY, was 196 terms)
+- 37 new terms (now is 233, was 196 terms)
 - typos and formatting
 - massive formatting improvements on the website
 - term sorting fixes (on the website and in downloads)
