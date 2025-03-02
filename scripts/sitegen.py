@@ -116,7 +116,10 @@ def render_term(term):
             ref = ref.replace(' ', '-')
             ref_file_path = ref + '.html'
             link_html = f"<a href='{ref_file_path}'>'{full_phrase}'</a>"
-            item = f"Féach ar an téarma {link_html}."
+            if "féach ar an téarma '" in item.lower():
+                item = f"Féach ar an téarma {link_html}."
+            else:
+                item = f"Féach chomh maith ar an téarma {link_html}."
         item = ga_italics_filter(item)
         notes.append(item)
     render_str += unordered_list(notes)
