@@ -1,1 +1,1 @@
-http://localhost:8000/terms/baseline-model.html
+https://focloir-riomheolaiochta.github.io/terms/family.html
