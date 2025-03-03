@@ -6,11 +6,12 @@
     "def-ga": "I gcomhthéacs samhlacha leabaithe graif eolais, feidhm a dhéanann scór inchreidteachta a thabhairt d'abairt thriarach.",
 
     "prov": {
-        "feidhm": "féarch ar an téarma 'function / feidhm'",
+        "feidhm": "féach ar an téarma 'function / feidhm'",
         "scóráil": "féach ar an téarma 'to score / scóráil'"
     },
     "notes": [
         "Téarma cruthaithe go díreach as dá théarma eile sa bhFoclóir Tráchtais.",
-        "Féach chomh maith ar na téarmaí function / feidhm' agus 'to score / scóráil'."
+        "Féach chomh maith ar an téarma 'function / feidhm'.",
+        "Féach chomh maith ar an téarma 'to score / scóráil'."
     ]
 }
