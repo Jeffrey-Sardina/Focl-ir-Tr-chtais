@@ -3,7 +3,7 @@
     "part-of-speech": "ainmfhocal",
     "citation-form": "líonra néarach graif (LNG)",
     "def-en": "A neural network that is able to learn graph-based information and solve graph-bases tasks (such as node classification or link prediction), especially when that neural network is based on a message-passing interface.",
-    "def-ga": "Líonra néarach atá in ann eolas ó ghraif a fhoghlaim, agus taisc ar graif a chur i gcrích (m.sh. rangú nód nó réamhinsint nasc), go háirithe nuair atá an líonra néarach sin bunaithe ar chomhéadan sheachadta teachtaireachtaí.",
+    "def-ga": "Líonra néarach atá in ann eolas ó ghraif a fhoghlaim, agus taisc ar graif a chur i gcrích (m.sh. aicmiú nód nó réamhinsint nasc), go háirithe nuair atá an líonra néarach sin bunaithe ar chomhéadan sheachadta teachtaireachtaí.",
 
     "prov": {
         "líonra néarach": "féach ar an téarma 'neural network (NN) / líonra néarach (LN)'",

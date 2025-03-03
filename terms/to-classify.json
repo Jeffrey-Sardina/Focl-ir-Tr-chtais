@@ -2,14 +2,14 @@
     "term": "to classify",
     "part-of-speech": "ainmfhocal",
     "citation-form": "aicmigh",
-    "def-en": "In the context of machine learning, to perform the classification task",
+    "def-en": "In the context of machine learning, to perform the classification task.",
     "def-ga": "I gcomhthéacs ríomhfhoghlama, an tasc aicmithe a chur i gcrích.",
 
     "prov": {
-        "rangaigh": "féach ar an téarma 'classification / aicmiú'"
+        "aicmigh": "féach ar an téarma 'classification / aicmiú'"
     },
     "notes": [
         "* Is é 'aicmiú' seachas 'aicmigh' atá i bhFoclóir Uí Dhónaill agus Uí Mhaoileoin.",
-        "Féach comh maith ar an téarma 'classification / aicmiú'."
+        "Féach chomh maith ar an téarma 'classification / aicmiú'."
     ]
 }

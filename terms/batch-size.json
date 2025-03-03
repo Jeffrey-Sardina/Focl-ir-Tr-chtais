@@ -2,8 +2,8 @@
     "term": "batch size",
     "part-of-speech": "ainmfhocal",
     "citation-form": "méid na bhfo-thacar",
-    "def-en": "How large (i.e. how many data points) are in each batch during learning.",
-    "def-ga": "Cé chomh mór (.i. cé mhéid pointe sonraí) atá i chuile fho-thacar le linn ríomhfhoghlama.",
+    "def-en": "How many data points are in each batch of the training / testing / validation set.",
+    "def-ga": "Cé mhéid pointí sonraí atá i chuile fho-thacar den tacar traenála / teisteála / deimhnithe.",
 
     "prov": {
         "méid": "de-bhaldraithe, dineen, focloir-beag, odonaill",

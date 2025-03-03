@@ -3,10 +3,10 @@
     "part-of-speech": "ainmfhocal",
     "citation-form": "aicmiú",
     "def-en": "The machine learning task that aims to assign a label ('class') to every input data point. For example, classifying images of dogs or cats based on the animal in the image.",
-    "def-ga": "Tasc ríomhfhoghlama a bhfuil mar aidhm aige lipéad ('rang') a chur le chuile phointe sonraí ionchuir. Mar shampla, íomhánna a bhfuil madra nó cat iontu a rangú de réir an  atá sa íomhá.",
+    "def-ga": "Tasc ríomhfhoghlama a bhfuil mar aidhm aige lipéad ('aicme') a chur le chuile phointe sonraí ionchuir. Mar shampla, íomhánna a bhfuil madra nó cat iontu a aicmiú de réir an t-ainmhí atá san íomhá.",
 
     "prov": {
-        "rangaigh": "de-bhaldraithe, focloir-beag, odonaill"
+        "aicmigh": "de-bhaldraithe, focloir-beag, odonaill"
     },
     "notes": [
         "Téarma díreach ar fáil le brí comhchosúil ó na foclóirí thuas."

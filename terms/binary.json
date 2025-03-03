@@ -2,13 +2,13 @@
     "term": "binary",
     "part-of-speech": "aidiacht",
     "citation-form": "dénártha",
-    "def-en": "In the context of computer science, based only on two values / choices / classes / etc (typically 0 and 1).",
+    "def-en": "In the context of computer science, based on only two values / choices / classes / etc (typically 0 and 1).",
     "def-ga": "I gcomhthéacs ríomheolaíochta, bunaithe ar dhá luach / rogha / aicme / srl amháin (0 agus 1, go hiondúil).",
 
     "prov": {
         "dénártha": "de-bhaldraithe, odonaill"
     },
     "notes": [
-        "Téarma díreach le fáil ó na foclóir thuas."
+        "Téarma díreach le fáil ó na foclóirí thuas."
     ]
 }

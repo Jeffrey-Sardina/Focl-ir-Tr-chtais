@@ -2,11 +2,11 @@
     "term": "class",
     "part-of-speech": "ainmfhocal",
     "citation-form": "aicme",
-    "def-en": "In the context of classification, any one of the labels that can be given to input data during classification. In the context of a hierarchy, ontology, or taxonomy, a sort or type of object present in the hierarchy / ontology / taxonomy",
-    "def-ga": "I gcomhthéacs an taisc rangaithe, ceann ar bith de na lipéad ar féidir é a chur le sonraí ionchuir le linn rangaithe. I gcomhthéacs cliarlathais, ointeolaíochta, nó tacsanomaíochta, sórt nó cineál réáda sa gcliarlathas / san ointeolaíocht / sa tacsanomaíocht.",
+    "def-en": "In the context of classification, any one of the labels that can be given to input data during classification. In the context of a hierarchy, ontology, or taxonomy, a sort or type of object present in the hierarchy / ontology / taxonomy.",
+    "def-ga": "I gcomhthéacs an taisc aicmithe, ceann ar bith de na lipéad ar féidir é a chur le sonraí ionchuir le linn aicmithe. I gcomhthéacs cliarlathais, ointeolaíochta, nó tacsanomaíochta, sórt nó cineál réada sa gcliarlathas / san ointeolaíocht / sa tacsanomaíocht.",
 
     "prov": {
-        "rang": "de-bhaldraithe, dineen, focloir-beag*, odonaill, storchiste"
+        "aicme": "de-bhaldraithe, dineen, focloir-beag, odonaill, storchiste"
     },
     "notes": [
         "Téarma díreach ar fáil le brí comhchosúil ó na foclóirí thuas.",
