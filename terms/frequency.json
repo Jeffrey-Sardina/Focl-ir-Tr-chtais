@@ -3,7 +3,7 @@
     "part-of-speech": "ainmfhocal",
     "citation-form": "minicíocht",
     "def-en": "In the context of a knowledge graph, how often a node / edge is part of triples in the graph.",
-    "def-ga": "I gcomhthéacs graif eolais, cé chomh minic is a bhíonn nód / ceangal mar chuid d'abairtí thriaracha sa ngraf.",
+    "def-ga": "I gcomhthéacs graif eolais, cé chomh minic is a bhíonn nód / ceangal mar chuid d'abairtí triaracha sa ngraf.",
 
     "prov": {
         "minicíocht": "de-bhaldraithe, focloir-beag, odonaill, storchiste"

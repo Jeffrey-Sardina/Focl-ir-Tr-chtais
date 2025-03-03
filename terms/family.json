@@ -3,14 +3,14 @@
     "part-of-speech": "ainmfhocal",
     "citation-form": "(frása le 'gaolmhar')",
     "def-en": "In the context of machine learning, a group of models that are similar to each other, and that come from the same idea / base model.",
-    "def-ga": "I gcomhthéacs ríomhfhoghlama, grúpa samhlacha atá cosúil le chéile, agus a thagann ón smaoineamh / ón mbun-samhail chéanna.",
+    "def-ga": "I gcomhthéacs ríomhfhoghlama, grúpa samhlacha atá cosúil lena chéile, agus a thagann ón smaoineamh / ón mbun-samhail chéanna.",
 
     "prov": {
         "gaolmhar": "de-bhaldraithe, dineen, focloir-beag, odonaill, storchiste"
     },
     "notes": [
         "Moltar 'gaolmhar' a úsáid i bhfrása. Mar shampla 'The TransE family of models' -> 'TransE agus na samhlacha gaolmhara leis'.",
-        "Cé go mbíonn 'gaolmhar' bainteach go minic le clanna, is léir ó Fhoclóir Uí Dhónaill agus ó Fhoclóir De Bhaldraithe nach mar sin amháin a bhíonn sé. Glactar leis mar théarma toisc go ndéanann sé cur síor ar an chaoi atá samhlacha ríomhfhoghlama gaolmhara ceangailte lena chéile (ar nós clann, beagnach) gan bheith ag braith ar théarma míchuí / sa gcomhthéacs mícheart (.i. teaghlach / clann / muintir).",
+        "Cé go mbíonn 'gaolmhar' bainteach go minic le clanna, is léir ó Fhoclóir Uí Dhónaill agus ó Fhoclóir De Bhaldraithe nach mar sin amháin a bhíonn sé. Glactar leis mar théarma toisc go ndéanann sé cur síor ar an gcaoi atá samhlacha ríomhfhoghlama gaolmhara ceangailte lena chéile (ar nós clann, beagnach) gan bheith ag braith ar théarma míchuí / sa gcomhthéacs mícheart (.i. teaghlach / clann / muintir).",
         "Tá 'fine' luaite ar Tearma.ie (mar shampla, tá 'fine clófhoirne' acu mar 'font family'). Ní luíonn an úsáid seo le sampla Fhoclóir Uí Dhónaill ná le sampla Fhoclóir Uí Dhónaill agus Uí Mhaoileoin, a luann 'fine' mar 'family' nó cine daoine amháin, gan trácht ar úsáid níos leithne ná sin. Ní ghlactar le 'fine' anseo mar sin."
     ]
 }
