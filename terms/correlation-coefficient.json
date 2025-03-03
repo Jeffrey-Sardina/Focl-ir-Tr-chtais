@@ -1,0 +1,17 @@
+{
+    "term": "correlation coefficient",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "comhéifeacht comhghaolúcháin",
+    "def-en": "In a mathematical context, a value (often written as 'r') between -1 and 1 that describes how strong, and in what direction, correlation is between two datasets.",
+    "def-ga": "I gcomhthéacs matamaitice, luach (a scríobhtar go minic mar 'r') idir -1 agus 1 léiríonn cé chomh mór, agus i cén treo, is atá an comhghaol idir dhá shraith sonraí.",
+
+    "prov": {
+        "comhéifeacht": "féach ar an téarma 'coefficient / comhéifeacht'",
+        "comhghaolúcháin": "storchiste"
+    },
+    "notes": [
+        "Féach ar an téarma 'coefficient / comhéifeacht'",
+        "Féach chomh maith ar an téarma 'correlation / comhghaol'",
+        "Féach chomh maith ar an téarma 'to correlate / comhghaolaigh'"
+    ]
+}

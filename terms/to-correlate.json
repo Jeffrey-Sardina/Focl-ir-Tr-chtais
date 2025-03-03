@@ -1,0 +1,14 @@
+{
+    "term": "to correlate",
+    "part-of-speech": "briathar",
+    "citation-form": "comhghaolaigh",
+    "def-en": "In a mathematical context, to find the correlation between two datasets.",
+    "def-ga": "I gcomhthéacs matamaitice, comhghaol a fháil idir dhá shraith sonraí.",
+
+    "prov": {
+        "comhghaolaigh": "odonaill"
+    },
+    "notes": [
+        "Téarma luaite mar théarma matamaitice i bhFoclóir Uí Dhónaill."
+    ]
+}
