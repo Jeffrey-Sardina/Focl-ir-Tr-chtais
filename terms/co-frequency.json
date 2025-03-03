@@ -3,7 +3,7 @@
     "part-of-speech": "ainmfhocal",
     "citation-form": "cóimhinicíocht",
     "def-en": "In the context of a knowledge graph, how often two (or more) nodes / edges are part of the same triples in the graph.",
-    "def-ga": "I gcomhthéacs graif eolais, cé chomh minic is a bhíonn dhá nód / cheangal (nó níos mó) le chéile sna habairtí thriaracha céanna sa ngraf.",
+    "def-ga": "I gcomhthéacs graif eolais, cé chomh minic is a bhíonn dhá nód / cheangal (nó níos mó) le chéile sna habairtí triaracha céanna sa ngraf.",
 
     "prov": {
         "minicíocht": "féach ar an téarma 'frequency / minicíocht'",
@@ -11,8 +11,8 @@
     },
     "notes": [
         "* Níl an réimír Béarla 'co-' i bhFoclóir De Bhaldraithe mar théarma ar leith, ach úsáidtear é (agus a leagan Gaeilge 'comh-' i roinnt maith focail ann.",
-        "Is é 'cómh' atá i bhFoclóir Uí Dhuinín, ach glactar leis gurb in an focal céanna",
-        "De réir Foclóir Uí Dhónaill, scríobhtar có(i)- seachas comh- nuair atá an réimír seo curtha roimh focal a thosaíonn le 'm' nó le 'n', mar a tharlaíonn anseo.",
+        "Is é 'cómh' atá i bhFoclóir Uí Dhuinín, ach glactar leis gurb in an focal céanna.",
+        "De réir Fhoclóir Uí Dhónaill, scríobhtar có(i)- seachas comh- nuair atá an réimír seo curtha roimh focal a thosaíonn le 'm' nó le 'n', mar a tharlaíonn anseo.",
         "Féach chomh maith ar an téarma 'frequency / minicíocht'."
     ]
 }
