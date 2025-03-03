@@ -2,15 +2,16 @@
     "term": "labelled",
     "part-of-speech": "aidiacht",
     "citation-form": "le lipéad",
-    "def-en": "Referring to a node or edge, having a labelled (number, text, etc) attached to it as an identifier.",
+    "def-en": "Referring to a node or edge, having a label (number, text, etc) attached to it as an identifier.",
     "def-ga": "Ag tagairt ar nód nó ar ceangal, rud a bhfuil lipéad (uimhir, téacs, nó eile) curtha leis mar shuaitheantas.",
 
     "prov": {
         "le": "de-bhaldraithe, dineen, focloir-beag, odonaill",
-        "lipéad": "de-bhaldraithe, dineen, focloir-beag, odonaill"
+        "lipéad": "féach ar an téarma 'label / lipéad'"
     },
     "notes": [
         "Úsáidtear frása réamhfhoclach anseo seachas briathar nua a chumadh.",
-        "Is é 'lipéadaithe' atá ar Tearma.ie -- ach níl an focal sin le fáil i bhfoclóir dúchasach ar bith. Ní ghlactar leis mar sin."
+        "Is é 'lipéadaithe' atá ar Tearma.ie -- ach níl an focal sin le fáil i bhfoclóir dúchasach ar bith. Ní ghlactar leis mar sin.",
+        "Féach chomh maith ar an téarma 'label / lipéad'."
     ]
 }

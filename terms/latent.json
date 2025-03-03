@@ -2,14 +2,14 @@
     "term": "latent",
     "part-of-speech": "aidiacht",
     "citation-form": "folaigh",
-    "def-en": "Of a vector or embedding in a machine learning model, representing information that is learned or implicit, and not explicitly modelled by the model.",
-    "def-ga": "Ag trácht ar veicteoir nó ar leabú i samhail ríomhfhoghlama, ag trácht ar eolas atá foghlamtha nó impleachtaithe, seachas bheith samhlaithe go díreach ag an tsamhail chéanna.",
+    "def-en": "Of a vector, embedding, or parameters in a machine learning model, representing information that is learned or implicit. In a neural network, all layers except the input and output layers are latent layers.",
+    "def-ga": "Ag trácht ar veicteoir, ar leabú, nó ar paraiméadair i samhail ríomhfhoghlama, ag trácht ar eolas atá foghlamtha nó impleachtaithe. Is cisil fholaigh iad chuile chiseal i líonra néarach seachas an ciseal ionchuir agus an ciseal aschuir.",
 
     "prov": {
-        "folaigh": "de-bhaldraithe, dineen*, focloir-beag*, odonaill*"
+        "folach": "de-bhaldraithe, dineen*, focloir-beag, odonaill"
     },
     "notes": [
         "Feictear 'teas folaigh' mar théarma eolaíochta i bhFoclóir De Bhaldraithe, agus glactar leis sa gcomhthéacs seo mar analach leis sin.",
-        "* Tá an focal 'foclach' ann san foclóirí seo, cé nach bhfuil an bhrí eolaíochta 'folaigh' luaite leo."
+        "Úsáidtear an focal 'folach' toisc go mbíonn leabuithe / paraiméadair / srl folaigh 'i bhfolach' -- ní bhítear in ann a rá cad dó a sheasann siad toisc matamaitic na samhlacha ríomhfhoghlama a bheith ró-chasta lena bheith tuigthe go díreach ag dhaoine."
     ]
 }

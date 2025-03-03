@@ -3,7 +3,7 @@
     "part-of-speech": "ainmfhocal",
     "citation-form": "íosluach logánta",
     "def-en": "In the context of optimisation or machine learning, a value that is low compared to other values near it, but that may not be the lowest possible value (i.e. that may not be a global minimum).",
-    "def-ga": "I gcomhthéacs feabhsaithe nó ríomhfhoghlama, luach atá íseal i gcomparáid le luacha eile in éineacht leis, ach nach gcaithfidh se gurb é an luach is ísle ar féidir é a fháil (.i. nach gcaithfidh sé a bheith mar íoslauch uilíoch).",
+    "def-ga": "I gcomhthéacs feabhsaithe nó ríomhfhoghlama, luach atá íseal i gcomparáid le luacha eile in éineacht leis, ach nach gcaithfidh gurb é an luach is ísle ar féidir é a fháil (.i. ní chaithfidh sé a bheith mar íoslauch uilíoch).",
 
     "prov": {
         "íosluach": "féach ar an téarma 'minimum / íosluach'",

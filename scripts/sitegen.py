@@ -18,6 +18,7 @@ def load_terms():
     terms = {}
     term_files = glob.glob('../terms/*.json')
     for term_file in term_files:
+        print("loading", term_file)
         with open(term_file, 'r') as inp:
             term = json.load(inp)
             if term['term'] in terms:
@@ -85,7 +86,6 @@ def render_term(term):
         item = item.replace("storchiste", "Williams et al. (2023)")
 
         if "féach ar an téarma '" in item.lower():
-            # print(item)
             start = item.index("'")
             ref = item[(start + 1):]
             end = ref.index("'")
@@ -95,7 +95,7 @@ def render_term(term):
             ref = ref.replace(' ', '-')
             ref_file_path = ref + '.html'
             link_html = f"<a href='{ref_file_path}'>'{full_phrase}'</a>"
-            item = f"{item[:item.index("féach ar an téarma '")]}féach ar an téarma {link_html}."
+            item = f"{item[:item.index("féach ar an téarma '")]}féach ar an téarma {link_html}"
 
         prov_list_citations.append(item)
     render_str += unordered_list(prov_list_citations)
@@ -106,7 +106,6 @@ def render_term(term):
     notes = []
     for item in term["notes"]:
         if "féach ar an téarma '" in item.lower() or "féach chomh maith ar an téarma '" in item.lower():
-            # print(item)
             start = item.index("'")
             ref = item[(start + 1):]
             end = ref.index("'")
