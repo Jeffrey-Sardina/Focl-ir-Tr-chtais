@@ -2,8 +2,8 @@
     "term": "efficiency",
     "part-of-speech": "ainmfhocal",
     "citation-form": "éifeachtacht (ama, fhuinnimh)",
-    "def-en": "In the context of computer science, how effective a model is according to time take or energy used.",
-    "def-ga": "I gcomhthéacs ríomheolaíochta cé chomh maith is atá samhail nó próiseas ar thaobh an ama / úsáid fhuinnimh de.",
+    "def-en": "In the context of computer science, how effective a model is according to time taken or energy used.",
+    "def-ga": "I gcomhthéacs ríomheolaíochta, cé chomh maith is atá samhail nó próiseas ar thaobh an ama / úsáid fhuinnimh de.",
 
     "prov": {
         "éifeachtacht": "de-bhaldraithe, focloir-beag, odonaill"
