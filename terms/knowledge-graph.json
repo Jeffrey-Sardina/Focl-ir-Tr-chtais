@@ -6,11 +6,12 @@
     "def-ga": "Bunachar sonraí a shamhlaíonn eolas mar nóid agus na ceangail eatarthu. Bíonn lipéad ar chuile nód / ceangal, agus bíonn chuile cheangal dírithe.",
 
     "prov": {
-        "graf": "de-bhaldraithe, focloir-beag*, odonaill",
+        "graf": "féach ar an téarma 'graph / graf'",
         "eolas": "de-bhaldraithe, dineen, focloir-beag, odonaill"
     },
     "notes": [
         "* Cé go bhfuil 'graf' istigh sa bhFoclóir Beag, is i gcomhthéacs graif líne amháin a luaitear é.",
-        "Níl aistriúchán déanta ar an téarma seo cheana go bhfios don údar (fiú ar Tearma.ie). Cumtar téarma nua mar sin, as 'graf' agus as 'eolas' mar a cumadh i mBéarla é."
+        "Níl aistriúchán déanta ar an téarma seo cheana go bhfios don údar (fiú ar Tearma.ie). Cumtar téarma nua mar sin, as 'graf' agus as 'eolas' mar a cumadh i mBéarla é.",
+        "Féach chomh maith ar an téarma 'graph / graf'."
     ]
 }
