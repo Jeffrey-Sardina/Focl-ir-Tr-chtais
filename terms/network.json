@@ -2,13 +2,13 @@
     "term": "network",
     "part-of-speech": "ainmfhocal",
     "citation-form": "líonra",
-    "def-en": "a set of nodes and the connections between them.",
-    "def-ga": "tacar nód agus na gceangal eatarthu.",
+    "def-en": "A set of nodes and the connections between them.",
+    "def-ga": "Tacar ina bhfuil nóid agus na ceangail eatarthu.",
 
     "prov": {
         "líonra": "de-bhaldraithe, dineen, focloir-beag, odonaill"
     },
     "notes": [
-        "Téarma ar fáil go díreach sna foclóirí."
+        "Ní bhíonn 'líonra' luaite i gcomhthéacs ríomhaireachta sna foclóirí thuas, cé go mbíonn sé sa gcaint agus i litríocht chomhaimseartha leis an mbrí sin. Thairis sin, is sórt líonra é líonra néarach, cé nach líonra fisiceach é."
     ]
 }

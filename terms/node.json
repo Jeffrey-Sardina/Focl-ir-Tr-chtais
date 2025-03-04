@@ -2,13 +2,14 @@
     "term": "node",
     "part-of-speech": "ainmfhocal",
     "citation-form": "nód",
-    "def-en": "an element of a graph that represents a concept, being, or noun.",
-    "def-ga": "cuid de ghraf a chuireann coincheap, bí, nó ainmfhocal in iúl.",
+    "def-en": "An element of a graph that represents a concept, being, or noun.",
+    "def-ga": "Cuid de ghraf a chuireann coincheap, bí, nó ainmfhocal in iúl.",
 
     "prov": {
         "nód": "de-bhaldraithe, dineen*, focloir-beag*, odonaill"
     },
     "notes": [
-        "* Sna foclóirí seo, déantar tagairt don fhocal 'nód' mar nód i bplandaí (amháin) gan trácht ar comhthéacs níos leithne."
+        "* Sna foclóirí seo, déantar tagairt don fhocal 'nód' mar nód i bplandaí (amháin) gan trácht ar comhthéacs níos leithne.",
+        "Focal díreach ar fáil ó na foclóirí thuas."
     ]
 }

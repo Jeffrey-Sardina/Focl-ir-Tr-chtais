@@ -6,10 +6,11 @@
     "def-ga": "Cur chuige agus struchtúr ríomhfhoghlama bunaithe ar úsáid néaróg saorga.",
 
     "prov": {
-        "líonra": "de-bhaldraithe, dineen, focloir-beag, odonaill",
+        "líonra": "féach ar an téarma 'network / líonra'",
         "néarach": "féach ar an téarma 'neural / néarach'"
     },
     "notes": [
-        "Ní bhíonn 'líonra' luaite i gcomhthéacs ríomhaireachta sna foclóirí thuas, cé go mbíonn sé sa gcaint agus i litríocht chomhaimseartha leis an mbrí sin."
+        "Féach chomh maith ar an téarma 'network / líonra'.",
+        "Féach chomh maith ar an téarma 'neural / néarach'."
     ]
 }

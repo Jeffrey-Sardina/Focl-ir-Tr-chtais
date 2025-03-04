@@ -1,5 +1,5 @@
 {
-    "term": "negative",
+    "term": "negative (number)",
     "part-of-speech": "aidiacht",
     "citation-form": "diúltach",
     "def-en": "regarding a number, below 0.",
@@ -9,6 +9,9 @@
         "diúltach": "de-bhaldraithe, dineen, focloir-beag, odonaill"
     },
     "notes": [
-        "Téarma díreach ar fáil sna foclóirí."
+        "Téarma díreach ar fáil sna foclóirí thuas.",
+        "Níor cheart an téarma seo a úsáid chun trácht a dhéanamh ar 'negative samples' ná ar 'negative sampling' (srl).",
+        "Féach chomh maith ar an téarma 'negative (sample) / frith-shampla'.",
+        "Féach chomh maith ar an téarma 'negative sampler / frith-shamplóir'."
     ]
 }
