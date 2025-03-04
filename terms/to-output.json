@@ -2,15 +2,15 @@
     "term": "to output",
     "part-of-speech": "ainmfhocal",
     "citation-form": "cuir amach",
-    "def-en": "In the context of a system, process, or function, to give it data to be used to achieve an end (such as the calculation of a certain value).",
-    "def-ga": "I gcomhthéacs córais, próisis, nó feidhme, sonraí a tabhairt dó lena bheith úsáidte chun sprioc éigin a bhaint amach (m.sh. áireamh luach éigin).",
+    "def-en": "In the context of a system, process, or function, to get data as an output from it.",
+    "def-ga": "I gcomhthéacs córais, próisis, nó feidhme, sonraí a fháil mar aschur uaidh.",
 
     "prov": {
         "cuir amach": "de-bhaldraithe, focloir-beag, odonaill"
     },
     "notes": [
-        "Téarma a fáil le brí comhchosúil ó na foclóirí thuas",
-        "Tá go leor leor slite eile chun é seo a rá. Mar shampla, 'chuir an fheidhm X amach', 'is é X a bhí mar thoradh ar an bhfeidhm' 'bhí X curtha as an bhfeidhm', 'rinneadh an fheidhm X a chur amach', srl. Ní ann sa téarma thuas ach sampla amháin.",
+        "Téarma ar fáil le brí chomhchosúil ó na foclóirí thuas.",
+        "Tá go leor slite eile chun é seo a rá. Mar shampla, 'chuir an fheidhm X amach', 'is é X a bhí mar thoradh ar an bhfeidhm' 'bhí X curtha as an bhfeidhm', 'rinneadh an fheidhm X a chur amach', srl. Ní ann sa téarma thuas ach sampla amháin.",
         "Cé go ndéanann Foclóir Uí Dhuinín trácht ar an bhfrása seo, úsáideann sé i gcomhthéacsanna ar leith é.",
         "Féach chomh maith ar an téarma 'output / aschur'; tá samplaí ann chomh maith ar cé chaoi 'to input' a chur in iúl leis an téarma sin."
     ]

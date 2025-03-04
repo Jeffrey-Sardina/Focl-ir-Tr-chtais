@@ -2,8 +2,8 @@
     "term": "subject",
     "part-of-speech": "ainmfhocal",
     "citation-form": "ainmní",
-    "def-en": "in a triple $(s,p,o)$, the first node $s$ that acts as the head of the relationship $p$.",
-    "def-ga": "in abairt thriarach $(a,f,c)$, an chéad nód $a$ atá mar thús ag an gceangal $f$.",
+    "def-en": "in a triple $(s,p,o)$, the first node $s$ that acts as the head of the predicate $p$.",
+    "def-ga": "in abairt thriarach $(a,f,c)$, an chéad nód $a$ atá mar thús ag an bhfaisnéis $f$.",
 
     "prov": {
         "ainmfhocal": "de-bhaldraithe, dineen, focloir-beag, odonaill, storchiste"

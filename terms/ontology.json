@@ -2,13 +2,13 @@
     "term": "ontology",
     "part-of-speech": "ainmfhocal",
     "citation-form": "ointeolaíocht",
-    "def-en": "In the context of a knowledge Graph, a schema that describes the logical structure of the graph (such as which relations are transitive or symmetric).",
+    "def-en": "In the context of a knowledge graph, a schema that describes the logical structure of the graph (such as which relations are transitive or symmetric).",
     "def-ga": "I gcomhthéacs graif eolais, scéimre a chuireann in iúl struchtúr loighce an ghraif chéanna (m.sh. cé acu na ceangail atá aistreach nó siméadrach).",
 
     "prov": {
         "ointeolaíocht": "de-bhaldraithe, odonaill"
     },
     "notes": [
-        "Téarma ar fáil leis an mbrí chéanna (i gcomhthéacs níos ginearálta) sna foclóirí thuas."
+        "Téarma ar fáil leis an mbrí chéanna sna foclóirí thuas."
     ]
 }
