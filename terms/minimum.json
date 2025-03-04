@@ -2,8 +2,8 @@
     "term": "minimum",
     "part-of-speech": "ainmfhocal",
     "citation-form": "íosluach",
-    "def-en": "The highest value that can be obtained (for example, during the optimisation of a machine learning model).",
-    "def-ga": "An luach is airde gur féidir a fháil (mar shampla, le linn feabhsaithe samhla ríomhfhoghlama).",
+    "def-en": "The lowest value that can be obtained (for example, during the optimisation of a machine learning model).",
+    "def-ga": "An luach is ísle ar féidir a fháil (mar shampla, le linn feabhsaithe samhla ríomhfhoghlama).",
 
     "prov": {
         "íosluach": "de-bhaldraithe, focloir-beag, odonaill",
@@ -11,6 +11,6 @@
         "luach": "de-bhaldraithe, dineen, focloir-beag, odonaill, storchiste"
     },
     "notes": [
-        "Téarma luaite mar théarma matamaitice i bhFoclóir Uí Dhuinín agus i bhFoclóir De Bhaldraithe. Luaitear mé théarma (gan chomhthéacs léir) i bhFoclóir Uí Dhónaill agus Uí Mhaoileoin. Tá an dá chuid den téarma seo luaite le bríonna comhchosúla chomh maith sna foclóirí eile thuas."
+        "Téarma luaite mar théarma matamaitice i bhFoclóir Uí Dhónaill agus i bhFoclóir De Bhaldraithe. Luaitear é (gan chomhthéacs) chomh maith i bhFoclóir Uí Dhónaill agus Uí Mhaoileoin. Tá an dá chuid den téarma seo luaite le bríonna comhchosúla chomh maith sna foclóirí eile thuas."
     ]
 }

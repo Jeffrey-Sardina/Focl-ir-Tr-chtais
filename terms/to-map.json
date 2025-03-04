@@ -1,0 +1,15 @@
+{
+    "term": "to map",
+    "part-of-speech": "briathar",
+    "citation-form": "mapáil;",
+    "def-en": "In the context of computer science, to create a map / mapping.",
+    "def-ga": "I gcomhthéacs ríomheolaíochta, mapa a chruthú.",
+
+    "prov": {
+        "mapáil": "de-bhaldraithe, focloir-beag, odonaill"
+    },
+    "notes": [
+        "Luann na foclóirí thuas ar fad 'mapáil' i gcomhthéacs mapa den domhan. Cé nach in an comhthéacs céanna is atá i gceist anseo, tá glactar le 'mapáil' toisc gur glacadh le 'mapa' sa bhfoclóir seo.",
+        "Féach chomh maith ar an téarma 'mapping / mapa'."
+    ]
+}

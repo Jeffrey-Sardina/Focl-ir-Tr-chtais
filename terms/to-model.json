@@ -2,13 +2,14 @@
     "term": "to model",
     "part-of-speech": "ainmfhocal",
     "citation-form": "samhlaigh",
-    "def-en": "The process of creating a (machine learning or statistical) model, or the process of creating a data model",
-    "def-ga": "Samhail ríomhaireachta nó staitistiúil a chruthú, nó samhail sonraí a chruthú.",
+    "def-en": "To create a (machine learning or statistical) model, or to create a data model.",
+    "def-ga": "Samhail ríomhfhoghlama nó staitistiúil a chruthú, nó samhail shonraí a chruthú.",
 
     "prov": {
-        "samhlaigh": "de-bhaldraithe*, dineen*, focloir-beag*, odonaill*"
+        "samhlaigh": "de-bhaldraithe, dineen, focloir-beag, odonaill"
     },
     "notes": [
-        "Is i gcomhthéacs smaointeoireachta a luaitear an focal 'samhlaigh', seachas i gcomhthéacs ríomhaireachta ná matamaitice. Ach, toisc go nglactar le 'samhail' sa gcomhthéacs seo, glactar leis an mbriathar ''samhlaigh' atá ceangailte leis."
+        "Is i gcomhthéacs smaointeoireachta a luaitear an focal 'samhlaigh', seachas i gcomhthéacs ríomhaireachta / matamaitice, sna foclóirí thuas. Ach toisc go nglactar le 'samhail' i gcomhthéacs ríomhfhoghlama sa bhfoclóir seo, glactar leis an mbriathar 'samhlaigh' chomh maith.",
+        "Féach chomh maith ar an téarma 'model / samhail'."
     ]
 }
