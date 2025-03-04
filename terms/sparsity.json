@@ -1,12 +1,12 @@
 {
     "term": "sparsity",
     "part-of-speech": "ainmfhocal",
-    "citation-form": "éadlúth",
+    "citation-form": "éadlús",
     "def-en": "In the context of a knowledge graph (or subgraph), how sparse it is.",
     "def-ga": "I gcomhthéacs graif eolais (nó fo-ghraif), cé chomh éadlúth is atá sé.",
 
     "prov": {
-        "éadlúth": "de-bhaldraithe, odonaill"
+        "éadlús": "de-bhaldraithe, odonaill"
     },
     "notes": [
         "Luann Foclóir De Bhaldraithe agus Foclóir Uí Dhónaill an téarma seo  mar théarma eolaíochta i gcomhthéacs aeir / an t-atmaisféar, ach leis an mbrí chéanna.",
