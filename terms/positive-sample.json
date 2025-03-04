@@ -2,8 +2,8 @@
     "term": "positive (triple)",
     "part-of-speech": "ainmfhocal",
     "citation-form": "fíor-abairt (thriarach)",
-    "def-en": "In the context of knowledge graphs, a ground-truth triple from the KG for which various negatives are generated.",
-    "def-ga": "I gcomhthéacs graf eolais, abairt thriarach atá mar chuid den GE, agus a ndéantar frith-shamplaí dó.",
+    "def-en": "In the context of knowledge graphs, a ground-truth triple from the KG from which various negatives are generated.",
+    "def-ga": "I gcomhthéacs graf eolais, abairt thriarach atá mar chuid de GE, agus a ndéantar frith-shamplaí as.",
 
     "prov": {
         "abairt": "féach ar an téarma 'triple / abairt thriarach'",
@@ -11,7 +11,8 @@
         "fíor": "de-bhaldraithe, dineen, focloir-beag, odonaill"
     },
     "notes": [
-        "Úsáidtear frith-shampla toisc gurb in, go díreach, a bhfuil i gceist sa gcás seo.",
-        "Féach chomh maith ar an téarma 'counterexample / frith-shampla'"
+        "Ní bhaineann an téarma seo le huimhreacha deimhneacha, agus níor cheart an aidiacht 'deimhneach' a úsáid chun trácht ar fhíor-abairtí triaracha.",
+        "Féach chomh maith ar an téarma 'counterexample / frith-shampla'.",
+        "Féach chomh maith ar an téarma 'positive / deimhneach'."
     ]
 }

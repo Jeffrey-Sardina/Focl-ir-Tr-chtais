@@ -6,11 +6,10 @@
     "def-ga": "Feidhm a bhfuil pointe sonraí amháin mar ionchur aici.",
 
     "prov": {
-        "feidhm": "féach ar an téarma 'feidhm / function'",
+        "feidhm": "féach ar an téarma 'function / feidhm'",
         "pointe": "de-bhaldraithe, dineen, focloir-beag, odonaill, storchiste"
     },
     "notes": [
-        "Is é 'feidhm de' a úsáidtear chun trácht ar fheidhmeanna matamaitice, de réir Fhoclóir De Bhaldraithe.",
         "Féach ar an téarma 'function / feidhm'."
     ]
 }

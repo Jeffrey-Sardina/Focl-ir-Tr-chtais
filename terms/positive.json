@@ -1,5 +1,5 @@
 {
-    "term": "positive",
+    "term": "positive (of number)",
     "part-of-speech": "aidiacht",
     "citation-form": "deimhneach",
     "def-en": "regarding a number, above 0.",
@@ -9,6 +9,8 @@
         "deimhneach": "de-bhaldraithe, odonaill"
     },
     "notes": [
-        "Téarma ar fáil leis an mbrí chéanna sna foclóirí thuas."
+        "Téarma ar fáil leis an mbrí chéanna sna foclóirí thuas.",
+        "Níor cheart an téarma seo a úsáid chun trácht ar shamplaí atá fíor (.i. nach bhfuil mar fhrith-shamplaí).",
+        "Féach chomh maith ar an téarma 'positive (triple)' / fíor-abairt (thriarach)."
     ]
 }

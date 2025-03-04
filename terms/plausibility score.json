@@ -2,7 +2,7 @@
     "term": "plausibility score",
     "part-of-speech": "ainmfhocal",
     "citation-form": "scór inchreidteachta",
-    "def-en": "A number that represents the chance that something is true",
+    "def-en": "A number that represents the chance that something is true.",
     "def-ga": "Uimhhir a dhéanann cur síos ar an dóchúlacht go bhfuil rud fíor.",
 
     "prov": {
@@ -10,6 +10,7 @@
         "inchreidteacht": "féach ar an téarma 'plausibility / inchreidteacht'"
     },
     "notes": [
-        "Féach ar nótaí ar 'scór' agus ar 'inchreidteacht'"
+        "Féach ar an téarma 'score / scór'.",
+        "Féach chomh maith ar an téarma 'plausibility / inchreidteacht'."
     ]
 }

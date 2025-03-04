@@ -2,14 +2,14 @@
     "term": "parameter",
     "part-of-speech": "ainmfhocal",
     "citation-form": "paraiméadar",
-    "def-en": "In the context of a machine learning mode, a learnable numerical value that changes during the training process. Choosing better parameters for a model improves the model's 'learned understanding' (so to speak).",
-    "def-ga": "I gcomhthéacs samhla ríomhfhoghlama, luach uimhriúil in-fhoghlama a bhíonn ag athrú le linn an próiseas traenála. Is ionann paraiméadar níos fearr a roghnú do samhail, agus 'tuiscint fhoghlamtha' (mar dhea) na samhla céanna a chur chun cinn.",
+    "def-en": "In the context of a machine learning mode, a learnable numerical value that changes during the training process. Choosing better parameters for a model improves the model's performance.",
+    "def-ga": "I gcomhthéacs samhla ríomhfhoghlama, luach uimhriúil in-fhoghlama a bhíonn ag athrú le linn an phróisis thraenála. Is ionann paraiméadair níos fearr a roghnú do shamhail agus éifeachtacht na samhla a chur chun cinn.",
 
     "prov": {
         "pharaiméadar": "de-bhaldraithe, odonaill"
     },
     "notes": [
-        "Téarma díreach ar fáil ó na foclóirí thuas i gcomhthéacs cosúil go leor.",
+        "Téarma díreach ar fáil ó na foclóirí thuas i gcomhthéacs comhchosúil.",
         "Is ionann paraiméadar agus ualach infhoghlamtha."
     ]
 }
