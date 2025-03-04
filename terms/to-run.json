@@ -3,7 +3,7 @@
     "part-of-speech": "briathar",
     "citation-form": "cuir ar siúl",
     "def-en": "In the context of computer science, to begin a process.",
-    "def-ga": "I gcomhthéacs ríomheolaíochta, próiseas a chur ar siúl.",
+    "def-ga": "I gcomhthéacs ríomheolaíochta, próiseas a thosú.",
 
     "prov": {
         "cuir ar siúl": "de-bhaldraithe, odonaill'",
@@ -11,7 +11,7 @@
     },
     "notes": [
         "Tá go leor téarmaí eile ar féidir (agus ar ceart) iad a úsáid chomh maith: tosaigh, próiseáil, cuir ar siúl, cuir ar bun, srl. Níl cúis ar bith gan iad sin a úsáid más fearr leat iad. Tugtar sampla amháin thuas ní toisc gurb é is fearr, ach toisc gur rogha mhaith amháin atá ann.",
-        "Tá 'rith' ar Tearma.ie agus, de réir Fhoclóir Uí Dhónaill, is cosúil gur féidir é a úsaid sa gcomhthéacs seo chomh maith. SIn ráite, tá 'cuir ar siúl' luaite thuas toisc go cloíonn sé leis an téarma 'running / ar siúl' (agus toisc nach bhfuil fianaise i bhfoclóir dúchasach ar bith an féidir 'ag rith', nó mar sin, a úsáid).",
+        "Tá 'rith' ar Tearma.ie agus, de réir Fhoclóir Uí Dhónaill, is cosúil gur féidir é a úsaid sa gcomhthéacs seo chomh maith. Sin ráite, tá 'cuir ar siúl' luaite thuas toisc go cloíonn sé leis an téarma 'running / ar siúl' (agus toisc nach bhfuil fianaise i bhfoclóir dúchasach ar bith faoi an féidir 'ag rith', nó mar sin, a úsáid).",
         "Féach chomh maith ar an téarma 'running / ar siúl'"
     ]
 }

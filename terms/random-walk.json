@@ -6,7 +6,8 @@
     "def-ga": "I gcomhthéacs siúlóid ar graf, siúlóid air a dhéantar go randamach.",
 
     "prov": {
-        "siúlóid": "féach ar an téarma 'walk / siúlóid'"
+        "siúlóid": "féach ar an téarma 'walk / siúlóid'",
+        "fánach": "féach ar an téarma 'random sample / sampla fánach'"
     },
     "notes": [
         "Tá 'fánach' bainteach go díreach lena bheith ag bogadh. Thairis sin, bíonn sé bainteach le rudaí randamacha (m.sh. sampla fánach). Is sórt sampla fánach é siúlóid fhánach -- sampla a thógtar de nóid an ghraif. Mar sin, úsáidtear 'siúlóid fhánach' seachas 'siúlóid randamach' anseo, cé go bhfuil ciall leo araon.",
