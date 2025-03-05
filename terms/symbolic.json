@@ -3,13 +3,13 @@
     "part-of-speech": "aidiacht",
     "citation-form": "siombalach",
     "def-en": "In the context of logic,relating to symbols, or based on the use of symbols.",
-    "def-ga": "I gcomhthéacs loighce, bainteach le siombailí, nó bunaithe ar úsáid siombailí.",
+    "def-ga": "I gcomhthéacs loighce, bainteach le siombailí, nó bunaithe ar úsáid shiombailí.",
 
     "prov": {
         "siombalach": "de-bhaldraithe, focloir-beag, odonaill"
     },
     "notes": [
-        "Téarma díreach ar fáil le brí chomhchosúil",
+        "Téarma díreach ar fáil le brí chomhchosúil.",
         "Féach chomh maith ar an téarma 'symbol / siombail'."
     ]
 }

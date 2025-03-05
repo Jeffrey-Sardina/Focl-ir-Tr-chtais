@@ -3,13 +3,13 @@
     "part-of-speech": "ainmfhocal",
     "citation-form": "siméadracht",
     "def-en": "The property of being symmetric.",
-    "def-ga": "An t-airí a bhaineann le bheith siméadrach.",
+    "def-ga": "An t-airí a bhaineann lena bheith siméadrach.",
 
     "prov": {
         "siméadrach": "de-bhaldraithe, odonaill"
     },
     "notes": [
-        "Téarma díreach ar fáil le brí chomhchosúil",
+        "Téarma díreach ar fáil le brí chomhchosúil.",
         "Féach chomh maith ar an téarma 'symmetric / siméadrach'."
     ]
 }
