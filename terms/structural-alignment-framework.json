@@ -2,8 +2,8 @@
     "term": "structural alignment framework",
     "part-of-speech": "ainmfhocal",
     "citation-form": "creatlach ailínithe struchtúir",
-    "def-en": "The central hypothesis of this thesis, which states that there is alignment between the structure of a knowledge graph and how well link prediction can be done on it.",
-    "def-ga": "An hipitéis taobh thiar den tráchtas seo, a deir go bhfuil ailíniú idir struchtúr graif eolais agus cé chomh maith agus is féidir réamhinsint nasc a dhéanamh air.",
+    "def-en": "The framework that is the core result of this thesis, which is a result of the predictions of the structural alignment hypothesis.",
+    "def-ga": "An chreatlach atá mar phríomh-thoradh ar an tráchtas seo, a dhéantar trí réamhinsintí na hipitéise ar ailiniú struchtúir a chur i bhfeidhm.",
 
     "prov": {
         "creatlach": "féach ar an téarma 'framework / creatlach'",
@@ -11,6 +11,9 @@
         "struchtúr": "féach ar an téarma 'structure / struchtúr'"
     },
     "notes": [
-        "Téarma cruthaithe as téarmaí eile anseo (agus as 'hipitéis', atá luaite sa gcomhthéacs céanna sna foclóirí thuas)."
+        "Téarma cruthaithe as téarmaí eile anseo.",
+        "Féach chomh maith ar an téarma 'framework / creatlach'.",
+        "Féach chomh maith ar an téarma 'alignment / ailíniú'.",
+        "Féach chomh maith ar an téarma 'structure / struchtúr'."
     ]
 }

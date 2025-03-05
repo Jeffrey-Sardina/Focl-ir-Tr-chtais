@@ -6,7 +6,7 @@
     "def-ga": "Feidhm a bhfuil tacar pointí sonraí mar ionchur aici.",
 
     "prov": {
-        "feidhm": "féach ar an téarma 'feidhm / function'",
+        "feidhm": "féach ar an téarma 'function / feidhm'",
         "tacar": "féach ar an téarma 'set / tacar'",
         "pointe": "féach ar an téarma 'pointwise function / feidhm de phointe'"
     },

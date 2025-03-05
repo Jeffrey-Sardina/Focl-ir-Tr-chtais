@@ -2,14 +2,14 @@
     "term": "to sample",
     "part-of-speech": "briathar",
     "citation-form": "sampláil",
-    "def-en": "the process of taking a sample.",
-    "def-ga": "sampla a thógáil.",
+    "def-en": "To take a sample.",
+    "def-ga": "Sampla a thógáil.",
 
     "prov": {
         "sampla": "de-bhaldraithe, dineen, focloir-beag, odonaill, storchiste"
     },
     "notes": [
-        "Tá an téarma seo (i gcomhthéacs chomhchosúil ach níos leithne) díreach ar fáil ó na foclóirí thuas.",
+        "Tá an téarma seo (i gcomhthéacs comhchosúil ach níos leithne) díreach ar fáil ó na foclóirí thuas.",
         "Úsáideann Stórchiste 'sampláil' mar théarma matamaitice."
     ]
 }

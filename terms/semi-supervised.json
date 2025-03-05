@@ -3,14 +3,14 @@
     "part-of-speech": "aidiacht",
     "citation-form": "faoi leath-mhaoirseacht",
     "def-en": "In the context of machine learning, trained on input data that is sometimes, but not always, linked to expected output labels / values.",
-    "def-ga": "I gcomhthéacs ríomhfhoghlama, traenáilte ar sonraí ionchur a bhfuil lipéad / luacha aschur nasctha leo uaireanta, ach ní i gcónaí.",
+    "def-ga": "I gcomhthéacs ríomhfhoghlama, traenáilte ar shonraí ionchur a bhfuil na lipéid / luacha aschuir chearta nasctha leo uaireanta, ach ní i gcónaí.",
 
     "prov": {
         "leath-": "de-bhaldraithe, dineen, focloir-beag, odonaill",
         "maoirseacht": "féach ar an téarma 'supervised / faoi mhaoirseacht'"
     },
     "notes": [
-        "Luann Foclóir De Bhaldraithe trí réimír ar leith i gcomhair 'semi-': leath-, breac-, agus scoth-. Sin ráite, ní fheictear ach 'leath-' i gcomhthéacs matamaitice. Thairis sin, is féidir 'leath-' a úsáid ní hamháin chun 'half' a chur in iúl, ach chun 'partial' a chur in iúl chomh maith. Sin an-tábhachtach, toisc gurb in atá i gceist le 'semi-supervised' ná go bhfuil cuid de na sonraí ionchuir gan lipéad / luach aschur (nach ionann ach leathchuid acu go díreach i gcónaí). Toisc go bhfuil ciall le 'leath-' fós sa gcomhthéacs sin, agus toisc é a bheith úsáidte go minic cheana i gcúrsaí matamaitice, glactar leis mar théarma.",
+        "Luann Foclóir De Bhaldraithe trí réimír ar leith i gcomhair 'semi-': leath-, breac-, agus scoth-. Sin ráite, ní fheictear ach 'leath-' i gcomhthéacs matamaitice. Thairis sin, is féidir 'leath-' a úsáid ní hamháin chun 'half' a chur in iúl, ach chun 'partial' a chur in iúl chomh maith. Sin an-tábhachtach, toisc gurb in atá i gceist le 'semi-supervised' ná go bhfuil cuid de na sonraí ionchuir gan lipéad / luach aschur (nach ionann ach leathchuid acu go díreach i gcónaí). Toisc go bhfuil ciall le 'leath-' fós sa gcomhthéacs sin, agus toisc é a bheith úsáidte go minic cheana i gcúrsaí matamaitice, glactar leis.",
         "Féach ar an téarma 'supervised / faoi mhaoirseacht'.",
         "Féach ar an téarma 'supervision / maoirseacht'."
     ]

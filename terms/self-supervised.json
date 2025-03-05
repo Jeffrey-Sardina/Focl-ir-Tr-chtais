@@ -3,14 +3,14 @@
     "part-of-speech": "aidiacht",
     "citation-form": "faoi fhéin-mhaoirseacht",
     "def-en": "In the context of machine learning, trained in such a way that expected output labels / values are created from the training data (for example, by removing a word from a sentence and then attempting to fill the blank in the sentence using a machine learning model).",
-    "def-ga": "I gcomhthéacs ríomhfhoghlama, traenáilte i gcaoi a chruthaíonn lipéid / luacha aschuir chearta ó na sonraí ionchur (mar shampla, trí focal a bhaint as abairt, agus i ndiaidh sin iarracht a dhéanamh as an bearna sin san abairt a líonadh le réamhinsint ón tsamhail fhoghlama.",
+    "def-ga": "I gcomhthéacs ríomhfhoghlama, traenáilte i gcaoi a chruthaíonn lipéid / luacha aschuir chearta ó na sonraí ionchuir (mar shampla, trí focal a bhaint as abairt, agus i ndiaidh sin iarracht a dhéanamh as an bearna sin san abairt a líonadh le réamhinsint ón tsamhail fhoghlama).",
 
     "prov": {
         "féin-": "de-bhaldraithe, dineen*, focloir-beag, odonaill",
         "maoirseacht": "féach ar an téarma 'supervised / faoi mhaoirseacht'"
     },
     "notes": [
-        "Ní bhíonn 'féin-' luaite mar réimír i bhFoclóir Uí Dhuinín.",
+        "* Ní bhíonn 'féin-' luaite mar réimír i bhFoclóir Uí Dhuinín.",
         "Féach ar an téarma 'supervised / faoi mhaoirseacht'.",
         "Féach ar an téarma 'supervision / maoirseacht'."
     ]

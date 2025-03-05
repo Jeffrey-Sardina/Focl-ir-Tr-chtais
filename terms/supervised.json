@@ -6,14 +6,12 @@
     "def-ga": "I gcomhthéacs ríomhfhoghlama, traenáilte le sonraí ionchuir agus lena bhfuiltear as súil leis mar aschur (m.sh. íomhánna de chait agus de mhadraí, agus lipéad 'cat' nó 'madra' ar gach uile íomhá ann chun ligean don chóras ríomhfhoghlama a fháil amach an luíonn a aschur féin leis an bhfírinne).",
 
     "prov": {
-        "maoirseacht": "de-bhaldraithe, dineen*, focloir-beag, odonaill"
+        "maoirseacht": "de-bhaldraithe, focloir-beag, odonaill"
     },
     "notes": [
-        "* Cé go bhfuil an téarma seo i bhFoclóir Uí Dhuinín, is i gcomhthéacs eile (neamhchosúil) atá sé.",
-        "Luann Foclóir Uí Dhónaill 'maoirseacht' i gcomhthéacs an-chosúil lena bhfuil de dhíth anseo: 'maoirseacht a dhéanamh ar obair, to supervise work.' Is léir nach ag trácht ar chórais ríomhfhoghlama atá sé. Cé is moite de sin, más cuí 'maoirseacht' i gcomhthéacs oibre duine, is cosúil gur cuí i gcomhthéacs oibre ríomhaire é chomh maith.",
-        "Tá cúpla roghanna eile ann don téarma seo -- stiúrtha agus riartha. Is léir ó Fhoclóir Uí Dhónaill go bhfuil an briathar 'riar' níos ceangailte le riar dlí / gnóthaí / srl, seachas le maoirseacht de shórt éigin a dhéantar ar obair chóras ríomhfhoghlama. Ina theannta sin, baineann 'stiúir' mar bhriathar le rudaí a dhíriú nó a threorú, seachas le maoirseacht ar obair. Ní ghlactar leis an téarma sin ach an oireadh mar sin.",
+        "Luann Foclóir Uí Dhónaill 'maoirseacht' i gcomhthéacs an-chosúil lena bhfuil de dhíth anseo: 'maoirseacht a dhéanamh ar obair, to supervise work.' Is léir nach ag trácht ar chórais ríomhfhoghlama atá sé, áfach. Cé is moite de sin, más cuí 'maoirseacht' i gcomhthéacs oibre duine, is cosúil gur cuí i gcomhthéacs oibre ríomhaire é chomh maith.",
+        "Tá cúpla roghanna eile ann don téarma seo -- stiúrtha agus riartha. Is léir ó Fhoclóir Uí Dhónaill go bhfuil an briathar 'riar' níos ceangailte le riar dlí / gnóthaí / srl, seachas le maoirseacht de shórt éigin a dhéantar ar obair chóras ríomhfhoghlama. Ina theannta sin, baineann 'stiúir' mar bhriathar le rudaí a dhíriú nó a threorú, seachas le maoirseacht ar obair.",
         "Níl an téarma seo le fáil ar Tearma.ie i gcomhthéacs ríomhfhoghlama ag uair á chumtha anseo (cé go bhfuil sé ann i gcomhthéacsanna eile ann). Tá idir 'faoi mhaoirseacht' agus 'maoirsithe' ar Tearma.ie. Ní ghlactar le 'maoirsithe' toisc nach bhfuil fianaise ann don fhocal sin i bhfoclóir dúchasach ar bith.",
-        "Nuair is é an coincheap atá i gceist, ba cheart 'maoirseacht' (seachas 'faoi mhaoirseacht') a úsáid.",
         "Féach chomh maith ar an téarma 'supervision / maoirseacht'."
     ]
 }

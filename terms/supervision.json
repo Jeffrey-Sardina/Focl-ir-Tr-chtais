@@ -2,7 +2,7 @@
     "term": "supervision",
     "part-of-speech": "aidiacht",
     "citation-form": "maoirseacht",
-    "def-en": "In the context of machine learning, how a model is trained according to its input data",
+    "def-en": "In the context of machine learning, how a model is trained according to its input data.",
     "def-ga": "I gcomhthéacs ríomhfhoghlama, cén chaoi a dhéantar samhail a thraenáil de réir na sonraí ionchuir atá aici.",
 
     "prov": {
@@ -10,7 +10,7 @@
     },
     "notes": [
         "Más é 'semi-supervision' atá i gceist, úsáid 'leath-mhaoirseacht'. Más é 'self-supervision' atá i gceist, úsáid 'féin-mhaoirseacht'.",
-        "Féach ar an téarma 'supervised / faoi mhaoirseacht'.",
+        "Féach ar an téarma 'supervised / faoi mhaoirseacht'. Muna bhfuil maoirseacht ann le linn thraenála, úsáid 'gan mhaoirseacht'.",
         "Féach ar an téarma 'unsupervised / gan mhaoirseacht'.",
         "Féach ar an téarma 'semi-supervised / faoi leath-mhaoirseacht'.",
         "Féach ar an téarma 'self-supervised / faoi fhéin-mhaoirseacht'."

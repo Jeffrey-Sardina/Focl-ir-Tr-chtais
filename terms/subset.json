@@ -2,8 +2,8 @@
     "term": "subset",
     "part-of-speech": "ainmfhocal",
     "citation-form": "fo-thacar",
-    "def-en": "S set whose elements come from another set (or sets), and which only contains those elements.",
-    "def-ga": "Tacar a dhéantar as baill ó tacar (nó tacair) eile, nach bhfuil ann ach baill ó na tacair sin.",
+    "def-en": "A set whose elements come from another set (or sets), and which only contains those elements.",
+    "def-ga": "Tacar a dhéantar as baill ó tacar (nó tacair) eile, agus nach bhfuil ann ach baill ó na tacair sin.",
 
     "prov": {
         "fo-": "de-bhaldraithe, focloir-beag, odonaill",
@@ -11,7 +11,8 @@
         "fo-thacar": "odonaill"
     },
     "notes": [
-        "Téarmaí díreach ar fáil le bríonna chomhchosúla. Tá an téarma seo le fáil go díreach sa gcomhthéacs céanna i bhFoclóir Uí Dhónaill.",
+        "Téarmaí díreach ar fáil le bríonna chomhchosúla.",
+        "Tá an téarma 'fo-thacar' le fáil go díreach i gcomhthéacs matamaiticiúil i bhFoclóir Uí Dhónaill.",
         "Féach chomh maith ar an téarma 'set / tacar'."
     ]
 }
