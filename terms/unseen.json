@@ -1,15 +1,14 @@
 {
     "term": "unseen",
     "part-of-speech": "aidiacht",
-    "citation-form": "neamh-fheicthe",
+    "citation-form": "gan feiceáil",
     "def-en": "In the context of a dataset (such as the testing / validation set), not being used / seen during the training phase of a machine learning model.",
-    "def-ga": "I gcomhthéacs tacar sonraí (m.sh. tacar teisteála / deimhnithe), gan a bheith úsáidte / feicthe le linn an próiseas traenála a dhéantar ar shamhail ríomhfhoghlama.",
+    "def-ga": "I gcomhthéacs tacar sonraí (m.sh. tacar teisteála / deimhnithe), gan a bheith úsáidte / feicthe le linn an phróisis thraenála ar shamhail ríomhfhoghlama.",
 
     "prov": {
-        "neamh-": "de-bhaldraithe, dineen, focloir-beag, odonaill",
-        "feic": "de-bhaldraithe, dineen, focloir-beag, odonaill"
+        "gan feiceáil": "de-bhaldraithe, odonaill"
     },
     "notes": [
-        "Tá téarmaí eile luaite leis an mbrí chéanna i bhFoclóir De Bhaldraithe (.i. gan feiceáil, gan radhairc air) a bheadh oiriúnach chomh maith. Meastar gurb é is léire, áfach, ná 'neamh-fheicthe' sa gcomhthéacs sainmhínithe seo."
+        "Téarma iomlán ar fáil ó na foclóirí thuas."
     ]
 }

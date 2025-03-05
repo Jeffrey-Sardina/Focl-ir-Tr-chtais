@@ -2,13 +2,13 @@
     "term": "union",
     "part-of-speech": "ainmfhocal",
     "citation-form": "aontas",
-    "def-en": "In the context of two or more sets, the set of elements contained in all those sets.",
-    "def-ga": "I gcomhthéacs dhá thacar (nó níos mó) tacar na mball atá sna tacar sin ar fad.",
+    "def-en": "In the context of two or more sets, the set of elements contained in at least one of those sets.",
+    "def-ga": "I gcomhthéacs dhá thacar (nó níos mó) tacar na mball in ar a laghad tacar amháin acu.",
 
     "prov": {
         "aontas": "odonaill"
     },
     "notes": [
-        "Téarma le fáil i bhFoclóir Uí Dhónaill leis an mbrí cheannann céanna (.i. tacair) atá in gceist anseo."
+        "Téarma le fáil i bhFoclóir Uí Dhónaill leis an mbrí cheannann chéanna."
     ]
 }

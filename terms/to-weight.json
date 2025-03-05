@@ -2,8 +2,8 @@
     "term": "to weight",
     "part-of-speech": "briathar",
     "citation-form": "ualaigh",
-    "def-en": "In the context of machine learning or mathematics, to apply a numerical weight to an expression, number or other thing.",
-    "def-ga": "I gcomhthéacs ríomhfhoghlama nó matamaiticiúil, ualach a chur le slonn, le huimhir, nó le ní eile.",
+    "def-en": "In the context of machine learning or mathematics, to apply a numerical weight to an expression or value.",
+    "def-ga": "I gcomhthéacs ríomhfhoghlama nó matamaiticiúil, ualach a chur le slonn nó le luach.",
 
     "prov": {
         "ualaigh": "de-bhaldraithe, odonaill, storchiste"

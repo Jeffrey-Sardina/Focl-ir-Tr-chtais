@@ -3,7 +3,7 @@
     "part-of-speech": "aidiacht",
     "citation-form": "gan mhaoirseacht",
     "def-en": "In the context of machine learning, trained on input data without any examples of what is expected as output. For example, when performing clustering, input points are given, but no information on their labels / classes are given.",
-    "def-ga": "I gcomhthéacs ríomhfhoghlama, traenáilte ar sonraí ionchur gan samplaí ar bith dá bhfuiltear ag súil leis mar aschur. Mar shampla, nuair a dhéantar aicmiú ionduchtach, bíonn pointí ionchur ann, ach ní bhíonn lipéad / aicme na bpointe ar fáil roimh ré.",
+    "def-ga": "I gcomhthéacs ríomhfhoghlama, traenáilte ar shonraí ionchuir gan samplaí ar bith dá bhfuiltear ag súil leis mar aschur. Mar shampla, nuair a dhéantar aicmiú ionduchtach, bíonn pointí ionchur ann, ach ní bhíonn lipéad / aicme cheart na bpointe ar fáil roimh ré.",
 
     "prov": {
         "maoirseacht": "féach ar an téarma 'supervised / faoi mhaoirseacht'"

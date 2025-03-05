@@ -2,8 +2,8 @@
     "term": "topology",
     "part-of-speech": "ainmfhocal",
     "citation-form": "toipeolaíocht",
-    "def-en": "In the context of a graph, a mathematical description of how its nodes are connected; or, the field of mathematical study based on analysis of graph structure.",
-    "def-ga": "I gcomhthéacs graif, cur síos matamaiticiúil ar cé chaoi an bhíonn a nóid ceangailte lena chéile; nó, réimse staidéir matamaitice bunaithe ar an anailísíocht ar struchtúr graf.",
+    "def-en": "In the context of a graph, a mathematical description of how its nodes are connected; or, the field of mathematical study of the analysis of graph structure.",
+    "def-ga": "I gcomhthéacs graif, cur síos matamaiticiúil ar cé chaoi an bhíonn a chuid nód ceangailte lena chéile; nó, réimse staidéir matamaitice bunaithe ar anailísíocht ar struchtúr graf.",
 
     "prov": {
         "toipeolaíocht": "odonaill"
