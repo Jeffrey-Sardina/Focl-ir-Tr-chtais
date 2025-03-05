@@ -286,9 +286,9 @@ def get_header():
                     urlcolor=blue
                 }}
 
-                \\title{{Focloir-Trachtais v{version}}}
+                \\title{{Focloir Tráchtais v{version}}}
                 \\author{{Jeffrey Seathrún Sardina}}
-                \\date{{Feabhra 2025}}
+                \\date{{Márta 2025}}
 
                 % setup bibliography
                 \\usepackage[
@@ -388,7 +388,7 @@ def main():
     print(f"Wrote {num_terms} terms to {out_file}")
 
 if __name__ == '__main__':
-    version = '1.2'
+    version = '1.3'
 
     #defaults
     DEBUG = False
