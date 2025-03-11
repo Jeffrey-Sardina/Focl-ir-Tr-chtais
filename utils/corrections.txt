@@ -2,3 +2,5 @@ Not checked since last major revision:
 source-code.json
 open-source.json
 ablation.json
+open-world-assumption.json
+closed-world-assumption.json
