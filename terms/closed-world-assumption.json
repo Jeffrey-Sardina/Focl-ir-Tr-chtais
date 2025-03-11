@@ -1,0 +1,19 @@
+{
+    "term": "Closed World Assumption",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "Foshuíomh an Domhain Dhúnta",
+    "def-en": "In the context of knowledge graphs, the assumption that says that all facts in the domain of the knowledge graph are already in it.",
+    "def-ga": "I gcomhthéacs graf eolais, an foshuíomh a deir go bhfuil gach uile fhíric ina réimse ann sa ngraf eolais cheana",
+
+    "prov": {
+        "foshuíomh": "féach ar an téarma 'assumption / foshuíomh'",
+        "domhain": "féach ar an téarma 'Open World Assumption / Foshuíomh an Domhain Oscailte'",
+        "oscail": "féach ar an téarma 'Open World Assumption / Foshuíomh an Domhain Oscailte'"
+    },
+    "notes": [
+        "Is é 'oscailt' seachas 'oscail' atá i bhFoclóir Uí Dhuinín agus Uí Mhaoileoin.",
+        "Is é 'foscail' seachas 'oscail' atá i bhFoclóir Uí Dhuinín', ach glactar leis gurb in an focal céanna.",
+        "Féach chomh maith ar an téarma 'assumption / foshuíomh'.",
+        "Féach chomh maith ar an téarma 'Open World Assumption / Foshuíomh an Domhain Oscailte'"
+    ]
+}

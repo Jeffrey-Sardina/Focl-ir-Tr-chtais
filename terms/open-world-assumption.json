@@ -1,0 +1,20 @@
+{
+    "term": "Open World Assumption",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "Foshuíomh an Domhain Oscailte",
+    "def-en": "In the context of knowledge graphs, the assumption that says that there are many facts in the domain of a knowledge graph which are not in the knowledge graph because most facts about the world remain undiscovered.",
+    "def-ga": "I gcomhthéacs graf eolais, an foshuíomh a deir go bhfuil líon mór fíricí i réimse graif eolais nach bhfuil sa ngraf eolais toisc go bhfuil i bhfad níos mó fíricí sa domhan nach bhfuil tuiscint againn fós orthu.",
+
+    "prov": {
+        "foshuíomh": "féach ar an téarma 'assumption / foshuíomh'",
+        "domhain": "de-bhaldraithe, dineen, focloir-beag, odonaill",
+        "oscail": "de-bhaldraithe, dineen, focloir-beag*, odonaill"
+    },
+    "notes": [
+        "Is é 'oscailt' seachas 'oscail' atá i bhFoclóir Uí Dhuinín agus Uí Mhaoileoin.",
+        "Is é 'foscail' seachas 'oscail' atá i bhFoclóir Uí Dhuinín', ach glactar leis gurb in an focal céanna.",
+        "Úsáidtear 'domhan' chun trácht ar 'dhomhan na bhfíricí uile' -- sin le rá, chun trácht ar chuile fhíric atá ann (i réimse éigin). Ní luaitear an bhrí seo go minic le 'domhain' i nGaeilge, ach tá brí cosúil go leor leis le feiceáil i bhFoclóir Uí Dhuinín: 'Slua, eolas, acmhainn, an domhain, vast crowd, knowledge, resources'. Is féidir nach téarma foirfe é seo -- ach ní léir go mbeadh téarma comhchiallach eile (m.sh. cruinne) níos fearr.",
+        "Bheadh ciall éigin ag dul le 'Foshuíomh an Eolais Oscailte' nó 'Foshuíomh na bhFíricí Oscailte', ach tá fadhb leo siúd -- ní hé go mbíonn na fíricí / an t-eolas oscailte, agus go mbíonn líon na bhfíricí uile (nó, 'domhan' na bhfíricí) oscailte.",
+        "Féach chomh maith ar an téarma 'assumption / foshuíomh'."
+    ]
+}
