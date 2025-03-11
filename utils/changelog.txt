@@ -1,3 +1,6 @@
+v 1.3 / 1.4 alfa to 1.4
+- XX new terms (now is YY, was 236 terms)
+
 v1.2 / v1.3 alfa to v1.3
 - 40 new terms (now is 236, was 196 terms)
 - full revision of all terms, including the correction of many minor errors (such as typos and formatting issues)
