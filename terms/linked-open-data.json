@@ -8,12 +8,12 @@
     "prov": {
         "sonra": "féach ar an téarma 'database / bunachar sonraí'",
         "nasc": "féach ar an téarma 'link prediction (LP) / réamhinsint nasc (RN)'",
-        "saor-": "de-bhaldraithe, dineen, focloir-beag, odonaill",
-        "rochtain": "de-bhaldraithe, dineen, odonaill"
+        "saor-rochtana": "féach ar an téarma 'open source / saor-rochtana'"
     },
     "notes": [
-        "Is é 'saor-rochtana' a roghnaíodh anseo, seachas 'oscailte' toisc go bhfuil oscailte' ró-litriúil. An bhrí atá leis seo ná go bhfuil rochtain saor ar na sonraí -- agus mar sin is léire agus is simplí 'saor-rochtana' ná 'oscailte'.",
-        "Is é 'saor-rochtana' atá ar Tearma.ie. Glactar leis sin toisc go gcloíonn sé le sampla na bhfoclóirí dúchasacha.",
-        "Féach chomh maith ar an téarma 'linked data (LD) / sonraí nasctha (SN)'."
+        "Is é 'sonraí nasctha saor-rochtana' atá ar Tearma.ie. Glactar leis sin toisc go gcloíonn sé le sampla na bhfoclóirí dúchasacha.",
+        "Féach chomh maith ar an téarma 'linked data (LD) / sonraí nasctha (SN)'.",
+        "Féach chomh maith ar an téarma 'linked data (LD) / sonraí nasctha (SN)'.",
+        "Féach chomh maith ar an téarma 'open source / saor-rochtana'."
     ]
 }

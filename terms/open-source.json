@@ -1,0 +1,16 @@
+{
+    "term": "open source",
+    "part-of-speech": "aidiacht",
+    "citation-form": "saor-rochtana",
+    "def-en": "In the context of a project or publication, publicly and freely available and not under a private license.",
+    "def-ga": "I gcomhthéacs tionscadail nó foilseacháin ar fáil go poiblí agus eile saor in aisce agus gan ceadúnas príobháideach.",
+
+    "prov": {
+        "saor-": "de-bhaldraithe, dineen, focloir-beag, odonaill",
+        "rochtain": "de-bhaldraithe, dineen, odonaill"
+    },
+    "notes": [
+        "Is é 'saor-rochtana' a roghnaíodh anseo, seachas 'oscailte', toisc go bhfuil 'oscailte' ró-litriúil. An bhrí atá leis seo ná go bhfuil rochtain saor air -- agus mar sin is léire agus is simplí 'saor-rochtana' ná 'oscailte'.",
+        "Is é 'oscailte' seachas 'saor-rochtana' atá ar Tearma.ie os a chomhair seo. Sin ráite, is é 'sonraí nasctha saor-rochtana' atá ar Tearma.ie chun trácht a dhéanamh ar 'linked open data' -- agus níl sé cinnte cén fáth a roghnaigh siad 'oscailte' i gcás amháin agus 'saor-rochtana' i gcás eile."
+    ]
+}

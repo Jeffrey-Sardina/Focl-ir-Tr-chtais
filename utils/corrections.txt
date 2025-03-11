@@ -1,1 +1,4 @@
-https://focloir-riomheolaiochta.github.io/terms/to-test.html
+Not checked since last major revision:
+source-code.json
+open-source.json
+ablation.json
