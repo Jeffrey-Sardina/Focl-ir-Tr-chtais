@@ -1,0 +1,16 @@
+{
+    "term": "adjacency matrix",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "maitrís chóngarachta",
+    "def-en": "In the context of grpahs, a matrix in which every node is a column and row label, and in which the matrix values describe what sort of connection (if any) exists between each pair of nodes. ",
+    "def-ga": "I gcomhthéacs graif, Maitrís ina bhfuil gach uile nód mar lipéad ar cholúin agus ar shraitheanna, agus ina léiríonn luachanna na maitríse cén ceangal atá idir gach péire nód (má tá cheangal ar bith ann).",
+
+    "prov": {
+        "maitrís": "féach ar an téarma 'matrix / maitrís'",
+        "cóngaracht": "storchiste"
+    },
+    "notes": [
+        "Luann Foclór Uí Dhónaill agus Foclór De Bhaldraithe 'cóngarach' mar théarma geoiméadtrachta. Cé nach ionann sin agus comhthéacs na ngraf eolais, meastar go mba léire coinneáil leis seachas téarma eile (amhil 'teagmháil', nach bhfuil luaite i gcomhthéacs matamaiticiúil) a úsáid. Is é 'maitrís chóngarachta' atá ar Tearma.ie chomh maith leis sin.",
+        "Féach chomh maith ar an téarma 'matrix / maitrís'."
+    ]
+}
