@@ -95,7 +95,7 @@ def render_term(term):
             ref = ref.replace(' ', '-')
             ref_file_path = ref + '.html'
             link_html = f"<a href='{ref_file_path}'>'{full_phrase}'</a>"
-            item = f"{item[:item.index("féach ar an téarma '")]}féach ar an téarma {link_html}"
+            item = f"""{item[:item.index("féach ar an téarma '")]}féach ar an téarma {link_html}"""
 
         prov_list_citations.append(item)
     render_str += unordered_list(prov_list_citations)
