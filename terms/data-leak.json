@@ -1,0 +1,18 @@
+{
+    "term": "data leak",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "Sceitheadh sonraí",
+    "def-en": "In the context machine leaning, what happens when data from the validation / testing set can be seen during the training proces, leading to overfitting.",
+    "def-ga": "I gcomhthéacs ríomhfhoghlama, an rud a tharlaíonn nuair atá sonraí ón tacar deimhnithe / teisteála le feiceáil le linn an phróisis thraenála, rud a bhfuil ró-fhoghlaim mar thoradh air.",
+
+    "prov": {
+        "sonra": "féach ar an téarma 'data / sonraí'",
+        "sceith": "de-bhaldraithe, dineen, odonaill, storchiste"
+    },
+    "notes": [
+        "Is é 'scéith' seachas 'sceith' atá i bhFoclóir Uí Dhuinín, ach glactar leis gurb in an focal céanna.",
+        "Téarmaí díreach ar fáil leis an mbrí chéanna (ach i gcomthéacs neamh-theicniúil).",
+        "Tá an frása 'Rún a sceitheadh, to divulge a secret.' i bhFoclóir Uí Dhónaill. Tá sceiteadh sonraí díeach mar sceitheadh rún -- ba cheart go mbeadh sonraí teisteála rúnda le linn an phróisis thraenála. Muna bhfuil, is sceitheadh rúin atá ann -- agus an rúd ná na sonraí teisteála iad fhéin.",
+        "Féach chomh maith ar an téarma 'data / sonraí'."
+    ]
+}
