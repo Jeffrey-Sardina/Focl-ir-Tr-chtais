@@ -2,8 +2,8 @@
     "term": "matrix",
     "part-of-speech": "ainmfhocal",
     "citation-form": "maitrís",
-    "def-en": "A group of numbers in a grid of rows and columns. A matric can be thought of as a list of vectors with the same dimensionality.",
-    "def-ga": "Grúpa uimhreacha in eangach le sraitheanna agus le colún. Is féidir maitrí a shamhlú mar liosta veicteoirí a bhfuil an toise céanna acu uile.",
+    "def-en": "A group of numbers in a grid of rows and columns. A matrix can be thought of as a list of vectors with the same dimensionality.",
+    "def-ga": "Grúpa uimhreacha in eangach le sraitheanna agus le colún. Is féidir maitrís a shamhlú mar liosta veicteoirí a bhfuil an toise céanna acu uile.",
 
     "prov": {
         "maitrís": "storchiste"

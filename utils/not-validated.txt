@@ -1,5 +1,0 @@
-matrix.json
-adjacency-matrix.json
-data-leak.json
-open-world-assumption.json
-closed-world-assumption.json
