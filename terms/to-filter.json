@@ -1,0 +1,15 @@
+{
+    "term": "to filter",
+    "part-of-speech": "briathar",
+    "citation-form": "scag",
+    "def-en": "In the context of data processing, to remove some data from a dataset based on some metric or algorithm.",
+    "def-ga": "I gcomhthéacs próiseála sonraí, roinnt sonraí ó thacar sonraí a bhaint de de réir tomhais nó algartaim éigin.",
+
+    "prov": {
+        "scag": "de-bhaldraithe, dineen, focloir-beag, odonaill, storchiste"
+    },
+    "notes": [
+        "Téarma díreach ar fáil le brí chomhchosúil ó na foclóirí thuas (i gcomhthéacs níos ginearálta). I bhFoclóir Uí Dhuinín agus i bhFoclóir Uí Dhónaill agus Uí Mhaoileoin, is i gcomhthéacs scagaireachta fisicí amháin atá sé.",
+        "Is é 'scagadh' seachas 'scag' atá i bhFoclóir Uí Dhónaill agus Uí Mhaoileoin."
+    ]
+}

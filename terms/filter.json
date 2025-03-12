@@ -1,0 +1,16 @@
+{
+    "term": "filter",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "scagaire",
+    "def-en": "In the context of data processing, a system or process that filters data -- that is, that removes some data from a larger dataset.",
+    "def-ga": "I gcomhthéacs próiseála sonraí, córas nó próiseas a scagann sonraí -- sin le rá, a bhaineann roinnt sonraí ó thacar mór sonraí.",
+
+    "prov": {
+        "scagaire": "de-bhaldraithe, dineen, focloir-beag, odonaill"
+    },
+    "notes": [
+        "Téarma díreach ar fáil le brí chomhchosúil ó na foclóirí thuas (i gcomhthéacs níos ginearálta). I bhFoclóir Uí Dhuinín agus i bhFoclóir Uí Dhónaill agus Uí Mhaoileoin, is i gcomhthéacs scagaireachta fisicí amháin atá sé.",
+        "Féach chomh maith ar an téarma 'filtering / scagaireacht'.",
+        "Féach chomh maith ar an téarma 'to filter / scag'."
+    ]
+}
