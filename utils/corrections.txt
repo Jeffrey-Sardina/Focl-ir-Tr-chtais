@@ -8,5 +8,9 @@ data-leak.json
 to-filter.json
 filtering.json
 filter.json
+mean-rank.json
+mean-reciprocal-rank.json
+hits-at-k.json
+to-quantify.json
 
 ORD to RANG de réir Stóɼchiste!!!
