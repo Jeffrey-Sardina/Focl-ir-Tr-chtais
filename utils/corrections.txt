@@ -5,3 +5,6 @@ ablation.json
 open-world-assumption.json
 closed-world-assumption.json
 data-leak.json
+
+
+ORD to RANG de réir Stóɼchiste!!!
