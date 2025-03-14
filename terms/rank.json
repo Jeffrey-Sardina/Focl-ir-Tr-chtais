@@ -1,15 +1,17 @@
 {
     "term": "rank",
     "part-of-speech": "ainmfhocal",
-    "citation-form": "ord",
+    "citation-form": "rang",
     "def-en": "Regarding a value in a sorted list, the index at which that value is located.",
     "def-ga": "Ag trácht ar luach i liosta sórtáilte, an t-innéacs sa liosta sin ag bhfuil an luach.",
 
     "prov": {
-        "ord": "de-bhaldraithe, dineen, focloir-beag, odonaill"
+        "rang": "dineen, odonaill, storchiste"
     },
     "notes": [
-        "Téarma díreach ar fáil le brí chomhchosúil.",
-        "An chúis nár úsáideadh 'rang' ná go bhfuil 'rangú' aistrithe (ar Tearma.ie) chomh maith mar “classification”, agus 'rang' mar 'rank' nó mar 'class'. Sa tasc réamhinsinte nasc is é an tasc atá ann ná roinnt mhór roghanna a chur in ord de réir scór inchreidteachta. Is mar sin a mheastar go bhfuil “ord” (agus 'cuir in ord') níos fearr sa gcás seo, cé go bhfuil ciall le 'rang' mar aistriúchán chomh maith."
+        "Téarma díreach ar fáil le brí chomhchosúil. Luaitear 'rang' mar 'rank' leis an mbrí cheannann chéanna i gcomhthéacs matamaitice i Stórchiste.",
+        "Tá 'rang' aistrithe mar 'class' ar Tearma.ie, ach ní ghlactar leis sin toisc go bhfuil an focal 'aicme' ann cheana, agus toisc go bhfuil fianaise léir ann ó Stórchiste go mba cheart 'rang' a úsáid' chun 'rank' a chur in iúl." ,
+        "Cé go bhfuil an focal 'rang' i bhFoclóir De Bhaldraithe agus i bhFoclóir Uí Dhónaill agus Uí Mhaoileoin, is i gcomhthéacs iomlán ar leith atá sé iontu.",
+        "Féach chomh maith ar an téarma 'class / aicme'."
     ]
 }

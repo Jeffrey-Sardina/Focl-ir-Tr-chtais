@@ -6,11 +6,13 @@
     "def-ga": "I gcomhthéacs liosta nó sraithe, é a eagrú de réir luach a mball.",
 
     "prov": {
-        "(cuir) in ord": "de-bhaldraithe, dineen, focloir-beag, odonaill",
-        "ord": "féach ar an téarma 'rank / ord'"
+        "rangaigh": "de-bhaldraithe, focloir-beag, odonaill",
+        "rang": "féach ar an téarma 'rank / rang'"
     },
     "notes": [
-        "De réir Fhoclóir Uí Dhónaill, tá an bhrí céanna ag 'ordaigh' -- ach bíonn an leagan sin úsáidte i comhthéacs litríochta amháin. Móide sin, bíonn go leor samplaí den fhrása 'cuir in ord' nó 'in ord' sna foclóirí thuas -- rud a fhágann go bhfuil níos mó fianaise lena aghaidh sin.",
-        "Féach chomh maith ar an téarma 'rank / ord'."
+        "Sna foclóirí thuas ar fad, bíonn 'rangaigh' ann mar focal comhchiallach le 'aicmigh' seachas mar leagan Gaeilge den fhocal 'ranking'. Sin ráite, tagann sé ag an bhfréamh 'rang', a bhfuil an bhrí sin aige. Glactar leis an téarma seo mar sin.",
+        "Is é 'rangú' seachas 'rangaigh' atá i bhFoclóir Uí Dhónaill agus Uí Mhaoileoin.",
+        "Úsáidtear an téarma seo toisc go bhfuil 'rang' úsáidte chun 'rank' a chur in iúl.",
+        "Féach chomh maith ar an téarma 'rank / rang'."
     ]
 }

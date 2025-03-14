@@ -2,3 +2,5 @@ mean-rank.json
 mean-reciprocal-rank.json
 hits-at-k.json
 to-quantify.json
+ranking.json
+ranked-list.json
