@@ -1,54 +1,53 @@
 <!DOCTYPE html>
-        <html>
-        <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
-        <title>clustering | aicmiú ionduchtach</title>
-        <link rel="stylesheet" href="/css/gnath.css">
-        <!-- function to allow loading from another HTML file
-        see: https://stackoverflow.com/questions/8988855/include-another-html-file-in-a-html-file -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-        <script> 
-            $(function(){
-                $("#headerBar").load("/header.html"); 
-            });
-            $(function(){
-                $("#footerBar").load("/footer.html"); 
-            });
-        </script> 
-        </head>
-        <body>
-        <div id="headerBar"></div>
-        <div class='centerbox'>
-            <h1>clustering | aicmiú ionduchtach</h1><strong>clustering (ainmfhocal): aicmiú ionduchtach</strong><br>
-<i>Sainmhíniú (ga):</i> I gcomhthéacs ríomhfhoghlama, an próiseas a bhaineann le pointí sonraí a aicmiú nuair nach bhfuil eolas ar bith céard iad na haicmí cearta (ná ar an méid aicmí fiú) ar fáil roimh ré, sa gcaoi gur gá iad sin a fhoghlaim go hionduchtach.<br>
-<i>Sainmhíniú (en):</i> In the context of machine learning, the process related to assigning a class to data points when there is no knowledge in advance of what the correct labels are (or even how many there are), such that the learning must be done inductively.
-
-<br><br>Tagairtí:
-<ul>
-	<li>aicmigh: féach ar an téarma <a href='classification.html'>'classification / aicmiú'</a></li>
-	<li>ionduchtach: De Bhaldraithe (1978), Ó Dónaill (1977), Williams et al. (2023)</li>
-</ul>
-
-Nótaí Aistriúcháin:
-<ul>
-	<li>Luann Stórchiste an téarma 'ionduchtach' i gcomhthéacs matamaitice. Luann na foclóirí eile é i gcomhthéacs níos ginearálta, ach leis an mbrí chéanna.</li>
-	<li>Is éard is 'clustering' ann mar thasc ríomhfhoghlama ná lipéad aicme a chur le pointí sonraí nach bhfuil lipéad ar bith leo. Tá sé an-cheangailte le aicmiú mar thasc, ach amháin nach bhfuil fios na n-aicmí cearta ar fáil don chóras ríomhfhoghlama roimh ré. Sin le rá, is tasc ionduchtach é. Is as an mbun-choincheap seo a roghnaítear 'aicmiú ionduchtach' mar théarma.</li>
-	<li>Tá 'braisliú' le feiceáil ar Focloir.ie -- focal a thagann as an bhfréamh 'braisle'. Cé is moite de sin, ní bhíonn an leagan briathair 'braisliú' le feiceáil i bhfoclóir dúchasach ar bith. Ní ghlactar leis mar sin sa gcomhthéacs matamaitice seo.</li>
-	<li>Féach chomh maith ar an téarma <a href='classification.html'>'classification / aicmiú'</a>.</li>
-</ul>
-
-
-            <br><hr>
-            <table table border='0' style='width:100%'>
-                <tr>
-                    <td style='width: 33%; text-align: left;'><a href="to-cluster.html">&lt;&lt; to cluster</a></td>
-                    <td style='width: 34%; text-align: center;'><a href="../">foclóir</a></td>
-                    <td style='width: 33%; text-align: right;'><a href="co-frequency.html">co-frequency &gt;&gt;</a></td>
-                </tr>
-            </table>
-            <div id="footerBar"></div>
-        </div>
-        </body>
-        </html> 
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+    <title>clustering | aicmiú ionduchtach</title>
+    <link rel="stylesheet" href="/css/gnath.css">
+    <!-- function to allow loading from another HTML file
+    see: https://stackoverflow.com/questions/8988855/include-another-html-file-in-a-html-file -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script> 
+        $(function(){
+            $("#headerBar").load("/header.html"); 
+        });
+        $(function(){
+            $("#footerBar").load("/footer.html"); 
+        });
+    </script> 
+</head>
+<body>
+    <div id="headerBar"></div>
+    <div class='centerbox'>
+        <h1>clustering | aicmiú ionduchtach</h1><strong>clustering (ainmfhocal): aicmiú ionduchtach</strong><br>
+        <i>Sainmhíniú (ga):</i> I gcomhthéacs ríomhfhoghlama, an próiseas a bhaineann le pointí sonraí a aicmiú nuair nach bhfuil eolas ar bith céard iad na haicmí cearta (ná ar an méid aicmí fiú) ar fáil roimh ré, sa gcaoi gur gá iad sin a fhoghlaim go hionduchtach.<br>
+        <i>Sainmhíniú (en):</i> In the context of machine learning, the process related to assigning a class to data points when there is no knowledge in advance of what the correct labels are (or even how many there are), such that the learning must be done inductively.
+        
+        <br><br>Tagairtí:
+        <ul>
+            <li>aicmigh: féach ar an téarma <a href='classification.html'>'classification / aicmiú'</a></li>
+            <li>ionduchtach: De Bhaldraithe (1978), Ó Dónaill (1977), Williams et al. (2023)</li>
+        </ul>
+        
+        Nótaí Aistriúcháin:
+        <ul>
+            <li>Luann Stórchiste an téarma 'ionduchtach' i gcomhthéacs matamaitice. Luann na foclóirí eile é i gcomhthéacs níos ginearálta, ach leis an mbrí chéanna.</li>
+            <li>Is éard is 'clustering' ann mar thasc ríomhfhoghlama ná lipéad aicme a chur le pointí sonraí nach bhfuil lipéad ar bith leo. Tá sé an-cheangailte le aicmiú mar thasc, ach amháin nach bhfuil fios na n-aicmí cearta ar fáil don chóras ríomhfhoghlama roimh ré. Sin le rá, is tasc ionduchtach é. Is as an mbun-choincheap seo a roghnaítear 'aicmiú ionduchtach' mar théarma.</li>
+            <li>Tá 'braisliú' le feiceáil ar Focloir.ie -- focal a thagann as an bhfréamh 'braisle'. Cé is moite de sin, ní bhíonn an leagan briathair 'braisliú' le feiceáil i bhfoclóir dúchasach ar bith. Ní ghlactar leis mar sin sa gcomhthéacs matamaitice seo.</li>
+            <li>Féach chomh maith ar an téarma <a href='classification.html'>'classification / aicmiú'</a>.</li>
+        </ul>
+        
+        <br><hr>
+        <table table border='0' style='width:100%'>
+            <tr>
+                <td style='width: 33%; text-align: left;'><a href="to-cluster.html">&lt;&lt; to cluster</a></td>
+                <td style='width: 34%; text-align: center;'><a href="../">foclóir</a></td>
+                <td style='width: 33%; text-align: right;'><a href="co-frequency.html">co-frequency &gt;&gt;</a></td>
+            </tr>
+        </table>
+        <div id="footerBar"></div>
+    </div>
+</body>
+</html>
     

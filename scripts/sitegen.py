@@ -5,6 +5,8 @@ import json
 import os
 from utils import termsort, term_norm
 
+SPACES_PER_INDENT = 4
+
 '''
 references:
 - https://www.w3schools.com/howto/howto_js_filter_lists.asp
@@ -36,14 +38,14 @@ def italics(text):
 def unordered_list(render_strs):
     list_str = "<ul>\n"
     for render_str in render_strs:
-        list_str += f"\t<li>{render_str}</li>\n"
+        list_str += ' '*SPACES_PER_INDENT + f"<li>{render_str}</li>\n"
     list_str += "</ul>\n"
     return list_str
 
 def ordered_list(render_strs):
     list_str = "<ol>\n"
     for render_str in render_strs:
-        list_str += f"\t<li>{render_str}</li>\n"
+        list_str += ' '*SPACES_PER_INDENT + f"<li>{render_str}</li>\n"
     list_str += "</ol>\n"
     return list_str
 
@@ -57,7 +59,7 @@ def ga_italics_filter(render_str):
         render_str = render_str.replace(item, italics(item))
     return render_str
 
-def render_term(term):
+def render_term(term, indent):
     print(f'rendering {term["term"]}')
     render_str = ""
 
@@ -123,12 +125,21 @@ def render_term(term):
         item = ga_italics_filter(item)
         notes.append(item)
     render_str += unordered_list(notes)
-    render_str += "\n"
 
     # fix math
     render_str = render_str.replace('$', '')
 
-    return render_str
+    # format nicely
+    indent_str = ' ' * SPACES_PER_INDENT * indent # indent with 4 spaces
+    render_str_fmt = ""
+    render_str_lines = render_str.split("\n")
+    for i, line in enumerate(render_str_lines):
+        if i != len(render_str_lines) - 1:
+            render_str_fmt += indent_str + line + "\n"
+        else:
+            render_str_fmt += indent_str + line
+
+    return render_str_fmt
 
 def get_abbrv(to_abbrv):
     # remove parenthetical statements
@@ -142,6 +153,23 @@ def get_abbrv(to_abbrv):
     # rm unneeded whitespace
     to_abbrv = to_abbrv.strip()
     return to_abbrv
+
+def fmt_html_indents(html):
+    # format index page nicely. 
+    # We have 2 extra tabs (8 spaces) in the code above due to the use of 
+    # Pythons multi-line strings and intending the code to look nice in the 
+    # Python, and we want to remove those.
+    html_fmt = ""
+    html_lines = html.split("\n")
+    for i, line in enumerate(html_lines):
+        whitespace_to_rm = ' ' * 8 # 2 tabs of python code in this file is 8 spaces
+        if whitespace_to_rm in line:
+            line = line[8:]
+        if i != len(html_lines) - 1:
+            html_fmt += line + "\n"
+        else:
+            html_fmt += line
+    return html_fmt
 
 def gen_term_page(term, prev_term_id, next_term_id):
     if prev_term_id is not None:
@@ -159,39 +187,40 @@ def gen_term_page(term, prev_term_id, next_term_id):
     html = f"""<!DOCTYPE html>
         <html>
         <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
-        <title>{term["term"]} | {term["citation-form"]}</title>
-        <link rel="stylesheet" href="/css/gnath.css">
-        <!-- function to allow loading from another HTML file
-        see: https://stackoverflow.com/questions/8988855/include-another-html-file-in-a-html-file -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-        <script> 
-            $(function(){{
-                $("#headerBar").load("/header.html"); 
-            }});
-            $(function(){{
-                $("#footerBar").load("/footer.html"); 
-            }});
-        </script> 
+            <meta charset="UTF-8">
+            <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+            <title>{term["term"]} | {term["citation-form"]}</title>
+            <link rel="stylesheet" href="/css/gnath.css">
+            <!-- function to allow loading from another HTML file
+            see: https://stackoverflow.com/questions/8988855/include-another-html-file-in-a-html-file -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+            <script> 
+                $(function(){{
+                    $("#headerBar").load("/header.html"); 
+                }});
+                $(function(){{
+                    $("#footerBar").load("/footer.html"); 
+                }});
+            </script> 
         </head>
         <body>
-        <div id="headerBar"></div>
-        <div class='centerbox'>
-            {render_term(term)}
-            <br><hr>
-            <table table border='0' style='width:100%'>
-                <tr>
-                    <td style='width: 33%; text-align: left;'>{prev_term_html}</td>
-                    <td style='width: 34%; text-align: center;'><a href="../">foclóir</a></td>
-                    <td style='width: 33%; text-align: right;'>{next_term_html}</td>
-                </tr>
-            </table>
-            <div id="footerBar"></div>
-        </div>
+            <div id="headerBar"></div>
+            <div class='centerbox'>\n{render_term(term, indent=4)}
+                <br><hr>
+                <table table border='0' style='width:100%'>
+                    <tr>
+                        <td style='width: 33%; text-align: left;'>{prev_term_html}</td>
+                        <td style='width: 34%; text-align: center;'><a href="../">foclóir</a></td>
+                        <td style='width: 33%; text-align: right;'>{next_term_html}</td>
+                    </tr>
+                </table>
+                <div id="footerBar"></div>
+            </div>
         </body>
-        </html> 
+        </html>
     """
+
+    html = fmt_html_indents(html)
     return html
 
 def get_term_file_name(term_name):
@@ -217,12 +246,15 @@ def gen_term_pages(terms):
 
 def gen_index(terms, version):
     searchbar = """<input type="text" id="termInput" onkeyup="termSearch()" placeholder="Cuardaigh téarma i mBéarla nó i nGaeilge...">\n"""
-    termslist = """<ul id="dict-idx">\n"""
+    
+    termlist_indent = ' '*4*SPACES_PER_INDENT
+    termslist = termlist_indent + """<ul id="dict-idx">\n"""
 
     curr_header = ''
     header_printed = False
     header_ids = []
     for term_id in terms:
+        line_before_heade = True
         first_char = term_norm(term_id)[0].upper()
         if first_char != curr_header:
             header_printed = False
@@ -231,17 +263,20 @@ def gen_index(terms, version):
                 # if it is a number
                 int(first_char)
                 curr_header = '#'
+                line_before_heade = False
             except:
                 # if it is a letter
                 curr_header = first_char
             header_ids.append(curr_header)
-            termslist += f'\t<li><h2 id="{curr_header}" class="letter-header">{curr_header}</h2></li>\n'
+            if line_before_heade:
+                termslist += '\n'
+            termslist += termlist_indent + ' '*SPACES_PER_INDENT +  f'<li><h2 id="{curr_header}" class="letter-header">{curr_header}</h2></li>\n'
             header_printed = True
             
         term = terms[term_id]
         term_file_name = get_term_file_name(term["term"])
-        termslist += f"""\t<li><a href="{TERMS_FOLDER_READ + term_file_name}">{term["term"]} | {term["citation-form"]}</a></li>\n"""
-    termslist += """</ul>\n"""
+        termslist += termlist_indent + ' '*SPACES_PER_INDENT +  f"""<li><a href="{TERMS_FOLDER_READ + term_file_name}">{term["term"]} | {term["citation-form"]}</a></li>\n"""
+    termslist += termlist_indent + """</ul>\n"""
 
     js_script = """<script>
         function termSearch() {
@@ -270,46 +305,58 @@ def gen_index(terms, version):
         }
         </script>\n"""
     
+    # format script code nicely
+    js_script_fmt = ""
+    js_lines = js_script.split('\n')
+    for i, line in enumerate(js_lines):
+        if i == 0:
+            js_script_fmt += line + "\n"
+        elif i == len(js_lines) - 1:
+            js_script_fmt += ' '*1*SPACES_PER_INDENT + line
+        else:
+            js_script_fmt += ' '*2*SPACES_PER_INDENT + line + "\n"
+    
     header_nav = "<p class='center-text'> Téigh chuig: \n"
-    header_nav += '\n'.join(' '*16 + f'<a href="#{header_id}">{header_id}</a>' for header_id in header_ids)
-    header_nav += "</p>"
+    header_nav += '\n'.join(' '*5*SPACES_PER_INDENT + f'<a href="#{header_id}">{header_id}</a>' for header_id in header_ids)
+    header_nav += "\n" + ' '*4*SPACES_PER_INDENT + "</p>"
 
     html = f"""<!DOCTYPE html>
         <html>
         <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
-        <meta property="og:image" content="/images/site.png" />
-        <title>Foclóir Tráchtais</title>
-        <link rel="stylesheet" href="/css/gnath.css">
-        <!-- function to allow loading from another HTML file
-        see: https://stackoverflow.com/questions/8988855/include-another-html-file-in-a-html-file -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-        <script> 
-            $(function(){{
-                $("#headerBar").load("/header.html"); 
-            }});
-            $(function(){{
-                $("#footerBar").load("/footer.html"); 
-            }});
-        </script> 
+            <meta charset="UTF-8">
+            <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+            <meta property="og:image" content="/images/site.png" />
+            <title>Foclóir Tráchtais</title>
+            <link rel="stylesheet" href="/css/gnath.css">
+            <!-- function to allow loading from another HTML file
+            see: https://stackoverflow.com/questions/8988855/include-another-html-file-in-a-html-file -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+            <script> 
+                $(function(){{
+                    $("#headerBar").load("/header.html"); 
+                }});
+                $(function(){{
+                    $("#footerBar").load("/footer.html"); 
+                }});
+            </script> 
         </head>
         <body>
-        <div id="headerBar"></div>
-        <div class='centerbox' id='indexlist'>
-            <h1 id="mainHeader">Foclóir Tráchtais</h1>
-            <p id="versionNum">v{version}, le Jeffrey Seathrún Sardina</p>
-            {header_nav}
-            {searchbar + termslist}
-            <div id="footerBar"></div>
-        </div>
-        {js_script}
+            <div id="headerBar"></div>
+            <div class='centerbox' id='indexlist'>
+                <h1 id="mainHeader">Foclóir Tráchtais</h1>
+                <p id="versionNum">v{version}, le Jeffrey Seathrún Sardina</p>
+                {header_nav}
+                {searchbar + termslist}
+                <div id="footerBar"></div>
+            </div>
+            {js_script_fmt}
         </body>
         </html> 
     """
 
+    html = fmt_html_indents(html)
     with open(os.path.join(SITE_FOLDER, "index.html"), 'w') as out:
-            print(html, file=out)
+        print(html, file=out)
 
 def main():
     version = '1.4 alfa'

@@ -1,55 +1,54 @@
 <!DOCTYPE html>
-        <html>
-        <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
-        <title>loss | pionós (foghlama)</title>
-        <link rel="stylesheet" href="/css/gnath.css">
-        <!-- function to allow loading from another HTML file
-        see: https://stackoverflow.com/questions/8988855/include-another-html-file-in-a-html-file -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-        <script> 
-            $(function(){
-                $("#headerBar").load("/header.html"); 
-            });
-            $(function(){
-                $("#footerBar").load("/footer.html"); 
-            });
-        </script> 
-        </head>
-        <body>
-        <div id="headerBar"></div>
-        <div class='centerbox'>
-            <h1>loss | pionós (foghlama)</h1><strong>loss (ainmfhocal): pionós (foghlama)</strong><br>
-<i>Sainmhíniú (ga):</i> I gcomhthéacs samhla ríomhfhoghlama, luach uimhriúil a chuireann in iúl cé chomh dona is atá an tsamhail (sin le rá, is ionann pionós níos airde samhail níos measa). Úsáidtear an pionós mar chuid mhatamaiticiúil de ríomhfhoghlaim.<br>
-<i>Sainmhíniú (en):</i> In the context of a machine learning model, a numerical value that represents how bad the model is (that is, a higher penalty means the model is less effective). Loss is used as a part of the mathematical process of machine learning.
-
-<br><br>Tagairtí:
-<ul>
-	<li>pionós: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)</li>
-</ul>
-
-Nótaí Aistriúcháin:
-<ul>
-	<li>* Is 'pionús' seachas 'pionós' atá i bhFoclóir Uí Dhuinín, ach glactar leis gurb in an focal céanna le litriú eile</li>
-	<li>Tá 'caill' / ' caillteanas' ar Tearma.ie mar fhocal ar 'loss' an Bhéarla. Meastar go bhfuil siad sin rud beag ró-litriúil; i nGaeilge, is éard atá i gceist le 'caill' / ' caillteanas' ná rud atá caillte / gan tuairisc air (de réir Fhoclóir Uí Dhónaill). Ní hionann sin agus an luach 'loss', atá úsáidte chun cur síos a dhéanamh ar cé chomh dona is atá samhail ríomhfhoghlama. Thairis sin, níl trácht ar bith ar 'caill' mar fhocal matamaiticiúil, eolaíochta, ná sainmhínithe i bhfoclóir dúchasach ar bith. Ní ghlactar le 'caill' ná le 'caillteanas' mar sin.</li>
-	<li>Is minic a dhéantar analach idir ríomhfhoghlaim agus foghlaim na ndaoine / ainmhithe. Is é bunús an analacha seo ná go mbíonn 'loss' mar phionós ar an ríomhaire (cosúil le pionós a chur ar madra toisc é a bheith dána). Bíonn an tsamhail ag foghlaim toisc an phionóis sin -- chun rudaí a dhéanamh nach bhfuil pionós leo.</li>
-	<li>Cé nach mbíonn sé seo iomlán soiléir i gcónaí, is 'pionós' (nó 'penalty') é 'loss' go litriúil chomh maith. Nuair a bhíonn ríomhfhoghlaim ar siúl bíonn (i nach mór gach uile cás) paraiméadair infhoghlamtha ar an tsamhail atá le hathrú le linn feabhsaithe. Is ionann na paraiméadair seo a athrú agus treo a thabhairt dóibh. Tabhair mar shampla samhail ríomhfhoghlama an-simplí -- cúlú líneach le dhá pharaiméadar (.i. y = ax + b, ina bhfuil a agus b mar pharaiméadair). Is féidir gach uile shamhail mar sin a shamhlú mar phointe ar bhreacadh Cairtéiseach (.i. (3,2), le a=3 agus b=2). Bíonn luach an phionóis (p) mar ais z (sa tríú toise) -- is é is ísle is atá, is é is fearr. Nuair a bhíonn foghlaim ar siúl, is í is aidhm leis an bhfoghlaim ná pointe (a,b) a fháil a bhfuil an luach phionóis p chomh íseal agus is féidir. Le linn an fheabhsaithe sin, is minic (go háirithe agus feidhm phionóis simplí in úsáid) go mbíonn an tsamhail sáinnithe ar íosmhéid logánta (nach ionann agus an t-íosluach uilíoch). Tarlaíonn sé seo toisc an tsamhail a bheith ag bogadh sa treo mícheart. Chun é seo a sheachaint, déantar feidhmeanna pionóis níos fearr (agus níos casta) a úsáid. Gearrann na feidhmeanna seo pionós níos airde ar an tsamhail má bhogann sé sa treo mícheart trí luach pionóis níos airde a chur leis an pointí sin. Cé nach pionós dlí é seo, is pionós foghlama é go litriúil.</li>
-	<li>Is minic a bhíonn trácht ar 'penalty' i litríocht an réimse i mBéarla díreach toisc an dá phointe thuas</li>
-	<li>Ní i gcomhthéacs matamaiticiúil a luaitear an focal pionós sna foclóirí thuas, ach glactar leis fós féin toisc na bpointí thuas. Móide sin, moltar 'pionós foghlama' a úsáid más gá léiriú cé sóirt pionóis atá i gceist, i dtaca leis na pointí thuas.</li>
-</ul>
-
-
-            <br><hr>
-            <table table border='0' style='width:100%'>
-                <tr>
-                    <td style='width: 33%; text-align: left;'><a href="logic.html">&lt;&lt; logic</a></td>
-                    <td style='width: 34%; text-align: center;'><a href="../">foclóir</a></td>
-                    <td style='width: 33%; text-align: right;'><a href="loss-function.html">loss function &gt;&gt;</a></td>
-                </tr>
-            </table>
-            <div id="footerBar"></div>
-        </div>
-        </body>
-        </html> 
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+    <title>loss | pionós (foghlama)</title>
+    <link rel="stylesheet" href="/css/gnath.css">
+    <!-- function to allow loading from another HTML file
+    see: https://stackoverflow.com/questions/8988855/include-another-html-file-in-a-html-file -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script> 
+        $(function(){
+            $("#headerBar").load("/header.html"); 
+        });
+        $(function(){
+            $("#footerBar").load("/footer.html"); 
+        });
+    </script> 
+</head>
+<body>
+    <div id="headerBar"></div>
+    <div class='centerbox'>
+        <h1>loss | pionós (foghlama)</h1><strong>loss (ainmfhocal): pionós (foghlama)</strong><br>
+        <i>Sainmhíniú (ga):</i> I gcomhthéacs samhla ríomhfhoghlama, luach uimhriúil a chuireann in iúl cé chomh dona is atá an tsamhail (sin le rá, is ionann pionós níos airde samhail níos measa). Úsáidtear an pionós mar chuid mhatamaiticiúil de ríomhfhoghlaim.<br>
+        <i>Sainmhíniú (en):</i> In the context of a machine learning model, a numerical value that represents how bad the model is (that is, a higher penalty means the model is less effective). Loss is used as a part of the mathematical process of machine learning.
+        
+        <br><br>Tagairtí:
+        <ul>
+            <li>pionós: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)</li>
+        </ul>
+        
+        Nótaí Aistriúcháin:
+        <ul>
+            <li>* Is 'pionús' seachas 'pionós' atá i bhFoclóir Uí Dhuinín, ach glactar leis gurb in an focal céanna le litriú eile</li>
+            <li>Tá 'caill' / ' caillteanas' ar Tearma.ie mar fhocal ar 'loss' an Bhéarla. Meastar go bhfuil siad sin rud beag ró-litriúil; i nGaeilge, is éard atá i gceist le 'caill' / ' caillteanas' ná rud atá caillte / gan tuairisc air (de réir Fhoclóir Uí Dhónaill). Ní hionann sin agus an luach 'loss', atá úsáidte chun cur síos a dhéanamh ar cé chomh dona is atá samhail ríomhfhoghlama. Thairis sin, níl trácht ar bith ar 'caill' mar fhocal matamaiticiúil, eolaíochta, ná sainmhínithe i bhfoclóir dúchasach ar bith. Ní ghlactar le 'caill' ná le 'caillteanas' mar sin.</li>
+            <li>Is minic a dhéantar analach idir ríomhfhoghlaim agus foghlaim na ndaoine / ainmhithe. Is é bunús an analacha seo ná go mbíonn 'loss' mar phionós ar an ríomhaire (cosúil le pionós a chur ar madra toisc é a bheith dána). Bíonn an tsamhail ag foghlaim toisc an phionóis sin -- chun rudaí a dhéanamh nach bhfuil pionós leo.</li>
+            <li>Cé nach mbíonn sé seo iomlán soiléir i gcónaí, is 'pionós' (nó 'penalty') é 'loss' go litriúil chomh maith. Nuair a bhíonn ríomhfhoghlaim ar siúl bíonn (i nach mór gach uile cás) paraiméadair infhoghlamtha ar an tsamhail atá le hathrú le linn feabhsaithe. Is ionann na paraiméadair seo a athrú agus treo a thabhairt dóibh. Tabhair mar shampla samhail ríomhfhoghlama an-simplí -- cúlú líneach le dhá pharaiméadar (.i. y = ax + b, ina bhfuil a agus b mar pharaiméadair). Is féidir gach uile shamhail mar sin a shamhlú mar phointe ar bhreacadh Cairtéiseach (.i. (3,2), le a=3 agus b=2). Bíonn luach an phionóis (p) mar ais z (sa tríú toise) -- is é is ísle is atá, is é is fearr. Nuair a bhíonn foghlaim ar siúl, is í is aidhm leis an bhfoghlaim ná pointe (a,b) a fháil a bhfuil an luach phionóis p chomh íseal agus is féidir. Le linn an fheabhsaithe sin, is minic (go háirithe agus feidhm phionóis simplí in úsáid) go mbíonn an tsamhail sáinnithe ar íosmhéid logánta (nach ionann agus an t-íosluach uilíoch). Tarlaíonn sé seo toisc an tsamhail a bheith ag bogadh sa treo mícheart. Chun é seo a sheachaint, déantar feidhmeanna pionóis níos fearr (agus níos casta) a úsáid. Gearrann na feidhmeanna seo pionós níos airde ar an tsamhail má bhogann sé sa treo mícheart trí luach pionóis níos airde a chur leis an pointí sin. Cé nach pionós dlí é seo, is pionós foghlama é go litriúil.</li>
+            <li>Is minic a bhíonn trácht ar 'penalty' i litríocht an réimse i mBéarla díreach toisc an dá phointe thuas</li>
+            <li>Ní i gcomhthéacs matamaiticiúil a luaitear an focal pionós sna foclóirí thuas, ach glactar leis fós féin toisc na bpointí thuas. Móide sin, moltar 'pionós foghlama' a úsáid más gá léiriú cé sóirt pionóis atá i gceist, i dtaca leis na pointí thuas.</li>
+        </ul>
+        
+        <br><hr>
+        <table table border='0' style='width:100%'>
+            <tr>
+                <td style='width: 33%; text-align: left;'><a href="logic.html">&lt;&lt; logic</a></td>
+                <td style='width: 34%; text-align: center;'><a href="../">foclóir</a></td>
+                <td style='width: 33%; text-align: right;'><a href="loss-function.html">loss function &gt;&gt;</a></td>
+            </tr>
+        </table>
+        <div id="footerBar"></div>
+    </div>
+</body>
+</html>
     

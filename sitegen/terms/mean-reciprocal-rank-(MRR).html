@@ -1,56 +1,55 @@
 <!DOCTYPE html>
-        <html>
-        <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
-        <title>mean reciprocal rank (MRR) | meán na ranganna deilíneacha (MRD)</title>
-        <link rel="stylesheet" href="/css/gnath.css">
-        <!-- function to allow loading from another HTML file
-        see: https://stackoverflow.com/questions/8988855/include-another-html-file-in-a-html-file -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-        <script> 
-            $(function(){
-                $("#headerBar").load("/header.html"); 
-            });
-            $(function(){
-                $("#footerBar").load("/footer.html"); 
-            });
-        </script> 
-        </head>
-        <body>
-        <div id="headerBar"></div>
-        <div class='centerbox'>
-            <h1>mean reciprocal rank (MRR) | meán na ranganna deilíneacha (MRD)</h1><strong>mean reciprocal rank (MRR) (ainmfhocal): meán na ranganna deilíneacha (MRD)</strong><br>
-<i>Sainmhíniú (ga):</i> I gcomhthéacs liosta ranganna, an tomhas 'meán(1 / rang_i) a chomhairtear air (do gach uile rang rang_1...rang_i...rang_n).<br>
-<i>Sainmhíniú (en):</i> In the context of a ranked list, the metric 'mean(1 / rank_i) that is calculated on it (for every rank rank_1...rank_i...rang_n)'.
-
-<br><br>Tagairtí:
-<ul>
-	<li>meán-: féach ar an téarma <a href='mean-rank-(MR).html'>'mean rank (MR) / meán-rang (MR)'</a></li>
-	<li>rang: féach ar an téarma <a href='rank.html'>'rank / rang'</a></li>
-	<li>deilíneach: De Bhaldraithe (1978), Ó Dónaill (1977), Williams et al. (2023)</li>
-</ul>
-
-Nótaí Aistriúcháin:
-<ul>
-	<li>Cé gurb é 'meán-rang deilíneach' an leagan is litriúil ann, bheadh sé rud beag aisteach an leagan sin a úsáid, toisc go bhféadfaí é sin a léamh mar deilín den meán-rang (.i. 1 / (meán-rang)), seachas den meán na ranganna deilíneacha ar fad (.i. meán(1 / rang_i)). Is é an dara rud, cinnte, atá i gceist anseo (meán na ranganna deilíneacha). Ní bhíonn an fhadhb seo i mBéarla -- is ionann 'mean reciprocal rank' agus 'mean(1 / rank_i) toisc struchtúr theanga an Bhéarla, nach ionann agus struchtúr na Gaeilge. Toisc gur rud amháin é 'meán-rang', is éard is 'meán-rang deilíneach' ann ná 1 / (meán-rang) -- rud nach bhfuil i gceist leis an téarma seo. Ní féidir glacadh le 'meán-rang deilíneach' mar sin.</li>
-	<li>Tá cúpla roghanna ar leith ann chun meán(1 / rang_i) a chur in iúl -- 'rang deilíneach meánach, nó 'meán na ranganna deilíneacha'. Meastar go mbeadh meán na ranganna deilíneach níos léire dá bhfuil i gceist, agus glactar leis mar sin.</li>
-	<li>Tá cosúlacht idir 'mean rank' agus 'mean recirpocal rank' i mBéarla. Níl sna leaganacha Gaeilge anseo -- déantar é sin d'aon ghnó. Is cuma an bhfuil cosúlacht theangeolaíochta idir an dá théarma, ach amháin go gcuireann siad araon an bhrí cheart in iúl.</li>
-	<li>Féach chomh maith ar an téarma <a href='rank.html'>'rank / rang'</a>.</li>
-	<li>Féach chomh maith ar an téarma <a href='mean-rank-(MR).html'>'mean rank (MR) / meán-rang (MR)'</a>.</li>
-</ul>
-
-
-            <br><hr>
-            <table table border='0' style='width:100%'>
-                <tr>
-                    <td style='width: 33%; text-align: left;'><a href="mean-rank-(MR).html">&lt;&lt; mean rank</a></td>
-                    <td style='width: 34%; text-align: center;'><a href="../">foclóir</a></td>
-                    <td style='width: 33%; text-align: right;'><a href="measure.html">measure &gt;&gt;</a></td>
-                </tr>
-            </table>
-            <div id="footerBar"></div>
-        </div>
-        </body>
-        </html> 
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+    <title>mean reciprocal rank (MRR) | meán na ranganna deilíneacha (MRD)</title>
+    <link rel="stylesheet" href="/css/gnath.css">
+    <!-- function to allow loading from another HTML file
+    see: https://stackoverflow.com/questions/8988855/include-another-html-file-in-a-html-file -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script> 
+        $(function(){
+            $("#headerBar").load("/header.html"); 
+        });
+        $(function(){
+            $("#footerBar").load("/footer.html"); 
+        });
+    </script> 
+</head>
+<body>
+    <div id="headerBar"></div>
+    <div class='centerbox'>
+        <h1>mean reciprocal rank (MRR) | meán na ranganna deilíneacha (MRD)</h1><strong>mean reciprocal rank (MRR) (ainmfhocal): meán na ranganna deilíneacha (MRD)</strong><br>
+        <i>Sainmhíniú (ga):</i> I gcomhthéacs liosta ranganna, an tomhas 'meán(1 / rang_i) a chomhairtear air (do gach uile rang rang_1...rang_i...rang_n).<br>
+        <i>Sainmhíniú (en):</i> In the context of a ranked list, the metric 'mean(1 / rank_i) that is calculated on it (for every rank rank_1...rank_i...rang_n)'.
+        
+        <br><br>Tagairtí:
+        <ul>
+            <li>meán-: féach ar an téarma <a href='mean-rank-(MR).html'>'mean rank (MR) / meán-rang (MR)'</a></li>
+            <li>rang: féach ar an téarma <a href='rank.html'>'rank / rang'</a></li>
+            <li>deilíneach: De Bhaldraithe (1978), Ó Dónaill (1977), Williams et al. (2023)</li>
+        </ul>
+        
+        Nótaí Aistriúcháin:
+        <ul>
+            <li>Cé gurb é 'meán-rang deilíneach' an leagan is litriúil ann, bheadh sé rud beag aisteach an leagan sin a úsáid, toisc go bhféadfaí é sin a léamh mar deilín den meán-rang (.i. 1 / (meán-rang)), seachas den meán na ranganna deilíneacha ar fad (.i. meán(1 / rang_i)). Is é an dara rud, cinnte, atá i gceist anseo (meán na ranganna deilíneacha). Ní bhíonn an fhadhb seo i mBéarla -- is ionann 'mean reciprocal rank' agus 'mean(1 / rank_i) toisc struchtúr theanga an Bhéarla, nach ionann agus struchtúr na Gaeilge. Toisc gur rud amháin é 'meán-rang', is éard is 'meán-rang deilíneach' ann ná 1 / (meán-rang) -- rud nach bhfuil i gceist leis an téarma seo. Ní féidir glacadh le 'meán-rang deilíneach' mar sin.</li>
+            <li>Tá cúpla roghanna ar leith ann chun meán(1 / rang_i) a chur in iúl -- 'rang deilíneach meánach, nó 'meán na ranganna deilíneacha'. Meastar go mbeadh meán na ranganna deilíneach níos léire dá bhfuil i gceist, agus glactar leis mar sin.</li>
+            <li>Tá cosúlacht idir 'mean rank' agus 'mean recirpocal rank' i mBéarla. Níl sna leaganacha Gaeilge anseo -- déantar é sin d'aon ghnó. Is cuma an bhfuil cosúlacht theangeolaíochta idir an dá théarma, ach amháin go gcuireann siad araon an bhrí cheart in iúl.</li>
+            <li>Féach chomh maith ar an téarma <a href='rank.html'>'rank / rang'</a>.</li>
+            <li>Féach chomh maith ar an téarma <a href='mean-rank-(MR).html'>'mean rank (MR) / meán-rang (MR)'</a>.</li>
+        </ul>
+        
+        <br><hr>
+        <table table border='0' style='width:100%'>
+            <tr>
+                <td style='width: 33%; text-align: left;'><a href="mean-rank-(MR).html">&lt;&lt; mean rank</a></td>
+                <td style='width: 34%; text-align: center;'><a href="../">foclóir</a></td>
+                <td style='width: 33%; text-align: right;'><a href="measure.html">measure &gt;&gt;</a></td>
+            </tr>
+        </table>
+        <div id="footerBar"></div>
+    </div>
+</body>
+</html>
     
