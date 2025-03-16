@@ -183,7 +183,7 @@ def gen_term_page(term, prev_term_id, next_term_id):
             <table table border='0' style='width:100%'>
                 <tr>
                     <td style='width: 33%; text-align: left;'>{prev_term_html}</td>
-                    <td style='width: 34%; text-align: center;'><a href="/">Baile</a></td>
+                    <td style='width: 34%; text-align: center;'><a href="../">foclóir</a></td>
                     <td style='width: 33%; text-align: right;'>{next_term_html}</td>
                 </tr>
             </table>
@@ -235,7 +235,7 @@ def gen_index(terms, version):
                 # if it is a letter
                 curr_header = first_char
             header_ids.append(curr_header)
-            termslist += f'\t<li><h2 id="{curr_header}" style="margin-bottom: 0px;">{curr_header}</h2></li>\n'
+            termslist += f'\t<li><h2 id="{curr_header}" class="letter-header">{curr_header}</h2></li>\n'
             header_printed = True
             
         term = terms[term_id]
@@ -270,7 +270,7 @@ def gen_index(terms, version):
         }
         </script>\n"""
     
-    header_nav = "<p style='text-align: center;'> Téigh chuig: \n"
+    header_nav = "<p class='center-text'> Téigh chuig: \n"
     header_nav += '\n'.join(' '*16 + f'<a href="#{header_id}">{header_id}</a>' for header_id in header_ids)
     header_nav += "</p>"
 
@@ -297,8 +297,8 @@ def gen_index(terms, version):
         <body>
         <div id="headerBar"></div>
         <div class='centerbox' id='indexlist'>
-            <h1 style="margin-bottom: 0px;">Foclóir Tráchtais</h1>
-            <p id="versionNum" style="margin-top: 0px">v{version}, le Jeffrey Seathrún Sardina</p>
+            <h1 id="mainHeader">Foclóir Tráchtais</h1>
+            <p id="versionNum">v{version}, le Jeffrey Seathrún Sardina</p>
             {header_nav}
             {searchbar + termslist}
             <div id="footerBar"></div>
