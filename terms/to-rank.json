@@ -2,8 +2,8 @@
     "term": "to rank",
     "part-of-speech": "briathar",
     "citation-form": "rangaigh",
-    "def-en": "In the context of a list, to order it according to the values of its elements.",
-    "def-ga": "I gcomhthéacs liosta, é a eagrú de réir luach a chuid ball.",
+    "def-en": "In the context of a set of numbers, to give a rank to each number equal to its index in a sorted list of those numbers.",
+    "def-ga": "I gcomhthéacs tacar uimhreacha, rang a thabhairt do gach uile uimhir ann ar ioann í agus a hinnéacs is liosta sortáilte na n-uimhreacha sin.",
 
     "prov": {
         "rangaigh": "de-bhaldraithe, focloir-beag, odonaill",

@@ -2,8 +2,8 @@
     "term": "ranked list",
     "part-of-speech": "ainmfhocal",
     "citation-form": "liosta ranganna",
-    "def-en": "In the context of evaluation of link predictors, a list composed of all ranks assigned to each link prediction query during the evaluation process.",
-    "def-ga": "I gcomthéacs measúnú a dhéantar ar réamhinsteoirí nasc, liosta a dhéantar as na ranganna ar fad ar tugadh iad do gach ceist réamhinsinte nasc le linn an phróisis measúnaithe.",
+    "def-en": "In the context the of evaluation of link predictors, a list composed of all ranks assigned to each link prediction query during the evaluation process.",
+    "def-ga": "I gcomhthéacs measúnú a dhéantar ar réamhinsteoirí nasc, liosta a dhéantar as na ranganna ar fad ar tugadh iad do gach ceist réamhinsinte nasc le linn an phróisis measúnaithe.",
 
     "prov": {
         "liosta": "de-bhaldraithe, dineen, focloir-beag, odonaill",

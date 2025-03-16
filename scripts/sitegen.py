@@ -58,6 +58,7 @@ def ga_italics_filter(render_str):
     return render_str
 
 def render_term(term):
+    print(f'rendering {term["term"]}')
     render_str = ""
 
     # header

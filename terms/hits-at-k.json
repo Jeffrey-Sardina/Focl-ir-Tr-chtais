@@ -2,14 +2,14 @@
     "term": "hits@k (H@k)",
     "part-of-speech": "ainmfhocal",
     "citation-form": "fíricí@k (F@k)",
-    "def-en": "In the context of a rankst list, the proportion of ranks that are qual to, or lesser tham, k.",
+    "def-en": "In the context of a ranked list, the proportion of ranks that are equal to, or lesser than, k.",
     "def-ga": "I gcomhthéacs liosta ranganna, comhréir na ranganna atá comhionann le k, nó níos ísle ná é.",
 
     "prov": {
         "fíric": "focloir-beag, odonaill"
     },
     "notes": [
-        "Ní léir ó na foinsí dúchasacha go mbeadh ciall ar bith le 'hits' a aistriú mar 'buailtí' nó mar sin. Ina ainneoin sin, aistrítear brí an téarma -- gurb é 'hits@k' na cé mhéid ranganna atá ann comhionann le, nó níos ísle ná, k. Is ionann rang i liosta ranganna agus rang a tugadh don fhreagra ceart ar cheist réamhinsinte nasc. Toisc go bhfuil gach uile fhreagra ceart ina fhíric, is ionann rang an fhreagra agus innéacs fírice. Mar sin, is ionann 'hits@k' agis líon na bhfíricí a bhfuil rang <= k acu. Is as sin a thagann an téarma seo go díreach.",
+        "Ní léir ó na foinsí dúchasacha go mbeadh ciall ar bith le 'hits' a aistriú mar 'buailtí' nó mar sin. Ina ainneoin sin, aistrítear brí an téarma -- gurb é 'hits@k' na cé mhéid ranganna atá ann comhionann le, nó níos ísle ná, k. Is ionann rang i liosta ranganna agus rang a tugadh don fhreagra ceart ar cheist réamhinsinte nasc. Toisc go bhfuil gach uile fhreagra ceart ina fhíric, is ionann rang an fhreagra agus innéacs fírice. Mar sin, is ionann 'hits@k' agus líon na bhfíricí a bhfuil rang <= k acu. Is as sin a thagann an téarma seo go díreach.",
         "Féach chomh maith ar an téarma 'ranked list / liosta ranganna'."
     ]
 }
