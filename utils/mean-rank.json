@@ -2,13 +2,17 @@
     "term": "mean rank (MR)",
     "part-of-speech": "xxx",
     "citation-form": "meán-rang (MR)",
-    "def-en": "xxx.",
-    "def-ga": "xxx.",
+    "def-en": "In the context of a ranked list, the mean of all ranks in it.",
+    "def-ga": "I gcomhthéacs liosta ranganna, meán na ranganna ar fad atá istigh ann.",
 
     "prov": {
-        "xxx": "de-bhaldraithe, dineen, focloir-beag, odonaill, storchiste"
+        "meán-": "de-bhaldraithe, odonaill, storchiste",
+        "rang": "féach ar an téarma 'rank / rang'"
     },
     "notes": [
-        "xxx."
+        "Tá an focal 'meán' i bhFoclóir Uí Dhónaill agus Uí Mhaoileoin, ach ní luaitear mar réimír ann é.",
+        "Bheadh ciall le 'rang meánach' chomh maith le meán-rag. in ráite, is é 'meán-' a úsaidtear den chuid is mó i dtéarmaí i bhFoclóir Uí Dhónaill (féach ar 'méan-am' / 'meán-saorchonair'). Ní fheictear samplaí d'úsáid 'meánach' i dtéarmaí eolaíochta / matamaitice ann. Glactar le 'meán-rang' mar sin. Sin ráite -- ní fhaightear locht ar 'rang meánach' mar théarma -- cuireann sé an bhrí chéanna in iúl ag deireadh an lae.",
+        "Féach chomh maith ar an téarma 'rank / rang'",
+        "Féach chomh maith ar an téarma 'ranked list / liosta ranganna'."
     ]
 }

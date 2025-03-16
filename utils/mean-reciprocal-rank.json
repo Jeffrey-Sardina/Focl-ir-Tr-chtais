@@ -1,14 +1,20 @@
 {
     "term": "mean reciprocal rank (MRR)",
-    "part-of-speech": "xxx",
-    "citation-form": "meán-rang deilíneach (MRD)",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "meán na ranganna deilíneacha (MRD)",
     "def-en": "xxx.",
     "def-ga": "xxx.",
 
     "prov": {
-        "xxx": "de-bhaldraithe, dineen, focloir-beag, odonaill, storchiste"
+        "meán-": "féach ar an téarma 'mean rank (MR) / meán-rang (MR)'",
+        "rang": "féach ar an téarma 'rank / rang'",
+        "deilíneach": "de-bhaldraithe, odonaill, storchiste"
     },
     "notes": [
-        "xxx."
+        "Cé gurb é 'meán-rang deilíneach' an leagan is litriúil ann, bheadh sé rud beag aisteach an leagan sin a úsáid, toisc go bhféadfadfaí é sin a léamh mar deilín den meán-rang (.i. 1 / (meán-rang)), seachas den meán na ranganna deilíneacha ar fad (.i. meán(1 / rank_i)). Is é an dara rud, cinnte, atá i gceist anseo (meán na ranganna deilíneacha). Ní bhíonn an fhadhb seo i mBéarla -- is ionann 'mean reciprocal rank' agus 'mean(1 / rank_i) toisc struchtúr theanga an Bhéarla, nach ionann agus struchtúr na Gaeilge. Toisc gur rud amháin é 'meán-rang', is éárd is 'meán-rang deilíneach' ann ná 1 / (meán-rang) -- rud nach bhfuil i gceist leis an téarma seo. Ní féidir glacadh le 'meán-rang deilíneach' mar sin.",
+        "Tá cúpla roghanna ar leith ann chun meán(1 / rank_i) a chur in iúl -- 'rang deilíneach meánach, nó 'meán na ranganna deilíneacha'. Meastar go mbeadh meán na ranganna deilíneach níos léire dá bhfuil i gceist, agus glactar leis mar sin.",
+        "Tá cosúlacht idir 'mean rank' agus 'mean recirpocal rank' i mBéarla. Níl sna téarmaí anseo -- déantar é sin d'aon ghnó. I cuma an bhfuil cosúlacht theangeolaíochta idir an dá théarma, ach amháin go gcuireann siad araon an bhrí cheart in iúl.",
+        "Féach chomh maith ar an téarma 'rank / rang'.",
+        "Féach chomh maith ar an téarma 'mean rank (MR) / meán-rang (MR)'."
     ]
 }
