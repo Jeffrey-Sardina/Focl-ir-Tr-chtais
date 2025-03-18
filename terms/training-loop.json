@@ -1,0 +1,16 @@
+{
+    "term": "training loop",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "timthriall traenála",
+    "def-en": "The repeating unit of the process used to train a machine learning model.",
+    "def-ga": "An chuid athfhillteach de phróiseas a úsáidtear chun samhail ríomhfhoghlama a thraenáil.",
+
+    "prov": {
+        "timthriall": "de-bhaldraithe, odonaill",
+        "traenáil": "féach ar an téarma 'training / traenáil'"
+    },
+    "notes": [
+        "Féach ar an téarma 'training / traenáil'.",
+        "Bíonn traenáil samhlacha ríomhfhoghlama (den chuid is mó) ina timthriall -- an próiseas céanna á úsáid arís is arís chun an tsamhail a chur chun cinn céim ar chéim. Is mar sin a dhéantar trácht anseo ar thimthriall traenála seachas ar phróiseas nó ar chur chuige traenála."
+    ]
+}
