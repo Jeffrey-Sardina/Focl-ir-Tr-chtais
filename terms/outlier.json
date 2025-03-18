@@ -2,8 +2,8 @@
     "term": "outlier",
     "part-of-speech": "ainmfhocal",
     "citation-form": "asluiteach",
-    "def-en": "xxx.",
-    "def-ga": "xxx.",
+    "def-en": "In the context of statistics, a value that is very far from all other values, and that does not follow their pattern.",
+    "def-ga": "I gcomhthéacs staitistice, luach atá i bhfad amach ó luacha eile agus nach leanann a bpatrún.",
 
     "prov": {
         "asluiteach": "storchiste"

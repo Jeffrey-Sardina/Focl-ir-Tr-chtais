@@ -1,0 +1,15 @@
+{
+    "term": "to bound",
+    "part-of-speech": "briathar",
+    "citation-form": "cuimsigh",
+    "def-en": "In the context of mathematics, to keep the output of a function on an interval.",
+    "def-ga": "I gcomhthéacs matamaitice, aschur feidhme a choinneáil ar eatramh.",
+
+    "prov": {
+        "cuimsigh": "dineen, odonaill, storchiste"
+    },
+    "notes": [
+        "Téarma díreach le fáil leis an mbrí cheannann chéanna i gcomhthéacs matamaiticiúil i bhFoclóir Uí Dhónaill agus i Stórchiste. Is i gcomhthéacs comhchosúil, ach níos leithne, a luaitear an téarma seo i bhFoclóir Uí Dhuinín.",
+        "Féach chomh maith ar an téarma 'interval / eatramh'."
+    ]
+}

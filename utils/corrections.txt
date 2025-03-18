@@ -14,3 +14,6 @@ hits-at-k.json
 to-quantify.json
 ranking.json
 ranked-list.json
+interval.json
+to-bound.json
+outlier.json

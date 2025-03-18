@@ -1,9 +1,9 @@
 {
-    "term": "internval",
+    "term": "interval",
     "part-of-speech": "ainmfhocal",
     "citation-form": "eatramh",
-    "def-en": "xxx.",
-    "def-ga": "xxx.",
+    "def-en": "In the context of mathematics, a specific range of values.",
+    "def-ga": "I gcomhthéacs matamaitice, réimse sainmhínithe luacha.",
 
     "prov": {
         "eatramh": "de-bhaldraithe, focloir-beag, odonaill, storchiste"
