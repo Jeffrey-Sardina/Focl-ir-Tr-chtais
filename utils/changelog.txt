@@ -1,5 +1,5 @@
 v1.3 / 1.4 alfa to 1.4
-- 17 new terms (now is 253, was 236 terms)
+- XXX new terms (now is XXX, was 236 terms)
 - several term corrections
 - several clarification / edits to definitions of terms
 - correction of some typos and minor formatting errors
