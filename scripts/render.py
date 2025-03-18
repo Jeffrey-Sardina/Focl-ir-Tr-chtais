@@ -170,6 +170,10 @@ def render_term(term):
         render_str = render_str.replace(" '", " `")
         render_str = render_str.replace(' "', ' ``')
 
+        # hard coded exceptions that are hard to automaticlly detect
+        render_str = render_str.replace("1 / (meán-rang)", "1 / (me\\acute{a}n-rang)")
+        render_str = render_str.replace("meán(1 / rang_i)", "1 / (me\\acute{a}n(1 / rang_i)")
+
     return render_str
 
 def render_terms(terms):
@@ -307,6 +311,7 @@ def get_header():
             """
         else:
             header = "\\section{An Foclóir Tráchtais} \\label{focloir-trachtais-content}\n"
+            header += f"The full contents of the latest version of \\textit{{An Foclóir Tráchtais}}, version {version} \\cite{{focloir-trachtais}}, are reproduced below.\n"
     elif MODE == 'markdown':
         header = f"# Foclóir Tráchtais v{version}\n"
         header += "**Jeffrey Seathrún Sardina**<br>\n"
@@ -388,7 +393,7 @@ def main():
     print(f"Wrote {num_terms} terms to {out_file}")
 
 if __name__ == '__main__':
-    version = '1.3'
+    version = '1.4 alfa'
 
     #defaults
     DEBUG = False
