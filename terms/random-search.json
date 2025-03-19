@@ -1,0 +1,17 @@
+{
+    "term": "random search",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "cuardach randamach",
+    "def-en": "In the context of a hyperparameter search, a search that is done on a large set of possible hyperparameter combinations, and in which hyperparameter combinations are sampled randomly until some end condition is reached.",
+    "def-ga": "I gcomhthéacs cuardaithe hipear-pharaiméadar, cuardach a dhéantar ar thacar mór teaglamaí hipear-pharaiméadar, agus ina mbíonn teaglamaí sampláilte go randamach go dtí go bhfuil coinníoll críochnaithe bainte amach.",
+
+    "prov": {
+        "cuardach": "féach ar an téarma 'hyperparameter search / cuardach hipear-pharaiméadar'",
+        "randamach": "féach ar an téarma 'random / randamach'"
+    },
+    "notes": [
+        "Féach ar an téarma 'hyperparameter search / cuardach hipear-pharaiméadar'.",
+        "Féach chomh maith ar an téarma 'random / randamach'.",
+        "Féach chomh maith ar an téarma 'end condition / coinníoll críochnaithe'."
+    ]
+}

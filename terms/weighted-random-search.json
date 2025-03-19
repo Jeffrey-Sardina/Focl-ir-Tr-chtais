@@ -1,0 +1,18 @@
+{
+    "term": "weighted random search",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "cuardach randamach ualaithe",
+    "def-en": "In the context of a hyperparameter search, a random search in which the sampling is weighted by how well past samples have performed (for example, through the use of Bayesian sampling).",
+    "def-ga": "I gcomhthéacs cuardaithe hipear-pharaiméadar, cuardach randamach ina mbíonn an sampláil randamach ualaithe de réir cé chomh maith is a bhí samplaí a mheasúnaíodh cheana (mar shampla, trí shampláil Bayes a dhéanamh).",
+
+    "prov": {
+        "cuardach randamach": "féach ar an téarma 'random search / cuardach randamach'",
+        "ualaithe": "féach ar an téarma 'weighted / ualaithe'"
+    },
+    "notes": [
+        "Féach ar an téarma 'hyperparameter search / cuardach hipear-pharaiméadar'.",
+        "Féach chomh maith ar an téarma 'random search / cuardach randamach''.",
+        "Féach chomh maith ar an téarma 'weighted / ualaithe'.",
+        "Féach chomh maith ar an téarma 'end condition / coinníoll críochnaithe'."
+    ]
+}

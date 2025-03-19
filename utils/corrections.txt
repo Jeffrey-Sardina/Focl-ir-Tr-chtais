@@ -22,3 +22,6 @@ outlier.json
 training-loop.json *
 negative-sampling.json *
 end-condition.json *
+weighted-random-search.json *
+random-search.json *
+grid-search.json *
