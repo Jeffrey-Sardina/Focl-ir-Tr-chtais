@@ -1,0 +1,15 @@
+{
+    "term": "operator",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "oibreoir",
+    "def-en": "A symbol or character that represents an operation (such as + or -).",
+    "def-ga": "Siombail nó comhartha a chuireann oibriú in iúl (m.sh. + agus -).",
+
+    "prov": {
+        "oibreoir": "odonaill, storchiste"
+    },
+    "notes": [
+        "Téarma díreach ar fáil mar théarma matamaitice i Stórchiste. I bhFoclóir Uí Dhónaill, ní luaitear comhthéacs leis.",
+        "Féach chomh maith ar an téarma 'operation / oibriú'."
+    ]
+}
