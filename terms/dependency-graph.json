@@ -1,0 +1,17 @@
+{
+    "term": "dependency graph",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "graf spleáchais",
+    "def-en": "A graph that shows dependency relationships among its nodes.",
+    "def-ga": "Graf a léiríonn ceangail spleáchais idir a chuid nód.",
+
+    "prov": {
+        "graf": "féach ar an téarma 'graph / graf'",
+        "spleáchas": "de-bhaldraithe, dineen, focloir-beag, odonaill"
+    },
+    "notes": [
+        "Téarma cruthaithe go díreach an na focail thuas.",
+        "Is é 'spleádhachas' atá i bhFoclóir Uí Dhuinín, ach glactar leis gurb in an focal céanna.",
+        "Féach chomh maith ar an téarma 'graph / graf'."
+    ]
+}

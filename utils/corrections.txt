@@ -30,3 +30,4 @@ genetic-algorithm.json *
 bayesian.json
 operation.json
 operator.json
+dependency-graph.json *
