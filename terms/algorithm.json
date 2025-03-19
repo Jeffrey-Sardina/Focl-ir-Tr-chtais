@@ -1,0 +1,14 @@
+{
+    "term": "algorithm",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "algartam",
+    "def-en": "In the context of computer science, a fully-defined process that aims to solve some task.",
+    "def-ga": "I gcomhthéacs ríomheolaíochta, próiseas sainmhínithe a bhfuil déanamh taisc mar aidhm aige.",
+
+    "prov": {
+        "algartam": "storchiste"
+    },
+    "notes": [
+        "Téarma díreach ar fáil i gcomhthéacs matamaiticiúil i Stórchiste."
+    ]
+}

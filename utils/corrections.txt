@@ -25,3 +25,7 @@ end-condition.json *
 weighted-random-search.json *
 random-search.json *
 grid-search.json *
+algorithm.json
+genetic-algorithm.json *
+bayesian.json
+operation.json

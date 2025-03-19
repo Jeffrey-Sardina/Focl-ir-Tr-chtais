@@ -1,0 +1,15 @@
+{
+    "term": "operation",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "oibriú",
+    "def-en": "In the context of mathematics or computer science, a mathematical process that has input and output. For example, addition and multiplication are operations. A function can also be said to be an operation.",
+    "def-ga": "I gcomhthéacs matamaitice nó ríomheolaíochta, próiseas matamaitice a bhfuil ionchur agus aschur aige. Mar shampla, is oibrithe iad suimiú agus iolrú. Is féidir a rá go bhfuil feidhm ina hoibriú chomh maith.",
+
+    "prov": {
+        "oibriú": "de-bhaldraithe, dineen, focloir-beag, odonaill"
+    },
+    "notes": [
+        "Focal luaite mar théarma matamaitice i bhFoclóir Uí Dhónaill agus i bhFoclóir De Bhaldraithe. Sna foclóirí eile, is i gcomhthéacs níos leithne atá sé luaite.",
+        "Is é 'oibriughadh' atá i bhFoclóir Uí Dhuinín, ach glactar leis gurb in an focal céanna."
+    ]
+}

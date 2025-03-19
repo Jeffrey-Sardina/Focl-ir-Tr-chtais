@@ -1,0 +1,16 @@
+{
+    "term": "genetic algorithm",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "algartam géiniteach",
+    "def-en": "In the context of computer science, a machine learning algorithm based on genetic operations.",
+    "def-ga": "I gcomhthéacs ríomheolaíochta, algartam ríomhfhoghlama bunaithe ar oibrithe géineolaíochta.",
+
+    "prov": {
+        "algartam": "féach ar an téarma 'algorithm / algartam'",
+        "géiniteach": "de-bhaldraithe, odonaill"
+    },
+    "notes": [
+        "Téarma cruthaithe go díreach as an dhá fhocal thuas.",
+        "Féach chomh maith ar an téarma 'algorithm / algartam'."
+    ]
+}
