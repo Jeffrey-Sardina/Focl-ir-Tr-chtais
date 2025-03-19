@@ -425,7 +425,7 @@ def get_format():
     return mode
 
 if __name__ == '__main__':
-    version = '1.4 alfa'
+    version = '1.4'
 
     #defaults
     DEBUG = False
