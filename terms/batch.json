@@ -1,18 +1,14 @@
 {
     "term": "batch",
     "part-of-speech": "ainmfhocal",
-    "citation-form": "fo-thacar",
+    "citation-form": "baisc",
     "def-en": "A set of data points taken from the training set that is given to a machine learning model as it is learning (i.e. as a part of the training process). Sometimes, batches of the testing and validation sets are used during testing and validation as well.",
     "def-ga": "Tacar sonraí tógtha as an tacar traenála a thugtar do shamhail ríomhfhoghlama agus í ag foghlaim (.i. le linn an phróisis traenála). Uaireanta, úsáidtear fo-thacar de thacar teisteála / deimhnithe le linn an phróisis teisteála / deimhnithe chomh maith.",
 
     "prov": {
-        "fo-": "féach ar an téarma 'subset / fo-thacar'",
-        "tacar": "féach ar an téarma 'set / tacar'",
-        "fo-thacar": "féach ar an téarma 'subset / fo-thacar'"
+        "baisc": "odonaill"
     },
     "notes": [
-        "Is é 'baisc' atá ar Tearma.ie ina chomhair seo. Tá an téarma sin le feiceáil i bhFoclóir Uí Dhónaill le brí chomhchiallach. Sin ráite, is éard is 'batch' ann ná fo-thacar den tacar traenála, teisteála, nó deimhnithe. Meastar mar sin go bhfuil fo-thacar níos cruinne sa gcomhthéacs seo",
-        "Féach chomh maith ar an téarma 'set / tacar'.",
-        "Féach chomh maith ar an téarma 'subset / fo-thacar'."
+        "Is é 'baisc' atá ar Tearma.ie ina chomhair seo. Tá an téarma sin le feiceáil i bhFoclóir Uí Dhónaill le brí chomhchiallach. Cé go mbeadh ciall le go leor téarmaí eile, glactar leis sin toisc go bhfuil fianise ann dó i bhFoclóir Uí Dhónaill agus toisc go bhfuil sé in úsáid cheana ar Tearma.ie."
     ]
 }
