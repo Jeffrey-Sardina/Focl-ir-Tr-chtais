@@ -392,6 +392,35 @@ def main():
     num_terms, out_file = write_terms(table_str, render_strs)
     print(f"Wrote {num_terms} terms to {out_file}")
 
+def get_index_ga():
+    if '-ga' in sys.argv:
+        assert not '-en' in sys.argv, "Only index language can be set"
+        index_ga = True
+    elif '-en' in sys.argv:
+        assert not '-ga' in sys.argv, "Only index language can be set"
+        index_ga = False
+    else: # default to Gaeilge
+        assert False, "Must give a index language via -en or -ga"
+    return index_ga
+
+def get_format():
+    if '-md' in sys.argv:
+        assert not '-tex' in sys.argv, "Only one mode can be set"
+        assert not '-html' in sys.argv, "Only one mode can be set"
+        mode = 'markdown'
+    elif '-tex' in sys.argv:
+        assert not '-html' in sys.argv, "Only one mode can be set"
+        assert not '-md' in sys.argv, "Only one mode can be set"
+        mode = 'latex'
+    elif '-html' in sys.argv:
+        assert not '-md' in sys.argv, "Only one mode can be set"
+        assert not '-tex' in sys.argv, "Only one mode can be set"
+        mode = 'html'
+        mode = 'html'
+    else: #default to markdown
+        assert False, "Must give a mode via -md, -tex, or -html"
+    return mode
+
 if __name__ == '__main__':
     version = '1.4 alfa'
 
@@ -403,10 +432,14 @@ if __name__ == '__main__':
     if '-debug' in sys.argv:
         DEBUG = True
 
-
     if '-nv' in sys.argv:
         # run all versions
-        assert len(sys.argv) == 2, "If -nv is used, no other arguments may be given"
+        assert not '-thesis' in sys.argv, "-nv and -thesis cannot be used together as arguments"
+        assert not '-en' in sys.argv, "-nv already produces output in -en and -ga, and cannot accept those arguments"
+        assert not '-ga' in sys.argv, "-nv already produces output in -en and -ga, and cannot accept those arguments"
+        assert not '-md' in sys.argv, "-nv already produces output in all format and does not accept specific formatting arguments"
+        assert not '-tex' in sys.argv, "-nv already produces output in all format and does not accept specific formatting arguments"
+        assert not '-html' in sys.argv, "-nv already produces output in all format and does not accept specific formatting arguments"
         for MODE in ['markdown', 'latex', 'html']:
             for INDEX_GAEILGE in [True, False]:
                 DEBUG = False
@@ -414,36 +447,16 @@ if __name__ == '__main__':
 
     elif '-thesis' in sys.argv:
         # make the output in the format needed for inclusion in my thesis
-        assert len(sys.argv) == 2, "If -thesis is used, no other arguments may be given"
+        assert not '-nv' in sys.argv, "-thesis and -nv cannot be used together as arguments"
+        assert not '-md' in sys.argv, "-thesis internally sets -tex, and cannot accept formatting arguments"
+        assert not '-tex' in sys.argv, "-thesis internally sets -tex, and cannot accept formatting arguments"
+        assert not '-html' in sys.argv, "-thesis internally sets -tex, and cannot accept formatting arguments"
         MODE = 'latex'
-        INDEX_GAEILGE = False
+        INDEX_GAEILGE = get_index_ga()
         THESIS_FMT = True
         main()
 
     else:
-        if '-md' in sys.argv:
-            assert not '-tex' in sys.argv, "Only one mode can be set"
-            assert not '-html' in sys.argv, "Only one mode can be set"
-            MODE = 'markdown'
-        elif '-tex' in sys.argv:
-            assert not '-html' in sys.argv, "Only one mode can be set"
-            assert not '-md' in sys.argv, "Only one mode can be set"
-            MODE = 'latex'
-        elif '-html' in sys.argv:
-            assert not '-md' in sys.argv, "Only one mode can be set"
-            assert not '-tex' in sys.argv, "Only one mode can be set"
-            MODE = 'html'
-            MODE = 'html'
-        else: #default to markdown
-            assert False, "Must give a mode via -md, -tex, or -html"
-
-        if '-ga' in sys.argv:
-            assert not '-en' in sys.argv, "Only index language can be set"
-            INDEX_GAEILGE = True
-        elif '-en' in sys.argv:
-            assert not '-ga' in sys.argv, "Only index language can be set"
-            INDEX_GAEILGE = False
-        else: # default to Gaeilge
-            assert False, "Must give a index language via -en or -ga"
-
+        INDEX_GAEILGE = get_index_ga()
+        MODE = get_format()
         main()
