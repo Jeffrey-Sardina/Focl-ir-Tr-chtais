@@ -1,0 +1,17 @@
+{
+    "term": "negative sampling",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "frith-shampláil",
+    "def-en": "The process relating to the creation of negative samples based on ground truth samples.",
+    "def-ga": "An próiseas a bhaineann le frith-shamplaí a chruthú bunaithe ar shamplaí fírinneacha.",
+
+    "prov": {
+        "frith-": "féach ar an téarma 'negative sampler / frith-shamplóir'",
+        "sampláil": "féach ar an téarma 'to sample / sampláil'"
+    },
+    "notes": [
+        "Is ainmfhocal amháin é seo. Cé go bhfuil 'sampláil' ina briathar, níl ann call 'frith-shampláil' a úsáid mar bhriathar. Ní dhéantar i litríocht an réimse i mBéarla é sin, agus is ar éigin a bheadh an úsáid sin de dhíth i nGaeilge ach an oiread.",
+        "Féach chomh maith ar an téarma 'negative sampler / frith-shamplóir'.",
+        "Féach chomh maith ar an téarma 'to sample / sampláil'."
+    ]
+}
