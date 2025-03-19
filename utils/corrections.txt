@@ -1,22 +1,24 @@
 Not checked since last major revision:
+(* = not sent to the Coiste Téarmaíochta go fóill)
 
 source-code.json
 open-source.json
-ablation.json
-open-world-assumption.json
-closed-world-assumption.json
-data-leak.json
+ablation.json *
+open-world-assumption.json *
+closed-world-assumption.json *
+data-leak.json *
 to-filter.json
 filtering.json
 filter.json
-mean-rank.json
-mean-reciprocal-rank.json
-hits-at-k.json
+mean-rank.json *
+mean-reciprocal-rank.json *
+hits-at-k.json *
 to-quantify.json
 ranking.json
-ranked-list.json
+ranked-list.json *
 interval.json
 to-bound.json
 outlier.json
-training-loop.json
-negative-sampling.json
+training-loop.json *
+negative-sampling.json *
+end-condition.json *

@@ -1,0 +1,17 @@
+{
+    "term": "end condition",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "coinníoll críochnaithe",
+    "def-en": "In the context of computer science, a condition that determines when a process should be stopped.",
+    "def-ga": "I gcomhthéacs ríomheolaíochta, coinníoll a chinneann cathain ar cheart próiseas a stopadh.",
+
+    "prov": {
+        "coinníoll": "de-bhaldraithe, dineen*, focloir-beag, odonaill",
+        "críochnaigh": "de-bhaldraithe, dineen*, focloir-beag**, odonaill"
+    },
+    "notes": [
+        "* Is é 'coingheall' agus 'críochnuighim' atá i bhFoclóir Uí Dhuinín, ach glactar leis gurb iad na focail chéanna le sean-litriú.",
+        "** Is é 'críochnú' atá i bhFoclóir Uí Dhónaill agus Uí Mhaoileoin.",
+        "Ní hé 'coinníoll deiridh' (nó deireanach, srl) a roghnaítear anseo toisc go dtugann sé sin le fios go bhfuil an coinníoll seo ag deireadh liosta coinníollacha, seachas mar coinníoll a chinneann cathain ar ceart próiseas a chríochnú."
+    ]
+}
