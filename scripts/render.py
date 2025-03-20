@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+from constants import version
 import json
 import glob
 import sys
@@ -425,8 +426,6 @@ def get_format():
     return mode
 
 if __name__ == '__main__':
-    version = '1.4'
-
     #defaults
     DEBUG = False
     THESIS_FMT = False

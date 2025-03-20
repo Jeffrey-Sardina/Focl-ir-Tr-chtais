@@ -1,0 +1,17 @@
+{
+    "term": "ground truth",
+    "part-of-speech": "aidiacht",
+    "citation-form": "bun-fhírinneach",
+    "def-en": "In the context of data for machine learning, true and available to be used during training, testing, or validation as an example of correct output.",
+    "def-ga": "I gcomhthéacs sonraí a úsáidtear i gcomhair ríomhfhoghlama, fíor agus ar fáil lena bheith úsáidte le linn traenála, teisteála, nó deimhnithe mar shampla den aschur ceart.",
+
+    "prov": {
+        "bun-": "de-bhaldraithe, dineen, focloir-beag, odonaill",
+        "fírinneach": "de-bhaldraithe, dineen, focloir-beag, odonaill"
+    },
+    "notes": [
+        "Is minic agus 'bun-' úsáidte mar réimír ar ainmfhocail. Sin ráite, is léir ó Fhoclóir Uí Dhónaill gur féidir é a úsáid mar réimír ar aidiachtaí chomh maith -- féach ar 'bun-ard' mar shampla.",
+        "Sin ráite, is minic gur féidir 'fírinneach' a úsáid in áit 'bun-fírinneach' -- óir bíonn an bhun-fhírinne mar chuid den fhírinne i gcónaí, cé nach mbíonn an fhírinne ar fad mar chuid den bhun-fhírinne i gcónaí.",
+        "Féach chomh maith ar an téarma 'ground truth (data) / bun-fhírinne'."
+    ]
+}
