@@ -28,7 +28,6 @@ def load_terms():
                     de_dupe_id = "#" + str(int(random.random() * 1_000_000))
                     terms[term['citation-form'] + de_dupe_id] = term
     terms_sorted = {key:terms[key] for key in termsort(terms)}
-    print(f'loaded {len(terms_sorted)} terms')
     return terms_sorted
 
 def term_heading(render_str):

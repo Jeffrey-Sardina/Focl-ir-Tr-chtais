@@ -1,0 +1,14 @@
+{
+    "term": "atomic",
+    "part-of-speech": "aidiacht",
+    "citation-form": "adamhach",
+    "def-en": "Unable to be broken down further to arrive at a more basic unit.",
+    "def-ga": "Gan a bheith in ann a bheith briste síos a thuilleadh chun teachta ar aonad níos bunúsaí.",
+
+    "prov": {
+        "adamhach": "de-bhaldraithe, focloir-beag, odonaill"
+    },
+    "notes": [
+        "Tagann an téarma seo as an bhfocal 'atom / adamh' sa gceimic. Sin ráite, meatar go bhfuil bhrí an fhocal 'adamhach' sa gceimic cosúil go leor leis an mbrí atá i gceist anseo chun glacadh le 'adamhach' mar leagan den téarma 'atomic' i gcomhthéacs ríomheolaíochta."
+    ]
+}
