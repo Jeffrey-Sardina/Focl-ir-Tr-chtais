@@ -1,0 +1,15 @@
+{
+    "term": "generality",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "ginearáltacht",
+    "def-en": "In the context of mathematics, how general an equation or statement is.",
+    "def-ga": "I gcomhthéacs matamaitice, cé chomh ginearálta is atá cothromóid nó slonn.",
+
+    "prov": {
+        "ginearáltacht": "de-bhaldraithe, focloir-beag, odonaill"
+    },
+    "notes": [
+        "Téarma díreach ar fáil le brí chomhchosúil ó na foclóirí thuas.",
+        "Is minic a úsáidtear an téarma seo i bhfrása. Seo a leanas cúpla sampla dá úsáid: 'without loss of generality, assume...' -> 'gan ginearáltacht a chailleadh, abair go...', 'loss of generality' (mar choincheap) -> 'caillteanas ginearáltachta'"
+    ]
+}

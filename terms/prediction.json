@@ -1,0 +1,15 @@
+{
+    "term": "prediction",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "réamhinsint",
+    "def-en": "A data point that is predicted.",
+    "def-ga": "Sonra atá réamhinste.",
+
+    "prov": {
+        "réamhinsint": "de-bhaldraithe, odonaill"
+    },
+    "notes": [
+        "Tá 'réamh-' agus 'innsint' i bhFoclóir Uí Dhuinín, ach níl an téarma 'réamhinsint' luaite ann.",
+        "Tá 'réamh-' agus 'insint' i bhFoclóir Uí Dhónaill agus Uí Mhaoileoin, ach níl an téarma 'réamhinsint' luaite ann."
+    ]
+}

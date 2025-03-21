@@ -32,5 +32,10 @@ operation.json
 operator.json
 dependency-graph.json *
 state-of-the-art-(the-literature).json
+
 ground-truth.json *
 ground-truth-(data).json *
+to-predict.json
+predictor.json
+prediction.json
+generality.json
