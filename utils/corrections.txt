@@ -41,3 +41,4 @@ prediction.json
 generality.json
 atomic.json
 region.json
+aggregate.json

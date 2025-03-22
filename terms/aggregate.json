@@ -1,0 +1,15 @@
+{
+    "term": "aggregate",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "tionól",
+    "def-en": "In the context of data, a single statistic that is a function of multiple data points.",
+    "def-ga": "I gcomhthéacs sonraí, staitistic amháin atá mar fheidhm de roinnt pointí sonraí ar leith.",
+
+    "prov": {
+        "tionól": "de-bhaldraithe, dineen, focloir-beag, odonaill"
+    },
+    "notes": [
+        "Téarma díreach ar fáil i gcomhthéacs matamaitice i bhFoclóir Uí Dhuinín agus i bhFoclóir De Bhaldraithe. I bhfoclóir Uí Dhuinín agus i bhFoclóir Uí Dhónaill agus Uí Mhaoileoin, ní luaitear an téarma seo mar théarma matamaitice, ach luaitear é le brí chomhchosúil.",
+        "Tá an téarma 'comhiomlán' ar Tearma.ie, gan trácht ar an bhfocal 'tionól'. Ní ghlactar leis sin toisc nach n-aontaíonn sé lena bhfuil ar fáil sna foclóirí dúchasacha. "
+    ]
+}
