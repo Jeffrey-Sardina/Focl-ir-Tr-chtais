@@ -1,0 +1,14 @@
+{
+    "term": "region",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "réigiún",
+    "def-en": "In the context of a graph, a specific local subset of the graph.",
+    "def-ga": "I gcomhthéacs graif, cuid logánta áirithe den ghraf.",
+
+    "prov": {
+        "réigiún": "de-bhaldraithe, focloir-beag, odonaill"
+    },
+    "notes": [
+        "Cé go mbíonn 'réigiún' luaite i gcomhthéacs an domhain fhisicigh amháin, meatar go bhfuil sé cosúil go leor go mbeadh ciall leis an téarma seo."
+    ]
+}
