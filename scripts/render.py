@@ -312,7 +312,7 @@ def get_header():
         else:
             header = "\\section{An Foclóir Tráchtais} \\label{focloir-trachtais-content}\n"
             if not INDEX_GAEILGE:
-                header += f"The full contents of the latest version of \\textit{{An Foclóir Tráchtais}}, version {version} \\cite{{focloir-trachtais}}, are reproduced below.\n"
+                header += f"The full contents of the latest version of the \\textit{{Foclóir Tráchtais}}, version {version} \\cite{{focloir-trachtais}}, are reproduced below.\n"
             else:
                 header += f"TODO"
     elif MODE == 'markdown':
