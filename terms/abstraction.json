@@ -1,0 +1,14 @@
+{
+    "term": "abstraction",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "teibiú",
+    "def-en": "Generalisation of a base concept to arrive at a higher-order concept. Or, in the context of computer science, a simple interface put around a complex process or object to facilitate access to it.",
+    "def-ga": "Ginearálú ar bhun-choincheap chun teacht ar choincheap nua ar leibhéal níos airde. Nó, i gcomhthéacs ríomheolaíochta, comhéadan simplí a chuirtear timpeall ar próiseas nó ar réad casta chun rochtain air a éascú.",
+
+    "prov": {
+        "teibiú": "de-bhaldraithe, odonaill"
+    },
+    "notes": [
+        "Téarma díreach ar fáil leis an mbrí chéanna (ach i gcomhthéacs fealsúnachta seachas ríomheolaíochta)."
+    ]
+}

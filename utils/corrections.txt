@@ -42,3 +42,7 @@ generality.json
 atomic.json
 region.json
 aggregate.json
+neighbour.json
+dikw-pyramid.json
+abstraction.json
+to-abstract.json
