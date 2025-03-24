@@ -1,7 +1,7 @@
 {
     "term": "batch size",
     "part-of-speech": "ainmfhocal",
-    "citation-form": "méid na bhfo-thacar",
+    "citation-form": "méid na mbaisceanna",
     "def-en": "How many data points are in each batch of the training / testing / validation set.",
     "def-ga": "Cé mhéid pointí sonraí atá i chuile fho-thacar den tacar traenála / teisteála / deimhnithe.",
 
@@ -10,6 +10,6 @@
         "fo-thacar": "féach ar an téarma 'batch / fo-thacar'"
     },
     "notes": [
-        "Féach ar an téarma 'batch / fo-thacar'."
+        "Féach ar an téarma 'batch / baisc'."
     ]
 }
