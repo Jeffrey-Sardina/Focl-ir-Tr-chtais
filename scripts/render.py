@@ -375,7 +375,7 @@ def write_terms(table_str, render_strs):
     header = get_header()
     footer = get_footer()
     
-    out_file = "../" + out_name + ext
+    out_file = "../builds/" + out_name + ext
     with open(out_file, 'w') as out:
         print(header, file=out)
         print(table_str, file=out)
