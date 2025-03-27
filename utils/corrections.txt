@@ -1,40 +1,23 @@
 Not checked since last major revision:
-(* = not sent to the Coiste Téarmaíochta go fóill)
 
 source-code.json
 open-source.json
-ablation.json *
-open-world-assumption.json *
-closed-world-assumption.json *
-data-leak.json *
+ablation.json
+open-world-assumption.json
+closed-world-assumption.json
+data-leak.json
 to-filter.json
 filtering.json
 filter.json
-mean-rank.json *
-mean-reciprocal-rank.json *
-hits-at-k.json *
 to-quantify.json
 ranking.json
-ranked-list.json *
 interval.json
 to-bound.json
 outlier.json
-training-loop.json *
-negative-sampling.json *
-end-condition.json *
-weighted-random-search.json *
-random-search.json *
-grid-search.json *
-algorithm.json
-genetic-algorithm.json *
 bayesian.json
 operation.json
 operator.json
-dependency-graph.json *
 state-of-the-art-(the-literature).json
-
-ground-truth.json *
-ground-truth-(data).json *
 to-predict.json
 predictor.json
 prediction.json
@@ -46,3 +29,18 @@ neighbour.json
 dikw-pyramid.json
 abstraction.json
 to-abstract.json
+algorithm.json
+weighted-random-search.json
+random-search.json
+mean-rank.json
+mean-reciprocal-rank.json
+hits-at-k.json
+ranked-list.json
+training-loop.json
+negative-sampling.json
+end-condition.json
+grid-search.json
+genetic-algorithm.json
+dependency-graph.json
+ground-truth.json
+ground-truth-(data).json
