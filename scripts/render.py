@@ -5,7 +5,10 @@ import json
 import glob
 import sys
 import random
+import os
 from utils import termsort
+
+BUILDS_FOLDER_WRITE = "../builds/"
 
 def load_terms():
     terms = {}
@@ -228,8 +231,8 @@ def render_table(terms):
                 longest_en = len(term['term'])
             if len(term['citation-form']) > longest_ga:
                 longest_ga = len(term['citation-form'])
-        longest_en += 1 # extra spacing around the term to makeit easuier to read in source
-        longest_ga += 1 # extra spacing around the term to makeit easuier to read in source
+        longest_en += 1 # extra spacing around the term to make it easuier to read in source
+        longest_ga += 1 # extra spacing around the term to make it easuier to read in source
         en_col = "**Béarla**".ljust(longest_en)
         ga_col = "**Gaeilge**".ljust(longest_ga)
         if not INDEX_GAEILGE:
@@ -314,7 +317,7 @@ def get_header():
             if not INDEX_GAEILGE:
                 header += f"The full contents of the latest version of the \\textit{{Foclóir Tráchtais}}, version {version} \\cite{{focloir-trachtais}}, are reproduced below.\n"
             else:
-                header += f"TODO"
+                header += f"Tá na téarmaí uilig sa bhFoclóir Tráchtais, leagan {version} \\cite{{focloir-trachtais}}, le feiceáil thíos.\n"
     elif MODE == 'markdown':
         header = f"# Foclóir Tráchtais v{version}\n"
         header += "**Jeffrey Seathrún Sardina**<br>\n"
@@ -375,15 +378,16 @@ def write_terms(table_str, render_strs):
     header = get_header()
     footer = get_footer()
     
-    out_file = "../builds/" + out_name + ext
+    if not os.path.exists(BUILDS_FOLDER_WRITE):
+        os.makedirs(BUILDS_FOLDER_WRITE)
+    out_file = os.path.join(BUILDS_FOLDER_WRITE, out_name + ext)
     with open(out_file, 'w') as out:
         print(header, file=out)
         print(table_str, file=out)
         for render_str in render_strs:
             print(render_str, file=out)
         print(footer, file=out)
-        
-    
+
     num_terms = len(terms)
     return num_terms, out_file
 
