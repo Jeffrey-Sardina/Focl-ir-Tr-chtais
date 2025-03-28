@@ -6,5 +6,5 @@ pseudotyped.json
 constant.json
 hyperparameter-grid.json
 reproducible.json
-
-peer-reviewed?
+scatter-plot.json
+histogram.json

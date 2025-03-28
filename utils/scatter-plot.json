@@ -1,0 +1,18 @@
+{
+    "term": "scatter plot / diagram",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "scaipléaráid",
+    "def-en": "xxx.",
+    "def-ga": "xxx.",
+
+    "prov": {
+        "scaipléaráid": "storchiste",
+        "scaip": "de-bhaldraithe, dineen, focloir-beag, odonaill, storchiste",
+        "léaráid": "de-bhaldraithe, focloir-beag, odonaill"
+    },
+    "notes": [
+        "Tá an téarma 'scaipléaráid' go díreach le fáil i Stórchiste mar 'scatter diagram' i gcomthéacs matamaitice. Glactar leis sin mar sin.",
+        "Luann roinnt foclóirí thuas an téarma 'léaráid' mar fhocal ar 'diagram' i gcomhthéacs comhchosúil, ach ní luann siad 'scaipléaráid'.",
+        "Luann roinnt foclóirí thuas an téarma 'scaip' mar fhocla ar 'to scatter', ach ní luann siad 'scaipléaráid', ní ná luann siad mar réimír é."
+    ]
+}
