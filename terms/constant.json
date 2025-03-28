@@ -1,0 +1,14 @@
+{
+    "term": "constant",
+    "part-of-speech": "aidiacht",
+    "citation-form": "buan-",
+    "def-en": "Regarding a value, unchanging.",
+    "def-ga": "Ag trácht ar luach éigin, gan athrú.",
+
+    "prov": {
+        "buan-": "de-bhaldraithe, dineen, focloir-beag, odonaill, storchiste"
+    },
+    "notes": [
+        "Tá an réimír 'buaun-' úsáidte i gcomhthéacs matamaitice i bhFoclóir Uí Dhónaill, i bhFoclóir De Bhaldraithe, agus i Stórchiste sa téarma 'buanuimhir'. Sna foclóirí eile, is i gcomhthéacs níos leithe atá sé luaite.",
+    ]
+}

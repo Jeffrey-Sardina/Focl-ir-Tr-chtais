@@ -1,0 +1,15 @@
+{
+    "term": "pseudotyped",
+    "part-of-speech": "aidiacht",
+    "citation-form": "le haicme chumtha",
+    "def-en": "In the context of a node in a knowledge graph, having a pseudotype.",
+    "def-ga": "I gcomhthéacs nód i ngraf eolais, le haicme chumtha curtha leis.",
+
+    "prov": {
+        "aicme chumtha": "féach ar an téarma 'pseudotype / aicme chumtha'"
+    },
+    "notes": [
+        "Má tá tú ag trácht ar ghraf eolais iomlán, seachas ar nód amháin, ba cheart 'le haicmí cumtha' a úsáid, toisc go mbíonn níos mó ná aicme amháin cumtha agus aicmí cumtha a chur leis na nóid ar fad i ngraf eolais.",
+        "Féach chomh maith ar an téarma 'pseudotype / aicme chumtha'."
+    ]
+}

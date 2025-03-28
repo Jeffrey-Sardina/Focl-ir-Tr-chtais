@@ -1,0 +1,16 @@
+{
+    "term": "reproducible",
+    "part-of-speech": "aidiacht",
+    "citation-form": "in-athdhéanta",
+    "def-en": "In the context of an experiment, able to be done again by other researchers, with the same or similar results as those originally obtained.",
+    "def-ga": "I gcomthéacs turgnaimh, in ann a bheith déanta arís ag taighdeoirí eile, leis na torthaí céanna (nó comhchosúla) is a bhí ag an gcéad turgnamh.",
+
+    "prov": {
+        "athdhéan": "de-bhaldraithe, focloir-beag, odonaill",
+        "ath-": "de-bhaldraithe, dineen, focloir-beag, odonaill",
+        "déan": "de-bhaldraithe, dineen, focloir-beag, odonaill"
+    },
+    "notes": [
+        "Cé go mbíonn an téárma seo úsáidte go minic i gcomthéacs eolaíochta, níl brí eolaíochta ar leith aige. Mar sin, cloíonn an úsáid seo go díreach leis an úsaid atá luaite leis an bhfocal 'athdhéan' sna foclóirí thuas."
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "term": "margin ranking loss (MRL)",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "pionós rangaithe le bearna (PRB)",
+    "def-en": "A loss function created for the link prediction task that attempts to maintain a specific margin between the scores of true triples and the scores of negative samples.",
+    "def-ga": "Feidhm phionóis cruthaithe ar son an taisc réamhinsinte nasc a iarrann bearna áirithe a choinneáil idir scór na n-abairtí triaracha fírinneacha agus scór na bhfrith-shamplaí.",
+
+    "prov": {
+        "pionós": "féach ar an téarma 'loss function / feidhm phionóis'",
+        "rangaigh": "féach ar an téarma 'to rank / rangaigh'",
+        "bearna": "féach ar an téarma 'margin / bearna'"
+    },
+    "notes": [
+        "Féach chomh maith ar an téarma 'loss function / feidhm phionóis'.",
+        "Féach chomh maith ar an téarma 'to rank / rangaigh'.",
+        "Féach chomh maith ar an téarma 'margin / bearna'."
+    ]
+}

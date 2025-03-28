@@ -1,0 +1,14 @@
+{
+    "term": "margin",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "bearna",
+    "def-en": "In the context of the margin ranking loss loss function, a hyperparameter that determines how far the score of true triples and negative samples should be kept from each other.",
+    "def-ga": "I gcomhthéacs na feidhme pionóis pionós rangaithe le bearna, hipear-pharaiméadar a chinneann cé chomh fada agus ar ceart scór na n-abairtí triaracha fírinneacha agus scór na bhfrith-shamplaí a choinneáil óna chéile.",
+
+    "prov": {
+        "bearna": "de-bhaldraithe, dineen, focloir-beag, odonaill"
+    },
+    "notes": [
+        "Téarma ar fáil ó na foclóirí thuas le brí chomhchosúil."
+    ]
+}

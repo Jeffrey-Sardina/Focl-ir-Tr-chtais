@@ -7,4 +7,3 @@ constant.json
 hyperparameter-grid.json
 reproducible.json
 scatter-plot.json
-histogram.json

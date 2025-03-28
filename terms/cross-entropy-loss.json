@@ -1,0 +1,17 @@
+{
+    "term": "cross entropy loss (CEL)",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "pionós tras-eantrópachta (PTE)",
+    "def-en": "A loss function based on cross entropy. It is typically used in link prediction and other machine learning tasks.",
+    "def-ga": "Feidhm phionóis bunaithe ar thras-eantrópachta. Úsáidtear go minic í i gcomhair an taisc réamhinsinte nasc (i measc tascanna ríomhfhoghlama eile).",
+
+    "prov": {
+        "pionós": "féach ar an téarma 'loss function / feidhm phionóis'",
+        "tras-eantrópachta": "féach ar an téarma 'cross-entropy / tras-eantrópacht'",
+    },
+    "notes": [
+        "Úsáidtear 'pionós' seachas 'feidhm phionóis' thuas mar giorrúchán. Tá sé ceart go leor 'feidh phionóis' a úsáid freisin.",
+        "Féach chomh maith ar an téarma 'loss function / feidhm phionóis'.",
+        "Féach chomh maith ar an téarma 'cross-entropy / tras-eantrópacht'."
+    ]
+}

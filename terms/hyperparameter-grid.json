@@ -1,0 +1,17 @@
+{
+    "term": "hyperparameter grid",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "eangach hipear-pharaiméadar",
+    "def-en": "A set of hyperparameter combinations that is used for hyperparameter searches.",
+    "def-ga": "Tacar teaglamaí hipear-pharaiméadar a úsáidtear chun cuardach hipear-pharaiméadar a chur i gcrích.",
+
+    "prov": {
+        "eangach": "féach ar an téarma 'grid search / cuardach ar eangach'",
+        "hipear-pharaiméadar": "féach ar an téarma 'hyperparameter / hipear-pharaiméadar'"
+    },
+    "notes": [
+        "Bíonn níos mó ná hipear-pharaiméadar amháin i ngach uile eangach hipear-pharaiméadar. Cuirtear an focal 'hipear-pharaiméadar' sa tuiseal ginideach iolra mar sin.",
+        "Féach chomh maith ar an téarma 'grid search / cuardach ar eangach'.",
+        "Féach chomh maith ar an téarma 'hyperparameter / hipear-pharaiméadar'."
+    ]
+}
