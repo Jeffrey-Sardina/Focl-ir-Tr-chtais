@@ -1,1 +1,10 @@
 margin.json
+binary-cross-entropy-loss.json
+cross-entropy-loss.json
+margin-ranking-loss.json
+pseudotyped.json
+constant.json
+hyperparameter-grid.json
+reproducible.json
+
+peer-reviewed?
