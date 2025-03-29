@@ -1,0 +1,16 @@
+{
+    "term": "non-linear",
+    "part-of-speech": "aidiacht",
+    "citation-form": "neamh-líneach",
+    "def-en": "In the context of mathematics, not linear.",
+    "def-ga": "I gcomhthéacs matamaitice, gan a bheith líneach.",
+
+    "prov": {
+        "neamh-": "de-bhaldraithe, dineen, focloir-beag, odonaill, storchiste",
+        "líneach": "féach ar an téarma 'linear / líneach'"
+    },
+    "notes": [
+        "Téarma cruthaithe go díreach as na focail thuas.",
+        "Féach chomh maith ar an téarma 'linear / líneach'."
+    ]
+}

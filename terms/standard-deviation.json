@@ -2,8 +2,8 @@
     "term": "standard deviation",
     "part-of-speech": "ainmfhocal",
     "citation-form": "diall caighdeánach",
-    "def-en": "xxx.",
-    "def-ga": "xxx.",
+    "def-en": "In the context of mathematics, a measure of how much the values in a dataset vary. Standard deviation is the square root of variance.",
+    "def-ga": "I gcomhthéacs matamaitice, tomhas ar cé chomh héagsúil is atá na luachanna i sraith sonraí. Is ionann diall caighdeánach fréamh chearnach athraithis.",
 
     "prov": {
         "diall": "de-bhaldraithe, odonaill, storchiste",

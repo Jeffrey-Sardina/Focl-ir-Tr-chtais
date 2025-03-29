@@ -47,6 +47,11 @@ ground-truth-(data).json
 constant.json
 reproducible.json
 scatter-plot.json
+linear.json
+variance.json
+standard-deviation.json
+non-linear.json
+curve.json
 
 margin.json *
 binary-cross-entropy-loss.json *

@@ -1,0 +1,15 @@
+{
+    "term": "curve",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "cuar",
+    "def-en": "In the context of mathematics, a plot of an equation or of various points that follow some pattern.",
+    "def-ga": "I gcomhthéacs matamaitice, breacadh cothromóide nó tacair phointí a leanann patrún éigin.",
+
+    "prov": {
+        "cuar": "de-bhaldraithe, dineen, focloir-beag, odonaill",
+        "cuaire": "storchiste"
+    },
+    "notes": [
+        "Cé go bhfuil an téarma 'cuar' luaite sna foclóirí thuas mar leagan den fhocal Béarla 'curve', ní luann foclóir ar bith acu comhthéacs matamaitice leis. Sin ráite, is é 'cuaire', bunaithe ar an bhfréamh céanna, atá ag Stórchiste i gcomhair 'curvature' i gcomhthéacs matamaitice. Toisc brí chomhchiallach a bheith ag 'cuar', agus focal gaolmhar leis a bheith luaite i gcomhthéacs matamaitice, glactar leis."
+    ]
+}
