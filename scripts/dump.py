@@ -56,13 +56,6 @@ def main():
         print(dump, file=out)
 
 if __name__ == '__main__':
-    if '-ga' in sys.argv:
-        DUMP_GAEILGE = True
-    elif '-en' in sys.argv:
-        DUMP_GAEILGE = False
-    else: # default to Gaeilge
-        DUMP_GAEILGE = True
-
     if '-nv' in sys.argv:
         DUMP_NON_VALIDATED_ONLY = True
     else:
@@ -72,5 +65,16 @@ if __name__ == '__main__':
         DEBUG = True
     else:
         DEBUG = False
+
     terms = load_terms()
-    main()
+    if '-ga' in sys.argv:
+        DUMP_GAEILGE = True
+        main()
+    elif '-en' in sys.argv:
+        DUMP_GAEILGE = False
+        main()
+    else: # do both
+        DUMP_GAEILGE = True
+        main()
+        DUMP_GAEILGE = False
+        main()

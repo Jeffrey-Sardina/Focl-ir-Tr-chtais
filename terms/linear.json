@@ -2,8 +2,8 @@
     "term": "linear",
     "part-of-speech": "aidiacht",
     "citation-form": "líneach",
-    "def-en": "In the context of mathematics, calculated as a weighted some of various variables; for example, y = aX1 + bX2 ... + kXn.",
-    "def-ga": "I gcomthéacs matamaitice, comhairthe mar shuim ualaithe de roinnt athróga; m.sh. y = aX1 + bX2 ... + kXn.",
+    "def-en": "In the context of mathematics, calculated as a weighted sum of various variables; for example, y = aX1 + bX2 ... + kXn.",
+    "def-ga": "I gcomhthéacs matamaitice, comhairthe mar shuim ualaithe de roinnt athróga; m.sh. y = aX1 + bX2 ... + kXn.",
 
     "prov": {
         "líneach": "de-bhaldraithe, odonaill, storchiste"
