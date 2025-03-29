@@ -128,12 +128,14 @@ Tá na téarmaí uilig sa bhFoclóir Tráchtais, leagan 1.5 alfa \cite{focloir-t
 		(frása le 'ceangailte')&connectivity\\ \hline 
 		(frása le 'gaolmhar')&family\\ \hline 
 		(frása le 'toise')&dimensionality\\ \hline 
+		fréamh randamach&random seed\\ \hline 
 		frith-shampla&counterexample\\ \hline 
 		frith-shampla&negative (sample)\\ \hline 
 		frith-shampláil&negative sampling\\ \hline 
 		frith-shamplóir&negative sampler\\ \hline 
 		gan feiceáil&unseen\\ \hline 
 		gan mhaoirseacht&unsupervised\\ \hline 
+		gineadóir uimhreacha randamacha&random number generator\\ \hline 
 		ginearáltacht&generality\\ \hline 
 		graf&graph\\ \hline 
 		graf eolais (GE)&knowledge graph (KG)\\ \hline 
@@ -275,6 +277,7 @@ Tá na téarmaí uilig sa bhFoclóir Tráchtais, leagan 1.5 alfa \cite{focloir-t
 		tacar teisteála&testing set\\ \hline 
 		tacar traenála&training set\\ \hline 
 		tasc réamhinsinte nasc&link prediction task\\ \hline 
+		teaglaim hipear-pharaiméadar&hyperparameter combination\\ \hline 
 		teibigh&to abstract\\ \hline 
 		teibiú&abstraction\\ \hline 
 		teisteáil&testing\\ \hline 
@@ -2466,6 +2469,25 @@ Tá na téarmaí uilig sa bhFoclóir Tráchtais, leagan 1.5 alfa \cite{focloir-t
 \end{itemize}
 
 
+\subsubsection*{fréamh randamach (ainmfhocal): random seed}
+ \noindent \textit{Sainmhíniú (ga):} I gcomhthéacs ríomheolaíochta, uimhir a thugtar do chumadóir uimhreacha randamacha lena bheith úsáidte ina algartam chun sraith uimhreacha randamacha a chumadh.
+\\
+ \noindent \textit{Sainmhíniú (en):} In the context of computer science, a number that is given to a random number generator to be used in its algorithm to generate a series of random numbers.
+\\
+ \noindent \textit{Tagairtí:}
+\begin{itemize}
+	\item fréamh: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+	\item randamach: féach ar an téarma `random / randamach'
+\end{itemize}
+
+ \noindent \textit{Nótaí Aistriúcháin:}
+\begin{itemize}
+	\item Ní bheadh ciall ar bith ag dul le `síol randamach' (nó mar sin) toisc nach síol litriúil é `random seed'. Is uimhir é a úsáidtear chun sraith ollmhór uimhreacha randamacha a chruthú. I bhfocail eile, is é an `random seed' fréamh na sraithe randamaí. Glactar leis an bhfocal `fréamh', mar sin, seachas lena leithéid de `síol'.
+	\item Bheadh ciall le téarmaí eile (m.sh `bunús randamach'). Roghnaíodh `fréamh' ní toisc go bhfuil sé níos fearr ná na roghanna eile, ach toisc gur téarma léir (amháin) é sa gcomhthéacs seo.
+	\item Féach chomh maith ar an téarma `random / randamach'.
+\end{itemize}
+
+
 \subsubsection*{frith-shampla (ainmfhocal): counterexample}
  \noindent \textit{Sainmhíniú (ga):} Sonra a úsáidtear chun cur in iúl do shamhail ríomhaireachta rud atá mícheart nó nár cheart dó a fhoghlaim.
 \\
@@ -2570,6 +2592,24 @@ Tá na téarmaí uilig sa bhFoclóir Tráchtais, leagan 1.5 alfa \cite{focloir-t
 \begin{itemize}
 	\item Féach ar an téarma `supervised / faoi mhaoirseacht'.
 	\item Féach ar an téarma `supervision / maoirseacht'.
+\end{itemize}
+
+
+\subsubsection*{gineadóir uimhreacha randamacha (ainmfhocal): random number generator}
+ \noindent \textit{Sainmhíniú (ga):} I gcomhthéacs ríomheolaíochta, algartam a úsáideann uimhir fréimhe chun sraith uimhreacha randamacha a chumadh agus a chur amach.
+\\
+ \noindent \textit{Sainmhíniú (en):} In the context of computer science, an algorithm that uses a seed number to generate and output a series of random numbers.
+\\
+ \noindent \textit{Tagairtí:}
+\begin{itemize}
+	\item gineadóir: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+	\item uimhir: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}, Williams et al. (2023) \cite{storchiste}
+	\item randamach: féach ar an téarma `random / randamach'
+\end{itemize}
+
+ \noindent \textit{Nótaí Aistriúcháin:}
+\begin{itemize}
+	\item Úsáidtear `gineadóir' toisc é a bheith luaite mar fhocal ní hamháin ar ghiniúint páistí, ach ar ghiniúint ginearálta chomh maith (m.sh. féach ar `generator' i bhFoclóir De Bhaldraithe).
 \end{itemize}
 
 
@@ -5078,6 +5118,24 @@ Tá na téarmaí uilig sa bhFoclóir Tráchtais, leagan 1.5 alfa \cite{focloir-t
  \noindent \textit{Nótaí Aistriúcháin:}
 \begin{itemize}
 	\item Féach ar an téarma `link prediction (LP) / réamhinsint nasc (RN)'
+\end{itemize}
+
+
+\subsubsection*{teaglaim hipear-pharaiméadar (ainmfhocal): hyperparameter combination}
+ \noindent \textit{Sainmhíniú (ga):} Tacar amháin (as iliomad tacar eile) luachanna hipear-pharaiméadar ar féidir iad a úsáid chun samhail ríomhfhoghlama shainmhíniú.
+\\
+ \noindent \textit{Sainmhíniú (en):} A set (out of many possible sets) of all hyperparameter values needed to fully define a machine learning model.
+\\
+ \noindent \textit{Tagairtí:}
+\begin{itemize}
+	\item teaglaim: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+	\item hipear-pharaiméadar: féach ar an téarma `hyperparameter / hipear-pharaiméadar'
+\end{itemize}
+
+ \noindent \textit{Nótaí Aistriúcháin:}
+\begin{itemize}
+	\item Luann Foclóir Uí Dhónaill `teaglaim' mar théarma matamaitice -- is cosúil gurb in atá i gceist acu leis sin ná matamaitic theaglamach (.i. teaglamaí agus iomalartuithe). Sin ráite, luaitear `teaglaim' leis an mbrí `collection, gathering, compilation' chomh maith (féach ar Fhoclóir Uí Dhónaill, mar shampla). Luíonn an dá bhrí seo lena bhfuil i gceist. I minic agus teaglaim hipear-pharaiméadar déanta trí sampla a thógáil ó eangach hipear-pharaiméadar -- sa gcaoi sin, is teaglaim litriúil (i gcomhthéacs matamaitice teaglamaí) é. Agus is cnuasach hipear-pharaiméadar é chomh maith -- brí a luíonn le húsáid an fhocail teaglaim chun cir síos a dhéanamh ar `collection, gathering, compilation'. Glactar leis an téarma seo mar sin.
+	\item Féach chomh maith ar an téarma `hyperparameter / hipear-pharaiméadar'.
 \end{itemize}
 
 
