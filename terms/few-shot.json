@@ -1,6 +1,6 @@
 {
     "term": "few-shot",
-    "part-of-speech": "ainmfhocal",
+    "part-of-speech": "aidiacht",
     "citation-form": "cúpla-sonra",
     "def-en": "A finetuning protocol in which the pretrained model is able to see a few data points from the new data set during finetuning.",
     "def-ga": "Cur chuige mion-fheabsaithe ina bhfuil an tsamhail réamh-thraenáilte in ann cúpla sonra ó thacar sonraí nua a fheiceáil le linn á mion-fheabhsaithe.",

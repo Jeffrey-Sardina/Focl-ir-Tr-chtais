@@ -1,6 +1,6 @@
 {
     "term": "n-shot",
-    "part-of-speech": "ainmfhocal",
+    "part-of-speech": "aidiacht",
     "citation-form": "n-sonra",
     "def-en": "A finetuning protocol in which the pretrained model is able to see $n$ data points from the new data set during finetuning.",
     "def-ga": "Cur chuige mion-fheabsaithe ina bhfuil samhail réamh-thraenáilte in ann $n$ sonra ó thacar sonraí nua a fheiceáil le linn á mion-fheabhsaithe.",

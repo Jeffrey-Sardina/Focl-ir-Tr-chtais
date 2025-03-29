@@ -1,6 +1,6 @@
 {
     "term": "0-shot",
-    "part-of-speech": "ainmfhocal",
+    "part-of-speech": "aidiacht",
     "citation-form": "0-sonra",
     "def-en": "A finetuning protocol in which a pretrained model is directly tested on a new dataset without any finetuning.",
     "def-ga": "Cur chuige mion-fheabsaithe ina dteisteáiltear samhail réamh-thraenáilte ar thacar sonraí nua gan mion-fheabsú ar bith.",
