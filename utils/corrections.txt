@@ -53,6 +53,8 @@ standard-deviation.json
 non-linear.json
 curve.json
 random-number-generator.json
+percentile.json
+mean-squard-error.json
 
 margin.json *
 binary-cross-entropy-loss.json *
@@ -62,3 +64,4 @@ pseudotyped.json *
 hyperparameter-grid.json *
 hyperparameter-combination.json *
 random-seed.json *
+bin.json *

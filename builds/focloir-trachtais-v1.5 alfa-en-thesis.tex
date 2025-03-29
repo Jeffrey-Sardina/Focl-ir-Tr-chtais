@@ -27,6 +27,7 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
 		batch size&méid na mbaisceanna\\ \hline 
 		Bayesian&Bayes\\ \hline 
 		benchmark dataset&tacar sonraí comparáide\\ \hline 
+		bin&eatramh\\ \hline 
 		binary&dénártha\\ \hline 
 		binary cross entropy loss (BCEL)&pionós tras-eantrópachta dénártha (PTED)\\ \hline 
 		to bound&cuimsigh\\ \hline 
@@ -79,7 +80,7 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
 		environment&comhthéacs cóid\\ \hline 
 		epoch&seal\\ \hline 
 		equation&cothromóid\\ \hline 
-		error&tomhas earráide\\ \hline 
+		error&earráid\\ \hline 
 		estimate&meastachán\\ \hline 
 		to estimate (about)&meastachán a dhéanamh (ar)\\ \hline 
 		to evaluate&measúnaigh\\ \hline 
@@ -157,6 +158,7 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
 		maximum&uasluach\\ \hline 
 		mean rank (MR)&meán-rang (MR)\\ \hline 
 		mean reciprocal rank (MRR)&meán na ranganna deilíneacha (MRD)\\ \hline 
+		mean squared error (MSE)&earráid chearnaithe mheánach (ECM)\\ \hline 
 		measure&tomhas\\ \hline 
 		to measure&tomhais\\ \hline 
 		median&airmheán\\ \hline 
@@ -194,6 +196,7 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
 		overfitting&ró-fhoghlaim\\ \hline 
 		pairwise function&feidhm de phéire (pointí)\\ \hline 
 		parameter&paraiméadar\\ \hline 
+		percentile&peircintíl\\ \hline 
 		performance&éifeachtacht (ama, taisc)\\ \hline 
 		plausibility&inchreidteacht\\ \hline 
 		plausibility score&scór inchreidteachta\\ \hline 
@@ -309,7 +312,7 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
 \end{longtable}
 
 \newpage \subsection{Téarmaí}
-\subsubsection*{0-shot (ainmfhocal): 0-sonra}
+\subsubsection*{0-shot (aidiacht): 0-sonra}
  \noindent \textit{Sainmhíniú (ga):} Cur chuige mion-fheabsaithe ina dteisteáiltear samhail réamh-thraenáilte ar thacar sonraí nua gan mion-fheabsú ar bith.
 \\
  \noindent \textit{Sainmhíniú (en):} A finetuning protocol in which a pretrained model is directly tested on a new dataset without any finetuning.
@@ -338,7 +341,7 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
 
  \noindent \textit{Nótaí Aistriúcháin:}
 \begin{itemize}
-	\item Tá `eisídiú' ar Tearma.ie. Ach i bhFoclóir Uí Dhónaill, tá `eisídiú' luaite mar théarma geolaíochta amháin. Thairis sin, is brí iomlán ar leith atá ag `ablation' i ngeolaíochta i gcomparáid le ríomheolaíocht. Ní ghlactar le `eisídiú' mar sin.
+	\item Tá `eisídiú' ar Téarma.ie. Ach i bhFoclóir Uí Dhónaill, tá `eisídiú' luaite mar théarma geolaíochta amháin. Thairis sin, is brí iomlán ar leith atá ag `ablation' i ngeolaíochta i gcomparáid le ríomheolaíocht. Ní ghlactar le `eisídiú' mar sin.
 	\item Toisc nach bhfuil téarma ar fail dó seo ó na foclóirí dúchasacha, cruthaíodh téarma as nua chun an bhrí seo a chur in iúl. Is é `ionadú' seachas `ionadaíocht' an fréamh a úsáideadh toisc an turgnamh a bheith ag baint le próiseas an ionadaithe -- seachas le hionadaíochta mar choincheap.
 	\item Tá `turgnamh' luaite i bhFoclóir Uí Dhónaill mar théarma eolaíochta, agus sna foclóirí eile i gcomhthéacs níos ginearálta.
 	\item Is é `ionadú' seachas `ionadaigh' atá i bhFoclóir Uí Dhónaill agus Uí Mhaoileoin.
@@ -392,7 +395,7 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
  \noindent \textit{Nótaí Aistriúcháin:}
 \begin{itemize}
 	\item Úsáidtear `gníomhachtaithe' le cúis mhaith -- is éard a dhéanann feidhm ghníomhachtaithe ná ligean do líonra néarach níos mó ná ciseal amháin a bheith aige. Gan í, ní bheifí in ann ach ciseal amháin a úsáid i gcaoi fhiúntach ar leibhéal matamaiticiúil. Sin é rá, bíonn cisil eile gníomhachtaithe ag an bhfeidhm ghníomhachtaithe.
-	\item Is é `gníomhachtaigh' atá ar Tearma.ie chomh maith.
+	\item Is é `gníomhachtaigh' atá ar Téarma.ie chomh maith.
 	\item Féach ar an téarma `function / feidhm'.
 \end{itemize}
 
@@ -410,7 +413,7 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
 
  \noindent \textit{Nótaí Aistriúcháin:}
 \begin{itemize}
-	\item Luann Foclóir Uí Dhónaill agus Foclóir De Bhaldraithe `cóngarach' mar théarma geoiméadrachta. Cé nach ionann sin agus comhthéacs na ngraf eolais, meastar go mba léire coinneáil leis seachas téarma eile (amhail `teagmháil', nach bhfuil luaite i gcomhthéacs matamaiticiúil) a úsáid. Is é `maitrís chóngarachta' atá ar Tearma.ie chomh maith leis sin.
+	\item Luann Foclóir Uí Dhónaill agus Foclóir De Bhaldraithe `cóngarach' mar théarma geoiméadrachta. Cé nach ionann sin agus comhthéacs na ngraf eolais, meastar go mba léire coinneáil leis seachas téarma eile (amhail `teagmháil', nach bhfuil luaite i gcomhthéacs matamaiticiúil) a úsáid. Is é `maitrís chóngarachta' atá ar Téarma.ie chomh maith leis sin.
 	\item Féach chomh maith ar an téarma `matrix / maitrís'.
 \end{itemize}
 
@@ -428,7 +431,7 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
  \noindent \textit{Nótaí Aistriúcháin:}
 \begin{itemize}
 	\item Téarma díreach ar fáil i gcomhthéacs matamaitice i bhFoclóir Uí Dhuinín agus i bhFoclóir De Bhaldraithe. I bhfoclóir Uí Dhuinín agus i bhFoclóir Uí Dhónaill agus Uí Mhaoileoin, ní luaitear an téarma seo mar théarma matamaitice, ach luaitear é le brí chomhchosúil.
-	\item Tá an téarma `comhiomlán' ar Tearma.ie, gan trácht ar an bhfocal `tionól'. Ní ghlactar leis sin toisc nach n-aontaíonn sé lena bhfuil ar fáil sna foclóirí dúchasacha. 
+	\item Tá an téarma `comhiomlán' ar Téarma.ie, gan trácht ar an bhfocal `tionól'. Ní ghlactar leis sin toisc nach n-aontaíonn sé lena bhfuil ar fáil sna foclóirí dúchasacha. 
 \end{itemize}
 
 
@@ -630,7 +633,7 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
 
  \noindent \textit{Nótaí Aistriúcháin:}
 \begin{itemize}
-	\item Is é `baisc' atá ar Tearma.ie ina chomhair seo. Tá an téarma sin le feiceáil i bhFoclóir Uí Dhónaill le brí chomhchiallach. Cé go mbeadh ciall le go leor téarmaí eile, glactar leis sin toisc go bhfuil fianise ann dó i bhFoclóir Uí Dhónaill agus toisc go bhfuil sé in úsáid cheana ar Tearma.ie.
+	\item Is é `baisc' atá ar Téarma.ie ina chomhair seo. Tá an téarma sin le feiceáil i bhFoclóir Uí Dhónaill le brí chomhchiallach. Cé go mbeadh ciall le go leor téarmaí eile, glactar leis sin toisc go bhfuil fianise ann dó i bhFoclóir Uí Dhónaill agus toisc go bhfuil sé in úsáid cheana ar Téarma.ie.
 	\item Is ionann baisc agus fo-thacar den tacar traenála, teisteála, nó deimhnithe. Mar sin, bheadh sé ceart go leor `fo-thacar den tacar traenála' (srl) a rá go litriúil -- ach moltar `baisc' toisc go bhfuil sé níos léire go ginearálta.
 \end{itemize}
 
@@ -665,7 +668,7 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
  \noindent \textit{Nótaí Aistriúcháin:}
 \begin{itemize}
 	\item Ní luann Stórchiste `Bayes' mar leagan de `Bayesian', ach bíonn sé ann sa téarma `Bayes Theorem / Teoirim Bayes'. Thairis sin, i gcás gach uile théarma eile a bhfuil ainm duine leis (m.sh. `sraith Fourier', `foirmle de Moivre', srl) bíonn sloinne an duine úsáidte gan athrú ar bith air. Is mar sin a moltar Bayes a úsáid ar nós aidiachta chun `Bayesian' a chur in iúl.
-	\item Is é `Bayesach' atá ar Tearma.ie, ach ní ghlactar leis sin toisc nach bhfaightear fianaise ar bith dó sna foclóirí dúchasacha.
+	\item Is é `Bayesach' atá ar Téarma.ie, ach ní ghlactar leis sin toisc nach bhfaightear fianaise ar bith dó sna foclóirí dúchasacha.
 \end{itemize}
 
 
@@ -684,6 +687,23 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
 \begin{itemize}
 	\item Níl an téarma Béarla `benchmark' ar fáil i gceann ar bith de na foclóirí atá in úsáid chun an Foclóir Tráchtais a chur le chéile. Bhí gá le téarma cumtha as nua mar sin. Roghnaíodh `tacar sonraí comparáide' toisc gurb é aidhm `benchmark dataset' ná a bheith úsáidte chun samhlacha ríomhfhoghlama a chur i gcomparáid lena chéile.
 	\item Tá `tagarmharc' ar Focloir.ie -- ach ní féidir bunús ar bith a fháil dó sin sna foinse dúchasacha atá in úsáid anseo. Ní ghlactar leis mar sin.
+\end{itemize}
+
+
+\subsubsection*{bin (ainmfhocal): eatramh}
+ \noindent \textit{Sainmhíniú (ga):} I gcomhthéacs histeagraim, ceann ar bith de na raonta luachanna atá úsáidte chun luachanna a bhailiú le chéile agus chun a minicíocht a chomhaireamh.
+\\
+ \noindent \textit{Sainmhíniú (en):} In the context of a histogram, any one of the intervals that is used to group values and calculate their frequency.
+\\
+ \noindent \textit{Tagairtí:}
+\begin{itemize}
+	\item eatramh: féach ar an téarma `interval / eatramh'
+\end{itemize}
+
+ \noindent \textit{Nótaí Aistriúcháin:}
+\begin{itemize}
+	\item Bíonn gach uile `bin' ina `interval' -- níl aon ghá idirdhealú a dhéanamh nuair is léir gur i gcomhthéacs histeagraim atáthar ag caint.
+	\item Féach chomh maith ar an téarma `interval / eatramh'.
 \end{itemize}
 
 
@@ -1162,7 +1182,7 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
  \noindent \textit{Nótaí Aistriúcháin:}
 \begin{itemize}
 	\item * Úsáidtear `bunachair' mar leagan iolra den téarma seo, cé nach bhfuil leagan iolra den fhocal `bunachar' luaite i bhFoclóir Uí Dhónaill.
-	\item Tá `bunachar sonraí' ar fáil mar aistriúchán ar `database' ar Focloir.ie agus ar Tearma.ie, ach níl i bhfoclóir ar bith eile a úsáidtear sa tráchtas seo (.i. Ó Dónall, Ua Duinnín, srl). Sin ráite, tá idir `bunachar' agus `sonra' ar fáil i go leor foclóirí eile, agus níl fianaise ar bith ann go mbeadh an téarma `bunachar sonraí' mí-nádúrtha dá bharr sin. Móide sin, níl cúis ar bith téarma eile le brí gaolmhar (m.sh. `foras sonraí') a chumadh nuair atá téarma cuí ann cheana féin. Glactar le `bunachar sonraí' mar sin.
+	\item Tá `bunachar sonraí' ar fáil mar aistriúchán ar `database' ar Focloir.ie agus ar Téarma.ie, ach níl i bhfoclóir ar bith eile a úsáidtear sa tráchtas seo (.i. Ó Dónall, Ua Duinnín, srl). Sin ráite, tá idir `bunachar' agus `sonra' ar fáil i go leor foclóirí eile, agus níl fianaise ar bith ann go mbeadh an téarma `bunachar sonraí' mí-nádúrtha dá bharr sin. Móide sin, níl cúis ar bith téarma eile le brí gaolmhar (m.sh. `foras sonraí') a chumadh nuair atá téarma cuí ann cheana féin. Glactar le `bunachar sonraí' mar sin.
 	\item Féach chomh maith ar an téarma `data / sonraí'.
 \end{itemize}
 
@@ -1199,7 +1219,7 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
 
  \noindent \textit{Nótaí Aistriúcháin:}
 \begin{itemize}
-	\item Tá `domhainfhoghlaim' ar Tearma.ie. Bíonn úsáid `domhain' mar réimír le feiceáil i bhFoclóir Uí Dhónaill in dá théarma ar leith -- `domhainmhachnamh' agus `domhainiascaireacht' -- rud a chuireann le fios go bhfuil an úsáid sin inghlactha. Sin ráite, cé go bhfuil an-chuid samplaí d'úsáid an téarma `domhain' mar aidiacht, níl sé le feiceáil mar réimír ach go hannamh (sa dá fhocal luaite cheana). Meastar go mbeadh `foghlaim dhomhain' níos léire ó thús deireadh toisc nach mbíonn an cleachtadh ann i nGaeilge réimíreanna a úsáid in ainneoin aidiachtaí ach go hannamh.
+	\item Tá `domhainfhoghlaim' ar Téarma.ie. Bíonn úsáid `domhain' mar réimír le feiceáil i bhFoclóir Uí Dhónaill in dá théarma ar leith -- `domhainmhachnamh' agus `domhainiascaireacht' -- rud a chuireann le fios go bhfuil an úsáid sin inghlactha. Sin ráite, cé go bhfuil an-chuid samplaí d'úsáid an téarma `domhain' mar aidiacht, níl sé le feiceáil mar réimír ach go hannamh (sa dá fhocal luaite cheana). Meastar go mbeadh `foghlaim dhomhain' níos léire ó thús deireadh toisc nach mbíonn an cleachtadh ann i nGaeilge réimíreanna a úsáid in ainneoin aidiachtaí ach go hannamh.
 	\item Féach chomh maith ar an téarma `machine learning / ríomhfhoghlaim'.
 \end{itemize}
 
@@ -1566,7 +1586,7 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
  \noindent \textit{Nótaí Aistriúcháin:}
 \begin{itemize}
 	\item * Tá an focal `cód' i bhFoclóir Uí Dhuinín, ach is le brí `a code, a codex, a book' atá sé luaite. Ní dócha go rabhthas ag trácht ar cód ríomhaireachta sa bhFoclóir sin, toisc é a bheith níos sine, agus aidhm níos ginearálta (seachas teicniúil) a bheith aige.
-	\item Tá `timpeallacht' ar Focloir.ie agus ar Tearma.ie lena aghaidh seo. Sin ráite, meastar go mbeadh sé sin rud beag ró-litriúil -- tá an cuma ar an scéal ó Fhoclóir Uí Dhónaill agus Uí Mhaoileoin (mar shampla) go mbíonn `timpeallacht' úsáidte chun trácht ar chúrsaí a bhaineann leis an saol. Luann Foclóir Uí Dhónaill le `surroundings' é -- sin le rá, baineann sé leis an rudaí atá timpeall ar rud. Ní shin atá i gceist le `environment' cóid. Is éard atá i gceist le `environment' cód ná cnuasach leabharlanna atá úsáidte mar chuid de thionscadal cóid amháin. Ní hé go bhfuil siad `timpeall' air. An choincheap is tábhachtaí ná, i gcomhthéacs cóid amháin, is ionann an t-ordú `python' agus Python 3.7. I gcomhthéacs eile, is ionann an t-ordú `python' agus Python 3.9. Agus ar eile. Mar sin, séard a dhéanann comhthéacs cóid ná comhthéacs a thabhairt don ríomhaire le go dtuigfeadh sé na horduithe atá tugtha dó.
+	\item Tá `timpeallacht' ar Focloir.ie agus ar Téarma.ie lena aghaidh seo. Sin ráite, meastar go mbeadh sé sin rud beag ró-litriúil -- tá an cuma ar an scéal ó Fhoclóir Uí Dhónaill agus Uí Mhaoileoin (mar shampla) go mbíonn `timpeallacht' úsáidte chun trácht ar chúrsaí a bhaineann leis an saol. Luann Foclóir Uí Dhónaill le `surroundings' é -- sin le rá, baineann sé leis an rudaí atá timpeall ar rud. Ní shin atá i gceist le `environment' cóid. Is éard atá i gceist le `environment' cód ná cnuasach leabharlanna atá úsáidte mar chuid de thionscadal cóid amháin. Ní hé go bhfuil siad `timpeall' air. An choincheap is tábhachtaí ná, i gcomhthéacs cóid amháin, is ionann an t-ordú `python' agus Python 3.7. I gcomhthéacs eile, is ionann an t-ordú `python' agus Python 3.9. Agus ar eile. Mar sin, séard a dhéanann comhthéacs cóid ná comhthéacs a thabhairt don ríomhaire le go dtuigfeadh sé na horduithe atá tugtha dó.
 \end{itemize}
 
 
@@ -1583,7 +1603,7 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
  \noindent \textit{Nótaí Aistriúcháin:}
 \begin{itemize}
 	\item Is iomaí focal ar féidir a úsáid chun an bhrí seo a chur in iúl (geábh, babhta, timthriall, sealad, srl). Roghnaíodh `seal' toisc é a bheith ag tagairt ar geábh foghlama agus ar tréimhse ama, díreach mar a bhíonn lucht ríomhaireachta ag samhlú `epoch' ríomhfhoghlama.
-	\item Bíonn cúpla focal luaite le bríonna comhchosúla ar Tearma.ie: `tardhul' agus `sealad'. Ní léir cad as a thagann `tardhul', agus níl rian air mar fhocal i bhfoclóir dúchasach ar bith. Ní ghlactar leis mar sin. Tá `sealad' le feiceáil ar Tearma.ie chomh maith, ach ní luíonn sé le comhthéacs ríomheolaíochta. Déanann “sealad” trácht ar thréimhse ama de réir Fhoclóir Uí Dhónaill. Tá an-chiall leis sin i gcomhthéacs `epoch' na Geolaíochta. Ach i gcomhthéacs ríomheolaíochta, is ionann `epoch' agus `iteration' amháin tríd an tacar traenála. Sin an bhrí atá luaite le `seal' ar Teanglann, agus is mar sin a ghlactar leis thar `sealad' mar théarma.
+	\item Bíonn cúpla focal luaite le bríonna comhchosúla ar Téarma.ie: `tardhul' agus `sealad'. Ní léir cad as a thagann `tardhul', agus níl rian air mar fhocal i bhfoclóir dúchasach ar bith. Ní ghlactar leis mar sin. Tá `sealad' le feiceáil ar Téarma.ie chomh maith, ach ní luíonn sé le comhthéacs ríomheolaíochta. Déanann “sealad” trácht ar thréimhse ama de réir Fhoclóir Uí Dhónaill. Tá an-chiall leis sin i gcomhthéacs `epoch' na Geolaíochta. Ach i gcomhthéacs ríomheolaíochta, is ionann `epoch' agus `iteration' amháin tríd an tacar traenála. Sin an bhrí atá luaite le `seal' ar Teanglann, agus is mar sin a ghlactar leis thar `sealad' mar théarma.
 \end{itemize}
 
 
@@ -1603,20 +1623,20 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
 \end{itemize}
 
 
-\subsubsection*{error (ainmfhocal): tomhas earráide}
- \noindent \textit{Sainmhíniú (ga):} I gcomhthéacs ríomhfhoghlama, luach a dhéanann tomhas ar cé chomh minic is a dhéanann samhail ríomhfhoghlama earráid, agus ar cé chomh dona is atá na hearráidí sin.
+\subsubsection*{error (ainmfhocal): earráid}
+ \noindent \textit{Sainmhíniú (ga):} I gcomhthéacs ríomhfhoghlama, luach a dhéanann tomhas ar cé chomh minic is a dhéanann samhail ríomhfhoghlama réamhinsint mícheart, agus ar cé chomh mícheart is atá na réamhinsintí sin.
 \\
- \noindent \textit{Sainmhíniú (en):} In the context of machine learning, a value that measures how often a machine learning model errs, and how bad those errors are.
+ \noindent \textit{Sainmhíniú (en):} In the context of machine learning, a value that measures how often a machine learning model errs in its predictions, and how bad those predictions are.
 \\
  \noindent \textit{Tagairtí:}
 \begin{itemize}
-	\item earráid: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+	\item earráid: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}, Williams et al. (2023) \cite{storchiste}
 \end{itemize}
 
  \noindent \textit{Nótaí Aistriúcháin:}
 \begin{itemize}
-	\item Ní léir an féidir `earráid' a úsáid seachas `tomhas earráide' de réir na bhfoclóirí thuas. Thairis sin, tá `tomhas earráide' i bhfad níos léire agus níos intuigthe ó thús.
-	\item Tá réimse leathan téarmaí eile a bhfuil bríonna comhchosúla acu (.i. botún, dearmad, tuathal, iomrall). Níor úsáideadh `dearmad' toisc é a bheith bainteach chomh maith leis an gcuimhne, rud nach bhfuil i gceist anseo. Ní luaitear `botún' ná `tuathal' i gcomhthéacs eolaíochta na teicniúil. Is cosúil ó Fhoclóir Uí Dhónaill go bhfuil `iomrall' níos baintí le  heaspa comhsheasmhachta (m.sh. urchar iomrall, iomrall céille, iomrall súil, srl). Thairis sin is uile, luann Foclóir De Bhaldraithe `earráid' i gcomhthéacs teicniúil .i. i gcúrsaí gnó ('earráidí agus easnaimh eiscthe') agus míleata ('raonearráid'). Glactar leis mar sin.
+	\item Téarma díreach ar fáil i gcomhthéacs matamaitice leis an mbrí cheannann chéanna ó Stórchiste, agus le bríonna comhchosúl (ach i gcomhthéacs níos leithna) sna foclóirí eile.
+	\item Bheadh ciall le `tomhas earráide' chomh maith, go háirithe má tá níos mó ná tomhas earráide amháin á phlé.
 \end{itemize}
 
 
@@ -1722,7 +1742,7 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
 \begin{itemize}
 	\item Moltar `gaolmhar' a úsáid i bhfrása. Mar shampla `The TransE family of models' -> `TransE agus na samhlacha gaolmhara leis'.
 	\item Cé go mbíonn `gaolmhar' bainteach go minic le clanna, is léir ó Fhoclóir Uí Dhónaill agus ó Fhoclóir De Bhaldraithe nach mar sin amháin a bhíonn sé. Glactar leis mar théarma toisc go ndéanann sé cur síor ar an gcaoi atá samhlacha ríomhfhoghlama gaolmhara ceangailte lena chéile (ar nós clann, beagnach) gan bheith ag braith ar théarma míchuí / sa gcomhthéacs mícheart (.i. teaghlach / clann / muintir).
-	\item Tá `fine' luaite ar Tearma.ie (mar shampla, tá `fine clófhoirne' acu mar `font family'). Ní luíonn an úsáid seo le sampla Fhoclóir Uí Dhónaill ná le sampla Fhoclóir Uí Dhónaill agus Uí Mhaoileoin, a luann `fine' mar `family' nó cine daoine amháin, gan trácht ar úsáid níos leithne ná sin. Ní ghlactar le `fine' anseo mar sin.
+	\item Tá `fine' luaite ar Téarma.ie (mar shampla, tá `fine clófhoirne' acu mar `font family'). Ní luíonn an úsáid seo le sampla Fhoclóir Uí Dhónaill ná le sampla Fhoclóir Uí Dhónaill agus Uí Mhaoileoin, a luann `fine' mar `family' nó cine daoine amháin, gan trácht ar úsáid níos leithne ná sin. Ní ghlactar le `fine' anseo mar sin.
 \end{itemize}
 
 
@@ -1739,11 +1759,11 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
  \noindent \textit{Nótaí Aistriúcháin:}
 \begin{itemize}
 	\item Ní mar théarma eolaíochta atá `airí' luaite i gceann ar bith de na foclóirí thuas. Sin ráite, meastar ó shamplaí atá le fáil ann go gcuireann `airí' an bhrí cheart in iúl agus é á úsáid i gcomhthéacs eolaíochta.
-	\item Tá réimse leathan focal eile (.i. tréith, gné, srl) a bheadh inúsáidte sa gcomhthéacs seo (agus is é `gné' atá ar Tearma.ie). Cé is moite de sin, is minice a úsáidtear iad sin i gcomhthéacs duine, seachas i gcomhthéacs eolaíochta, de réir a bhfuil le feiceáil sna foclóirí thuas .
+	\item Tá réimse leathan focal eile (.i. tréith, gné, srl) a bheadh inúsáidte sa gcomhthéacs seo (agus is é `gné' atá ar Téarma.ie). Cé is moite de sin, is minice a úsáidtear iad sin i gcomhthéacs duine, seachas i gcomhthéacs eolaíochta, de réir a bhfuil le feiceáil sna foclóirí thuas .
 \end{itemize}
 
 
-\subsubsection*{few-shot (ainmfhocal): cúpla-sonra}
+\subsubsection*{few-shot (aidiacht): cúpla-sonra}
  \noindent \textit{Sainmhíniú (ga):} Cur chuige mion-fheabsaithe ina bhfuil an tsamhail réamh-thraenáilte in ann cúpla sonra ó thacar sonraí nua a fheiceáil le linn á mion-fheabhsaithe.
 \\
  \noindent \textit{Sainmhíniú (en):} A finetuning protocol in which the pretrained model is able to see a few data points from the new data set during finetuning.
@@ -1829,7 +1849,7 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
 \begin{itemize}
 	\item * Ní luaitear an téarma `mion-' mar réimír i bhFoclóir Uí Dhónaill agus Uí Mhaoileoin.
 	\item Ní bhítear ag caint ar mion-fheabhsúchán (nach ionann agus mion-fheabhsú) ná ar `chórais mhion-fheabhsúchán' go minic.
-	\item Is é `mionchoigeartú' atá ar Tearma.ie ina chomhair seo. Cé go bhfuil bunús leis sin de réir Fhoclóir Uí Dhónaill, is doiléire é mar théarma toisc nach mbíonn coigeartú in úsáid i gcomhthéacs ríomheolaíochta ar bith (fiú ar Tearma.ie, ní luaitear an comhthéacs sin leis). Thairis sin, ní mheastar go bhfuil gá le fréamh nua anseo -- níl i gceist le `finetuning' ar an leibhéal is bunúsaí ach feabhsú a dhéanamh arís.
+	\item Is é `mionchoigeartú' atá ar Téarma.ie ina chomhair seo. Cé go bhfuil bunús leis sin de réir Fhoclóir Uí Dhónaill, is doiléire é mar théarma toisc nach mbíonn coigeartú in úsáid i gcomhthéacs ríomheolaíochta ar bith (fiú ar Téarma.ie, ní luaitear an comhthéacs sin leis). Thairis sin, ní mheastar go bhfuil gá le fréamh nua anseo -- níl i gceist le `finetuning' ar an leibhéal is bunúsaí ach feabhsú a dhéanamh arís.
 	\item Féach chomh maith ar an téarma `to optimise / feabhsaigh'.
 \end{itemize}
 
@@ -1914,7 +1934,7 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
 
  \noindent \textit{Nótaí Aistriúcháin:}
 \begin{itemize}
-	\item Tá giniúnach ar Tearma.ie os a chomhair seo, ach ní léir ó Fhoclóir Uí Dhónaill, Uí Dhónaill agus Uí Mhaoileoin, Uí Dhuinín, ná De Bhaldraithe go bhfuil bunús leis sin. De réir na bhfoclóirí sin, bíonn `giniúint' níos cosúla le giniúint páistí ná le hiarracht ar chruthú ealaíne / téacs. Ach luann siad uilig `cumadóireacht' mar théarma a bhfuil an bhrí sin go díreach leis, agus glactar leis sin mar sin.
+	\item Tá giniúnach ar Téarma.ie os a chomhair seo, ach ní léir ó Fhoclóir Uí Dhónaill, Uí Dhónaill agus Uí Mhaoileoin, Uí Dhuinín, ná De Bhaldraithe go bhfuil bunús leis sin. De réir na bhfoclóirí sin, bíonn `giniúint' níos cosúla le giniúint páistí ná le hiarracht ar chruthú ealaíne / téacs. Ach luann siad uilig `cumadóireacht' mar théarma a bhfuil an bhrí sin go díreach leis, agus glactar leis sin mar sin.
 	\item Is focal sa tuiseal ginideach é seo; an fréamh atá leis ná `cumadóireacht'.
 	\item Cé go bhfuil cathú ann `cruthaitheach' nó `cruthaíocht' a úsáid (as an bhfréamh `cruthú'), tá ciall ar leith acu siúd cheana nach n-oireann don téarma seo.
 \end{itemize}
@@ -2130,7 +2150,7 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
  \noindent \textit{Nótaí Aistriúcháin:}
 \begin{itemize}
 	\item Níl an téarma iomlán `hipear-pharaiméadar' ar fáil i bhfoclóir ar bith. Sin ráite, tá idir `hipear-' (mar réimír) agus `paraiméadar' (mar ainmfhocal) i bhFoclóir Uí Dhónaill, rud a spreagann an téarma seo go díreach.
-	\item Is é hipearpharaiméadar a bhíonn ar Tearma.ie chomh maith.
+	\item Is é hipearpharaiméadar a bhíonn ar Téarma.ie chomh maith.
 \end{itemize}
 
 
@@ -2276,7 +2296,7 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
 \begin{itemize}
 	\item Den chuid is mó, is ionann `instantiation' (mar phróiseas) agus rud a chruthú. Úsáidtear `cruthaigh' mar sin.
 	\item Toisc gur coincheap ginearálta agus leathan atá i gceist leis an téarma seo, tá sé iomlán ceart go leor focail agus frásaí comhchiallacha a úsáid ina ionad seo, m.sh. cum, cruth a chur ar, srl. ag braith ar an gcomhthéacs.
-	\item Tá `áscaigh', as an  bhfocal `ásc' ar Tearma.ie -- focal nach bhfuil bunús ar bith leis i bhFoclóir Uí Dhónaill, De Bhaldraithe, ná Uí Dhuinín. Ní ghlactar le `áscaigh' mar sin.
+	\item Tá `áscaigh', as an  bhfocal `ásc' ar Téarma.ie -- focal nach bhfuil bunús ar bith leis i bhFoclóir Uí Dhónaill, De Bhaldraithe, ná Uí Dhuinín. Ní ghlactar le `áscaigh' mar sin.
 \end{itemize}
 
 
@@ -2295,7 +2315,7 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
 	\item Ní i gcomhthéacs eolaíochta a luaitear an téarma seo, ach is le brí chomhchosúil atá sé luaite.
 	\item Más gá a léiriú gur rud coincréiteach atá i gceist le `leagan', seachas rud teibí, moltar `coincréiteach' a úsáid, i dtaca le Foclóir Uí Dhónaill agus Foclóir De Bhaldraithe.
 	\item Tá an t-aistriúchán céanna luaite i dtéarma eile sa bhfoclóir seo. Sin ráite, tá an bhrí a bhaineann le `leagan' i nGaeilge leathan go leor le go bhfuil sé in ann seasamh isteach sa dá chás. Beidh sé léir go leor ón gcomhthéacs cén ceann acu atá i gceist.
-	\item Is é `ascú' atá ar Tearma.ie Ní ghlactar leis sin toisc nach bhfuil fiansise dó sna foclóirí dúchasacha. Thairis sin, is cosúil go dtagann sé an an bhfréamh `ásc' atá luaite i bhFoclóir Uí Dhónaill mar fhocal nach mbíonn úsáid leis ach amháin i gcúpla frása áirithe ar leith. Ní mheastar go bhfuil sé  oiriúnach mar théarma mar sin.
+	\item Is é `ascú' atá ar Téarma.ie Ní ghlactar leis sin toisc nach bhfuil fiansise dó sna foclóirí dúchasacha. Thairis sin, is cosúil go dtagann sé an an bhfréamh `ásc' atá luaite i bhFoclóir Uí Dhónaill mar fhocal nach mbíonn úsáid leis ach amháin i gcúpla frása áirithe ar leith. Ní mheastar go bhfuil sé  oiriúnach mar théarma mar sin.
 	\item Féach chomh maith ar an téarma `representation / leagan'.
 \end{itemize}
 
@@ -2348,7 +2368,7 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
  \noindent \textit{Nótaí Aistriúcháin:}
 \begin{itemize}
 	\item Luann Foclóir Uí Dhónaill `comhéadan' mar théarma geolaíochta. I gcomhthéacs geolaíochta, is ionann comhéadan agus an áit (fhisiceach) a thagann dhá rud le chéile. I gcomhthéacs ríomheolaíochta, sin an coincheap céanna atá taobh thiar de `interface' -- an áit ina thagann dhá chuid de chód nó de phróiseas le chéile.
-	\item Tá `comhéadan' ar Tearma.ie (i gcomhthéacs ríomheolaíochta) chomh maith.
+	\item Tá `comhéadan' ar Téarma.ie (i gcomhthéacs ríomheolaíochta) chomh maith.
 \end{itemize}
 
 
@@ -2431,7 +2451,7 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
  \noindent \textit{Nótaí Aistriúcháin:}
 \begin{itemize}
 	\item * Cé go bhfuil `graf' istigh sa bhFoclóir Beag, is i gcomhthéacs graif líne amháin a luaitear é.
-	\item Níl aistriúchán déanta ar an téarma seo cheana go bhfios don údar (fiú ar Tearma.ie). Cumtar téarma nua mar sin, as `graf' agus as `eolas' mar a cumadh i mBéarla é.
+	\item Níl aistriúchán déanta ar an téarma seo cheana go bhfios don údar (fiú ar Téarma.ie). Cumtar téarma nua mar sin, as `graf' agus as `eolas' mar a cumadh i mBéarla é.
 	\item Féach chomh maith ar an téarma `graph / graf'.
 \end{itemize}
 
@@ -2505,7 +2525,7 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
  \noindent \textit{Nótaí Aistriúcháin:}
 \begin{itemize}
 	\item Úsáidtear frása réamhfhoclach anseo seachas briathar nua a chumadh.
-	\item Is é `lipéadaithe' atá ar Tearma.ie -- ach níl an focal sin le fáil i bhfoclóir dúchasach ar bith. Ní ghlactar leis mar sin.
+	\item Is é `lipéadaithe' atá ar Téarma.ie -- ach níl an focal sin le fáil i bhfoclóir dúchasach ar bith. Ní ghlactar leis mar sin.
 	\item Féach chomh maith ar an téarma `label / lipéad'.
 \end{itemize}
 
@@ -2540,7 +2560,7 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
  \noindent \textit{Nótaí Aistriúcháin:}
 \begin{itemize}
 	\item Luann Foclóir Uí Dhónaill mar théarma eolaíochta (sa mbitheolaíocht) é seo. Cé nach ionann sin agus comhthéacs ríomheolaíochta, úsáidtear le brí chomhchosúil é -- `layer' a scarann dhá chuid de rud (cill, nó codanna de líonra néarach) óna chéile.
-	\item Tá `sraith' ar Tearma.ie ina chomhair seo, ach níor cheart an téarma sin a úsáid. Tugann sraith le fios go bhfuil liosta nó struchtúr sonraí líneach ann. Ní shin mar atá i líonraí néaracha. Nuair a bhítrear ag trácht ar `layer' i líonra néarach, in gach uile cás nach mór, bítear ag tráchar ar maitrís seachas ar sraith. Bíonn sé seo fíor i gcomhthéacs `convolutional layers', `dense layers', `attention / transformer layers', agus ar eile. Mar sin, ní bhíonn `sraith' cruinn ar thaobh na ríomheolaíochta de.
+	\item Tá `sraith' ar Téarma.ie ina chomhair seo, ach níor cheart an téarma sin a úsáid. Tugann sraith le fios go bhfuil liosta nó struchtúr sonraí líneach ann. Ní shin mar atá i líonraí néaracha. Nuair a bhítrear ag trácht ar `layer' i líonra néarach, in gach uile cás nach mór, bítear ag tráchar ar maitrís seachas ar sraith. Bíonn sé seo fíor i gcomhthéacs `convolutional layers', `dense layers', `attention / transformer layers', agus ar eile. Mar sin, ní bhíonn `sraith' cruinn ar thaobh na ríomheolaíochta de.
 	\item Móide sin, is fearr ciseal ná maitrís (nó sraith, srl) toisc nach mbíonn chuile `layer' ina mhaitrís ach an oiread. Meastar gur fearr é mar théarma mar sin.
 \end{itemize}
 
@@ -2703,7 +2723,7 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
 
  \noindent \textit{Nótaí Aistriúcháin:}
 \begin{itemize}
-	\item Is é `sonraí nasctha saor-rochtana' atá ar Tearma.ie. Glactar leis sin toisc go gcloíonn sé le sampla na bhfoclóirí dúchasacha.
+	\item Is é `sonraí nasctha saor-rochtana' atá ar Téarma.ie. Glactar leis sin toisc go gcloíonn sé le sampla na bhfoclóirí dúchasacha.
 	\item Féach chomh maith ar an téarma `linked data (LD) / sonraí nasctha (SN)'.
 	\item Féach chomh maith ar an téarma `linked data (LD) / sonraí nasctha (SN)'.
 	\item Féach chomh maith ar an téarma `open source / saor-rochtana'.
@@ -2723,7 +2743,7 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
  \noindent \textit{Nótaí Aistriúcháin:}
 \begin{itemize}
 	\item Téarma díreach ar fáil le brí chomhchosúil ó na foclóirí thuas.
-	\item Tá `áitiúil' iomlán ceart go leor chomh maith de réir gach dealraimh. Sin ráite, is é logánta a nglac an Coiste Téarmaíochta leis ar Tearma.ie. Toisc nach bhfuil difríocht ar bith idir `áitiúil' agus `logánta' de réir na bhfoclóirí dúchasacha, glacadh le `logánta' le go mbeadh comhaontú ar théarma caighdeánach amháin ann os a chomhair seo.
+	\item Tá `áitiúil' iomlán ceart go leor chomh maith de réir gach dealraimh. Sin ráite, is é logánta a nglac an Coiste Téarmaíochta leis ar Téarma.ie. Toisc nach bhfuil difríocht ar bith idir `áitiúil' agus `logánta' de réir na bhfoclóirí dúchasacha, glacadh le `logánta' le go mbeadh comhaontú ar théarma caighdeánach amháin ann os a chomhair seo.
 \end{itemize}
 
 
@@ -2792,7 +2812,7 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
  \noindent \textit{Nótaí Aistriúcháin:}
 \begin{itemize}
 	\item * Is `pionús' seachas `pionós' atá i bhFoclóir Uí Dhuinín, ach glactar leis gurb in an focal céanna le litriú eile
-	\item Tá `caill' / ` caillteanas' ar Tearma.ie mar fhocal ar `loss' an Bhéarla. Meastar go bhfuil siad sin rud beag ró-litriúil; i nGaeilge, is éard atá i gceist le `caill' / ` caillteanas' ná rud atá caillte / gan tuairisc air (de réir Fhoclóir Uí Dhónaill). Ní hionann sin agus an luach `loss', atá úsáidte chun cur síos a dhéanamh ar cé chomh dona is atá samhail ríomhfhoghlama. Thairis sin, níl trácht ar bith ar `caill' mar fhocal matamaiticiúil, eolaíochta, ná sainmhínithe i bhfoclóir dúchasach ar bith. Ní ghlactar le `caill' ná le `caillteanas' mar sin.
+	\item Tá `caill' / ` caillteanas' ar Téarma.ie mar fhocal ar `loss' an Bhéarla. Meastar go bhfuil siad sin rud beag ró-litriúil; i nGaeilge, is éard atá i gceist le `caill' / ` caillteanas' ná rud atá caillte / gan tuairisc air (de réir Fhoclóir Uí Dhónaill). Ní hionann sin agus an luach `loss', atá úsáidte chun cur síos a dhéanamh ar cé chomh dona is atá samhail ríomhfhoghlama. Thairis sin, níl trácht ar bith ar `caill' mar fhocal matamaiticiúil, eolaíochta, ná sainmhínithe i bhfoclóir dúchasach ar bith. Ní ghlactar le `caill' ná le `caillteanas' mar sin.
 	\item Is minic a dhéantar analach idir ríomhfhoghlaim agus foghlaim na ndaoine / ainmhithe. Is é bunús an analacha seo ná go mbíonn `loss' mar phionós ar an ríomhaire (cosúil le pionós a chur ar madra toisc é a bheith dána). Bíonn an tsamhail ag foghlaim toisc an phionóis sin -- chun rudaí a dhéanamh nach bhfuil pionós leo.
 	\item Cé nach mbíonn sé seo iomlán soiléir i gcónaí, is `pionós' (nó `penalty') é `loss' go litriúil chomh maith. Nuair a bhíonn ríomhfhoghlaim ar siúl bíonn (i nach mór gach uile cás) paraiméadair infhoghlamtha ar an tsamhail atá le hathrú le linn feabhsaithe. Is ionann na paraiméadair seo a athrú agus treo a thabhairt dóibh. Tabhair mar shampla samhail ríomhfhoghlama an-simplí -- cúlú líneach le dhá pharaiméadar (.i. y = ax + b, ina bhfuil a agus b mar pharaiméadair). Is féidir gach uile shamhail mar sin a shamhlú mar phointe ar bhreacadh Cairtéiseach (.i. (3,2), le a=3 agus b=2). Bíonn luach an phionóis (p) mar ais z (sa tríú toise) -- is é is ísle is atá, is é is fearr. Nuair a bhíonn foghlaim ar siúl, is í is aidhm leis an bhfoghlaim ná pointe (a,b) a fháil a bhfuil an luach phionóis p chomh íseal agus is féidir. Le linn an fheabhsaithe sin, is minic (go háirithe agus feidhm phionóis simplí in úsáid) go mbíonn an tsamhail sáinnithe ar íosmhéid logánta (nach ionann agus an t-íosluach uilíoch). Tarlaíonn sé seo toisc an tsamhail a bheith ag bogadh sa treo mícheart. Chun é seo a sheachaint, déantar feidhmeanna pionóis níos fearr (agus níos casta) a úsáid. Gearrann na feidhmeanna seo pionós níos airde ar an tsamhail má bhogann sé sa treo mícheart trí luach pionóis níos airde a chur leis an pointí sin. Cé nach pionós dlí é seo, is pionós foghlama é go litriúil.
 	\item Is minic a bhíonn trácht ar `penalty' i litríocht an réimse i mBéarla díreach toisc an dá phointe thuas
@@ -2831,7 +2851,7 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
  \noindent \textit{Nótaí Aistriúcháin:}
 \begin{itemize}
 	\item * Níl `ríomh-' ann mar réimír. Cé is moite de sin, feictear é in úsáid mar réimír sa bhfoclóir céanna; .i. `ríomheolaíocht' (murab ionann sin agus `eolaíocht' mar iarmhír)
-	\item Tá idir `meaisín-' (mar réimír) agus `ríomh-' (mar réimír) le feiceáil ar Tearma.ie. Ní ghlactar le `meaisín' mar réimír toisc nach mbíonn sé ina réimír ar i bhfoclóir dúchasach ar bith (ach bíonn `ríomh-' úsáidte i bhfocail eile agus i bhfoclóirí dúchasacha).
+	\item Tá idir `meaisín-' (mar réimír) agus `ríomh-' (mar réimír) le feiceáil ar Téarma.ie. Ní ghlactar le `meaisín' mar réimír toisc nach mbíonn sé ina réimír ar i bhfoclóir dúchasach ar bith (ach bíonn `ríomh-' úsáidte i bhfocail eile agus i bhfoclóirí dúchasacha).
 \end{itemize}
 
 
@@ -2884,7 +2904,7 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
  \noindent \textit{Nótaí Aistriúcháin:}
 \begin{itemize}
 	\item Luann na foclóirí thuas ar fad `mapa' i gcomhthéacs mapa den domhan. Ní shin atá i gceist anseo, ach, toisc gurb é aidhm mapa ríomhaireachta ná ceangal éigin a dhéanamh idir dhá rud (le gur féidir leathrud a fáil ón leathrud eile), agus toisc gurb as an meafar sin a thagann úsáid `mapping' i mBéarla, glactar leis an téarma sin anseo.
-	\item Rogha eile a bhí sa bhfocal `léarscáil'. Ní cosúil ó na foclóirí thuas, áfach, cén ceann acu is fearr i gcomhthéacs ríomheolaíochta. Sin ráite, tá 2 bhuntáiste le `mapa' -- tá briathar ceangailte leis ('mapáil'), agus tá idir `mapa' agus `mapáil' ar Tearma.ie cheana. Roghnaíodh `mapa' mar sin.
+	\item Rogha eile a bhí sa bhfocal `léarscáil'. Ní cosúil ó na foclóirí thuas, áfach, cén ceann acu is fearr i gcomhthéacs ríomheolaíochta. Sin ráite, tá 2 bhuntáiste le `mapa' -- tá briathar ceangailte leis ('mapáil'), agus tá idir `mapa' agus `mapáil' ar Téarma.ie cheana. Roghnaíodh `mapa' mar sin.
 \end{itemize}
 
 
@@ -3001,6 +3021,26 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
 \end{itemize}
 
 
+\subsubsection*{mean squared error (MSE) (ainmfhocal): earráid chearnaithe mheánach (ECM)}
+ \noindent \textit{Sainmhíniú (ga):} Feidhm phionóis a fhaigheann earráid gach uile réamhinsinte, a chearnaítear an earráid sin, agus a chomhaireann ar deireadh meán na n-earráidí cearnaithe sin.
+\\
+ \noindent \textit{Sainmhíniú (en):} A loss function that finds the error of every prediction, squares that error, and then calculates the mean of all of those squared errors.
+\\
+ \noindent \textit{Tagairtí:}
+\begin{itemize}
+	\item earráid: féach ar an téarma `error / earráid'
+	\item cearnaigh: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill (1977) \cite{odonaill}, Williams et al. (2023) \cite{storchiste}
+	\item meánach: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill (1977) \cite{odonaill}, Williams et al. (2023) \cite{storchiste}
+\end{itemize}
+
+ \noindent \textit{Nótaí Aistriúcháin:}
+\begin{itemize}
+	\item Cé nach bhfuil an téarma iomlán ar fáil sna foclóirí thuas, táthar in ann é a chumadh go díreach as focail a bhfuil an brí chéanna, nó brí chomhchosúil, leo.
+	\item Is é `earráid mheán na gcearnóg' atá ar Téarma.ie. Ní ghlactar leis sin toisc gur cosúil gurb ionann sé sin agus earráid(mheán an gcearnóg) -- sin le rá, go bhfuil tomhas earráide comhairthe ar mheán na gcearnóg. Ní shin atá i gceist le `mean square error' ach meán(earráid^2). Meastar go bhfuil earráid cearnaithe meánach níos oiriúnaí mar sin sa gcás seo.
+	\item Beadh meán na n-earráidí cearnaithe go maith chomh maith mar théarma, ach roghnaíodh earráid chearnaithe mheánach toisc é a bheith níos simplí.
+\end{itemize}
+
+
 \subsubsection*{measure (ainmfhocal): tomhas}
  \noindent \textit{Sainmhíniú (ga):} I gcomhthéacs matamaitice, luach a dhéanann cur síos cainníochtúil ar shonraí nó ar fheiniméan éigin, go háirithe nuair atá sé úsáidte chun dhá shraith sonraí / dhá fheiniméan chur i gcomparáid lena chéile.
 \\
@@ -3064,7 +3104,7 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
 \begin{itemize}
 	\item Tá `seachadadh' agus `teachtaireacht' le fáil go díreach ó na foclóirí thuas i gcomhthéacs comhchosúil.
 	\item Nuair a dhéantar trácht ar `message passing', is níos mó na teachtaireacht amháin a bhíonn i gceist beagnach i gcónaí. Cuireadh `teachtaireacht' san uimhir iolra mar sin.
-	\item Bheadh ciall le `seoladh' seachas `seachadadh' chomh maith. Sin ráite, níl locht ar bith ar `seachadadh', agus is é sin atá ar Tearma.ie. Roghnaítear le go luífeadh an téarma seo lena bhfuil ar Tearma.ie.
+	\item Bheadh ciall le `seoladh' seachas `seachadadh' chomh maith. Sin ráite, níl locht ar bith ar `seachadadh', agus is é sin atá ar Téarma.ie. Roghnaítear le go luífeadh an téarma seo lena bhfuil ar Téarma.ie.
 \end{itemize}
 
 
@@ -3169,7 +3209,7 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
 \end{itemize}
 
 
-\subsubsection*{n-shot (ainmfhocal): n-sonra}
+\subsubsection*{n-shot (aidiacht): n-sonra}
  \noindent \textit{Sainmhíniú (ga):} Cur chuige mion-fheabsaithe ina bhfuil samhail réamh-thraenáilte in ann $n$ sonra ó thacar sonraí nua a fheiceáil le linn á mion-fheabhsaithe.
 \\
  \noindent \textit{Sainmhíniú (en):} A finetuning protocol in which the pretrained model is able to see $n$ data points from the new data set during finetuning.
@@ -3427,7 +3467,7 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
  \noindent \textit{Nótaí Aistriúcháin:}
 \begin{itemize}
 	\item Is é `saor-rochtana' a roghnaíodh anseo, seachas `oscailte', toisc go bhfuil `oscailte' ró-litriúil. An bhrí atá leis seo ná go bhfuil rochtain saor air -- agus mar sin is léire agus is simplí `saor-rochtana' ná `oscailte'.
-	\item Is é `oscailte' seachas `saor-rochtana' atá ar Tearma.ie os a chomhair seo. Sin ráite, is é `sonraí nasctha saor-rochtana' atá ar Tearma.ie chun trácht a dhéanamh ar `linked open data' -- agus níl sé cinnte cén fáth a roghnaigh siad `oscailte' i gcás amháin agus `saor-rochtana' i gcás eile.
+	\item Is é `oscailte' seachas `saor-rochtana' atá ar Téarma.ie os a chomhair seo. Sin ráite, is é `sonraí nasctha saor-rochtana' atá ar Téarma.ie chun trácht a dhéanamh ar `linked open data' -- agus níl sé cinnte cén fáth a roghnaigh siad `oscailte' i gcás amháin agus `saor-rochtana' i gcás eile.
 \end{itemize}
 
 
@@ -3516,7 +3556,7 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
  \noindent \textit{Nótaí Aistriúcháin:}
 \begin{itemize}
 	\item Tá an téarma seo ar fáil díreach ó na foclóirí thuas le brí chomhchosúil.
-	\item Tá `optamaigh' ar Tearma.ie, ach ní léir ón suíomh sin cén fáth nár leor `feabhsaigh'. Thairis sin, ní bhíonn trácht ar `optamaigh' mar fhocal i bhfoclóir dúchasach ar bith, agus tá an bhrí cheannann chéanna ag `feabhsaigh' sa gcomhthéacs seo. Glactar le `feabhsaigh' seachas le `optamaigh' mar sin.
+	\item Tá `optamaigh' ar Téarma.ie, ach ní léir ón suíomh sin cén fáth nár leor `feabhsaigh'. Thairis sin, ní bhíonn trácht ar `optamaigh' mar fhocal i bhfoclóir dúchasach ar bith, agus tá an bhrí cheannann chéanna ag `feabhsaigh' sa gcomhthéacs seo. Glactar le `feabhsaigh' seachas le `optamaigh' mar sin.
 	\item Is é `feabhsú' (seachas `feabhsaigh') atá i bhFoclóir Uí Dhónaill agus Uí Mhaoileoin.
 \end{itemize}
 
@@ -3644,6 +3684,22 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
 \begin{itemize}
 	\item Téarma díreach ar fáil ó na foclóirí thuas i gcomhthéacs comhchosúil.
 	\item Is ionann paraiméadar agus ualach infhoghlamtha.
+\end{itemize}
+
+
+\subsubsection*{percentile (ainmfhocal): peircintíl}
+ \noindent \textit{Sainmhíniú (ga):} I gcomhthéacs staitistice, is é an pheircintíl Xú ná an luach i ndáileadh staitistiúil a bhfuil X% de na luachanna eile níos ísle ná é.
+\\
+ \noindent \textit{Sainmhíniú (en):} In the context of statistics, the Xth percentile is the value in a statistical  distribution which has X% of the other values below it.
+\\
+ \noindent \textit{Tagairtí:}
+\begin{itemize}
+	\item peircintíl: Williams et al. (2023) \cite{storchiste}
+\end{itemize}
+
+ \noindent \textit{Nótaí Aistriúcháin:}
+\begin{itemize}
+	\item Téarma díreach ar fáil leis an mbrí cheannann chéanna i Stórchiste.
 \end{itemize}
 
 
@@ -4079,7 +4135,7 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
  \noindent \textit{Nótaí Aistriúcháin:}
 \begin{itemize}
 	\item Téarma díreach ar fáil le brí chomhchosúil. Luaitear `rang' mar `rank' leis an mbrí cheannann chéanna i gcomhthéacs matamaitice i Stórchiste.
-	\item Tá `rang' aistrithe mar `class' ar Tearma.ie, ach ní ghlactar leis sin toisc go bhfuil an focal `aicme' ann cheana, agus toisc go bhfuil fianaise léir ann ó Stórchiste go mba cheart `rang' a úsáid' chun `rank' a chur in iúl.
+	\item Tá `rang' aistrithe mar `class' ar Téarma.ie, ach ní ghlactar leis sin toisc go bhfuil an focal `aicme' ann cheana, agus toisc go bhfuil fianaise léir ann ó Stórchiste go mba cheart `rang' a úsáid' chun `rank' a chur in iúl.
 	\item Cé go bhfuil an focal `rang' i bhFoclóir De Bhaldraithe agus i bhFoclóir Uí Dhónaill agus Uí Mhaoileoin, is i gcomhthéacs iomlán ar leith atá sé iontu.
 	\item Féach chomh maith ar an téarma `class / aicme'.
 \end{itemize}
@@ -4324,7 +4380,7 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
 
  \noindent \textit{Nótaí Aistriúcháin:}
 \begin{itemize}
-	\item Níl an téarma seo le fáil ó fhoinse ar bith (fiú Tearma.ie). Is ainm ar fheidhm ghníomhachtaithe é, agus tá sé ina ainm dílis nach mór ag an bpointe seo. Dá bharr sin, agus toisc go mbeadh aistriúchán / Gaelú air níos doiléire do ríomheolaithe ná an t-ainm sean-bhunaithe a úsáid, fágtar gan aistriú é. Moltar é a chur sa gcló iodálach agus é á scríobh i dtéacs Gaeilge.
+	\item Níl an téarma seo le fáil ó fhoinse ar bith (fiú Téarma.ie). Is ainm ar fheidhm ghníomhachtaithe é, agus tá sé ina ainm dílis nach mór ag an bpointe seo. Dá bharr sin, agus toisc go mbeadh aistriúchán / Gaelú air níos doiléire do ríomheolaithe ná an t-ainm sean-bhunaithe a úsáid, fágtar gan aistriú é. Moltar é a chur sa gcló iodálach agus é á scríobh i dtéacs Gaeilge.
 \end{itemize}
 
 
@@ -4434,7 +4490,7 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
  \noindent \textit{Nótaí Aistriúcháin:}
 \begin{itemize}
 	\item Tá go leor téarmaí eile ar féidir (agus ar ceart) iad a úsáid chomh maith: tosaigh, próiseáil, cuir ar siúl, cuir ar bun, srl. Níl cúis ar bith gan iad sin a úsáid más fearr leat iad. Tugtar sampla amháin thuas ní toisc gurb é is fearr, ach toisc gur rogha mhaith amháin atá ann.
-	\item Tá `rith' ar Tearma.ie agus, de réir Fhoclóir Uí Dhónaill, is cosúil gur féidir é a úsáid sa gcomhthéacs seo chomh maith. Sin ráite, tá `cuir ar siúl' luaite thuas toisc go cloíonn sé leis an téarma `running / ar siúl' (agus toisc nach bhfuil fianaise i bhfoclóir dúchasach ar bith faoi an féidir `ag rith', nó mar sin, a úsáid).
+	\item Tá `rith' ar Téarma.ie agus, de réir Fhoclóir Uí Dhónaill, is cosúil gur féidir é a úsáid sa gcomhthéacs seo chomh maith. Sin ráite, tá `cuir ar siúl' luaite thuas toisc go cloíonn sé leis an téarma `running / ar siúl' (agus toisc nach bhfuil fianaise i bhfoclóir dúchasach ar bith faoi an féidir `ag rith', nó mar sin, a úsáid).
 	\item Féach chomh maith ar an téarma `running / ar siúl'
 \end{itemize}
 
@@ -4767,7 +4823,7 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
 
  \noindent \textit{Nótaí Aistriúcháin:}
 \begin{itemize}
-	\item Níl an téarma seo le fáil ó fhoinse ar bith (fiú Tearma.ie). Is ainm ar fheidhm ghníomhachtaithe é, agus tá sé ina ainm dílis nach mór ag an bpointe seo. Dá bharr sin, agus toisc go mbeadh aistriúchán / Gaelú air níos doiléire do ríomheolaithe ná an t-ainm sean-bhunaithe a úsáid, fágtar gan aistriú é. Moltar é a chur sa gcló iodálach agus é á scríobh i dtéacs Gaeilge.
+	\item Níl an téarma seo le fáil ó fhoinse ar bith (fiú Téarma.ie). Is ainm ar fheidhm ghníomhachtaithe é, agus tá sé ina ainm dílis nach mór ag an bpointe seo. Dá bharr sin, agus toisc go mbeadh aistriúchán / Gaelú air níos doiléire do ríomheolaithe ná an t-ainm sean-bhunaithe a úsáid, fágtar gan aistriú é. Moltar é a chur sa gcló iodálach agus é á scríobh i dtéacs Gaeilge.
 \end{itemize}
 
 
@@ -4784,8 +4840,8 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
 
  \noindent \textit{Nótaí Aistriúcháin:}
 \begin{itemize}
-	\item Tá an téarma `cód foinseach' ar Tearma.ie, ach níl an focal `foinseach' le feiceáil foclóirí dúchasacha. Ní ghlactar leis an téarma sin mar sin.
-	\item Cé go bhfuil an focal `foinse' ann i nGaeilge (agus úsáidte go minic ar Tearma.ie chun brí chomhchosúil leis seo a chur in iúl), meastar go bhfuil sé ró-litriúil mar aistriúchán. In ainneoin an focal sin a úsáid, aistrítear bhun-bhrí an téarma seo. Is ionann `source code' agus `bun-chóid' tionscadail, toisc gurb in an cód ar a bhfuil an tionscadal bunaithe. Glactar le `bun-chód' toisc a léire agus a simplí is atá sé.
+	\item Tá an téarma `cód foinseach' ar Téarma.ie, ach níl an focal `foinseach' le feiceáil foclóirí dúchasacha. Ní ghlactar leis an téarma sin mar sin.
+	\item Cé go bhfuil an focal `foinse' ann i nGaeilge (agus úsáidte go minic ar Téarma.ie chun brí chomhchosúil leis seo a chur in iúl), meastar go bhfuil sé ró-litriúil mar aistriúchán. In ainneoin an focal sin a úsáid, aistrítear bhun-bhrí an téarma seo. Is ionann `source code' agus `bun-chóid' tionscadail, toisc gurb in an cód ar a bhfuil an tionscadal bunaithe. Glactar le `bun-chód' toisc a léire agus a simplí is atá sé.
 \end{itemize}
 
 
@@ -5046,7 +5102,7 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
 \begin{itemize}
 	\item Luann Foclóir Uí Dhónaill `maoirseacht' i gcomhthéacs an-chosúil lena bhfuil de dhíth anseo: `maoirseacht a dhéanamh ar obair, to supervise work.' Is léir nach ag trácht ar chórais ríomhfhoghlama atá sé, áfach. Cé is moite de sin, más cuí `maoirseacht' i gcomhthéacs oibre duine, is cosúil gur cuí i gcomhthéacs oibre ríomhaire é chomh maith.
 	\item Tá cúpla roghanna eile ann don téarma seo -- stiúrtha agus riartha. Is léir ó Fhoclóir Uí Dhónaill go bhfuil an briathar `riar' níos ceangailte le riar dlí / gnóthaí / srl, seachas le maoirseacht de shórt éigin a dhéantar ar obair chóras ríomhfhoghlama. Ina theannta sin, baineann `stiúir' mar bhriathar le rudaí a dhíriú nó a threorú, seachas le maoirseacht ar obair.
-	\item Níl an téarma seo le fáil ar Tearma.ie i gcomhthéacs ríomhfhoghlama ag uair á chumtha anseo (cé go bhfuil sé ann i gcomhthéacsanna eile ann). Tá idir `faoi mhaoirseacht' agus `maoirsithe' ar Tearma.ie. Ní ghlactar le `maoirsithe' toisc nach bhfuil fianaise ann don fhocal sin i bhfoclóir dúchasach ar bith.
+	\item Níl an téarma seo le fáil ar Téarma.ie i gcomhthéacs ríomhfhoghlama ag uair á chumtha anseo (cé go bhfuil sé ann i gcomhthéacsanna eile ann). Tá idir `faoi mhaoirseacht' agus `maoirsithe' ar Téarma.ie. Ní ghlactar le `maoirsithe' toisc nach bhfuil fianaise ann don fhocal sin i bhfoclóir dúchasach ar bith.
 	\item Féach chomh maith ar an téarma `supervision / maoirseacht'.
 \end{itemize}
 
@@ -5084,7 +5140,7 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
  \noindent \textit{Nótaí Aistriúcháin:}
 \begin{itemize}
 	\item Cé go mbíonn `comhartha' luaite mar leagan Gaeilge den fhocal `symbol', is cosúil go mbaineann `comhartha' leis an gcomhartha / marc scríofa níos mó ná leis an gcoincheap teibí atá taobh thiar de (féach ar Fhoclóir Uí Dhónaill, mar shampla). Roghnaíodh `siombail' mar sin.
-	\item Is é `siombail' atá ar Tearma.ie ina chomhair seo -- agus meastar gur fearr cloí leis sin toisc go luíonn an téarma ar Tearma.ie le fianaise atá ar fáil sna foclóirí dúchasacha.
+	\item Is é `siombail' atá ar Téarma.ie ina chomhair seo -- agus meastar gur fearr cloí leis sin toisc go luíonn an téarma ar Téarma.ie le fianaise atá ar fáil sna foclóirí dúchasacha.
 \end{itemize}
 
 
@@ -5252,7 +5308,7 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
  \noindent \textit{Nótaí Aistriúcháin:}
 \begin{itemize}
 	\item Ní bhíonn an téarma seo luaite i gcomhthéacs ríomhaireachta sna foclóirí thuas. Cé is moite de sin, luaitear é i gcomhthéacs cosúil go leor (.i. ainmhí nó duine a thraenáil).
-	\item Tá `oiliúint' ar Tearma.ie, ach ní ghlactar leis an téarma sin. De réir Fhoclóir Uí Dhónaill, bíonn tréitheanna níos daonna ag baint le hoiliúint seachas le traenáil. Thairis sin, is minic agus “oilte” úsáidte chun “skilled” a chur in iúl -- ach ní hionann samhail ríomhfhoghlama a bheith traenáilte agus scil ar bith a bheith aici -- teipeann ar an bpróiseas traenála torthaí maithe a fháil go minic. Ní bhíonn an chlaontacht sin ag baint le `traenáil', agus glactar leis mar sin.
+	\item Tá `oiliúint' ar Téarma.ie, ach ní ghlactar leis an téarma sin. De réir Fhoclóir Uí Dhónaill, bíonn tréitheanna níos daonna ag baint le hoiliúint seachas le traenáil. Thairis sin, is minic agus “oilte” úsáidte chun “skilled” a chur in iúl -- ach ní hionann samhail ríomhfhoghlama a bheith traenáilte agus scil ar bith a bheith aici -- teipeann ar an bpróiseas traenála torthaí maithe a fháil go minic. Ní bhíonn an chlaontacht sin ag baint le `traenáil', agus glactar leis mar sin.
 \end{itemize}
 
 
@@ -5305,9 +5361,9 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
 
  \noindent \textit{Nótaí Aistriúcháin:}
 \begin{itemize}
-	\item Níl aistriúchán déanta ar an téarma seo cheana go bhfios don údar (fiú ar Tearma.ie).
+	\item Níl aistriúchán déanta ar an téarma seo cheana go bhfios don údar (fiú ar Téarma.ie).
 	\item Bhí rogha eile ann chun an téarma seo a aistriú -- `foghlaim aistrithe'. Tá an-chiall leis sin -- déanann `transfer learning' córas ríomhfhoghlama ar traenáladh é i gcomhthéacs amháin a aistriú go comhthéacs eile. Roghnaíodh `trasfhoghlaim' seachas `foghlaim aistrithe' toisc gur rud sainmhínithe atá i gceist le `transfer learning'. Is féidir go leor bríonna a shamhlú le `foghlaim aistrithe' (m.sh. aistriúchán uath-oibríoch, foghlaim bunaithe ar aistriú leabuithe, srl) Meastar gur léire `trasfhoghlaim' mar sin.
-	\item Luann Tearma.ie an téarma `traschur' mar `transfer'. Sin ráite, níl an téarma sin le feiceáil i bhFoclóir Uí Dhónaill, i bhFoclóir Uí Dhuinín, i bhFoclóir Uí Dhónaill agus Uí Mhaoileoin, ná i bhFoclóir De Bhaldraithe. Ní ghlactar leis sin mar sin.
+	\item Luann Téarma.ie an téarma `traschur' mar `transfer'. Sin ráite, níl an téarma sin le feiceáil i bhFoclóir Uí Dhónaill, i bhFoclóir Uí Dhuinín, i bhFoclóir Uí Dhónaill agus Uí Mhaoileoin, ná i bhFoclóir De Bhaldraithe. Ní ghlactar leis sin mar sin.
 \end{itemize}
 
 
@@ -5342,7 +5398,7 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
 
  \noindent \textit{Nótaí Aistriúcháin:}
 \begin{itemize}
-	\item Cé go bhfuil an focal `triarach' ar Tearma.ie leis an mbrí chéanna (nach mór), ní ghlacfar leis sin toisc nach bhfuil fianaise ar bith ann sna foclóirí dúchasacha gur féidir `triarach' a úsáid mar ainmfhocal. Sna foclóirí dúchasacha, ní luaitear é ach mar aidiacht. Mar sin, úsáidtear mar aidiacht amháin anseo é.
+	\item Cé go bhfuil an focal `triarach' ar Téarma.ie leis an mbrí chéanna (nach mór), ní ghlacfar leis sin toisc nach bhfuil fianaise ar bith ann sna foclóirí dúchasacha gur féidir `triarach' a úsáid mar ainmfhocal. Sna foclóirí dúchasacha, ní luaitear é ach mar aidiacht. Mar sin, úsáidtear mar aidiacht amháin anseo é.
 	\item Úsáidtear `abairt' i gcomhthéacs gramadaí, seachas `ráiteas'. Bíonn nach mór chuile rud a bhaineann le graif eolais samhlaithe trí analach le teangeolaíocht / le gramadach. Mar sin, meastar gur léire cloí le `abairt thriarach' seachas `ráiteas triarach' (nó téarma eile mar sin).
 \end{itemize}
 
@@ -5545,7 +5601,7 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
 \begin{itemize}
 	\item Luann Foclóir Uí Dhónaill agus Stórchiste `ualaigh' (briathar) mar théarma staitistiúil, ach ní luann siad `ualach' sa gcomhthéacs céanna. Sin ráite, tá an fréamh céanna acu araon, agus ní féidir frása eile le `ualach' (m.sh. uimhir ualaithe) a chumadh toisc go mbeadh ciall ar leith leis sin (.i. uimhir a bhfuil ualach curtha leis, seachas an t-ualach é féin).
 	\item Tá ciall leis an téarma `ualach' -- ní Béarlachas é. I gcomhthéacs an meicnice staitistiúla, tá baint díreach idir ualaigh (mar uimhreacha) agus ualaigh mheicniúla. Ní hé gur aistriúchán ar fhocal Béarla é `ualach', ach gur leagan Gaeilge de choincheap eolaíochta atá ann.
-	\item Tá `weight -> ualach' ar fáil ar Tearma.ie -- agus tá ciall leis sin toisc go nglacann Foclóir Uí Dhónaill leis an téarma `ualaigh' mar théarma staitistiúil. 
+	\item Tá `weight -> ualach' ar fáil ar Téarma.ie -- agus tá ciall leis sin toisc go nglacann Foclóir Uí Dhónaill leis an téarma `ualaigh' mar théarma staitistiúil. 
 	\item Cé go bhfuil focail le bríonna comhchosúla leis seo (uimhir, uimhir scálach, paraiméadar, srl), ní oireann ceann ar bith acu don bhrí shainmhínithe atá de dhíth anseo. Is féidir iad a úsáid in ionad an téarma seo go minic, ach ní i gcónaí.
 	\item Athrú ó v1.1 alfa -- bhí an téarma seo aistrithe mar `uimhir ualaigh' cheana, as `uimhir' agus `ualach'. Ní shin an téarma ceart, áfach, agus rinneadh é a chur i gceart don leagan seo den Fhoclóir Tráchtais.
 \end{itemize}

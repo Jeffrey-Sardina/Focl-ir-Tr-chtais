@@ -1,0 +1,18 @@
+{
+    "term": "mean squared error (MSE)",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "earráid chearnaithe mheánach (ECM)",
+    "def-en": "A loss function that finds the error of every prediction, squares that error, and then calculates the mean of all of those squared errors.",
+    "def-ga": "Feidhm phionóis a fhaigheann earráid gach uile réamhinsinte, a chearnaítear an earráid sin, agus a chomhaireann ar deireadh meán na n-earráidí cearnaithe sin.",
+
+    "prov": {
+        "earráid": "féach ar an téarma 'error / earráid'",
+        "cearnaigh": "de-bhaldraithe, odonaill, storchiste",
+        "meánach": "de-bhaldraithe, odonaill, storchiste"
+    },
+    "notes": [
+        "Cé nach bhfuil an téarma iomlán ar fáil sna foclóirí thuas, táthar in ann é a chumadh go díreach as focail a bhfuil an brí chéanna, nó brí chomhchosúil, leo.",
+        "Is é 'earráid mheán na gcearnóg' atá ar Téarma.ie. Ní ghlactar leis sin toisc gur cosúil gurb ionann sé sin agus earráid(mheán an gcearnóg) -- sin le rá, go bhfuil tomhas earráide comhairthe ar mheán na gcearnóg. Ní shin atá i gceist le 'mean square error' ach meán(earráid^2). Meastar go bhfuil earráid cearnaithe meánach níos oiriúnaí mar sin sa gcás seo.",
+        "Beadh meán na n-earráidí cearnaithe go maith chomh maith mar théarma, ach roghnaíodh earráid chearnaithe mheánach toisc é a bheith níos simplí."
+    ]
+}

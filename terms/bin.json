@@ -1,0 +1,15 @@
+{
+    "term": "bin",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "eatramh",
+    "def-en": "In the context of a histogram, any one of the intervals that is used to group values and calculate their frequency.",
+    "def-ga": "I gcomhthéacs histeagraim, ceann ar bith de na raonta luachanna atá úsáidte chun luachanna a bhailiú le chéile agus chun a minicíocht a chomhaireamh.",
+
+    "prov": {
+        "eatramh": "féach ar an téarma 'interval / eatramh'"
+    },
+    "notes": [
+        "Bíonn gach uile 'bin' ina 'interval' -- níl aon ghá idirdhealú a dhéanamh nuair is léir gur i gcomhthéacs histeagraim atáthar ag caint.",
+        "Féach chomh maith ar an téarma 'interval / eatramh'."
+    ]
+}
