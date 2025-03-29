@@ -1,0 +1,16 @@
+{
+    "term": "random number generator",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "gineadóir uimhreacha randamacha",
+    "def-en": "In the context of computer science, an algorithm that uses a seed number to generate and output a series of random numbers.",
+    "def-ga": "I gcomhthéacs ríomheolaíochta, algartam a úsáideann uimhir fréimhe chun sraith uimhreacha randamacha a chumadh agus a chur amach.",
+
+    "prov": {
+        "gineadóir": "de-bhaldraithe, focloir-beag, odonaill",
+        "uimhir": "de-bhaldraithe, dineen, focloir-beag, odonaill, storchiste",
+        "randamach": "féach ar an téarma 'random / randamach'"
+    },
+    "notes": [
+        "Úsáidtear 'gineadóir' toisc é a bheith luaite mar fhocal ní hamháin ar ghiniúint páistí, ach ar ghiniúint ginearálta chomh maith (m.sh. féach ar 'generator' i bhFhoclóir De Bhaldraithe)."
+    ]
+}
