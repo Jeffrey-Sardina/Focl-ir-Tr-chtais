@@ -65,3 +65,5 @@ hyperparameter-grid.json *
 hyperparameter-combination.json *
 random-seed.json *
 bin.json *
+kullback–leibler-(KL)-divergence.json *
+relative-entropy.json *
