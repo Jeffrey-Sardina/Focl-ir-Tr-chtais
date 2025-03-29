@@ -67,3 +67,5 @@ random-seed.json *
 bin.json *
 kullback–leibler-(KL)-divergence.json *
 relative-entropy.json *
+
+Cuir ceist faoin téarma i gcomhair MSE ar Téarma.ie
