@@ -129,6 +129,7 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
 		knowledge graph (KG)&graf eolais (GE)\\ \hline 
 		knowledge graph embedding (KGE)&leabú graif eolais (LGE)\\ \hline 
 		knowledge graph embedding model (KGEM)&samhail leabaithe graif eolais (SLGE)\\ \hline 
+		Kullback-Leibler (KL) divergence&dibhéirseacht Kullback-Leibler (KL)\\ \hline 
 		label&lipéad\\ \hline 
 		labelled&le lipéad\\ \hline 
 		latent&folaigh\\ \hline 
@@ -235,6 +236,7 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
 		to regularise&tabhair chun rialtachta\\ \hline 
 		regulariser&córas rialtachta\\ \hline 
 		relation(ship)&ceangal\\ \hline 
+		relative entropy&eantrópacht choibhneasta\\ \hline 
 		ReLU&ReLU\\ \hline 
 		representation&leagan\\ \hline 
 		representative&ionadaíochta\\ \hline 
@@ -2495,6 +2497,25 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
 \end{itemize}
 
 
+\subsubsection*{Kullback-Leibler (KL) divergence (ainmfhocal): dibhéirseacht Kullback-Leibler (KL)}
+ \noindent \textit{Sainmhíniú (ga):} I gcomhthéacs ríomheolaíochta agus matamaitice, feidhm a chomhaireann cé chomh difriúil is atá dhá dháileadh staitistiúil óna chéile. Is minic agus é úsáidte mar fheidhm phionóis, agus is ionann é agus eantrópacht choibhneasta.
+\\
+ \noindent \textit{Sainmhíniú (en):} In the context of computer science and mathematics, a function that calculates how different two distributions are from each other. It is often used as a loss function, and it also referred to as relative entropy.
+\\
+ \noindent \textit{Tagairtí:}
+\begin{itemize}
+	\item dibhéirseacht: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}, Williams et al. (2023) \cite{storchiste}
+\end{itemize}
+
+ \noindent \textit{Nótaí Aistriúcháin:}
+\begin{itemize}
+	\item Tá `dibhéirseacht' ar fáil go díreach ó na foinsí thuas. I Stórchiste, luaitear mar théarma matamaitice é
+	\item Is ainm dílis (nó go teicniúil, dhá ainm dílis curtha le chéile) é `Kullback-Leibler'; fágtar gan athrú é mar sin.
+	\item Is ionann dibhéirseacht Kullback-Leibler agus eantrópacht choibhneasta.
+	\item Féach chomh maith ar an téarma `relative entropy / eantrópacht choibhneasta'.
+\end{itemize}
+
+
 \subsubsection*{label (ainmfhocal): lipéad}
  \noindent \textit{Sainmhíniú (ga):} I gcomhthéacs graif eolais, téacs atá nasctha le nód nó le ceangal agus a chuireann in iúl céard dó a sheasann an nód / ceangal sin.
 \\
@@ -3036,7 +3057,7 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
  \noindent \textit{Nótaí Aistriúcháin:}
 \begin{itemize}
 	\item Cé nach bhfuil an téarma iomlán ar fáil sna foclóirí thuas, táthar in ann é a chumadh go díreach as focail a bhfuil an brí chéanna, nó brí chomhchosúil, leo.
-	\item Is é `earráid mheán na gcearnóg' atá ar Téarma.ie. Ní ghlactar leis sin toisc gur cosúil gurb ionann sé sin agus earráid(mheán an gcearnóg) -- sin le rá, go bhfuil tomhas earráide comhairthe ar mheán na gcearnóg. Ní shin atá i gceist le `mean square error' ach meán(earráid^2). Meastar go bhfuil earráid cearnaithe meánach níos oiriúnaí mar sin sa gcás seo.
+	\item Is é `earráid mheán na gcearnóg' atá ar Téarma.ie. Ní ghlactar leis sin toisc gur cosúil gurb ionann sé sin agus earráid(mheán an gcearnóg) -- sin le rá, go bhfuil tomhas earráide comhairthe ar mheán na gcearnóg. Ní shin atá i gceist le `mean square error' ach $me\acute{a}n(earr\acute{a}id^2)$. Meastar go bhfuil earráid cearnaithe meánach níos oiriúnaí mar sin sa gcás seo.
 	\item Beadh meán na n-earráidí cearnaithe go maith chomh maith mar théarma, ach roghnaíodh earráid chearnaithe mheánach toisc é a bheith níos simplí.
 \end{itemize}
 
@@ -3690,7 +3711,7 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
 \subsubsection*{percentile (ainmfhocal): peircintíl}
  \noindent \textit{Sainmhíniú (ga):} I gcomhthéacs staitistice, is é an pheircintíl Xú ná an luach i ndáileadh staitistiúil a bhfuil X% de na luachanna eile níos ísle ná é.
 \\
- \noindent \textit{Sainmhíniú (en):} In the context of statistics, the Xth percentile is the value in a statistical  distribution which has X% of the other values below it.
+ \noindent \textit{Sainmhíniú (en):} In the context of statistics, the Xth percentile is the value in a statistical distribution which has X% of the other values below it.
 \\
  \noindent \textit{Tagairtí:}
 \begin{itemize}
@@ -4365,6 +4386,26 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
 \begin{itemize}
 	\item Is mar thagairt d'fheistiú (le rópa) a úsáidtear an téarma seo den chuid is mó sna foclóirí thuas. Sin ráite, is féidir a rá chomh maith go bhfuil dhá nód a bhfuil ceangal eatarthu `feistithe' lena chéile. Ní mheasann an t-údar gur bac ar bith é sin ar úsáid an fhocail `ceangal' leis an mbrí nua seo.
 	\item Seo an téarma céanna is a úsáidtear chun `edge' a chur in iúl, toisc go bhfuil an bhrí chéanna le `edge' agus `relationship' i gcomhthéacs graf eolais i mBéarla.
+\end{itemize}
+
+
+\subsubsection*{relative entropy (ainmfhocal): eantrópacht choibhneasta}
+ \noindent \textit{Sainmhíniú (ga):} I gcomhthéacs ríomheolaíochta agus matamaitice, feidhm a chomhaireann cé chomh difriúil is atá dhá dháileadh staitistiúil óna chéile. Is minic agus é úsáidte mar fheidhm phionóis, agus is ionann é agus dibhéirseacht Kullback-Leibler.
+\\
+ \noindent \textit{Sainmhíniú (en):} In the context of computer science and mathematics, a function that calculates how different two distributions are from each other. It is often used as a loss function, and it also referred to as Kullback-Leibler divergence.
+\\
+ \noindent \textit{Tagairtí:}
+\begin{itemize}
+	\item eantrópacht: féach ar an téarma `entropy / eantrópacht'
+	\item coibhneasta: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+ \noindent \textit{Nótaí Aistriúcháin:}
+\begin{itemize}
+	\item Téarma cruthaithe go díreach as na focail thuas. Tá `eantrópacht' luaite i gcomhthéacs matamaitice, agus `coibhneasta' luaite i gcomhthéacs níos leithne ach chomhchosúil.
+	\item Is ionann eantrópacht choibhneasta agus dibhéirseacht Kullback-Leibler.
+	\item Féach chomh maith ar an téarma `Kullback-Leibler (KL) divergence / dibhéirseacht Kullback-Leibler (KL)'.
+	\item Féach chomh maith ar an téarma `entropy / eantrópacht'.
 \end{itemize}
 
 

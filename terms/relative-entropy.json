@@ -1,0 +1,18 @@
+{
+    "term": "relative entropy",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "eantrópacht choibhneasta",
+    "def-en": "In the context of computer science and mathematics, a function that calculates how different two distributions are from each other. It is often used as a loss function, and it also referred to as Kullback-Leibler divergence.",
+    "def-ga": "I gcomhthéacs ríomheolaíochta agus matamaitice, feidhm a chomhaireann cé chomh difriúil is atá dhá dháileadh staitistiúil óna chéile. Is minic agus é úsáidte mar fheidhm phionóis, agus is ionann é agus dibhéirseacht Kullback-Leibler.",
+
+    "prov": {
+        "eantrópacht": "féach ar an téarma 'entropy / eantrópacht'",
+        "coibhneasta": "de-bhaldraithe, focloir-beag, odonaill"
+    },
+    "notes": [
+        "Téarma cruthaithe go díreach as na focail thuas. Tá 'eantrópacht' luaite i gcomhthéacs matamaitice, agus 'coibhneasta' luaite i gcomhthéacs níos leithne ach chomhchosúil.",
+        "Is ionann eantrópacht choibhneasta agus dibhéirseacht Kullback-Leibler.",
+        "Féach chomh maith ar an téarma 'Kullback-Leibler (KL) divergence / dibhéirseacht Kullback-Leibler (KL)'.",
+        "Féach chomh maith ar an téarma 'entropy / eantrópacht'."
+    ]
+}

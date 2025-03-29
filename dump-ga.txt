@@ -1,0 +1,35 @@
+dibhéirseacht Kullback-Leibler (KL)
+ainmfhocal
+I gcomhthéacs ríomheolaíochta agus matamaitice, feidhm a chomhaireann cé chomh difriúil is atá dhá dháileadh staitistiúil óna chéile. Is minic agus é úsáidte mar fheidhm phionóis, agus is ionann é agus eantrópacht choibhneasta.
+Tá 'dibhéirseacht' ar fáil go díreach ó na foinsí thuas. I Stóchiste, luaitear mar théarma matamaitice é
+Is ainm dílis (nó go teicniúil, dhá ainm dílis curthe le chéile) é 'Kullback-Leibler'; fágtar gan athrú é mar sin.
+Is ionann dibhéirseacht Kullback-Leibler agus eantrópacht choibhneasta.
+Féach chomh maith ar an téarma 'relative entropy / eantrópacht choibhneasta'.
+
+eatramh
+ainmfhocal
+I gcomhthéacs histeagraim, ceann ar bith de na raonta luachanna atá úsáidte chun luachanna a bhailiú le chéile agus chun a minicíocht a chomhaireamh.
+Bíonn gach uile 'bin' ina 'interval' -- níl aon ghá idirdhealú a dhéanamh nuair is léir gur i gcomhthéacs histeagraim atáthar ag caint.
+Féach chomh maith ar an téarma 'interval / eatramh'.
+
+earráid chearnaithe mheánach (ECM)
+ainmfhocal
+Feidhm phionóis a fhaigheann earráid gach uile réamhinsinte, a chearnaítear an earráid sin, agus a chomhaireann ar deireadh meán na n-earráidí cearnaithe sin.
+Cé nach bhfuil an téarma iomlán ar fáil sna foclóirí thuas, táthar in ann é a chumadh go díreach as focail a bhfuil an brí chéanna, nó brí chomhchosúil, leo.
+Is é 'earráid mheán na gcearnóg' atá ar Téarma.ie. Ní ghlactar leis sin toisc gur cosúil gurb ionann sé sin agus earráid(mheán an gcearnóg) -- sin le rá, go bhfuil tomhas earráide comhairthe ar mheán na gcearnóg. Ní shin atá i gceist le 'mean square error' ach $meán(earráid^2)$. Meastar go bhfuil earráid cearnaithe meánach níos oiriúnaí mar sin sa gcás seo.
+Beadh meán na n-earráidí cearnaithe go maith chomh maith mar théarma, ach roghnaíodh earráid chearnaithe mheánach toisc é a bheith níos simplí.
+
+peircintíl
+ainmfhocal
+I gcomhthéacs staitistice, is é an pheircintíl Xú ná an luach i ndáileadh staitistiúil a bhfuil X% de na luachanna eile níos ísle ná é.
+Téarma díreach ar fáil leis an mbrí cheannann chéanna i Stórchiste.
+
+eantrópacht choibhneasta
+ainmfhocal
+I gcomhthéacs ríomheolaíochta agus matamaitice, feidhm a chomhaireann cé chomh difriúil is atá dhá dháileadh staitistiúil óna chéile. Is minic agus é úsáidte mar fheidhm phionóis, agus is ionann é agus dibhéirseacht Kullback-Leibler.
+Téarma cruthaithe go díreach as na focail thuas. Tá 'eantrópacht' luaite i gcomhthéacs matamaitice, agus 'coibhneasta' luaite i gcomhthéacs níos leithne ach chomhchosúil.
+Is ionann eantrópacht choibhneasta agus dibhéirseacht Kullback-Leibler.
+Féach chomh maith ar an téarma 'Kullback-Leibler (KL) divergence / dibhéirseacht Kullback-Leibler (KL)'.
+Féach chomh maith ar an téarma 'entropy / eantrópacht'.
+
+

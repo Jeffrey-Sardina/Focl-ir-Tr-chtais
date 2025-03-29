@@ -176,6 +176,7 @@ def render_term(term):
         # hard coded exceptions that are hard to automaticlly detect
         render_str = render_str.replace("1 / (meán-rang)", "1 / (me\\acute{a}n-rang)")
         render_str = render_str.replace("meán(1 / rang_i)", "1 / (me\\acute{a}n(1 / rang_i)")
+        render_str = render_str.replace("meán(earráid^2)", "me\\acute{a}n(earr\\acute{a}id^2)")
 
     return render_str
 

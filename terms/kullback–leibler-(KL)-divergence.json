@@ -1,0 +1,17 @@
+{
+    "term": "Kullback-Leibler (KL) divergence",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "dibhéirseacht Kullback-Leibler (KL)",
+    "def-en": "In the context of computer science and mathematics, a function that calculates how different two distributions are from each other. It is often used as a loss function, and it also referred to as relative entropy.",
+    "def-ga": "I gcomhthéacs ríomheolaíochta agus matamaitice, feidhm a chomhaireann cé chomh difriúil is atá dhá dháileadh staitistiúil óna chéile. Is minic agus é úsáidte mar fheidhm phionóis, agus is ionann é agus eantrópacht choibhneasta.",
+
+    "prov": {
+        "dibhéirseacht": "de-bhaldraithe, dineen, focloir-beag, odonaill, storchiste"
+    },
+    "notes": [
+        "Tá 'dibhéirseacht' ar fáil go díreach ó na foinsí thuas. I Stórchiste, luaitear mar théarma matamaitice é",
+        "Is ainm dílis (nó go teicniúil, dhá ainm dílis curtha le chéile) é 'Kullback-Leibler'; fágtar gan athrú é mar sin.",
+        "Is ionann dibhéirseacht Kullback-Leibler agus eantrópacht choibhneasta.",
+        "Féach chomh maith ar an téarma 'relative entropy / eantrópacht choibhneasta'."
+    ]
+}

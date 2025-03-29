@@ -1,3 +1,5 @@
 percentile.json
 bin.json
 mean-squard-error.json
+kullback–leibler-(KL)-divergence.json
+relative-entropy.json
