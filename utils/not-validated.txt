@@ -1,0 +1,3 @@
+linear.json
+variance.json
+standard-deviation.json

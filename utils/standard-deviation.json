@@ -1,0 +1,17 @@
+{
+    "term": "standard deviation",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "diall caighdeánach",
+    "def-en": "xxx.",
+    "def-ga": "xxx.",
+
+    "prov": {
+        "diall": "de-bhaldraithe, odonaill, storchiste",
+        "caighdeánach": "de-bhaldraithe, focloir-beag, odonaill, storchiste",
+        "diall caighdeánach": "storchiste"
+    },
+    "notes": [
+        "Téarma díreach ar fáil leis an mbrí cheannann chéanna i gcomhthéacs matamaitice.",
+        "Tá na fo-théarmaí 'diall' agus 'caighdeánach' le fáil i bhfoclóirí eile ina n-aonar le bhríonna comhchosúla, ach níl siad luaite iontu i gcomhthéacs matamaitice."
+    ]
+}

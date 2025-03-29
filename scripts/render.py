@@ -399,7 +399,7 @@ def main():
     num_terms, out_file = write_terms(table_str, render_strs)
     print(f"Wrote {num_terms} terms to {out_file}")
 
-def get_index_ga():
+def get_index_ga(raise_err=True):
     if '-ga' in sys.argv:
         assert not '-en' in sys.argv, "Only index language can be set"
         index_ga = True
@@ -407,7 +407,10 @@ def get_index_ga():
         assert not '-ga' in sys.argv, "Only index language can be set"
         index_ga = False
     else: # default to Gaeilge
-        assert False, "Must give a index language via -en or -ga"
+        if raise_err:
+            assert False, "Must give a index language via -en or -ga"
+        else:
+            return "both"
     return index_ga
 
 def get_format():
@@ -457,9 +460,13 @@ if __name__ == '__main__':
         assert not '-tex' in sys.argv, "-thesis internally sets -tex, and cannot accept formatting arguments"
         assert not '-html' in sys.argv, "-thesis internally sets -tex, and cannot accept formatting arguments"
         MODE = 'latex'
-        INDEX_GAEILGE = get_index_ga()
         THESIS_FMT = True
-        main()
+        INDEX_GAEILGE = get_index_ga(raise_err=False)
+        if INDEX_GAEILGE == "both":
+            INDEX_GAEILGE = True
+            main()
+            INDEX_GAEILGE = False
+            main()
 
     else:
         INDEX_GAEILGE = get_index_ga()
