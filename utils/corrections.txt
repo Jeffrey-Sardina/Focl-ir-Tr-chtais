@@ -44,3 +44,12 @@ genetic-algorithm.json
 dependency-graph.json
 ground-truth.json
 ground-truth-(data).json
+margin.json
+binary-cross-entropy-loss.json
+cross-entropy-loss.json
+margin-ranking-loss.json
+pseudotyped.json
+constant.json
+hyperparameter-grid.json
+reproducible.json
+scatter-plot.json

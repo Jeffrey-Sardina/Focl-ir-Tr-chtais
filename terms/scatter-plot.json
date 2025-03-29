@@ -1,8 +1,8 @@
 {
-    "term": "scatter plot / diagram",
+    "term": "scatter plot (or diagram)",
     "part-of-speech": "ainmfhocal",
     "citation-form": "scaipléaráid",
-    "def-en": "A diagram that shows points in two dimensions, with an X and Y axis.",
+    "def-en": "A diagram that shows points in two dimensions, with an X and a Y axis.",
     "def-ga": "Léaráid a léiríonn pointí i ndá thoise, le hais X agus Y.",
 
     "prov": {
@@ -11,8 +11,8 @@
         "léaráid": "de-bhaldraithe, focloir-beag, odonaill"
     },
     "notes": [
-        "Tá an téarma 'scaipléaráid' go díreach le fáil i Stórchiste mar 'scatter diagram' i gcomthéacs matamaitice. Glactar leis sin mar sin.",
+        "Tá an téarma 'scaipléaráid' go díreach le fáil i Stórchiste mar 'scatter diagram' i gcomhthéacs matamaitice. Glactar leis sin mar sin.",
         "Luann roinnt foclóirí thuas an téarma 'léaráid' mar fhocal ar 'diagram' i gcomhthéacs comhchosúil, ach ní luann siad 'scaipléaráid'.",
-        "Luann roinnt foclóirí thuas an téarma 'scaip' mar fhocla ar 'to scatter', ach ní luann siad 'scaipléaráid', ní ná luann siad mar réimír é."
+        "Luann roinnt foclóirí thuas an téarma 'scaip' mar fhocal ar 'to scatter', ach ní luann siad 'scaipléaráid', ní ná luann siad mar réimír é."
     ]
 }

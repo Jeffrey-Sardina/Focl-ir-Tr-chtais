@@ -2,8 +2,8 @@
     "term": "binary cross entropy loss (BCEL)",
     "part-of-speech": "ainmfhocal",
     "citation-form": "pionós tras-eantrópachta dénártha (PTED)",
-    "def-en": "A loss function based on binary cross entropy. It is typically used in classification and link prediction tasks.",
-    "def-ga": "Feidhm phionóis bunaithe ar thras-eantrópachta dénártha. Úsáidtear go minic í i gcomhair an taisc aicmithe agus an taisc réamhinsinte nasc.",
+    "def-en": "A loss function based on binary cross entropy. It is typically used in classification and link prediction.",
+    "def-ga": "Feidhm phionóis bunaithe ar thras-eantrópacht dénártha. Úsáidtear go minic í i gcomhair an taisc aicmithe agus an taisc réamhinsinte nasc.",
 
     "prov": {
         "pionós": "féach ar an téarma 'loss function / feidhm phionóis'",
@@ -11,7 +11,7 @@
         "dénártha": "féach ar an téarma 'binary / dénártha'"
     },
     "notes": [
-        "Úsáidtear 'pionós' seachas 'feidhm phionóis' thuas mar giorrúchán. Tá sé ceart go leor 'feidh phionóis' a úsáid freisin.",
+        "Úsáidtear 'pionós' seachas 'feidhm phionóis' thuas mar giorrúchán. Tá sé ceart go leor 'feidhm phionóis' a úsáid freisin.",
         "Féach chomh maith ar an téarma 'loss function / feidhm phionóis'.",
         "Féach chomh maith ar an téarma 'cross-entropy / tras-eantrópacht'.",
         "Féach chomh maith ar an téarma 'binary / dénártha'."
