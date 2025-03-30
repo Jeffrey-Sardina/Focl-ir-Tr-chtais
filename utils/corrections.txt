@@ -1,18 +1,1 @@
 Not checked since last major revision:
-
-margin.json *
-margin-ranking-loss.json *
-binary-cross-entropy-loss.json *
-cross-entropy-loss.json *
-pseudotyped.json *
-hyperparameter-grid.json *
-hyperparameter-combination.json *
-random-seed.json *
-bin.json *
-kullback–leibler-(KL)-divergence.json *
-relative-entropy.json *
-
-one-hot-encoding.json *
-
-
-Cuir ceist faoin téarma i gcomhair MSE ar Téarma.ie
