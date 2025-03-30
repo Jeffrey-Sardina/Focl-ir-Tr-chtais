@@ -2,9 +2,9 @@
 
 from sitegen import load_terms
 
-def main():
+def count_terms():
     num_terms = len(load_terms())
-    print(f'{num_terms} téarma :D')
+    return num_terms
 
 if __name__ == '__main__':
-    main()
+    print(f'{count_terms()} téarma :D')
