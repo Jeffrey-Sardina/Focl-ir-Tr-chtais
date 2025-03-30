@@ -455,7 +455,6 @@ if __name__ == '__main__':
             for INDEX_GAEILGE in [True, False]:
                 DEBUG = False
                 main()
-
     elif '-thesis' in sys.argv:
         # make the output in the format needed for inclusion in my thesis
         assert not '-nv' in sys.argv, "-thesis and -nv cannot be used together as arguments"
@@ -470,7 +469,6 @@ if __name__ == '__main__':
             main()
             INDEX_GAEILGE = False
             main()
-
     else:
         INDEX_GAEILGE = get_index_ga()
         MODE = get_format()
