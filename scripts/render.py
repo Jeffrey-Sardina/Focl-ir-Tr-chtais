@@ -1,12 +1,11 @@
 #!/usr/bin/env python
 
-from constants import version
 import json
 import glob
 import sys
 import random
 import os
-from utils import termsort
+from utils import version, termsort
 
 BUILDS_FOLDER_WRITE = "../builds/"
 

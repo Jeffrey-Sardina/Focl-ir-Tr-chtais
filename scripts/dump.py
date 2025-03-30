@@ -52,8 +52,10 @@ def main():
         dump = dump_en()
         tag = "en"
 
-    with open(f'../dump-{tag}.txt', 'w') as out:
+    out_path = f'../dump-{tag}.txt'
+    with open(out_path, 'w') as out:
         print(dump, file=out)
+        print(f'Dumped {len(terms)} terms to {out_path}')
 
 if __name__ == '__main__':
     if '-nv' in sys.argv:

@@ -1,10 +1,9 @@
 #!/usr/bin/env python
 
-from constants import version
 import glob
 import json
 import os
-from utils import termsort, term_norm
+from utils import version, termsort, term_norm
 
 SPACES_PER_INDENT = 4
 
@@ -363,6 +362,10 @@ def main():
     terms = load_terms()
     gen_term_pages(terms)
     gen_index(terms, version)
+    print()
+    print(f'Done writing site with {len(terms)} terms!')
+    print(f'Index file written to {os.path.join(SITE_FOLDER, "index.html")}')
+    print(f'Term files written to {TERMS_FOLDER_WRITE}')
 
 if __name__ == '__main__':
     main()

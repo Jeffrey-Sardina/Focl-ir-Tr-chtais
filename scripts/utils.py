@@ -1,3 +1,7 @@
+# constants
+version = '1.5 alfa'
+
+# functions
 def term_norm(term_str):
     if term_str[0] == '(':
         term_str = term_str[1:]
