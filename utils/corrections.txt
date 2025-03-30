@@ -1,49 +1,5 @@
 Not checked since last major revision:
 
-source-code.json
-open-source.json
-ablation.json
-open-world-assumption.json
-closed-world-assumption.json
-data-leak.json
-to-filter.json
-filtering.json
-filter.json
-to-quantify.json
-ranking.json
-interval.json
-to-bound.json
-outlier.json
-bayesian.json
-operation.json
-operator.json
-state-of-the-art-(the-literature).json
-to-predict.json
-predictor.json
-prediction.json
-generality.json
-atomic.json
-region.json
-aggregate.json
-neighbour.json
-dikw-pyramid.json
-abstraction.json
-to-abstract.json
-algorithm.json
-weighted-random-search.json
-random-search.json
-mean-rank.json
-mean-reciprocal-rank.json
-hits-at-k.json
-ranked-list.json
-training-loop.json
-negative-sampling.json
-end-condition.json
-grid-search.json
-genetic-algorithm.json
-dependency-graph.json
-ground-truth.json
-ground-truth-(data).json
 constant.json
 reproducible.json
 scatter-plot.json
@@ -54,7 +10,6 @@ non-linear.json
 curve.json
 random-number-generator.json
 percentile.json
-mean-squard-error.json
 arbitrary.json
 to-transform.json
 transformation.json
@@ -76,7 +31,6 @@ bin.json *
 kullback–leibler-(KL)-divergence.json *
 relative-entropy.json *
 one-hot-encoding.json *
-
 
 
 Cuir ceist faoin téarma i gcomhair MSE ar Téarma.ie

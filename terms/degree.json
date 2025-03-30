@@ -3,7 +3,7 @@
     "part-of-speech": "ainmfhocal",
     "citation-form": "céim",
     "def-en": "In the context of a node in a knowledge graph, how many connections it has with other nodes in the graph.",
-    "def-ga": "I gcomhthéacs nóid i ngraf eolais, cé mhéid ceangal atá aige le nóid eile sa ngraf.",
+    "def-ga": "I gcomhthéacs nóid i ngraf eolais, ca mhéad ceangal atá aige le nóid eile sa ngraf.",
 
     "prov": {
         "céim": "de-bhaldraithe, dineen, focloir-beag, odonaill"

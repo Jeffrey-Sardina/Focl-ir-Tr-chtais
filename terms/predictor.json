@@ -2,7 +2,7 @@
     "term": "predictor",
     "part-of-speech": "ainmfhocal",
     "citation-form": "réamhinsteoir",
-    "def-en": "A machine learning system that can predict data.",
+    "def-en": "A machine learning system that predicts data.",
     "def-ga": "Córas ríomhfhoghlama a réamhinsíonn sonraí.",
 
     "prov": {
@@ -10,6 +10,6 @@
         "insteoir": "focloir-beag, odonaill"
     },
     "notes": [
-        "Úsáidtear an iarmhír choitianta '-eoir' chun an téarma seo a chruthú. Is féidir an téarma 'insteoir' a fheiceáil in úsáid i bhFoclóir Uí Dhónaill agus i bhFoclóir Uí Dhónaill agus Uí Mhaoileoin, ach níl trácht díreach ar 'réamhinsteoir' ann."
+        "Úsáidtear an iarmhír choitianta '-eoir' chun an téarma seo a chruthú. Is féidir an téarma 'insteoir' a fheiceáil i bhFoclóir Uí Dhónaill agus i bhFoclóir Uí Dhónaill agus Uí Mhaoileoin, ach níl trácht díreach ar 'réamhinsteoir' iontu."
     ]
 }

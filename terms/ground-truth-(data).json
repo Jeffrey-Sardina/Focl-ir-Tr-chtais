@@ -3,14 +3,14 @@
     "part-of-speech": "ainmfhocal",
     "citation-form": "bun-fhírinne",
     "def-en": "In the context of data for machine learning, data that is true and available to be used during training, testing, or validation as an example of correct output.",
-    "def-ga": "I gcomhthéacs sonraí a úsáidtear i gcomhair ríomhfhoghlama, sonraí atá fíor agus ar fáil lena bheith úsáidte le linn traenála, teisteála, nó deimhnithe mar shampla den aschur ceart.",
+    "def-ga": "I gcomhthéacs sonraí a úsáidtear i gcomhair ríomhfhoghlama, sonraí atá fíor agus ar fáil lena bheith úsáidte le linn traenála, teisteála, nó deimhnithe mar shamplaí den aschur ceart.",
 
     "prov": {
         "bun-": "de-bhaldraithe, dineen, focloir-beag, odonaill",
         "fírinne": "de-bhaldraithe, dineen, focloir-beag, odonaill"
     },
     "notes": [
-        "Déanann 'bun-fhírinne' trácht ar an gcoincheap teibí, agus ar na sonraí iad féin (.i. an bhun-fhírinne). ",
+        "Déanann 'bun-fhírinne' trácht ar an gcoincheap teibí agus ar na sonraí iad féin (.i. an bhun-fhírinne). ",
         "Ní hionann bun-fhírinne agus fírinne. Is féidir go bhfuil fírinne ann (mar shampla, trí dhéaduchtú loighce) nach bhfuil mar chuid den bhun-fhírinne. Is mar sin nach leor 'fírinne' amháin chun trácht a dhéanamh air seo.",
         "Sin ráite, is minic gur féidir 'fírinne' a úsáid in áit 'bun-fhírinne' -- óir bíonn an bhun-fhírinne mar chuid den fhírinne i gcónaí, cé nach mbíonn an fhírinne ar fad mar chuid den bhun-fhírinne i gcónaí.",
         "Féach chomh maith ar an téarma 'ground truth / bun-fhírinneach'."
