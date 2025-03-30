@@ -55,6 +55,10 @@ curve.json
 random-number-generator.json
 percentile.json
 mean-squard-error.json
+arbitrary.json
+to-transform.json
+transformation.json
+z-score.json
 
 margin.json *
 binary-cross-entropy-loss.json *
@@ -67,5 +71,8 @@ random-seed.json *
 bin.json *
 kullback–leibler-(KL)-divergence.json *
 relative-entropy.json *
+one-hot-encoding.json *
+
+
 
 Cuir ceist faoin téarma i gcomhair MSE ar Téarma.ie

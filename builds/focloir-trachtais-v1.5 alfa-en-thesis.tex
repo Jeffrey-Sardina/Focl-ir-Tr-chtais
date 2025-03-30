@@ -17,6 +17,7 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
 		application (in practice)&úsáid (phraiticiúil)\\ \hline 
 		to approximate&meastachán a dhéanamh (ar)\\ \hline 
 		approximation&meastachán\\ \hline 
+		arbitrary&treallach\\ \hline 
 		architecture&dearadh\\ \hline 
 		artificial intelligence (AI) (concept)&intleacht shaorga (IS) (coincheap)\\ \hline 
 		artificial intelligence (AI) (system)&córas intleachta saorga (córas IS)\\ \hline 
@@ -183,6 +184,7 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
 		node&nód\\ \hline 
 		non-linear&neamh-líneach\\ \hline 
 		object&cuspóir\\ \hline 
+		one-hot encoding&códú aon-innéacs\\ \hline 
 		ontology&ointeolaíocht\\ \hline 
 		open source&saor-rochtana\\ \hline 
 		Open World Assumption&Foshuíomh an Domhain Oscailte\\ \hline 
@@ -293,6 +295,9 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
 		training loop&timthriall traenála\\ \hline 
 		training set&tacar traenála\\ \hline 
 		transfer learning&tras-fhoghlaim\\ \hline 
+		to transform&trasfhoirmigh\\ \hline 
+		transform&trasfhoirm\\ \hline 
+		transformation&trasfhoirmiú\\ \hline 
 		transitive&aistreach\\ \hline 
 		triple&abairt thriarach\\ \hline 
 		underfitting&foghlaim easnamhach\\ \hline 
@@ -309,6 +314,7 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
 		weight&ualach\\ \hline 
 		weighted&ualaithe\\ \hline 
 		weighted random search&cuardach randamach ualaithe\\ \hline 
+		z-score&scór-z\\ \hline 
 \caption{Liosta na dtéarma Béarla ar fad agus a leagan Gaeilge, curtha in ord de réir na dtéarmaí Béarla.}
 \label{tab-terms-en-ga}
 \end{longtable}
@@ -516,6 +522,22 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
  \noindent \textit{Nótaí Aistriúcháin:}
 \begin{itemize}
 	\item Féach ar an téarma `estimate / meastachán'.
+\end{itemize}
+
+
+\subsubsection*{arbitrary (aidiacht): treallach}
+ \noindent \textit{Sainmhíniú (ga):} Roghnaithe gan chúis léirithe, go háirithe más féidir é a ionadú le rogha treallach ar bith eile gan ráiteas / cothromóid / feidhm / srl a athrú go mór. Is féidir le rogha treallach a bheith randamach nó a bheith déanta gan a bheith randamach.
+\\
+ \noindent \textit{Sainmhíniú (en):} Chosen without a given justification, especially if it can be replaced with any other arbitrary choice without significantly changing a statement / equation / function / etc. An arbitrary choice can be random or non-random.
+\\
+ \noindent \textit{Tagairtí:}
+\begin{itemize}
+	\item treallach: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+ \noindent \textit{Nótaí Aistriúcháin:}
+\begin{itemize}
+	\item Téarma díreach ar fáil le brí chomhchosúil ó na foclóirí thuas.
 \end{itemize}
 
 
@@ -3297,7 +3319,7 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
 
  \noindent \textit{Nótaí Aistriúcháin:}
 \begin{itemize}
-	\item Ní úsáidtear `*samplóir diúltach' toisc gur samplóir é seo a chruthaíonn frith-shamplaí. Níl tada `diúltach' ag baint leis de reir mar a úsáidtear an an focal `diúltach' i nGaeilge.
+	\item Ní úsáidtear `*samplóir diúltach' toisc gur samplóir é seo a chruthaíonn frith-shamplaí. Níl tada `diúltach' ag baint leis de réir mar a úsáidtear an an focal `diúltach' i nGaeilge.
 	\item Féach chomh maith ar an téarma `negative / frith-shampla',
 	\item Féach chomh maith ar an téarma `sampler / samplóir'.
 \end{itemize}
@@ -3455,6 +3477,26 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
  \noindent \textit{Nótaí Aistriúcháin:}
 \begin{itemize}
 	\item I mBéarla, samhlaítear abairtí triaracha mar abairtí teangeolaíochta le hainmní, le faisnéis, agus le cuspóir. Glactar leis an analach chéanna i nGaeilge.
+\end{itemize}
+
+
+\subsubsection*{one-hot encoding (ainmfhocal): códú aon-innéacs}
+ \noindent \textit{Sainmhíniú (ga):} Códú a dhéantar ar athróga catagóireacha nuair nach bhfuil slí dhíreach ann chun iad a ionadú le uimhreacha aonaracha. Mar shampla, d'fhéadfadh códú aon-innéacs a dhéanamh ar na luachanna `Frodo, Éowyn, Arwen, Sam' mar `0001, 0010, 0100, 1000'. Ní bhíonn ach an t-aon 1 amháin i ngach uile códú ann.
+\\
+ \noindent \textit{Sainmhíniú (en):} Encoding that is done on categorical variables when there is no way to directly represent them as single numbers. For example, one-hot coding could be performed on the values `Frodo, Éowyn, Arwen, Sam' to get `0001, 0010, 0100, 1000'. In each case, the encoding has exactly one 1.
+\\
+ \noindent \textit{Tagairtí:}
+\begin{itemize}
+	\item códaigh: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+	\item aon-: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+	\item innéacs: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+ \noindent \textit{Nótaí Aistriúcháin:}
+\begin{itemize}
+	\item Is éard atá i gceist le `one-hot encoding' ná códú dénártha nach bhfuil ach an t-aon 1 ceadaithe i ngach uile chódú. I bhfocail eile, bíonn gach uile códú aitheanta de réir an innéacs ina bhfuil an 1 ann. Is mar sin a ghlactar leis an téarma `códú aon-innéacs'.
+	\item Cé go luaite an focal `códaigh mar `to codify' seachas `to encode', is é `cód' an focal a úsáidtear chun trácht a dhéanamh ar chód ríomhaireachta. Meastar go mba cheart cloí leis anseo mar sin, go háirithe agus gan rogha léir eile ann sna foclóirí dúchasacha.
+	\item Is é códú' seachas `códaigh' atá i bhFoclóir Uí Dhónaill agus Uí Mhaoileoin.
 \end{itemize}
 
 
@@ -4876,7 +4918,7 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
  \noindent \textit{Tagairtí:}
 \begin{itemize}
 	\item bun-: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
-	\item cód: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}*, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+	\item cód: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
 \end{itemize}
 
  \noindent \textit{Nótaí Aistriúcháin:}
@@ -5408,6 +5450,56 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
 \end{itemize}
 
 
+\subsubsection*{to transform (briathar): trasfhoirmigh}
+ \noindent \textit{Sainmhíniú (ga):} I gcomhthéacs matamaitice, sonraí a athrú le feidhm éigin (mar shampla, chun iad a chur ar eatramh cuimsithe).
+\\
+ \noindent \textit{Sainmhíniú (en):} In the context of mathematics, to change data according to some function (for example, to bound them on a given interval).
+\\
+ \noindent \textit{Tagairtí:}
+\begin{itemize}
+	\item trasfhoirmigh: Williams et al. (2023) \cite{storchiste}
+\end{itemize}
+
+ \noindent \textit{Nótaí Aistriúcháin:}
+\begin{itemize}
+	\item Téarma díreach ar fáil ó Stórchiste i gcomhthéacs matamaitice.
+\end{itemize}
+
+
+\subsubsection*{transform (ainmfhocal): trasfhoirm}
+ \noindent \textit{Sainmhíniú (ga):} I gcomhthéacs matamaitice, feidhm a úsáidtear chun trasfhoirmiú a chur i gcrích.
+\\
+ \noindent \textit{Sainmhíniú (en):} In the context of mathematics, a function that is used to perform a transformation.
+\\
+ \noindent \textit{Tagairtí:}
+\begin{itemize}
+	\item trasfhoirm: Williams et al. (2023) \cite{storchiste}
+\end{itemize}
+
+ \noindent \textit{Nótaí Aistriúcháin:}
+\begin{itemize}
+	\item Téarma díreach ar fáil ó Stórchiste i gcomhthéacs matamaitice.
+	\item Féach chomh maith ar an téarma `to transform / trasfhoirmigh'.
+\end{itemize}
+
+
+\subsubsection*{transformation (ainmfhocal): trasfhoirmiú}
+ \noindent \textit{Sainmhíniú (ga):} I gcomhthéacs matamaitice, an próiseas a bhaineann le trasfhoirm a chur i bhfeidhm ar shonraí.
+\\
+ \noindent \textit{Sainmhíniú (en):} In the context of mathematics, the process of transforming data.
+\\
+ \noindent \textit{Tagairtí:}
+\begin{itemize}
+	\item trasfhoirmiú: Williams et al. (2023) \cite{storchiste}
+\end{itemize}
+
+ \noindent \textit{Nótaí Aistriúcháin:}
+\begin{itemize}
+	\item Téarma díreach ar fáil ó Stórchiste i gcomhthéacs matamaitice.
+	\item Féach chomh maith ar an téarma `to transform / trasfhoirmigh'.
+\end{itemize}
+
+
 \subsubsection*{transitive (aidiacht): aistreach}
  \noindent \textit{Sainmhíniú (ga):} I gcomhthéacs faisnéise (f) i ngraf eolais, leis an impleacht gur fíor (a,f,c) mar abairt thiarach más fíor (a,f,b) agus (b,f,c).
 \\
@@ -5682,6 +5774,23 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
 	\item Féach chomh maith ar an téarma `random search / cuardach randamach''.
 	\item Féach chomh maith ar an téarma `weighted / ualaithe'.
 	\item Féach chomh maith ar an téarma `end condition / coinníoll críochnaithe'.
+\end{itemize}
+
+
+\subsubsection*{z-score (ainmfhocal): scór-z}
+ \noindent \textit{Sainmhíniú (ga):} I gcomhthéacs staitistice, scór a léiríonn cá mhéad dialltaí caighdeánacha is atá sonra amháin ó mheán na sonraí.
+\\
+ \noindent \textit{Sainmhíniú (en):} In the context of statistics, a score that represents how many standard deviations from the mean a data point is.
+\\
+ \noindent \textit{Tagairtí:}
+\begin{itemize}
+	\item scór: féach ar an téarma `score / scór'
+\end{itemize}
+
+ \noindent \textit{Nótaí Aistriúcháin:}
+\begin{itemize}
+	\item Is é `z-scór' atá ar Téarma.ie. Ní ghlactar leis sin toisc fianaise eile ó Stórchiste sa téarma `Student's t-distribtion / dáileadh-t Student' (tabhair faoi deara gur ainm dílis é Student). Toisc go ndéanann Stórchiste `t-distribtion' a aistriú mar `dáileadh-t', meastar go mba cheart `z-score' a aistriú mar `scór-z'.
+	\item Féach ar an téarma `score / scór'.
 \end{itemize}
 
 

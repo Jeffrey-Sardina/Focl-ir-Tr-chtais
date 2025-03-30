@@ -1,0 +1,36 @@
+treallach
+aidiacht
+Roghnaithe gan chúis léirithe, go háirithe más féidir é a ionadú le rogha treallach ar bith eile gan ráiteas / cothromóid / feidhm / srl a athrú go mór. Is féidir le rogha treallach a bheith randamach nó a bheith déanta gan a bheith randamach.
+Téarma díeach ar fáil le brí chomhchosúil ó na foclóirí thuas.
+
+códú aon-innéacs
+ainmfhocal
+Códú a dhéantar ar athróga catagóireacha nuair nach bhfuil slí dhíreach ann chun iad a ionadú le uimhreacha aonaracha. Mar shampla, d'fhéadfadh códú aon-innéacs a dhéanamh ar na luachanna 'Frodo, Éowyn, Arwen, Sam' mar '0001, 0010, 0100, 1000'. Ní bhíonn ach an t-aon 1 amháin i ngach uile códú ann.
+Is éard atá i gceist le 'one-hot encoding' ná códú déanártha nach bhfuil ach an t-aon 1 ceadaithe i ngrach uile chódú. I bhfocail eile, bíonn gach uile códú aitheanta de reir an innéacs ina bhfuil an 1 ann. Is mar sin a ghlactar leis an téarma 'códú aon-innéacs'.
+Cé go luaite an focal 'códaigh mar 'to codify' seachas 'to encode', is é 'cód' an focal a úsáitear chun trách a dhéanamh ar chód ríomhaireachta. Meastar go mba cheart cloí leis anseo mar sin, go háirithe agus gan rogha léir eile ann sna foclóirí dúchasacha.
+Is é códú' seachas 'códaigh' atá i bhFoclóir Uí Dhónaill agus Uí Mhaoileoin.
+
+trasfhoirmigh
+briathar
+I gcomhthéacs matamaitice, sonraí a athrú le feidhm éigin (mar shampla, chun iad a chur ar eatramh cuimsithe).
+Téarma díreach ar fáil ó Stórchiste i gcomhthéacs matamaitice.
+
+trasfhoirm
+ainmfhocal
+I gcomhthéacs matamaitice, feidhm a úsáidtear chun trasfhoirmiú a chur i gcrích.
+Téarma díreach ar fáil ó Stórchiste i gcomhthéacs matamaitice.
+Féach chomh maith ar an téarma 'to transform / trasfhoirmigh.
+
+trasfhoirmiú
+ainmfhocal
+I gcomhthéacs matamaitice, an próiseas a bhaineann le trasfhoirm a chur i bhfeidhm ar shonraí.
+Téarma díreach ar fáil ó Stórchiste i gcomhthéacs matamaitice.
+Féach chomh maith ar an téarma 'to transform / trasfhoirmigh.
+
+scór-z
+ainmfhocal
+I gcomhthéacs staitistice, scór a léiríonn cá mhéad dialltaí caighdeánacha is atá sonra amháin ó mheán na sonraí.
+Is é 'z-scór' atá ar Téarma.ie. Ní ghlactar leis sin toisc fianaise eile ó Stórchiste sa téarma 'Student's t-distribtion / dáileadh-t Student' (tabhair faoi deara gur ainm dílis é Student). Toisc go ndéanann Stórchiste 't-distribtion' a aistriú mar 'dáileadh-t', meastar go mba cheart 'z-score' a aistriú mar 'scór-z'.
+Féach ar an téarma 'score / scór'.
+
+

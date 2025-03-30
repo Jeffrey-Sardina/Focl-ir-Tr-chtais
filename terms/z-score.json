@@ -1,0 +1,15 @@
+{
+    "term": "z-score",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "scór-z",
+    "def-en": "In the context of statistics, a score that represents how many standard deviations from the mean a data point is.",
+    "def-ga": "I gcomhthéacs staitistice, scór a léiríonn cá mhéad dialltaí caighdeánacha is atá sonra amháin ó mheán na sonraí.",
+
+    "prov": {
+        "scór": "féach ar an téarma 'score / scór'"
+    },
+    "notes": [
+        "Is é 'z-scór' atá ar Téarma.ie. Ní ghlactar leis sin toisc fianaise eile ó Stórchiste sa téarma 'Student's t-distribtion / dáileadh-t Student' (tabhair faoi deara gur ainm dílis é Student). Toisc go ndéanann Stórchiste 't-distribtion' a aistriú mar 'dáileadh-t', meastar go mba cheart 'z-score' a aistriú mar 'scór-z'.",
+        "Féach ar an téarma 'score / scór'."
+    ]
+}

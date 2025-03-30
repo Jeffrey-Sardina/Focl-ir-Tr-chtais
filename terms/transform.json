@@ -1,0 +1,15 @@
+{
+    "term": "transform",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "trasfhoirm",
+    "def-en": "In the context of mathematics, a function that is used to perform a transformation.",
+    "def-ga": "I gcomhthéacs matamaitice, feidhm a úsáidtear chun trasfhoirmiú a chur i gcrích.",
+
+    "prov": {
+        "trasfhoirm": "storchiste"
+    },
+    "notes": [
+        "Téarma díreach ar fáil ó Stórchiste i gcomhthéacs matamaitice.",
+        "Féach chomh maith ar an téarma 'to transform / trasfhoirmigh'."
+    ]
+}

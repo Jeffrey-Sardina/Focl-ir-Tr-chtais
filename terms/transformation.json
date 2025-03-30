@@ -1,0 +1,15 @@
+{
+    "term": "transformation",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "trasfhoirmiú",
+    "def-en": "In the context of mathematics, the process of transforming data.",
+    "def-ga": "I gcomhthéacs matamaitice, an próiseas a bhaineann le trasfhoirm a chur i bhfeidhm ar shonraí.",
+
+    "prov": {
+        "trasfhoirmiú": "storchiste"
+    },
+    "notes": [
+        "Téarma díreach ar fáil ó Stórchiste i gcomhthéacs matamaitice.",
+        "Féach chomh maith ar an téarma 'to transform / trasfhoirmigh'."
+    ]
+}

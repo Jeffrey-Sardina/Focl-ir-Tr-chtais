@@ -1,0 +1,14 @@
+{
+    "term": "to transform",
+    "part-of-speech": "briathar",
+    "citation-form": "trasfhoirmigh",
+    "def-en": "In the context of mathematics, to change data according to some function (for example, to bound them on a given interval).",
+    "def-ga": "I gcomhthéacs matamaitice, sonraí a athrú le feidhm éigin (mar shampla, chun iad a chur ar eatramh cuimsithe).",
+
+    "prov": {
+        "trasfhoirmigh": "storchiste"
+    },
+    "notes": [
+        "Téarma díreach ar fáil ó Stórchiste i gcomhthéacs matamaitice."
+    ]
+}
