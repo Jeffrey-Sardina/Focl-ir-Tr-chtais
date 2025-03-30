@@ -1,0 +1,14 @@
+{
+    "term": "arbitrary",
+    "part-of-speech": "aidiacht",
+    "citation-form": "treallach",
+    "def-en": "In the context of a value, chosen without a given justification, especially if the value can be replaced with any other arbitrary value without significantly changing the statement / equation / function / etc it is in. An arbitrary choice can be random or non-random.",
+    "def-ga": "I gcomhthéacs luacha, roghnaithe gan chúis léirithe, go háirithe más féidir an luach a ionadú le rogha threallach ar bith eile gan an ráiteas / cothromóid / feidhm / srl ina bhfuil sé a athrú go mór. Is féidir le rogha threallach a bheith randamach nó a bheith déanta gan a bheith randamach.",
+
+    "prov": {
+        "treallach": "de-bhaldraithe, focloir-beag, odonaill"
+    },
+    "notes": [
+        "Téarma díreach ar fáil le brí chomhchosúil ó na foclóirí thuas."
+    ]
+}

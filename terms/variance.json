@@ -3,7 +3,7 @@
     "part-of-speech": "ainmfhocal",
     "citation-form": "athraitheas",
     "def-en": "In the context of mathematics, a measure of how much the values in a dataset vary. Variance is the square of standard deviation.",
-    "def-ga": "I gcomhthéacs matamaitice, tomhas ar cé chomh héagsúil is atá na luachanna i sraith sonraí. Is ionann athraitheas agus diall caighdeánach cearnaithe.",
+    "def-ga": "I gcomhthéacs matamaitice, tomhas ar cé chomh héagsúil is atá luachanna i sraith sonraí. Is ionann athraitheas agus diall caighdeánach cearnaithe.",
 
     "prov": {
         "athraitheas": "storchiste"

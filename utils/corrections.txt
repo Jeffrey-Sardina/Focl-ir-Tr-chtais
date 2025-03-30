@@ -1,24 +1,5 @@
 Not checked since last major revision:
 
-constant.json
-reproducible.json
-scatter-plot.json
-linear.json
-variance.json
-standard-deviation.json
-non-linear.json
-curve.json
-random-number-generator.json
-percentile.json
-arbitrary.json
-to-transform.json
-transformation.json
-z-score.json
-ratio.json
-coefficient-of-determination.json
-proportion.json
-to-freeze.json
-
 margin.json *
 binary-cross-entropy-loss.json *
 cross-entropy-loss.json *
