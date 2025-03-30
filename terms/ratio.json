@@ -1,0 +1,14 @@
+{
+    "term": "ratio",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "cóimheas",
+    "def-en": "In the context of mathematics, a comparison of the values of two numbers or variables A and B, calculated as $A / B$.",
+    "def-ga": "I gcomhthéacs matamaitice, comparáid a dhéantar idir luach dhá athróga nó dhá uimhir A agus B, comhairthe mar $A / B$.",
+
+    "prov": {
+        "cóimheas": "de-bhaldraithe, focloir-beag, odonaill, storchiste"
+    },
+    "notes": [
+        "Téarma díreach ar fáil leis an mbrí cheannann chéanna. Cé go bhfuil an focal seo i bhFoclóir Uí Dhuinín,ní luaitear an bhrí 'ratio' leis."
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "term": "to freeze",
+    "part-of-speech": "briathar",
+    "citation-form": "buanaigh",
+    "def-en": "In the context of neural networks, to make some of the parameters in the neural network constant, not allowing them to change during training.",
+    "def-ga": "I gcomhthéacs líonraí néaracha, cuid de na paraiméadar i líonra néarach a dhéanamh buan, gan ligean dóibh athrú le linn traenála.",
+
+    "prov": {
+        "buanaigh": "de-bhaldraithe, focloir-beag, odonaill"
+    },
+    "notes": [
+        "Luann Foclóir De Bhaldraithe an téarma 'buanaigh' i gcomhthéacs praghsanna (.i. 'buanaím praghsanna'). Cé nach ionann sin agus paraiméadar i líonra néarach a bhuanú, tá an bhun-bhrí cheannann chéanna i gceist -- uimhir a dhéanamh buan le nach mbeadh sé ag athrú. Glactar leis an téarma seo mar sin.",
+        "Is é 'buanú' seachas 'buanaigh' atá i bhFoclóir Uí Dhónaill agus Uí Mhaoileoin.",
+        "Tá 'reoigh' ar Téarma.ie, ach ní ghlactar leis toisc na fianaise thuas."
+    ]
+}

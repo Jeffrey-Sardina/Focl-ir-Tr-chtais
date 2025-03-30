@@ -59,6 +59,10 @@ arbitrary.json
 to-transform.json
 transformation.json
 z-score.json
+ratio.json
+coefficient-of-determination.json
+proportion.json
+to-freeze.json
 
 margin.json *
 binary-cross-entropy-loss.json *

@@ -35,6 +35,7 @@ Tá na téarmaí uilig sa bhFoclóir Tráchtais, leagan 1.5 alfa \cite{focloir-t
 		bearna&margin\\ \hline 
 		braisle (pointí)&cluster\\ \hline 
 		buan-&constant\\ \hline 
+		buanaigh&to freeze\\ \hline 
 		(bun-)chód&source code\\ \hline 
 		bun-fhírinne&ground truth (data)\\ \hline 
 		bun-fhírinneach&ground truth\\ \hline 
@@ -50,6 +51,7 @@ Tá na téarmaí uilig sa bhFoclóir Tráchtais, leagan 1.5 alfa \cite{focloir-t
 		ciseal lán-cheangailte&dense layer\\ \hline 
 		ciseal nialas&dropout layer\\ \hline 
 		códú aon-innéacs&one-hot encoding\\ \hline 
+		cóimheas&ratio\\ \hline 
 		cóimhinicíocht&co-frequency\\ \hline 
 		coinníoll críochnaithe&end condition\\ \hline 
 		comharsa&neighbour\\ \hline 
@@ -58,6 +60,7 @@ Tá na téarmaí uilig sa bhFoclóir Tráchtais, leagan 1.5 alfa \cite{focloir-t
 		comhéifeacht comhghaolúcháin&correlation coefficient\\ \hline 
 		comhghaol&correlation\\ \hline 
 		comhghaolaigh&to correlate\\ \hline 
+		comhréir&proportion\\ \hline 
 		comhthéacs cóid&environment\\ \hline 
 		córas feabhsúcháin&optimiser\\ \hline 
 		córas intleachta saorga (córas IS)&artificial intelligence (AI) (system)\\ \hline 
@@ -830,6 +833,24 @@ Tá na téarmaí uilig sa bhFoclóir Tráchtais, leagan 1.5 alfa \cite{focloir-t
 \end{itemize}
 
 
+\subsubsection*{buanaigh (briathar): to freeze}
+ \noindent \textit{Sainmhíniú (ga):} I gcomhthéacs líonraí néaracha, cuid de na paraiméadar i líonra néarach a dhéanamh buan, gan ligean dóibh athrú le linn traenála.
+\\
+ \noindent \textit{Sainmhíniú (en):} In the context of neural networks, to make some of the parameters in the neural network constant, not allowing them to change during training.
+\\
+ \noindent \textit{Tagairtí:}
+\begin{itemize}
+	\item buanaigh: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+ \noindent \textit{Nótaí Aistriúcháin:}
+\begin{itemize}
+	\item Luann Foclóir De Bhaldraithe an téarma `buanaigh' i gcomhthéacs praghsanna (.i. `buanaím praghsanna'). Cé nach ionann sin agus paraiméadar i líonra néarach a bhuanú, tá an bhun-bhrí cheannann chéanna i gceist -- uimhir a dhéanamh buan le nach mbeadh sé ag athrú. Glactar leis an téarma seo mar sin.
+	\item Is é `buanú' seachas `buanaigh' atá i bhFoclóir Uí Dhónaill agus Uí Mhaoileoin.
+	\item Tá `reoigh' ar Téarma.ie, ach ní ghlactar leis toisc na fianaise thuas.
+\end{itemize}
+
+
 \subsubsection*{(bun-)chód (ainmfhocal): source code}
  \noindent \textit{Sainmhíniú (ga):} An cód taobh thiar de thionscadal cóid éigin (m.sh. an cód taobh thiar de shamhail ríomhfhoghlama).
 \\
@@ -1097,6 +1118,22 @@ Tá na téarmaí uilig sa bhFoclóir Tráchtais, leagan 1.5 alfa \cite{focloir-t
 \end{itemize}
 
 
+\subsubsection*{cóimheas (ainmfhocal): ratio}
+ \noindent \textit{Sainmhíniú (ga):} I gcomhthéacs matamaitice, comparáid a dhéantar idir luach dhá athróga nó dhá uimhir A agus B, comhairthe mar $A / B$.
+\\
+ \noindent \textit{Sainmhíniú (en):} In the context of mathematics, a comparison of the values of two numbers or variables A and B, calculated as $A / B$.
+\\
+ \noindent \textit{Tagairtí:}
+\begin{itemize}
+	\item cóimheas: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}, Williams et al. (2023) \cite{storchiste}
+\end{itemize}
+
+ \noindent \textit{Nótaí Aistriúcháin:}
+\begin{itemize}
+	\item Téarma díreach ar fáil leis an mbrí cheannann chéanna. Cé go bhfuil an focal seo i bhFoclóir Uí Dhuinín,ní luaitear an bhrí `ratio' leis.
+\end{itemize}
+
+
 \subsubsection*{cóimhinicíocht (ainmfhocal): co-frequency}
  \noindent \textit{Sainmhíniú (ga):} I gcomhthéacs graif eolais, cé chomh minic is a bhíonn dhá nód / cheangal (nó níos mó) le chéile sna habairtí triaracha céanna sa ngraf.
 \\
@@ -1234,6 +1271,23 @@ Tá na téarmaí uilig sa bhFoclóir Tráchtais, leagan 1.5 alfa \cite{focloir-t
  \noindent \textit{Nótaí Aistriúcháin:}
 \begin{itemize}
 	\item Téarma luaite mar théarma matamaitice i bhFoclóir Uí Dhónaill.
+\end{itemize}
+
+
+\subsubsection*{comhréir (ainmfhocal): proportion}
+ \noindent \textit{Sainmhíniú (ga):} I gcomhthéacs matamaitice, luach ar an eatramh [0,1] a léiríonn cé chomh minic is atá feiniméan éigin, nó cén dóchúlacht atá le teagmhas dóchúlachta.
+\\
+ \noindent \textit{Sainmhíniú (en):} In the context of mathematics, a value on the interval [0,1] that describes how common some phenomenon is, or what probability some probabilistic event has.
+\\
+ \noindent \textit{Tagairtí:}
+\begin{itemize}
+	\item comhréir: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+ \noindent \textit{Nótaí Aistriúcháin:}
+\begin{itemize}
+	\item Téarma díreach ar fáil leis ó na foinsí thuas. I bhFoclóir Uí Dhónaill agus i bhFoclóir De Bhaldraithe, luaitear é leis an mbrí cheannann chéanna i gcomhthéacs matamaitice.
+	\item Cé go bhfuil an focal `cóimhréir' i bhFoclóir Uí Dhuinín, is le brí ar leith atá sé luaite.
 \end{itemize}
 
 

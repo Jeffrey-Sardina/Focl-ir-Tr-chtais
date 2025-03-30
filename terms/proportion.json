@@ -1,0 +1,15 @@
+{
+    "term": "proportion",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "comhréir",
+    "def-en": "In the context of mathematics, a value on the interval [0,1] that describes how common some phenomenon is, or what probability some probabilistic event has.",
+    "def-ga": "I gcomhthéacs matamaitice, luach ar an eatramh [0,1] a léiríonn cé chomh minic is atá feiniméan éigin, nó cén dóchúlacht atá le teagmhas dóchúlachta.",
+
+    "prov": {
+        "comhréir": "de-bhaldraithe, focloir-beag, odonaill"
+    },
+    "notes": [
+        "Téarma díreach ar fáil leis ó na foinsí thuas. I bhFoclóir Uí Dhónaill agus i bhFoclóir De Bhaldraithe, luaitear é leis an mbrí cheannann chéanna i gcomhthéacs matamaitice.",
+        "Cé go bhfuil an focal 'cóimhréir' i bhFoclóir Uí Dhuinín, is le brí ar leith atá sé luaite."
+    ]
+}
