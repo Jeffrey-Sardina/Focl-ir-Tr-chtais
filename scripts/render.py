@@ -5,7 +5,7 @@ import glob
 import sys
 import random
 import os
-from utils import version, termsort
+from utils import version, termsort, term_norm, render_letter_header
 
 BUILDS_FOLDER_WRITE = "../builds/"
 
@@ -35,13 +35,13 @@ def load_terms():
 def term_heading(render_str):
     if MODE == 'latex':
         if not THESIS_FMT:
-            return f"\\subsection*{{{render_str}}} \\addcontentsline{{toc}}{{subsection}}{{{render_str}}}"
+            return f"\\subsubsection*{{{render_str}}} \\addcontentsline{{toc}}{{subsection}}{{{render_str}}}"
         else:
-            return f"\\subsubsection*{{{render_str}}}"
+            return f"\\subsubsubsection*{{{render_str}}}"
     elif MODE == 'markdown':
-        return f"### {render_str}"
+        return f"#### {render_str}"
     else: # html
-        return f"<h3>{render_str}</h3>"
+        return f"<strong>{render_str}</strong>"
 
 def bold(render_str):
     if MODE == 'latex':
@@ -180,8 +180,13 @@ def render_term(term):
     return render_str
 
 def render_terms(terms):
-    render_strs = []
+    render_strs_2, header_ids = render_terms_defs(terms)
+    render_strs_1 = render_terms_header(header_ids)
+    render_strs = render_strs_1 + render_strs_2
+    return render_strs
 
+def render_terms_header(header_ids):
+    render_strs = []
     if MODE == 'latex':
         if not THESIS_FMT:
             render_strs.append("\\newpage \\section{Téarmaí}")
@@ -189,12 +194,42 @@ def render_terms(terms):
             render_strs.append("\\newpage \\subsection{Téarmaí}")
     elif MODE == 'markdown':
         render_strs.append("## Téarmaí")
+        goto_line = "Téigh chuig: "
+        for header_id in header_ids:
+            goto_line += f"[{render_letter_header(header_id)}](#{header_id}) "
+        render_strs .append(goto_line + '\n')
     else: # html
         render_strs.append("<h2>Téarmaí</h2>")
-
-    for term_id in terms:
-        render_strs.append(render_term(terms[term_id]))
     return render_strs
+
+def render_terms_defs(terms):
+    render_strs = []
+    curr_header = ''
+    header_ids = []
+    for term_id in terms:
+        first_char = term_norm(term_id)[0].upper()
+        if first_char != curr_header:
+            try:
+                # if it is a number
+                int(first_char)
+                curr_header = '#'
+            except:
+                # if it is a letter
+                curr_header = first_char
+            header_ids.append(curr_header)
+            if MODE == 'latex':
+                if not THESIS_FMT:
+                    render_strs.append("\\subsection{" + render_letter_header(curr_header) + "}\n")
+                else:
+                    render_strs.append("\\subsubsection{" + render_letter_header(curr_header) + "}\n")
+            elif MODE == 'markdown':
+                render_strs.append(f"""<h3><a name="{curr_header}"><h3>{render_letter_header(curr_header)}</a></h3>""")
+            else: #html
+                render_strs.append("<h3>" + render_letter_header(curr_header) + "</h3>")
+
+        render_strs.append(render_term(terms[term_id]))
+
+    return render_strs, header_ids
 
 def render_table(terms):
     if MODE == 'latex':

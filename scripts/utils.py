@@ -2,6 +2,20 @@
 version = '1.5 alfa'
 
 # functions
+def render_letter_header(letter):
+    if letter == "A" or letter == "Á":
+        return "A/Á"
+    elif letter == "E" or letter == "É":
+        return "E/É"
+    elif letter == "I" or letter == "Í":
+        return "I/Í"
+    elif letter == "O" or letter == "Ó":
+        return "O/Ó"
+    elif letter == "U" or letter == "Ú":
+        return "U/Ú"
+    else:
+        return letter
+
 def term_norm(term_str):
     if term_str[0] == '(':
         term_str = term_str[1:]

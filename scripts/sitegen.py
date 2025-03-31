@@ -3,7 +3,7 @@
 import glob
 import json
 import os
-from utils import version, termsort, term_norm
+from utils import version, termsort, term_norm, render_letter_header
 
 SPACES_PER_INDENT = 4
 
@@ -252,27 +252,23 @@ def gen_index(terms, version):
     termslist = termlist_indent + """<ul id="dict-idx">\n"""
 
     curr_header = ''
-    header_printed = False
     header_ids = []
     for term_id in terms:
-        line_before_heade = True
+        line_before_header = True
         first_char = term_norm(term_id)[0].upper()
-        if first_char != curr_header:
-            header_printed = False
-        if not header_printed:   
+        if first_char != curr_header:   
             try:
                 # if it is a number
                 int(first_char)
                 curr_header = '#'
-                line_before_heade = False
+                line_before_header = False
             except:
                 # if it is a letter
                 curr_header = first_char
             header_ids.append(curr_header)
-            if line_before_heade:
+            if line_before_header:
                 termslist += '\n'
-            termslist += termlist_indent + ' '*SPACES_PER_INDENT +  f'<li><h2 id="{curr_header}" class="letter-header">{curr_header}</h2></li>\n'
-            header_printed = True
+            termslist += termlist_indent + ' '*SPACES_PER_INDENT +  f'<li><h2 id="{curr_header}" class="letter-header">{render_letter_header(curr_header)}</h2></li>\n'
             
         term = terms[term_id]
         term_file_name = get_term_file_name(term["term"])
