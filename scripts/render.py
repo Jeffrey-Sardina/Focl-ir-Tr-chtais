@@ -5,9 +5,7 @@ import glob
 import sys
 import random
 import os
-from utils import version, termsort, term_norm, render_letter_header, SPACES_PER_INDENT
-
-BUILDS_FOLDER_WRITE = "../builds/"
+from utils import version, termsort, term_norm, render_letter_header, SPACES_PER_INDENT, THESIS_FOLDER_WRITE, DOWNLOADS_FOLDER_WRITE
 
 def load_terms():
     terms = {}
@@ -437,9 +435,15 @@ def write_terms(table_str, render_strs):
     header = get_header()
     footer = get_footer()
     
-    if not os.path.exists(BUILDS_FOLDER_WRITE):
-        os.makedirs(BUILDS_FOLDER_WRITE)
-    out_file = os.path.join(BUILDS_FOLDER_WRITE, out_name + ext)
+    if THESIS_FMT:
+        if not os.path.exists(THESIS_FOLDER_WRITE):
+            os.makedirs(THESIS_FOLDER_WRITE)
+        out_file = os.path.join(THESIS_FOLDER_WRITE, out_name + ext)
+    else:
+        if not os.path.exists(DOWNLOADS_FOLDER_WRITE):
+            os.makedirs(DOWNLOADS_FOLDER_WRITE)
+        out_file = os.path.join(DOWNLOADS_FOLDER_WRITE, out_name + ext)
+
     with open(out_file, 'w') as out:
         print(header, file=out)
         print(table_str, file=out)

@@ -1,6 +1,11 @@
 # constants
 version = '1.5 alfa'
 SPACES_PER_INDENT = 4
+THESIS_FOLDER_WRITE = "../builds/thesis"
+DOWNLOADS_FOLDER_WRITE = "../builds/downloads"
+SITE_FOLDER = '../builds/sitegen/'
+TERMS_FOLDER_WRITE = '../builds/sitegen/terms/'
+TERMS_FOLDER_READ = 'terms/'
 
 # functions
 def render_letter_header(letter):

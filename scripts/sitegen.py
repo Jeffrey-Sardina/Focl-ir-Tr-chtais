@@ -3,17 +3,12 @@
 import glob
 import json
 import os
-from utils import version, termsort, term_norm, render_letter_header, SPACES_PER_INDENT
+from utils import version, termsort, term_norm, render_letter_header, SPACES_PER_INDENT, SITE_FOLDER, TERMS_FOLDER_WRITE, TERMS_FOLDER_READ
 
 '''
 references:
 - https://www.w3schools.com/howto/howto_js_filter_lists.asp
 '''
-
-SITE_FOLDER = '../sitegen/'
-TERMS_FOLDER_WRITE = '../sitegen/terms/'
-TERMS_FOLDER_READ = 'terms/'
-
 def load_terms():
     terms = {}
     term_files = glob.glob('../terms/*.json')
