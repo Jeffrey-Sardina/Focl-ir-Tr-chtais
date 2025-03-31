@@ -1,4 +1,0 @@
-hop.json
-mean-(statistic).json
-mean.json
-median.json
