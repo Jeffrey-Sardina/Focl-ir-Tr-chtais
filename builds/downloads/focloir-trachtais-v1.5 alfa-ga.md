@@ -99,6 +99,8 @@
 | dlús                                     | density                                |
 | dlúth                                    | dense                                  |
 | dóchúlacht                               | probability                            |
+| domhan                                   | universe                               |
+| domhan                                   | world                                  |
 | éadlús                                   | sparsity                               |
 | éadlúth                                  | sparse                                 |
 | eangach hipear-pharaiméadar              | hyperparameter grid                    |
@@ -184,6 +186,7 @@
 | liosta ranganna                          | ranked list                            |
 | lipéad                                   | label                                  |
 | litríocht an réimse                      | state of the art (the literature)      |
+| lódáil                                   | to load                                |
 | logánta                                  | local                                  |
 | loighic                                  | logic                                  |
 | loighic shiombalach                      | symbolic logic                         |
@@ -1601,6 +1604,30 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 - Seachas sin, tá an téarma seo ar fáil go díreach ó na foclóirí thuas.
 
 
+#### domhan (ainmfhocal): universe<br>
+*Sainmhíniú (ga):* I gcomhthéacs matamaitice, tacar formhór uilíoch ina bhfuil gach uile réad a bhaineann le réimse éigin ann.
+<br>
+*Sainmhíniú (en):* In the context of mathematics, a massive, global set in which all objects belonging to a given domain exist.
+
+*Tagairtí:*
+- domhan: féach ar an téarma 'world / domhan'
+
+*Nótaí Aistriúcháin:*
+- Féach ar an téarma 'world / domhan'.
+
+
+#### domhan (ainmfhocal): world<br>
+*Sainmhíniú (ga):* I gcomhthéacs matamaitice, tacar formhór uilíoch ina bhfuil gach uile réad a bhaineann le réimse éigin ann.
+<br>
+*Sainmhíniú (en):* In the context of mathematics, a massive, global set in which all objects belonging to a given domain exist.
+
+*Tagairtí:*
+- domhan: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
+
+*Nótaí Aistriúcháin:*
+- I mBéarla, úsáidtear 'world' chun trácht ar 'the world of all possible facts / things / etc' -- sin le rá, chun trácht ar chuile fhíric / rud atá ann (i réimse éigin). Ní luaitear an bhrí seo go minic le 'domhain' i nGaeilge, ach tá brí chosúil go leor leis le feiceáil i bhFoclóir Uí Dhuinín: 'Slua, eolas, acmhainn, an domhain, vast crowd, knowledge, resources'. Is féidir nach téarma foirfe é seo -- ach ní léir go mbeadh téarma comhchiallach eile (m.sh. cruinne) níos fearr.
+
+
 ### E
 #### éadlús (ainmfhocal): sparsity<br>
 *Sainmhíniú (ga):* I gcomhthéacs graif eolais (nó fo-ghraif), cé chomh éadlúth is atá sé.
@@ -2081,13 +2108,14 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 
 *Tagairtí:*
 - foshuíomh: féach ar an téarma 'assumption / foshuíomh'
-- domhain: féach ar an téarma 'Open World Assumption / Foshuíomh an Domhain Oscailte'
+- domhan: féach ar an téarma 'world / domhan'
 - dún: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
 
 *Nótaí Aistriúcháin:*
 - Is é 'dúnadh' seachas 'dún' atá i bhFoclóir Uí Dhuinín agus Uí Mhaoileoin.
 - Féach chomh maith ar an téarma 'assumption / foshuíomh'.
-- Féach chomh maith ar an téarma 'Open World Assumption / Foshuíomh an Domhain Oscailte'
+- Féach chomh maith ar an téarma 'Open World Assumption / Foshuíomh an Domhain Oscailte'.
+- Féach chomh maith ar an téarma 'world / domhan'.
 
 
 #### Foshuíomh an Domhain Oscailte (ainmfhocal): Open World Assumption<br>
@@ -2097,15 +2125,15 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 
 *Tagairtí:*
 - foshuíomh: féach ar an téarma 'assumption / foshuíomh'
-- domhain: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
+- domhan: féach ar an téarma 'world / domhan'
 - oscail: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991)\*, Ó Dónaill (1977)
 
 *Nótaí Aistriúcháin:*
 - Is é 'oscailt' seachas 'oscail' atá i bhFoclóir Uí Dhuinín agus Uí Mhaoileoin.
 - Is é 'foscail' seachas 'oscail' atá i bhFoclóir Uí Dhuinín, ach glactar leis gurb in an focal céanna.
-- I mBéarla, úsáidtear 'world' chun trácht ar 'the world of all possible facts' -- sin le rá, chun trácht ar chuile fhíric atá ann (i réimse éigin). Ní luaitear an bhrí seo go minic le 'domhain' i nGaeilge, ach tá brí chosúil go leor leis le feiceáil i bhFoclóir Uí Dhuinín: 'Slua, eolas, acmhainn, an domhain, vast crowd, knowledge, resources'. Is féidir nach téarma foirfe é seo -- ach ní léir go mbeadh téarma comhchiallach eile (m.sh. cruinne) níos fearr.
 - Bheadh ciall éigin ag dul le 'Foshuíomh an Eolais Oscailte' nó 'Foshuíomh na bhFíricí Oscailte', ach tá fadhb leo siúd -- ní hé go mbíonn na fíricí / an t-eolas oscailte, ach go mbíonn líon na bhfíricí ar fad (nó, 'domhan' na bhfíricí) oscailte.
 - Féach chomh maith ar an téarma 'assumption / foshuíomh'.
+- Féach chomh maith ar an téarma 'world / domhan'.
 
 
 #### (frása le 'ceangailte') (ainmfhocal): connectivity<br>
@@ -2785,6 +2813,18 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 - Is féidir an focal 'litríocht' a úsáid ina aonar chomh maith nuair atá a bhfuil i gceist léir ón gcomhthéacs.
 - Féach chomh maith ar an téarma 'state of the art (best) / scoth an réimse'.
 - Féach chomh maith ar an téarma 'state of the art (current) / scoth an réimse'.
+
+
+#### lódáil (briathar): to load<br>
+*Sainmhíniú (ga):* I gcomhthéacs ríomheolaíochta, sonraí nó cód a aistriú ó stóras amháin (m.sh. diosca an ríomhaire) go stóras eile (m.sh. cuimhne an ríomhaire).
+<br>
+*Sainmhíniú (en):* In the context of computer science, to transfer data from one storage location (such as the computer's disk) to another (for example, the computer's memory).
+
+*Tagairtí:*
+- lódáil: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
+
+*Nótaí Aistriúcháin:*
+- Ní luann foclóir ar bith de na foclóirí thuas an focal seo i gcomhthéacs ríomhairí. Cé go bhfuil go leor comhthéacsanna ar leith luaite leis, bíonn trácht i gcónaí air chun lódáil fhisiceach in chur in iúl (m.sh. 'lódáil soithigh' i bhFoclóir Uí Dhónaill). Sin ráite -- níl téarma ar bith eile ann a bheadh níos oiriúnaí (.i. nach mbíonn úsáidte go príomha i gcomhthéacs fisicigh). Thairis sin, cé nach oibriú fisiceach atá i gceist anseo, bíonn an bun-choincheap céanna i gceist -- rud (lasta nó sonraí) a bhogadh ó stóras go stóras eile
 
 
 #### logánta (aidiacht): local<br>

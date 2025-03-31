@@ -146,6 +146,7 @@
 | link predictor                         | réamhinsteoir nasc                       |
 | linked data (LD)                       | sonraí nasctha (SN)                      |
 | linked open data (LOD)                 | sonraí nasctha saor-rochtana (SNSR)      |
+| to load                                | lódáil                                   |
 | local                                  | logánta                                  |
 | local maximum                          | uasluach logánta                         |
 | local minimum                          | íosluach logánta                         |
@@ -309,6 +310,7 @@
 | triple                                 | abairt thriarach                         |
 | underfitting                           | foghlaim easnamhach                      |
 | union                                  | aontas                                   |
+| universe                               | domhan                                   |
 | unseen                                 | gan feiceáil                             |
 | unsupervised                           | gan mhaoirseacht                         |
 | to validate                            | deimhnigh                                |
@@ -321,6 +323,7 @@
 | weight                                 | ualach                                   |
 | weighted                               | ualaithe                                 |
 | weighted random search                 | cuardach randamach ualaithe              |
+| world                                  | domhan                                   |
 | z-score                                | scór-z                                   |
 
 
@@ -735,13 +738,14 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 
 *Tagairtí:*
 - foshuíomh: féach ar an téarma 'assumption / foshuíomh'
-- domhain: féach ar an téarma 'Open World Assumption / Foshuíomh an Domhain Oscailte'
+- domhan: féach ar an téarma 'world / domhan'
 - dún: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
 
 *Nótaí Aistriúcháin:*
 - Is é 'dúnadh' seachas 'dún' atá i bhFoclóir Uí Dhuinín agus Uí Mhaoileoin.
 - Féach chomh maith ar an téarma 'assumption / foshuíomh'.
-- Féach chomh maith ar an téarma 'Open World Assumption / Foshuíomh an Domhain Oscailte'
+- Féach chomh maith ar an téarma 'Open World Assumption / Foshuíomh an Domhain Oscailte'.
+- Féach chomh maith ar an téarma 'world / domhan'.
 
 
 #### cluster (ainmfhocal): braisle (pointí)<br>
@@ -2267,6 +2271,18 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 - Féach chomh maith ar an téarma 'open source / saor-rochtana'.
 
 
+#### to load (briathar): lódáil<br>
+*Sainmhíniú (ga):* I gcomhthéacs ríomheolaíochta, sonraí nó cód a aistriú ó stóras amháin (m.sh. diosca an ríomhaire) go stóras eile (m.sh. cuimhne an ríomhaire).
+<br>
+*Sainmhíniú (en):* In the context of computer science, to transfer data from one storage location (such as the computer's disk) to another (for example, the computer's memory).
+
+*Tagairtí:*
+- lódáil: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
+
+*Nótaí Aistriúcháin:*
+- Ní luann foclóir ar bith de na foclóirí thuas an focal seo i gcomhthéacs ríomhairí. Cé go bhfuil go leor comhthéacsanna ar leith luaite leis, bíonn trácht i gcónaí air chun lódáil fhisiceach in chur in iúl (m.sh. 'lódáil soithigh' i bhFoclóir Uí Dhónaill). Sin ráite -- níl téarma ar bith eile ann a bheadh níos oiriúnaí (.i. nach mbíonn úsáidte go príomha i gcomhthéacs fisicigh). Thairis sin, cé nach oibriú fisiceach atá i gceist anseo, bíonn an bun-choincheap céanna i gceist -- rud (lasta nó sonraí) a bhogadh ó stóras go stóras eile
+
+
 #### local (aidiacht): logánta<br>
 *Sainmhíniú (ga):* I gcomhthéacs graif, sonraí, samlach, nó eile, ag trácht ar airíonna a bhaineann le codanna áirithe den ghraf / de na sonraí / den tsamhail, gan trácht airíonna an ruda iomláin. Frithchiallach leis an téarma 'uilíoch'.
 <br>
@@ -2913,15 +2929,15 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 
 *Tagairtí:*
 - foshuíomh: féach ar an téarma 'assumption / foshuíomh'
-- domhain: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
+- domhan: féach ar an téarma 'world / domhan'
 - oscail: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991)\*, Ó Dónaill (1977)
 
 *Nótaí Aistriúcháin:*
 - Is é 'oscailt' seachas 'oscail' atá i bhFoclóir Uí Dhuinín agus Uí Mhaoileoin.
 - Is é 'foscail' seachas 'oscail' atá i bhFoclóir Uí Dhuinín, ach glactar leis gurb in an focal céanna.
-- I mBéarla, úsáidtear 'world' chun trácht ar 'the world of all possible facts' -- sin le rá, chun trácht ar chuile fhíric atá ann (i réimse éigin). Ní luaitear an bhrí seo go minic le 'domhain' i nGaeilge, ach tá brí chosúil go leor leis le feiceáil i bhFoclóir Uí Dhuinín: 'Slua, eolas, acmhainn, an domhain, vast crowd, knowledge, resources'. Is féidir nach téarma foirfe é seo -- ach ní léir go mbeadh téarma comhchiallach eile (m.sh. cruinne) níos fearr.
 - Bheadh ciall éigin ag dul le 'Foshuíomh an Eolais Oscailte' nó 'Foshuíomh na bhFíricí Oscailte', ach tá fadhb leo siúd -- ní hé go mbíonn na fíricí / an t-eolas oscailte, ach go mbíonn líon na bhfíricí ar fad (nó, 'domhan' na bhfíricí) oscailte.
 - Féach chomh maith ar an téarma 'assumption / foshuíomh'.
+- Féach chomh maith ar an téarma 'world / domhan'.
 
 
 #### operation (ainmfhocal): oibriú<br>
@@ -4514,6 +4530,18 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 - Téarma le fáil i bhFoclóir Uí Dhónaill leis an mbrí cheannann chéanna.
 
 
+#### universe (ainmfhocal): domhan<br>
+*Sainmhíniú (ga):* I gcomhthéacs matamaitice, tacar formhór uilíoch ina bhfuil gach uile réad a bhaineann le réimse éigin ann.
+<br>
+*Sainmhíniú (en):* In the context of mathematics, a massive, global set in which all objects belonging to a given domain exist.
+
+*Tagairtí:*
+- domhan: féach ar an téarma 'world / domhan'
+
+*Nótaí Aistriúcháin:*
+- Féach ar an téarma 'world / domhan'.
+
+
 #### unseen (aidiacht): gan feiceáil<br>
 *Sainmhíniú (ga):* I gcomhthéacs tacar sonraí (m.sh. tacar teisteála / deimhnithe), gan a bheith úsáidte / feicthe le linn an phróisis thraenála ar shamhail ríomhfhoghlama.
 <br>
@@ -4673,6 +4701,18 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 - Féach chomh maith ar an téarma 'random search / cuardach randamach''.
 - Féach chomh maith ar an téarma 'weighted / ualaithe'.
 - Féach chomh maith ar an téarma 'end condition / coinníoll críochnaithe'.
+
+
+#### world (ainmfhocal): domhan<br>
+*Sainmhíniú (ga):* I gcomhthéacs matamaitice, tacar formhór uilíoch ina bhfuil gach uile réad a bhaineann le réimse éigin ann.
+<br>
+*Sainmhíniú (en):* In the context of mathematics, a massive, global set in which all objects belonging to a given domain exist.
+
+*Tagairtí:*
+- domhan: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
+
+*Nótaí Aistriúcháin:*
+- I mBéarla, úsáidtear 'world' chun trácht ar 'the world of all possible facts / things / etc' -- sin le rá, chun trácht ar chuile fhíric / rud atá ann (i réimse éigin). Ní luaitear an bhrí seo go minic le 'domhain' i nGaeilge, ach tá brí chosúil go leor leis le feiceáil i bhFoclóir Uí Dhuinín: 'Slua, eolas, acmhainn, an domhain, vast crowd, knowledge, resources'. Is féidir nach téarma foirfe é seo -- ach ní léir go mbeadh téarma comhchiallach eile (m.sh. cruinne) níos fearr.
 
 
 ### Z

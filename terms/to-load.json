@@ -1,0 +1,14 @@
+{
+    "term": "to load",
+    "part-of-speech": "briathar",
+    "citation-form": "lódáil",
+    "def-en": "In the context of computer science, to transfer data from one storage location (such as the computer's disk) to another (for example, the computer's memory).",
+    "def-ga": "I gcomhthéacs ríomheolaíochta, sonraí nó cód a aistriú ó stóras amháin (m.sh. diosca an ríomhaire) go stóras eile (m.sh. cuimhne an ríomhaire).",
+
+    "prov": {
+        "lódáil": "de-bhaldraithe, dineen, focloir-beag, odonaill"
+    },
+    "notes": [
+        "Ní luann foclóir ar bith de na foclóirí thuas an focal seo i gcomhthéacs ríomhairí. Cé go bhfuil go leor comhthéacsanna ar leith luaite leis, bíonn trácht i gcónaí air chun lódáil fhisiceach in chur in iúl (m.sh. 'lódáil soithigh' i bhFoclóir Uí Dhónaill). Sin ráite -- níl téarma ar bith eile ann a bheadh níos oiriúnaí (.i. nach mbíonn úsáidte go príomha i gcomhthéacs fisicigh). Thairis sin, cé nach oibriú fisiceach atá i gceist anseo, bíonn an bun-choincheap céanna i gceist -- rud (lasta nó sonraí) a bhogadh ó stóras go stóras eile"
+    ]
+}
