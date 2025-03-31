@@ -1,0 +1,16 @@
+{
+    "term": "mean",
+    "part-of-speech": "aidiacht",
+    "citation-form": "meán- nó meánach",
+    "def-en": "In the context of a list of numbers, relating to the mean of that list.",
+    "def-ga": "I gcomhthéacs liosta uimhreacha, bainteach le meán an liosta sin.",
+
+    "prov": {
+        "meán-": "de-bhaldraithe, odonaill, storchiste",
+        "meánach": "de-bhaldraithe, odonaill, storchiste"
+    },
+    "notes": [
+        "Téarma díreach ar fáil ó na foclóirí thuas.",
+        "Féach chomh maith ar an téarma 'mean / meán'."
+    ]
+}

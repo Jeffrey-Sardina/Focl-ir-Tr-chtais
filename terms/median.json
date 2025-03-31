@@ -1,14 +1,19 @@
 {
     "term": "median",
-    "part-of-speech": "ainmfhocal",
-    "citation-form": "airmheán",
-    "def-en": "With regards to a distribution, the value directly in the middle of all sorted values.",
-    "def-ga": "Ag trácht ar dáileadh, an luach díreach i lár na luachanna ar fad agus iad sórtáilte.",
+    "part-of-speech": "aidiacht",
+    "citation-form": "airmheánach",
+    "def-en": "In the context of a list of numbers, relating to the median of that list.",
+    "def-ga": "I gcomhthéacs liosta uimhreacha, bainteach le hairmheán an liosta sin.",
 
     "prov": {
-        "airmheán": "odonaill, storchiste"
+        "meán": "féach ar an téarma 'mean (statistic) / meán'",
+        "meánach": "féach ar an téarma 'mean / meán- nó meánach'",
+        "airmheán": "féach ar an téarma 'median (statistic) / airmheán'"
     },
     "notes": [
-        "Téarma díreach ar fáil leis an mbrí chéanna sna foclóirí thuas."
+        "Níl an téarma 'airmheánach' ar fáil i bhfoclóir ar bith. Sin ráite, tá 'meán' agus 'meánach' ar fáil, chomh maith le 'airmheán'. Meastar, mar sin, go bhfuil bunús leis an bhfocal 'airmheánach'.",
+        "Féach chomh maith ar an téarma 'mean (statistic) / meán'.",
+        "Féach chomh maith ar an téarma 'mean / meán- nó meánach'.",
+        "Féach chomh maith ar an téarma 'median (statistic) / airmheán'."
     ]
 }

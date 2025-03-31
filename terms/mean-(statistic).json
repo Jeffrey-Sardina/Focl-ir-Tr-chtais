@@ -1,0 +1,14 @@
+{
+    "term": "mean (statistic)",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "meán",
+    "def-en": "In the context of a list of numbers L with n elements, the value sum(l) / n. The mean is used as a measure of the center of the list of numbers.",
+    "def-ga": "I gcomhthéacs liosta uimhreacha, ina bhfuil n ball ann, an luach suim(S) / n. Úsáidtear an meán mar thomhas ar lár an liosta uimhreacha.",
+
+    "prov": {
+        "meán": "de-bhaldraithe, focloir-beag, odonaill, storchiste"
+    },
+    "notes": [
+        "Téarma díreach ar fáil ó na foclóirí thuas."
+    ]
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+    <title>hop | coiscéim</title>
+    <link rel="stylesheet" href="/css/gnath.css">
+    <!-- function to allow loading from another HTML file
+    see: https://stackoverflow.com/questions/8988855/include-another-html-file-in-a-html-file -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script> 
+        $(function(){
+            $("#headerBar").load("/header.html"); 
+        });
+        $(function(){
+            $("#footerBar").load("/footer.html"); 
+        });
+    </script> 
+</head>
+<body>
+    <div id="headerBar"></div>
+    <div class='centerbox'>
+        <h1>hop | coiscéim</h1><strong>hop (ainmfhocal): coiscéim</strong><br>
+        <i>Sainmhíniú (ga):</i> I gcomhthéacs graf, fad ceangail amháin idir dhá nód.<br>
+        <i>Sainmhíniú (en):</i> In the context of graphs, the distance of a single edge between two nodes.
+        
+        <br><br>Tagairtí:
+        <ul>
+            <li>xxx: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977), Williams et al. (2023)</li>
+        </ul>
+        
+        Nótaí Aistriúcháin:
+        <ul>
+            <li>Cé go mbeadh ciall le húsáid an fhocal 'céim' anseo, úsáidtear an focal sin cheana chun cur síos a dhéanamh ar 'degree' nóid. Ní úsáidtear arís an focal sin toisc go mbeadh sé an-deacair débhrí a sheachaint -- bíonn 'hop' agus 'céim' á n-úsáid go minic sna comhthéacsanna céanna. Mar shampla, uaireanta sa litríocht déanta fo-ghraf de ghraf eolais ina mbíonn ar a laghad céim éigin ag gach uile nóid. Uaireanta eile, déantar fo-ghraf de ghraf eolais bunaithe ar gach uile nód atá laistigh de mhéid éigin coiscéimeanna ó nód amháin. Dá mbeadh an focal 'céim' aistrithe mar 'degree' agus mar 'hop', d'úsáidfí an téarma 'fo-ghraf n-chéime' don dá fho-graf sin -- cé gur fo-ghraif iomlán difriúil óna chéile iad.</li>
+            <li>Úsáidtear an téarma 'siúlóid' chun cur síos a dhéanamh ar 'walk' ar graf. Agus is minic a dhéantar fad na siúlóidí a chomhaireamh de réir coiscéimeanna; m.sh 'a 3-hop walk / siúlóid 3-choiscéim'. Thairis sin, luann Foclóir De Bhaldraithe an frása 'within a step of the house, faoi choiscéim den teach' mar úsáid féideartha leis an bhfocal 'coiscéim'. Tá an úsáid sin díreach cosúil le húsáid an fhocail 'coiscéim' chun trácht a dhéanamh ar fhad i ngraf -- an t-aon difríocht ná nach bhfuil fad i ngraf fisiceach. Cé is moite de sin, meastar go bhfuil 'coiscéim' léir mar théarma (go háirithe ar an analach sin a ghlacadh), agus glactar mar sin leis.</li>
+            <li>Féach chomh maith ar an téarma <a href='degree.html'>'degree / céim'</a>.</li>
+            <li>Féach chomh maith ar an téarma <a href='walk.html'>'walk / siúlóid'</a>.</li>
+        </ul>
+        
+        <br><hr>
+        <table table border='0' style='width:100%'>
+            <tr>
+                <td style='width: 33%; text-align: left;'><a href="hits@k-(H@k).html">&lt;&lt; hits@k</a></td>
+                <td style='width: 34%; text-align: center;'><a href="../">foclóir</a></td>
+                <td style='width: 33%; text-align: right;'><a href="hyperparameter.html">hyperparameter &gt;&gt;</a></td>
+            </tr>
+        </table>
+        <div id="footerBar"></div>
+    </div>
+</body>
+</html>
+    

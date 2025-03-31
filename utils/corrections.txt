@@ -1,1 +1,6 @@
 Not checked since last major revision:
+
+hop.json *
+mean-(statistic).json
+mean.json
+median.json
