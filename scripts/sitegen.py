@@ -3,9 +3,7 @@
 import glob
 import json
 import os
-from utils import version, termsort, term_norm, render_letter_header
-
-SPACES_PER_INDENT = 4
+from utils import version, termsort, term_norm, render_letter_header, SPACES_PER_INDENT
 
 '''
 references:

@@ -5,7 +5,7 @@ import glob
 import sys
 import random
 import os
-from utils import version, termsort, term_norm, render_letter_header
+from utils import version, termsort, term_norm, render_letter_header, SPACES_PER_INDENT
 
 BUILDS_FOLDER_WRITE = "../builds/"
 
@@ -34,10 +34,7 @@ def load_terms():
 
 def term_heading(render_str):
     if MODE == 'latex':
-        if not THESIS_FMT:
-            return f"\\subsubsection*{{{render_str}}} \\addcontentsline{{toc}}{{subsection}}{{{render_str}}}"
-        else:
-            return f"\\subsubsubsection*{{{render_str}}}"
+        return f"\\subsubsection*{{{render_str}}}"
     elif MODE == 'markdown':
         return f"#### {render_str}"
     else: # html
@@ -185,6 +182,11 @@ def render_terms(terms):
     render_strs = render_strs_1 + render_strs_2
     return render_strs
 
+def to_md_standard_link(header_id):
+    header_id = header_id.lower() # lower case
+    header_id = header_id.replace('/', '-').replace(' ', '-').replace('.', '-') # alphanumeric only
+    return header_id
+
 def render_terms_header(header_ids):
     render_strs = []
     if MODE == 'latex':
@@ -196,10 +198,14 @@ def render_terms_header(header_ids):
         render_strs.append("## Téarmaí")
         goto_line = "Téigh chuig: "
         for header_id in header_ids:
-            goto_line += f"[{render_letter_header(header_id)}](#{header_id}) "
-        render_strs .append(goto_line + '\n')
+            goto_line += f"[{header_id}](#{to_md_standard_link(header_id)}) "
+        render_strs.append(goto_line + '\n')
     else: # html
         render_strs.append("<h2>Téarmaí</h2>")
+        goto_line = "Téigh chuig: "
+        for header_id in header_ids:
+            goto_line += f"""<a href="#{header_id}">{render_letter_header(header_id)}</a> """
+        render_strs.append(goto_line + '\n')
     return render_strs
 
 def render_terms_defs(terms):
@@ -219,13 +225,20 @@ def render_terms_defs(terms):
             header_ids.append(curr_header)
             if MODE == 'latex':
                 if not THESIS_FMT:
-                    render_strs.append("\\subsection{" + render_letter_header(curr_header) + "}\n")
+                    if curr_header == "#":
+                        curr_header = "\\#"
+                    render_strs.append("\\subsection*{" + render_letter_header(curr_header) + "}")
+                    render_strs.append(f"\\addcontentsline{{toc}}{{subsection}}{{{render_letter_header(curr_header)}}}\n")
                 else:
-                    render_strs.append("\\subsubsection{" + render_letter_header(curr_header) + "}\n")
+                    if curr_header == "#":
+                        curr_header = "\\#"
+                    render_strs.append("\\phantomsection \\subsubsection*{" + render_letter_header(curr_header) + "}")
+                    render_strs.append(f"\\addcontentsline{{toc}}{{subsubsection}}{{{render_letter_header(curr_header)}}}")
+                    render_strs.append(f"\\markboth{{APPENDIX E. FOCLÓIR TRÁCHTAIS. {render_letter_header(curr_header)}}}{{APPENDIX E. FOCLÓIR TRÁCHTAIS. {render_letter_header(curr_header)}}}\n")
             elif MODE == 'markdown':
-                render_strs.append(f"""<h3><a name="{curr_header}"><h3>{render_letter_header(curr_header)}</a></h3>""")
+                render_strs.append("### " + curr_header)
             else: #html
-                render_strs.append("<h3>" + render_letter_header(curr_header) + "</h3>")
+                render_strs.append(f"<h3 id='{curr_header}'>" + render_letter_header(curr_header) + "</h3>")
 
         render_strs.append(render_term(terms[term_id]))
 
@@ -347,6 +360,7 @@ def get_header():
                 \\newpage
                 \\tableofcontents
             """
+            header = header.replace(' ' * SPACES_PER_INDENT, '')
         else:
             header = ""
             if not INDEX_GAEILGE:
@@ -380,6 +394,7 @@ def get_header():
             <strong>Eanáir 2025</strong>
 
         """
+        header = header.replace(' ' * SPACES_PER_INDENT, '')
     return header
 
 def get_footer():
@@ -393,6 +408,7 @@ def get_footer():
                 ]
                 \\end{document}
             """
+            footer = footer.replace(' ' * SPACES_PER_INDENT, '')
         else:
             footer = ""
     elif MODE == 'markdown':
@@ -505,6 +521,8 @@ if __name__ == '__main__':
             INDEX_GAEILGE = True
             main()
             INDEX_GAEILGE = False
+            main()
+        else:
             main()
     else:
         INDEX_GAEILGE = get_index_ga()

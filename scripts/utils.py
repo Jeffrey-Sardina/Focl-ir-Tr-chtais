@@ -1,5 +1,6 @@
 # constants
 version = '1.5 alfa'
+SPACES_PER_INDENT = 4
 
 # functions
 def render_letter_header(letter):
