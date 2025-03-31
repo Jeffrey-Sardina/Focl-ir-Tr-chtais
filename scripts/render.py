@@ -313,13 +313,15 @@ def get_header():
                 \\tableofcontents
             """
         else:
-            header = "\\chapter{Foclóir Tráchtais} \\label{appendix-focloir-trachtais}\n"
-            header += "Cuireadh an Foclóir Tráchtais le chéile mar fhoclóir aistriúcháin don saothar seo. Cé go raibh cuid mhór téarmaí ar fáil cheana, ag am an scríofa, ní raibh cuid mhór eile ar fail ó fhoinse ná ó fhoclóir ar bith. Cruthaíodh an foclóir tráchtas as foinsí dúchasacha amháin (.i. Foclóir Uí Dhónaill \cite{odonaill}, Foclóir Uí Dhónaill agus Uí Mhaoileoin \cite{focloir-beag}, Foclóir De Bhaldraithe \cite{de-bhaldraithe}, Foclóir Uí Dhuinín \cite{dineen}, agus Stórchiste \cite{storchiste}). Níor úsáideadh Téarma.ie \cite{tearmaie} ná Foclóir.ie \cite{omianain} toisc lochtuithe orthu ó eolaithe Gaeilge \cite{lang-change,diarmadose}. Tá tuilleadh eolas faoi cén chaoi a cruthaíodh an Foclóir Tráchtas i bpríomhleagan an tráchtais seo.\n"
-            header += "\n"
-            header += "\\section{An Foclóir Tráchtais} \\label{focloir-trachtais-content}\n"
+            header = ""
             if not INDEX_GAEILGE:
+                header += "\\section{An Foclóir Tráchtais} \\label{focloir-trachtais-content}\n"
                 header += f"The full contents of the latest version of the \\textit{{Foclóir Tráchtais}}, version {version} \\cite{{focloir-trachtais}}, are reproduced below.\n"
             else:
+                header += "\\chapter{Foclóir Tráchtais} \\label{appendix-focloir-trachtais}\n"
+                header += "Cuireadh an Foclóir Tráchtais le chéile mar fhoclóir aistriúcháin don saothar seo. Cé go raibh cuid mhór téarmaí ar fáil cheana, ag am an scríofa, ní raibh cuid mhór eile ar fail ó fhoinse ná ó fhoclóir ar bith. Cruthaíodh an foclóir tráchtas as foinsí dúchasacha amháin (.i. Foclóir Uí Dhónaill \cite{odonaill}, Foclóir Uí Dhónaill agus Uí Mhaoileoin \cite{focloir-beag}, Foclóir De Bhaldraithe \cite{de-bhaldraithe}, Foclóir Uí Dhuinín \cite{dineen}, agus Stórchiste \cite{storchiste}). Níor úsáideadh Téarma.ie \cite{tearmaie} ná Foclóir.ie \cite{omianain} toisc lochtuithe orthu ó eolaithe Gaeilge \cite{lang-change,diarmadose}. Tá tuilleadh eolas faoi cén chaoi a cruthaíodh an Foclóir Tráchtas i bpríomhleagan an tráchtais seo.\n"
+                header += "\n"
+                header += "\\section{An Foclóir Tráchtais} \\label{focloir-trachtais-content}\n"
                 header += f"Tá na téarmaí uilig sa bhFoclóir Tráchtais, leagan {version} \\cite{{focloir-trachtais}}, le feiceáil thíos.\n"
     elif MODE == 'markdown':
         header = f"# Foclóir Tráchtais v{version}\n"
