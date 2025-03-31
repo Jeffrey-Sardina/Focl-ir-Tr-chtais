@@ -417,7 +417,7 @@
             <li><a href="terms/z-score.html">z-score | scór-z</a></li>
         </ul>
 
-        <button onclick="goToTop()" id="suas" title="Suas">Suas</button>
+        <button onclick="goToTop()" id="anios" title="Aníos">Aníos</button>
         <div id="footerBar"></div>
     </div>
     <script>
@@ -447,17 +447,17 @@
             }
         }
 
-        // show suas button on scroll; derrived from https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
-        let suasBtn = document.getElementById("suas");
+        // show aníos button on scroll; derrived from https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
+        let aniosBtn = document.getElementById("anios");
         window.onscroll = function() {scrollFunction()};
         function scrollFunction() {
             // values here are in pixels
             let min_scroll_dist = 20
             if (document.body.scrollTop > min_scroll_dist || document.documentElement.scrollTop > min_scroll_dist)
             {
-                suasBtn.style.display = "block";
+                aniosBtn.style.display = "block";
             } else {
-                suasBtn.style.display = "none";
+                aniosBtn.style.display = "none";
             }
         }
         function goToTop() {
