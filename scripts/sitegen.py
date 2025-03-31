@@ -279,6 +279,7 @@ def gen_index(terms, version):
     termslist += termlist_indent + """</ul>\n"""
 
     js_script = """<script>
+        // Search bar code
         function termSearch() {
             // Prep data
             let input = document.getElementById('termInput');
@@ -302,6 +303,24 @@ def gen_index(terms, version):
 					li[i].style.display = "none";
 				}
             }
+        }
+
+        // show aníos button on scroll; derrived from https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
+        let aniosBtn = document.getElementById("anios");
+        window.onscroll = function() {scrollFunction()};
+        function scrollFunction() {
+            // values here are in pixels
+            let min_scroll_dist = 20
+            if (document.body.scrollTop > min_scroll_dist || document.documentElement.scrollTop > min_scroll_dist)
+            {
+                aniosBtn.style.display = "block";
+            } else {
+                aniosBtn.style.display = "none";
+            }
+        }
+        function goToTop() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
         }
         </script>\n"""
     
@@ -347,6 +366,7 @@ def gen_index(terms, version):
                 <p id="versionNum">v{version}, le Jeffrey Seathrún Sardina</p>
                 {header_nav}
                 {searchbar + termslist}
+                <button onclick="goToTop()" id="anios" title="Aníos">Aníos</button>
                 <div id="footerBar"></div>
             </div>
             {js_script_fmt}
