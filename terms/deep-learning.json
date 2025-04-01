@@ -3,7 +3,7 @@
     "part-of-speech": "ainmfhocal",
     "citation-form": "foghlaim dhomhain",
     "def-en": "A machine learning approach that uses large neural networks (with many layers).",
-    "def-ga": "Cur chuige ríomhfhoghlama a úsáideann líonraí néaracha móra (le an-chuid ciseal iontu).",
+    "def-ga": "Cur chuige ríomhfhoghlama a úsáideann líonraí néaracha móra (a bhfuil an-chuid ciseal iontu).",
 
     "prov": {
         "foghlaim": "féach ar an téarma 'machine learning / ríomhfhoghlaim'",

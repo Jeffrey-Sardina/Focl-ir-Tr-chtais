@@ -1,16 +1,1 @@
 Not checked since last major revision:
-
-hop.json *
-mean-(statistic).json
-mean.json
-median.json
-to-load.json
-world.json
-universe.json
-application-domain.json *?
-to-embed.json *?
-object-corruption.json *?
-subject-corruption.json *?
-signal.json
-noisy.json
-noise.json

@@ -1,0 +1,14 @@
+{
+    "term": "quantitative",
+    "part-of-speech": "aidiacht",
+    "citation-form": "cainníochtúil",
+    "def-en": "In the context of data, based on quantified information.",
+    "def-ga": "I gcomhthéacs sonraí, bunaithe ar fhaisnéis chainníochtaithe.",
+
+    "prov": {
+        "cainníochtúil": "de-bhaldraithe, odonaill"
+    },
+    "notes": [
+        "Téarma díreach ar fáil leis an mbrí cheannann chéanna."
+    ]
+}

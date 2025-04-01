@@ -227,7 +227,9 @@
 | proportion                             | comhréir                                 |
 | pseudotype                             | aicme chumtha                            |
 | pseudotyped                            | le haicme chumtha                        |
+| qualitative                            | cineálach                                |
 | to quantify                            | cainníochtaigh                           |
+| quantitative                           | cainníochtúil                            |
 | query                                  | ceist                                    |
 | random                                 | randamach                                |
 | random number generator                | gineadóir uimhreacha randamacha          |
@@ -3390,6 +3392,18 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 
 
 ### Q
+#### qualitative (aidiacht): cineálach<br>
+*Sainmhíniú (ga):* I gcomhthéacs sonraí, bunaithe ar fhaisnéis nó ar ghnéithe atá do-chainníochtaithe nó nach bhfuil cainníochtaithe.
+<br>
+*Sainmhíniú (en):* In the context of data, based on unquantifiable or unquantified traits or information.
+
+*Tagairtí:*
+- cineálach: De Bhaldraithe (1978), Ó Dónaill (1977)
+
+*Nótaí Aistriúcháin:*
+- Téarma díreach ar fáil leis an mbrí cheannann chéanna.
+
+
 #### to quantify (briathar): cainníochtaigh<br>
 *Sainmhíniú (ga):* Cur síos uimhriúil a dhéanamh ar fheiniméan éigin.
 <br>
@@ -3400,6 +3414,18 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 
 *Nótaí Aistriúcháin:*
 - Téarma díreach ar fáil i bhFoclóir Uí Dhónaill leis an mbrí cheannann chéanna.
+
+
+#### quantitative (aidiacht): cainníochtúil<br>
+*Sainmhíniú (ga):* I gcomhthéacs sonraí, bunaithe ar fhaisnéis chainníochtaithe.
+<br>
+*Sainmhíniú (en):* In the context of data, based on quantified information.
+
+*Tagairtí:*
+- cainníochtúil: De Bhaldraithe (1978), Ó Dónaill (1977)
+
+*Nótaí Aistriúcháin:*
+- Téarma díreach ar fáil leis an mbrí cheannann chéanna.
 
 
 #### query (ainmfhocal): ceist<br>

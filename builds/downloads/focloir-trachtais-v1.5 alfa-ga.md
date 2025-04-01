@@ -43,11 +43,13 @@
 | bunachar sonraí                          | database                               |
 | bunaithe ar rialacha                     | rule-based                             |
 | cainníochtaigh                           | to quantify                            |
+| cainníochtúil                            | quantitative                           |
 | ceangal                                  | edge                                   |
 | ceangal                                  | relation(ship)                         |
 | céim                                     | degree                                 |
 | ceist                                    | query                                  |
 | ceist réamhinsinte nasc                  | link prediction query                  |
+| cineálach                                | qualitative                            |
 | ciseal                                   | layer                                  |
 | ciseal lán-cheangailte                   | dense layer                            |
 | ciseal nialas                            | dropout layer                          |
@@ -849,6 +851,18 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 - Téarma díreach ar fáil i bhFoclóir Uí Dhónaill leis an mbrí cheannann chéanna.
 
 
+#### cainníochtúil (aidiacht): quantitative<br>
+*Sainmhíniú (ga):* I gcomhthéacs sonraí, bunaithe ar fhaisnéis chainníochtaithe.
+<br>
+*Sainmhíniú (en):* In the context of data, based on quantified information.
+
+*Tagairtí:*
+- cainníochtúil: De Bhaldraithe (1978), Ó Dónaill (1977)
+
+*Nótaí Aistriúcháin:*
+- Téarma díreach ar fáil leis an mbrí cheannann chéanna.
+
+
 #### ceangal (ainmfhocal): edge<br>
 *Sainmhíniú (ga):* I gcomhthéacs graf nó graf eolais, cuid de ghraf a nascann (nó a cheanglaíonn) dhá nód le chéile.
 <br>
@@ -910,6 +924,18 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 
 *Nótaí Aistriúcháin:*
 - Féach ar an téarma 'link prediction (LP) / réamhinsint nasc (RN)'.
+
+
+#### cineálach (aidiacht): qualitative<br>
+*Sainmhíniú (ga):* I gcomhthéacs sonraí, bunaithe ar fhaisnéis nó ar ghnéithe atá do-chainníochtaithe nó nach bhfuil cainníochtaithe.
+<br>
+*Sainmhíniú (en):* In the context of data, based on unquantifiable or unquantified traits or information.
+
+*Tagairtí:*
+- cineálach: De Bhaldraithe (1978), Ó Dónaill (1977)
+
+*Nótaí Aistriúcháin:*
+- Téarma díreach ar fáil leis an mbrí cheannann chéanna.
 
 
 #### ciseal (ainmfhocal): layer<br>
