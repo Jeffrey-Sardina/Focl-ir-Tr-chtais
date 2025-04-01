@@ -57,6 +57,7 @@
 | coinníoll críochnaithe                   | end condition                          |
 | coiscéim                                 | hop                                    |
 | comharsa                                 | neighbour                              |
+| comhartha                                | signal                                 |
 | comhéadan                                | interface                              |
 | comhéifeacht                             | coefficient                            |
 | comhéifeacht comhghaolúcháin             | correlation coefficient                |
@@ -170,6 +171,7 @@
 | íosluach uilíoch                         | global minimum                         |
 | le haicme chumtha                        | pseudotyped                            |
 | le lipéad                                | labelled                               |
+| leabaigh                                 | to embed                               |
 | leabharlann (chóid)                      | library                                |
 | leabú                                    | embedding                              |
 | leabú graif eolais (LGE)                 | knowledge graph embedding (KGE)        |
@@ -193,6 +195,8 @@
 | lucht faisnéise                          | information content                    |
 | maitrís                                  | matrix                                 |
 | maitrís chóngarachta                     | adjacency matrix                       |
+| malartú an ainmní                        | subject corruption                     |
+| malartú an chuspóra                      | object corruption                      |
 | maoirseacht                              | supervision                            |
 | mapa                                     | mapping                                |
 | mapáil                                   | to map                                 |
@@ -244,6 +248,7 @@
 | réasúnaíocht                             | reasoning                              |
 | réasúnaíocht a dhéanamh (ar)             | to reason (on)                         |
 | réigiún                                  | region                                 |
+| réimse úsáide                            | application domain                     |
 | ReLU                                     | ReLU                                   |
 | riail (loighce)                          | rule (in logic)                        |
 | ríomh-                                   | machine                                |
@@ -307,6 +312,8 @@
 | tomhais                                  | to measure                             |
 | tomhas                                   | measure                                |
 | tomhas                                   | metric                                 |
+| torann                                   | noise                                  |
+| torannach                                | noisy                                  |
 | traenáil                                 | to train                               |
 | traenáil                                 | training                               |
 | tras-eantrópacht                         | cross-entropy                          |
@@ -1031,6 +1038,19 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 
 *Nótaí Aistriúcháin:*
 - Ní luann foclóir ar bith an téarma seo i gcomhthéacs matamaitice / ríomheolaíochta. Úsáidtear an téarma Béarla 'neighbour' chun trácht a dhéanamh ar nóid atá ceangailte le nód eile toisc gurb é 'neighbour' ná duine a chónaíonn díreach in aici le duine eile. Tá ciall leis an analach sin i nGaeilge chomh maith. Glactar leis an téarma seo mar sin.
+
+
+#### comhartha (ainmfhocal): signal<br>
+*Sainmhíniú (ga):* I gcomhthéacs ríomhfhoghlama, foinse faisnéise i dtacar sonraí ar féidir í a úsáid go díreach mar chuid fhiúntach den phróiseas ríomhfhoghlama.
+<br>
+*Sainmhíniú (en):* In the context of machine learning, the source of information in a data set that can be directly used as a meaningful part of the machine learning process.
+
+*Tagairtí:*
+- comhartha: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
+
+*Nótaí Aistriúcháin:*
+- Tá an focal 'signal' i gcomhthéacs ríomheolaíochta, an-sainmhínithe. An focal is giorra don bhrí atá de dhíth ná comhartha, toisc (de réir Fhoclóir Uí Dhónaill) go bhfuil na bríonna 'indication' agus 'notice, heed' leis. Is é an 'signal' i dtacar sonraí ná an chuid de na sonraí sin atá in-fhoghlamtha (.i. nach bhfuil mar thorann randamach) -- tugann sé treo do cén chaoi ar cheart don tsamhail a bheith ag foghlaim. Glactar leis an téarma 'comhartha' mar sin.
+- Féach chomh maith ar an téarma 'noise / torann'.
 
 
 #### comhéadan (ainmfhocal): interface<br>
@@ -2588,6 +2608,19 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 - Féach chomh maith ar an téarma 'label / lipéad'.
 
 
+#### leabaigh (briathar): to embed<br>
+*Sainmhíniú (ga):* I gcomhthéacs ríomhfhoghlama, leabuithe a chruthú i gcomhair nód / ceangal / focal, srl.
+<br>
+*Sainmhíniú (en):* In the context of machine learning, to ceate embeddigns for nodes / edges / words / etc.
+
+*Tagairtí:*
+- leabaigh: De Bhaldraithe (1978), Ó Dónaill et al. (1991), Ó Dónaill (1977)
+
+*Nótaí Aistriúcháin:*
+- Is é 'leabú' seachas 'leabaigh' atá luaite i bhFoclóir Uí Dhónaill agus Uí Mhaoileoin.
+- Féach chomh maith ar an téarma 'embedding / leabú'.
+
+
 #### leabharlann (chóid) (ainmfhocal): library<br>
 *Sainmhíniú (ga):* Cnuasach cóid caighdeánach a chuirtear le chéile chun cuidiú le tionscadail chóid eile, agus atá ar fáil (den chuid is mó) go poiblí agus saor in aisce.
 <br>
@@ -2606,9 +2639,9 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 
 
 #### leabú (ainmfhocal): embedding<br>
-*Sainmhíniú (ga):* próiseas ríomhfhoghlama a dhéanann nód nó ceangal a chur i spás veicteora; nó, an veicteoir é féin sa spás veicteora a chuireann nód nó ceangal in iúl.
+*Sainmhíniú (ga):* Próiseas ríomhfhoghlama a dhéanann nód nó ceangal a chur i spás veicteora; nó, an veicteoir é féin sa spás veicteora a chuireann nód nó ceangal in iúl.
 <br>
-*Sainmhíniú (en):* a machine learning process that places nodes or edges into a vector space; or, the vector itself in embedding space that represents a node or edge.
+*Sainmhíniú (en):* A machine learning process that places nodes or edges into a vector space; or, the vector itself in embedding space that represents a node or edge.
 
 *Tagairtí:*
 - leabú: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
@@ -2905,6 +2938,32 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 *Nótaí Aistriúcháin:*
 - Luann Foclóir Uí Dhónaill agus Foclóir De Bhaldraithe 'cóngarach' mar théarma geoiméadrachta. Cé nach ionann sin agus comhthéacs na ngraf eolais, meastar go mba léire coinneáil leis seachas téarma eile (amhail 'teagmháil', nach bhfuil luaite i gcomhthéacs matamaiticiúil) a úsáid. Is é 'maitrís chóngarachta' atá ar Téarma.ie chomh maith leis sin.
 - Féach chomh maith ar an téarma 'matrix / maitrís'.
+
+
+#### malartú an ainmní (ainmfhocal): subject corruption<br>
+*Sainmhíniú (ga):* I gcomhthéacs frith-shamplála, an próiseas a bhaineann le frith-shampla a chruthú tríd an ainmní $a$ in abairt thriarach $(a,f,c)$ a ionadú le nód eile.
+<br>
+*Sainmhíniú (en):* In the context of negative sampling, the process of creating a negative sample by replacing the subject $s$ in a triple $(s,p,o)$ with another node.
+
+*Tagairtí:*
+- malartaigh: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
+- ainmní: féach ar an téarma 'subject / ainmní'
+
+*Nótaí Aistriúcháin:*
+- Féach ar an téarma 'subject / ainmní'.
+
+
+#### malartú an chuspóra (ainmfhocal): object corruption<br>
+*Sainmhíniú (ga):* I gcomhthéacs frith-shamplála, an próiseas a bhaineann le frith-shampla a chruthú tríd an gcuspóir $c$ in abairt thriarach $(a,f,c)$ a ionadú le nód eile.
+<br>
+*Sainmhíniú (en):* In the context of negative sampling, the process of creating a negative sample by replacing the object $o$ in a triple $(s,p,o)$ with another node.
+
+*Tagairtí:*
+- malartaigh: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
+- cuspóir: féach ar an téarma 'object / cuspóir'
+
+*Nótaí Aistriúcháin:*
+- Féach ar an téarma 'object / cuspóir'.
 
 
 #### maoirseacht (aidiacht): supervision<br>
@@ -3627,6 +3686,19 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 
 *Nótaí Aistriúcháin:*
 - Cé go mbíonn 'réigiún' luaite i gcomhthéacs an domhain fhisicigh amháin, meastar go bhfuil an bhrí sin cosúil go leor le go mbeadh ciall leis an téarma seo i gcomhthéacs graf.
+
+
+#### réimse úsáide (ainmfhocal): application domain<br>
+*Sainmhíniú (ga):* An réimse taighde, tionscail, nó eile ina bhfuil córas úsáidte.
+<br>
+*Sainmhíniú (en):* The research, industry, or other domain in which a system is used.
+
+*Tagairtí:*
+- réimse: De Bhaldraithe (1978), Ó Dónaill et al. (1991), Ó Dónaill (1977)
+- úsáid: féach ar an téarma 'application (in practice) / úsáid (phraiticiúil)'
+
+*Nótaí Aistriúcháin:*
+- Féach ar an téarma 'application (in practice) / úsáid (phraiticiúil)'.
 
 
 #### ReLU (ainmfhocal): ReLU<br>
@@ -4476,6 +4548,32 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 *Nótaí Aistriúcháin:*
 - Tá an téarma seo comhchiallach leis an téarma 'measure / tomhas' sa gcomhthéacs matamaitice / ríomheolaíochta atá i gceist anseo.
 - Féach chomh maith ar an téarma 'measure / tomhas'.
+
+
+#### torann (ainmfhocal): noise<br>
+*Sainmhíniú (ga):* I gcomhthéacs ríomhfhoghlama, an chuid de thacar sonraí atá (i bpáirt go go hiomlán) randamach, agus nach bhfuil comhartha in-fhoghlamtha ann dá bharr sin.
+<br>
+*Sainmhíniú (en):* In the context of machine learning, the part of a data set that is (partially or fully) random, and that does not contain signal for learning as a result.
+
+*Tagairtí:*
+- torann: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
+
+*Nótaí Aistriúcháin:*
+- I i gcomhthéacs fuaime amháin a bhíonn an téarma seo luaite sna foclóirí thuas. Sin ráite, úsáidtear i gcomhthéacsanna comhchosúla é -- mar shampla, an frása 'bodhar ó thorann an tráchta, deaf from the noise of the traffic' i bhFoclóir Uí Dhónaill. Is rud é 'torann' atá in ann cur isteach ar chumas cloiste. Sin díreach cosúil leis an gcaoi a cheileann torann i dtacar sonraí comhartha in-fhoghlamtha -- agus glactar leis an téarma seo mar sin.
+- Féach chomh maith ar an téarma 'signal / comhartha'.
+
+
+#### torannach (aidiacht): noisy<br>
+*Sainmhíniú (ga):* I gcomhthéacs tacar sonraí, le an-chuid torann randamach ann a chuireann bac ar fhoghlaim ar an tacar sonraí sin.
+<br>
+*Sainmhíniú (en):* In the context of a data set, having a lot of random noise that limits learning on that data set.
+
+*Tagairtí:*
+- torannach: Ó Dónaill et al. (1991), Ó Dónaill (1977)
+
+*Nótaí Aistriúcháin:*
+- Cé go bhfuil an 'torannach' i bhFoclóir Uí Dhuinín, is le brí iomlán ar leith atá sé luaite ann.
+- Féach ar an téarma 'noise / torann'.
 
 
 #### traenáil (briathar): to train<br>

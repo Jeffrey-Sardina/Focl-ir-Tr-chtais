@@ -1,0 +1,15 @@
+{
+    "term": "noisy",
+    "part-of-speech": "aidiacht",
+    "citation-form": "torannach",
+    "def-en": "In the context of a data set, having a lot of random noise that limits learning on that data set.",
+    "def-ga": "I gcomhthéacs tacar sonraí, le an-chuid torann randamach ann a chuireann bac ar fhoghlaim ar an tacar sonraí sin.",
+
+    "prov": {
+        "torannach": "focloir-beag, odonaill"
+    },
+    "notes": [
+        "Cé go bhfuil an 'torannach' i bhFoclóir Uí Dhuinín, is le brí iomlán ar leith atá sé luaite ann.",
+        "Féach ar an téarma 'noise / torann'."
+    ]
+}

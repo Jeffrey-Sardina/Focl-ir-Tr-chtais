@@ -15,6 +15,7 @@
 | algorithm                              | algartam                                 |
 | alignment                              | ailíniú                                  |
 | application (in practice)              | úsáid (phraiticiúil)                     |
+| application domain                     | réimse úsáide                            |
 | to approximate                         | meastachán a dhéanamh (ar)               |
 | approximation                          | meastachán                               |
 | arbitrary                              | treallach                                |
@@ -73,6 +74,7 @@
 | edge                                   | ceangal                                  |
 | efficiency                             | éifeachtacht (ama, fhuinnimh)            |
 | element                                | ball                                     |
+| to embed                               | leabaigh                                 |
 | embedding                              | leabú                                    |
 | end condition                          | coinníoll críochnaithe                   |
 | entity                                 | aonad                                    |
@@ -188,8 +190,11 @@
 | neural network (NN)                    | líonra néarach (LN)                      |
 | neuro-symbolic                         | néar-shiombalach                         |
 | node                                   | nód                                      |
+| noise                                  | torann                                   |
+| noisy                                  | torannach                                |
 | non-linear                             | neamh-líneach                            |
 | object                                 | cuspóir                                  |
+| object corruption                      | malartú an chuspóra                      |
 | one-hot encoding                       | códú aon-innéacs                         |
 | ontology                               | ointeolaíocht                            |
 | open source                            | saor-rochtana                            |
@@ -269,6 +274,7 @@
 | set                                    | tacar                                    |
 | setwise function                       | feidhm de thacar (pointí)                |
 | sigmoid function                       | feidhm shiogmóideach                     |
+| signal                                 | comhartha                                |
 | to simulate                            | insamhail                                |
 | simulation                             | insamhladh                               |
 | social network                         | líonra cairdis                           |
@@ -286,6 +292,7 @@
 | structure                              | struchtúr                                |
 | subgraph                               | fo-ghraf                                 |
 | subject                                | ainmní                                   |
+| subject corruption                     | malartú an ainmní                        |
 | subset                                 | fo-thacar                                |
 | supervised                             | faoi mhaoirseacht                        |
 | supervision                            | maoirseacht                              |
@@ -465,6 +472,19 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 *Nótaí Aistriúcháin:*
 - Téarmaí díreach ar fáil le brí chomhchosúil.
 - Ní raibh aon ghá le téarma nua (.i. focal amháin, seachas téarma bunaithe ar 'úsáid') a chumadh toisc gur léire agus gur dírí 'úsáid phraiticiúil' ná téarma cumtha as nua.
+
+
+#### application domain (ainmfhocal): réimse úsáide<br>
+*Sainmhíniú (ga):* An réimse taighde, tionscail, nó eile ina bhfuil córas úsáidte.
+<br>
+*Sainmhíniú (en):* The research, industry, or other domain in which a system is used.
+
+*Tagairtí:*
+- réimse: De Bhaldraithe (1978), Ó Dónaill et al. (1991), Ó Dónaill (1977)
+- úsáid: féach ar an téarma 'application (in practice) / úsáid (phraiticiúil)'
+
+*Nótaí Aistriúcháin:*
+- Féach ar an téarma 'application (in practice) / úsáid (phraiticiúil)'.
 
 
 #### to approximate (ainmfhocal): meastachán a dhéanamh (ar)<br>
@@ -1256,10 +1276,23 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 - Téarma díreach le fáil i gcomhthéacs tacar / matamaitice sna foclóirí eile thuas.
 
 
-#### embedding (ainmfhocal): leabú<br>
-*Sainmhíniú (ga):* próiseas ríomhfhoghlama a dhéanann nód nó ceangal a chur i spás veicteora; nó, an veicteoir é féin sa spás veicteora a chuireann nód nó ceangal in iúl.
+#### to embed (briathar): leabaigh<br>
+*Sainmhíniú (ga):* I gcomhthéacs ríomhfhoghlama, leabuithe a chruthú i gcomhair nód / ceangal / focal, srl.
 <br>
-*Sainmhíniú (en):* a machine learning process that places nodes or edges into a vector space; or, the vector itself in embedding space that represents a node or edge.
+*Sainmhíniú (en):* In the context of machine learning, to ceate embeddigns for nodes / edges / words / etc.
+
+*Tagairtí:*
+- leabaigh: De Bhaldraithe (1978), Ó Dónaill et al. (1991), Ó Dónaill (1977)
+
+*Nótaí Aistriúcháin:*
+- Is é 'leabú' seachas 'leabaigh' atá luaite i bhFoclóir Uí Dhónaill agus Uí Mhaoileoin.
+- Féach chomh maith ar an téarma 'embedding / leabú'.
+
+
+#### embedding (ainmfhocal): leabú<br>
+*Sainmhíniú (ga):* Próiseas ríomhfhoghlama a dhéanann nód nó ceangal a chur i spás veicteora; nó, an veicteoir é féin sa spás veicteora a chuireann nód nó ceangal in iúl.
+<br>
+*Sainmhíniú (en):* A machine learning process that places nodes or edges into a vector space; or, the vector itself in embedding space that represents a node or edge.
 
 *Tagairtí:*
 - leabú: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
@@ -2853,6 +2886,32 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 - Focal díreach ar fáil ó na foclóirí thuas.
 
 
+#### noise (ainmfhocal): torann<br>
+*Sainmhíniú (ga):* I gcomhthéacs ríomhfhoghlama, an chuid de thacar sonraí atá (i bpáirt go go hiomlán) randamach, agus nach bhfuil comhartha in-fhoghlamtha ann dá bharr sin.
+<br>
+*Sainmhíniú (en):* In the context of machine learning, the part of a data set that is (partially or fully) random, and that does not contain signal for learning as a result.
+
+*Tagairtí:*
+- torann: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
+
+*Nótaí Aistriúcháin:*
+- I i gcomhthéacs fuaime amháin a bhíonn an téarma seo luaite sna foclóirí thuas. Sin ráite, úsáidtear i gcomhthéacsanna comhchosúla é -- mar shampla, an frása 'bodhar ó thorann an tráchta, deaf from the noise of the traffic' i bhFoclóir Uí Dhónaill. Is rud é 'torann' atá in ann cur isteach ar chumas cloiste. Sin díreach cosúil leis an gcaoi a cheileann torann i dtacar sonraí comhartha in-fhoghlamtha -- agus glactar leis an téarma seo mar sin.
+- Féach chomh maith ar an téarma 'signal / comhartha'.
+
+
+#### noisy (aidiacht): torannach<br>
+*Sainmhíniú (ga):* I gcomhthéacs tacar sonraí, le an-chuid torann randamach ann a chuireann bac ar fhoghlaim ar an tacar sonraí sin.
+<br>
+*Sainmhíniú (en):* In the context of a data set, having a lot of random noise that limits learning on that data set.
+
+*Tagairtí:*
+- torannach: Ó Dónaill et al. (1991), Ó Dónaill (1977)
+
+*Nótaí Aistriúcháin:*
+- Cé go bhfuil an 'torannach' i bhFoclóir Uí Dhuinín, is le brí iomlán ar leith atá sé luaite ann.
+- Féach ar an téarma 'noise / torann'.
+
+
 #### non-linear (aidiacht): neamh-líneach<br>
 *Sainmhíniú (ga):* I gcomhthéacs matamaitice, gan a bheith líneach.
 <br>
@@ -2878,6 +2937,19 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 
 *Nótaí Aistriúcháin:*
 - I mBéarla, samhlaítear abairtí triaracha mar abairtí teangeolaíochta le hainmní, le faisnéis, agus le cuspóir. Glactar leis an analach chéanna i nGaeilge.
+
+
+#### object corruption (ainmfhocal): malartú an chuspóra<br>
+*Sainmhíniú (ga):* I gcomhthéacs frith-shamplála, an próiseas a bhaineann le frith-shampla a chruthú tríd an gcuspóir $c$ in abairt thriarach $(a,f,c)$ a ionadú le nód eile.
+<br>
+*Sainmhíniú (en):* In the context of negative sampling, the process of creating a negative sample by replacing the object $o$ in a triple $(s,p,o)$ with another node.
+
+*Tagairtí:*
+- malartaigh: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
+- cuspóir: féach ar an téarma 'object / cuspóir'
+
+*Nótaí Aistriúcháin:*
+- Féach ar an téarma 'object / cuspóir'.
 
 
 #### one-hot encoding (ainmfhocal): códú aon-innéacs<br>
@@ -3963,6 +4035,19 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 - Níl an focal 'siogmóideach' ann i bhfoclóir ar bith atá á úsáid agam, ach is féidir an téarma a chruthú i nGaeilge mar a rinneadh i mBéarla as an litir Gréigise (siogma) agus an iarmhír '-óideach'.
 
 
+#### signal (ainmfhocal): comhartha<br>
+*Sainmhíniú (ga):* I gcomhthéacs ríomhfhoghlama, foinse faisnéise i dtacar sonraí ar féidir í a úsáid go díreach mar chuid fhiúntach den phróiseas ríomhfhoghlama.
+<br>
+*Sainmhíniú (en):* In the context of machine learning, the source of information in a data set that can be directly used as a meaningful part of the machine learning process.
+
+*Tagairtí:*
+- comhartha: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
+
+*Nótaí Aistriúcháin:*
+- Tá an focal 'signal' i gcomhthéacs ríomheolaíochta, an-sainmhínithe. An focal is giorra don bhrí atá de dhíth ná comhartha, toisc (de réir Fhoclóir Uí Dhónaill) go bhfuil na bríonna 'indication' agus 'notice, heed' leis. Is é an 'signal' i dtacar sonraí ná an chuid de na sonraí sin atá in-fhoghlamtha (.i. nach bhfuil mar thorann randamach) -- tugann sé treo do cén chaoi ar cheart don tsamhail a bheith ag foghlaim. Glactar leis an téarma 'comhartha' mar sin.
+- Féach chomh maith ar an téarma 'noise / torann'.
+
+
 #### to simulate (briathar): insamhail<br>
 *Sainmhíniú (ga):* Samhlail ríomhfhoghlama (nó uirlisí ríomhaireachta eile) a úsáid chun próiseas casta a shamhlú i bhfoirm níos simplí.
 <br>
@@ -4203,6 +4288,19 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 
 *Nótaí Aistriúcháin:*
 - I mBéarla, samhlaítear abairtí triaracha mar abairtí teangeolaíochta le hainmní, le faisnéis, agus le cuspóir. Glactar leis an analach chéanna i nGaeilge.
+
+
+#### subject corruption (ainmfhocal): malartú an ainmní<br>
+*Sainmhíniú (ga):* I gcomhthéacs frith-shamplála, an próiseas a bhaineann le frith-shampla a chruthú tríd an ainmní $a$ in abairt thriarach $(a,f,c)$ a ionadú le nód eile.
+<br>
+*Sainmhíniú (en):* In the context of negative sampling, the process of creating a negative sample by replacing the subject $s$ in a triple $(s,p,o)$ with another node.
+
+*Tagairtí:*
+- malartaigh: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
+- ainmní: féach ar an téarma 'subject / ainmní'
+
+*Nótaí Aistriúcháin:*
+- Féach ar an téarma 'subject / ainmní'.
 
 
 #### subset (ainmfhocal): fo-thacar<br>

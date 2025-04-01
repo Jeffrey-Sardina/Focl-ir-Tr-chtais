@@ -58,15 +58,15 @@ def main():
         print(f'Dumped {len(terms)} terms to {out_path}')
 
 if __name__ == '__main__':
-    if '-nv' in sys.argv:
-        DUMP_NON_VALIDATED_ONLY = True
-    else:
+    if '-all' in sys.argv:
         DUMP_NON_VALIDATED_ONLY = False
-
-    if '-debug' in sys.argv:
-        DEBUG = True
     else:
+        DUMP_NON_VALIDATED_ONLY = True
+
+    if '-silent' in sys.argv:
         DEBUG = False
+    else:
+        DEBUG = True
 
     terms = load_terms()
     if '-ga' in sys.argv:

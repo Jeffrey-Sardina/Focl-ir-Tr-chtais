@@ -1,0 +1,15 @@
+{
+    "term": "subject corruption",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "malartú an ainmní",
+    "def-en": "In the context of negative sampling, the process of creating a negative sample by replacing the subject $s$ in a triple $(s,p,o)$ with another node.",
+    "def-ga": "I gcomhthéacs frith-shamplála, an próiseas a bhaineann le frith-shampla a chruthú tríd an ainmní $a$ in abairt thriarach $(a,f,c)$ a ionadú le nód eile.",
+
+    "prov": {
+        "malartaigh": "de-bhaldraithe, dineen, focloir-beag, odonaill",
+        "ainmní": "féach ar an téarma 'subject / ainmní'"
+    },
+    "notes": [
+        "Féach ar an téarma 'subject / ainmní'."
+    ]
+}
