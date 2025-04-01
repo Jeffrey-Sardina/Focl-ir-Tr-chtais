@@ -69,6 +69,10 @@ if __name__ == '__main__':
         DEBUG = True
 
     terms = load_terms()
+    if len(terms) == 0:
+        print('No terms found in ../utils/not-validated.txt. Add terms there or use -all to dump all terms.')
+        exit()
+    
     if '-ga' in sys.argv:
         DUMP_GAEILGE = True
         main()
