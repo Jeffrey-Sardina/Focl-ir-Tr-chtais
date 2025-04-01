@@ -1,14 +1,15 @@
 {
-    "term": "xxx",
-    "part-of-speech": "xxx",
-    "citation-form": "xxx",
+    "term": "obbject corruption",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "malartú an chuspóra",
     "def-en": "xxx.",
     "def-ga": "xxx.",
 
     "prov": {
-        "xxx": "de-bhaldraithe, dineen, focloir-beag, odonaill, storchiste"
+        "malartaigh": "de-bhaldraithe, dineen, focloir-beag, odonaill",
+        "cuspóir": "féach ar an téarma 'object / cuspóir'"
     },
     "notes": [
-        "xxx."
+        "Féach chomh maith ar an téarma 'object / cuspóir'."
     ]
 }

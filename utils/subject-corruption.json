@@ -6,9 +6,10 @@
     "def-ga": "xxx.",
 
     "prov": {
-        "xxx": "de-bhaldraithe, dineen, focloir-beag, odonaill, storchiste"
+        "malartaigh": "de-bhaldraithe, dineen, focloir-beag, odonaill",
+        "ainmní": "féach ar an téarma 'subject / ainmní'"
     },
     "notes": [
-        "xxx."
+        "Féach chomh maith ar an téarma 'subject / ainmní'."
     ]
 }
