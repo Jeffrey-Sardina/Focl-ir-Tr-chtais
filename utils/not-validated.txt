@@ -1,2 +1,7 @@
 application-domain.json
 to-embed.json
+object-corruption.json
+subject-corruption.json
+signal.json
+noisy.json
+noise.json
