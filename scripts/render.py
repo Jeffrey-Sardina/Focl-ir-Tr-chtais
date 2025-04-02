@@ -202,7 +202,7 @@ def render_terms_header(header_ids):
         render_strs.append("<h2>Téarmaí</h2>")
         goto_line = "Téigh chuig: "
         for header_id in header_ids:
-            goto_line += f"""<a href="#{header_id}">{render_letter_header(header_id)}</a> """
+            goto_line += f"""<a href="#{header_id}">{render_letter_header(header_id, incl_fada=INDEX_GAEILGE)}</a> """
         render_strs.append(goto_line + '\n')
     return render_strs
 
@@ -225,18 +225,18 @@ def render_terms_defs(terms):
                 if not THESIS_FMT:
                     if curr_header == "#":
                         curr_header = "\\#"
-                    render_strs.append("\\subsection*{" + render_letter_header(curr_header) + "}")
-                    render_strs.append(f"\\addcontentsline{{toc}}{{subsection}}{{{render_letter_header(curr_header)}}}\n")
+                    render_strs.append("\\subsection*{" + render_letter_header(curr_header, incl_fada=INDEX_GAEILGE) + "}")
+                    render_strs.append(f"\\addcontentsline{{toc}}{{subsection}}{{{render_letter_header(curr_header, incl_fada=INDEX_GAEILGE)}}}\n")
                 else:
                     if curr_header == "#":
                         curr_header = "\\#"
-                    render_strs.append("\\phantomsection \\subsubsection*{" + render_letter_header(curr_header) + "}")
-                    render_strs.append(f"\\addcontentsline{{toc}}{{subsubsection}}{{{render_letter_header(curr_header)}}}")
-                    render_strs.append(f"\\markboth{{APPENDIX E. FOCLÓIR TRÁCHTAIS. {render_letter_header(curr_header)}}}{{APPENDIX E. FOCLÓIR TRÁCHTAIS. {render_letter_header(curr_header)}}}\n")
+                    render_strs.append("\\phantomsection \\subsubsection*{" + render_letter_header(curr_header, incl_fada=INDEX_GAEILGE) + "}")
+                    render_strs.append(f"\\addcontentsline{{toc}}{{subsubsection}}{{{render_letter_header(curr_header, incl_fada=INDEX_GAEILGE)}}}")
+                    render_strs.append(f"\\markboth{{APPENDIX E. FOCLÓIR TRÁCHTAIS. {render_letter_header(curr_header, incl_fada=INDEX_GAEILGE)}}}{{APPENDIX E. FOCLÓIR TRÁCHTAIS. {render_letter_header(curr_header, incl_fada=INDEX_GAEILGE)}}}\n")
             elif MODE == 'markdown':
                 render_strs.append("### " + curr_header)
             else: #html
-                render_strs.append(f"<h3 id='{curr_header}'>" + render_letter_header(curr_header) + "</h3>")
+                render_strs.append(f"<h3 id='{curr_header}'>" + render_letter_header(curr_header, incl_fada=INDEX_GAEILGE) + "</h3>")
 
         render_strs.append(render_term(terms[term_id]))
 

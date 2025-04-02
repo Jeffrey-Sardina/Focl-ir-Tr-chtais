@@ -261,7 +261,7 @@ def gen_index(terms, version):
             header_ids.append(curr_header)
             if line_before_header:
                 termslist += '\n'
-            termslist += termlist_indent + ' '*SPACES_PER_INDENT +  f'<li><h2 id="{curr_header}" class="letter-header">{render_letter_header(curr_header)}</h2></li>\n'
+            termslist += termlist_indent + ' '*SPACES_PER_INDENT +  f'<li><h2 id="{curr_header}" class="letter-header">{render_letter_header(curr_header, incl_fada=False)}</h2></li>\n'
             
         term = terms[term_id]
         term_file_name = get_term_file_name(term["term"])

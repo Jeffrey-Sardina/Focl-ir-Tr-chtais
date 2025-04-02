@@ -8,7 +8,7 @@ TERMS_FOLDER_WRITE = '../builds/sitegen/terms/'
 TERMS_FOLDER_READ = 'terms/'
 
 # functions
-def render_letter_header(letter):
+def render_letter_header(letter, incl_fada=False):
     if letter == "A" or letter == "Á":
         return "A/Á"
     elif letter == "E" or letter == "É":
