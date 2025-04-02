@@ -1,5 +1,5 @@
 # constants
-version = '1.5'
+version = '1.6 alfa'
 SPACES_PER_INDENT = 4
 THESIS_FOLDER_WRITE = "../builds/thesis"
 DOWNLOADS_FOLDER_WRITE = "../builds/downloads"
@@ -9,6 +9,8 @@ TERMS_FOLDER_READ = 'terms/'
 
 # functions
 def render_letter_header(letter, incl_fada=False):
+    if not incl_fada:
+        return letter
     if letter == "A" or letter == "Á":
         return "A/Á"
     elif letter == "E" or letter == "É":

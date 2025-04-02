@@ -1,4 +1,4 @@
-# Foclóir Tráchtais v1.5
+# Foclóir Tráchtais v1.6 alfa
 **Jeffrey Seathrún Sardina**<br>
 **Eanáir 2025**
 
