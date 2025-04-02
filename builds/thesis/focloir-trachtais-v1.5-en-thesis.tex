@@ -1,38 +1,8 @@
-\documentclass{article}
-\usepackage[a4paper, margin=1in]{geometry}
-\usepackage{graphicx} % Required for inserting images
-\usepackage{longtable}
-\usepackage[hidelinks]{hyperref} %custom
-\hypersetup{
-colorlinks,
-linktoc=all,
-citecolor=black,
-filecolor=black,
-linkcolor=black,
-urlcolor=blue
-}
+\section{An Foclóir Tráchtais} \label{focloir-trachtais-content}
+% Phantom sections explanation: https://tex.stackexchange.com/questions/364010/hyperref-and-titlesec-conflict-and-warning.
+The full contents of the latest version of the \textit{Foclóir Tráchtais}, version 1.5 \cite{focloir-trachtais}, are reproduced below.
 
-\title{Focloir Tráchtais v1.5 alfa}
-\author{Jeffrey Seathrún Sardina}
-\date{Márta 2025}
-
-% setup bibliography
-\usepackage[
-backend=biber,
-style=numeric,
-sorting=ynt
-]{biblatex}
-\addbibresource{refs.bib}
-
-\begin{document}
-
-\maketitle
-
-\newpage
-\tableofcontents
-% Phantom sections explanation: https://tex.stackexchange.com/questions/364010/hyperref-and-titlesec-conflict-and-warning"
-
-\newpage \section{Achoimre na dTéarmaí}
+\subsection{Achoimre na dTéarmaí}
 \begin{longtable}{|l|l|}
 	\hline
 		\textbf{Béarla} & \textbf{Gaeilge}\\ \hline 
@@ -369,9 +339,10 @@ sorting=ynt
 \label{tab-terms-en-ga}
 \end{longtable}
 
-\newpage \section{Téarmaí}
-\subsection*{\#}
-\addcontentsline{toc}{subsection}{\#}
+\newpage \subsection{Téarmaí}
+\phantomsection \subsubsection*{\#}
+\addcontentsline{toc}{subsubsection}{\#}
+\markboth{APPENDIX E. FOCLÓIR TRÁCHTAIS. \#}{APPENDIX E. FOCLÓIR TRÁCHTAIS. \#}
 
 \subsubsection*{0-shot (aidiacht): 0-sonra}
  \noindent \textit{Sainmhíniú (ga):} Cur chuige mion-fheabsaithe ina dteisteáiltear samhail réamh-thraenáilte ar thacar sonraí nua gan mion-fheabsú ar bith.
@@ -389,8 +360,9 @@ sorting=ynt
 \end{itemize}
 
 
-\subsection*{A/Á}
-\addcontentsline{toc}{subsection}{A/Á}
+\phantomsection \subsubsection*{A/Á}
+\addcontentsline{toc}{subsubsection}{A/Á}
+\markboth{APPENDIX E. FOCLÓIR TRÁCHTAIS. A/Á}{APPENDIX E. FOCLÓIR TRÁCHTAIS. A/Á}
 
 \subsubsection*{ablation experiment (ainmfhocal): turgnamh ionadaithe}
  \noindent \textit{Sainmhíniú (ga):} Turgnamh a dhéantar ar shamhail ríomhfhoghlama ina mbíonn gach aon mhodúl sa tsamhail bainte nó ionadaithe le modúl eile. Déantar é seo chun fáil amach cén tionchar atá ag gach uile mhodúl ar chumas foghlama na samhla.
@@ -702,8 +674,9 @@ sorting=ynt
 \end{itemize}
 
 
-\subsection*{B}
-\addcontentsline{toc}{subsection}{B}
+\phantomsection \subsubsection*{B}
+\addcontentsline{toc}{subsubsection}{B}
+\markboth{APPENDIX E. FOCLÓIR TRÁCHTAIS. B}{APPENDIX E. FOCLÓIR TRÁCHTAIS. B}
 
 \subsubsection*{baseline model (ainmfhocal): samhail bhunlíne}
  \noindent \textit{Sainmhíniú (ga):} I gcomhthéacs ríomhfhoghlama, samhail (chaighdeánach) a úsáidtear chun comparáid a dhéanamh le samhlacha (nua) eile agus iad á meas.
@@ -863,8 +836,9 @@ sorting=ynt
 \end{itemize}
 
 
-\subsection*{C}
-\addcontentsline{toc}{subsection}{C}
+\phantomsection \subsubsection*{C}
+\addcontentsline{toc}{subsubsection}{C}
+\markboth{APPENDIX E. FOCLÓIR TRÁCHTAIS. C}{APPENDIX E. FOCLÓIR TRÁCHTAIS. C}
 
 \subsubsection*{class (ainmfhocal): aicme}
  \noindent \textit{Sainmhíniú (ga):} I gcomhthéacs an taisc aicmithe, ceann ar bith de na lipéad ar féidir é a chur le sonraí ionchuir le linn aicmithe. I gcomhthéacs cliarlathais, ointeolaíochta, nó tacsanomaíochta, sórt nó cineál réada sa gcliarlathas / san ointeolaíocht / sa tacsanomaíocht.
@@ -1238,8 +1212,9 @@ sorting=ynt
 \end{itemize}
 
 
-\subsection*{D}
-\addcontentsline{toc}{subsection}{D}
+\phantomsection \subsubsection*{D}
+\addcontentsline{toc}{subsubsection}{D}
+\markboth{APPENDIX E. FOCLÓIR TRÁCHTAIS. D}{APPENDIX E. FOCLÓIR TRÁCHTAIS. D}
 
 \subsubsection*{data (ainmfhocal): sonraí}
  \noindent \textit{Sainmhíniú (ga):} léiriú cainníochtúil nó cineálach ar rud.
@@ -1316,7 +1291,7 @@ sorting=ynt
 
 
 \subsubsection*{deep learning (ainmfhocal): foghlaim dhomhain}
- \noindent \textit{Sainmhíniú (ga):} Cur chuige ríomhfhoghlama a úsáideann líonraí néaracha móra (le an-chuid ciseal iontu).
+ \noindent \textit{Sainmhíniú (ga):} Cur chuige ríomhfhoghlama a úsáideann líonraí néaracha móra (a bhfuil an-chuid ciseal iontu).
 \\
  \noindent \textit{Sainmhíniú (en):} A machine learning approach that uses large neural networks (with many layers).
 \\
@@ -1543,8 +1518,9 @@ sorting=ynt
 \end{itemize}
 
 
-\subsection*{E/É}
-\addcontentsline{toc}{subsection}{E/É}
+\phantomsection \subsubsection*{E/É}
+\addcontentsline{toc}{subsubsection}{E/É}
+\markboth{APPENDIX E. FOCLÓIR TRÁCHTAIS. E/É}{APPENDIX E. FOCLÓIR TRÁCHTAIS. E/É}
 
 \subsubsection*{edge (ainmfhocal): ceangal}
  \noindent \textit{Sainmhíniú (ga):} I gcomhthéacs graf nó graf eolais, cuid de ghraf a nascann (nó a cheanglaíonn) dhá nód le chéile.
@@ -1857,8 +1833,9 @@ sorting=ynt
 \end{itemize}
 
 
-\subsection*{F}
-\addcontentsline{toc}{subsection}{F}
+\phantomsection \subsubsection*{F}
+\addcontentsline{toc}{subsubsection}{F}
+\markboth{APPENDIX E. FOCLÓIR TRÁCHTAIS. F}{APPENDIX E. FOCLÓIR TRÁCHTAIS. F}
 
 \subsubsection*{family (ainmfhocal): (frása le `gaolmhar')}
  \noindent \textit{Sainmhíniú (ga):} I gcomhthéacs ríomhfhoghlama, grúpa samhlacha atá cosúil lena chéile, agus a thagann ón smaoineamh / ón mbun-samhail chéanna.
@@ -2055,8 +2032,9 @@ sorting=ynt
 \end{itemize}
 
 
-\subsection*{G}
-\addcontentsline{toc}{subsection}{G}
+\phantomsection \subsubsection*{G}
+\addcontentsline{toc}{subsubsection}{G}
+\markboth{APPENDIX E. FOCLÓIR TRÁCHTAIS. G}{APPENDIX E. FOCLÓIR TRÁCHTAIS. G}
 
 \subsubsection*{generality (ainmfhocal): ginearáltacht}
  \noindent \textit{Sainmhíniú (ga):} I gcomhthéacs matamaitice, cé chomh ginearálta is atá cothromóid nó slonn.
@@ -2256,8 +2234,9 @@ sorting=ynt
 \end{itemize}
 
 
-\subsection*{H}
-\addcontentsline{toc}{subsection}{H}
+\phantomsection \subsubsection*{H}
+\addcontentsline{toc}{subsubsection}{H}
+\markboth{APPENDIX E. FOCLÓIR TRÁCHTAIS. H}{APPENDIX E. FOCLÓIR TRÁCHTAIS. H}
 
 \subsubsection*{histogram (ainmfhocal): histeagram}
  \noindent \textit{Sainmhíniú (ga):} Breacadh a dhéanann cur síos ar dháileadh staitistiúil le colúin mhinicíochta i gcomhair chuile eatramh luachanna sa dáileadh.
@@ -2299,13 +2278,13 @@ sorting=ynt
 \\
  \noindent \textit{Tagairtí:}
 \begin{itemize}
-	\item xxx: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}, Williams et al. (2023) \cite{storchiste}
+	\item coiscéim: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}, Williams et al. (2023) \cite{storchiste}
 \end{itemize}
 
  \noindent \textit{Nótaí Aistriúcháin:}
 \begin{itemize}
-	\item Cé go mbeadh ciall le húsáid an fhocal `céim' anseo, úsáidtear an focal sin cheana chun cur síos a dhéanamh ar `degree' nóid. Ní úsáidtear arís an focal sin toisc go mbeadh sé an-deacair débhrí a sheachaint -- bíonn `hop' agus `céim' á n-úsáid go minic sna comhthéacsanna céanna. Mar shampla, uaireanta sa litríocht déanta fo-ghraf de ghraf eolais ina mbíonn ar a laghad céim éigin ag gach uile nóid. Uaireanta eile, déantar fo-ghraf de ghraf eolais bunaithe ar gach uile nód atá laistigh de mhéid éigin coiscéimeanna ó nód amháin. Dá mbeadh an focal `céim' aistrithe mar `degree' agus mar `hop', d'úsáidfí an téarma `fo-ghraf n-chéime' don dá fho-graf sin -- cé gur fo-ghraif iomlán difriúil óna chéile iad.
-	\item Úsáidtear an téarma `siúlóid' chun cur síos a dhéanamh ar `walk' ar graf. Agus is minic a dhéantar fad na siúlóidí a chomhaireamh de réir coiscéimeanna; m.sh `a 3-hop walk / siúlóid 3-choiscéim'. Thairis sin, luann Foclóir De Bhaldraithe an frása `within a step of the house, faoi choiscéim den teach' mar úsáid féideartha leis an bhfocal `coiscéim'. Tá an úsáid sin díreach cosúil le húsáid an fhocail `coiscéim' chun trácht a dhéanamh ar fhad i ngraf -- an t-aon difríocht ná nach bhfuil fad i ngraf fisiceach. Cé is moite de sin, meastar go bhfuil `coiscéim' léir mar théarma (go háirithe ar an analach sin a ghlacadh), agus glactar mar sin leis.
+	\item Cé go mbeadh ciall le húsáid an fhocail `céim' anseo, úsáidtear an focal sin cheana chun cur síos a dhéanamh ar `degree' nóid. Ní mheastar go mba cheart `céim' a ath-úsáid anseo toisc go mbeadh sé an-deacair débhrí a sheachaint -- bíonn `hop' agus `céim' á n-úsáid go minic sna comhthéacsanna céanna. Mar shampla, uaireanta sa litríocht déantar fo-ghraf de ghraf eolais ina mbíonn ar a laghad céim éigin ag gach uile nód. Uaireanta eile, déantar fo-ghraf de ghraf eolais bunaithe ar gach uile nód atá laistigh de mhéid éigin coiscéimeanna ó nód amháin. Dá mbeadh an focal `céim' aistrithe mar `degree' agus mar `hop', d'úsáidfí an téarma `fo-ghraf n-chéime' don dá fho-graf sin -- cé gur fo-ghraif dhifriúla iad.
+	\item Úsáidtear an téarma `siúlóid' chun cur síos a dhéanamh ar `walk' ar graf. Agus is minic a dhéantar fad na siúlóidí a chomhaireamh de réir coiscéimeanna; m.sh `a 3-hop walk / siúlóid 3-choiscéim'. Thairis sin, luann Foclóir De Bhaldraithe an frása `within a step of the house, faoi choiscéim den teach' mar úsáid féideartha leis an bhfocal `coiscéim'. Tá an úsáid sin díreach cosúil le húsáid an fhocail `coiscéim' chun trácht a dhéanamh ar fhad i ngraf -- an t-aon difríocht ná nach bhfuil fad i ngraf fisiceach. Cé is moite de sin, meastar go bhfuil `coiscéim' léir mar théarma (go háirithe ar an analach sin a ghlacadh), agus glactar leis mar sin.
 	\item Féach chomh maith ar an téarma `degree / céim'.
 	\item Féach chomh maith ar an téarma `walk / siúlóid'.
 \end{itemize}
@@ -2384,8 +2363,9 @@ sorting=ynt
 \end{itemize}
 
 
-\subsection*{I/Í}
-\addcontentsline{toc}{subsection}{I/Í}
+\phantomsection \subsubsection*{I/Í}
+\addcontentsline{toc}{subsubsection}{I/Í}
+\markboth{APPENDIX E. FOCLÓIR TRÁCHTAIS. I/Í}{APPENDIX E. FOCLÓIR TRÁCHTAIS. I/Í}
 
 \subsubsection*{implementation (ainmfhocal): leagan infheidhmithe}
  \noindent \textit{Sainmhíniú (ga):} I gcomhthéacs ríomheolaíochta, cód infheidhmithe de shamhail ríomhfhoghlama nó d'algartam eile i dteanga ríomheolaíochta.
@@ -2615,8 +2595,9 @@ sorting=ynt
 \end{itemize}
 
 
-\subsection*{K}
-\addcontentsline{toc}{subsection}{K}
+\phantomsection \subsubsection*{K}
+\addcontentsline{toc}{subsubsection}{K}
+\markboth{APPENDIX E. FOCLÓIR TRÁCHTAIS. K}{APPENDIX E. FOCLÓIR TRÁCHTAIS. K}
 
 \subsubsection*{knowledge graph (KG) (ainmfhocal): graf eolais (GE)}
  \noindent \textit{Sainmhíniú (ga):} Bunachar sonraí a shamhlaíonn eolas mar nóid agus na ceangail eatarthu. Bíonn lipéad ar chuile nód / ceangal, agus bíonn chuile cheangal dírithe.
@@ -2695,8 +2676,9 @@ sorting=ynt
 \end{itemize}
 
 
-\subsection*{L}
-\addcontentsline{toc}{subsection}{L}
+\phantomsection \subsubsection*{L}
+\addcontentsline{toc}{subsubsection}{L}
+\markboth{APPENDIX E. FOCLÓIR TRÁCHTAIS. L}{APPENDIX E. FOCLÓIR TRÁCHTAIS. L}
 
 \subsubsection*{label (ainmfhocal): lipéad}
  \noindent \textit{Sainmhíniú (ga):} I gcomhthéacs graif eolais, téacs atá nasctha le nód nó le ceangal agus a chuireann in iúl céard dó a sheasann an nód / ceangal sin.
@@ -2945,7 +2927,7 @@ sorting=ynt
 
  \noindent \textit{Nótaí Aistriúcháin:}
 \begin{itemize}
-	\item Ní luann foclóir ar bith de na foclóirí thuas an focal seo i gcomhthéacs ríomhairí. Cé go bhfuil go leor comhthéacsanna ar leith luaite leis, bíonn trácht i gcónaí air chun lódáil fhisiceach in chur in iúl (m.sh. `lódáil soithigh' i bhFoclóir Uí Dhónaill). Sin ráite -- níl téarma ar bith eile ann a bheadh níos oiriúnaí (.i. nach mbíonn úsáidte go príomha i gcomhthéacs fisicigh). Thairis sin, cé nach oibriú fisiceach atá i gceist anseo, bíonn an bun-choincheap céanna i gceist -- rud (lasta nó sonraí) a bhogadh ó stóras go stóras eile
+	\item Ní luann foclóir ar bith de na foclóirí thuas an focal seo i gcomhthéacs ríomhairí. Cé go bhfuil go leor comhthéacsanna ar leith luaite leis, bíonn trácht i gcónaí air chun lódáil fhisiceach in chur in iúl (m.sh. `lódáil soithigh' i bhFoclóir Uí Dhónaill). Sin ráite -- níl téarma ar bith eile ann a bheadh níos oiriúnaí (.i. nach mbíonn úsáidte go príomha i gcomhthéacs fisicigh). Thairis sin, cé nach rud fisiceach atá i gceist anseo, tá an bun-choincheap céanna i gceist -- rud (lasta nó sonraí) a bhogadh ó stóras amháin go stóras eile.
 \end{itemize}
 
 
@@ -3057,8 +3039,9 @@ sorting=ynt
 \end{itemize}
 
 
-\subsection*{M}
-\addcontentsline{toc}{subsection}{M}
+\phantomsection \subsubsection*{M}
+\addcontentsline{toc}{subsubsection}{M}
+\markboth{APPENDIX E. FOCLÓIR TRÁCHTAIS. M}{APPENDIX E. FOCLÓIR TRÁCHTAIS. M}
 
 \subsubsection*{machine (aidiacht): ríomh-}
  \noindent \textit{Sainmhíniú (ga):} I gcomhthéacs ríomheolaíochta, bunaithe ar ríomhfhoghlaim.
@@ -3215,14 +3198,14 @@ sorting=ynt
  \noindent \textit{Nótaí Aistriúcháin:}
 \begin{itemize}
 	\item Téarma díreach ar fáil ó na foclóirí thuas.
-	\item Féach chomh maith ar an téarma `mean / meán'.
+	\item Féach chomh maith ar an téarma `mean (statistic) / meán'.
 \end{itemize}
 
 
 \subsubsection*{mean (statistic) (ainmfhocal): meán}
- \noindent \textit{Sainmhíniú (ga):} I gcomhthéacs liosta uimhreacha, ina bhfuil n ball ann, an luach suim(S) / n. Úsáidtear an meán mar thomhas ar lár an liosta uimhreacha.
+ \noindent \textit{Sainmhíniú (ga):} I gcomhthéacs liosta uimhreacha $L$ ina bhfuil $n$ ball ann, an luach $suim(L) / n$. Úsáidtear an meán mar thomhas ar lár na n-uimhreacha.
 \\
- \noindent \textit{Sainmhíniú (en):} In the context of a list of numbers L with n elements, the value sum(l) / n. The mean is used as a measure of the center of the list of numbers.
+ \noindent \textit{Sainmhíniú (en):} In the context of a list of numbers $L$ with $n$ elements, the value $sum(L) / n$. The mean is used as a measure of the center of the list of numbers.
 \\
  \noindent \textit{Tagairtí:}
 \begin{itemize}
@@ -3490,8 +3473,9 @@ sorting=ynt
 \end{itemize}
 
 
-\subsection*{N}
-\addcontentsline{toc}{subsection}{N}
+\phantomsection \subsubsection*{N}
+\addcontentsline{toc}{subsubsection}{N}
+\markboth{APPENDIX E. FOCLÓIR TRÁCHTAIS. N}{APPENDIX E. FOCLÓIR TRÁCHTAIS. N}
 
 \subsubsection*{n-shot (aidiacht): n-sonra}
  \noindent \textit{Sainmhíniú (ga):} Cur chuige mion-fheabsaithe ina bhfuil samhail réamh-thraenáilte in ann $n$ sonra ó thacar sonraí nua a fheiceáil le linn á mion-fheabhsaithe.
@@ -3688,7 +3672,7 @@ sorting=ynt
 
 
 \subsubsection*{noise (ainmfhocal): torann}
- \noindent \textit{Sainmhíniú (ga):} I gcomhthéacs ríomhfhoghlama, an chuid de thacar sonraí atá (i bpáirt go go hiomlán) randamach, agus nach bhfuil comhartha in-fhoghlamtha ann dá bharr sin.
+ \noindent \textit{Sainmhíniú (ga):} I gcomhthéacs ríomhfhoghlama, an chuid de thacar sonraí atá (i bpáirt nó go hiomlán) randamach, agus nach bhfuil comhartha in-fhoghlamtha inti dá bharr sin.
 \\
  \noindent \textit{Sainmhíniú (en):} In the context of machine learning, the part of a data set that is (partially or fully) random, and that does not contain signal for learning as a result.
 \\
@@ -3699,13 +3683,13 @@ sorting=ynt
 
  \noindent \textit{Nótaí Aistriúcháin:}
 \begin{itemize}
-	\item I i gcomhthéacs fuaime amháin a bhíonn an téarma seo luaite sna foclóirí thuas. Sin ráite, úsáidtear i gcomhthéacsanna comhchosúla é -- mar shampla, an frása `bodhar ó thorann an tráchta, deaf from the noise of the traffic' i bhFoclóir Uí Dhónaill. Is rud é `torann' atá in ann cur isteach ar chumas cloiste. Sin díreach cosúil leis an gcaoi a cheileann torann i dtacar sonraí comhartha in-fhoghlamtha -- agus glactar leis an téarma seo mar sin.
+	\item Is i gcomhthéacs fuaime amháin a bhíonn an téarma seo luaite sna foclóirí thuas. Sin ráite, úsáidtear i gcomhthéacsanna comhchosúla é -- mar shampla, an frása `bodhar ó thorann an tráchta, deaf from the noise of the traffic' i bhFoclóir Uí Dhónaill. Is rud é `torann' atá in ann cur isteach ar chumas cloiste. Sin díreach cosúil leis an gcaoi a cheileann torann i dtacar sonraí an comhartha in-fhoghlamtha. Gglactar leis an téarma seo mar sin.
 	\item Féach chomh maith ar an téarma `signal / comhartha'.
 \end{itemize}
 
 
 \subsubsection*{noisy (aidiacht): torannach}
- \noindent \textit{Sainmhíniú (ga):} I gcomhthéacs tacar sonraí, le an-chuid torann randamach ann a chuireann bac ar fhoghlaim ar an tacar sonraí sin.
+ \noindent \textit{Sainmhíniú (ga):} I gcomhthéacs tacar sonraí, a bhfuil an-chuid torann randamach ann i gcaoi a chuireann bac ar fhoghlaim ar an tacar sonraí sin.
 \\
  \noindent \textit{Sainmhíniú (en):} In the context of a data set, having a lot of random noise that limits learning on that data set.
 \\
@@ -3716,7 +3700,7 @@ sorting=ynt
 
  \noindent \textit{Nótaí Aistriúcháin:}
 \begin{itemize}
-	\item Cé go bhfuil an `torannach' i bhFoclóir Uí Dhuinín, is le brí iomlán ar leith atá sé luaite ann.
+	\item Cé go bhfuil an focal `torannach' i bhFoclóir Uí Dhuinín, is le brí iomlán ar leith atá sé luaite ann.
 	\item Féach ar an téarma `noise / torann'.
 \end{itemize}
 
@@ -3739,8 +3723,9 @@ sorting=ynt
 \end{itemize}
 
 
-\subsection*{O/Ó}
-\addcontentsline{toc}{subsection}{O/Ó}
+\phantomsection \subsubsection*{O/Ó}
+\addcontentsline{toc}{subsubsection}{O/Ó}
+\markboth{APPENDIX E. FOCLÓIR TRÁCHTAIS. O/Ó}{APPENDIX E. FOCLÓIR TRÁCHTAIS. O/Ó}
 
 \subsubsection*{object (ainmfhocal): cuspóir}
  \noindent \textit{Sainmhíniú (ga):} in abairt thriarach $(a,f,c)$, an nód deireanach $c$ atá mar sprioc ag an bhfaisnéis $f$.
@@ -4009,8 +3994,9 @@ sorting=ynt
 \end{itemize}
 
 
-\subsection*{P}
-\addcontentsline{toc}{subsection}{P}
+\phantomsection \subsubsection*{P}
+\addcontentsline{toc}{subsubsection}{P}
+\markboth{APPENDIX E. FOCLÓIR TRÁCHTAIS. P}{APPENDIX E. FOCLÓIR TRÁCHTAIS. P}
 
 \subsubsection*{pairwise function (ainmfhocal): feidhm de phéire (pointí)}
  \noindent \textit{Sainmhíniú (ga):} Feidhm a bhfuil péire pointí sonraí mar ionchur aici.
@@ -4342,8 +4328,9 @@ sorting=ynt
 \end{itemize}
 
 
-\subsection*{Q}
-\addcontentsline{toc}{subsection}{Q}
+\phantomsection \subsubsection*{Q}
+\addcontentsline{toc}{subsubsection}{Q}
+\markboth{APPENDIX E. FOCLÓIR TRÁCHTAIS. Q}{APPENDIX E. FOCLÓIR TRÁCHTAIS. Q}
 
 \subsubsection*{qualitative (aidiacht): cineálach}
  \noindent \textit{Sainmhíniú (ga):} I gcomhthéacs sonraí, bunaithe ar fhaisnéis nó ar ghnéithe atá do-chainníochtaithe nó nach bhfuil cainníochtaithe.
@@ -4409,8 +4396,9 @@ sorting=ynt
 \end{itemize}
 
 
-\subsection*{R}
-\addcontentsline{toc}{subsection}{R}
+\phantomsection \subsubsection*{R}
+\addcontentsline{toc}{subsubsection}{R}
+\markboth{APPENDIX E. FOCLÓIR TRÁCHTAIS. R}{APPENDIX E. FOCLÓIR TRÁCHTAIS. R}
 
 \subsubsection*{random (aidiacht): randamach}
  \noindent \textit{Sainmhíniú (ga):} Ag caint ar próiseas, gan bheith in ann é a réamhinsint ach le dóchúlachtaí.
@@ -4964,8 +4952,9 @@ sorting=ynt
 \end{itemize}
 
 
-\subsection*{S}
-\addcontentsline{toc}{subsection}{S}
+\phantomsection \subsubsection*{S}
+\addcontentsline{toc}{subsubsection}{S}
+\markboth{APPENDIX E. FOCLÓIR TRÁCHTAIS. S}{APPENDIX E. FOCLÓIR TRÁCHTAIS. S}
 
 \subsubsection*{sample (ainmfhocal): sampla}
  \noindent \textit{Sainmhíniú (ga):} Sonra a thógtar as dáileadh staitistiúil nó as próiseas randamach.
@@ -5226,7 +5215,7 @@ sorting=ynt
 
  \noindent \textit{Nótaí Aistriúcháin:}
 \begin{itemize}
-	\item Tá an focal `signal' i gcomhthéacs ríomheolaíochta, an-sainmhínithe. An focal is giorra don bhrí atá de dhíth ná comhartha, toisc (de réir Fhoclóir Uí Dhónaill) go bhfuil na bríonna `indication' agus `notice, heed' leis. Is é an `signal' i dtacar sonraí ná an chuid de na sonraí sin atá in-fhoghlamtha (.i. nach bhfuil mar thorann randamach) -- tugann sé treo do cén chaoi ar cheart don tsamhail a bheith ag foghlaim. Glactar leis an téarma `comhartha' mar sin.
+	\item Ní luann na foclóirí thuas an focal seo i gcomhthéacs ríomhfhoghlama. An focal is giorra don bhrí atá de dhíth ná comhartha, toisc (de réir Fhoclóir Uí Dhónaill) go bhfuil na bríonna `indication' agus `notice, heed' leis. Is é an `signal' i dtacar sonraí ná an chuid de na sonraí sin atá in-fhoghlamtha (.i. nach bhfuil mar thorann randamach) -- tugann an comhartha treo do cén chaoi ar cheart don tsamhail a bheith ag foghlaim. Glactar leis an téarma `comhartha' mar sin.
 	\item Féach chomh maith ar an téarma `noise / torann'.
 \end{itemize}
 
@@ -5703,8 +5692,9 @@ sorting=ynt
 \end{itemize}
 
 
-\subsection*{T}
-\addcontentsline{toc}{subsection}{T}
+\phantomsection \subsubsection*{T}
+\addcontentsline{toc}{subsubsection}{T}
+\markboth{APPENDIX E. FOCLÓIR TRÁCHTAIS. T}{APPENDIX E. FOCLÓIR TRÁCHTAIS. T}
 
 \subsubsection*{to test (briathar): teisteáil}
  \noindent \textit{Sainmhíniú (ga):} Próiseas teisteála a dhéanamh ar shamhail ríomhfhoghlama.
@@ -5946,8 +5936,9 @@ sorting=ynt
 \end{itemize}
 
 
-\subsection*{U/Ú}
-\addcontentsline{toc}{subsection}{U/Ú}
+\phantomsection \subsubsection*{U/Ú}
+\addcontentsline{toc}{subsubsection}{U/Ú}
+\markboth{APPENDIX E. FOCLÓIR TRÁCHTAIS. U/Ú}{APPENDIX E. FOCLÓIR TRÁCHTAIS. U/Ú}
 
 \subsubsection*{underfitting (ainmfhocal): foghlaim easnamhach}
  \noindent \textit{Sainmhíniú (ga):} I gcomhthéacs ríomhfhoghlama, foghlaim neamh-iomlán a fhágann nach bhfuil an tsamhail in ann patrúin ghinearálta a fhoghlaim ón tacar traenála.
@@ -6032,8 +6023,9 @@ sorting=ynt
 \end{itemize}
 
 
-\subsection*{V}
-\addcontentsline{toc}{subsection}{V}
+\phantomsection \subsubsection*{V}
+\addcontentsline{toc}{subsubsection}{V}
+\markboth{APPENDIX E. FOCLÓIR TRÁCHTAIS. V}{APPENDIX E. FOCLÓIR TRÁCHTAIS. V}
 
 \subsubsection*{to validate (ainmfhocal): deimhnigh}
  \noindent \textit{Sainmhíniú (ga):} Próiseas deimhnithe a dhéanamh ar shamhail ríomhfhoghlama.
@@ -6117,8 +6109,9 @@ sorting=ynt
 \end{itemize}
 
 
-\subsection*{W}
-\addcontentsline{toc}{subsection}{W}
+\phantomsection \subsubsection*{W}
+\addcontentsline{toc}{subsubsection}{W}
+\markboth{APPENDIX E. FOCLÓIR TRÁCHTAIS. W}{APPENDIX E. FOCLÓIR TRÁCHTAIS. W}
 
 \subsubsection*{walk (ainmfhocal): siúlóid}
  \noindent \textit{Sainmhíniú (ga):} I gcomhthéacs graif, imeacht ó nód go nód ar cheangail an ghraif chun an graf ar fad, nó cuid de, a thrasnú.
@@ -6224,12 +6217,13 @@ sorting=ynt
 
  \noindent \textit{Nótaí Aistriúcháin:}
 \begin{itemize}
-	\item I mBéarla, úsáidtear `world' chun trácht ar `the world of all possible facts / things / etc' -- sin le rá, chun trácht ar chuile fhíric / rud atá ann (i réimse éigin). Ní luaitear an bhrí seo go minic le `domhain' i nGaeilge, ach tá brí chosúil go leor leis le feiceáil i bhFoclóir Uí Dhuinín: `Slua, eolas, acmhainn, an domhain, vast crowd, knowledge, resources'. Is féidir nach téarma foirfe é seo -- ach ní léir go mbeadh téarma comhchiallach eile (m.sh. cruinne) níos fearr.
+	\item I mBéarla, úsáidtear `world' chun trácht ar `the world of all possible facts / things / etc' -- sin le rá, chun trácht ar chuile fhíric / rud atá ann (i réimse éigin). Ní luaitear an bhrí seo go minic le `domhain' i nGaeilge, ach tá brí chosúil go leor leis le feiceáil i bhFoclóir Uí Dhuinín: `Slua, eolas, acmhainn, an domhain, vast crowd, knowledge, resources'. Is féidir nach téarma foirfe é seo -- ach ní léir go mbeadh téarma comhchiallach eile (m.sh. cruinne) níos fearr. Glactar leis mar sin.
 \end{itemize}
 
 
-\subsection*{Z}
-\addcontentsline{toc}{subsection}{Z}
+\phantomsection \subsubsection*{Z}
+\addcontentsline{toc}{subsubsection}{Z}
+\markboth{APPENDIX E. FOCLÓIR TRÁCHTAIS. Z}{APPENDIX E. FOCLÓIR TRÁCHTAIS. Z}
 
 \subsubsection*{z-score (ainmfhocal): scór-z}
  \noindent \textit{Sainmhíniú (ga):} I gcomhthéacs staitistice, scór a léiríonn cá mhéad dialltaí caighdeánacha is atá sonra amháin ó mheán na sonraí.
@@ -6248,11 +6242,4 @@ sorting=ynt
 \end{itemize}
 
 
-
-\newpage
-\printbibliography[
-title={Tagairtí},
-heading=bibintoc
-]
-\end{document}
 

@@ -1,8 +1,38 @@
-\section{An Foclóir Tráchtais} \label{focloir-trachtais-content}
-% Phantom sections explanation: https://tex.stackexchange.com/questions/364010/hyperref-and-titlesec-conflict-and-warning.
-The full contents of the latest version of the \textit{Foclóir Tráchtais}, version 1.5 alfa \cite{focloir-trachtais}, are reproduced below.
+\documentclass{article}
+\usepackage[a4paper, margin=1in]{geometry}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{longtable}
+\usepackage[hidelinks]{hyperref} %custom
+\hypersetup{
+colorlinks,
+linktoc=all,
+citecolor=black,
+filecolor=black,
+linkcolor=black,
+urlcolor=blue
+}
 
-\subsection{Achoimre na dTéarmaí}
+\title{Focloir Tráchtais v1.5}
+\author{Jeffrey Seathrún Sardina}
+\date{Márta 2025}
+
+% setup bibliography
+\usepackage[
+backend=biber,
+style=numeric,
+sorting=ynt
+]{biblatex}
+\addbibresource{refs.bib}
+
+\begin{document}
+
+\maketitle
+
+\newpage
+\tableofcontents
+% Phantom sections explanation: https://tex.stackexchange.com/questions/364010/hyperref-and-titlesec-conflict-and-warning"
+
+\newpage \section{Achoimre na dTéarmaí}
 \begin{longtable}{|l|l|}
 	\hline
 		\textbf{Béarla} & \textbf{Gaeilge}\\ \hline 
@@ -339,10 +369,9 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
 \label{tab-terms-en-ga}
 \end{longtable}
 
-\newpage \subsection{Téarmaí}
-\phantomsection \subsubsection*{\#}
-\addcontentsline{toc}{subsubsection}{\#}
-\markboth{APPENDIX E. FOCLÓIR TRÁCHTAIS. \#}{APPENDIX E. FOCLÓIR TRÁCHTAIS. \#}
+\newpage \section{Téarmaí}
+\subsection*{\#}
+\addcontentsline{toc}{subsection}{\#}
 
 \subsubsection*{0-shot (aidiacht): 0-sonra}
  \noindent \textit{Sainmhíniú (ga):} Cur chuige mion-fheabsaithe ina dteisteáiltear samhail réamh-thraenáilte ar thacar sonraí nua gan mion-fheabsú ar bith.
@@ -360,9 +389,8 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
 \end{itemize}
 
 
-\phantomsection \subsubsection*{A/Á}
-\addcontentsline{toc}{subsubsection}{A/Á}
-\markboth{APPENDIX E. FOCLÓIR TRÁCHTAIS. A/Á}{APPENDIX E. FOCLÓIR TRÁCHTAIS. A/Á}
+\subsection*{A/Á}
+\addcontentsline{toc}{subsection}{A/Á}
 
 \subsubsection*{ablation experiment (ainmfhocal): turgnamh ionadaithe}
  \noindent \textit{Sainmhíniú (ga):} Turgnamh a dhéantar ar shamhail ríomhfhoghlama ina mbíonn gach aon mhodúl sa tsamhail bainte nó ionadaithe le modúl eile. Déantar é seo chun fáil amach cén tionchar atá ag gach uile mhodúl ar chumas foghlama na samhla.
@@ -674,9 +702,8 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
 \end{itemize}
 
 
-\phantomsection \subsubsection*{B}
-\addcontentsline{toc}{subsubsection}{B}
-\markboth{APPENDIX E. FOCLÓIR TRÁCHTAIS. B}{APPENDIX E. FOCLÓIR TRÁCHTAIS. B}
+\subsection*{B}
+\addcontentsline{toc}{subsection}{B}
 
 \subsubsection*{baseline model (ainmfhocal): samhail bhunlíne}
  \noindent \textit{Sainmhíniú (ga):} I gcomhthéacs ríomhfhoghlama, samhail (chaighdeánach) a úsáidtear chun comparáid a dhéanamh le samhlacha (nua) eile agus iad á meas.
@@ -836,9 +863,8 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
 \end{itemize}
 
 
-\phantomsection \subsubsection*{C}
-\addcontentsline{toc}{subsubsection}{C}
-\markboth{APPENDIX E. FOCLÓIR TRÁCHTAIS. C}{APPENDIX E. FOCLÓIR TRÁCHTAIS. C}
+\subsection*{C}
+\addcontentsline{toc}{subsection}{C}
 
 \subsubsection*{class (ainmfhocal): aicme}
  \noindent \textit{Sainmhíniú (ga):} I gcomhthéacs an taisc aicmithe, ceann ar bith de na lipéad ar féidir é a chur le sonraí ionchuir le linn aicmithe. I gcomhthéacs cliarlathais, ointeolaíochta, nó tacsanomaíochta, sórt nó cineál réada sa gcliarlathas / san ointeolaíocht / sa tacsanomaíocht.
@@ -1212,9 +1238,8 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
 \end{itemize}
 
 
-\phantomsection \subsubsection*{D}
-\addcontentsline{toc}{subsubsection}{D}
-\markboth{APPENDIX E. FOCLÓIR TRÁCHTAIS. D}{APPENDIX E. FOCLÓIR TRÁCHTAIS. D}
+\subsection*{D}
+\addcontentsline{toc}{subsection}{D}
 
 \subsubsection*{data (ainmfhocal): sonraí}
  \noindent \textit{Sainmhíniú (ga):} léiriú cainníochtúil nó cineálach ar rud.
@@ -1518,9 +1543,8 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
 \end{itemize}
 
 
-\phantomsection \subsubsection*{E/É}
-\addcontentsline{toc}{subsubsection}{E/É}
-\markboth{APPENDIX E. FOCLÓIR TRÁCHTAIS. E/É}{APPENDIX E. FOCLÓIR TRÁCHTAIS. E/É}
+\subsection*{E/É}
+\addcontentsline{toc}{subsection}{E/É}
 
 \subsubsection*{edge (ainmfhocal): ceangal}
  \noindent \textit{Sainmhíniú (ga):} I gcomhthéacs graf nó graf eolais, cuid de ghraf a nascann (nó a cheanglaíonn) dhá nód le chéile.
@@ -1833,9 +1857,8 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
 \end{itemize}
 
 
-\phantomsection \subsubsection*{F}
-\addcontentsline{toc}{subsubsection}{F}
-\markboth{APPENDIX E. FOCLÓIR TRÁCHTAIS. F}{APPENDIX E. FOCLÓIR TRÁCHTAIS. F}
+\subsection*{F}
+\addcontentsline{toc}{subsection}{F}
 
 \subsubsection*{family (ainmfhocal): (frása le `gaolmhar')}
  \noindent \textit{Sainmhíniú (ga):} I gcomhthéacs ríomhfhoghlama, grúpa samhlacha atá cosúil lena chéile, agus a thagann ón smaoineamh / ón mbun-samhail chéanna.
@@ -2032,9 +2055,8 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
 \end{itemize}
 
 
-\phantomsection \subsubsection*{G}
-\addcontentsline{toc}{subsubsection}{G}
-\markboth{APPENDIX E. FOCLÓIR TRÁCHTAIS. G}{APPENDIX E. FOCLÓIR TRÁCHTAIS. G}
+\subsection*{G}
+\addcontentsline{toc}{subsection}{G}
 
 \subsubsection*{generality (ainmfhocal): ginearáltacht}
  \noindent \textit{Sainmhíniú (ga):} I gcomhthéacs matamaitice, cé chomh ginearálta is atá cothromóid nó slonn.
@@ -2234,9 +2256,8 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
 \end{itemize}
 
 
-\phantomsection \subsubsection*{H}
-\addcontentsline{toc}{subsubsection}{H}
-\markboth{APPENDIX E. FOCLÓIR TRÁCHTAIS. H}{APPENDIX E. FOCLÓIR TRÁCHTAIS. H}
+\subsection*{H}
+\addcontentsline{toc}{subsection}{H}
 
 \subsubsection*{histogram (ainmfhocal): histeagram}
  \noindent \textit{Sainmhíniú (ga):} Breacadh a dhéanann cur síos ar dháileadh staitistiúil le colúin mhinicíochta i gcomhair chuile eatramh luachanna sa dáileadh.
@@ -2363,9 +2384,8 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
 \end{itemize}
 
 
-\phantomsection \subsubsection*{I/Í}
-\addcontentsline{toc}{subsubsection}{I/Í}
-\markboth{APPENDIX E. FOCLÓIR TRÁCHTAIS. I/Í}{APPENDIX E. FOCLÓIR TRÁCHTAIS. I/Í}
+\subsection*{I/Í}
+\addcontentsline{toc}{subsection}{I/Í}
 
 \subsubsection*{implementation (ainmfhocal): leagan infheidhmithe}
  \noindent \textit{Sainmhíniú (ga):} I gcomhthéacs ríomheolaíochta, cód infheidhmithe de shamhail ríomhfhoghlama nó d'algartam eile i dteanga ríomheolaíochta.
@@ -2595,9 +2615,8 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
 \end{itemize}
 
 
-\phantomsection \subsubsection*{K}
-\addcontentsline{toc}{subsubsection}{K}
-\markboth{APPENDIX E. FOCLÓIR TRÁCHTAIS. K}{APPENDIX E. FOCLÓIR TRÁCHTAIS. K}
+\subsection*{K}
+\addcontentsline{toc}{subsection}{K}
 
 \subsubsection*{knowledge graph (KG) (ainmfhocal): graf eolais (GE)}
  \noindent \textit{Sainmhíniú (ga):} Bunachar sonraí a shamhlaíonn eolas mar nóid agus na ceangail eatarthu. Bíonn lipéad ar chuile nód / ceangal, agus bíonn chuile cheangal dírithe.
@@ -2676,9 +2695,8 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
 \end{itemize}
 
 
-\phantomsection \subsubsection*{L}
-\addcontentsline{toc}{subsubsection}{L}
-\markboth{APPENDIX E. FOCLÓIR TRÁCHTAIS. L}{APPENDIX E. FOCLÓIR TRÁCHTAIS. L}
+\subsection*{L}
+\addcontentsline{toc}{subsection}{L}
 
 \subsubsection*{label (ainmfhocal): lipéad}
  \noindent \textit{Sainmhíniú (ga):} I gcomhthéacs graif eolais, téacs atá nasctha le nód nó le ceangal agus a chuireann in iúl céard dó a sheasann an nód / ceangal sin.
@@ -3039,9 +3057,8 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
 \end{itemize}
 
 
-\phantomsection \subsubsection*{M}
-\addcontentsline{toc}{subsubsection}{M}
-\markboth{APPENDIX E. FOCLÓIR TRÁCHTAIS. M}{APPENDIX E. FOCLÓIR TRÁCHTAIS. M}
+\subsection*{M}
+\addcontentsline{toc}{subsection}{M}
 
 \subsubsection*{machine (aidiacht): ríomh-}
  \noindent \textit{Sainmhíniú (ga):} I gcomhthéacs ríomheolaíochta, bunaithe ar ríomhfhoghlaim.
@@ -3473,9 +3490,8 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
 \end{itemize}
 
 
-\phantomsection \subsubsection*{N}
-\addcontentsline{toc}{subsubsection}{N}
-\markboth{APPENDIX E. FOCLÓIR TRÁCHTAIS. N}{APPENDIX E. FOCLÓIR TRÁCHTAIS. N}
+\subsection*{N}
+\addcontentsline{toc}{subsection}{N}
 
 \subsubsection*{n-shot (aidiacht): n-sonra}
  \noindent \textit{Sainmhíniú (ga):} Cur chuige mion-fheabsaithe ina bhfuil samhail réamh-thraenáilte in ann $n$ sonra ó thacar sonraí nua a fheiceáil le linn á mion-fheabhsaithe.
@@ -3723,9 +3739,8 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
 \end{itemize}
 
 
-\phantomsection \subsubsection*{O/Ó}
-\addcontentsline{toc}{subsubsection}{O/Ó}
-\markboth{APPENDIX E. FOCLÓIR TRÁCHTAIS. O/Ó}{APPENDIX E. FOCLÓIR TRÁCHTAIS. O/Ó}
+\subsection*{O/Ó}
+\addcontentsline{toc}{subsection}{O/Ó}
 
 \subsubsection*{object (ainmfhocal): cuspóir}
  \noindent \textit{Sainmhíniú (ga):} in abairt thriarach $(a,f,c)$, an nód deireanach $c$ atá mar sprioc ag an bhfaisnéis $f$.
@@ -3994,9 +4009,8 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
 \end{itemize}
 
 
-\phantomsection \subsubsection*{P}
-\addcontentsline{toc}{subsubsection}{P}
-\markboth{APPENDIX E. FOCLÓIR TRÁCHTAIS. P}{APPENDIX E. FOCLÓIR TRÁCHTAIS. P}
+\subsection*{P}
+\addcontentsline{toc}{subsection}{P}
 
 \subsubsection*{pairwise function (ainmfhocal): feidhm de phéire (pointí)}
  \noindent \textit{Sainmhíniú (ga):} Feidhm a bhfuil péire pointí sonraí mar ionchur aici.
@@ -4328,9 +4342,8 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
 \end{itemize}
 
 
-\phantomsection \subsubsection*{Q}
-\addcontentsline{toc}{subsubsection}{Q}
-\markboth{APPENDIX E. FOCLÓIR TRÁCHTAIS. Q}{APPENDIX E. FOCLÓIR TRÁCHTAIS. Q}
+\subsection*{Q}
+\addcontentsline{toc}{subsection}{Q}
 
 \subsubsection*{qualitative (aidiacht): cineálach}
  \noindent \textit{Sainmhíniú (ga):} I gcomhthéacs sonraí, bunaithe ar fhaisnéis nó ar ghnéithe atá do-chainníochtaithe nó nach bhfuil cainníochtaithe.
@@ -4396,9 +4409,8 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
 \end{itemize}
 
 
-\phantomsection \subsubsection*{R}
-\addcontentsline{toc}{subsubsection}{R}
-\markboth{APPENDIX E. FOCLÓIR TRÁCHTAIS. R}{APPENDIX E. FOCLÓIR TRÁCHTAIS. R}
+\subsection*{R}
+\addcontentsline{toc}{subsection}{R}
 
 \subsubsection*{random (aidiacht): randamach}
  \noindent \textit{Sainmhíniú (ga):} Ag caint ar próiseas, gan bheith in ann é a réamhinsint ach le dóchúlachtaí.
@@ -4952,9 +4964,8 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
 \end{itemize}
 
 
-\phantomsection \subsubsection*{S}
-\addcontentsline{toc}{subsubsection}{S}
-\markboth{APPENDIX E. FOCLÓIR TRÁCHTAIS. S}{APPENDIX E. FOCLÓIR TRÁCHTAIS. S}
+\subsection*{S}
+\addcontentsline{toc}{subsection}{S}
 
 \subsubsection*{sample (ainmfhocal): sampla}
  \noindent \textit{Sainmhíniú (ga):} Sonra a thógtar as dáileadh staitistiúil nó as próiseas randamach.
@@ -5692,9 +5703,8 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
 \end{itemize}
 
 
-\phantomsection \subsubsection*{T}
-\addcontentsline{toc}{subsubsection}{T}
-\markboth{APPENDIX E. FOCLÓIR TRÁCHTAIS. T}{APPENDIX E. FOCLÓIR TRÁCHTAIS. T}
+\subsection*{T}
+\addcontentsline{toc}{subsection}{T}
 
 \subsubsection*{to test (briathar): teisteáil}
  \noindent \textit{Sainmhíniú (ga):} Próiseas teisteála a dhéanamh ar shamhail ríomhfhoghlama.
@@ -5936,9 +5946,8 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
 \end{itemize}
 
 
-\phantomsection \subsubsection*{U/Ú}
-\addcontentsline{toc}{subsubsection}{U/Ú}
-\markboth{APPENDIX E. FOCLÓIR TRÁCHTAIS. U/Ú}{APPENDIX E. FOCLÓIR TRÁCHTAIS. U/Ú}
+\subsection*{U/Ú}
+\addcontentsline{toc}{subsection}{U/Ú}
 
 \subsubsection*{underfitting (ainmfhocal): foghlaim easnamhach}
  \noindent \textit{Sainmhíniú (ga):} I gcomhthéacs ríomhfhoghlama, foghlaim neamh-iomlán a fhágann nach bhfuil an tsamhail in ann patrúin ghinearálta a fhoghlaim ón tacar traenála.
@@ -6023,9 +6032,8 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
 \end{itemize}
 
 
-\phantomsection \subsubsection*{V}
-\addcontentsline{toc}{subsubsection}{V}
-\markboth{APPENDIX E. FOCLÓIR TRÁCHTAIS. V}{APPENDIX E. FOCLÓIR TRÁCHTAIS. V}
+\subsection*{V}
+\addcontentsline{toc}{subsection}{V}
 
 \subsubsection*{to validate (ainmfhocal): deimhnigh}
  \noindent \textit{Sainmhíniú (ga):} Próiseas deimhnithe a dhéanamh ar shamhail ríomhfhoghlama.
@@ -6109,9 +6117,8 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
 \end{itemize}
 
 
-\phantomsection \subsubsection*{W}
-\addcontentsline{toc}{subsubsection}{W}
-\markboth{APPENDIX E. FOCLÓIR TRÁCHTAIS. W}{APPENDIX E. FOCLÓIR TRÁCHTAIS. W}
+\subsection*{W}
+\addcontentsline{toc}{subsection}{W}
 
 \subsubsection*{walk (ainmfhocal): siúlóid}
  \noindent \textit{Sainmhíniú (ga):} I gcomhthéacs graif, imeacht ó nód go nód ar cheangail an ghraif chun an graf ar fad, nó cuid de, a thrasnú.
@@ -6221,9 +6228,8 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
 \end{itemize}
 
 
-\phantomsection \subsubsection*{Z}
-\addcontentsline{toc}{subsubsection}{Z}
-\markboth{APPENDIX E. FOCLÓIR TRÁCHTAIS. Z}{APPENDIX E. FOCLÓIR TRÁCHTAIS. Z}
+\subsection*{Z}
+\addcontentsline{toc}{subsection}{Z}
 
 \subsubsection*{z-score (ainmfhocal): scór-z}
  \noindent \textit{Sainmhíniú (ga):} I gcomhthéacs staitistice, scór a léiríonn cá mhéad dialltaí caighdeánacha is atá sonra amháin ó mheán na sonraí.
@@ -6242,4 +6248,11 @@ The full contents of the latest version of the \textit{Foclóir Tráchtais}, ver
 \end{itemize}
 
 
+
+\newpage
+\printbibliography[
+title={Tagairtí},
+heading=bibintoc
+]
+\end{document}
 

@@ -1,4 +1,4 @@
-# Foclóir Tráchtais v1.5 alfa
+# Foclóir Tráchtais v1.5
 **Jeffrey Seathrún Sardina**<br>
 **Eanáir 2025**
 
@@ -1063,7 +1063,7 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 
 
 #### deep learning (ainmfhocal): foghlaim dhomhain<br>
-*Sainmhíniú (ga):* Cur chuige ríomhfhoghlama a úsáideann líonraí néaracha móra (le an-chuid ciseal iontu).
+*Sainmhíniú (ga):* Cur chuige ríomhfhoghlama a úsáideann líonraí néaracha móra (a bhfuil an-chuid ciseal iontu).
 <br>
 *Sainmhíniú (en):* A machine learning approach that uses large neural networks (with many layers).
 
@@ -1817,11 +1817,11 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 *Sainmhíniú (en):* In the context of graphs, the distance of a single edge between two nodes.
 
 *Tagairtí:*
-- xxx: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977), Williams et al. (2023)
+- coiscéim: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977), Williams et al. (2023)
 
 *Nótaí Aistriúcháin:*
-- Cé go mbeadh ciall le húsáid an fhocal 'céim' anseo, úsáidtear an focal sin cheana chun cur síos a dhéanamh ar 'degree' nóid. Ní úsáidtear arís an focal sin toisc go mbeadh sé an-deacair débhrí a sheachaint -- bíonn 'hop' agus 'céim' á n-úsáid go minic sna comhthéacsanna céanna. Mar shampla, uaireanta sa litríocht déanta fo-ghraf de ghraf eolais ina mbíonn ar a laghad céim éigin ag gach uile nóid. Uaireanta eile, déantar fo-ghraf de ghraf eolais bunaithe ar gach uile nód atá laistigh de mhéid éigin coiscéimeanna ó nód amháin. Dá mbeadh an focal 'céim' aistrithe mar 'degree' agus mar 'hop', d'úsáidfí an téarma 'fo-ghraf n-chéime' don dá fho-graf sin -- cé gur fo-ghraif iomlán difriúil óna chéile iad.
-- Úsáidtear an téarma 'siúlóid' chun cur síos a dhéanamh ar 'walk' ar graf. Agus is minic a dhéantar fad na siúlóidí a chomhaireamh de réir coiscéimeanna; m.sh 'a 3-hop walk / siúlóid 3-choiscéim'. Thairis sin, luann Foclóir De Bhaldraithe an frása 'within a step of the house, faoi choiscéim den teach' mar úsáid féideartha leis an bhfocal 'coiscéim'. Tá an úsáid sin díreach cosúil le húsáid an fhocail 'coiscéim' chun trácht a dhéanamh ar fhad i ngraf -- an t-aon difríocht ná nach bhfuil fad i ngraf fisiceach. Cé is moite de sin, meastar go bhfuil 'coiscéim' léir mar théarma (go háirithe ar an analach sin a ghlacadh), agus glactar mar sin leis.
+- Cé go mbeadh ciall le húsáid an fhocail 'céim' anseo, úsáidtear an focal sin cheana chun cur síos a dhéanamh ar 'degree' nóid. Ní mheastar go mba cheart 'céim' a ath-úsáid anseo toisc go mbeadh sé an-deacair débhrí a sheachaint -- bíonn 'hop' agus 'céim' á n-úsáid go minic sna comhthéacsanna céanna. Mar shampla, uaireanta sa litríocht déantar fo-ghraf de ghraf eolais ina mbíonn ar a laghad céim éigin ag gach uile nód. Uaireanta eile, déantar fo-ghraf de ghraf eolais bunaithe ar gach uile nód atá laistigh de mhéid éigin coiscéimeanna ó nód amháin. Dá mbeadh an focal 'céim' aistrithe mar 'degree' agus mar 'hop', d'úsáidfí an téarma 'fo-ghraf n-chéime' don dá fho-graf sin -- cé gur fo-ghraif dhifriúla iad.
+- Úsáidtear an téarma 'siúlóid' chun cur síos a dhéanamh ar 'walk' ar graf. Agus is minic a dhéantar fad na siúlóidí a chomhaireamh de réir coiscéimeanna; m.sh 'a 3-hop walk / siúlóid 3-choiscéim'. Thairis sin, luann Foclóir De Bhaldraithe an frása 'within a step of the house, faoi choiscéim den teach' mar úsáid féideartha leis an bhfocal 'coiscéim'. Tá an úsáid sin díreach cosúil le húsáid an fhocail 'coiscéim' chun trácht a dhéanamh ar fhad i ngraf -- an t-aon difríocht ná nach bhfuil fad i ngraf fisiceach. Cé is moite de sin, meastar go bhfuil 'coiscéim' léir mar théarma (go háirithe ar an analach sin a ghlacadh), agus glactar leis mar sin.
 - Féach chomh maith ar an téarma 'degree / céim'.
 - Féach chomh maith ar an téarma 'walk / siúlóid'.
 
@@ -2315,7 +2315,7 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 - lódáil: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
 
 *Nótaí Aistriúcháin:*
-- Ní luann foclóir ar bith de na foclóirí thuas an focal seo i gcomhthéacs ríomhairí. Cé go bhfuil go leor comhthéacsanna ar leith luaite leis, bíonn trácht i gcónaí air chun lódáil fhisiceach in chur in iúl (m.sh. 'lódáil soithigh' i bhFoclóir Uí Dhónaill). Sin ráite -- níl téarma ar bith eile ann a bheadh níos oiriúnaí (.i. nach mbíonn úsáidte go príomha i gcomhthéacs fisicigh). Thairis sin, cé nach oibriú fisiceach atá i gceist anseo, bíonn an bun-choincheap céanna i gceist -- rud (lasta nó sonraí) a bhogadh ó stóras go stóras eile
+- Ní luann foclóir ar bith de na foclóirí thuas an focal seo i gcomhthéacs ríomhairí. Cé go bhfuil go leor comhthéacsanna ar leith luaite leis, bíonn trácht i gcónaí air chun lódáil fhisiceach in chur in iúl (m.sh. 'lódáil soithigh' i bhFoclóir Uí Dhónaill). Sin ráite -- níl téarma ar bith eile ann a bheadh níos oiriúnaí (.i. nach mbíonn úsáidte go príomha i gcomhthéacs fisicigh). Thairis sin, cé nach rud fisiceach atá i gceist anseo, tá an bun-choincheap céanna i gceist -- rud (lasta nó sonraí) a bhogadh ó stóras amháin go stóras eile.
 
 
 #### local (aidiacht): logánta<br>
@@ -2523,13 +2523,13 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 
 *Nótaí Aistriúcháin:*
 - Téarma díreach ar fáil ó na foclóirí thuas.
-- Féach chomh maith ar an téarma 'mean / meán'.
+- Féach chomh maith ar an téarma 'mean (statistic) / meán'.
 
 
 #### mean (statistic) (ainmfhocal): meán<br>
-*Sainmhíniú (ga):* I gcomhthéacs liosta uimhreacha, ina bhfuil n ball ann, an luach suim(S) / n. Úsáidtear an meán mar thomhas ar lár an liosta uimhreacha.
+*Sainmhíniú (ga):* I gcomhthéacs liosta uimhreacha $L$ ina bhfuil $n$ ball ann, an luach $suim(L) / n$. Úsáidtear an meán mar thomhas ar lár na n-uimhreacha.
 <br>
-*Sainmhíniú (en):* In the context of a list of numbers L with n elements, the value sum(l) / n. The mean is used as a measure of the center of the list of numbers.
+*Sainmhíniú (en):* In the context of a list of numbers $L$ with $n$ elements, the value $sum(L) / n$. The mean is used as a measure of the center of the list of numbers.
 
 *Tagairtí:*
 - meán: De Bhaldraithe (1978), Ó Dónaill et al. (1991), Ó Dónaill (1977), Williams et al. (2023)
@@ -2889,7 +2889,7 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 
 
 #### noise (ainmfhocal): torann<br>
-*Sainmhíniú (ga):* I gcomhthéacs ríomhfhoghlama, an chuid de thacar sonraí atá (i bpáirt go go hiomlán) randamach, agus nach bhfuil comhartha in-fhoghlamtha ann dá bharr sin.
+*Sainmhíniú (ga):* I gcomhthéacs ríomhfhoghlama, an chuid de thacar sonraí atá (i bpáirt nó go hiomlán) randamach, agus nach bhfuil comhartha in-fhoghlamtha inti dá bharr sin.
 <br>
 *Sainmhíniú (en):* In the context of machine learning, the part of a data set that is (partially or fully) random, and that does not contain signal for learning as a result.
 
@@ -2897,12 +2897,12 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 - torann: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
 
 *Nótaí Aistriúcháin:*
-- I i gcomhthéacs fuaime amháin a bhíonn an téarma seo luaite sna foclóirí thuas. Sin ráite, úsáidtear i gcomhthéacsanna comhchosúla é -- mar shampla, an frása 'bodhar ó thorann an tráchta, deaf from the noise of the traffic' i bhFoclóir Uí Dhónaill. Is rud é 'torann' atá in ann cur isteach ar chumas cloiste. Sin díreach cosúil leis an gcaoi a cheileann torann i dtacar sonraí comhartha in-fhoghlamtha -- agus glactar leis an téarma seo mar sin.
+- Is i gcomhthéacs fuaime amháin a bhíonn an téarma seo luaite sna foclóirí thuas. Sin ráite, úsáidtear i gcomhthéacsanna comhchosúla é -- mar shampla, an frása 'bodhar ó thorann an tráchta, deaf from the noise of the traffic' i bhFoclóir Uí Dhónaill. Is rud é 'torann' atá in ann cur isteach ar chumas cloiste. Sin díreach cosúil leis an gcaoi a cheileann torann i dtacar sonraí an comhartha in-fhoghlamtha. Gglactar leis an téarma seo mar sin.
 - Féach chomh maith ar an téarma 'signal / comhartha'.
 
 
 #### noisy (aidiacht): torannach<br>
-*Sainmhíniú (ga):* I gcomhthéacs tacar sonraí, le an-chuid torann randamach ann a chuireann bac ar fhoghlaim ar an tacar sonraí sin.
+*Sainmhíniú (ga):* I gcomhthéacs tacar sonraí, a bhfuil an-chuid torann randamach ann i gcaoi a chuireann bac ar fhoghlaim ar an tacar sonraí sin.
 <br>
 *Sainmhíniú (en):* In the context of a data set, having a lot of random noise that limits learning on that data set.
 
@@ -2910,7 +2910,7 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 - torannach: Ó Dónaill et al. (1991), Ó Dónaill (1977)
 
 *Nótaí Aistriúcháin:*
-- Cé go bhfuil an 'torannach' i bhFoclóir Uí Dhuinín, is le brí iomlán ar leith atá sé luaite ann.
+- Cé go bhfuil an focal 'torannach' i bhFoclóir Uí Dhuinín, is le brí iomlán ar leith atá sé luaite ann.
 - Féach ar an téarma 'noise / torann'.
 
 
@@ -4070,7 +4070,7 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 - comhartha: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
 
 *Nótaí Aistriúcháin:*
-- Tá an focal 'signal' i gcomhthéacs ríomheolaíochta, an-sainmhínithe. An focal is giorra don bhrí atá de dhíth ná comhartha, toisc (de réir Fhoclóir Uí Dhónaill) go bhfuil na bríonna 'indication' agus 'notice, heed' leis. Is é an 'signal' i dtacar sonraí ná an chuid de na sonraí sin atá in-fhoghlamtha (.i. nach bhfuil mar thorann randamach) -- tugann sé treo do cén chaoi ar cheart don tsamhail a bheith ag foghlaim. Glactar leis an téarma 'comhartha' mar sin.
+- Ní luann na foclóirí thuas an focal seo i gcomhthéacs ríomhfhoghlama. An focal is giorra don bhrí atá de dhíth ná comhartha, toisc (de réir Fhoclóir Uí Dhónaill) go bhfuil na bríonna 'indication' agus 'notice, heed' leis. Is é an 'signal' i dtacar sonraí ná an chuid de na sonraí sin atá in-fhoghlamtha (.i. nach bhfuil mar thorann randamach) -- tugann an comhartha treo do cén chaoi ar cheart don tsamhail a bheith ag foghlaim. Glactar leis an téarma 'comhartha' mar sin.
 - Féach chomh maith ar an téarma 'noise / torann'.
 
 
@@ -4836,7 +4836,7 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 - domhan: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
 
 *Nótaí Aistriúcháin:*
-- I mBéarla, úsáidtear 'world' chun trácht ar 'the world of all possible facts / things / etc' -- sin le rá, chun trácht ar chuile fhíric / rud atá ann (i réimse éigin). Ní luaitear an bhrí seo go minic le 'domhain' i nGaeilge, ach tá brí chosúil go leor leis le feiceáil i bhFoclóir Uí Dhuinín: 'Slua, eolas, acmhainn, an domhain, vast crowd, knowledge, resources'. Is féidir nach téarma foirfe é seo -- ach ní léir go mbeadh téarma comhchiallach eile (m.sh. cruinne) níos fearr.
+- I mBéarla, úsáidtear 'world' chun trácht ar 'the world of all possible facts / things / etc' -- sin le rá, chun trácht ar chuile fhíric / rud atá ann (i réimse éigin). Ní luaitear an bhrí seo go minic le 'domhain' i nGaeilge, ach tá brí chosúil go leor leis le feiceáil i bhFoclóir Uí Dhuinín: 'Slua, eolas, acmhainn, an domhain, vast crowd, knowledge, resources'. Is féidir nach téarma foirfe é seo -- ach ní léir go mbeadh téarma comhchiallach eile (m.sh. cruinne) níos fearr. Glactar leis mar sin.
 
 
 ### Z
