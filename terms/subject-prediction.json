@@ -1,0 +1,16 @@
+{
+    "term": "subject prediction",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "réamhinsint an ainmní",
+    "def-en": "In the context of the link prediction task, the task of predicting a subject to answer a link prediction query in the form $(?,p,o)$.",
+    "def-ga": "I gcomhthéacs an taisc réamhinsinte nasc, an tasc a bhaineann le hainmní a réamhinsint chun ceist réamhinsinte nasc sa bhfoirm $(?,f,c)$ a fhreagairt.",
+
+    "prov": {
+        "réamhinsint": "féach ar an téarma 'prediction / réamhinsint'",
+        "cuspóir": "féach ar an téarma 'subject / ainmní'"
+    },
+    "notes": [
+        "Féach chomh maith ar an téarma 'prediction / réamhinsint'.",
+        "Féach ar an téarma 'subject / ainmní'."
+    ]
+}

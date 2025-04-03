@@ -1,0 +1,14 @@
+{
+    "term": "to corrupt",
+    "part-of-speech": "briathar",
+    "citation-form": "malartaigh",
+    "def-en": "In the context negative sampling, to create a negative sample by changing a node (the subject or object) in a triple to a different node.",
+    "def-ga": "I gcomhthéacs frith-shamplála, frith-shampla a chruthú trí nód (an t-ainmní nó an cuspóir) in abairt thriarach bhun-fhírinneach a athrú go nód eile.",
+
+    "prov": {
+        "malartaigh": "de-bhaldraithe, dineen, focloir-beag, odonaill"
+    },
+    "notes": [
+        "Téarma díreach ar fáil le brí chomhchosúil (ach i gcomhthéacs níos leithne)."
+    ]
+}

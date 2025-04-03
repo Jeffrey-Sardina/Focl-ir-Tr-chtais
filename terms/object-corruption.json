@@ -6,10 +6,11 @@
     "def-ga": "I gcomhthéacs frith-shamplála, an próiseas a bhaineann le frith-shampla a chruthú tríd an gcuspóir $c$ in abairt thriarach $(a,f,c)$ a ionadú le nód eile.",
 
     "prov": {
-        "malartaigh": "de-bhaldraithe, dineen, focloir-beag, odonaill",
+        "malartaigh": "féach ar an téarma 'to corrupt / malartaigh'",
         "cuspóir": "féach ar an téarma 'object / cuspóir'"
     },
     "notes": [
-        "Féach ar an téarma 'object / cuspóir'."
+        "Féach ar an téarma 'to corrupt / malartaigh'.",
+        "Féach chomh maith ar an téarma 'object / cuspóir'."
     ]
 }

@@ -1,0 +1,16 @@
+{
+    "term": "object prediction",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "réamhinsint an chuspóra",
+    "def-en": "In the context of the link prediction task, the task of predicting an object to answer a link prediction query in the form $(s,p,?)$.",
+    "def-ga": "I gcomhthéacs an taisc réamhinsinte nasc, an tasc a bhaineann le cuspóir a réamhinsint chun ceist réamhinsinte nasc sa bhfoirm $(a,f,?)$ a fhreagairt.",
+
+    "prov": {
+        "réamhinsint": "féach ar an téarma 'prediction / réamhinsint'",
+        "cuspóir": "féach ar an téarma 'object / cuspóir'"
+    },
+    "notes": [
+        "Féach chomh maith ar an téarma 'prediction / réamhinsint'.",
+        "Féach ar an téarma 'object / cuspóir'."
+    ]
+}

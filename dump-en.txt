@@ -1,0 +1,10 @@
+object prediction
+In the context of the link prediction task, the task of predicting an object to answer a link prediction query in the form $(s,p,?)$.
+
+subject prediction
+In the context of the link prediction task, the task of predicting a subject to answer a link prediction query in the form $(?,p,o)$.
+
+to corrupt
+In the context negative sampling, to create a negative sample by changing a node (the subject or object) in a triple to a different node.
+
+
