@@ -260,12 +260,8 @@ def render_table(terms):
                 render_str += "\t\t" + term['term'] + "&" + term['citation-form'] + "\\\\ \\hline \n"
             else:
                 render_str += "\t\t" + term['citation-form'] + "&" + term['term'] + "\\\\ \\hline \n"
-        if not INDEX_GAEILGE:
-            render_str += "\\caption{Liosta na dtéarma Béarla ar fad agus a leagan Gaeilge, curtha in ord de réir na dtéarmaí Béarla.}\n"
-            render_str += "\\label{tab-terms-en-ga}\n"
-        else:
-            render_str += "\\caption{Liosta na dtéarma Béarla ar fad agus a leagan Gaeilge, curtha in ord de réir na dtéarmaí Gaeilge.}\n"
-            render_str += "\\label{tab-terms-ga-en}\n"
+        render_str += "\\caption{Liosta na dtéarmaí sa bhFoclóir Tráchtas.}\n"
+        render_str += "\\label{tab-terms}\n"
         render_str += "\\end{longtable}"
     elif MODE == 'markdown':
         render_str = "## Achoimre na dTéarmaí\n"
