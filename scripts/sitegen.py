@@ -348,7 +348,7 @@ def gen_index(terms, version):
     
     header_nav = "<p class='center-text'> Téigh chuig: \n"
     header_nav += '\n'.join(' '*5*SPACES_PER_INDENT + f'<a href="#{header_id}">{header_id}</a>' for header_id in header_ids)
-    header_nav += "\n" + ' '*5*SPACES_PER_INDENT + '<a href="#" onclick="randPage()"> | Téarma Randamach</a>'
+    header_nav += "\n" + ' '*5*SPACES_PER_INDENT + '| <a href="#" onclick="randPage()">Téarma Randamach</a>'
     header_nav += "\n" + ' '*4*SPACES_PER_INDENT + "</p>"
 
     html = f"""<!DOCTYPE html>
