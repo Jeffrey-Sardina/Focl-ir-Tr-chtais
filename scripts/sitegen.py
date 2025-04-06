@@ -312,7 +312,28 @@ def gen_index(terms, version):
             document.body.scrollTop = 0;
             document.documentElement.scrollTop = 0;
         }
+
+        // random page code
+        RND_PAGES_FLAG
+        function randPage() {
+            let rand_idx = Math.floor(Math.random() * term_pages.length);
+            let rand_page = term_pages[rand_idx];
+            window.location.assign(rand_page);
+            event.preventDefault();
+        }
         </script>\n"""
+    
+    # add script code t go to a random page
+    rand_pages_array = "term_pages = ["
+    for i, term_id in enumerate(terms):
+        term = terms[term_id]
+        file_name = "terms/" + get_term_file_name(term["term"])
+        if i < len(terms) - 1:
+            rand_pages_array += f'"{file_name}", '
+        else:
+            rand_pages_array += f'"{file_name}"'
+    rand_pages_array += "]"
+    js_script = js_script.replace("RND_PAGES_FLAG", rand_pages_array)
     
     # format script code nicely
     js_script_fmt = ""
@@ -327,6 +348,7 @@ def gen_index(terms, version):
     
     header_nav = "<p class='center-text'> Téigh chuig: \n"
     header_nav += '\n'.join(' '*5*SPACES_PER_INDENT + f'<a href="#{header_id}">{header_id}</a>' for header_id in header_ids)
+    header_nav += "\n" + ' '*5*SPACES_PER_INDENT + '<a href="#" onclick="randPage()"> | Téarma Randamach</a>'
     header_nav += "\n" + ' '*4*SPACES_PER_INDENT + "</p>"
 
     html = f"""<!DOCTYPE html>
