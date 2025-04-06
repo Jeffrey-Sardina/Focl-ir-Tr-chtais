@@ -6,10 +6,12 @@
     "def-ga": "I gcomhthéacs ríomheolaíochta, suíomh ar líne (.i. GitHub) nó fillteán logánta ar ríomhaire (.i. fillteán .git/) bhfuil cód, agus an stair ar fad a bhaineann le sean-leaganacha de, stóráilte.",
 
     "prov": {
-        "stór": "de-bhaldraithe, dineen, focloir-beag, odonaill"
+        "stór": "de-bhaldraithe, dineen, focloir-beag, odonaill",
+        "cód": "féach ar an téarma 'code / cód'"
     },
     "notes": [
         "Téarma díreach ar fáil le brí chomhchosúil (ach i gcomhthéacs níos leithe) I bhFoclóir De Bhaldraithe, bíonn an téarma 'stór eolais' luaite, rud a chuireann in iúl go bhfuil bunús leis an úsáid seo chun sórt stóir (nach bhfuil fisiceach) a chur in iúl.",
-        "Is focal an-choitianta sa nGaeilge é 'stór', nach ionann agus 'repository' (nach mbíonn úsáidte i mBéarla ach chun trácht a dhéanamh ar stór cóid). Mar sin, muna bhfuil an comhthéacs soiléir, moltar 'stór cóid' a úsáid chun an bhrí atá i gceist anseo a shainmhíniú ar an gcéad úsáid."
+        "Is focal an-choitianta sa nGaeilge é 'stór', nach ionann agus 'repository' (nach mbíonn úsáidte i mBéarla ach chun trácht a dhéanamh ar stór cóid). Mar sin, muna bhfuil an comhthéacs soiléir, moltar 'stór cóid' a úsáid chun an bhrí atá i gceist anseo a shainmhíniú ar an gcéad úsáid.",
+        "Féach chomh maith ar an téarma 'code / cód'."
     ]
 }

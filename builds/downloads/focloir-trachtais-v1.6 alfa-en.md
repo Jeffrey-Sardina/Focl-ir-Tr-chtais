@@ -50,6 +50,7 @@
 | to correlate                           | comhghaolaigh                            |
 | correlation                            | comhghaol                                |
 | correlation coefficient                | comhéifeacht comhghaolúcháin             |
+| to corrupt                             | malartaigh                               |
 | counterexample                         | frith-shampla                            |
 | cross entropy loss (CEL)               | pionós tras-eantrópachta (PTE)           |
 | cross-entropy                          | tras-eantrópacht                         |
@@ -195,6 +196,7 @@
 | non-linear                             | neamh-líneach                            |
 | object                                 | cuspóir                                  |
 | object corruption                      | malartú an chuspóra                      |
+| object prediction                      | réamhinsint an chuspóra                  |
 | one-hot encoding                       | códú aon-innéacs                         |
 | ontology                               | ointeolaíocht                            |
 | open source                            | saor-rochtana                            |
@@ -255,6 +257,7 @@
 | relation(ship)                         | ceangal                                  |
 | relative entropy                       | eantrópacht choibhneasta                 |
 | ReLU                                   | ReLU                                     |
+| repository                             | stór (cóid)                              |
 | representation                         | leagan                                   |
 | representative                         | ionadaíochta                             |
 | reproducible                           | in-athdhéanta                            |
@@ -295,6 +298,7 @@
 | subgraph                               | fo-ghraf                                 |
 | subject                                | ainmní                                   |
 | subject corruption                     | malartú an ainmní                        |
+| subject prediction                     | réamhinsint an ainmní                    |
 | subset                                 | fo-thacar                                |
 | supervised                             | faoi mhaoirseacht                        |
 | supervision                            | maoirseacht                              |
@@ -945,6 +949,18 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 - Féach ar an téarma 'coefficient / comhéifeacht'
 - Féach chomh maith ar an téarma 'correlation / comhghaol'
 - Féach chomh maith ar an téarma 'to correlate / comhghaolaigh'
+
+
+#### to corrupt (briathar): malartaigh<br>
+*Sainmhíniú (ga):* I gcomhthéacs frith-shamplála, frith-shampla a chruthú trí nód (an t-ainmní nó an cuspóir) in abairt thriarach bhun-fhírinneach a athrú go nód eile.
+<br>
+*Sainmhíniú (en):* In the context negative sampling, to create a negative sample by changing a node (the subject or object) in a triple to a different node.
+
+*Tagairtí:*
+- malartaigh: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
+
+*Nótaí Aistriúcháin:*
+- Téarma díreach ar fáil le brí chomhchosúil (ach i gcomhthéacs níos leithne).
 
 
 #### counterexample (ainmfhocal): frith-shampla<br>
@@ -2947,10 +2963,25 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 *Sainmhíniú (en):* In the context of negative sampling, the process of creating a negative sample by replacing the object $o$ in a triple $(s,p,o)$ with another node.
 
 *Tagairtí:*
-- malartaigh: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
+- malartaigh: féach ar an téarma 'to corrupt / malartaigh'
 - cuspóir: féach ar an téarma 'object / cuspóir'
 
 *Nótaí Aistriúcháin:*
+- Féach ar an téarma 'to corrupt / malartaigh'.
+- Féach chomh maith ar an téarma 'object / cuspóir'.
+
+
+#### object prediction (ainmfhocal): réamhinsint an chuspóra<br>
+*Sainmhíniú (ga):* I gcomhthéacs an taisc réamhinsinte nasc, an tasc a bhaineann le cuspóir a réamhinsint chun ceist réamhinsinte nasc sa bhfoirm $(a,f,?)$ a fhreagairt.
+<br>
+*Sainmhíniú (en):* In the context of the link prediction task, the task of predicting an object to answer a link prediction query in the form $(s,p,?)$.
+
+*Tagairtí:*
+- réamhinsint: féach ar an téarma 'prediction / réamhinsint'
+- cuspóir: féach ar an téarma 'object / cuspóir'
+
+*Nótaí Aistriúcháin:*
+- Féach chomh maith ar an téarma 'prediction / réamhinsint'.
 - Féach ar an téarma 'object / cuspóir'.
 
 
@@ -3770,6 +3801,21 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 - Níl an téarma seo le fáil ó fhoinse ar bith (fiú Téarma.ie). Is ainm ar fheidhm ghníomhachtaithe é, agus tá sé ina ainm dílis nach mór ag an bpointe seo. Dá bharr sin, agus toisc go mbeadh aistriúchán / Gaelú air níos doiléire do ríomheolaithe ná an t-ainm sean-bhunaithe a úsáid, fágtar gan aistriú é. Moltar é a chur sa gcló iodálach agus é á scríobh i dtéacs Gaeilge.
 
 
+#### repository (ainmfhocal): stór (cóid)<br>
+*Sainmhíniú (ga):* I gcomhthéacs ríomheolaíochta, suíomh ar líne (.i. GitHub) nó fillteán logánta ar ríomhaire (.i. fillteán .git/) bhfuil cód, agus an stair ar fad a bhaineann le sean-leaganacha de, stóráilte.
+<br>
+*Sainmhíniú (en):* In the context of computer science, an online site (i.e. GitHub) or local folder on a computer (i.e. a .git/ folder) in which code, and the full history of previous versions of it, are stored.
+
+*Tagairtí:*
+- stór: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
+- cód: féach ar an téarma 'code / cód'
+
+*Nótaí Aistriúcháin:*
+- Téarma díreach ar fáil le brí chomhchosúil (ach i gcomhthéacs níos leithe) I bhFoclóir De Bhaldraithe, bíonn an téarma 'stór eolais' luaite, rud a chuireann in iúl go bhfuil bunús leis an úsáid seo chun sórt stóir (nach bhfuil fisiceach) a chur in iúl.
+- Is focal an-choitianta sa nGaeilge é 'stór', nach ionann agus 'repository' (nach mbíonn úsáidte i mBéarla ach chun trácht a dhéanamh ar stór cóid). Mar sin, muna bhfuil an comhthéacs soiléir, moltar 'stór cóid' a úsáid chun an bhrí atá i gceist anseo a shainmhíniú ar an gcéad úsáid.
+- Féach chomh maith ar an téarma 'code / cód'.
+
+
 #### representation (ainmfhocal): leagan<br>
 *Sainmhíniú (ga):* I gcomhthéacs leabuithe graif eolais, leabú nó veicteoir a dhéanann ionad (ar leibhéal matamaiticiúil) réada nó coincheapa sa ngraf.
 <br>
@@ -4322,10 +4368,25 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 *Sainmhíniú (en):* In the context of negative sampling, the process of creating a negative sample by replacing the subject $s$ in a triple $(s,p,o)$ with another node.
 
 *Tagairtí:*
-- malartaigh: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
+- malartaigh: féach ar an téarma 'to corrupt / malartaigh'
 - ainmní: féach ar an téarma 'subject / ainmní'
 
 *Nótaí Aistriúcháin:*
+- Féach ar an téarma 'to corrupt / malartaigh'.
+- Féach chomh maith ar an téarma 'subject / ainmní'.
+
+
+#### subject prediction (ainmfhocal): réamhinsint an ainmní<br>
+*Sainmhíniú (ga):* I gcomhthéacs an taisc réamhinsinte nasc, an tasc a bhaineann le hainmní a réamhinsint chun ceist réamhinsinte nasc sa bhfoirm $(?,f,c)$ a fhreagairt.
+<br>
+*Sainmhíniú (en):* In the context of the link prediction task, the task of predicting a subject to answer a link prediction query in the form $(?,p,o)$.
+
+*Tagairtí:*
+- réamhinsint: féach ar an téarma 'prediction / réamhinsint'
+- cuspóir: féach ar an téarma 'subject / ainmní'
+
+*Nótaí Aistriúcháin:*
+- Féach chomh maith ar an téarma 'prediction / réamhinsint'.
 - Féach ar an téarma 'subject / ainmní'.
 
 

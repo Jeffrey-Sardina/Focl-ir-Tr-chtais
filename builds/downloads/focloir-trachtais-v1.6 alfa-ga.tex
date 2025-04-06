@@ -228,6 +228,7 @@ sorting=ynt
 		lucht faisnéise&information content\\ \hline 
 		maitrís&matrix\\ \hline 
 		maitrís chóngarachta&adjacency matrix\\ \hline 
+		malartaigh&to corrupt\\ \hline 
 		malartú an ainmní&subject corruption\\ \hline 
 		malartú an chuspóra&object corruption\\ \hline 
 		maoirseacht&supervision\\ \hline 
@@ -275,6 +276,8 @@ sorting=ynt
 		réamh-thraenáil&to pretrain\\ \hline 
 		réamhinis&to predict\\ \hline 
 		réamhinsint&prediction\\ \hline 
+		réamhinsint an ainmní&subject prediction\\ \hline 
+		réamhinsint an chuspóra&object prediction\\ \hline 
 		réamhinsint nasc (RN)&link prediction (LP)\\ \hline 
 		réamhinsteoir&predictor\\ \hline 
 		réamhinsteoir nasc&link predictor\\ \hline 
@@ -323,6 +326,7 @@ sorting=ynt
 		sonraí nasctha (SN)&linked data (LD)\\ \hline 
 		sonraí nasctha saor-rochtana (SNSR)&linked open data (LOD)\\ \hline 
 		staid an réimse&state of the art (current)\\ \hline 
+		stór (cóid)&repository\\ \hline 
 		struchtúr&structure\\ \hline 
 		tabhair chun rialtachta&to regularise\\ \hline 
 		tabhairt chun rialtachta&regularisation\\ \hline 
@@ -365,8 +369,8 @@ sorting=ynt
 		uilíoch&global\\ \hline 
 		úsáid (phraiticiúil)&application (in practice)\\ \hline 
 		veicteoir&vector\\ \hline 
-\caption{Liosta na dtéarma Béarla ar fad agus a leagan Gaeilge, curtha in ord de réir na dtéarmaí Gaeilge.}
-\label{tab-terms-ga-en}
+\caption{Liosta na dtéarmaí sa bhFoclóir Tráchtas.}
+\label{tab-terms}
 \end{longtable}
 
 \newpage \section{Téarmaí}
@@ -3789,6 +3793,22 @@ sorting=ynt
 \end{itemize}
 
 
+\subsubsection*{malartaigh (briathar): to corrupt}
+ \noindent \textit{Sainmhíniú (ga):} I gcomhthéacs frith-shamplála, frith-shampla a chruthú trí nód (an t-ainmní nó an cuspóir) in abairt thriarach bhun-fhírinneach a athrú go nód eile.
+\\
+ \noindent \textit{Sainmhíniú (en):} In the context negative sampling, to create a negative sample by changing a node (the subject or object) in a triple to a different node.
+\\
+ \noindent \textit{Tagairtí:}
+\begin{itemize}
+	\item malartaigh: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+ \noindent \textit{Nótaí Aistriúcháin:}
+\begin{itemize}
+	\item Téarma díreach ar fáil le brí chomhchosúil (ach i gcomhthéacs níos leithne).
+\end{itemize}
+
+
 \subsubsection*{malartú an ainmní (ainmfhocal): subject corruption}
  \noindent \textit{Sainmhíniú (ga):} I gcomhthéacs frith-shamplála, an próiseas a bhaineann le frith-shampla a chruthú tríd an ainmní $a$ in abairt thriarach $(a,f,c)$ a ionadú le nód eile.
 \\
@@ -3796,13 +3816,14 @@ sorting=ynt
 \\
  \noindent \textit{Tagairtí:}
 \begin{itemize}
-	\item malartaigh: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+	\item malartaigh: féach ar an téarma `to corrupt / malartaigh'
 	\item ainmní: féach ar an téarma `subject / ainmní'
 \end{itemize}
 
  \noindent \textit{Nótaí Aistriúcháin:}
 \begin{itemize}
-	\item Féach ar an téarma `subject / ainmní'.
+	\item Féach ar an téarma `to corrupt / malartaigh'.
+	\item Féach chomh maith ar an téarma `subject / ainmní'.
 \end{itemize}
 
 
@@ -3813,13 +3834,14 @@ sorting=ynt
 \\
  \noindent \textit{Tagairtí:}
 \begin{itemize}
-	\item malartaigh: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+	\item malartaigh: féach ar an téarma `to corrupt / malartaigh'
 	\item cuspóir: féach ar an téarma `object / cuspóir'
 \end{itemize}
 
  \noindent \textit{Nótaí Aistriúcháin:}
 \begin{itemize}
-	\item Féach ar an téarma `object / cuspóir'.
+	\item Féach ar an téarma `to corrupt / malartaigh'.
+	\item Féach chomh maith ar an téarma `object / cuspóir'.
 \end{itemize}
 
 
@@ -4651,6 +4673,42 @@ sorting=ynt
 \begin{itemize}
 	\item Tá `réamh-' agus `innsint' i bhFoclóir Uí Dhuinín, ach níl an téarma `réamhinsint' luaite ann.
 	\item Tá `réamh-' agus `insint' i bhFoclóir Uí Dhónaill agus Uí Mhaoileoin, ach níl an téarma `réamhinsint' luaite ann.
+\end{itemize}
+
+
+\subsubsection*{réamhinsint an ainmní (ainmfhocal): subject prediction}
+ \noindent \textit{Sainmhíniú (ga):} I gcomhthéacs an taisc réamhinsinte nasc, an tasc a bhaineann le hainmní a réamhinsint chun ceist réamhinsinte nasc sa bhfoirm $(?,f,c)$ a fhreagairt.
+\\
+ \noindent \textit{Sainmhíniú (en):} In the context of the link prediction task, the task of predicting a subject to answer a link prediction query in the form $(?,p,o)$.
+\\
+ \noindent \textit{Tagairtí:}
+\begin{itemize}
+	\item réamhinsint: féach ar an téarma `prediction / réamhinsint'
+	\item cuspóir: féach ar an téarma `subject / ainmní'
+\end{itemize}
+
+ \noindent \textit{Nótaí Aistriúcháin:}
+\begin{itemize}
+	\item Féach chomh maith ar an téarma `prediction / réamhinsint'.
+	\item Féach ar an téarma `subject / ainmní'.
+\end{itemize}
+
+
+\subsubsection*{réamhinsint an chuspóra (ainmfhocal): object prediction}
+ \noindent \textit{Sainmhíniú (ga):} I gcomhthéacs an taisc réamhinsinte nasc, an tasc a bhaineann le cuspóir a réamhinsint chun ceist réamhinsinte nasc sa bhfoirm $(a,f,?)$ a fhreagairt.
+\\
+ \noindent \textit{Sainmhíniú (en):} In the context of the link prediction task, the task of predicting an object to answer a link prediction query in the form $(s,p,?)$.
+\\
+ \noindent \textit{Tagairtí:}
+\begin{itemize}
+	\item réamhinsint: féach ar an téarma `prediction / réamhinsint'
+	\item cuspóir: féach ar an téarma `object / cuspóir'
+\end{itemize}
+
+ \noindent \textit{Nótaí Aistriúcháin:}
+\begin{itemize}
+	\item Féach chomh maith ar an téarma `prediction / réamhinsint'.
+	\item Féach ar an téarma `object / cuspóir'.
 \end{itemize}
 
 
@@ -5498,6 +5556,25 @@ sorting=ynt
 	\item Is é `staid an réimse' an staid ina bhfuil an réimse ann faoi láthair (bíodh sé go maith nó go dona), agus is é `scoth an réimse' an chuid is fearr de.
 	\item Féach chomh maith ar an téarma `state of the art (best) / scoth an réimse'.
 	\item Féach chomh maith ar an téarma `state of the art (the literature) / litríocht an réimse'.
+\end{itemize}
+
+
+\subsubsection*{stór (cóid) (ainmfhocal): repository}
+ \noindent \textit{Sainmhíniú (ga):} I gcomhthéacs ríomheolaíochta, suíomh ar líne (.i. GitHub) nó fillteán logánta ar ríomhaire (.i. fillteán .git/) bhfuil cód, agus an stair ar fad a bhaineann le sean-leaganacha de, stóráilte.
+\\
+ \noindent \textit{Sainmhíniú (en):} In the context of computer science, an online site (i.e. GitHub) or local folder on a computer (i.e. a .git/ folder) in which code, and the full history of previous versions of it, are stored.
+\\
+ \noindent \textit{Tagairtí:}
+\begin{itemize}
+	\item stór: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+	\item cód: féach ar an téarma `code / cód'
+\end{itemize}
+
+ \noindent \textit{Nótaí Aistriúcháin:}
+\begin{itemize}
+	\item Téarma díreach ar fáil le brí chomhchosúil (ach i gcomhthéacs níos leithe) I bhFoclóir De Bhaldraithe, bíonn an téarma `stór eolais' luaite, rud a chuireann in iúl go bhfuil bunús leis an úsáid seo chun sórt stóir (nach bhfuil fisiceach) a chur in iúl.
+	\item Is focal an-choitianta sa nGaeilge é `stór', nach ionann agus `repository' (nach mbíonn úsáidte i mBéarla ach chun trácht a dhéanamh ar stór cóid). Mar sin, muna bhfuil an comhthéacs soiléir, moltar `stór cóid' a úsáid chun an bhrí atá i gceist anseo a shainmhíniú ar an gcéad úsáid.
+	\item Féach chomh maith ar an téarma `code / cód'.
 \end{itemize}
 
 

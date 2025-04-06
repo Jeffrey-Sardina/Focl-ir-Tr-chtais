@@ -197,6 +197,7 @@
 | lucht faisnéise                          | information content                    |
 | maitrís                                  | matrix                                 |
 | maitrís chóngarachta                     | adjacency matrix                       |
+| malartaigh                               | to corrupt                             |
 | malartú an ainmní                        | subject corruption                     |
 | malartú an chuspóra                      | object corruption                      |
 | maoirseacht                              | supervision                            |
@@ -244,6 +245,8 @@
 | réamh-thraenáil                          | to pretrain                            |
 | réamhinis                                | to predict                             |
 | réamhinsint                              | prediction                             |
+| réamhinsint an ainmní                    | subject prediction                     |
+| réamhinsint an chuspóra                  | object prediction                      |
 | réamhinsint nasc (RN)                    | link prediction (LP)                   |
 | réamhinsteoir                            | predictor                              |
 | réamhinsteoir nasc                       | link predictor                         |
@@ -292,6 +295,7 @@
 | sonraí nasctha (SN)                      | linked data (LD)                       |
 | sonraí nasctha saor-rochtana (SNSR)      | linked open data (LOD)                 |
 | staid an réimse                          | state of the art (current)             |
+| stór (cóid)                              | repository                             |
 | struchtúr                                | structure                              |
 | tabhair chun rialtachta                  | to regularise                          |
 | tabhairt chun rialtachta                 | regularisation                         |
@@ -2966,17 +2970,30 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 - Féach chomh maith ar an téarma 'matrix / maitrís'.
 
 
+#### malartaigh (briathar): to corrupt<br>
+*Sainmhíniú (ga):* I gcomhthéacs frith-shamplála, frith-shampla a chruthú trí nód (an t-ainmní nó an cuspóir) in abairt thriarach bhun-fhírinneach a athrú go nód eile.
+<br>
+*Sainmhíniú (en):* In the context negative sampling, to create a negative sample by changing a node (the subject or object) in a triple to a different node.
+
+*Tagairtí:*
+- malartaigh: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
+
+*Nótaí Aistriúcháin:*
+- Téarma díreach ar fáil le brí chomhchosúil (ach i gcomhthéacs níos leithne).
+
+
 #### malartú an ainmní (ainmfhocal): subject corruption<br>
 *Sainmhíniú (ga):* I gcomhthéacs frith-shamplála, an próiseas a bhaineann le frith-shampla a chruthú tríd an ainmní $a$ in abairt thriarach $(a,f,c)$ a ionadú le nód eile.
 <br>
 *Sainmhíniú (en):* In the context of negative sampling, the process of creating a negative sample by replacing the subject $s$ in a triple $(s,p,o)$ with another node.
 
 *Tagairtí:*
-- malartaigh: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
+- malartaigh: féach ar an téarma 'to corrupt / malartaigh'
 - ainmní: féach ar an téarma 'subject / ainmní'
 
 *Nótaí Aistriúcháin:*
-- Féach ar an téarma 'subject / ainmní'.
+- Féach ar an téarma 'to corrupt / malartaigh'.
+- Féach chomh maith ar an téarma 'subject / ainmní'.
 
 
 #### malartú an chuspóra (ainmfhocal): object corruption<br>
@@ -2985,11 +3002,12 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 *Sainmhíniú (en):* In the context of negative sampling, the process of creating a negative sample by replacing the object $o$ in a triple $(s,p,o)$ with another node.
 
 *Tagairtí:*
-- malartaigh: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
+- malartaigh: féach ar an téarma 'to corrupt / malartaigh'
 - cuspóir: féach ar an téarma 'object / cuspóir'
 
 *Nótaí Aistriúcháin:*
-- Féach ar an téarma 'object / cuspóir'.
+- Féach ar an téarma 'to corrupt / malartaigh'.
+- Féach chomh maith ar an téarma 'object / cuspóir'.
 
 
 #### maoirseacht (aidiacht): supervision<br>
@@ -3633,6 +3651,34 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 *Nótaí Aistriúcháin:*
 - Tá 'réamh-' agus 'innsint' i bhFoclóir Uí Dhuinín, ach níl an téarma 'réamhinsint' luaite ann.
 - Tá 'réamh-' agus 'insint' i bhFoclóir Uí Dhónaill agus Uí Mhaoileoin, ach níl an téarma 'réamhinsint' luaite ann.
+
+
+#### réamhinsint an ainmní (ainmfhocal): subject prediction<br>
+*Sainmhíniú (ga):* I gcomhthéacs an taisc réamhinsinte nasc, an tasc a bhaineann le hainmní a réamhinsint chun ceist réamhinsinte nasc sa bhfoirm $(?,f,c)$ a fhreagairt.
+<br>
+*Sainmhíniú (en):* In the context of the link prediction task, the task of predicting a subject to answer a link prediction query in the form $(?,p,o)$.
+
+*Tagairtí:*
+- réamhinsint: féach ar an téarma 'prediction / réamhinsint'
+- cuspóir: féach ar an téarma 'subject / ainmní'
+
+*Nótaí Aistriúcháin:*
+- Féach chomh maith ar an téarma 'prediction / réamhinsint'.
+- Féach ar an téarma 'subject / ainmní'.
+
+
+#### réamhinsint an chuspóra (ainmfhocal): object prediction<br>
+*Sainmhíniú (ga):* I gcomhthéacs an taisc réamhinsinte nasc, an tasc a bhaineann le cuspóir a réamhinsint chun ceist réamhinsinte nasc sa bhfoirm $(a,f,?)$ a fhreagairt.
+<br>
+*Sainmhíniú (en):* In the context of the link prediction task, the task of predicting an object to answer a link prediction query in the form $(s,p,?)$.
+
+*Tagairtí:*
+- réamhinsint: féach ar an téarma 'prediction / réamhinsint'
+- cuspóir: féach ar an téarma 'object / cuspóir'
+
+*Nótaí Aistriúcháin:*
+- Féach chomh maith ar an téarma 'prediction / réamhinsint'.
+- Féach ar an téarma 'object / cuspóir'.
 
 
 #### réamhinsint nasc (RN) (ainmfhocal): link prediction (LP)<br>
@@ -4286,6 +4332,21 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 - Is é 'staid an réimse' an staid ina bhfuil an réimse ann faoi láthair (bíodh sé go maith nó go dona), agus is é 'scoth an réimse' an chuid is fearr de.
 - Féach chomh maith ar an téarma 'state of the art (best) / scoth an réimse'.
 - Féach chomh maith ar an téarma 'state of the art (the literature) / litríocht an réimse'.
+
+
+#### stór (cóid) (ainmfhocal): repository<br>
+*Sainmhíniú (ga):* I gcomhthéacs ríomheolaíochta, suíomh ar líne (.i. GitHub) nó fillteán logánta ar ríomhaire (.i. fillteán .git/) bhfuil cód, agus an stair ar fad a bhaineann le sean-leaganacha de, stóráilte.
+<br>
+*Sainmhíniú (en):* In the context of computer science, an online site (i.e. GitHub) or local folder on a computer (i.e. a .git/ folder) in which code, and the full history of previous versions of it, are stored.
+
+*Tagairtí:*
+- stór: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
+- cód: féach ar an téarma 'code / cód'
+
+*Nótaí Aistriúcháin:*
+- Téarma díreach ar fáil le brí chomhchosúil (ach i gcomhthéacs níos leithe) I bhFoclóir De Bhaldraithe, bíonn an téarma 'stór eolais' luaite, rud a chuireann in iúl go bhfuil bunús leis an úsáid seo chun sórt stóir (nach bhfuil fisiceach) a chur in iúl.
+- Is focal an-choitianta sa nGaeilge é 'stór', nach ionann agus 'repository' (nach mbíonn úsáidte i mBéarla ach chun trácht a dhéanamh ar stór cóid). Mar sin, muna bhfuil an comhthéacs soiléir, moltar 'stór cóid' a úsáid chun an bhrí atá i gceist anseo a shainmhíniú ar an gcéad úsáid.
+- Féach chomh maith ar an téarma 'code / cód'.
 
 
 #### struchtúr (ainmfhocal): structure<br>
