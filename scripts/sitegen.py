@@ -184,7 +184,6 @@ def gen_term_page(term, prev_term_id, next_term_id):
             <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
             <title>{term["term"]} | {term["citation-form"]}</title>
             <link rel="stylesheet" href="/css/gnath.css">
-            <link rel="icon" type="image/x-icon" href="/images/favicon.svg">
             <!-- function to allow loading from another HTML file
             see: https://stackoverflow.com/questions/8988855/include-another-html-file-in-a-html-file -->
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
@@ -359,7 +358,6 @@ def gen_index(terms, version):
             <meta property="og:image" content="/images/site.png" />
             <title>Foclóir Tráchtais</title>
             <link rel="stylesheet" href="/css/gnath.css">
-            <link rel="icon" type="image/x-icon" href="/images/favicon.svg">
             <!-- function to allow loading from another HTML file
             see: https://stackoverflow.com/questions/8988855/include-another-html-file-in-a-html-file -->
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
