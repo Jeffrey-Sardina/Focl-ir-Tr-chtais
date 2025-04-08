@@ -176,8 +176,8 @@
 | message passing                        | seachadadh teachtaireachtaí              |
 | metric                                 | tomhas                                   |
 | minimum                                | íosluach                                 |
-| model                                  | samhail                                  |
 | to model                               | samhlaigh                                |
+| model                                  | samhail                                  |
 | modular                                | modúlach                                 |
 | module                                 | modúl                                    |
 | n-shot                                 | n-sonra                                  |
@@ -265,13 +265,13 @@
 | rule-based                             | bunaithe ar rialacha                     |
 | to run                                 | cuir ar siúl                             |
 | running                                | ar siúl                                  |
-| sample                                 | sampla                                   |
 | to sample                              | sampláil                                 |
+| sample                                 | sampla                                   |
 | sampler                                | samplóir                                 |
 | scalar                                 | scálach                                  |
 | scatter plot (or diagram)              | scaipléaráid                             |
-| score                                  | scór                                     |
 | to score                               | scóráil                                  |
+| score                                  | scór                                     |
 | scoring function                       | feidhm scórála                           |
 | self-supervised                        | faoi fhéin-mhaoirseacht                  |
 | semantics                              | séimeantaic                              |
@@ -316,8 +316,8 @@
 | training loop                          | timthriall traenála                      |
 | training set                           | tacar traenála                           |
 | transfer learning                      | tras-fhoghlaim                           |
-| to transform                           | trasfhoirmigh                            |
 | transform                              | trasfhoirm                               |
+| to transform                           | trasfhoirmigh                            |
 | transformation                         | trasfhoirmiú                             |
 | transitive                             | aistreach                                |
 | triple                                 | abairt thriarach                         |
@@ -2703,18 +2703,6 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 - Téarma luaite mar théarma matamaitice i bhFoclóir Uí Dhónaill agus i bhFoclóir De Bhaldraithe. Luaitear é (gan chomhthéacs) chomh maith i bhFoclóir Uí Dhónaill agus Uí Mhaoileoin. Tá an dá chuid den téarma seo luaite le bríonna comhchosúla chomh maith sna foclóirí eile thuas.
 
 
-#### model (ainmfhocal): samhail<br>
-*Sainmhíniú (ga):* I gcomhthéacs ríomhfhoghlama, réad matamaiticiúil a úsáideann cur chuige bunaithe ar calcalas chun tasc ríomhfhoghlama a chur i gcrích. I gcomhthéacs sonraí, an fhormáid agus struchtúr ina bhfuil siad léirithe (m.sh. i ngraf nó i dtábla), agus cé chaoi go sonrach atá na sonraí curtha ann (.i. ointeolaíocht graif nó lipéad na gcolún i dtábla).
-<br>
-*Sainmhíniú (en):* In the context of machine learning, a mathematical object that uses a calculus-based approach to solve a machine learning task. In the context of data, the format or structure in which it is contained (ex. in a graph or in a table), as well as precisely how the data is put in it (i.e. the graph's ontology, or the column labels in a table).
-
-*Tagairtí:*
-- samhail: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977), Williams et al. (2023)
-
-*Nótaí Aistriúcháin:*
-- Ní luann foclóir ar bith an téarma seo i gcomhthéacs ríomheolaíochta, ach i gcomhthéacs eile ina bhfuil 'samhail' cosúil le 'cóip' nó le 'cosúlacht'. Sin ráite, tá an bhrí sin oiriúnach don úsáid seo -- cé nach cóip í, bíonn an tsamhail ríomheolaíochta ag iarraidh aschur feidhme matamaiticiúla a réamhinsint go díreach; sin le rá, a chóipeáil.
-
-
 #### to model (ainmfhocal): samhlaigh<br>
 *Sainmhíniú (ga):* Samhail ríomhfhoghlama nó staitistiúil a chruthú, nó samhail shonraí a chruthú.
 <br>
@@ -2726,6 +2714,18 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 *Nótaí Aistriúcháin:*
 - Is i gcomhthéacs smaointeoireachta a luaitear an focal 'samhlaigh', seachas i gcomhthéacs ríomhaireachta / matamaitice, sna foclóirí thuas. Ach toisc go nglactar le 'samhail' i gcomhthéacs ríomhfhoghlama sa bhfoclóir seo, glactar leis an mbriathar 'samhlaigh' chomh maith.
 - Féach chomh maith ar an téarma 'model / samhail'.
+
+
+#### model (ainmfhocal): samhail<br>
+*Sainmhíniú (ga):* I gcomhthéacs ríomhfhoghlama, réad matamaiticiúil a úsáideann cur chuige bunaithe ar calcalas chun tasc ríomhfhoghlama a chur i gcrích. I gcomhthéacs sonraí, an fhormáid agus struchtúr ina bhfuil siad léirithe (m.sh. i ngraf nó i dtábla), agus cé chaoi go sonrach atá na sonraí curtha ann (.i. ointeolaíocht graif nó lipéad na gcolún i dtábla).
+<br>
+*Sainmhíniú (en):* In the context of machine learning, a mathematical object that uses a calculus-based approach to solve a machine learning task. In the context of data, the format or structure in which it is contained (ex. in a graph or in a table), as well as precisely how the data is put in it (i.e. the graph's ontology, or the column labels in a table).
+
+*Tagairtí:*
+- samhail: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977), Williams et al. (2023)
+
+*Nótaí Aistriúcháin:*
+- Ní luann foclóir ar bith an téarma seo i gcomhthéacs ríomheolaíochta, ach i gcomhthéacs eile ina bhfuil 'samhail' cosúil le 'cóip' nó le 'cosúlacht'. Sin ráite, tá an bhrí sin oiriúnach don úsáid seo -- cé nach cóip í, bíonn an tsamhail ríomheolaíochta ag iarraidh aschur feidhme matamaiticiúla a réamhinsint go díreach; sin le rá, a chóipeáil.
 
 
 #### modular (aidiacht): modúlach<br>
@@ -3802,16 +3802,16 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 
 
 #### repository (ainmfhocal): stór (cóid)<br>
-*Sainmhíniú (ga):* I gcomhthéacs ríomheolaíochta, suíomh ar líne (.i. GitHub) nó fillteán logánta ar ríomhaire (.i. fillteán .git/) bhfuil cód, agus an stair ar fad a bhaineann le sean-leaganacha de, stóráilte.
+*Sainmhíniú (ga):* I gcomhthéacs ríomheolaíochta, suíomh ar líne (.i. GitHub) nó fillteán logánta ar ríomhaire (.i. fillteán .git/) a bhfuil cód, agus stair na sean-leaganacha de, stóráilte.
 <br>
-*Sainmhíniú (en):* In the context of computer science, an online site (i.e. GitHub) or local folder on a computer (i.e. a .git/ folder) in which code, and the full history of previous versions of it, are stored.
+*Sainmhíniú (en):* In the context of computer science, an online site (i.e. GitHub) or local folder on a computer (i.e. a .git/ folder) in which code, and the history of its previous versions, are stored.
 
 *Tagairtí:*
 - stór: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
 - cód: féach ar an téarma 'code / cód'
 
 *Nótaí Aistriúcháin:*
-- Téarma díreach ar fáil le brí chomhchosúil (ach i gcomhthéacs níos leithe) I bhFoclóir De Bhaldraithe, bíonn an téarma 'stór eolais' luaite, rud a chuireann in iúl go bhfuil bunús leis an úsáid seo chun sórt stóir (nach bhfuil fisiceach) a chur in iúl.
+- Téarma díreach ar fáil le brí chomhchosúil (ach i gcomhthéacs níos leithe). Luann Foclóir De Bhaldraithe téarma 'stór eolais', rud a chuireann in iúl go bhfuil bunús leis an úsáid seo le sórt stóir (nach bhfuil fisiceach) a chur in iúl.
 - Is focal an-choitianta sa nGaeilge é 'stór', nach ionann agus 'repository' (nach mbíonn úsáidte i mBéarla ach chun trácht a dhéanamh ar stór cóid). Mar sin, muna bhfuil an comhthéacs soiléir, moltar 'stór cóid' a úsáid chun an bhrí atá i gceist anseo a shainmhíniú ar an gcéad úsáid.
 - Féach chomh maith ar an téarma 'code / cód'.
 
@@ -3916,19 +3916,6 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 
 
 ### S
-#### sample (ainmfhocal): sampla<br>
-*Sainmhíniú (ga):* Sonra a thógtar as dáileadh staitistiúil nó as próiseas randamach.
-<br>
-*Sainmhíniú (en):* A data point that is taken from a statistical distribution or random process.
-
-*Tagairtí:*
-- sampla: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977), Williams et al. (2023)
-
-*Nótaí Aistriúcháin:*
-- Tá an téarma seo (i gcomhthéacs comhchosúil ach níos leithne) díreach ar fáil ó na foclóirí thuas.
-- Luann Stórchiste 'sampla' mar théarma matamaitice.
-
-
 #### to sample (briathar): sampláil<br>
 *Sainmhíniú (ga):* Sampla a thógáil.
 <br>
@@ -3940,6 +3927,19 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 *Nótaí Aistriúcháin:*
 - Tá an téarma seo (i gcomhthéacs comhchosúil ach níos leithne) díreach ar fáil ó na foclóirí thuas.
 - Úsáideann Stórchiste 'sampláil' mar théarma matamaitice.
+
+
+#### sample (ainmfhocal): sampla<br>
+*Sainmhíniú (ga):* Sonra a thógtar as dáileadh staitistiúil nó as próiseas randamach.
+<br>
+*Sainmhíniú (en):* A data point that is taken from a statistical distribution or random process.
+
+*Tagairtí:*
+- sampla: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977), Williams et al. (2023)
+
+*Nótaí Aistriúcháin:*
+- Tá an téarma seo (i gcomhthéacs comhchosúil ach níos leithne) díreach ar fáil ó na foclóirí thuas.
+- Luann Stórchiste 'sampla' mar théarma matamaitice.
 
 
 #### sampler (ainmfhocal): samplóir<br>
@@ -3983,18 +3983,6 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 - Luann roinnt foclóirí thuas an téarma 'scaip' mar fhocal ar 'to scatter', ach ní luann siad 'scaipléaráid', ní ná luann siad 'scaip' mar réimír.
 
 
-#### score (ainmfhocal): scór<br>
-*Sainmhíniú (ga):* Uimhir a dhéanann cur síos ar cé chomh maith is atá rud (m.sh. cruinneas samhla foghlama).
-<br>
-*Sainmhíniú (en):* A number describing how good something is (such as the accuracy of a machine learning model).
-
-*Tagairtí:*
-- scór: De Bhaldraithe (1978), Ó Dónaill (1977)
-
-*Nótaí Aistriúcháin:*
-- I gcomhthéacs cluichí a fheictear 'scóráil' úsáidte i bhFoclóir Uí Dhónaill, seachas i gcomhthéacs ríomhaireachta. Sin ráite tá an bhrí chéanna leis an bhfocal 'scór' sa gcomhthéacs sin.
-
-
 #### to score (briathar): scóráil<br>
 *Sainmhíniú (ga):* Scór a thabhairt do rud (m.sh. samhail ríomhfhoghlama).
 <br>
@@ -4006,6 +3994,18 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 *Nótaí Aistriúcháin:*
 - I gcomhthéacs cluichí a fheictear 'scóráil' úsáidte i bhFoclóir Uí Dhónaill, seachas i gcomhthéacs ríomhaireachta. Sin ráite tá an bhrí chéanna leis an bhfocal 'scór' sa gcomhthéacs sin.
 - Féach chomh maith ar an téarma 'score / scór'.
+
+
+#### score (ainmfhocal): scór<br>
+*Sainmhíniú (ga):* Uimhir a dhéanann cur síos ar cé chomh maith is atá rud (m.sh. cruinneas samhla foghlama).
+<br>
+*Sainmhíniú (en):* A number describing how good something is (such as the accuracy of a machine learning model).
+
+*Tagairtí:*
+- scór: De Bhaldraithe (1978), Ó Dónaill (1977)
+
+*Nótaí Aistriúcháin:*
+- I gcomhthéacs cluichí a fheictear 'scóráil' úsáidte i bhFoclóir Uí Dhónaill, seachas i gcomhthéacs ríomhaireachta. Sin ráite tá an bhrí chéanna leis an bhfocal 'scór' sa gcomhthéacs sin.
 
 
 #### scoring function (ainmfhocal): feidhm scórála<br>
@@ -4622,18 +4622,6 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 - Luann Téarma.ie an téarma 'traschur' mar 'transfer'. Sin ráite, níl an téarma sin le feiceáil i bhFoclóir Uí Dhónaill, i bhFoclóir Uí Dhuinín, i bhFoclóir Uí Dhónaill agus Uí Mhaoileoin, ná i bhFoclóir De Bhaldraithe. Ní ghlactar leis sin mar sin.
 
 
-#### to transform (briathar): trasfhoirmigh<br>
-*Sainmhíniú (ga):* I gcomhthéacs matamaitice, sonraí a athrú le feidhm éigin (mar shampla, chun iad a chuimsiú ar eatramh éigin).
-<br>
-*Sainmhíniú (en):* In the context of mathematics, to change data according to some function (for example, to bound them on a given interval).
-
-*Tagairtí:*
-- trasfhoirmigh: Williams et al. (2023)
-
-*Nótaí Aistriúcháin:*
-- Téarma díreach ar fáil ó Stórchiste i gcomhthéacs matamaitice.
-
-
 #### transform (ainmfhocal): trasfhoirm<br>
 *Sainmhíniú (ga):* I gcomhthéacs matamaitice, feidhm a úsáidtear chun trasfhoirmiú a chur i gcrích.
 <br>
@@ -4645,6 +4633,18 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 *Nótaí Aistriúcháin:*
 - Téarma díreach ar fáil ó Stórchiste i gcomhthéacs matamaitice.
 - Féach chomh maith ar an téarma 'to transform / trasfhoirmigh'.
+
+
+#### to transform (briathar): trasfhoirmigh<br>
+*Sainmhíniú (ga):* I gcomhthéacs matamaitice, sonraí a athrú le feidhm éigin (mar shampla, chun iad a chuimsiú ar eatramh éigin).
+<br>
+*Sainmhíniú (en):* In the context of mathematics, to change data according to some function (for example, to bound them on a given interval).
+
+*Tagairtí:*
+- trasfhoirmigh: Williams et al. (2023)
+
+*Nótaí Aistriúcháin:*
+- Téarma díreach ar fáil ó Stórchiste i gcomhthéacs matamaitice.
 
 
 #### transformation (ainmfhocal): trasfhoirmiú<br>
