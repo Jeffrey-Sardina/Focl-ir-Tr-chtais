@@ -1,0 +1,16 @@
+{
+    "term": "cross-attention",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "tras-aird",
+    "def-en": "An attention operation in which inputs come from different sources.",
+    "def-ga": "Oibriú airde ina dtagann an t-ionchur ar fad ó fhoinsí éagsúla.",
+
+    "prov": {
+        "tras-": "de-bhaldraithe, focloir-beag, odonaill, storchiste",
+        "aird": "féach ar an téarma 'attention / aird'"
+    },
+    "notes": [
+        "Luann Stórchiste 'tras-' mar 'cross-' i gcomhthéacs matamaitice. Sna foclóirí eile, is i gcomhthéacs níos leithne atá sé luaite.",
+        "Féach chomh maith ar an téarma 'attention / aird'."
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "term": "antecedent",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "réamhthéarma",
+    "def-en": "In the context of a logical rule A -> B, the term A that is the beginning of the rule.",
+    "def-ga": "I gcomhthéacs riail loighce A -> B, an téarma B atá mar thús ag an riail.",
+
+    "prov": {
+        "réamhthéarma": "de-bhaldraithe, odonaill"
+    },
+    "notes": [
+        "Téarma díreach ar fáil mar théarma loighce agus matamaitice ó Fhoclóir De Bhaldraithe agus ó Fhoclóir Uí Dhónaill."
+    ]
+}

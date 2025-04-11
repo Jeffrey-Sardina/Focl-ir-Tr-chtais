@@ -1,0 +1,14 @@
+{
+    "term": "motif",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "móitíf",
+    "def-en": "In the context of a graph, a structural apttern (espeically a small one) that repeats often in different parts of the graph.",
+    "def-ga": "I gcomhthéacs graif, patrún struchtúr (go háirithe ceann beag) a fheictear go minic i gcodanna ar leith den graf.",
+
+    "prov": {
+        "móitíf": "de-bhaldraithe, odonaill"
+    },
+    "notes": [
+        "Luann Foclóir De Bhaldraithe go leor téarma ar leith a chuireann 'motif' in iúl i nGaeilge: 'aontréith', 'príomhsmaoineamh', 'bunábhar (scéil)', agus 'móitíf'. Tá idir 'príomhsmaoineamh' agus 'móitíf' i bhFoclóir Uí Dhónaill. Níl 'príomhsmaoineamh' ná 'bunábhar (scéil)' oiriúnach do chomhthéacs na graf. Cé go mbaineann 'motif' le tréitheanna de ghraf, bíonn níos mó ná 'motif' amháin i ngach uile ghraf, agus bíonn an 'motif' amháin sin ath-úsaidte go minic sa ngraf céanna. Ní oireann an réimír 'aon-' leis an gcomhthéacs seo, mar sin. Thairis sin, ní ghlactar le 'tréith' toisc é a bfuil ró-leathan mar fhocal -- is iomaí tréitheanna atá ag graif nach 'motifs' iad. Ar deireadh, is cosúil go dtagann an focal 'móitíf' as an bhfocal Béarla 'motif', agus mar sin is dócha go bhfuil ciall chomhchosúil leith (cé nach mbíonn sé sainmhínithe sna foclóirí thuas). Glactar le 'móitíf' mar sin."
+    ]
+}

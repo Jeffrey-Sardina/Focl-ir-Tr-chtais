@@ -1,0 +1,18 @@
+{
+    "term": "attention mechanism",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "oibriú airde",
+    "def-en": "In the context of machine learning, the operations, used to implement an attention layer.",
+    "def-ga": "I gcomhthéacs ríomhfhoghlama, na hoibrithe a úsáidtear chun ciseal airde a chur i bhfeidhm.",
+
+    "prov": {
+        "oibriú": "féach ar an téarma 'operation / oibriú'",
+        "aird": "féach ar an téarma 'attention / aird'"
+    },
+    "notes": [
+        "Ní úsáidtear an focal 'meicníocht' (mar mar sin) anseo toisc é a bheith ró-litriúil. Ní bhaineann an téarma seo le meicníocht fhisiceach in aon chor. Ach ní mheastar gur ceart 'córas' a úsáid ach an oireadh -- ní bhíonn 'attention mechanism' ina 'attention system' agus ríomheolaithe á phlé. Toisc gur sórt oibrithe é 'attention mechainism', áfach, meastar go bhfuil ciall leis an bhfocal 'oibriú' a úsáid anseo.",
+        "Féach chomh maith ar an téarma 'operation / oibriú'.",
+        "Féach chomh maith ar an téarma 'attention / aird'.",
+        "Féach chomh maith ar an téarma 'attention layer / ciseal aird'."
+    ]
+}

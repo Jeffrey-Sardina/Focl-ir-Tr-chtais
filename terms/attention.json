@@ -1,0 +1,15 @@
+{
+    "term": "attention",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "aird",
+    "def-en": "In the context of machine learning, a mechanism that estimates the importance of every feature in a vector, so as to allow a machine learning model to focus on the most important features.",
+    "def-ga": "I gcomhthéacs ríomhfhoghlama, córas a dhéanann meastáchán ar thábhaacht gach uile airí i veicteoir, chun ligean do shamhail ríomhfhoghlama díriú ar an hairíonna is tábhachtaí ann.",
+
+    "prov": {
+        "aird": "de-bhaldraithe, dineen, focloir-beag, odonaill"
+    },
+    "notes": [
+        "Is é 'áird' seachas 'aird' atá i bhFoclóir Uí Dhuinín, ach glactar leis gurb in anfocal céanna.",
+        "Ní luaitear an focal seo i gcomhthéacs ríomhfhoghlama -- rud a bhfuil ciall leis, toisc gur coincheap nua go leor é. Sin ráite, cruthaíodh 'aird' i gcomthéacs ríomhfhoghlama chun a bheith cosúil leis an gcaoi ar fáidir le daoien aird a thabhairt ar rudaí mórthimpeall orthu. Toisc gurb in an bhrí dhíreach a ghabann le 'aird' i nGaeilge, meseat gurb é 'aird' an focal ceart chun é seo a chur in iúl."
+    ]
+}

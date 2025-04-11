@@ -1,0 +1,16 @@
+{
+    "term": "hyper-graph",
+    "part-of-speech": "anmfhocal",
+    "citation-form": "hipear-ghraf",
+    "def-en": "In the context of graphs, a grpah in which edges can connect 3+ nodes at once, instead of only two nodes.",
+    "def-ga": "I gcomhthéacs graf, graf inar feidir le ceangail 3+ nód a cheangal san am céanna, seachas dhá nód amháin.",
+
+    "prov": {
+        "hipear-": "odonaill",
+        "graf": "féach ar an téarma 'graph / graf'"
+    },
+    "notes": [
+        "Téarma cruthaithe go díreach as na fréamhacha thuas.",
+        "Féach chomh maith ar an téarma 'graph / graf'."
+    ]
+}

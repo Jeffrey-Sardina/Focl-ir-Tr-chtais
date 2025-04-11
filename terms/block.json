@@ -1,0 +1,15 @@
+{
+    "term": "block",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "modúl",
+    "def-en": "Part of a model or process that has a specific function and that can be used in other models or processes, without changing it, to do the same task.",
+    "def-ga": "Cuid de shamhail nó de phróiseas a bhfuil feidhm ar leith aige agus ar féidir é a úsáid i samhail nó i bpróiseas eile, gan é athrú, chun an tasc céanna a dhéanamh.",
+
+    "prov": {
+        "modúl":  "féach ar an téarma 'module / modúl'."
+    },
+    "notes": [
+        "Tá an téarma seo comhchiallach le 'modúl'.",
+        "Féach ar an téarma 'module / modúl'."
+    ]
+}

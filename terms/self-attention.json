@@ -1,0 +1,16 @@
+{
+    "term": "self-attention",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "féin-aird",
+    "def-en": "An attention operation in which all inputs come from the same source.",
+    "def-ga": "Oibriú airde ina dtagann an t-ionchur ar fad ón bhfoinse chéanna.",
+
+    "prov": {
+        "féin-": "de-bhaldraithe, dineen*, focloir-beag, odonaill",
+        "xxx": "de-bhaldraithe, dineen, focloir-beag, odonaill, storchiste"
+    },
+    "notes": [
+        "* Ní bhíonn 'féin-' luaite mar réimír i bhFoclóir Uí Dhuinín.",
+        "xxx."
+    ]
+}

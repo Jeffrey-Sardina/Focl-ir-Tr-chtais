@@ -1,0 +1,19 @@
+{
+    "term": "graph foundation model",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "samhail fhorais ghraf",
+    "def-en": "A foundation model built to solve diverse tasks on graphs.",
+    "def-ga": "Samhail fhorais a chruthaítear chun taisc éagsúla ar ghraif a chur i gcrích.",
+
+    "prov": {
+        "samhail": "féach ar an téarma 'model / samhail'",
+        "foras": "féach ar an téarma 'foundation model / samhail fhorais'",
+        "graf": "féach ar an téarma 'graph / graf'"
+    },
+    "notes": [
+        "Cuirtear 'graf' sa tuiseal ginideach iolra toisc gurb é an príomh-phointe atá le samhlacha forais graf ná go n-oibríonn siad go forleathan ar go leor graf ar leith.",
+        "Féach chomh maith ar an téarma 'model / samhail'",
+        "Féach chomh maith ar an téarma 'foundation model / samhail fhorais'.",
+        "féach chomh maith ar an téarma 'graph / graf'"
+    ]
+}
