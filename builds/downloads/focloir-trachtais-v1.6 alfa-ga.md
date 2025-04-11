@@ -102,8 +102,8 @@
 | dlús                                     | density                                |
 | dlúth                                    | dense                                  |
 | dóchúlacht                               | probability                            |
-| domhan                                   | universe                               |
 | domhan                                   | world                                  |
+| domhan                                   | universe                               |
 | éadlús                                   | sparsity                               |
 | éadlúth                                  | sparse                                 |
 | eangach hipear-pharaiméadar              | hyperparameter grid                    |
@@ -144,8 +144,8 @@
 | (frása le 'gaolmhar')                    | family                                 |
 | (frása le 'toise')                       | dimensionality                         |
 | fréamh randamach                         | random seed                            |
-| frith-shampla                            | counterexample                         |
 | frith-shampla                            | negative (sample)                      |
+| frith-shampla                            | counterexample                         |
 | frith-shampláil                          | negative sampling                      |
 | frith-shamplóir                          | negative sampler                       |
 | gan feiceáil                             | unseen                                 |
@@ -208,10 +208,10 @@
 | meán na ranganna deilíneacha (MRD)       | mean reciprocal rank (MRR)             |
 | meán- nó meánach                         | mean                                   |
 | meán-rang (MR)                           | mean rank (MR)                         |
-| meastachán                               | approximation                          |
+| meastachán                               | estimate                               |
 | meastachán a dhéanamh (ar)               | to approximate                         |
 | meastachán a dhéanamh (ar)               | to estimate (about)                    |
-| meastachán                               | estimate                               |
+| meastachán                               | approximation                          |
 | measúnaigh                               | to evaluate                            |
 | measúnú                                  | evaluation                             |
 | méid na mbaisceanna                      | batch size                             |
@@ -316,12 +316,12 @@
 | toipeolaíocht                            | topology                               |
 | toise                                    | dimension                              |
 | tomhais                                  | to measure                             |
-| tomhas                                   | measure                                |
 | tomhas                                   | metric                                 |
+| tomhas                                   | measure                                |
 | torann                                   | noise                                  |
 | torannach                                | noisy                                  |
-| traenáil                                 | to train                               |
 | traenáil                                 | training                               |
+| traenáil                                 | to train                               |
 | tras-eantrópacht                         | cross-entropy                          |
 | tras-fhoghlaim                           | transfer learning                      |
 | trasfhoirm                               | transform                              |
@@ -1654,18 +1654,6 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 - Seachas sin, tá an téarma seo ar fáil go díreach ó na foclóirí thuas.
 
 
-#### domhan (ainmfhocal): universe<br>
-*Sainmhíniú (ga):* I gcomhthéacs matamaitice, tacar formhór uilíoch ina bhfuil gach uile réad a bhaineann le réimse éigin ann.
-<br>
-*Sainmhíniú (en):* In the context of mathematics, a massive, global set in which all objects belonging to a given domain exist.
-
-*Tagairtí:*
-- domhan: féach ar an téarma 'world / domhan'
-
-*Nótaí Aistriúcháin:*
-- Féach ar an téarma 'world / domhan'.
-
-
 #### domhan (ainmfhocal): world<br>
 *Sainmhíniú (ga):* I gcomhthéacs matamaitice, tacar formhór uilíoch ina bhfuil gach uile réad a bhaineann le réimse éigin ann.
 <br>
@@ -1676,6 +1664,18 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 
 *Nótaí Aistriúcháin:*
 - I mBéarla, úsáidtear 'world' chun trácht ar 'the world of all possible facts / things / etc' -- sin le rá, chun trácht ar chuile fhíric / rud atá ann (i réimse éigin). Ní luaitear an bhrí seo go minic le 'domhain' i nGaeilge, ach tá brí chosúil go leor leis le feiceáil i bhFoclóir Uí Dhuinín: 'Slua, eolas, acmhainn, an domhain, vast crowd, knowledge, resources'. Is féidir nach téarma foirfe é seo -- ach ní léir go mbeadh téarma comhchiallach eile (m.sh. cruinne) níos fearr. Glactar leis mar sin.
+
+
+#### domhan (ainmfhocal): universe<br>
+*Sainmhíniú (ga):* I gcomhthéacs matamaitice, tacar formhór uilíoch ina bhfuil gach uile réad a bhaineann le réimse éigin ann.
+<br>
+*Sainmhíniú (en):* In the context of mathematics, a massive, global set in which all objects belonging to a given domain exist.
+
+*Tagairtí:*
+- domhan: féach ar an téarma 'world / domhan'
+
+*Nótaí Aistriúcháin:*
+- Féach ar an téarma 'world / domhan'.
 
 
 ### E
@@ -2240,20 +2240,6 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 - Féach chomh maith ar an téarma 'random / randamach'.
 
 
-#### frith-shampla (ainmfhocal): counterexample<br>
-*Sainmhíniú (ga):* Sonra a úsáidtear chun cur in iúl do shamhail ríomhaireachta rud atá mícheart nó nár cheart dó a fhoghlaim.
-<br>
-*Sainmhíniú (en):* A data point that is used to instruct a machine learning model about something that is incorrect or that should not be learned.
-
-*Tagairtí:*
-- frith-: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
-- sampla: féach ar an téarma 'sample / sampla'
-
-*Nótaí Aistriúcháin:*
-- Ní fheictear 'frith-shampla' i bhfoclóir ar bith, ach amháin an réimír 'firth-' agus focal 'sampla'.
-- Féach chomh maith ar an téarma 'negative (sample) / frith-shampla'.
-
-
 #### frith-shampla (ainmfhocal): negative (sample)<br>
 *Sainmhíniú (ga):* I gcomhthéacs graf eolais, abairt thriarach bhréagach a úsáidtear mar fhrith-shampla.
 <br>
@@ -2266,6 +2252,20 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 *Nótaí Aistriúcháin:*
 - Úsáidtear frith-shampla toisc gurb in, go díreach, a bhfuil i gceist sa gcás seo. Ní uimhir atá ann agus mar sin níl sé 'diúltach' in aon chor -- ina ainneoin sin, is sampla bréagach traenála é.
 - Féach chomh maith ar an téarma 'counterexample / frith-shampla'
+
+
+#### frith-shampla (ainmfhocal): counterexample<br>
+*Sainmhíniú (ga):* Sonra a úsáidtear chun cur in iúl do shamhail ríomhaireachta rud atá mícheart nó nár cheart dó a fhoghlaim.
+<br>
+*Sainmhíniú (en):* A data point that is used to instruct a machine learning model about something that is incorrect or that should not be learned.
+
+*Tagairtí:*
+- frith-: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
+- sampla: féach ar an téarma 'sample / sampla'
+
+*Nótaí Aistriúcháin:*
+- Ní fheictear 'frith-shampla' i bhfoclóir ar bith, ach amháin an réimír 'firth-' agus focal 'sampla'.
+- Féach chomh maith ar an téarma 'negative (sample) / frith-shampla'.
 
 
 #### frith-shampláil (ainmfhocal): negative sampling<br>
@@ -3132,16 +3132,21 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 - Féach chomh maith ar an téarma 'ranked list / liosta ranganna'.
 
 
-#### meastachán (ainmfhocal): approximation<br>
+#### meastachán (ainmfhocal): estimate<br>
 *Sainmhíniú (ga):* I gcomhthéacs matamaitice, luach a dhéanann cur síos cainníochtúil ar fheiniméan éigin, gan a bheith iomlán cruinn.
 <br>
 *Sainmhíniú (en):* In a mathematical context, a value that gives a quantitative description of some phenomenon, but which may not be entirely exact.
 
 *Tagairtí:*
-- meastachán: féach ar an téarma 'estimate / meastachán'
+- meastachán: De Bhaldraithe (1978), Ó Dónaill et al. (1991), Ó Dónaill (1977)
 
 *Nótaí Aistriúcháin:*
-- Féach ar an téarma 'estimate / meastachán'.
+- Téarma ar fáil mar téarma airgeadais / matamaitice ó na foclóirí thuas.
+- Is féidir 'tomhas' a úsáid chomh maith (go háirithe sa gcaint) chun brí chomhchosúil leis seo a chur in iúl. Cé is moite de sin, roghnaíodh 'meastachán' mar théarma dó seo chun idirdhealú léir a dhéanamh idir 'metric / tomhas' agus '\*estimate / tomhas'. Ar leibhéal neamh-fhoirmeálta, tá sé ceart go leor tomhas a úsáid leis an mbrí sin nuair is léir ón gcomhthéacs cén bhrí atá i gceist leis.
+- Nuair is meastachán míchruinn (nach ionann agus mícheart) atá i gceist, moltar an téarma 'garmheastachán' (de réir Fhoclóir Uí Dhónaill agus Fhoclóir De  Bhaldraithe).
+- Tá an téarma seo comhchiallach leis an téarma 'approximation / meastachán' sa gcomhthéacs matamaitice / ríomheolaíochta atá i gceist anseo.
+- Féach chomh maith ar an téarma 'approximation / meastachán'.
+- Féach chomh maith ar an téarma 'metric / tomhas'.
 
 
 #### meastachán a dhéanamh (ar) (ainmfhocal): to approximate<br>
@@ -3170,21 +3175,16 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 - Féach ar an téarma 'estimate / meastachán'.
 
 
-#### meastachán (ainmfhocal): estimate<br>
+#### meastachán (ainmfhocal): approximation<br>
 *Sainmhíniú (ga):* I gcomhthéacs matamaitice, luach a dhéanann cur síos cainníochtúil ar fheiniméan éigin, gan a bheith iomlán cruinn.
 <br>
 *Sainmhíniú (en):* In a mathematical context, a value that gives a quantitative description of some phenomenon, but which may not be entirely exact.
 
 *Tagairtí:*
-- meastachán: De Bhaldraithe (1978), Ó Dónaill et al. (1991), Ó Dónaill (1977)
+- meastachán: féach ar an téarma 'estimate / meastachán'
 
 *Nótaí Aistriúcháin:*
-- Téarma ar fáil mar téarma airgeadais / matamaitice ó na foclóirí thuas.
-- Is féidir 'tomhas' a úsáid chomh maith (go háirithe sa gcaint) chun brí chomhchosúil leis seo a chur in iúl. Cé is moite de sin, roghnaíodh 'meastachán' mar théarma dó seo chun idirdhealú léir a dhéanamh idir 'metric / tomhas' agus '\*estimate / tomhas'. Ar leibhéal neamh-fhoirmeálta, tá sé ceart go leor tomhas a úsáid leis an mbrí sin nuair is léir ón gcomhthéacs cén bhrí atá i gceist leis.
-- Nuair is meastachán míchruinn (nach ionann agus mícheart) atá i gceist, moltar an téarma 'garmheastachán' (de réir Fhoclóir Uí Dhónaill agus Fhoclóir De  Bhaldraithe).
-- Tá an téarma seo comhchiallach leis an téarma 'approximation / meastachán' sa gcomhthéacs matamaitice / ríomheolaíochta atá i gceist anseo.
-- Féach chomh maith ar an téarma 'approximation / meastachán'.
-- Féach chomh maith ar an téarma 'metric / tomhas'.
+- Féach ar an téarma 'estimate / meastachán'.
 
 
 #### measúnaigh (briathar): to evaluate<br>
@@ -4335,16 +4335,16 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 
 
 #### stór (cóid) (ainmfhocal): repository<br>
-*Sainmhíniú (ga):* I gcomhthéacs ríomheolaíochta, suíomh ar líne (.i. GitHub) nó fillteán logánta ar ríomhaire (.i. fillteán .git/) bhfuil cód, agus an stair ar fad a bhaineann le sean-leaganacha de, stóráilte.
+*Sainmhíniú (ga):* I gcomhthéacs ríomheolaíochta, suíomh ar líne (.i. GitHub) nó fillteán logánta ar ríomhaire (.i. fillteán .git/) a bhfuil cód, agus stair na sean-leaganacha de, stóráilte.
 <br>
-*Sainmhíniú (en):* In the context of computer science, an online site (i.e. GitHub) or local folder on a computer (i.e. a .git/ folder) in which code, and the full history of previous versions of it, are stored.
+*Sainmhíniú (en):* In the context of computer science, an online site (i.e. GitHub) or local folder on a computer (i.e. a .git/ folder) in which code, and the history of its previous versions, are stored.
 
 *Tagairtí:*
 - stór: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
 - cód: féach ar an téarma 'code / cód'
 
 *Nótaí Aistriúcháin:*
-- Téarma díreach ar fáil le brí chomhchosúil (ach i gcomhthéacs níos leithe) I bhFoclóir De Bhaldraithe, bíonn an téarma 'stór eolais' luaite, rud a chuireann in iúl go bhfuil bunús leis an úsáid seo chun sórt stóir (nach bhfuil fisiceach) a chur in iúl.
+- Téarma díreach ar fáil le brí chomhchosúil (ach i gcomhthéacs níos leithe). Luann Foclóir De Bhaldraithe téarma 'stór eolais', rud a chuireann in iúl go bhfuil bunús leis an úsáid seo le sórt stóir (nach bhfuil fisiceach) a chur in iúl.
 - Is focal an-choitianta sa nGaeilge é 'stór', nach ionann agus 'repository' (nach mbíonn úsáidte i mBéarla ach chun trácht a dhéanamh ar stór cóid). Mar sin, muna bhfuil an comhthéacs soiléir, moltar 'stór cóid' a úsáid chun an bhrí atá i gceist anseo a shainmhíniú ar an gcéad úsáid.
 - Féach chomh maith ar an téarma 'code / cód'.
 
@@ -4612,18 +4612,6 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 - Féach ar an téarma 'metric / tomhas'.
 
 
-#### tomhas (ainmfhocal): measure<br>
-*Sainmhíniú (ga):* I gcomhthéacs matamaitice, luach a dhéanann cur síos cainníochtúil ar shonraí nó ar fheiniméan éigin, go háirithe nuair atá sé úsáidte chun dhá shraith sonraí / dhá fheiniméan chur i gcomparáid lena chéile.
-<br>
-*Sainmhíniú (en):* In a mathematical context, a value that gives a quantitative description of data or some phenomenon, especially when used to compare two such data sets or phenomenons.
-
-*Tagairtí:*
-- tomhas: féach ar an téarma 'metric / tomhas'
-
-*Nótaí Aistriúcháin:*
-- Féach ar an téarma 'metric / tomhas'.
-
-
 #### tomhas (ainmfhocal): metric<br>
 *Sainmhíniú (ga):* I gcomhthéacs matamaitice, luach a dhéanann cur síos cainníochtúil ar shonraí nó ar fheiniméan éigin, go háirithe nuair atá sé úsáidte chun dhá shraith sonraí / dhá fheiniméan chur i gcomparáid lena chéile.
 <br>
@@ -4635,6 +4623,18 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 *Nótaí Aistriúcháin:*
 - Tá an téarma seo comhchiallach leis an téarma 'measure / tomhas' sa gcomhthéacs matamaitice / ríomheolaíochta atá i gceist anseo.
 - Féach chomh maith ar an téarma 'measure / tomhas'.
+
+
+#### tomhas (ainmfhocal): measure<br>
+*Sainmhíniú (ga):* I gcomhthéacs matamaitice, luach a dhéanann cur síos cainníochtúil ar shonraí nó ar fheiniméan éigin, go háirithe nuair atá sé úsáidte chun dhá shraith sonraí / dhá fheiniméan chur i gcomparáid lena chéile.
+<br>
+*Sainmhíniú (en):* In a mathematical context, a value that gives a quantitative description of data or some phenomenon, especially when used to compare two such data sets or phenomenons.
+
+*Tagairtí:*
+- tomhas: féach ar an téarma 'metric / tomhas'
+
+*Nótaí Aistriúcháin:*
+- Féach ar an téarma 'metric / tomhas'.
 
 
 #### torann (ainmfhocal): noise<br>
@@ -4663,18 +4663,6 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 - Féach ar an téarma 'noise / torann'.
 
 
-#### traenáil (briathar): to train<br>
-*Sainmhíniú (ga):* Próiseas traenála a dhéanamh ar shamhail ríomhfhoghlama.
-<br>
-*Sainmhíniú (en):* To perform training on a machine learning model.
-
-*Tagairtí:*
-- traenáil: féach ar an téarma 'training / traenáil'
-
-*Nótaí Aistriúcháin:*
-- Féach ar an téarma 'training / traenáil'
-
-
 #### traenáil (ainmfhocal): training<br>
 *Sainmhíniú (ga):* An próiseas a bhaineann le feabhsú samhla ríomhfhoghlama trí shonraí a thabhairt di.
 <br>
@@ -4686,6 +4674,18 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 *Nótaí Aistriúcháin:*
 - Ní bhíonn an téarma seo luaite i gcomhthéacs ríomhaireachta sna foclóirí thuas. Cé is moite de sin, luaitear é i gcomhthéacs cosúil go leor (.i. ainmhí nó duine a thraenáil).
 - Tá 'oiliúint' ar Téarma.ie, ach ní ghlactar leis an téarma sin. De réir Fhoclóir Uí Dhónaill, bíonn tréitheanna níos daonna ag baint le hoiliúint seachas le traenáil. Thairis sin, is minic agus “oilte” úsáidte chun “skilled” a chur in iúl -- ach ní hionann samhail ríomhfhoghlama a bheith traenáilte agus scil ar bith a bheith aici -- teipeann ar an bpróiseas traenála torthaí maithe a fháil go minic. Ní bhíonn an chlaontacht sin ag baint le 'traenáil', agus glactar leis mar sin.
+
+
+#### traenáil (briathar): to train<br>
+*Sainmhíniú (ga):* Próiseas traenála a dhéanamh ar shamhail ríomhfhoghlama.
+<br>
+*Sainmhíniú (en):* To perform training on a machine learning model.
+
+*Tagairtí:*
+- traenáil: féach ar an téarma 'training / traenáil'
+
+*Nótaí Aistriúcháin:*
+- Féach ar an téarma 'training / traenáil'
 
 
 #### tras-eantrópacht (ainmfhocal): cross-entropy<br>
