@@ -29,3 +29,5 @@ attention-head.json
 multi-headed-attention.json
 classifier.json
 regressor.json
+support-vector-classifier.json
+support-vector-regressor.json

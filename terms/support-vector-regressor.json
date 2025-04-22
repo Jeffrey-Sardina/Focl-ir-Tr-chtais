@@ -1,0 +1,18 @@
+{
+    "term": "support vector regressor",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "cúlaitheoir bunaithe ar veicteoirí tacaíochta",
+    "def-en": "A support vector machine used to perform regression.",
+    "def-ga": "Samhail veicteoirí tacaíochta a úsáidtear chun cúlú a chur i gcrích.",
+
+    "prov": {
+        "cúlaitheoir": "féach ar an téarma 'regressor / cúlaitheoir'",
+        "veicteoir tacaíochta": "féach ar an téarma 'support vector / veicteoir tacaíochta'."
+    },
+    "notes": [
+        "Níor cheart 'cúlaitheoir veicteoirí tacaíochta' a úsáid toisc go gcuirfeadh sé sin in iúl gurb in an aidhm atá ag an gcúlaitheoir ná cúlú a dhéanamh ar veicteoirí tacaíochta (amháin), seachas cúlú a chur chun cinn trí díriú go géar ar veicteoirí tacaíochta.",
+        "Féach chomh maith ar an téarma 'regressor / cúlaitheoir'.",
+        "Féach chomh maith ar an téarma 'support vector / veicteoir tacaíochta'.",
+        "Féach chomh maith ar an téarma 'support vector machine (SVM) / samhail (bunaithe ar) veicteoirí tacaíochta (SVT)'."
+    ]
+}

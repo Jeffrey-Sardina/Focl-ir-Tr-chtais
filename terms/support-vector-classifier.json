@@ -1,0 +1,18 @@
+{
+    "term": "support vector classifier",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "aicmitheoir bunaithe ar veicteoirí tacaíochta",
+    "def-en": "A support vector machine used to perform classification.",
+    "def-ga": "Samhail veicteoirí tacaíochta a úsáidtear chun aicmiú a chur i gcrích.",
+
+    "prov": {
+        "aicmitheoir": "féach ar an téarma 'classifier / aicmitheoir'",
+        "veicteoir tacaíochta": "féach ar an téarma 'support vector / veicteoir tacaíochta'."
+    },
+    "notes": [
+        "Níor cheart 'aicmitheoir veicteoirí tacaíochta' a úsáid toisc go gcuirfeadh sé sin in iúl gurb in an aidhm atá ag an aicmitheoir ná veicteoirí tacaíochta (amháin) a aicmiú, seachas aicmiú a chur chun cinn trí díriú go géar ar veicteoirí tacaíochta.",
+        "Féach chomh maith ar an téarma 'classifier / aicmitheoir'.",
+        "Féach chomh maith ar an téarma 'support vector / veicteoir tacaíochta'.",
+        "Féach chomh maith ar an téarma 'support vector machine (SVM) / samhail (bunaithe ar) veicteoirí tacaíochta (SVT)'."
+    ]
+}
