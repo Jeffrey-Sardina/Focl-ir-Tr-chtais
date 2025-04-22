@@ -1,0 +1,16 @@
+{
+    "term": "support vector",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "veicteoir tacaíochta",
+    "def-en": "In the context of machine learning, a vector that is very close to the decision boundary.",
+    "def-ga": "I gcomhthéacs ríomhfhoghlama, veicteoir atá an-ghar don teoirann chinnidh.",
+
+    "prov": {
+        "veicteoir": "féach ar an téarma 'vector / veicteoir'",
+        "tacaíocht": "de-bhaldraithe, focloir-beag, odonaill"
+    },
+    "notes": [
+        "Tá an iliomad focal ar féidir iad a úsáid chun 'support' a chur in iúl. Níl an focal 'support' ina théarma sainmhínithe anseo -- ní coincheap casta atá ann, ach ráiteas simplí gur féidir 'suppot vectors' a úsáid chun tacú leis an bpróiseas foghlama. Úsáidtear 'tacaíocht' toisc go bhfuil sé soiléir (agus ginearálta) mar théarma, rud a luíonn leis an gcomhthéacs atá i gceist anseo.",
+        "Féach chomh maith ar an téarma 'vector / veicteoir'."
+    ]
+}
