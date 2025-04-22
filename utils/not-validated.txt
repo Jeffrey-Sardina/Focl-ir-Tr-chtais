@@ -1,2 +1,0 @@
-support-vector-classifier.json
-support-vector-regressor.json
