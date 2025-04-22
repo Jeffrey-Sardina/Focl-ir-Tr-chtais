@@ -2,7 +2,7 @@
     "term": "reification",
     "part-of-speech": "ainmfhocal",
     "citation-form": "tearcú",
-    "def-en": "In the context of graphs, the process relating to tranforming a hyper-graph (or other graph in which labels are present that cannot be written as simple triples) into a simpler format composed of only triples. To do this, $n$ triples are created out of every atomic unit of the hyper-graph, which generally results in th reified grpah being more sparse than the hyper-graph from which it was made.",
+    "def-en": "In the context of graphs, the process relating to transforming a hyper-graph (or other graph in which labels are present that cannot be written as simple triples) into a simpler format composed of only triples. To do this, $n$ triples are created out of every atomic unit of the hyper-graph, which generally results in th reified graph being more sparse than the hyper-graph from which it was made.",
     "def-ga": "I gcomhthéacs graf, an próiseas a bhaineann le hipear-graif (nó le graif eile a bhfuil lipéidí ann nach féidir iad a scríobh go nádúrtha mar abairtí triaracha) a chur i gcruth níos simplaí gan ann ach abairtí triaracha. Chun é seo a dhéanamh, déantar $n$ abairt thriarach as gan aon chuid adamhach den hipear-ghraif, rud a fhágann den chuid is mó go mbíonn an graf REIFIEd níos éadlúithe ná an hipear-ghraif as a gcruthaíodh é.",
 
     "prov": {

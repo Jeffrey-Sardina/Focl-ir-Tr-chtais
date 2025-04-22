@@ -1,5 +1,5 @@
 v1.7 alfa to v1.7
-- XX new terms (now is XX, was 333 terms)
+- 28 new terms (now is 361, was 333 terms)
 - general corrections to spelling and grammar
 
 v1.5 / 1.6 alfa to 1.6
