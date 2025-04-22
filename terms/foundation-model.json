@@ -3,14 +3,14 @@
     "part-of-speech": "ainmfhocal",
     "citation-form": "samhail fhorais",
     "def-en": "In the context of computer science, a machine learning model that can be used as the foundation of learning in a broad domain, and which is applied in the transfer learning setting to do so.",
-    "def-ga": "I gcomhthéacs ríomheolaíochta, samhhail ríomhfhoghlama ar féidir í a úsáid mar fhoras foghlama i réimse leathan, agus a mbíonn cur chuige tras-fhoghlama bunaithe uirthi chuige sin.",
+    "def-ga": "I gcomhthéacs ríomheolaíochta, samhail ríomhfhoghlama ar féidir í a úsáid mar fhoras foghlama i réimse leathan, agus a mbíonn cur chuige tras-fhoghlama bunaithe uirthi chuige sin.",
 
     "prov": {
         "foras": "dineen, focloir-beag, odonaill",
         "samhail": "féach ar an téarma 'model / samhail'"
     },
     "notes": [
-        "Cé go bhfuil an focal 'foras' i bhFoclór De Bhaldraithe, is le brí ar leith atá sé luaite ann. Sna foclóirí eile, is leis am mbrí chéanna (i gcomhthéacs níos leithne) atá sé luaite.",
+        "Cé go bhfuil an focal 'foras' i bhFoclóir De Bhaldraithe, is le brí ar leith atá sé luaite ann. Sna foclóirí eile, is leis am mbrí chéanna (i gcomhthéacs níos leithne) atá sé luaite.",
         "Féach chomh maith ar an téarma 'model / samhail'."
     ]
 }
