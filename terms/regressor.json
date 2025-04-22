@@ -1,0 +1,15 @@
+{
+    "term": "regressor",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "cúlaitheoir",
+    "def-en": "In the context of machine learning, a model that performs regression.",
+    "def-ga": "I gcomhthéacs ríomhfhoghlama, samhail a chuireann cúlú i gcrích.",
+
+    "prov": {
+        "cúlaigh": "féach ar an téarma 'to regress / cúlaigh'",
+        "-eoir": "de-bhaldraithe, dineen, focloir-beag, odonaill, storchiste"
+    },
+    "notes": [
+        "Níl iontráil ar leith ag an iarmhír '-eoir' sna foclóirí thuas, ach luann siad uilig go leor focal a úsáideann an an iarmhír seo díreach mar a úsáidtear anseo."
+    ]
+}

@@ -22,3 +22,5 @@ support-vector.json
 decision-boundary.json
 attention-head.json
 multi-headed-attention.json
+classifier.json
+regressor.json

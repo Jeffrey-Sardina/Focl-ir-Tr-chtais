@@ -1,0 +1,17 @@
+{
+    "term": "to regress",
+    "part-of-speech": "briathar",
+    "citation-form": "cúlaigh",
+    "def-en": "In the context of machine learning, to perform regression.",
+    "def-ga": "I gcomhthéacs ríomhfhoghlama, cúlú a chur i gcrích.",
+
+    "prov": {
+        "cúlaigh": "de-bhaldraithe, focloir-beag, odonaill",
+        "cúlú": "féach ar an téarma 'regression / cúlú'"
+    },
+    "notes": [
+        "Is é 'cúlú' seachas 'cúlaigh' atá i bhFoclóir Uí Dhónaill agus Uí Mhaoileoin.",
+        "Ní luann foclóir ar bith thuas an focal 'cúlaigh' i gcomhthéacs matamaitice, ach is é 'cúlú' atá luaite i gcomhthéacs matamaitice chun 'regression' a chur in iúl. Glactar le 'cúlaigh' mar sin.",
+        "Féach chomh maith ar an téarma 'regression / cúlú'."
+    ]
+}

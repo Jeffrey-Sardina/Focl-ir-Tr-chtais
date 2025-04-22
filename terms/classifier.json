@@ -1,0 +1,15 @@
+{
+    "term": "classifier",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "aicmitheoir",
+    "def-en": "In the context of machine learning, a model that performs classification.",
+    "def-ga": "I gcomhthéacs ríomhfhoghlama, samhail a chuireann aicmiú i gcrích.",
+
+    "prov": {
+        "aicmigh": "féach ar an téarma 'to classify / aicmigh'",
+        "-eoir": "de-bhaldraithe, dineen, focloir-beag, odonaill, storchiste"
+    },
+    "notes": [
+        "Níl iontráil ar leith ag an iarmhír '-eoir' sna foclóirí thuas, ach luann siad uilig go leor focal a úsáideann an an iarmhír seo díreach mar a úsáidtear anseo."
+    ]
+}
