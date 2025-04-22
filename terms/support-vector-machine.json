@@ -10,9 +10,9 @@
         "veicteoir tacaíochta": "féach ar an téarma 'support vector / veicteoir tacaíochta'"
     },
     "notes": [
-        "Cuirtear 'veicteoir tacaíochta' san tuiseal ginideach iolra toisc go n-úsáidtear níos mó ná veicteoir tacaíochta amháin i gcónaí agus samhail veicteoirí tacaíochta á úsáid.",
-        "Úsáidtear 'samhail' anseo seachas a leithéid de 'meaisín' toisc gurb in, go bunúsach, a bhfuil i gceist. Is samhlacha ríomhfhoghlama iad 'support vector machines' agus ní mheastear go bhfuil cúis ar bith focal mar 'meaisín' a úsáid ach amháin chun cloí le patrún an Bhéarla nuair atá an focal Gaeilge 'samhail' iomlan cuí chun an bhrí ríomheolaíochta atá de dhíth a chur in iúl.",
-        "Is minic ach an téarma seo úsáidte san uimhir iolra (.i. 'support vector machines'). Is é an leagan iolra ceart ná 'samhlacha veicteoirí tacaíochta'.",
+        "Cuirtear 'veicteoir tacaíochta' sa tuiseal ginideach iolra toisc go n-úsáidtear níos mó ná veicteoir tacaíochta amháin i gcónaí agus samhail veicteoirí tacaíochta á úsáid.",
+        "Úsáidtear 'samhail' anseo seachas a leithéid de 'meaisín' toisc gurb in, go bunúsach, a bhfuil i gceist. Is samhlacha ríomhfhoghlama iad 'support vector machines' agus ní mheastar go bhfuil cúis ar bith focal mar 'meaisín' a úsáid nuair atá an focal Gaeilge 'samhail' iomlán cuí chun an bhrí ríomheolaíochta atá de dhíth a chur in iúl.",
+        "Is minic agus an téarma seo úsáidte san uimhir iolra (.i. 'support vector machines'). Is é an leagan iolra ceart ná 'samhlacha veicteoirí tacaíochta'.",
         "Féach chomh maith ar an téarma 'support vector / veicteoir tacaíochta'."
     ]
 }

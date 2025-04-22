@@ -7,7 +7,7 @@ aird
 ainmfhocal
 I gcomhthéacs ríomhfhoghlama, córas a dhéanann meastáchán ar thábhaacht gach uile airí i veicteoir, chun ligean do shamhail ríomhfhoghlama díriú ar an hairíonna is tábhachtaí ann.
 Is é 'áird' seachas 'aird' atá i bhFoclóir Uí Dhuinín, ach glactar leis gurb in anfocal céanna.
-Ní luaitear an focal seo i gcomhthéacs ríomhfhoghlama -- rud a bhfuil ciall leis, toisc gur coincheap nua go leor é. Sin ráite, cruthaíodh 'aird' i gcomthéacs ríomhfhoghlama chun a bheith cosúil leis an gcaoi ar fáidir le daoien aird a thabhairt ar rudaí mórthimpeall orthu. Toisc gurb in an bhrí dhíreach a ghabann le 'aird' i nGaeilge, meseat gurb é 'aird' an focal ceart chun é seo a chur in iúl.
+Ní luaitear an focal seo i gcomhthéacs ríomhfhoghlama -- rud a bhfuil ciall leis, toisc gur coincheap nua go leor é. Sin ráite, cruthaíodh 'aird' i gcomhthéacs ríomhfhoghlama chun a bheith cosúil leis an gcaoi ar fáidir le daoien aird a thabhairt ar rudaí mórthimpeall orthu. Toisc gurb in an bhrí dhíreach a ghabann le 'aird' i nGaeilge, meseat gurb é 'aird' an focal ceart chun é seo a chur in iúl.
 
 ceann airde
 ainmfhocal
@@ -134,7 +134,7 @@ Féach chomh maith ar an téarma 'support vector / veicteoir tacaíochta'.
 
 aird a thabhairt ar
 ainmfhocal
-I gcomthéacs oibrithe airde i líonra néarach, díriú ar chodanna ar leis den ionchur de réir an oibrithe aride.
+I gcomhthéacs oibrithe airde i líonra néarach, díriú ar chodanna ar leis den ionchur de réir an oibrithe aride.
 Féach ar an téarma 'attention / aird'.
 
 tearcaigh

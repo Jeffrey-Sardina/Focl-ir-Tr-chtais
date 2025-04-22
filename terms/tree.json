@@ -3,12 +3,12 @@
     "part-of-speech": "ainmfhocal",
     "citation-form": "crann",
     "def-en": "In the context of computer science, a data or machine learning structure that has a single root node and branches beneath it that connect to other nodes in the tree. A tree can be used to represent a process / algorithm, or to store and search data efficiently.",
-    "def-ga": "I gcomhthéacs ríomheolaíochta, struchtúr sonraí nó ríomhfhoghlama a bhfuil nód fréimhe amháin aige agus craobhacha faoi á cheangal le nóid eile sa gcrann. Is féidir crann a úsáid chun próiseas / algartam a chur in iúl, nó chun sonraí a stóráil agus a chuartú go héifeachtach.",
+    "def-ga": "I gcomhthéacs ríomheolaíochta, struchtúr sonraí nó ríomhfhoghlama a bhfuil nód fréimhe amháin aige agus craobhacha faoi á cheangal le nóid eile sa gcrann. Is féidir crann a úsáid chun próiseas / algartam a chur in iúl, nó chun sonraí a stóráil agus a chuardach go héifeachtach.",
 
     "prov": {
         "crann": "de-bhaldraithe, dineen, focloir-beag, odonaill"
     },
     "notes": [
-        "Ní luann foclóir ar bith de na foclóir thuas an focal 'crann' i gcomhthéacs matamaitice / ríomheoláíochta. Cruthaíodh an focal seo i mBéarla toisc an chrutha atá ar chrainn ríomheolaíochta agus iad scríofa ar pháipéar. Toisc nacch bhfuil focal eile ann sa nGaeilge cheana chun an bhrí atá i gceist anseo a chur in iúl, ní mheastear go bhfuil chúis ar bith gan glacadh leis an analach chéanna i nGaeilge agus 'crann' a úsáid."
+        "Ní luann foclóir ar bith de na foclóir thuas an focal 'crann' i gcomhthéacs matamaitice / ríomheolaíochta. Cruthaíodh an focal seo i mBéarla toisc an chrutha atá ar chrainn ríomheolaíochta agus iad scríofa ar pháipéar. Toisc nach bhfuil focal eile ann sa nGaeilge cheana chun an bhrí atá i gceist anseo a chur in iúl, ní mheastar go bhfuil cúis ar bith gan glacadh leis an analach chéanna i nGaeilge agus 'crann' a úsáid."
     ]
 }

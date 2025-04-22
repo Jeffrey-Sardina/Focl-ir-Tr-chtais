@@ -7,10 +7,11 @@
 
     "prov": {
         "féin-": "de-bhaldraithe, dineen*, focloir-beag, odonaill",
-        "xxx": "de-bhaldraithe, dineen, focloir-beag, odonaill, storchiste"
+        "aird": "féach ar an téarma 'attention / aird'"
     },
     "notes": [
-        "* Ní bhíonn 'féin-' luaite mar réimír i bhFoclóir Uí Dhuinín.",
-        "xxx."
+        "* Ní bhíonn 'féin-' luaite mar réimír i bhFoclóir Uí Dhuinín, ach mar fhocal amháin.",
+        "Téarma cruthaithe go díreach as an dá fhréamh thuas.",
+        "Féach chomh maith ar an téarma 'attention / aird'."
     ]
 }
