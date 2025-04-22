@@ -20,3 +20,10 @@ foundation-model.json
 graph-foundation-model.json
 language-model.json
 large-language-model.json
+transformer.json
+tree.json
+support-vector-machine.json
+support-vector.json
+decision-boundary.json
+attention-head.json
+multi-headed-attention.json

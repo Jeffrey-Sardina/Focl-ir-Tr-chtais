@@ -1,0 +1,19 @@
+{
+    "term": "multi-headed attention",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "aird il-cheannach",
+    "def-en": "In the context of computer science, an attention module with more than one head.",
+    "def-ga": "I gcomhthéacs ríomhfhoghlama, modúl airde a bhfuil níos mó ná ceann airde amháin air.",
+
+    "prov": {
+        "aird": "féach ar an téarma 'attention / aird'",
+        "il-": "de-bhaldraithe, dineen, focloir-beag, odonaill",
+        "ceann": "féach ar an téarma 'attention head / ceann airde'",
+        "décheannach": "odonaill"
+    },
+    "notes": [
+        "Is minic agus an iarmhír '-ach' úsáidte chun chur in iúl go bhfuil rud éigin ag rud eile. Mar shampla, is ionann rud 'déadach' agus rud a bhfuil déada aige (féach ar Fhoclóir Uí Dhónaill). Thairis sin, tá an focal 'décheannach -> two-headed, two-ended.' i bhFoclóir Uí Dhónaill, rud a chuireann in iúl go bhfuil bunús leis an gcaoi a úsáidtear 'il-ceannach' anseo.",
+        "Féach chomh maith ar an téarma 'attention / aird'.",
+        "Féach chomh maith ar an téarma 'attention head / ceann airde'."
+    ]
+}

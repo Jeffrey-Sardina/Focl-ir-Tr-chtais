@@ -1,3 +1,7 @@
+v1.7 alfa to v1.7
+- XX new terms (now is XX, was 333 terms)
+- general corrections to spelling and grammar
+
 v1.5 / 1.6 alfa to 1.6
 - 4 new terms (now is 333, was 329 terms)
 - corrected letter headings -- fadas are now only present when the dictionary is sorted by Irish terms

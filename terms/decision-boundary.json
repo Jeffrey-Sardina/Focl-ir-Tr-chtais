@@ -1,0 +1,16 @@
+{
+    "term": "decision boundary",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "teorainn chinnidh",
+    "def-en": "In the context of classification, a curve that separates two or more classes from each other. In the context of machine learning more generally, a curve that separates two (or more) sorts of predictions from each other.",
+    "def-ga": "I gcomhthéacs aicmithe, cuar a scarann dhá aicme nó níos mó óna chéile. I gcomhthéacs ríomhfhoghlama níos leithne, cuar a a scarann dhá shórt reámhinsint (nó níos mó) óna chéile.",
+
+    "prov": {
+        "teorainn": "de-bhaldraithe, dineen, focloir-beag, odonaill, storchiste",
+        "cinneadh": "de-bhaldraithe, dineen, focloir-beag, odonaill, storchiste"
+    },
+    "notes": [
+        "Is é 'teora' seachas 'teorainn' atá i bhFoclóir Uí Dhuinín.",
+        "Ní luaitear ceachtar den dá théarma thuas i gcomhthéacs ríomhfhoghlama. Sin ráite, is fíos gur sórt teorainn í an teorainn chinnidh -- ach is teorainn idir dhá chinneadh, seachas idir dhá thír, atá i gceist. Glactar le teoirainn chinnidh mar sin."
+    ]
+}

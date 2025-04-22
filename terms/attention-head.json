@@ -1,0 +1,16 @@
+{
+    "term": "attention head",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "ceann airde",
+    "def-en": "In the context of a transformer (or other attention block), one input source to the attention block.",
+    "def-ga": "I gcomhthéacs trasfhoirmeora (nó modúl airde eile), foinse ionchuir amháin don modúl airde.",
+
+    "prov": {
+        "ceann": "de-bhaldraithe, dineen, focloir-beag, odonaill",
+        "aird": "féach ar an téarma 'attention / aird'"
+    },
+    "notes": [
+        "Roghnaíodh ceann ní toisc gur leagan Gaeilge den fhocal 'head' é, ach toisc go bhfuil an bhrí 'end, extremity' lauite leis chomh maith (féach ar Fhoclóir Uí Dhónaill). Sin go díreach a bhfuil i gceist le 'attnetion head' -- is é an 'extremeity' den mhodúl airde ina gcuirtear sonraí ann mar ionchur. Meastar, mar sin, go bhfuil úsáid an fhocail seo cuí chun 'attention head' a chur in iúl.",
+        "Féach chomh maith ar an téarma 'attention / aird'."
+    ]
+}

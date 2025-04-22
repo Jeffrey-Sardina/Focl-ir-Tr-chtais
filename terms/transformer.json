@@ -1,0 +1,17 @@
+{
+    "term": "transformer",
+    "part-of-speech": "ainmfhocal",
+    "citation-form": "trasfhoirmeoir",
+    "def-en": "In the context of machine learning, a neural module that uses layered attention layers.",
+    "def-ga": "I gcomhthéacs ríomhfhoghlama, modúl néarach a úsáideann sraith chisil airde le chéile.",
+
+    "prov": {
+        "trasfhoirmigh": "féach ar an téarma 'to transform / trasfhoirmigh'",
+        "-eoir": "de-bhaldraithe, dineen, focloir-beag, odonaill, storchiste"
+    },
+    "notes": [
+        "Níl an téarma 'trasfhoirmeoir' luaite i bhFoclóir ar bith, ach is féidir é a chruthú go díreach as an bhfréamh 'trasfhoirmigh' agus an iarmhír '-eoir'.",
+        "Níl iontráil ar leith ag an iarmhír '-eoir' sna foclóirí trhuas, ach luann siad uilig go leor focal a úsáideann an an iarmhír seo díreach mar a úsáidtear anseo.",
+        "Féach chomh maith ar an téarma 'to transform / trasfhoirmigh'."
+    ]
+}
