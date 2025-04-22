@@ -6,11 +6,11 @@
     "def-ga": "I gcomhthéacs ríomhfhoghlama, samhail theanga a bhfuil na billiúin, na trilliúin, nó níos mó paraiméadar aici.",
 
     "prov": {
-        "samhail theanga": "féach ar an téarma 'language model / samhail theanga'",
+        "samhail theanga": "féach ar an téarma 'language model (LM) / samhail theanga (ST)'",
         "mór": "de-bhaldraithe, dineen, focloir-beag, odonaill"
     },
     "notes": [
         "Téarma cruthaithe go díreach as na fréamhacha thuas.",
-        "Féach chomh maith ar an téarma 'model / samhail'."
+        "Féach chomh maith ar an téarma 'language model (LM) / samhail theanga (ST)'."
     ]
 }
