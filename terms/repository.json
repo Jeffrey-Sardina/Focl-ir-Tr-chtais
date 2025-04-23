@@ -3,7 +3,7 @@
     "part-of-speech": "ainmfhocal",
     "citation-form": "stór (cóid)",
     "def-en": "In the context of computer science, an online site (i.e. GitHub) or local folder on a computer (i.e. a .git/ folder) in which code, and the history of its previous versions, are stored.",
-    "def-ga": "I gcomhthéacs ríomheolaíochta, suíomh ar líne (.i. GitHub) nó fillteán logánta ar ríomhaire (.i. fillteán .git/) a bhfuil cód, agus stair na sean-leaganacha de, stóráilte.",
+    "def-ga": "I gcomhthéacs ríomheolaíochta, suíomh ar líne (.i. GitHub) nó fillteán logánta ar ríomhaire (.i. fillteán .git/) ina bhfuil cód, agus stair na sean-leaganacha de, stóráilte.",
 
     "prov": {
         "stór": "de-bhaldraithe, dineen, focloir-beag, odonaill",
@@ -11,7 +11,7 @@
     },
     "notes": [
         "Téarma díreach ar fáil le brí chomhchosúil (ach i gcomhthéacs níos leithe). Luann Foclóir De Bhaldraithe téarma 'stór eolais', rud a chuireann in iúl go bhfuil bunús leis an úsáid seo le sórt stóir (nach bhfuil fisiceach) a chur in iúl.",
-        "Is focal an-choitianta sa nGaeilge é 'stór', nach ionann agus 'repository' (nach mbíonn úsáidte i mBéarla ach chun trácht a dhéanamh ar stór cóid). Mar sin, muna bhfuil an comhthéacs soiléir, moltar 'stór cóid' a úsáid chun an bhrí atá i gceist anseo a shainmhíniú ar an gcéad úsáid.",
+        "Is focal an-choitianta sa nGaeilge é 'stór', nach ionann agus 'repository' i mBéarla (ní bhíonn 'repository' úsáidte go minic i mBéarla ach chun trácht a dhéanamh ar stór cóid). Mar sin, muna bhfuil an comhthéacs soiléir, moltar 'stór cóid' a úsáid chun an bhrí atá i gceist anseo a léiriú.",
         "Féach chomh maith ar an téarma 'source code / (bun-)chód'."
     ]
 }

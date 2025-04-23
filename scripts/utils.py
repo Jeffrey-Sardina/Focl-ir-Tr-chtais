@@ -1,5 +1,5 @@
 # constants
-version = '1.6 alfa'
+version = '1.6'
 SPACES_PER_INDENT = 4
 THESIS_FOLDER_WRITE = "../builds/thesis"
 DOWNLOADS_FOLDER_WRITE = "../builds/downloads"
