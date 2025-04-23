@@ -1,5 +1,3 @@
 Not checked since last major revision:
-language-model.json
-large-language-model.json
 transformer.json
 tree.json
