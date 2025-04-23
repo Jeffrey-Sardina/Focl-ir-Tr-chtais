@@ -166,6 +166,7 @@ def render_term(term):
     if MODE == 'latex':
         render_str = render_str.replace(" '", " `")
         render_str = render_str.replace(' "', ' ``')
+        render_str = render_str.replace('->', '$\\rightarrow$')
 
         # hard coded exceptions that are hard to automaticlly detect
         render_str = render_str.replace("1 / (meán-rang)", "1 / (me\\acute{a}n-rang)")
@@ -189,7 +190,7 @@ def render_terms_header(header_ids):
     render_strs = []
     if MODE == 'latex':
         if not THESIS_FMT:
-            render_strs.append("\\newpage \\section{Téarmaí}")
+            render_strs.append("\\newpage \\section*{Téarmaí}")
         else:
             render_strs.append("\\newpage \\subsection{Téarmaí}")
     elif MODE == 'markdown':
@@ -225,8 +226,9 @@ def render_terms_defs(terms):
                 if not THESIS_FMT:
                     if curr_header == "#":
                         curr_header = "\\#"
-                    render_strs.append("\\subsection*{" + render_letter_header(curr_header, incl_fada=INDEX_GAEILGE) + "}")
-                    render_strs.append(f"\\addcontentsline{{toc}}{{subsection}}{{{render_letter_header(curr_header, incl_fada=INDEX_GAEILGE)}}}\n")
+                    render_strs.append("\\phantomsection \\subsection*{" + render_letter_header(curr_header, incl_fada=INDEX_GAEILGE) + "}")
+                    render_strs.append(f"\\addcontentsline{{toc}}{{subsection}}{{{render_letter_header(curr_header, incl_fada=INDEX_GAEILGE)}}}")
+                    render_strs.append(f"\\markboth{{{render_letter_header(curr_header, incl_fada=INDEX_GAEILGE)}}}{{{render_letter_header(curr_header, incl_fada=INDEX_GAEILGE)}}}\n")
                 else:
                     if curr_header == "#":
                         curr_header = "\\#"
@@ -245,7 +247,7 @@ def render_terms_defs(terms):
 def render_table(terms):
     if MODE == 'latex':
         if not THESIS_FMT:
-            render_str = "\\newpage \\section{Achoimre na dTéarmaí}\n"
+            render_str = "\\newpage \\section*{Achoimre na dTéarmaí}\n"
         else:
             render_str = "\\subsection{Achoimre na dTéarmaí}\n"
         render_str += "\\begin{longtable}{|l|l|}\n"
@@ -335,7 +337,7 @@ def get_header():
                     urlcolor=blue
                 }}
 
-                \\title{{Focloir Tráchtais v{version}}}
+                \\title{{Foclóir Tráchtais v{version}}}
                 \\author{{Jeffrey Seathrún Sardina}}
                 \\date{{Márta 2025}}
 
