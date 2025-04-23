@@ -1,5 +1,4 @@
 Not checked since last major revision:
-graph-foundation-model.json
 language-model.json
 large-language-model.json
 transformer.json
