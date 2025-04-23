@@ -5,7 +5,7 @@ import glob
 import sys
 import random
 import os
-from utils import version, termsort, term_norm, render_letter_header, SPACES_PER_INDENT, THESIS_FOLDER_WRITE, DOWNLOADS_FOLDER_WRITE
+from utils import version, month, termsort, term_norm, render_letter_header, SPACES_PER_INDENT, THESIS_FOLDER_WRITE, DOWNLOADS_FOLDER_WRITE
 
 def load_terms():
     terms = {}
@@ -339,7 +339,7 @@ def get_header():
 
                 \\title{{Foclóir Tráchtais v{version}}}
                 \\author{{Jeffrey Seathrún Sardina}}
-                \\date{{Márta 2025}}
+                \\date{{{month} 2025}}
 
                 % setup bibliography
                 \\usepackage[
@@ -350,6 +350,11 @@ def get_header():
                 \\addbibresource{{refs.bib}}
 
                 \\begin{{document}}
+
+                % Irish language translation overrides
+                \\renewcommand{{\\contentsname}}{{Clár}}
+                \\renewcommand{{\\figurename}}{{Fíor}}
+                \\renewcommand{{\\tablename}}{{Tábla}}
 
                 \\maketitle
 
