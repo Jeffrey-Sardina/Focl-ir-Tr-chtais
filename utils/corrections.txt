@@ -1,5 +1,11 @@
 Not checked since last major revision:
-multi-headed-attention.json
+support-vector-machine.json
+support-vector.json
+decision-boundary.json
+classifier.json
+regressor.json
+support-vector-classifier.json
+support-vector-regressor.json
 
 block.json
 motif.json
@@ -12,10 +18,3 @@ language-model.json
 large-language-model.json
 transformer.json
 tree.json
-support-vector-machine.json
-support-vector.json
-decision-boundary.json
-classifier.json
-regressor.json
-support-vector-classifier.json
-support-vector-regressor.json
