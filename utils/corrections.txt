@@ -1,5 +1,4 @@
 Not checked since last major revision:
-motif.json
 hyper-graph.json
 reification.json
 to-reify.json
