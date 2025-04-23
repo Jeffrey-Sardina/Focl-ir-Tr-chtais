@@ -3,7 +3,7 @@
     "part-of-speech": "ainmfhocal",
     "citation-form": "cúlaitheoir bunaithe ar veicteoirí tacaíochta",
     "def-en": "A support vector machine used to perform regression.",
-    "def-ga": "Samhail veicteoirí tacaíochta a úsáidtear chun cúlú a chur i gcrích.",
+    "def-ga": "Samhail bunaithe ar veicteoirí tacaíochta a úsáidtear chun cúlú a chur i gcrích.",
 
     "prov": {
         "cúlaitheoir": "féach ar an téarma 'regressor / cúlaitheoir'",

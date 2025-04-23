@@ -3,7 +3,7 @@
     "part-of-speech": "ainmfhocal",
     "citation-form": "aicmitheoir bunaithe ar veicteoirí tacaíochta",
     "def-en": "A support vector machine used to perform classification.",
-    "def-ga": "Samhail veicteoirí tacaíochta a úsáidtear chun aicmiú a chur i gcrích.",
+    "def-ga": "Samhail bunaithe ar veicteoirí tacaíochta a úsáidtear chun aicmiú a chur i gcrích.",
 
     "prov": {
         "aicmitheoir": "féach ar an téarma 'classifier / aicmitheoir'",
