@@ -1,7 +1,4 @@
 Not checked since last major revision:
-hyper-graph.json
-reification.json
-to-reify.json
 foundation-model.json
 graph-foundation-model.json
 language-model.json

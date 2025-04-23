@@ -2,8 +2,8 @@
     "term": "to reify",
     "part-of-speech": "briathar",
     "citation-form": "tearcaigh",
-    "def-en": "In the context of graphs, to perform the reification process.",
-    "def-ga": "I gcomhthéacs graf, an próiseas tearcaithe a chur i gcrích.",
+    "def-en": "In the context of a graph, to perform the reification process.",
+    "def-ga": "I gcomhthéacs graif, an próiseas tearcaithe a chur i gcrích.",
 
     "prov": {
         "tearcaigh": "féach ar an téarma 'reification / tearcú'"
