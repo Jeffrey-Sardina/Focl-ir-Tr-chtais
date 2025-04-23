@@ -3,7 +3,7 @@
     "part-of-speech": "ainmfhocal",
     "citation-form": "crann cinnte",
     "def-en": "In the context of computer science, a machine learning tool that makes predictions (or 'decisions') based on rules modelled on the branches of the tree.",
-    "def-ga": "I gcomhthéacs ríomheolaíochta, uirlis ríomhfhoghlama a dhéanann réamhinsintí (nó 'cinntí') de réir rialacha atá samhlaithe ar craobhacha an chrainn.",
+    "def-ga": "I gcomhthéacs ríomheolaíochta, uirlis ríomhfhoghlama a dhéanann réamhinsintí (nó 'cinntí') de réir rialacha atá samhlaithe ar chraobhacha an chrainn.",
 
     "prov": {
         "crann": "féach ar an téarma 'tree / crann'",
@@ -11,7 +11,7 @@
     },
     "notes": [
         "Is é 'cinneadh' seachas 'cinn' atá i bhFoclóir Uí Dhónaill agus Uí Mhaoileoin.",
-        "Is é 'crann cinnteoireachta' atá ar Téarma.ie. Sin ráite, ní fheictear cúis ar bith nach leor ceann cinnte (sin crann + cinneadh (ainmfhocal), seachas crann + cinnte (aidiacht)). Is éard is crann cinnte ann ná crann ríomheolaíochta a dhéanann cinntí -- mar sin, crann cinnte.",
+        "Is é 'crann cinnteoireachta' atá ar Téarma.ie. Sin ráite, ní fheictear cúis ar bith nach leor crann cinnte (sin crann + cinneadh (ainmfhocal), seachas crann + cinnte (aidiacht)). Is éard is crann cinnte ann ná crann ríomheolaíochta a dhéanann cinntí -- mar sin, crann cinnte.",
         "Féach chomh maith ar an téarma 'tree / crann'."
     ]
 }
