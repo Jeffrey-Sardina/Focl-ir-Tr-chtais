@@ -660,20 +660,20 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 
 *Nótaí Aistriúcháin:*
 - Is é 'áird' seachas 'aird' atá i bhFoclóir Uí Dhuinín, ach glactar leis gurb in an focal céanna.
-- Ní luaitear an focal seo i gcomhthéacs ríomhfhoghlama -- rud a bhfuil ciall leis, toisc gur coincheap nua go leor é. Sin ráite, cruthaíodh 'attention' i gcomhthéacs ríomhfhoghlama chun a bheith cosúil leis an gcaoi ar féidir le daoine aird a thabhairt ar rudaí mórthimpeall orthu. Toisc gurb in an bhrí dhíreach a ghabhann le 'aird' i nGaeilge, meastar gurb é 'aird' an focal ceart chun é seo a chur in iúl.
+- Ní luaitear an focal seo i gcomhthéacs ríomhfhoghlama -- rud a bhfuil ciall leis, toisc gur coincheap nua go leor é. Sin ráite, cruthaíodh 'attention' i gcomhthéacs ríomhfhoghlama chun a bheith cosúil leis an gcaoi ar féidir le daoine aird a thabhairt ar rudaí mórthimpeall orthu. Toisc gurb in an bhrí dhíreach a ghabhann le 'aird' i nGaeilge, meastar gurb é 'aird' an focal ceart chun 'attention' a chur in iúl.
 
 
 #### attention head (ainmfhocal): ceann airde<br>
-*Sainmhíniú (ga):* I gcomhthéacs trasfhoirmeora (nó modúl airde eile), foinse ionchuir amháin don modúl airde.
+*Sainmhíniú (ga):* I gcomhthéacs trasfhoirmeora (nó modúl airde eile), cuid den mhodúl inar féidir sonraí ionchuir a chur isteach.
 <br>
-*Sainmhíniú (en):* In the context of a transformer (or other attention block), one input source to the attention block.
+*Sainmhíniú (en):* In the context of a transformer (or other attention block), a part of the block in which data can be input.
 
 *Tagairtí:*
 - ceann: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
 - aird: féach ar an téarma 'attention / aird'
 
 *Nótaí Aistriúcháin:*
-- Roghnaíodh 'ceann' ní toisc gur leagan Gaeilge den fhocal 'head' é, ach toisc go bhfuil an bhrí 'end, extremity' luaite leis chomh maith (féach ar Fhoclóir Uí Dhónaill). Sin go díreach a bhfuil i gceist le 'attention head' -- is é an 'extremity' den mhodúl airde ina gcuirtear sonraí ann mar ionchur. Meastar, mar sin, go bhfuil úsáid an fhocail seo cuí chun 'attention head' a chur in iúl.
+- Roghnaíodh 'ceann' ní toisc gur leagan Gaeilge den fhocal 'head' é, ach toisc go bhfuil an bhrí 'end, extremity' luaite leis chomh maith (féach ar Fhoclóir Uí Dhónaill). Sin go díreach a bhfuil i gceist le 'attention head' -- is é an 'extremity' den mhodúl airde ina gcuirtear sonraí ann mar ionchur. Meastar, mar sin, go bhfuil úsáid an fhocail 'ceann' cuí chun '(attention) head' a chur in iúl.
 - Féach chomh maith ar an téarma 'attention / aird'.
 
 
@@ -704,7 +704,7 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 - Ní úsáidtear an focal 'meicníocht' (nó mar sin) anseo toisc é a bheith ró-litriúil. Ní bhaineann an téarma seo le meicníocht fhisiceach in aon chor. Ach ní mheastar gur ceart 'córas' a úsáid ach an oiread -- ní bhíonn 'attention mechanism' ina 'attention system'. Toisc gur sórt oibrithe é 'attention mechanism', áfach, meastar go bhfuil ciall leis an bhfocal 'oibriú' a úsáid anseo.
 - Féach chomh maith ar an téarma 'operation / oibriú'.
 - Féach chomh maith ar an téarma 'attention / aird'.
-- Féach chomh maith ar an téarma 'attention layer / ciseal aird'.
+- Féach chomh maith ar an téarma 'attention layer / ciseal airde'.
 
 
 ### B
@@ -818,7 +818,7 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 
 
 #### block (ainmfhocal): modúl<br>
-*Sainmhíniú (ga):* Cuid de shamhail nó de phróiseas a bhfuil feidhm ar leith aige agus ar féidir é a úsáid i samhail nó i bpróiseas eile, gan é athrú, chun an tasc céanna a dhéanamh.
+*Sainmhíniú (ga):* Cuid de shamhail nó de phróiseas a bhfuil feidhm ar leith aici agus ar féidir í a úsáid i samhail nó i bpróiseas eile, gan í athrú, chun an tasc céanna a dhéanamh.
 <br>
 *Sainmhíniú (en):* Part of a model or process that has a specific function and that can be used in other models or processes, without changing it, to do the same task.
 
@@ -879,7 +879,8 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 - -eoir: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977), Williams et al. (2023)
 
 *Nótaí Aistriúcháin:*
-- Níl iontráil ar leith ag an iarmhír '-eoir' sna foclóirí thuas, ach luann siad uilig go leor focal a úsáideann an iarmhír seo díreach mar a úsáidtear anseo.
+- Níl iontráil ar leith ag an iarmhír '-eoir' sna foclóirí thuas, ach luann siad uilig go leor focal a úsáideann í díreach mar a úsáidtear anseo.
+- Féach chomh maith ar an téarma 'to classify / aicmigh'.
 
 
 #### to classify (ainmfhocal): aicmigh<br>
@@ -1033,7 +1034,7 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 - iarmhairt: De Bhaldraithe (1978), Ó Dónaill (1977)
 
 *Nótaí Aistriúcháin:*
-- Téarma díreach ar fáil mar théarma loighce ó Fhoclóir De Bhaldraithe agus ó Fhoclóir Uí Dhónaill. Is é 'iarmairt' seachas 'iarmhairt' atá luaite i bhFoclóir De Bhaldraithe, ach luann Foclóir Uí Dhónaill gur leagan eile den fhocal céanna atá ann. Glactar leis an téarma atá i bhFoclóir Uí Dhuinín toisc gur nua é mar fhoclóir.
+- Téarma díreach ar fáil mar théarma loighce ó Fhoclóir De Bhaldraithe agus ó Fhoclóir Uí Dhónaill. Is é 'iarmairt' seachas 'iarmhairt' atá luaite i bhFoclóir De Bhaldraithe, ach luann Foclóir Uí Dhónaill gur leagan eile den fhocal céanna atá ann. Glactar leis an téarma atá i bhFoclóir Uí Dhónaill toisc gur nua é mar fhoclóir.
 - Luann Foclóir De Bhaldraithe (agus Foclóir Uí Dhónaill) trí théarma a chuireann 'consequent' in iúl: iarthéarma, iarmhairt, agus iarbheart. Cé go nglactar le 'réamhthéarma' mar 'antecedent', is léir ón dá fhoclóir anseo nár cheart glacadh le 'iarthéarma' -- is focal matamaitice amháin é sin dar leo araon, a dhéanann cur síos ar an dara uimhir i gcóimheas (.i. an $b$ in $a:b$). Bíonn idir 'iarmhairt'' agus iarbheart' luaite mar théarmaí loighce, ach glactar le 'iarmhairt' toisc gurb in atá i bhfoinsí eile (.i. Téarma.ie). Toisc nach bhfuil difríocht ar bith idir 'iarmhairt' agus 'iarbheart' sna foclóirí dúchasacha, meastar nach bhfuil cúis ar bith gan glacadh leis an téarma a bhfuil an úsáid is mó bainte as.
 
 
@@ -1249,16 +1250,16 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 *Sainmhíniú (en):* In the context of classification, a curve that separates two or more classes from each other. In the context of machine learning more generally, a curve that separates two (or more) sorts of predictions from each other.
 
 *Tagairtí:*
-- teorainn: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977), Williams et al. (2023)
-- cinneadh: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977), Williams et al. (2023)
+- teorainn: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
+- cinneadh: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
 
 *Nótaí Aistriúcháin:*
 - Is é 'teora' seachas 'teorainn' atá i bhFoclóir Uí Dhuinín.
-- Ní luaitear ceachtar den dá théarma thuas i gcomhthéacs ríomhfhoghlama. Sin ráite, is fíos gur sórt teorainn í an teorainn chinnidh -- ach is teorainn idir dhá chinneadh, seachas idir dhá thír, atá i gceist. Glactar le 'teorainn chinnidh' mar sin.
+- Ní luaitear ceachtar den dá théarma thuas i gcomhthéacs ríomhfhoghlama. Sin ráite, is fíor gur sórt teorann í an teorainn chinnidh -- ach is teorainn idir dhá chinneadh, seachas idir dhá thír, atá i gceist. De réir a bhfuil le feiceáil i bhFoclóir Uí Dhónaill, is féidir 'teorainn' a úsáid i gcomhthéacseanna leithne -- agus glactar leis an úsáid seo de 'teorainn' mar sin.
 
 
 #### decision tree (ainmfhocal): crann cinnte<br>
-*Sainmhíniú (ga):* I gcomhthéacs ríomheolaíochta, uirlis ríomhfhoghlama a dhéanann réamhinsintí (nó 'cinntí') de réir rialacha atá samhlaithe ar craobhacha an chrainn.
+*Sainmhíniú (ga):* I gcomhthéacs ríomheolaíochta, uirlis ríomhfhoghlama a dhéanann réamhinsintí (nó 'cinntí') de réir rialacha atá samhlaithe ar chraobhacha an chrainn.
 <br>
 *Sainmhíniú (en):* In the context of computer science, a machine learning tool that makes predictions (or 'decisions') based on rules modelled on the branches of the tree.
 
@@ -1268,7 +1269,7 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 
 *Nótaí Aistriúcháin:*
 - Is é 'cinneadh' seachas 'cinn' atá i bhFoclóir Uí Dhónaill agus Uí Mhaoileoin.
-- Is é 'crann cinnteoireachta' atá ar Téarma.ie. Sin ráite, ní fheictear cúis ar bith nach leor ceann cinnte (sin crann + cinneadh (ainmfhocal), seachas crann + cinnte (aidiacht)). Is éard is crann cinnte ann ná crann ríomheolaíochta a dhéanann cinntí -- mar sin, crann cinnte.
+- Is é 'crann cinnteoireachta' atá ar Téarma.ie. Sin ráite, ní fheictear cúis ar bith nach leor crann cinnte (sin crann + cinneadh (ainmfhocal), seachas crann + cinnte (aidiacht)). Is éard is crann cinnte ann ná crann ríomheolaíochta a dhéanann cinntí -- mar sin, crann cinnte.
 - Féach chomh maith ar an téarma 'tree / crann'.
 
 
@@ -1788,16 +1789,16 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 
 
 #### foundation model (ainmfhocal): samhail fhorais<br>
-*Sainmhíniú (ga):* I gcomhthéacs ríomheolaíochta, samhail ríomhfhoghlama ar féidir í a úsáid mar fhoras foghlama i réimse leathan, agus a mbíonn cur chuige tras-fhoghlama bunaithe uirthi chuige sin.
+*Sainmhíniú (ga):* I gcomhthéacs ríomheolaíochta, samhail ríomhfhoghlama amháin ar féidir í a úsáid mar fhoras foghlama i réimse leathan, agus a mbíonn cur chuige tras-fhoghlama bunaithe uirthi chuige sin.
 <br>
-*Sainmhíniú (en):* In the context of computer science, a machine learning model that can be used as the foundation of learning in a broad domain, and which is applied in the transfer learning setting to do so.
+*Sainmhíniú (en):* In the context of computer science, a single machine learning model that can be used as the foundation of learning in a broad domain, and which is applied in the transfer learning setting to do so.
 
 *Tagairtí:*
 - foras: Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
 - samhail: féach ar an téarma 'model / samhail'
 
 *Nótaí Aistriúcháin:*
-- Cé go bhfuil an focal 'foras' i bhFoclóir De Bhaldraithe, is le brí ar leith atá sé luaite ann. Sna foclóirí eile, is leis am mbrí chéanna (i gcomhthéacs níos leithne) atá sé luaite.
+- Cé go bhfuil an focal 'foras' i bhFoclóir De Bhaldraithe, is le brí ar leith atá sé luaite ann. Sna foclóirí eile, is leis an mbrí chéanna (i gcomhthéacs níos leithne) atá sé luaite.
 - Féach chomh maith ar an téarma 'model / samhail'.
 
 
@@ -2408,7 +2409,7 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 #### language model (LM) (ainmfhocal): samhail theanga (ST)<br>
 *Sainmhíniú (ga):* I gcomhthéacs ríomhfhoghlama, samhail a bhfuil mar aidhm aici tuiscint a fháil ar theanga nádúrtha na ndaoine chun í a phróiseáil.
 <br>
-*Sainmhíniú (en):* In the context of computer science, a model that aims to understand and process natural human language.
+*Sainmhíniú (en):* In the context of machine learning, a model that aims to understand and process natural human language.
 
 *Tagairtí:*
 - samhail: féach ar an téarma 'model / samhail'
@@ -2420,7 +2421,7 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 
 
 #### large language model (LLM) (ainmfhocal): samhail theanga mhór (STM)<br>
-*Sainmhíniú (ga):* I gcomhthéacs ríomhfhoghlama, samhail theanga a bhfuil na billiúin, na trilliúin, nó níos mó paraiméadar aici.
+*Sainmhíniú (ga):* I gcomhthéacs ríomhfhoghlama, samhail theanga a bhfuil na billiúin, na trilliúin, nó níos mó paraiméadair aici.
 <br>
 *Sainmhíniú (en):* In the context of computer science, a language model with billions, trillions, or more parameters.
 
@@ -2430,6 +2431,7 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 
 *Nótaí Aistriúcháin:*
 - Téarma cruthaithe go díreach as na fréamhacha thuas.
+- Roghnaíodh 'samhail theanga mhór' seachas 'samhail mhór theanga' toisc gur samhlacha teanga iad gach uile shamhail theanga mhór. Ní úsáidtear 'samhail mhór' mar théarma teicniúil riamh, ach chuirfeadh 'samhail mhór theanga' in iúl gur sórt samhla móire atá dírithe ar theanga atá i gceist, seachas gur sórt samhla teanga atá an-mhór atá i gceist.
 - Féach chomh maith ar an téarma 'language model (LM) / samhail theanga (ST)'.
 
 
@@ -2499,7 +2501,7 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 - líneach: De Bhaldraithe (1978), Ó Dónaill (1977), Williams et al. (2023)
 
 *Nótaí Aistriúcháin:*
-- Téarma díreach ar fáil leis am brí cheannann chéanna ó na foclóirí thuas.
+- Téarma díreach ar fáil leis an mbrí cheannann chéanna ó na foclóirí thuas.
 
 
 #### link prediction (LP) (ainmfhocal): réamhinsint nasc (RN)<br>
@@ -3021,7 +3023,7 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 
 
 #### motif (ainmfhocal): móitíf<br>
-*Sainmhíniú (ga):* I gcomhthéacs graif, patrún struchtúr (go háirithe ceann beag) a fheictear go minic i gcodanna ar leith den graf.
+*Sainmhíniú (ga):* I gcomhthéacs graif, patrún struchtúr (go háirithe ceann beag) a fheictear go minic i gcodanna ar leith den ghraf.
 <br>
 *Sainmhíniú (en):* In the context of a graph, a structural pattern (especially a small one) that repeats often in different parts of the graph.
 
@@ -3029,7 +3031,7 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 - móitíf: De Bhaldraithe (1978), Ó Dónaill (1977)
 
 *Nótaí Aistriúcháin:*
-- Luann Foclóir De Bhaldraithe go leor téarmaí ar leith a chuireann 'motif' in iúl i nGaeilge: 'aontréith', 'príomhsmaoineamh', 'bunábhar (scéil)', agus 'móitíf'. Tá idir 'príomhsmaoineamh' agus 'móitíf' i bhFoclóir Uí Dhónaill. Níl 'príomhsmaoineamh' ná 'bunábhar (scéil)' oiriúnach do chomhthéacs na graf. Cé go mbaineann 'motif' le tréithe de ghraf, bíonn níos mó ná 'motif' amháin i ngach uile ghraf, agus bíonn an 'motif' amháin sin ath-úsáidte go minic sa ngraf céanna. Ní oireann an réimír 'aon-' leis an gcomhthéacs seo, mar sin. Thairis sin, ní ghlactar le 'tréith' toisc é a bheith ró-leathan mar fhocal -- is iomaí tréithe atá ag graif nach 'motifs' iad. Ar deireadh, is cosúil go dtagann an focal 'móitíf' as an bhfocal Béarla 'motif', agus mar sin is dócha go bhfuil ciall chomhchosúil leis (cé nach mbíonn sé sainmhínithe sna foclóirí thuas). Glactar le 'móitíf' mar sin.
+- Luann Foclóir De Bhaldraithe go leor téarmaí ar leith a chuireann 'motif' in iúl i nGaeilge: 'aontréith', 'príomhsmaoineamh', 'bunábhar (scéil)', agus 'móitíf'. (Tá idir 'príomhsmaoineamh' agus 'móitíf' i bhFoclóir Uí Dhónaill.) Níl 'príomhsmaoineamh' ná 'bunábhar (scéil)' oiriúnach do chomhthéacs na ngraf. Cé go mbaineann 'motif' le tréithe de ghraf, bíonn níos mó ná 'motif' amháin i ngach uile ghraf, agus bíonn gach uile 'motif' ath-úsáidte go minic sa ngraf céanna. Ní oireann an réimír 'aon-' leis an gcomhthéacs seo, mar sin. Thairis sin, ní ghlactar le 'tréith' toisc é a bheith ró-leathan mar fhocal -- is iomaí tréithe atá ag graif nach 'motifs' iad. Ar deireadh, is cosúil go dtagann an focal 'móitíf' as an bhfocal Béarla 'motif', agus mar sin is dócha go bhfuil brí chomhchosúil leis (cé nach mbíonn sé sin sainmhínithe sna foclóirí thuas). Glactar le 'móitíf' mar sin.
 
 
 #### multi-headed attention (ainmfhocal): aird il-cheannach<br>
@@ -3044,7 +3046,7 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 - décheannach: Ó Dónaill (1977)
 
 *Nótaí Aistriúcháin:*
-- Is minic agus an iarmhír '-ach' úsáidte chun chur in iúl go bhfuil rud éigin ag rud eile. Mar shampla, is ionann rud 'déadach' agus rud a bhfuil déada aige (féach ar Fhoclóir Uí Dhónaill). Thairis sin, tá an focal 'décheannach -> two-headed, two-ended' i bhFoclóir Uí Dhónaill, rud a chuireann in iúl go bhfuil bunús leis an gcaoi a úsáidtear 'il-ceannach' anseo.
+- Is minic agus an iarmhír '-ach' úsáidte chun chur in iúl go bhfuil rud éigin ag rud eile. Mar shampla, is ionann rud 'déadach' agus rud a bhfuil déada aige (féach ar Fhoclóir Uí Dhónaill). Thairis sin, tá an focal 'décheannach -> two-headed, two-ended' i bhFoclóir Uí Dhónaill, rud a chuireann in iúl go bhfuil bunús leis an gcaoi a úsáidtear 'il-cheannach' anseo.
 - Féach chomh maith ar an téarma 'attention / aird'.
 - Féach chomh maith ar an téarma 'attention head / ceann airde'.
 
@@ -4042,7 +4044,8 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 - -eoir: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977), Williams et al. (2023)
 
 *Nótaí Aistriúcháin:*
-- Níl iontráil ar leith ag an iarmhír '-eoir' sna foclóirí thuas, ach luann siad uilig go leor focal a úsáideann an iarmhír seo díreach mar a úsáidtear anseo.
+- Níl iontráil ar leith ag an iarmhír '-eoir' sna foclóirí thuas, ach luann siad uilig go leor focal a úsáideann í díreach mar a úsáidtear anseo.
+- Féach chomh maith ar an téarma 'to regress / cúlaigh'.
 
 
 #### regularisation (ainmfhocal): tabhairt chun rialtachta<br>
@@ -4085,21 +4088,21 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 
 
 #### reification (ainmfhocal): tearcú<br>
-*Sainmhíniú (ga):* I gcomhthéacs graf, an próiseas a bhaineann le hipear-graif (nó le graif eile a bhfuil lipéid iontu nach féidir iad a scríobh go nádúrtha mar abairtí triaracha) a chur i gcruth níos simplí gan ann ach abairtí triaracha. Chun é seo a dhéanamh, déantar $n$ abairt thriarach as gach aon chuid adamhach den hipear-ghraif, rud a fhágann den chuid is mó go mbíonn an graf 'reified' níos éadlúithe ná an hipear-ghraif as a gcruthaíodh é.
+*Sainmhíniú (ga):* I gcomhthéacs graf, an próiseas a bhaineann le hipear-graf (nó graf eile a bhfuil lipéid ann nach féidir iad a scríobh go nádúrtha mar abairtí triaracha) aistriú go graf bunaithe ar abairtí triaracha amháin. Chun é seo a dhéanamh, déantar $n$ abairt thriarach as gach aon chuid adamhach den hipear-ghraif, rud a fhágann den chuid is mó go mbíonn an graf tearcaithe níos éadlúithe ná an hipear-ghraif as a gcruthaíodh é.
 <br>
-*Sainmhíniú (en):* In the context of graphs, the process relating to transforming a hyper-graph (or other graph in which labels are present that cannot be written as simple triples) into a simpler format composed of only triples. To do this, $n$ triples are created out of every atomic unit of the hyper-graph, which generally results in th reified graph being more sparse than the hyper-graph from which it was made.
+*Sainmhíniú (en):* In the context of graphs, the process relating to transforming a hyper-graph (or other graph in which labels are present that cannot be written as simple triples) into a simpler format composed of only triples. To do this, $n$ triples are created out of every atomic unit of the hyper-graph, which generally results in the reified graph being more sparse than the hyper-graph from which it was made.
 
 *Tagairtí:*
 - tearcaigh: Ó Dónaill (1977)
 
 *Nótaí Aistriúcháin:*
-- Níl an téarma seo le fáil go díreach i bhfoclóir dúchasach ar bith. Rinneadh an rogha 'tearcú' a úsáid toisc gurb é an focal is giorra don bhrí atá de dhíth, agus toisc go n-éiríonn graf níos teirce tar éis do a bheith 'reified'.
+- Níl an téarma 'reification' le fáil go díreach i bhfoclóir dúchasach ar bith. Rinneadh an rogha 'tearcú' a úsáid toisc gurb é an focal is giorra don bhrí atá de dhíth, agus toisc go n-éiríonn graf níos teirce tar éis do a bheith 'reified'.
 
 
 #### to reify (briathar): tearcaigh<br>
-*Sainmhíniú (ga):* I gcomhthéacs graf, an próiseas tearcaithe a chur i gcrích.
+*Sainmhíniú (ga):* I gcomhthéacs graif, an próiseas tearcaithe a chur i gcrích.
 <br>
-*Sainmhíniú (en):* In the context of graphs, to perform the reification process.
+*Sainmhíniú (en):* In the context of a graph, to perform the reification process.
 
 *Tagairtí:*
 - tearcaigh: féach ar an téarma 'reification / tearcú'
@@ -4160,7 +4163,7 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 
 *Nótaí Aistriúcháin:*
 - Téarma díreach ar fáil le brí chomhchosúil (ach i gcomhthéacs níos leithe). Luann Foclóir De Bhaldraithe téarma 'stór eolais', rud a chuireann in iúl go bhfuil bunús leis an úsáid seo le sórt stóir (nach bhfuil fisiceach) a chur in iúl.
-- Is focal an-choitianta sa nGaeilge é 'stór', nach ionann agus 'repository' (nach mbíonn úsáidte i mBéarla ach chun trácht a dhéanamh ar stór cóid). Mar sin, muna bhfuil an comhthéacs soiléir, moltar 'stór cóid' a úsáid chun an bhrí atá i gceist anseo a shainmhíniú ar an gcéad úsáid.
+- Is focal an-choitianta sa nGaeilge é 'stór', nach ionann agus 'repository' i mBéarla (ní bhíonn 'repository' úsáidte go minic i mBéarla ach chun trácht a dhéanamh ar stór cóid). Mar sin, muna bhfuil an comhthéacs soiléir, moltar 'stór cóid' a úsáid chun an bhrí atá i gceist anseo a léiriú.
 - Féach chomh maith ar an téarma 'source code / (bun-)chód'.
 
 
@@ -4810,12 +4813,12 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 - tacaíocht: De Bhaldraithe (1978), Ó Dónaill et al. (1991), Ó Dónaill (1977)
 
 *Nótaí Aistriúcháin:*
-- Tá an iliomad focal ar féidir iad a úsáid chun 'support' a chur in iúl. Níl an focal 'support' ina théarma sainmhínithe anseo. An t-aon bhrí atá i gceist ná gur féidir 'support vectors' a úsáid chun tacú leis an próiseas foghlama.
+- Níl an focal 'support' ina théarma teicniúil anseo. An t-aon bhrí atá i gceist ná gur féidir 'support vectors' a úsáid chun tacú leis an bpróiseas foghlama.
 - Féach chomh maith ar an téarma 'vector / veicteoir'.
 
 
 #### support vector classifier (ainmfhocal): aicmitheoir bunaithe ar veicteoirí tacaíochta<br>
-*Sainmhíniú (ga):* Samhail veicteoirí tacaíochta a úsáidtear chun aicmiú a chur i gcrích.
+*Sainmhíniú (ga):* Samhail bunaithe ar veicteoirí tacaíochta a úsáidtear chun aicmiú a chur i gcrích.
 <br>
 *Sainmhíniú (en):* A support vector machine used to perform classification.
 
@@ -4831,9 +4834,9 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 
 
 #### support vector machine (SVM) (ainmfhocal): samhail (bunaithe ar) veicteoirí tacaíochta (SVT)<br>
-*Sainmhíniú (ga):* Grúpa samhlacha ríomhfhoghlama atá bunaithe ar úsáid veicteoirí tacaíochta chun éifeachtach ríomhfhoghlama a chur chun cinn.
+*Sainmhíniú (ga):* Samhail ar bith den ghrúpa samhlacha ríomhfhoghlama atá bunaithe ar úsáid veicteoirí tacaíochta chun éifeachtach ríomhfhoghlama a chur chun cinn.
 <br>
-*Sainmhíniú (en):* A family of machine learning models that are based on the use of support vectors to improve machine learning performance.
+*Sainmhíniú (en):* Any one model of the family of machine learning models that are based on the use of support vectors to improve machine learning performance.
 
 *Tagairtí:*
 - samhail: féach ar an téarma 'model / samhail'
@@ -4842,13 +4845,13 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 *Nótaí Aistriúcháin:*
 - Cuirtear 'veicteoir tacaíochta' sa tuiseal ginideach iolra toisc go n-úsáidtear níos mó ná veicteoir tacaíochta amháin i gcónaí agus samhail veicteoirí tacaíochta á úsáid.
 - Úsáidtear 'samhail' anseo seachas a leithéid de 'meaisín' toisc gurb in, go bunúsach, a bhfuil i gceist. Is samhlacha ríomhfhoghlama iad 'support vector machines' agus ní mheastar go bhfuil cúis ar bith focal mar 'meaisín' a úsáid nuair atá an focal Gaeilge 'samhail' iomlán cuí chun an bhrí ríomheolaíochta atá de dhíth a chur in iúl.
-- Is minic agus an téarma seo úsáidte san uimhir iolra (.i. 'support vector machines'). Is é an leagan iolra ceart ná 'samhlacha veicteoirí tacaíochta'.
+- Is minic agus an téarma seo úsáidte san uimhir iolra (.i. 'support vector machines'). Is é an leagan iolra ceart ná 'samhlacha (bunaithe ar) veicteoirí tacaíochta'.
 - Tá idir 'samhail veicteoirí tacaíochta' agus 'samhail bunaithe ar veicteoirí tacaíochta' iomlán ceart. Sin ráite, is dócha gur léire an dara ceann acu den chuid is mó, toisc go léiríonn sé cén baint atá ann idir an tsamhail agus na veicteoirí tacaíochta.
 - Féach chomh maith ar an téarma 'support vector / veicteoir tacaíochta'.
 
 
 #### support vector regressor (ainmfhocal): cúlaitheoir bunaithe ar veicteoirí tacaíochta<br>
-*Sainmhíniú (ga):* Samhail veicteoirí tacaíochta a úsáidtear chun cúlú a chur i gcrích.
+*Sainmhíniú (ga):* Samhail bunaithe ar veicteoirí tacaíochta a úsáidtear chun cúlú a chur i gcrích.
 <br>
 *Sainmhíniú (en):* A support vector machine used to perform regression.
 
@@ -5087,9 +5090,9 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 
 
 #### transformer (ainmfhocal): trasfhoirmeoir<br>
-*Sainmhíniú (ga):* I gcomhthéacs ríomhfhoghlama, modúl néarach a úsáideann sraith chisil airde le chéile.
+*Sainmhíniú (ga):* I gcomhthéacs ríomhfhoghlama, dearadh néarach áirithe a úsáideann sraith chisil airde le chéile.
 <br>
-*Sainmhíniú (en):* In the context of machine learning, a neural module that uses layered attention layers.
+*Sainmhíniú (en):* In the context of machine learning, a specific neural architecture that uses layered attention.
 
 *Tagairtí:*
 - trasfhoirmigh: féach ar an téarma 'to transform / trasfhoirmigh'
@@ -5097,7 +5100,7 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 
 *Nótaí Aistriúcháin:*
 - Níl an téarma 'trasfhoirmeoir' luaite i bhFoclóir ar bith, ach is féidir é a chruthú go díreach as an bhfréamh 'trasfhoirmigh' agus as an iarmhír '-eoir'.
-- Níl iontráil ar leith den iarmhír '-eoir' sna foclóirí thuas, ach luann siad uilig go leor focal a úsáideann é díreach mar a úsáidtear anseo.
+- Níl iontráil ar leith den iarmhír '-eoir' sna foclóirí thuas, ach luann siad uilig go leor focal a úsáideann í díreach mar a úsáidtear anseo.
 - Féach chomh maith ar an téarma 'to transform / trasfhoirmigh'.
 
 
