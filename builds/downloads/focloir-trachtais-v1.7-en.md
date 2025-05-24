@@ -1,4 +1,4 @@
-# Foclóir Tráchtais v1.6
+# Foclóir Tráchtais v1.7
 **Jeffrey Seathrún Sardina**<br>
 **Eanáir 2025**
 
@@ -153,8 +153,8 @@
 | Kullback-Leibler (KL) divergence       | dibhéirseacht Kullback-Leibler (KL)               |
 | label                                  | lipéad                                            |
 | labelled                               | le lipéad                                         |
-| language model (LM)                    | samhail theanga (ST)                              |
-| large language model (LLM)             | samhail theanga mhór (STM)                        |
+| language model (LM)                    | eanga (ST)                                        |
+| large language model (LLM)             | samhail teanga mhór (STM)                         |
 | latent                                 | folaigh                                           |
 | layer                                  | ciseal                                            |
 | learning rate                          | ráta foghlama                                     |
@@ -1799,6 +1799,7 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 
 *Nótaí Aistriúcháin:*
 - Cé go bhfuil an focal 'foras' i bhFoclóir De Bhaldraithe, is le brí ar leith atá sé luaite ann. Sna foclóirí eile, is leis an mbrí chéanna (i gcomhthéacs níos leithne) atá sé luaite.
+- B'fhéidir 'bun-samhail' a úsáid chomh maith chun an bhrí seo a chur in iúl. Ní dhéantar é sin anseo, áfach, toisc 'bun-samhail' agus 'bunlíne' a bheith luaite mar 'baseline model' seachas mar 'foundation model'. Meastar go mbeadh sé níos léire téarma eile a úsáid anseo chun an dá choincheap sin a coinneáil scartha óna chéile go soiléir.
 - Féach chomh maith ar an téarma 'model / samhail'.
 
 
@@ -2406,7 +2407,7 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 - Féach chomh maith ar an téarma 'label / lipéad'.
 
 
-#### language model (LM) (ainmfhocal): samhail theanga (ST)<br>
+#### language model (LM) (ainmfhocal): eanga (ST)<br>
 *Sainmhíniú (ga):* I gcomhthéacs ríomhfhoghlama, samhail a bhfuil mar aidhm aici tuiscint a fháil ar theanga nádúrtha na ndaoine chun í a phróiseáil.
 <br>
 *Sainmhíniú (en):* In the context of machine learning, a model that aims to understand and process natural human language.
@@ -2420,19 +2421,19 @@ Téigh chuig: [#](##) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H
 - Féach chomh maith ar an téarma 'model / samhail'.
 
 
-#### large language model (LLM) (ainmfhocal): samhail theanga mhór (STM)<br>
-*Sainmhíniú (ga):* I gcomhthéacs ríomhfhoghlama, samhail theanga a bhfuil na billiúin, na trilliúin, nó níos mó paraiméadair aici.
+#### large language model (LLM) (ainmfhocal): samhail teanga mhór (STM)<br>
+*Sainmhíniú (ga):* I gcomhthéacs ríomhfhoghlama, samhail teanga a bhfuil na billiúin, na trilliúin, nó níos mó paraiméadair aici.
 <br>
 *Sainmhíniú (en):* In the context of computer science, a language model with billions, trillions, or more parameters.
 
 *Tagairtí:*
-- samhail theanga: féach ar an téarma 'language model (LM) / samhail theanga (ST)'
+- samhail teanga: féach ar an téarma 'language model (LM) / samhail teanga (ST)'
 - mór: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
 
 *Nótaí Aistriúcháin:*
 - Téarma cruthaithe go díreach as na fréamhacha thuas.
-- Roghnaíodh 'samhail theanga mhór' seachas 'samhail mhór theanga' toisc gur samhlacha teanga iad gach uile shamhail theanga mhór. Ní úsáidtear 'samhail mhór' mar théarma teicniúil riamh, ach chuirfeadh 'samhail mhór theanga' in iúl gur sórt samhla móire atá dírithe ar theanga atá i gceist, seachas gur sórt samhla teanga atá an-mhór atá i gceist.
-- Féach chomh maith ar an téarma 'language model (LM) / samhail theanga (ST)'.
+- Roghnaíodh 'samhail teanga mhór' seachas 'samhail mhór theanga' toisc gur samhlacha teanga iad gach uile shamhail heanga mhór. Ní úsáidtear 'samhail mhór' mar théarma teicniúil riamh, ach chuirfeadh 'samhail mhór theanga' in iúl gur sórt samhla móire atá dírithe ar theanga atá i gceist, seachas gur sórt samhla teanga atá an-mhór atá i gceist.
+- Féach chomh maith ar an téarma 'language model (LM) / samhail teanga (ST)'.
 
 
 #### latent (aidiacht): folaigh<br>

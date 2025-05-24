@@ -1,6 +1,6 @@
 # global vars
-version = '1.7 alfa'
-month = 'Aibreán'
+version = '1.7'
+month = 'Bealtaine'
 
 # constants
 SPACES_PER_INDENT = 4

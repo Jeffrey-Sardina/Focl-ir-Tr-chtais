@@ -12,9 +12,9 @@ linkcolor=black,
 urlcolor=blue
 }
 
-\title{Foclóir Tráchtais v1.6}
+\title{Foclóir Tráchtais v1.7}
 \author{Jeffrey Seathrún Sardina}
-\date{Aibreán 2025}
+\date{Bealtaine 2025}
 
 % setup bibliography
 \usepackage[
@@ -154,6 +154,7 @@ sorting=ynt
 		domhan&universe\\ \hline 
 		éadlús&sparsity\\ \hline 
 		éadlúth&sparse\\ \hline 
+		eanga (ST)&language model (LM)\\ \hline 
 		eangach hipear-pharaiméadar&hyperparameter grid\\ \hline 
 		eantrópacht&entropy\\ \hline 
 		eantrópacht choibhneasta&relative entropy\\ \hline 
@@ -321,8 +322,7 @@ sorting=ynt
 		samhail fhorais&foundation model\\ \hline 
 		samhail fhorais ghraf&graph foundation model\\ \hline 
 		samhail leabaithe graif eolais (SLGE)&knowledge graph embedding model (KGEM)\\ \hline 
-		samhail theanga (ST)&language model (LM)\\ \hline 
-		samhail theanga mhór (STM)&large language model (LLM)\\ \hline 
+		samhail teanga mhór (STM)&large language model (LLM)\\ \hline 
 		samhlaigh&to model\\ \hline 
 		sampla&sample\\ \hline 
 		sampla fánach&random sample\\ \hline 
@@ -2412,6 +2412,24 @@ sorting=ynt
 \begin{itemize}
 	\item Luann Foclóir De Bhaldraithe agus Foclóir Uí Dhónaill an téarma seo mar théarma eolaíochta i gcomhthéacs aeir / an atmaisféir, ach leis an mbrí chéanna.
 	\item Tá go leor téarmaí comhchiallacha eile (.i. tearc, gann, srl), ach úsáidtear `éadlúth' toisc gur `dlúth' an focal atá ar a mhalairt de rud.
+\end{itemize}
+
+
+\subsubsection*{eanga (ST) (ainmfhocal): language model (LM)}
+ \noindent \textit{Sainmhíniú (ga):} I gcomhthéacs ríomhfhoghlama, samhail a bhfuil mar aidhm aici tuiscint a fháil ar theanga nádúrtha na ndaoine chun í a phróiseáil.
+\\
+ \noindent \textit{Sainmhíniú (en):} In the context of machine learning, a model that aims to understand and process natural human language.
+\\
+ \noindent \textit{Tagairtí:}
+\begin{itemize}
+	\item samhail: féach ar an téarma `model / samhail'
+	\item teanga: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+\end{itemize}
+
+ \noindent \textit{Nótaí Aistriúcháin:}
+\begin{itemize}
+	\item Téarma cruthaithe go díreach as na fréamhacha thuas.
+	\item Féach chomh maith ar an téarma `model / samhail'.
 \end{itemize}
 
 
@@ -5405,6 +5423,7 @@ sorting=ynt
  \noindent \textit{Nótaí Aistriúcháin:}
 \begin{itemize}
 	\item Cé go bhfuil an focal `foras' i bhFoclóir De Bhaldraithe, is le brí ar leith atá sé luaite ann. Sna foclóirí eile, is leis an mbrí chéanna (i gcomhthéacs níos leithne) atá sé luaite.
+	\item B'fhéidir `bun-samhail' a úsáid chomh maith chun an bhrí seo a chur in iúl. Ní dhéantar é sin anseo, áfach, toisc `bun-samhail' agus `bunlíne' a bheith luaite mar `baseline model' seachas mar `foundation model'. Meastar go mbeadh sé níos léire téarma eile a úsáid anseo chun an dá choincheap sin a coinneáil scartha óna chéile go soiléir.
 	\item Féach chomh maith ar an téarma `model / samhail'.
 \end{itemize}
 
@@ -5450,40 +5469,22 @@ sorting=ynt
 \end{itemize}
 
 
-\subsubsection*{samhail theanga (ST) (ainmfhocal): language model (LM)}
- \noindent \textit{Sainmhíniú (ga):} I gcomhthéacs ríomhfhoghlama, samhail a bhfuil mar aidhm aici tuiscint a fháil ar theanga nádúrtha na ndaoine chun í a phróiseáil.
-\\
- \noindent \textit{Sainmhíniú (en):} In the context of machine learning, a model that aims to understand and process natural human language.
-\\
- \noindent \textit{Tagairtí:}
-\begin{itemize}
-	\item samhail: féach ar an téarma `model / samhail'
-	\item teanga: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
-\end{itemize}
-
- \noindent \textit{Nótaí Aistriúcháin:}
-\begin{itemize}
-	\item Téarma cruthaithe go díreach as na fréamhacha thuas.
-	\item Féach chomh maith ar an téarma `model / samhail'.
-\end{itemize}
-
-
-\subsubsection*{samhail theanga mhór (STM) (ainmfhocal): large language model (LLM)}
- \noindent \textit{Sainmhíniú (ga):} I gcomhthéacs ríomhfhoghlama, samhail theanga a bhfuil na billiúin, na trilliúin, nó níos mó paraiméadair aici.
+\subsubsection*{samhail teanga mhór (STM) (ainmfhocal): large language model (LLM)}
+ \noindent \textit{Sainmhíniú (ga):} I gcomhthéacs ríomhfhoghlama, samhail teanga a bhfuil na billiúin, na trilliúin, nó níos mó paraiméadair aici.
 \\
  \noindent \textit{Sainmhíniú (en):} In the context of computer science, a language model with billions, trillions, or more parameters.
 \\
  \noindent \textit{Tagairtí:}
 \begin{itemize}
-	\item samhail theanga: féach ar an téarma `language model (LM) / samhail theanga (ST)'
+	\item samhail teanga: féach ar an téarma `language model (LM) / samhail teanga (ST)'
 	\item mór: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
 \end{itemize}
 
  \noindent \textit{Nótaí Aistriúcháin:}
 \begin{itemize}
 	\item Téarma cruthaithe go díreach as na fréamhacha thuas.
-	\item Roghnaíodh `samhail theanga mhór' seachas `samhail mhór theanga' toisc gur samhlacha teanga iad gach uile shamhail theanga mhór. Ní úsáidtear `samhail mhór' mar théarma teicniúil riamh, ach chuirfeadh `samhail mhór theanga' in iúl gur sórt samhla móire atá dírithe ar theanga atá i gceist, seachas gur sórt samhla teanga atá an-mhór atá i gceist.
-	\item Féach chomh maith ar an téarma `language model (LM) / samhail theanga (ST)'.
+	\item Roghnaíodh `samhail teanga mhór' seachas `samhail mhór theanga' toisc gur samhlacha teanga iad gach uile shamhail heanga mhór. Ní úsáidtear `samhail mhór' mar théarma teicniúil riamh, ach chuirfeadh `samhail mhór theanga' in iúl gur sórt samhla móire atá dírithe ar theanga atá i gceist, seachas gur sórt samhla teanga atá an-mhór atá i gceist.
+	\item Féach chomh maith ar an téarma `language model (LM) / samhail teanga (ST)'.
 \end{itemize}
 
 
