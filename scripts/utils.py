@@ -1,5 +1,5 @@
 # global vars
-version = '1.7'
+version = '1.8 alfa'
 month = 'Bealtaine'
 
 # constants
