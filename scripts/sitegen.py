@@ -238,6 +238,7 @@ def gen_term_pages(terms):
             print(term_page_html, file=out)
 
 def gen_index(terms, version):
+    note = """<p>Tá an tráchtas féin ar fáil anois faoin teideal "Ailíniú Struchtúir agus Réamhinsint Nasc" ag <a href="https://www.tara.tcd.ie/handle/2262/111864">https://www.tara.tcd.ie/handle/2262/111864</a></p>\n"""
     searchbar = """<input type="text" id="termInput" onkeyup="termSearch()" placeholder="Cuardaigh téarma i mBéarla nó i nGaeilge...">\n"""
     
     termlist_indent = ' '*4*SPACES_PER_INDENT
@@ -376,6 +377,7 @@ def gen_index(terms, version):
                 <h1 id="mainHeader">Foclóir Tráchtais</h1>
                 <p id="versionNum">v{version}, le Jeffrey Seathrún Sardina</p>
                 {header_nav}
+                {note}
                 {searchbar + termslist}
                 <button onclick="goToTop()" id="anios" title="Aníos">Aníos</button>
                 <div id="footerBar"></div>
